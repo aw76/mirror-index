@@ -1,0 +1,117 @@
+{
+    "CFG": {
+        "BRANCH": "master-wr",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20180408",
+            "id": 38,
+            "name": "master-wr",
+            "short_description": "Wind River Linux Development",
+            "sort_priority": 1,
+            "update_environment": null,
+            "updated": "2018-04-09T02:04:24+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20180408",
+            "branch": 38,
+            "collection": "yoctobsp",
+            "id": 14956,
+            "layer": 58,
+            "updated": "2018-04-11T21:04:05+0000",
+            "vcs_last_commit": "2018-04-06T10:04:42+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:05+0000",
+            "vcs_last_rev": "db28e5c97895d2a25098aaac7f0a65d4f2a01866",
+            "vcs_subdir": "meta-yocto-bsp",
+            "version": "4",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "Yocto Project BSPs for reference hardware.  These BSPs are best-effort support in Wind River Linux.",
+            "id": 58,
+            "index_preference": 800,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-yocto-bsp",
+            "status": "P",
+            "summary": "BSP layer for Yocto Project reference hardware",
+            "updated": "2017-03-01T21:03:41+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-yocto",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": "Reference machine configuration for http://beagleboard.org/bone and http://beagleboard.org/black boards",
+            "id": 6131,
+            "layerbranch": 14956,
+            "name": "beaglebone-yocto",
+            "updated": "2018-04-04T03:04:29+0000"
+        },
+        {
+            "description": "",
+            "id": 6132,
+            "layerbranch": 14956,
+            "name": "mpc8315e-rdb",
+            "updated": "2018-04-04T03:04:29+0000"
+        },
+        {
+            "description": " generic X86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
+            "id": 6133,
+            "layerbranch": 14956,
+            "name": "genericx86",
+            "updated": "2017-09-26T09:09:15+0000"
+        },
+        {
+            "description": "Edgerouter",
+            "id": 6134,
+            "layerbranch": 14956,
+            "name": "edgerouter",
+            "updated": "2018-04-04T03:04:29+0000"
+        },
+        {
+            "description": " generic X86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
+            "id": 6135,
+            "layerbranch": 14956,
+            "name": "genericx86-64",
+            "updated": "2017-09-26T09:09:15+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Avoid inserting gma500_gfx module for certain hardware devices.",
+            "filename": "gma500-gfx-check_1.0.bb",
+            "filepath": "recipes-bsp/gma500-gfx-check",
+            "homepage": "",
+            "id": 268854,
+            "inherits": "",
+            "layerbranch": 14956,
+            "license": "GPLv2",
+            "pn": "gma500-gfx-check",
+            "provides": "gma500-gfx-check ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Intel gma500_gfx fix for certain hardware",
+            "updated": "2017-09-26T09:09:15+0000"
+        }
+    ],
+    "wrtemplates": []
+}

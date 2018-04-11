@@ -1,0 +1,144 @@
+{
+    "CFG": {
+        "BRANCH": "master-wr",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20180408",
+            "id": 38,
+            "name": "master-wr",
+            "short_description": "Wind River Linux Development",
+            "sort_priority": 1,
+            "update_environment": null,
+            "updated": "2018-04-09T02:04:24+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20180408",
+            "branch": 38,
+            "collection": "core",
+            "id": 14953,
+            "layer": 1,
+            "updated": "2018-04-11T21:04:24+0000",
+            "vcs_last_commit": "2018-04-10T02:04:38+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:24+0000",
+            "vcs_last_rev": "caf48adc98e137a9211b46347d313d8088e1d96a",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180408",
+            "branch": 38,
+            "collection": "dpdk",
+            "id": 168977,
+            "layer": 192,
+            "updated": "2018-04-11T21:04:48+0000",
+            "vcs_last_commit": "2018-04-08T07:04:46+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:48+0000",
+            "vcs_last_rev": "0c595c9bff22b8ba67f92b74b0d275180146aa95",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 20052,
+            "layerbranch": 168977,
+            "required": true
+        },
+        {
+            "dependency": 194,
+            "id": 20053,
+            "layerbranch": 168977,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "DPDK is a set of libraries and drivers for fast packet processing.",
+            "id": 192,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-dpdk",
+            "status": "P",
+            "summary": "dpdk layer",
+            "updated": "2017-09-29T21:09:16+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-dpdk",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "libibverbs library to support Mellanox config",
+            "filename": "dpdk-dev-libibverbs_1.2.1-3.4-2.0.0.0.bb",
+            "filepath": "recipes-extended/dpdk-dev-libibverbs",
+            "homepage": "https://github.com/Mellanox/dpdk-dev-libibverbs",
+            "id": 402571,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 168977,
+            "license": "GPLv2",
+            "pn": "dpdk-dev-libibverbs",
+            "provides": "dpdk-dev-libibverbs virtual/libibverbs",
+            "pv": "1.2.1-3.4-2.0.0.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2017-12-26T07:12:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) Data Plane Development Kit",
+            "filename": "dpdk_18.02.bb",
+            "filepath": "recipes-extended/dpdk",
+            "homepage": "http://dpdk.org",
+            "id": 402572,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 168977,
+            "license": "BSD & LGPLv2 & GPLv2",
+            "pn": "dpdk",
+            "provides": "dpdk ",
+            "pv": "18.02",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-04-09T02:04:32+0000"
+        }
+    ],
+    "wrtemplates": []
+}

@@ -1,0 +1,99 @@
+{
+    "CFG": {
+        "BRANCH": "master-wr",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20180408",
+            "id": 38,
+            "name": "master-wr",
+            "short_description": "Wind River Linux Development",
+            "sort_priority": 1,
+            "update_environment": null,
+            "updated": "2018-04-09T02:04:24+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20180408",
+            "branch": 38,
+            "collection": "openstack-compute-deploy-layer",
+            "id": 57008,
+            "layer": 157,
+            "updated": "2018-04-11T21:04:33+0000",
+            "vcs_last_commit": "2018-04-11T10:04:59+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:33+0000",
+            "vcs_last_rev": "f6521be2be732ef5de94f4da9ab42df23aad1087",
+            "vcs_subdir": "meta-openstack-compute-deploy",
+            "version": null,
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180408",
+            "branch": 38,
+            "collection": "openstack-compute-test-config-layer",
+            "id": 57009,
+            "layer": 158,
+            "updated": "2018-04-11T21:04:34+0000",
+            "vcs_last_commit": "2018-04-11T10:04:59+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:34+0000",
+            "vcs_last_rev": "f6521be2be732ef5de94f4da9ab42df23aad1087",
+            "vcs_subdir": "meta-openstack-compute-test-config",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 157,
+            "id": 10878,
+            "layerbranch": 57009,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "Provides support configuring and deploying the recipes to create a compute node.",
+            "id": 157,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack-compute-deploy",
+            "status": "P",
+            "summary": "Support configuring and deploying the recipes to create a compute node",
+            "updated": "2017-09-01T17:09:14+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Provides support configuring and deploying the recipes to setup/configure system to prepare for running openstack tests, e.g. tempest testsuite.",
+            "id": 158,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack-compute-test-config",
+            "status": "P",
+            "summary": "Support for preparing to run openstack tests",
+            "updated": "2017-09-01T17:09:05+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}

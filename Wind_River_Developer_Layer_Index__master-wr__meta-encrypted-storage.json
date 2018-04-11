@@ -1,0 +1,237 @@
+{
+    "CFG": {
+        "BRANCH": "master-wr",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20180408",
+            "id": 38,
+            "name": "master-wr",
+            "short_description": "Wind River Linux Development",
+            "sort_priority": 1,
+            "update_environment": null,
+            "updated": "2018-04-09T02:04:24+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20180408",
+            "branch": 38,
+            "collection": "core",
+            "id": 14953,
+            "layer": 1,
+            "updated": "2018-04-11T21:04:24+0000",
+            "vcs_last_commit": "2018-04-10T02:04:38+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:24+0000",
+            "vcs_last_rev": "caf48adc98e137a9211b46347d313d8088e1d96a",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180408",
+            "branch": 38,
+            "collection": "openembedded-layer",
+            "id": 14965,
+            "layer": 7,
+            "updated": "2018-04-11T21:04:25+0000",
+            "vcs_last_commit": "2018-04-11T01:04:54+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:25+0000",
+            "vcs_last_rev": "7739f06cc8eda8d0c58d30479574c59467fa23eb",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180326",
+            "branch": 38,
+            "collection": "encrypted-storage",
+            "id": 56995,
+            "layer": 127,
+            "updated": "2018-04-11T21:04:54+0000",
+            "vcs_last_commit": "2018-04-10T08:04:16+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:54+0000",
+            "vcs_last_rev": "ddfa02e34a8a68122f30502f94a659f1b601252e",
+            "vcs_subdir": "meta-encrypted-storage",
+            "version": null,
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180326",
+            "branch": 38,
+            "collection": "tpm2",
+            "id": 57005,
+            "layer": 152,
+            "updated": "2018-04-11T21:04:32+0000",
+            "vcs_last_commit": "2018-04-10T08:04:16+0000",
+            "vcs_last_fetch": "2018-04-11T21:04:32+0000",
+            "vcs_last_rev": "ddfa02e34a8a68122f30502f94a659f1b601252e",
+            "vcs_subdir": "meta-tpm2",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 7,
+            "id": 10820,
+            "layerbranch": 56995,
+            "required": true
+        },
+        {
+            "dependency": 152,
+            "id": 10821,
+            "layerbranch": 56995,
+            "required": true
+        },
+        {
+            "dependency": 1,
+            "id": 10857,
+            "layerbranch": 56995,
+            "required": true
+        },
+        {
+            "dependency": 121,
+            "id": 12237,
+            "layerbranch": 56995,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2017-08-25T17:08:40+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides the encrypted storage components",
+            "id": 127,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-encrypted-storage",
+            "status": "P",
+            "summary": "Encrypted storage components",
+            "updated": "2017-09-01T17:09:41+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer enables Trusted Platform Module (TPM 2.0) support, including kernel option changes to enable tpm drivers, and picking up TPM 2.0 packages.",
+            "id": 152,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-tpm2",
+            "status": "P",
+            "summary": "Provide TPM 2.x support",
+            "updated": "2017-09-01T17:09:54+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The packages used for luks in initramfs.",
+            "filename": "packagegroup-luks-initramfs.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 343541,
+            "inherits": "",
+            "layerbranch": 56995,
+            "license": "MIT",
+            "pn": "packagegroup-luks-initramfs",
+            "provides": "packagegroup-luks-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2017-10-13T07:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The packages used for LUKS.",
+            "filename": "packagegroup-luks.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 343542,
+            "inherits": "",
+            "layerbranch": 56995,
+            "license": "MIT",
+            "pn": "packagegroup-luks",
+            "provides": "packagegroup-luks ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2017-10-13T07:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This project provides with an implementation for creating, persisting and evicting a passphrase with TPM 2.0. The passphrase and its associated primary key are automatically created by RNG engine in TPM. In order to avoid saving the context file, the created passphrase and primary key are always persistent in TPM. ",
+            "filename": "cryptfs-tpm2_git.bb",
+            "filepath": "recipes-tpm/cryptfs-tpm2",
+            "homepage": "https://github.com/WindRiver-OpenSourceLabs/cryptfs-tpm2",
+            "id": 343543,
+            "inherits": "",
+            "layerbranch": 56995,
+            "license": "BSD-3-Clause",
+            "pn": "cryptfs-tpm2",
+            "provides": "cryptfs-tpm2 ",
+            "pv": "0.6.2+gitX",
+            "section": "security/tpm",
+            "summary": "A tool used to create, persist, evict a passphrase for full-disk-encryption with TPM 2.0",
+            "updated": "2018-03-20T06:03:53+0000"
+        }
+    ],
+    "wrtemplates": []
+}
