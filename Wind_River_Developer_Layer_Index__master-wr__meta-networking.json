@@ -21,57 +21,57 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-13T01:04:11+0000",
-            "vcs_last_commit": "2018-04-13T01:04:11+0000",
-            "vcs_last_fetch": "2018-04-13T01:04:11+0000",
-            "vcs_last_rev": "1213c63281cd3dddb9d97b075d9ef04e30c83e63",
+            "updated": "2018-04-12T09:04:49+0000",
+            "vcs_last_commit": "2018-04-12T09:04:49+0000",
+            "vcs_last_fetch": "2018-04-12T09:04:49+0000",
+            "vcs_last_rev": "3801d0b5048b798bf2381b35ce41c6ddbd9753d3",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-04-10T08:04:14+0000",
-            "vcs_last_commit": "2018-04-10T08:04:14+0000",
-            "vcs_last_fetch": "2018-04-10T08:04:14+0000",
-            "vcs_last_rev": "74981136281c62f2eb5381bb264d7595e5ddd9ea",
+            "updated": "2018-04-14T14:04:42+0000",
+            "vcs_last_commit": "2018-04-14T14:04:42+0000",
+            "vcs_last_fetch": "2018-04-14T14:04:42+0000",
+            "vcs_last_rev": "a1a4d4c5198806b2b4004ddd689f435e62a2ca5b",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-11T01:04:54+0000",
-            "vcs_last_commit": "2018-04-11T01:04:54+0000",
-            "vcs_last_fetch": "2018-04-11T01:04:54+0000",
-            "vcs_last_rev": "7739f06cc8eda8d0c58d30479574c59467fa23eb",
+            "updated": "2018-04-16T02:04:56+0000",
+            "vcs_last_commit": "2018-04-16T02:04:56+0000",
+            "vcs_last_fetch": "2018-04-16T02:04:56+0000",
+            "vcs_last_rev": "bf08cf3d2976558f1921e94d27730cf040bfc96a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-04-10T08:04:14+0000",
-            "vcs_last_commit": "2018-04-10T08:04:14+0000",
-            "vcs_last_fetch": "2018-04-10T08:04:14+0000",
-            "vcs_last_rev": "74981136281c62f2eb5381bb264d7595e5ddd9ea",
+            "updated": "2018-04-12T09:04:10+0000",
+            "vcs_last_commit": "2018-04-12T09:04:10+0000",
+            "vcs_last_fetch": "2018-04-12T09:04:10+0000",
+            "vcs_last_rev": "73445c84e9eb1f3a5ffe893a970c26f91efceba0",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -522,7 +522,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "samba_4.7.5.bb",
+            "filename": "samba_4.7.6.bb",
             "filepath": "recipes-connectivity/samba",
             "homepage": "https://www.samba.org/",
             "id": 270282,
@@ -531,10 +531,10 @@
             "license": "GPL-3.0+ & LGPL-3.0+ & GPL-2.0+",
             "pn": "samba",
             "provides": "samba ",
-            "pv": "4.7.5",
+            "pv": "4.7.6",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-04-09T02:04:50+0000"
+            "updated": "2018-04-16T07:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -895,7 +895,7 @@
             "pv": "2.6.9",
             "section": "base",
             "summary": "fwknop - Single Packet Authorization",
-            "updated": "2017-09-26T09:09:11+0000"
+            "updated": "2018-04-16T07:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1199,7 +1199,7 @@
             "pv": "1.0.4+gitX",
             "section": "net",
             "summary": "",
-            "updated": "2018-02-07T06:02:26+0000"
+            "updated": "2018-04-16T07:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1966,7 +1966,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "strongSwan is an OpenSource IPsec implementation for the Linux operating system.",
-            "filename": "strongswan_5.5.3.bb",
+            "filename": "strongswan_5.6.2.bb",
             "filepath": "recipes-support/strongswan",
             "homepage": "http://www.strongswan.org",
             "id": 270361,
@@ -1975,10 +1975,10 @@
             "license": "GPLv2",
             "pn": "strongswan",
             "provides": "strongswan ",
-            "pv": "5.5.3",
+            "pv": "5.6.2",
             "section": "net",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2018-02-07T06:02:26+0000"
+            "updated": "2018-04-16T07:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2529,7 +2529,7 @@
             "pv": "2.1.26",
             "section": "libs",
             "summary": "Generic client/server library for SASL authentication",
-            "updated": "2017-11-17T03:11:34+0000"
+            "updated": "2018-04-16T07:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2688,7 +2688,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Quagga is a routing software suite, providing implementations of OSPFv2, OSPFv3, RIP v1 and v2, RIPv3 and BGPv4 for Unix platforms, particularly FreeBSD, Linux, Solaris and NetBSD. Quagga is a fork of GNU Zebra which was developed by Kunihiro Ishiguro. The Quagga tree aims to build a more involved community around Quagga than the current centralised model of GNU Zebra.",
-            "filename": "quagga_1.2.2.bb",
+            "filename": "quagga_1.2.4.bb",
             "filepath": "recipes-protocols/quagga",
             "homepage": "http://www.nongnu.org/quagga/",
             "id": 270401,
@@ -2697,10 +2697,10 @@
             "license": "GPL-2.0 & LGPL-2.0",
             "pn": "quagga",
             "provides": "quagga ",
-            "pv": "1.2.2",
+            "pv": "1.2.4",
             "section": "net",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2018-02-08T07:02:05+0000"
+            "updated": "2018-04-16T07:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -3144,7 +3144,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "networkmanager_1.4.4.bb",
+            "filename": "networkmanager_1.10.6.bb",
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 377131,
@@ -3153,10 +3153,10 @@
             "license": "GPLv2+",
             "pn": "networkmanager",
             "provides": "networkmanager ",
-            "pv": "1.4.4",
+            "pv": "1.10.6",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2017-11-14T08:11:04+0000"
+            "updated": "2018-04-16T07:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -3308,7 +3308,26 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "An open source implementation of the diameter protocol",
-            "updated": "2018-01-12T03:01:12+0000"
+            "updated": "2018-04-16T07:04:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ipcalc_0.2.2.bb",
+            "filepath": "recipes-support/ipcalc",
+            "homepage": "https://github.com/nmav/ipcalc",
+            "id": 566281,
+            "inherits": "",
+            "layerbranch": 14964,
+            "license": "GPLv2",
+            "pn": "ipcalc",
+            "provides": "ipcalc ",
+            "pv": "0.2.2",
+            "section": "net",
+            "summary": "Tool to assist in network address calculations for IPv4 and IPv6.",
+            "updated": "2018-04-16T07:04:45+0000"
         }
     ],
     "wrtemplates": []

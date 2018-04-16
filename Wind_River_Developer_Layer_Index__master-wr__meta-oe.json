@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-13T01:04:11+0000",
-            "vcs_last_commit": "2018-04-13T01:04:11+0000",
-            "vcs_last_fetch": "2018-04-13T01:04:11+0000",
-            "vcs_last_rev": "1213c63281cd3dddb9d97b075d9ef04e30c83e63",
+            "updated": "2018-04-12T09:04:49+0000",
+            "vcs_last_commit": "2018-04-12T09:04:49+0000",
+            "vcs_last_fetch": "2018-04-12T09:04:49+0000",
+            "vcs_last_rev": "3801d0b5048b798bf2381b35ce41c6ddbd9753d3",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-11T01:04:54+0000",
-            "vcs_last_commit": "2018-04-11T01:04:54+0000",
-            "vcs_last_fetch": "2018-04-11T01:04:54+0000",
-            "vcs_last_rev": "7739f06cc8eda8d0c58d30479574c59467fa23eb",
+            "updated": "2018-04-16T02:04:56+0000",
+            "vcs_last_commit": "2018-04-16T02:04:56+0000",
+            "vcs_last_fetch": "2018-04-16T02:04:56+0000",
+            "vcs_last_rev": "bf08cf3d2976558f1921e94d27730cf040bfc96a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -528,7 +528,7 @@
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 268892,
-            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 14965,
             "license": "MIT-X",
             "pn": "xterm",
@@ -536,7 +536,7 @@
             "pv": "330",
             "section": "x11/apps",
             "summary": "xterm is the standard terminal emulator for the X Window System",
-            "updated": "2017-09-26T09:09:50+0000"
+            "updated": "2018-04-16T07:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1835,7 +1835,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgphoto2_2.5.14.bb",
+            "filename": "libgphoto2_2.5.16.bb",
             "filepath": "recipes-graphics/gphoto2",
             "homepage": "",
             "id": 268970,
@@ -1844,10 +1844,10 @@
             "license": "LGPLv2.1",
             "pn": "libgphoto2",
             "provides": "libgphoto2 ",
-            "pv": "2.5.14",
+            "pv": "2.5.16",
             "section": "libs",
             "summary": "libgphoto2 allows you to access digital cameras",
-            "updated": "2017-11-23T02:11:57+0000"
+            "updated": "2018-04-16T07:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1949,7 +1949,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Tslib is an abstraction layer for touchscreen panel events, as well as a filter stack for the manipulation of those events. Tslib is generally used on embedded devices to provide a common user space interface to touchscreen functionality.",
-            "filename": "tslib_1.1.bb",
+            "filename": "tslib_1.15.bb",
             "filepath": "recipes-graphics/tslib",
             "homepage": "http://tslib.org/",
             "id": 268976,
@@ -1958,10 +1958,10 @@
             "license": "LGPLv2",
             "pn": "tslib",
             "provides": "tslib ",
-            "pv": "1.1",
+            "pv": "1.15",
             "section": "base",
             "summary": "An abstraction layer for touchscreen panel events",
-            "updated": "2017-11-17T02:11:46+0000"
+            "updated": "2018-04-16T07:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2082,7 +2082,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ZeroMQ looks like an embeddable networking library but acts like a concurrency framework",
-            "filename": "zeromq_4.2.3.bb",
+            "filename": "zeromq_4.2.5.bb",
             "filepath": "recipes-connectivity/zeromq",
             "homepage": "http://www.zeromq.org",
             "id": 268983,
@@ -2091,10 +2091,10 @@
             "license": "LGPLv3+",
             "pn": "zeromq",
             "provides": "zeromq ",
-            "pv": "4.2.3",
+            "pv": "4.2.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-04T03:04:21+0000"
+            "updated": "2018-04-16T07:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2493,7 +2493,7 @@
             "pv": "0.24.2",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:02+0000"
+            "updated": "2018-04-16T07:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2656,15 +2656,15 @@
             "filepath": "recipes-connectivity/hostapd",
             "homepage": "http://w1.fi/hostapd/",
             "id": 269020,
-            "inherits": "distro_features_check systemd update-rc.d",
+            "inherits": "distro_features_check pkgconfig systemd update-rc.d",
             "layerbranch": 14965,
-            "license": "GPLv2 | BSD",
+            "license": "BSD-3-Clause",
             "pn": "hostapd",
             "provides": "hostapd ",
             "pv": "2.6",
             "section": "kernel/userland",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2018-03-26T08:03:52+0000"
+            "updated": "2018-04-16T07:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -3393,7 +3393,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "UPower is an abstraction for enumerating power devices, listening to device events and querying history and statistics. ",
-            "filename": "upower_0.99.5.bb",
+            "filename": "upower_0.99.7.bb",
             "filepath": "recipes-support/upower",
             "homepage": "",
             "id": 269066,
@@ -3402,10 +3402,10 @@
             "license": "GPLv2+",
             "pn": "upower",
             "provides": "upower ",
-            "pv": "0.99.5",
+            "pv": "0.99.7",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:09+0000"
+            "updated": "2018-04-16T07:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3640,7 +3640,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux, Mac OSX, and UNIX.",
-            "filename": "unixodbc_2.3.4.bb",
+            "filename": "unixodbc_2.3.6.bb",
             "filepath": "recipes-support/unixodbc",
             "homepage": "http://www.unixodbc.org/",
             "id": 269081,
@@ -3649,10 +3649,10 @@
             "license": "GPLv2",
             "pn": "unixodbc",
             "provides": "unixodbc ",
-            "pv": "2.3.4",
+            "pv": "2.3.6",
             "section": "base",
             "summary": "An Open Source ODBC sub-system",
-            "updated": "2017-09-26T09:09:11+0000"
+            "updated": "2018-04-16T07:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -4286,7 +4286,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "hunspell_1.6.1.bb",
+            "filename": "hunspell_1.6.2.bb",
             "filepath": "recipes-support/hunspell",
             "homepage": "http://hunspell.github.io/",
             "id": 269116,
@@ -4295,10 +4295,10 @@
             "license": "GPLv3 | LGPLv3",
             "pn": "hunspell",
             "provides": "hunspell ",
-            "pv": "1.6.1",
+            "pv": "1.6.2",
             "section": "base",
             "summary": "A spell checker and morphological analyzer library",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-04-16T07:04:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5426,7 +5426,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "xdg-user-dirs is a tool to help manage user directories like the desktop folder and the music folder",
-            "filename": "xdg-user-dirs_0.15.bb",
+            "filename": "xdg-user-dirs_0.17.bb",
             "filepath": "recipes-support/xdg-user-dirs",
             "homepage": "",
             "id": 269180,
@@ -5435,10 +5435,10 @@
             "license": "GPLv2",
             "pn": "xdg-user-dirs",
             "provides": "xdg-user-dirs ",
-            "pv": "0.15",
+            "pv": "0.17",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:23+0000"
+            "updated": "2018-04-16T07:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -5768,7 +5768,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "udisks2_2.1.8.bb",
+            "filename": "udisks2_2.7.6.bb",
             "filepath": "recipes-support/udisks",
             "homepage": "",
             "id": 269202,
@@ -5777,10 +5777,10 @@
             "license": "GPLv2+ & LGPLv2+",
             "pn": "udisks2",
             "provides": "udisks2 ",
-            "pv": "2.1.8",
+            "pv": "2.7.6",
             "section": "base",
             "summary": "udisks provides dbus interfaces for disks and storage devices",
-            "updated": "2017-09-26T09:09:25+0000"
+            "updated": "2018-04-16T07:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -6851,7 +6851,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libass is a portable subtitle renderer for the ASS/SSA (Advanced Substation Alpha/Substation Alpha) subtitle format. It is mostly compatible with VSFilter.",
-            "filename": "libass_0.13.6.bb",
+            "filename": "libass_0.14.0.bb",
             "filepath": "recipes-multimedia/libass",
             "homepage": "https://github.com/libass/libass",
             "id": 269267,
@@ -6860,10 +6860,10 @@
             "license": "ISC",
             "pn": "libass",
             "provides": "libass ",
-            "pv": "0.13.6",
+            "pv": "0.14.0",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2017-09-26T09:09:33+0000"
+            "updated": "2018-04-16T07:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8067,7 +8067,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Dialog lets you to present a variety of questions or display messages using dialog boxes from a shell script (or any scripting language).",
-            "filename": "dialog_1.3-20160828.bb",
+            "filename": "dialog_1.3-20171209.bb",
             "filepath": "recipes-extended/dialog",
             "homepage": "http://invisible-island.net/dialog/",
             "id": 269337,
@@ -8076,10 +8076,10 @@
             "license": "LGPL-2.1",
             "pn": "dialog",
             "provides": "dialog ",
-            "pv": "1.3-20160828",
+            "pv": "1.3-20171209",
             "section": "console/utils",
             "summary": "display dialog boxes from shell scripts",
-            "updated": "2018-01-30T02:01:46+0000"
+            "updated": "2018-04-16T07:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -9496,7 +9496,7 @@
             "filepath": "recipes-navigation/geoclue",
             "homepage": "",
             "id": 269416,
-            "inherits": "autotools gtk-doc pkgconfig qemu siteconfig siteinfo",
+            "inherits": "autotools gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv2.0+",
             "pn": "geoclue",
@@ -9504,7 +9504,7 @@
             "pv": "2.4.4",
             "section": "console/network",
             "summary": "The Geolocation Service",
-            "updated": "2017-09-26T09:09:50+0000"
+            "updated": "2018-04-16T07:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -9587,7 +9587,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_5.6.33.bb",
+            "filename": "php_5.6.35.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 269425,
@@ -9596,17 +9596,17 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "5.6.33",
+            "pv": "5.6.35",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-02-27T02:02:37+0000"
+            "updated": "2018-04-16T07:04:37+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_7.1.9.bb",
+            "filename": "php_7.2.4.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 269426,
@@ -9615,10 +9615,10 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "7.1.9",
+            "pv": "7.2.4",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-03-20T06:03:21+0000"
+            "updated": "2018-04-16T07:04:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10283,7 +10283,7 @@
             "pv": "2.1.5+gitX",
             "section": "base",
             "summary": "MessagePack implementation for C and C++",
-            "updated": "2017-09-26T09:09:57+0000"
+            "updated": "2018-04-16T07:04:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -10575,19 +10575,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "DBI is a database access Application Programming Interface (API) for the Perl Language. The DBI API Specification defines a set of functions, variables and conventions that provide a consistent database interface independent of the actual database being used. ",
-            "filename": "libdbi-perl_1.639.bb",
+            "filename": "libdbi-perl_1.641.bb",
             "filepath": "recipes-devtools/perl",
             "homepage": "http://search.cpan.org/dist/DBI/",
             "id": 269482,
-            "inherits": "cpan cpan-base perl-version perlnative",
+            "inherits": "cpan cpan-base perl-version perlnative ptest ptest-perl",
             "layerbranch": 14965,
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "libdbi-perl",
             "provides": "libdbi-perl ",
-            "pv": "1.639",
+            "pv": "1.641",
             "section": "libs",
             "summary": "The Perl Database Interface",
-            "updated": "2018-01-30T02:01:43+0000"
+            "updated": "2018-04-16T07:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -10880,7 +10880,7 @@
             "bugtracker": "https://bugzilla.gnome.org/enter_bug.cgi?product=libunique",
             "description": "Unique is a library for writing single instance GTK+ applications. If you launch a single instance application twice, the second instance will either just quit or will send a message to the running instance.",
             "filename": "libunique_1.1.6.bb",
-            "filepath": "recipes-gnome/libunique",
+            "filepath": "../meta-xfce/recipes-extended/libunique",
             "homepage": "https://wiki.gnome.org/Attic/LibUnique",
             "id": 269504,
             "inherits": "autotools distro_features_check gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
@@ -10891,7 +10891,7 @@
             "pv": "1.1.6",
             "section": "base",
             "summary": "Library for supporting single instance GTK+ applications",
-            "updated": "2018-02-12T08:02:22+0000"
+            "updated": "2018-04-16T07:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -10902,7 +10902,7 @@
             "filepath": "recipes-gnome/gtk+",
             "homepage": "http://www.gtkmm.org/",
             "id": 269505,
-            "inherits": "autotools distro_features_check gconf gnome gnomebase gtk-icon-cache mime pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distro_features_check gnomebase pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPLv2.1 & GPLv2",
             "pn": "gtkmm",
@@ -10910,7 +10910,7 @@
             "pv": "2.24.5",
             "section": "libs",
             "summary": "C++ bindings for the GTK+ toolkit",
-            "updated": "2017-09-26T09:09:03+0000"
+            "updated": "2018-04-16T07:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -11062,7 +11062,7 @@
             "pv": "2.54.1",
             "section": "libs",
             "summary": "C++ bindings for the glib library",
-            "updated": "2017-12-13T02:12:36+0000"
+            "updated": "2018-04-16T07:04:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -11126,7 +11126,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mm-common_0.9.10.bb",
+            "filename": "mm-common_0.9.11.bb",
             "filepath": "recipes-core/mm-common",
             "homepage": "",
             "id": 269520,
@@ -11135,10 +11135,10 @@
             "license": "GPLv2",
             "pn": "mm-common",
             "provides": "mm-common ",
-            "pv": "0.9.10",
+            "pv": "0.9.11",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:05+0000"
+            "updated": "2018-04-16T07:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -11335,7 +11335,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libblockdev is a C library supporting GObject introspection for manipulation of block devices. It has a plugin-based architecture where each technology (like LVM, Btrfs, MD RAID, Swap,...) is implemented in a separate plugin, possibly with multiple implementations (e.g. using LVM CLI or the new LVM DBus API).",
-            "filename": "libblockdev_2.10.bb",
+            "filename": "libblockdev_2.16.bb",
             "filepath": "recipes-extended/libblockdev",
             "homepage": "http://rhinstaller.github.io/libblockdev/",
             "id": 336713,
@@ -11344,10 +11344,10 @@
             "license": "LGPLv2+",
             "pn": "libblockdev",
             "provides": "libblockdev ",
-            "pv": "2.10",
+            "pv": "2.16",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2017-09-26T09:09:06+0000"
+            "updated": "2018-04-16T07:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -12146,6 +12146,25 @@
             "section": "x11/wm",
             "summary": "F Virtual Window Manager ",
             "updated": "2018-03-20T06:03:25+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "gtkmm3_3.22.2.bb",
+            "filepath": "recipes-gnome/gtk+",
+            "homepage": "http://www.gtkmm.org/",
+            "id": 566280,
+            "inherits": "autotools distro_features_check gnomebase pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1 & GPLv2",
+            "pn": "gtkmm3",
+            "provides": "gtkmm3 ",
+            "pv": "3.22.2",
+            "section": "libs",
+            "summary": "C++ bindings for the GTK+ toolkit V3",
+            "updated": "2018-04-16T07:04:38+0000"
         }
     ],
     "wrtemplates": []

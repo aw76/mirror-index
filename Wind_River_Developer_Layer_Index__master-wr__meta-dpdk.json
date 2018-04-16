@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-13T01:04:11+0000",
-            "vcs_last_commit": "2018-04-13T01:04:11+0000",
-            "vcs_last_fetch": "2018-04-13T01:04:11+0000",
-            "vcs_last_rev": "1213c63281cd3dddb9d97b075d9ef04e30c83e63",
+            "updated": "2018-04-12T09:04:49+0000",
+            "vcs_last_commit": "2018-04-12T09:04:49+0000",
+            "vcs_last_fetch": "2018-04-12T09:04:49+0000",
+            "vcs_last_rev": "3801d0b5048b798bf2381b35ce41c6ddbd9753d3",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "dpdk",
             "id": 168977,
             "layer": 192,
-            "updated": "2018-04-08T07:04:46+0000",
-            "vcs_last_commit": "2018-04-08T07:04:46+0000",
-            "vcs_last_fetch": "2018-04-08T07:04:46+0000",
-            "vcs_last_rev": "0c595c9bff22b8ba67f92b74b0d275180146aa95",
+            "updated": "2018-04-12T09:04:10+0000",
+            "vcs_last_commit": "2018-04-12T09:04:10+0000",
+            "vcs_last_fetch": "2018-04-12T09:04:10+0000",
+            "vcs_last_rev": "81154fd8262638a6b304dd130f2f49e0de3536fe",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -137,7 +137,26 @@
             "pv": "18.02",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-09T02:04:32+0000"
+            "updated": "2018-04-16T07:04:34+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) Data Plane Development Kit",
+            "filename": "dpdk_17.11.1.bb",
+            "filepath": "recipes-extended/dpdk",
+            "homepage": "http://dpdk.org",
+            "id": 566291,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 168977,
+            "license": "LGPLv2 & GPLv2",
+            "pn": "dpdk",
+            "provides": "dpdk ",
+            "pv": "17.11.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-04-16T07:04:34+0000"
         }
     ],
     "wrtemplates": []

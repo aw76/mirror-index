@@ -21,43 +21,43 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-13T01:04:11+0000",
-            "vcs_last_commit": "2018-04-13T01:04:11+0000",
-            "vcs_last_fetch": "2018-04-13T01:04:11+0000",
-            "vcs_last_rev": "1213c63281cd3dddb9d97b075d9ef04e30c83e63",
+            "updated": "2018-04-12T09:04:49+0000",
+            "vcs_last_commit": "2018-04-12T09:04:49+0000",
+            "vcs_last_fetch": "2018-04-12T09:04:49+0000",
+            "vcs_last_rev": "3801d0b5048b798bf2381b35ce41c6ddbd9753d3",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-11T01:04:54+0000",
-            "vcs_last_commit": "2018-04-11T01:04:54+0000",
-            "vcs_last_fetch": "2018-04-11T01:04:54+0000",
-            "vcs_last_rev": "7739f06cc8eda8d0c58d30479574c59467fa23eb",
+            "updated": "2018-04-16T02:04:56+0000",
+            "vcs_last_commit": "2018-04-16T02:04:56+0000",
+            "vcs_last_fetch": "2018-04-16T02:04:56+0000",
+            "vcs_last_rev": "bf08cf3d2976558f1921e94d27730cf040bfc96a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180408",
+            "actual_branch": "wr-10.18-20180412",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-04-10T08:04:14+0000",
-            "vcs_last_commit": "2018-04-10T08:04:14+0000",
-            "vcs_last_fetch": "2018-04-10T08:04:14+0000",
-            "vcs_last_rev": "74981136281c62f2eb5381bb264d7595e5ddd9ea",
+            "updated": "2018-04-12T09:04:10+0000",
+            "vcs_last_commit": "2018-04-12T09:04:10+0000",
+            "vcs_last_fetch": "2018-04-12T09:04:10+0000",
+            "vcs_last_rev": "73445c84e9eb1f3a5ffe893a970c26f91efceba0",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -2169,7 +2169,7 @@
             "pv": "1.21",
             "section": "devel/python",
             "summary": "Appling JSON patches in Python 2.6+ and 3.x",
-            "updated": "2018-01-30T02:01:14+0000"
+            "updated": "2018-04-16T07:04:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -2879,7 +2879,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The dateutil module provides powerful extensions to the datetime module available in the Python standard library.",
-            "filename": "python-dateutil_2.7.0.bb",
+            "filename": "python-dateutil_2.7.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://dateutil.readthedocs.org",
             "id": 269767,
@@ -2888,10 +2888,10 @@
             "license": "BSD-3-Clause & Apache-2.0",
             "pn": "python-dateutil",
             "provides": "python-dateutil ",
-            "pv": "2.7.0",
+            "pv": "2.7.2",
             "section": "devel/python",
             "summary": "Extensions to the standard Python datetime module",
-            "updated": "2018-03-26T08:03:00+0000"
+            "updated": "2018-04-16T07:04:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3221,7 +3221,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pip_9.0.2.bb",
+            "filename": "python-pip_9.0.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pip.pypa.io/",
             "id": 269785,
@@ -3230,10 +3230,10 @@
             "license": "MIT & LGPL-2.1",
             "pn": "python-pip",
             "provides": "python-pip ",
-            "pv": "9.0.2",
+            "pv": "9.0.3",
             "section": "devel/python",
             "summary": "PIP is a tool for installing and managing Python packages",
-            "updated": "2018-03-26T08:03:01+0000"
+            "updated": "2018-04-16T07:04:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3278,7 +3278,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python API for MISP",
-            "filename": "python3-pymisp_2.4.87.1.bb",
+            "filename": "python3-pymisp_2.4.89.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/MISP/PyMISP",
             "id": 269788,
@@ -3287,10 +3287,10 @@
             "license": "BSD-2-Clause",
             "pn": "python3-pymisp",
             "provides": "python3-pymisp ",
-            "pv": "2.4.87.1",
+            "pv": "2.4.89",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-20T06:03:34+0000"
+            "updated": "2018-04-16T07:04:47+0000"
         },
         {
             "bbclassextend": "",
@@ -4000,7 +4000,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python API for MISP",
-            "filename": "python-pymisp_2.4.87.1.bb",
+            "filename": "python-pymisp_2.4.89.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/MISP/PyMISP",
             "id": 269827,
@@ -4009,10 +4009,10 @@
             "license": "BSD-2-Clause",
             "pn": "python-pymisp",
             "provides": "python-pymisp ",
-            "pv": "2.4.87.1",
+            "pv": "2.4.89",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-20T06:03:33+0000"
+            "updated": "2018-04-16T07:04:47+0000"
         },
         {
             "bbclassextend": "",
@@ -5102,7 +5102,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The dateutil module provides powerful extensions to the datetime module available in the Python standard library.",
-            "filename": "python3-dateutil_2.7.0.bb",
+            "filename": "python3-dateutil_2.7.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://dateutil.readthedocs.org",
             "id": 269885,
@@ -5111,10 +5111,10 @@
             "license": "BSD-3-Clause & Apache-2.0",
             "pn": "python3-dateutil",
             "provides": "python3-dateutil ",
-            "pv": "2.7.0",
+            "pv": "2.7.2",
             "section": "devel/python",
             "summary": "Extensions to the standard Python datetime module",
-            "updated": "2018-03-26T08:03:01+0000"
+            "updated": "2018-04-16T07:04:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5621,13 +5621,13 @@
             "id": 346991,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 14967,
-            "license": "Apache-2.0",
+            "license": "Apache-2.0 & (EPL-1.0 | EDL-1.0)",
             "pn": "python-aws-iot-device-sdk-python",
             "provides": "python-aws-iot-device-sdk-python ",
             "pv": "1.3.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-03T05:01:54+0000"
+            "updated": "2018-04-16T07:04:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5659,13 +5659,13 @@
             "id": 346993,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 14967,
-            "license": "Apache-2.0",
+            "license": "Apache-2.0 & (EPL-1.0 | EDL-1.0)",
             "pn": "python3-aws-iot-device-sdk-python",
             "provides": "python3-aws-iot-device-sdk-python ",
             "pv": "1.3.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-03T05:01:58+0000"
+            "updated": "2018-04-16T07:04:48+0000"
         },
         {
             "bbclassextend": "",
