@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180408",
+            "bitbake_branch": "wr-10.18-20180424",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-09T02:04:24+0000",
+            "updated": "2018-04-25T03:04:44+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-04-19T12:04:21+0000",
-            "vcs_last_commit": "2018-04-19T12:04:21+0000",
-            "vcs_last_fetch": "2018-04-19T12:04:21+0000",
-            "vcs_last_rev": "99b2cebcf0fbe88de4640708d0c14db2b54977c8",
+            "updated": "2018-04-24T06:04:52+0000",
+            "vcs_last_commit": "2018-04-24T06:04:52+0000",
+            "vcs_last_fetch": "2018-04-24T06:04:52+0000",
+            "vcs_last_rev": "5d1a970ae20269a9412145f2214c15d57b53d88d",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-23T07:04:54+0000",
-            "vcs_last_commit": "2018-04-23T07:04:54+0000",
-            "vcs_last_fetch": "2018-04-23T07:04:54+0000",
-            "vcs_last_rev": "4a2cb32e88fce70dfebc0757f16d6516fab51328",
+            "updated": "2018-04-25T03:04:06+0000",
+            "vcs_last_commit": "2018-04-25T03:04:06+0000",
+            "vcs_last_fetch": "2018-04-25T03:04:06+0000",
+            "vcs_last_rev": "51d14b9bad5f4f0c27e3d9dd607a0efabc772408",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-04-17T06:04:30+0000",
-            "vcs_last_commit": "2018-04-17T06:04:30+0000",
-            "vcs_last_fetch": "2018-04-17T06:04:30+0000",
-            "vcs_last_rev": "935b540d768f3c6c08a2db56a5d0ecc083a9ff21",
+            "updated": "2018-04-24T06:04:34+0000",
+            "vcs_last_commit": "2018-04-24T06:04:34+0000",
+            "vcs_last_fetch": "2018-04-24T06:04:34+0000",
+            "vcs_last_rev": "baecdaf50c67038ee68b25693fd298592d188919",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
@@ -174,7 +174,7 @@
             "pv": "1.0.0-rc5+gitX",
             "section": "base",
             "summary": "runc container cli tools",
-            "updated": "2018-04-09T02:04:22+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -193,7 +193,7 @@
             "pv": "1.0.0-rc5+gitX",
             "section": "base",
             "summary": "runc container cli tools",
-            "updated": "2018-04-09T02:04:22+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -345,7 +345,7 @@
             "pv": "3.4+gitX",
             "section": "console/tools",
             "summary": "CRIU",
-            "updated": "2018-01-03T05:01:39+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -364,7 +364,7 @@
             "pv": "v1.0.2+gitcfd04396dc68220d1cecbe686a6cc3aa5ce3667c",
             "section": "base",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2018-04-09T02:04:22+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -383,7 +383,7 @@
             "pv": "v0.2.x+git3addd840653146c90a254301d6c3a663c7fd6429",
             "section": "base",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2018-04-09T02:04:23+0000"
+            "updated": "2018-04-25T03:04:53+0000"
         },
         {
             "bbclassextend": "",
@@ -516,7 +516,7 @@
             "pv": "2.7.3+b8dcfbebee9e7dbc74ec5eecc9b45d335d6150c1",
             "section": "networking",
             "summary": "OpenvSwitch",
-            "updated": "2018-02-07T06:02:32+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -888,7 +888,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.gevent.org",
             "id": 270548,
-            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 14952,
             "license": "MIT",
             "pn": "python-gevent",
@@ -896,7 +896,7 @@
             "pv": "1.0.1",
             "section": "devel/python",
             "summary": "A coroutine-based Python networking library",
-            "updated": "2017-11-23T02:11:55+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -915,7 +915,7 @@
             "pv": "0.10.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -959,7 +959,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "   Blinker provides a fast dispatching system that allows any number of   interested parties to subscribe to events, or \u201csignals\u201d.   .   Signal receivers can subscribe to specific senders or receive signals   sent by any sender.   ",
+            "description": "   Blinker provides a fast dispatching system that allows any number of   interested parties to subscribe to events, or \u00e2\u0080\u009csignals\u00e2\u0080\u009d.   .   Signal receivers can subscribe to specific senders or receive signals   sent by any sender.   ",
             "filename": "python-blinker_1.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/blinker",
@@ -972,7 +972,7 @@
             "pv": "1.3",
             "section": "devel/python",
             "summary": "Fast, simple object-to-object and broadcast signaling",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -991,7 +991,7 @@
             "pv": "1.1.5",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:44+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1048,7 +1048,7 @@
             "pv": "3.11",
             "section": "devel/python",
             "summary": "Python support for YAML",
-            "updated": "2017-09-26T09:09:44+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1105,7 +1105,7 @@
             "pv": "2.10.3",
             "section": "devel/python",
             "summary": "Python client for Redis key-value store",
-            "updated": "2017-09-26T09:09:44+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1116,15 +1116,15 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://chandlerproject.org/bin/view/Projects/MeTooCrypto",
             "id": 270563,
-            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 14952,
             "license": "BSD",
             "pn": "python-m2crypto",
             "provides": "python-m2crypto ",
             "pv": "0.22.3",
-            "section": "base",
+            "section": "devel/python",
             "summary": "A Python crypto and SSL toolkit",
-            "updated": "2017-11-23T02:11:55+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "",

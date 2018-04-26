@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180408",
+            "bitbake_branch": "wr-10.18-20180424",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-09T02:04:24+0000",
+            "updated": "2018-04-25T03:04:44+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-23T07:04:54+0000",
-            "vcs_last_commit": "2018-04-23T07:04:54+0000",
-            "vcs_last_fetch": "2018-04-23T07:04:54+0000",
-            "vcs_last_rev": "4a2cb32e88fce70dfebc0757f16d6516fab51328",
+            "updated": "2018-04-25T03:04:06+0000",
+            "vcs_last_commit": "2018-04-25T03:04:06+0000",
+            "vcs_last_fetch": "2018-04-25T03:04:06+0000",
+            "vcs_last_rev": "51d14b9bad5f4f0c27e3d9dd607a0efabc772408",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -2324,7 +2324,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2018-04-16T07:04:22+0000"
+            "updated": "2018-04-25T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2343,7 +2343,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2018-04-16T07:04:22+0000"
+            "updated": "2018-04-25T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2362,7 +2362,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:22+0000"
+            "updated": "2018-04-25T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3616,7 +3616,7 @@
             "pv": "7.6p1",
             "section": "console/network",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2018-04-19T08:04:05+0000"
+            "updated": "2018-04-25T03:04:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3787,7 +3787,7 @@
             "pv": "4.3.6",
             "section": "console/network",
             "summary": "Internet Software Consortium DHCP package",
-            "updated": "2018-03-30T03:03:30+0000"
+            "updated": "2018-04-25T03:04:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4376,7 +4376,7 @@
             "pv": "3.2",
             "section": "base",
             "summary": "UProbes kernel module for SystemTap",
-            "updated": "2018-04-09T02:04:32+0000"
+            "updated": "2018-04-25T03:04:55+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -4395,7 +4395,7 @@
             "pv": "3.2",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2018-04-09T02:04:30+0000"
+            "updated": "2018-04-25T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -4433,7 +4433,7 @@
             "pv": "4.15.13+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-04-16T07:04:20+0000"
+            "updated": "2018-04-25T03:04:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4509,7 +4509,7 @@
             "pv": "4.15.13+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-04-16T07:04:20+0000"
+            "updated": "2018-04-25T03:04:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4528,7 +4528,7 @@
             "pv": "4.14.30+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-04-16T07:04:21+0000"
+            "updated": "2018-04-25T03:04:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4547,7 +4547,7 @@
             "pv": "4.14.30+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-04-16T07:04:21+0000"
+            "updated": "2018-04-25T03:04:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4604,7 +4604,7 @@
             "pv": "4.14.30+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-04-16T07:04:21+0000"
+            "updated": "2018-04-25T03:04:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4623,7 +4623,7 @@
             "pv": "4.15.13+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-04-16T07:04:21+0000"
+            "updated": "2018-04-25T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -6884,7 +6884,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-16T07:04:21+0000"
+            "updated": "2018-04-25T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -6903,7 +6903,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-16T07:04:21+0000"
+            "updated": "2018-04-25T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -7986,7 +7986,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:24+0000"
+            "updated": "2018-04-25T03:04:57+0000"
         },
         {
             "bbclassextend": "",
@@ -8005,7 +8005,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-16T07:04:24+0000"
+            "updated": "2018-04-25T03:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -8024,7 +8024,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:24+0000"
+            "updated": "2018-04-25T03:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -8043,7 +8043,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:25+0000"
+            "updated": "2018-04-25T03:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -8062,7 +8062,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:25+0000"
+            "updated": "2018-04-25T03:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -8081,7 +8081,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:25+0000"
+            "updated": "2018-04-25T03:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -8100,7 +8100,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:25+0000"
+            "updated": "2018-04-25T03:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -9346,7 +9346,7 @@
             "filepath": "recipes-bsp/usbutils",
             "homepage": "http://www.linux-usb.org",
             "id": 271120,
-            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "GPLv2+",
             "pn": "usbutils",
@@ -9354,7 +9354,7 @@
             "pv": "009",
             "section": "base",
             "summary": "Host side USB console utilities",
-            "updated": "2018-03-13T03:03:12+0000"
+            "updated": "2018-04-25T03:04:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9734,7 +9734,7 @@
             "pv": "2.7.6",
             "section": "utils",
             "summary": "Tool for applying a patch file",
-            "updated": "2018-03-13T03:03:08+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10285,7 +10285,7 @@
             "pv": "3.5.5",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-03-26T08:03:30+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10304,7 +10304,7 @@
             "pv": "3.5.5",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-04-09T02:04:38+0000"
+            "updated": "2018-04-25T03:04:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11216,7 +11216,7 @@
             "pv": "3.13.0",
             "section": "base",
             "summary": "Valgrind memory debugger and instrumentation framework",
-            "updated": "2018-04-16T07:04:19+0000"
+            "updated": "2018-04-25T03:04:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11235,7 +11235,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "Runs postinstall scripts on first boot of the target device",
-            "updated": "2018-02-27T02:02:24+0000"
+            "updated": "2018-04-25T03:04:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -11311,7 +11311,7 @@
             "pv": "5.24.1",
             "section": "devel",
             "summary": "Perl scripting language",
-            "updated": "2018-04-16T07:04:18+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -11463,7 +11463,7 @@
             "pv": "1.9.0+gitX",
             "section": "base",
             "summary": "Pseudo gives fake root capabilities to a normal user",
-            "updated": "2018-04-09T02:04:29+0000"
+            "updated": "2018-04-25T03:04:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11900,7 +11900,7 @@
             "pv": "0.14.8",
             "section": "base",
             "summary": "Booting sequence and CPU,I/O usage monitor",
-            "updated": "2018-02-27T02:02:26+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -12223,7 +12223,7 @@
             "pv": "3.2.6",
             "section": "x11/gnome",
             "summary": "GNOME configuration system",
-            "updated": "2018-04-09T02:04:36+0000"
+            "updated": "2018-04-25T03:04:53+0000"
         },
         {
             "bbclassextend": "",
@@ -12546,7 +12546,7 @@
             "pv": "2.27",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2018-04-23T07:04:58+0000"
+            "updated": "2018-04-25T03:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -12584,7 +12584,7 @@
             "pv": "2.27",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2018-04-23T07:04:58+0000"
+            "updated": "2018-04-25T03:04:59+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12945,7 +12945,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:26+0000"
+            "updated": "2018-04-25T03:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -13325,7 +13325,7 @@
             "pv": "2.54.3",
             "section": "libs",
             "summary": "A general-purpose utility library",
-            "updated": "2018-04-09T02:04:39+0000"
+            "updated": "2018-04-25T03:04:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13363,7 +13363,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-16T07:04:26+0000"
+            "updated": "2018-04-25T03:04:00+0000"
         },
         {
             "bbclassextend": "",
@@ -13382,7 +13382,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:27+0000"
+            "updated": "2018-04-25T03:04:00+0000"
         },
         {
             "bbclassextend": "",
@@ -13401,7 +13401,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-16T07:04:27+0000"
+            "updated": "2018-04-25T03:04:00+0000"
         },
         {
             "bbclassextend": "",
@@ -13420,7 +13420,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-04-16T07:04:27+0000"
+            "updated": "2018-04-25T03:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -13439,7 +13439,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2018-04-16T07:04:27+0000"
+            "updated": "2018-04-25T03:04:01+0000"
         },
         {
             "bbclassextend": "",
@@ -13458,7 +13458,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:28+0000"
+            "updated": "2018-04-25T03:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -13477,7 +13477,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-16T07:04:19+0000"
+            "updated": "2018-04-25T03:04:01+0000"
         },
         {
             "bbclassextend": "",
@@ -13686,7 +13686,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Profiling tools",
-            "updated": "2018-03-13T03:03:14+0000"
+            "updated": "2018-04-25T03:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -13952,7 +13952,7 @@
             "pv": "2.2.5",
             "section": "libs",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2018-02-27T02:02:07+0000"
+            "updated": "2018-04-25T03:04:49+0000"
         },
         {
             "bbclassextend": "",
@@ -14066,7 +14066,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2018-04-16T07:04:22+0000"
+            "updated": "2018-04-25T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14085,7 +14085,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "libc and patchelf tarball for use with uninative.bbclass",
-            "updated": "2018-04-16T07:04:18+0000"
+            "updated": "2018-04-25T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14161,7 +14161,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2018-04-16T07:04:22+0000"
+            "updated": "2018-04-25T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14218,7 +14218,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for test systems with missing software",
-            "updated": "2018-04-16T07:04:22+0000"
+            "updated": "2018-04-25T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14294,7 +14294,7 @@
             "pv": "2.31",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2018-04-16T07:04:23+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -14503,7 +14503,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:23+0000"
+            "updated": "2018-04-25T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14522,7 +14522,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:23+0000"
+            "updated": "2018-04-25T03:04:57+0000"
         },
         {
             "bbclassextend": "",
@@ -14541,7 +14541,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:24+0000"
+            "updated": "2018-04-25T03:04:57+0000"
         },
         {
             "bbclassextend": "",
@@ -14560,7 +14560,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:24+0000"
+            "updated": "2018-04-25T03:04:57+0000"
         },
         {
             "bbclassextend": "",
@@ -14750,7 +14750,7 @@
             "pv": "3.2",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2018-04-09T02:04:35+0000"
+            "updated": "2018-04-25T03:04:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15054,7 +15054,7 @@
             "pv": "1.9.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-03-13T03:03:16+0000"
+            "updated": "2018-04-25T03:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -15073,7 +15073,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable Go toolchain",
-            "updated": "2018-04-16T07:04:22+0000"
+            "updated": "2018-04-25T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -15320,7 +15320,7 @@
             "pv": "2.8.1",
             "section": "base",
             "summary": "An implementation of the standard Unix documentation system accessed using the man command",
-            "updated": "2018-02-27T02:02:32+0000"
+            "updated": "2018-04-25T03:04:53+0000"
         },
         {
             "bbclassextend": "",

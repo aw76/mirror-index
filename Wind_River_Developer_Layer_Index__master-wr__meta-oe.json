@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180408",
+            "bitbake_branch": "wr-10.18-20180424",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-09T02:04:24+0000",
+            "updated": "2018-04-25T03:04:44+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-23T07:04:54+0000",
-            "vcs_last_commit": "2018-04-23T07:04:54+0000",
-            "vcs_last_fetch": "2018-04-23T07:04:54+0000",
-            "vcs_last_rev": "4a2cb32e88fce70dfebc0757f16d6516fab51328",
+            "updated": "2018-04-25T03:04:06+0000",
+            "vcs_last_commit": "2018-04-25T03:04:06+0000",
+            "vcs_last_fetch": "2018-04-25T03:04:06+0000",
+            "vcs_last_rev": "51d14b9bad5f4f0c27e3d9dd607a0efabc772408",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-17T05:04:56+0000",
-            "vcs_last_commit": "2018-04-17T05:04:56+0000",
-            "vcs_last_fetch": "2018-04-17T05:04:56+0000",
-            "vcs_last_rev": "ba1350a96436460c0363d7a80dbdb7542a805bae",
+            "updated": "2018-04-24T06:04:34+0000",
+            "vcs_last_commit": "2018-04-24T06:04:34+0000",
+            "vcs_last_fetch": "2018-04-24T06:04:34+0000",
+            "vcs_last_rev": "2c24e02f7a4f01d5990c1107b572aceae298f955",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -2253,7 +2253,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ELL is a DBUS library which provides DBUS bindings.",
-            "filename": "ell_git.bb",
+            "filename": "ell_0.4.bb",
             "filepath": "recipes-core/ell",
             "homepage": "",
             "id": 268997,
@@ -2262,10 +2262,10 @@
             "license": "LGPLv2.1",
             "pn": "ell",
             "provides": "ell ",
-            "pv": "git",
+            "pv": "0.4",
             "section": "libs",
             "summary": "Embedded Linux Library",
-            "updated": "2018-01-30T02:01:45+0000"
+            "updated": "2018-04-25T03:04:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3245,7 +3245,7 @@
             "filepath": "recipes-support/openct",
             "homepage": "https://github.com/OpenSC/openct/wiki",
             "id": 269058,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "LGPLv2+",
             "pn": "openct",
@@ -3253,7 +3253,7 @@
             "pv": "0.6.20",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:08+0000"
+            "updated": "2018-04-25T03:04:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3735,7 +3735,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_9.4.15.bb",
+            "filename": "postgresql_9.4.17.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 269087,
@@ -3744,10 +3744,10 @@
             "license": "BSD",
             "pn": "postgresql",
             "provides": "postgresql ",
-            "pv": "9.4.15",
+            "pv": "9.4.17",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2018-03-07T03:03:44+0000"
+            "updated": "2018-04-25T03:04:06+0000"
         },
         {
             "bbclassextend": "",
@@ -5134,7 +5134,7 @@
             "pv": "3.4.13+gitX",
             "section": "base",
             "summary": "mongodb",
-            "updated": "2018-03-20T06:03:20+0000"
+            "updated": "2018-04-25T03:04:04+0000"
         },
         {
             "bbclassextend": "native",
@@ -6623,7 +6623,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "poppler_0.62.0.bb",
+            "filename": "poppler_0.63.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 269254,
@@ -6632,10 +6632,10 @@
             "license": "GPLv2",
             "pn": "poppler",
             "provides": "poppler ",
-            "pv": "0.62.0",
+            "pv": "0.63.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2018-04-04T03:04:23+0000"
+            "updated": "2018-04-25T03:04:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7387,7 +7387,7 @@
             "filepath": "recipes-extended/sblim-sfcb",
             "homepage": "http://www.sblim.org",
             "id": 269296,
-            "inherits": "autotools distro_features_check siteconfig siteinfo",
+            "inherits": "autotools distro_features_check siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "EPL-1.0",
             "pn": "sblim-sfcb",
@@ -7395,7 +7395,7 @@
             "pv": "1.4.9",
             "section": "Applications/System",
             "summary": "Small Footprint CIM Broker",
-            "updated": "2018-03-13T03:03:52+0000"
+            "updated": "2018-04-25T03:04:05+0000"
         },
         {
             "bbclassextend": "",
@@ -8158,25 +8158,6 @@
             "updated": "2017-09-26T09:09:42+0000"
         },
         {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "http://bugzilla.gnome.org/",
-            "description": "PolicyKit-gnome provides an Authentication Agent for PolicyKit that integrates well with the GNOME desktop environment",
-            "filename": "polkit-gnome_0.105.bb",
-            "filepath": "recipes-extended/polkit",
-            "homepage": "http://www.packagekit.org/",
-            "id": 269342,
-            "inherits": "autotools distro_features_check gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "LGPLv2+",
-            "pn": "polkit-gnome",
-            "provides": "polkit-gnome ",
-            "pv": "0.105",
-            "section": "base",
-            "summary": "GNOME Authentication Agent for PolicyKit",
-            "updated": "2018-03-20T06:03:21+0000"
-        },
-        {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
@@ -8831,7 +8812,7 @@
             "filepath": "recipes-extended/rarpd",
             "homepage": "",
             "id": 269377,
-            "inherits": "",
+            "inherits": "systemd",
             "layerbranch": 14965,
             "license": "GPLv2+",
             "pn": "rarpd",
@@ -8839,7 +8820,7 @@
             "pv": "ss981107",
             "section": "System Environment/Daemons",
             "summary": "The RARP daemon.",
-            "updated": "2017-09-26T09:09:47+0000"
+            "updated": "2018-04-25T03:04:05+0000"
         },
         {
             "bbclassextend": "",
@@ -11385,7 +11366,7 @@
             "pv": "2.9.2",
             "section": "base",
             "summary": "Generic library for reporting various problems",
-            "updated": "2017-10-20T03:10:12+0000"
+            "updated": "2018-04-25T03:04:05+0000"
         },
         {
             "bbclassextend": "",
@@ -12165,6 +12146,25 @@
             "section": "libs",
             "summary": "C++ bindings for the GTK+ toolkit V3",
             "updated": "2018-04-16T07:04:38+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Drop-in replacement for dbus-daemon.",
+            "filename": "dbus-broker_git.bb",
+            "filepath": "recipes-core/dbus",
+            "homepage": "",
+            "id": 578867,
+            "inherits": "distro_features_check meson pkgconfig python3-dir python3native systemd",
+            "layerbranch": 14965,
+            "license": "Apache-2.0",
+            "pn": "dbus-broker",
+            "provides": "dbus-broker ",
+            "pv": "9+gitX",
+            "section": "base",
+            "summary": "dbus broker",
+            "updated": "2018-04-25T03:04:05+0000"
         }
     ],
     "wrtemplates": []

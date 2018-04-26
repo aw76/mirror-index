@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180408",
+            "bitbake_branch": "wr-10.18-20180424",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-09T02:04:24+0000",
+            "updated": "2018-04-25T03:04:44+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "gplv2",
             "id": 14948,
             "layer": 115,
-            "updated": "2018-04-12T09:04:08+0000",
-            "vcs_last_commit": "2018-04-12T09:04:08+0000",
-            "vcs_last_fetch": "2018-04-12T09:04:08+0000",
-            "vcs_last_rev": "c2da6ba688214773cc1deb02d5770a76ed8e1859",
+            "updated": "2018-04-24T06:04:07+0000",
+            "vcs_last_commit": "2018-04-24T06:04:07+0000",
+            "vcs_last_fetch": "2018-04-24T06:04:07+0000",
+            "vcs_last_rev": "0b358fdf964763d01eabc02f1eb2ca91f23819ab",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-23T07:04:54+0000",
-            "vcs_last_commit": "2018-04-23T07:04:54+0000",
-            "vcs_last_fetch": "2018-04-23T07:04:54+0000",
-            "vcs_last_rev": "4a2cb32e88fce70dfebc0757f16d6516fab51328",
+            "updated": "2018-04-25T03:04:06+0000",
+            "vcs_last_commit": "2018-04-25T03:04:06+0000",
+            "vcs_last_fetch": "2018-04-25T03:04:06+0000",
+            "vcs_last_rev": "51d14b9bad5f4f0c27e3d9dd607a0efabc772408",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -498,7 +498,7 @@
             "pv": "3.2.57",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2018-04-25T03:04:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -745,7 +745,7 @@
             "pv": "6.9",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2017-09-26T09:09:45+0000"
+            "updated": "2018-04-25T03:04:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",

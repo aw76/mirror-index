@@ -8,70 +8,70 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180408",
+            "bitbake_branch": "wr-10.18-20180424",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-09T02:04:24+0000",
+            "updated": "2018-04-25T03:04:44+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-23T07:04:54+0000",
-            "vcs_last_commit": "2018-04-23T07:04:54+0000",
-            "vcs_last_fetch": "2018-04-23T07:04:54+0000",
-            "vcs_last_rev": "4a2cb32e88fce70dfebc0757f16d6516fab51328",
+            "updated": "2018-04-25T03:04:06+0000",
+            "vcs_last_commit": "2018-04-25T03:04:06+0000",
+            "vcs_last_fetch": "2018-04-25T03:04:06+0000",
+            "vcs_last_rev": "51d14b9bad5f4f0c27e3d9dd607a0efabc772408",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "gnome-layer",
             "id": 14960,
             "layer": 15,
-            "updated": "2018-04-13T09:04:50+0000",
-            "vcs_last_commit": "2018-04-13T09:04:50+0000",
-            "vcs_last_fetch": "2018-04-13T09:04:50+0000",
-            "vcs_last_rev": "31bfc3f0b78dfe5c5b3437d5e55f6b22b2f0eadd",
+            "updated": "2018-04-24T06:04:33+0000",
+            "vcs_last_commit": "2018-04-24T06:04:33+0000",
+            "vcs_last_fetch": "2018-04-24T06:04:33+0000",
+            "vcs_last_rev": "b590a221ab399b50f0c7a6448ebcc3976c48a395",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-04-17T06:04:30+0000",
-            "vcs_last_commit": "2018-04-17T06:04:30+0000",
-            "vcs_last_fetch": "2018-04-17T06:04:30+0000",
-            "vcs_last_rev": "935b540d768f3c6c08a2db56a5d0ecc083a9ff21",
+            "updated": "2018-04-24T06:04:34+0000",
+            "vcs_last_commit": "2018-04-24T06:04:34+0000",
+            "vcs_last_fetch": "2018-04-24T06:04:34+0000",
+            "vcs_last_rev": "baecdaf50c67038ee68b25693fd298592d188919",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180412",
+            "actual_branch": "wr-10.18-20180424",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-17T05:04:56+0000",
-            "vcs_last_commit": "2018-04-17T05:04:56+0000",
-            "vcs_last_fetch": "2018-04-17T05:04:56+0000",
-            "vcs_last_rev": "ba1350a96436460c0363d7a80dbdb7542a805bae",
+            "updated": "2018-04-24T06:04:34+0000",
+            "vcs_last_commit": "2018-04-24T06:04:34+0000",
+            "vcs_last_fetch": "2018-04-24T06:04:34+0000",
+            "vcs_last_rev": "2c24e02f7a4f01d5990c1107b572aceae298f955",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -781,7 +781,7 @@
             "pv": "1.111",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T06:03:00+0000"
+            "updated": "2018-04-25T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -849,7 +849,7 @@
             "filepath": "recipes-gnome/gnome-system-monitor",
             "homepage": "",
             "id": 566282,
-            "inherits": "autotools gnomebase pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distro_features_check gnomebase pkgconfig siteconfig siteinfo",
             "layerbranch": 14960,
             "license": "GPLv2",
             "pn": "gnome-system-monitor",
@@ -857,7 +857,7 @@
             "pv": "3.26.0",
             "section": "base",
             "summary": "Gnome system monitor",
-            "updated": "2018-04-16T07:04:53+0000"
+            "updated": "2018-04-25T03:04:41+0000"
         }
     ],
     "wrtemplates": []
