@@ -8,23 +8,23 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180424",
+            "bitbake_branch": "wr-10.18-20180430",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-25T03:04:44+0000",
+            "updated": "2018-05-03T01:05:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 2679,
+            "id": 3127,
             "layerbranch": 113181,
             "name": "poky-cgl",
-            "updated": "2018-03-20T06:03:08+0000"
+            "updated": "2018-05-03T01:05:53+0000"
         }
     ],
     "layerBranches": [
@@ -43,99 +43,99 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-27T08:04:43+0000",
-            "vcs_last_commit": "2018-04-27T08:04:43+0000",
-            "vcs_last_fetch": "2018-04-27T08:04:43+0000",
-            "vcs_last_rev": "ee9256d09df3cbb2581e2a49908a38a56e917649",
+            "updated": "2018-05-18T06:05:27+0000",
+            "vcs_last_commit": "2018-05-18T06:05:27+0000",
+            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
+            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "security",
             "id": 14954,
             "layer": 18,
-            "updated": "2018-04-24T06:04:31+0000",
-            "vcs_last_commit": "2018-04-24T06:04:31+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:31+0000",
-            "vcs_last_rev": "a44746d32c16cc8a2aa716a141299c39d0c49fa5",
+            "updated": "2018-05-14T02:05:22+0000",
+            "vcs_last_commit": "2018-05-14T02:05:22+0000",
+            "vcs_last_fetch": "2018-05-14T02:05:22+0000",
+            "vcs_last_rev": "f9506d53cb8544e74fbb0bfe4c71ac001ea100cd",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2018-04-24T06:04:28+0000",
-            "vcs_last_commit": "2018-04-24T06:04:28+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:28+0000",
-            "vcs_last_rev": "0c692caa11cd56fa330eadd9d3fbd7f7eada7dbe",
+            "updated": "2018-05-08T02:05:06+0000",
+            "vcs_last_commit": "2018-05-08T02:05:06+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:06+0000",
+            "vcs_last_rev": "8fe2de7fb801f09cd47a5899396ca36c837b67ea",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-04-24T06:04:34+0000",
-            "vcs_last_commit": "2018-04-24T06:04:34+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:34+0000",
-            "vcs_last_rev": "baecdaf50c67038ee68b25693fd298592d188919",
+            "updated": "2018-05-15T09:05:16+0000",
+            "vcs_last_commit": "2018-05-15T09:05:16+0000",
+            "vcs_last_fetch": "2018-05-15T09:05:16+0000",
+            "vcs_last_rev": "7658e45a5aa7fa17c255888704d4183cc4526fcd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-27T02:04:46+0000",
-            "vcs_last_commit": "2018-04-27T02:04:46+0000",
-            "vcs_last_fetch": "2018-04-27T02:04:46+0000",
-            "vcs_last_rev": "2f760b508d1814d8be19e2e257570192959ecda4",
+            "updated": "2018-05-08T02:05:56+0000",
+            "vcs_last_commit": "2018-05-08T02:05:56+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:56+0000",
+            "vcs_last_rev": "0f657f14580d058cf971bbd52efcbb5f09b016bf",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "perl-layer",
             "id": 14966,
             "layer": 13,
-            "updated": "2018-04-24T06:04:28+0000",
-            "vcs_last_commit": "2018-04-24T06:04:28+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:28+0000",
-            "vcs_last_rev": "0c692caa11cd56fa330eadd9d3fbd7f7eada7dbe",
+            "updated": "2018-05-08T02:05:06+0000",
+            "vcs_last_commit": "2018-05-08T02:05:06+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:06+0000",
+            "vcs_last_rev": "8fe2de7fb801f09cd47a5899396ca36c837b67ea",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180430",
             "branch": 38,
             "collection": "cgl-common",
             "id": 113181,
             "layer": 172,
-            "updated": "2018-04-24T06:04:52+0000",
-            "vcs_last_commit": "2018-04-24T06:04:52+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:52+0000",
-            "vcs_last_rev": "dfd8afc73f60de70e748e461a18856c2f79a4155",
+            "updated": "2018-04-30T11:04:48+0000",
+            "vcs_last_commit": "2018-04-30T11:04:48+0000",
+            "vcs_last_fetch": "2018-04-30T11:04:48+0000",
+            "vcs_last_rev": "015e443e9d8768e157516b62ef5dcf698d7ceed0",
             "vcs_subdir": "meta-cgl-common",
             "version": null,
             "yp_compatible_version": null
@@ -348,7 +348,7 @@
             "pv": "4.0.1",
             "section": "base",
             "summary": "OCF resource agents for use by compatible cluster managers",
-            "updated": "2018-03-20T06:03:05+0000"
+            "updated": "2018-05-03T01:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -367,7 +367,7 @@
             "pv": "1.0.12",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T06:03:05+0000"
+            "updated": "2018-05-03T01:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -386,7 +386,7 @@
             "pv": "5.20.0",
             "section": "base",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-03-20T06:03:05+0000"
+            "updated": "2018-05-03T01:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -405,7 +405,7 @@
             "pv": "3.0.6",
             "section": "System Environment/Daemons",
             "summary": "Messaging and membership subsystem for High-Availability Linux",
-            "updated": "2018-03-20T06:03:05+0000"
+            "updated": "2018-05-03T01:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -424,7 +424,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "Common Address Redundancy Protocol for Unix",
-            "updated": "2018-03-20T06:03:05+0000"
+            "updated": "2018-05-03T01:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -443,7 +443,7 @@
             "pv": "1.1.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T06:03:06+0000"
+            "updated": "2018-05-03T01:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -462,7 +462,7 @@
             "pv": "20100526a",
             "section": "base",
             "summary": "An implementation of key management system for IPsec",
-            "updated": "2018-03-20T06:03:06+0000"
+            "updated": "2018-05-03T01:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -481,7 +481,7 @@
             "pv": "1.8.4",
             "section": "System Environment/Base",
             "summary": "Tools for managing the Ocfs2 cluster file system",
-            "updated": "2018-03-20T06:03:06+0000"
+            "updated": "2018-05-03T01:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -500,7 +500,7 @@
             "pv": "2.3.2",
             "section": "base",
             "summary": "Pacemaker command line interface for management and configuration",
-            "updated": "2018-03-20T06:03:06+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -519,7 +519,7 @@
             "pv": "3.2.0",
             "section": "libs",
             "summary": "",
-            "updated": "2018-03-20T06:03:06+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -538,7 +538,7 @@
             "pv": "1.1.16",
             "section": "base",
             "summary": "Scalable High-Availability cluster resource manager",
-            "updated": "2018-04-25T03:04:49+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -557,7 +557,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -576,7 +576,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -595,7 +595,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Application packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -614,7 +614,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -633,7 +633,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Software development tools packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -652,7 +652,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Middleware packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -671,7 +671,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -690,7 +690,7 @@
             "pv": "6.05",
             "section": "libs",
             "summary": "",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -709,7 +709,7 @@
             "pv": "3.20",
             "section": "libs",
             "summary": "",
-            "updated": "2018-03-20T06:03:07+0000"
+            "updated": "2018-05-03T01:05:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -728,7 +728,7 @@
             "pv": "0.23",
             "section": "libs",
             "summary": "",
-            "updated": "2018-03-20T06:03:08+0000"
+            "updated": "2018-05-03T01:05:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -747,7 +747,7 @@
             "pv": "1.51",
             "section": "libs",
             "summary": "",
-            "updated": "2018-03-20T06:03:08+0000"
+            "updated": "2018-05-03T01:05:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -766,7 +766,7 @@
             "pv": "2.18",
             "section": "libs",
             "summary": "",
-            "updated": "2018-03-20T06:03:08+0000"
+            "updated": "2018-05-03T01:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -785,7 +785,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Support for having multipath iSCSI devices as root file system",
-            "updated": "2018-03-20T06:03:08+0000"
+            "updated": "2018-05-03T01:05:53+0000"
         }
     ],
     "wrtemplates": []

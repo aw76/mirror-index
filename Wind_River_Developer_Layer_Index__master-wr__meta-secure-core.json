@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180424",
+            "bitbake_branch": "wr-10.18-20180430",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-25T03:04:44+0000",
+            "updated": "2018-05-03T01:05:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-27T08:04:43+0000",
-            "vcs_last_commit": "2018-04-27T08:04:43+0000",
-            "vcs_last_fetch": "2018-04-27T08:04:43+0000",
-            "vcs_last_rev": "ee9256d09df3cbb2581e2a49908a38a56e917649",
+            "updated": "2018-05-18T06:05:27+0000",
+            "vcs_last_commit": "2018-05-18T06:05:27+0000",
+            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
+            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "secure-core",
             "id": 57001,
             "layer": 149,
-            "updated": "2018-04-24T06:04:58+0000",
-            "vcs_last_commit": "2018-04-24T06:04:58+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:58+0000",
-            "vcs_last_rev": "8f602c0caf349fdcc5306b3f64900e2f2da66c9f",
+            "updated": "2018-05-14T02:05:26+0000",
+            "vcs_last_commit": "2018-05-14T02:05:26+0000",
+            "vcs_last_fetch": "2018-05-14T02:05:26+0000",
+            "vcs_last_rev": "34dd7444a18d8f51ab89f744bfbdda9859dc9071",
             "vcs_subdir": "meta",
             "version": null,
             "yp_compatible_version": null
@@ -112,7 +112,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic init for initramfs to mount and pivot root",
-            "updated": "2017-09-26T09:09:52+0000"
+            "updated": "2018-05-03T01:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -161,7 +161,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 343524,
-            "inherits": "kernel-arch linux-kernel-base",
+            "inherits": "kernel-arch linux-kernel-base update-alternatives",
             "layerbranch": 57001,
             "license": "MIT",
             "pn": "kernel-initramfs",
@@ -169,7 +169,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2018-02-07T06:02:12+0000"
+            "updated": "2018-05-08T08:05:11+0000"
         },
         {
             "bbclassextend": "",

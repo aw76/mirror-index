@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180424",
+            "bitbake_branch": "wr-10.18-20180430",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-25T03:04:44+0000",
+            "updated": "2018-05-03T01:05:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-27T08:04:43+0000",
-            "vcs_last_commit": "2018-04-27T08:04:43+0000",
-            "vcs_last_fetch": "2018-04-27T08:04:43+0000",
-            "vcs_last_rev": "ee9256d09df3cbb2581e2a49908a38a56e917649",
+            "updated": "2018-05-18T06:05:27+0000",
+            "vcs_last_commit": "2018-05-18T06:05:27+0000",
+            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
+            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-27T02:04:46+0000",
-            "vcs_last_commit": "2018-04-27T02:04:46+0000",
-            "vcs_last_fetch": "2018-04-27T02:04:46+0000",
-            "vcs_last_rev": "2f760b508d1814d8be19e2e257570192959ecda4",
+            "updated": "2018-05-08T02:05:56+0000",
+            "vcs_last_commit": "2018-05-08T02:05:56+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:56+0000",
+            "vcs_last_rev": "0f657f14580d058cf971bbd52efcbb5f09b016bf",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-04-24T06:04:28+0000",
-            "vcs_last_commit": "2018-04-24T06:04:28+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:28+0000",
-            "vcs_last_rev": "0c692caa11cd56fa330eadd9d3fbd7f7eada7dbe",
+            "updated": "2018-05-08T02:05:06+0000",
+            "vcs_last_commit": "2018-05-08T02:05:06+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:06+0000",
+            "vcs_last_rev": "8fe2de7fb801f09cd47a5899396ca36c837b67ea",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -561,7 +561,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python-cython_0.28.bb",
+            "filename": "python-cython_0.28.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269644,
@@ -570,10 +570,10 @@
             "license": "Apache-2.0",
             "pn": "python-cython",
             "provides": "python-cython ",
-            "pv": "0.28",
+            "pv": "0.28.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-26T08:03:00+0000"
+            "updated": "2018-05-08T08:05:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1188,7 +1188,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-astroid_1.6.2.bb",
+            "filename": "python3-astroid_1.6.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/astroid",
             "id": 269677,
@@ -1197,10 +1197,10 @@
             "license": "LGPL-2.1",
             "pn": "python3-astroid",
             "provides": "python3-astroid ",
-            "pv": "1.6.2",
+            "pv": "1.6.3",
             "section": "devel/python",
             "summary": "An abstract syntax tree for Python with inference support.",
-            "updated": "2018-04-04T03:04:35+0000"
+            "updated": "2018-05-08T08:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1511,7 +1511,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pretend_1.0.8.bb",
+            "filename": "python3-pretend_1.0.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/alex/pretend",
             "id": 269694,
@@ -1520,10 +1520,10 @@
             "license": "BSD",
             "pn": "python3-pretend",
             "provides": "python3-pretend ",
-            "pv": "1.0.8",
+            "pv": "1.0.9",
             "section": "devel/python",
             "summary": "A library for stubbing in Python",
-            "updated": "2017-09-26T09:09:29+0000"
+            "updated": "2018-05-08T08:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1542,7 +1542,7 @@
             "pv": "0.22",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-25T03:04:11+0000"
+            "updated": "2018-05-08T08:05:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1587,7 +1587,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pretend_1.0.8.bb",
+            "filename": "python-pretend_1.0.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/alex/pretend",
             "id": 269698,
@@ -1596,10 +1596,10 @@
             "license": "BSD",
             "pn": "python-pretend",
             "provides": "python-pretend ",
-            "pv": "1.0.8",
+            "pv": "1.0.9",
             "section": "devel/python",
             "summary": "A library for stubbing in Python",
-            "updated": "2017-09-26T09:09:30+0000"
+            "updated": "2018-05-08T08:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1910,7 +1910,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python3-cython_0.28.bb",
+            "filename": "python3-cython_0.28.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269715,
@@ -1919,10 +1919,10 @@
             "license": "Apache-2.0",
             "pn": "python3-cython",
             "provides": "python3-cython ",
-            "pv": "0.28",
+            "pv": "0.28.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-26T08:03:01+0000"
+            "updated": "2018-05-08T08:05:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2062,7 +2062,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pytz_2018.3.bb",
+            "filename": "python3-pytz_2018.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonhosted.org/pytz",
             "id": 269723,
@@ -2071,10 +2071,10 @@
             "license": "MIT",
             "pn": "python3-pytz",
             "provides": "python3-pytz ",
-            "pv": "2018.3",
+            "pv": "2018.4",
             "section": "devel/python",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2018-04-04T03:04:32+0000"
+            "updated": "2018-05-08T08:05:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2157,7 +2157,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-jsonpatch_1.21.bb",
+            "filename": "python-jsonpatch_1.23.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/stefankoegl/python-json-patch",
             "id": 269728,
@@ -2166,10 +2166,10 @@
             "license": "BSD",
             "pn": "python-jsonpatch",
             "provides": "python-jsonpatch ",
-            "pv": "1.21",
+            "pv": "1.23",
             "section": "devel/python",
             "summary": "Appling JSON patches in Python 2.6+ and 3.x",
-            "updated": "2018-04-16T07:04:48+0000"
+            "updated": "2018-05-08T08:05:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -2670,7 +2670,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-astroid_1.6.2.bb",
+            "filename": "python-astroid_1.6.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/astroid",
             "id": 269756,
@@ -2679,10 +2679,10 @@
             "license": "LGPL-2.1",
             "pn": "python-astroid",
             "provides": "python-astroid ",
-            "pv": "1.6.2",
+            "pv": "1.6.3",
             "section": "devel/python",
             "summary": "An abstract syntax tree for Python with inference support.",
-            "updated": "2018-04-04T03:04:33+0000"
+            "updated": "2018-05-08T08:05:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2784,7 +2784,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The aim of the decorator module it to simplify the usage of decorators for the average programmer, and to popularize decorators by showing various non-trivial examples. Of course, as all techniques, decorators can be abused and you should not try to solve every problem with a decorator, just because you can.",
-            "filename": "python3-decorator_4.2.1.bb",
+            "filename": "python3-decorator_4.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269762,
@@ -2793,10 +2793,10 @@
             "license": "BSD",
             "pn": "python3-decorator",
             "provides": "python3-decorator ",
-            "pv": "4.2.1",
+            "pv": "4.3.0",
             "section": "devel/python",
             "summary": "Python decorator utilities",
-            "updated": "2018-01-30T02:01:16+0000"
+            "updated": "2018-05-08T08:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2898,7 +2898,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pytz_2018.3.bb",
+            "filename": "python-pytz_2018.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonhosted.org/pytz",
             "id": 269768,
@@ -2907,10 +2907,10 @@
             "license": "MIT",
             "pn": "python-pytz",
             "provides": "python-pytz ",
-            "pv": "2018.3",
+            "pv": "2018.4",
             "section": "devel/python",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2018-04-04T03:04:33+0000"
+            "updated": "2018-05-08T08:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3715,7 +3715,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python-lxml_4.2.0.bb",
+            "filename": "python-lxml_4.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
             "id": 269812,
@@ -3724,10 +3724,10 @@
             "license": "BSD & GPLv2 & MIT & PSF",
             "pn": "python-lxml",
             "provides": "python-lxml ",
-            "pv": "4.2.0",
+            "pv": "4.2.1",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2018-03-26T08:03:00+0000"
+            "updated": "2018-05-08T08:05:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4411,7 +4411,7 @@
             "pv": "0.7.0",
             "section": "devel/python",
             "summary": "Python evdev lib",
-            "updated": "2018-03-07T03:03:56+0000"
+            "updated": "2018-05-08T08:05:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4475,7 +4475,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python3-lxml_4.2.0.bb",
+            "filename": "python3-lxml_4.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
             "id": 269852,
@@ -4484,10 +4484,10 @@
             "license": "BSD & GPLv2 & MIT & PSF",
             "pn": "python3-lxml",
             "provides": "python3-lxml ",
-            "pv": "4.2.0",
+            "pv": "4.2.1",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2018-03-26T08:03:02+0000"
+            "updated": "2018-05-08T08:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4893,7 +4893,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The aim of the decorator module it to simplify the usage of decorators for the average programmer, and to popularize decorators by showing various non-trivial examples. Of course, as all techniques, decorators can be abused and you should not try to solve every problem with a decorator, just because you can.",
-            "filename": "python-decorator_4.2.1.bb",
+            "filename": "python-decorator_4.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269874,
@@ -4902,10 +4902,10 @@
             "license": "BSD",
             "pn": "python-decorator",
             "provides": "python-decorator ",
-            "pv": "4.2.1",
+            "pv": "4.3.0",
             "section": "devel/python",
             "summary": "Python decorator utilities",
-            "updated": "2018-01-30T02:01:54+0000"
+            "updated": "2018-05-08T08:05:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -5444,7 +5444,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pexpect_4.4.0.bb",
+            "filename": "python-pexpect_4.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pexpect.readthedocs.org/",
             "id": 339545,
@@ -5453,10 +5453,10 @@
             "license": "ISC",
             "pn": "python-pexpect",
             "provides": "python-pexpect ",
-            "pv": "4.4.0",
+            "pv": "4.5.0",
             "section": "devel/python",
             "summary": "A Pure Python Expect like Module for Python",
-            "updated": "2018-03-07T03:03:52+0000"
+            "updated": "2018-05-08T08:05:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5520,7 +5520,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pexpect_4.4.0.bb",
+            "filename": "python3-pexpect_4.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pexpect.readthedocs.org/",
             "id": 339549,
@@ -5529,10 +5529,10 @@
             "license": "ISC",
             "pn": "python3-pexpect",
             "provides": "python3-pexpect ",
-            "pv": "4.4.0",
+            "pv": "4.5.0",
             "section": "devel/python",
             "summary": "A Pure Python Expect like Module for Python",
-            "updated": "2018-03-07T03:03:54+0000"
+            "updated": "2018-05-08T08:05:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7135,7 +7135,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-jsonpatch_1.21.bb",
+            "filename": "python3-jsonpatch_1.23.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/stefankoegl/python-json-patch",
             "id": 503688,
@@ -7144,10 +7144,10 @@
             "license": "BSD",
             "pn": "python3-jsonpatch",
             "provides": "python3-jsonpatch ",
-            "pv": "1.21",
+            "pv": "1.23",
             "section": "devel/python",
             "summary": "Appling JSON patches in Python 2.6+ and 3.x",
-            "updated": "2018-01-30T02:01:17+0000"
+            "updated": "2018-05-08T08:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -7337,7 +7337,7 @@
             "pv": "0.7.0",
             "section": "devel/python",
             "summary": "Python evdev lib",
-            "updated": "2018-03-07T03:03:56+0000"
+            "updated": "2018-05-08T08:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7496,7 +7496,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyiface_0.0.4.bb",
+            "filename": "python-pyiface_0.0.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pyiface/",
             "id": 521060,
@@ -7505,17 +7505,17 @@
             "license": "GPLv3+",
             "pn": "python-pyiface",
             "provides": "python-pyiface ",
-            "pv": "0.0.4",
+            "pv": "0.0.5",
             "section": "devel/python",
             "summary": "Pyiface is a package that exposes the network interfaces of the operating system in a easy to use and transparent way",
-            "updated": "2018-03-26T08:03:02+0000"
+            "updated": "2018-05-08T08:05:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pyiface_0.0.4.bb",
+            "filename": "python3-pyiface_0.0.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pyiface/",
             "id": 521061,
@@ -7524,10 +7524,10 @@
             "license": "GPLv3+",
             "pn": "python3-pyiface",
             "provides": "python3-pyiface ",
-            "pv": "0.0.4",
+            "pv": "0.0.5",
             "section": "devel/python",
             "summary": "Pyiface is a package that exposes the network interfaces of the operating system in a easy to use and transparent way",
-            "updated": "2018-03-26T08:03:02+0000"
+            "updated": "2018-05-08T08:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7546,7 +7546,121 @@
             "pv": "0.22",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-25T03:04:11+0000"
+            "updated": "2018-05-08T08:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python-configparser_3.5.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://docs.python.org/3/library/configparser.html",
+            "id": 625473,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python-configparser",
+            "provides": "python-configparser ",
+            "pv": "3.5.0",
+            "section": "devel/python",
+            "summary": "This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what\u2019s found in Microsoft Windows INI files.",
+            "updated": "2018-05-08T08:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Flask-RESTful is an extension for Flask that adds support for quickly building REST APIs",
+            "filename": "python-flask-restful_0.3.6.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/flask-restful/flask-restful",
+            "id": 625474,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "BSD-3-Clause",
+            "pn": "python-flask-restful",
+            "provides": "python-flask-restful ",
+            "pv": "0.3.6",
+            "section": "devel/python",
+            "summary": "Simple framework for creating REST APIs",
+            "updated": "2018-05-08T08:05:05+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python-pystache_0.5.4.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/defunkt/pystache",
+            "id": 625475,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python-pystache",
+            "provides": "python-pystache ",
+            "pv": "0.5.4",
+            "section": "devel/python",
+            "summary": "Python implementation of Mustache",
+            "updated": "2018-05-08T08:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-configparser_3.5.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://docs.python.org/3/library/configparser.html",
+            "id": 625476,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python3-configparser",
+            "provides": "python3-configparser ",
+            "pv": "3.5.0",
+            "section": "devel/python",
+            "summary": "This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what\u2019s found in Microsoft Windows INI files.",
+            "updated": "2018-05-08T08:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Flask-RESTful is an extension for Flask that adds support for quickly building REST APIs",
+            "filename": "python3-flask-restful_0.3.6.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/flask-restful/flask-restful",
+            "id": 625477,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "BSD-3-Clause",
+            "pn": "python3-flask-restful",
+            "provides": "python3-flask-restful ",
+            "pv": "0.3.6",
+            "section": "devel/python",
+            "summary": "Simple framework for creating REST APIs",
+            "updated": "2018-05-08T08:05:06+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-websockets_4.0.1.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/aaugustin/websockets",
+            "id": 625478,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "BSD-3-Clause",
+            "pn": "python3-websockets",
+            "provides": "python3-websockets ",
+            "pv": "4.0.1",
+            "section": "devel/python",
+            "summary": "An implementation of the WebSocket Protocol (RFC 6455)",
+            "updated": "2018-05-08T08:05:06+0000"
         }
     ],
     "wrtemplates": []

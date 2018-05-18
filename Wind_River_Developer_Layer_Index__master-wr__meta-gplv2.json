@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180424",
+            "bitbake_branch": "wr-10.18-20180430",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-25T03:04:44+0000",
+            "updated": "2018-05-03T01:05:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180430",
             "branch": 38,
             "collection": "gplv2",
             "id": 14948,
             "layer": 115,
-            "updated": "2018-04-24T06:04:07+0000",
-            "vcs_last_commit": "2018-04-24T06:04:07+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:07+0000",
-            "vcs_last_rev": "0b358fdf964763d01eabc02f1eb2ca91f23819ab",
+            "updated": "2018-04-30T11:04:31+0000",
+            "vcs_last_commit": "2018-04-30T11:04:31+0000",
+            "vcs_last_fetch": "2018-04-30T11:04:31+0000",
+            "vcs_last_rev": "90bc9ca48f5ef644719c690368b9f7c2fca28364",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-27T08:04:43+0000",
-            "vcs_last_commit": "2018-04-27T08:04:43+0000",
-            "vcs_last_fetch": "2018-04-27T08:04:43+0000",
-            "vcs_last_rev": "ee9256d09df3cbb2581e2a49908a38a56e917649",
+            "updated": "2018-05-18T06:05:27+0000",
+            "vcs_last_commit": "2018-05-18T06:05:27+0000",
+            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
+            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -251,7 +251,7 @@
             "pv": "2.8.1",
             "section": "base",
             "summary": "Diffutils contains tools used for finding differences between files",
-            "updated": "2017-09-26T09:09:41+0000"
+            "updated": "2018-05-03T01:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -593,7 +593,7 @@
             "pv": "2.5.9",
             "section": "utils",
             "summary": "Tool for applying a patch file",
-            "updated": "2017-09-26T09:09:44+0000"
+            "updated": "2018-05-03T01:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -631,7 +631,7 @@
             "pv": "2.6.9",
             "section": "console/network",
             "summary": "File synchronization tool",
-            "updated": "2017-09-26T09:09:44+0000"
+            "updated": "2018-05-03T01:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -775,7 +775,7 @@
             "filepath": "recipes-sato/rxvt-unicode",
             "homepage": "",
             "id": 270187,
-            "inherits": "autotools siteconfig siteinfo update-alternatives",
+            "inherits": "autotools pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 14948,
             "license": "GPLv2+",
             "pn": "rxvt-unicode",
@@ -783,7 +783,7 @@
             "pv": "9.20",
             "section": "x11/utils",
             "summary": "rxvt terminal clone supporting unicode",
-            "updated": "2017-09-26T09:09:46+0000"
+            "updated": "2018-05-03T01:05:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",

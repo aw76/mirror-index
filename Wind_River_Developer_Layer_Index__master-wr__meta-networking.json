@@ -8,70 +8,70 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180424",
+            "bitbake_branch": "wr-10.18-20180430",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-25T03:04:44+0000",
+            "updated": "2018-05-03T01:05:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-27T08:04:43+0000",
-            "vcs_last_commit": "2018-04-27T08:04:43+0000",
-            "vcs_last_fetch": "2018-04-27T08:04:43+0000",
-            "vcs_last_rev": "ee9256d09df3cbb2581e2a49908a38a56e917649",
+            "updated": "2018-05-18T06:05:27+0000",
+            "vcs_last_commit": "2018-05-18T06:05:27+0000",
+            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
+            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-04-24T06:04:34+0000",
-            "vcs_last_commit": "2018-04-24T06:04:34+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:34+0000",
-            "vcs_last_rev": "baecdaf50c67038ee68b25693fd298592d188919",
+            "updated": "2018-05-15T09:05:16+0000",
+            "vcs_last_commit": "2018-05-15T09:05:16+0000",
+            "vcs_last_fetch": "2018-05-15T09:05:16+0000",
+            "vcs_last_rev": "7658e45a5aa7fa17c255888704d4183cc4526fcd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-27T02:04:46+0000",
-            "vcs_last_commit": "2018-04-27T02:04:46+0000",
-            "vcs_last_fetch": "2018-04-27T02:04:46+0000",
-            "vcs_last_rev": "2f760b508d1814d8be19e2e257570192959ecda4",
+            "updated": "2018-05-08T02:05:56+0000",
+            "vcs_last_commit": "2018-05-08T02:05:56+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:56+0000",
+            "vcs_last_rev": "0f657f14580d058cf971bbd52efcbb5f09b016bf",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-04-24T06:04:28+0000",
-            "vcs_last_commit": "2018-04-24T06:04:28+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:28+0000",
-            "vcs_last_rev": "0c692caa11cd56fa330eadd9d3fbd7f7eada7dbe",
+            "updated": "2018-05-08T02:05:06+0000",
+            "vcs_last_commit": "2018-05-08T02:05:06+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:06+0000",
+            "vcs_last_rev": "8fe2de7fb801f09cd47a5899396ca36c837b67ea",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -539,21 +539,21 @@
         {
             "bbclassextend": "",
             "blacklisted": "",
-            "bugtracker": "https://github.com/polarssl/polarssl/issues",
+            "bugtracker": "",
             "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
-            "filename": "mbedtls_1.3.17.bb",
+            "filename": "mbedtls_2.8.0.bb",
             "filepath": "recipes-connectivity/mbedtls",
-            "homepage": "https://polarssl.org",
+            "homepage": "https://tls.mbed.org/",
             "id": 270283,
             "inherits": "cmake",
             "layerbranch": 14964,
-            "license": "GPLv2",
+            "license": "Apache-2.0",
             "pn": "mbedtls",
             "provides": "mbedtls  polarssl",
-            "pv": "1.3.17",
+            "pv": "2.8.0",
             "section": "libdevel",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2017-09-26T09:09:09+0000"
+            "updated": "2018-05-03T01:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1332,7 +1332,7 @@
             "pv": "0.3.1+gitX",
             "section": "net",
             "summary": "Utilities for managing the Linux LoWPAN stack",
-            "updated": "2017-09-26T09:09:14+0000"
+            "updated": "2018-05-03T01:05:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1522,7 +1522,7 @@
             "pv": "0.9.36",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2018-04-09T02:04:52+0000"
+            "updated": "2018-05-08T08:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1814,19 +1814,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_2.4.5.bb",
+            "filename": "wireshark_2.4.6.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 270353,
-            "inherits": "autotools perlnative pkgconfig siteconfig siteinfo",
+            "inherits": "autotools perlnative pkgconfig siteconfig siteinfo upstream-version-is-even",
             "layerbranch": 14964,
             "license": "GPL-2.0",
             "pn": "wireshark",
             "provides": "wireshark ",
-            "pv": "2.4.5",
+            "pv": "2.4.6",
             "section": "net",
             "summary": "",
-            "updated": "2018-04-09T02:04:52+0000"
+            "updated": "2018-05-03T01:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2004,7 +2004,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": " Network Information Service tools.  This package contains ypcat, ypmatch, ypset, ypwhich, yppasswd, domainname, nisdomainname and ypdomainname. ",
-            "filename": "yp-tools_4.2.2.bb",
+            "filename": "yp-tools_4.2.3.bb",
             "filepath": "recipes-support/nis",
             "homepage": "http://www.linux-nis.org/nis/",
             "id": 270363,
@@ -2013,10 +2013,10 @@
             "license": "GPL-2.0",
             "pn": "yp-tools",
             "provides": "yp-tools ",
-            "pv": "4.2.2",
+            "pv": "4.2.3",
             "section": "net",
             "summary": "NIS client programs",
-            "updated": "2018-03-13T03:03:58+0000"
+            "updated": "2018-05-03T01:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2320,7 +2320,7 @@
             "pv": "3.2.2",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-04-09T02:04:54+0000"
+            "updated": "2018-05-15T09:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2932,7 +2932,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "error: implicit declaration of function 'init_timer'; did you mean 'init_timers'?; 4.15 kernel issues",
             "bugtracker": "",
             "description": "iSCSI Enterprise Target is aimed to develop an                open source iSCSI target with professional features,                that works well in enterprise environment under real                workload, and is scalable and versatile enough to meet the                challenge of future storage needs and developments.",
             "filename": "iscsitarget_1.4.20.3+svn502.bb",
@@ -2947,7 +2947,7 @@
             "pv": "1.4.20.3+svn502",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:26+0000"
+            "updated": "2018-05-08T08:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3084,7 +3084,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "implicit declaration of function 'setup_timer'; 4.15 head file issue?",
             "bugtracker": "",
             "description": "DRBD is a block device which is designed to build high                availability clusters. This is done by mirroring a whole                block device via (a dedicated) network. You could see                it as a network raid-1.",
             "filename": "drbd_9.0.8-1.bb",
@@ -3099,7 +3099,7 @@
             "pv": "9.0.8-1",
             "section": "base",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2017-09-26T09:09:26+0000"
+            "updated": "2018-05-08T08:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3148,7 +3148,7 @@
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 377131,
-            "inherits": "autotools bash-completion bluetooth gettext gnomebase gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo systemd vala",
+            "inherits": "autotools bash-completion bluetooth gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd vala",
             "layerbranch": 14964,
             "license": "GPLv2+",
             "pn": "networkmanager",
@@ -3156,7 +3156,7 @@
             "pv": "1.10.6",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2018-04-16T07:04:43+0000"
+            "updated": "2018-05-08T08:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3347,6 +3347,25 @@
             "section": "connectivity",
             "summary": "ISC Kea DHCP Server",
             "updated": "2018-04-17T06:04:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This is a set of utils to manage the Linux WPAN stack via netlink interface. This requires recent kernel with nl802154 interface.",
+            "filename": "wpan-tools_git.bb",
+            "filepath": "recipes-support/wpan-tools",
+            "homepage": "http://wpan.cakelab.org/releases/",
+            "id": 625453,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14964,
+            "license": "ISC",
+            "pn": "wpan-tools",
+            "provides": "wpan-tools ",
+            "pv": "0.8+gitX",
+            "section": "base",
+            "summary": "Userspace tools for Linux IEEE 802.15.4 stack",
+            "updated": "2018-05-03T01:05:44+0000"
         }
     ],
     "wrtemplates": []

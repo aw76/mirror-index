@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180424",
+            "bitbake_branch": "wr-10.18-20180430",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-25T03:04:44+0000",
+            "updated": "2018-05-03T01:05:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-27T08:04:43+0000",
-            "vcs_last_commit": "2018-04-27T08:04:43+0000",
-            "vcs_last_fetch": "2018-04-27T08:04:43+0000",
-            "vcs_last_rev": "ee9256d09df3cbb2581e2a49908a38a56e917649",
+            "updated": "2018-05-18T06:05:27+0000",
+            "vcs_last_commit": "2018-05-18T06:05:27+0000",
+            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
+            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-27T02:04:46+0000",
-            "vcs_last_commit": "2018-04-27T02:04:46+0000",
-            "vcs_last_fetch": "2018-04-27T02:04:46+0000",
-            "vcs_last_rev": "2f760b508d1814d8be19e2e257570192959ecda4",
+            "updated": "2018-05-08T02:05:56+0000",
+            "vcs_last_commit": "2018-05-08T02:05:56+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:56+0000",
+            "vcs_last_rev": "0f657f14580d058cf971bbd52efcbb5f09b016bf",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "webserver",
             "id": 14976,
             "layer": 10,
-            "updated": "2018-04-24T06:04:28+0000",
-            "vcs_last_commit": "2018-04-24T06:04:28+0000",
-            "vcs_last_fetch": "2018-04-24T06:04:28+0000",
-            "vcs_last_rev": "0c692caa11cd56fa330eadd9d3fbd7f7eada7dbe",
+            "updated": "2018-05-08T02:05:06+0000",
+            "vcs_last_commit": "2018-05-08T02:05:06+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:06+0000",
+            "vcs_last_rev": "8fe2de7fb801f09cd47a5899396ca36c837b67ea",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": null
@@ -174,7 +174,7 @@
             "pv": "2.6.0",
             "section": "base",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2018-04-16T07:04:41+0000"
+            "updated": "2018-05-08T08:05:59+0000"
         },
         {
             "bbclassextend": "",

@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180424",
+            "bitbake_branch": "wr-10.18-20180430",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-04-25T03:04:44+0000",
+            "updated": "2018-05-03T01:05:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180514",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-04-27T08:04:43+0000",
-            "vcs_last_commit": "2018-04-27T08:04:43+0000",
-            "vcs_last_fetch": "2018-04-27T08:04:43+0000",
-            "vcs_last_rev": "ee9256d09df3cbb2581e2a49908a38a56e917649",
+            "updated": "2018-05-18T06:05:27+0000",
+            "vcs_last_commit": "2018-05-18T06:05:27+0000",
+            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
+            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180424",
+            "actual_branch": "wr-10.18-20180508",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-04-27T02:04:46+0000",
-            "vcs_last_commit": "2018-04-27T02:04:46+0000",
-            "vcs_last_fetch": "2018-04-27T02:04:46+0000",
-            "vcs_last_rev": "2f760b508d1814d8be19e2e257570192959ecda4",
+            "updated": "2018-05-08T02:05:56+0000",
+            "vcs_last_commit": "2018-05-08T02:05:56+0000",
+            "vcs_last_fetch": "2018-05-08T02:05:56+0000",
+            "vcs_last_rev": "0f657f14580d058cf971bbd52efcbb5f09b016bf",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -315,7 +315,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "xwud allows X users to display in a window an image saved in a specially formatted dump file, such as produced by xwd.",
-            "filename": "xwud_1.0.4.bb",
+            "filename": "xwud_1.0.5.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://cgit.freedesktop.org/xorg/app/xwud/",
             "id": 268881,
@@ -324,10 +324,10 @@
             "license": "MIT",
             "pn": "xwud",
             "provides": "xwud ",
-            "pv": "1.0.4",
+            "pv": "1.0.5",
             "section": "x11/app",
             "summary": "X.Org X11 X client utilities",
-            "updated": "2017-09-26T09:09:48+0000"
+            "updated": "2018-05-08T08:05:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -410,7 +410,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "xlsclients is a utility for listing information about the client applications running on a X11 server.",
-            "filename": "xlsclients_1.1.3.bb",
+            "filename": "xlsclients_1.1.4.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://cgit.freedesktop.org/xorg/app/xlsclients/",
             "id": 268886,
@@ -419,10 +419,10 @@
             "license": "MIT",
             "pn": "xlsclients",
             "provides": "xlsclients ",
-            "pv": "1.1.3",
+            "pv": "1.1.4",
             "section": "x11/app",
             "summary": "X.Org X11 X client utilities",
-            "updated": "2017-09-26T09:09:49+0000"
+            "updated": "2018-05-08T08:05:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -505,7 +505,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xlsfonts_1.0.5.bb",
+            "filename": "xlsfonts_1.0.6.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://cgit.freedesktop.org/xorg/app/xlsfonts/",
             "id": 268891,
@@ -514,10 +514,10 @@
             "license": "MIT",
             "pn": "xlsfonts",
             "provides": "xlsfonts ",
-            "pv": "1.0.5",
+            "pv": "1.0.6",
             "section": "x11/app",
             "summary": "server font list displayer for X",
-            "updated": "2017-09-26T09:09:50+0000"
+            "updated": "2018-05-08T08:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -536,7 +536,7 @@
             "pv": "330",
             "section": "x11/apps",
             "summary": "xterm is the standard terminal emulator for the X Window System",
-            "updated": "2018-04-16T07:04:36+0000"
+            "updated": "2018-05-08T08:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -650,7 +650,7 @@
             "pv": "1.0.13",
             "section": "x11/libs",
             "summary": "X Athena Widget Set",
-            "updated": "2017-09-26T09:09:51+0000"
+            "updated": "2018-05-08T08:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -669,7 +669,7 @@
             "pv": "1.1.0",
             "section": "x11/libs",
             "summary": "XFIXES Extension",
-            "updated": "2017-09-26T09:09:51+0000"
+            "updated": "2018-05-08T08:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1372,7 +1372,7 @@
             "pv": "1.6.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- Matrox MGA display driver",
-            "updated": "2017-09-26T09:09:54+0000"
+            "updated": "2018-05-08T08:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1429,7 +1429,7 @@
             "pv": "7.8.0",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ATI Radeon video driver",
-            "updated": "2017-09-26T09:09:55+0000"
+            "updated": "2018-05-08T08:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1955,13 +1955,13 @@
             "id": 268976,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
-            "license": "LGPLv2",
+            "license": "LGPLv2+ & GPLv2+",
             "pn": "tslib",
             "provides": "tslib ",
             "pv": "1.15",
             "section": "base",
             "summary": "An abstraction layer for touchscreen panel events",
-            "updated": "2018-04-16T07:04:34+0000"
+            "updated": "2018-05-08T08:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2417,7 +2417,7 @@
             "pv": "1.16",
             "section": "console/network",
             "summary": "A network authentication protocol",
-            "updated": "2018-04-04T03:04:22+0000"
+            "updated": "2018-05-03T03:05:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -3340,7 +3340,7 @@
             "filepath": "recipes-support/libteam",
             "homepage": "http://www.libteam.org/",
             "id": 269063,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools pkgconfig ptest siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPLv2.1",
             "pn": "libteam",
@@ -3348,7 +3348,7 @@
             "pv": "1.27",
             "section": "libs/network",
             "summary": "Library for controlling team network device",
-            "updated": "2017-09-26T09:09:08+0000"
+            "updated": "2018-05-08T08:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3944,7 +3944,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgpiod.bb",
+            "filename": "libgpiod_0.3.3.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 269098,
@@ -3953,10 +3953,10 @@
             "license": "LGPLv2.1+",
             "pn": "libgpiod",
             "provides": "libgpiod ",
-            "pv": "0.3.2",
+            "pv": "0.3.3",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2018-03-26T08:03:53+0000"
+            "updated": "2018-05-08T08:05:56+0000"
         },
         {
             "bbclassextend": "",
@@ -5635,19 +5635,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "htop_2.0.2.bb",
+            "filename": "htop_2.1.0.bb",
             "filepath": "recipes-support/htop",
-            "homepage": "http://htop.sf.net",
+            "homepage": "http://hisham.hm/htop",
             "id": 269193,
-            "inherits": "autotools siteconfig siteinfo",
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "htop",
             "provides": "htop ",
-            "pv": "2.0.2",
+            "pv": "2.1.0",
             "section": "console/utils",
-            "summary": "htop process monitor",
-            "updated": "2017-11-23T02:11:57+0000"
+            "summary": "Interactive process viewer",
+            "updated": "2018-05-08T08:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -7642,7 +7642,7 @@
             "pv": "16.02",
             "section": "base",
             "summary": "7-zip is a commandline utility handling 7z archives.",
-            "updated": "2018-03-07T03:03:47+0000"
+            "updated": "2018-05-08T08:05:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -8725,7 +8725,7 @@
             "pv": "8.29.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2017-09-26T09:09:46+0000"
+            "updated": "2018-05-08T08:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -9397,7 +9397,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gpsd_3.16.bb",
+            "filename": "gpsd_3.17.bb",
             "filepath": "recipes-navigation/gpsd",
             "homepage": "",
             "id": 269409,
@@ -9406,10 +9406,10 @@
             "license": "BSD",
             "pn": "gpsd",
             "provides": "gpsd virtual/gpsd",
-            "pv": "3.16",
+            "pv": "3.17",
             "section": "console/network",
             "summary": "A TCP/IP Daemon simplifying the communication with GPS devices",
-            "updated": "2017-12-06T02:12:21+0000"
+            "updated": "2018-05-08T08:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -9694,7 +9694,7 @@
             "pv": "5.1.1.r37",
             "section": "console/utils",
             "summary": "",
-            "updated": "2017-11-23T02:11:57+0000"
+            "updated": "2018-05-08T08:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -10594,7 +10594,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "sip_4.19.2.bb",
+            "filename": "sip_4.19.8.bb",
             "filepath": "recipes-devtools/sip",
             "homepage": "http://www.riverbankcomputing.co.uk/sip",
             "id": 269484,
@@ -10603,10 +10603,10 @@
             "license": "GPLv2+",
             "pn": "sip",
             "provides": "sip ",
-            "pv": "4.19.2",
+            "pv": "4.19.8",
             "section": "devel",
             "summary": "SIP is a C++/Python Wrapper Generator",
-            "updated": "2017-09-26T09:09:00+0000"
+            "updated": "2018-05-08T08:05:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -10705,7 +10705,7 @@
         },
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": " error: invalid use of incomplete type 'RCF::AsioIoService {aka class boost::asio::io_service}; among others?",
             "bugtracker": "",
             "description": "Unlike other communication frameworks, RCF doesn't use a separate IDL (Interface Definition Language). RCF interfaces are defined directly in C++, and serialization for user-defined data types likewise is implemented in C++. Instead of a separate IDL compiler tool, RCF uses the C++ compiler to generate client and server stubs.",
             "filename": "librcf_2.2.0.0.bb",
@@ -10720,7 +10720,7 @@
             "pv": "2.2.0.0",
             "section": "libs",
             "summary": "RCF (Remote Call Framework) is a cross-platform interprocess communication framework for C++",
-            "updated": "2017-09-26T09:09:01+0000"
+            "updated": "2018-05-08T08:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11601,7 +11601,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "flatbuffers_1.7.1.bb",
+            "filename": "flatbuffers_1.9.0.bb",
             "filepath": "recipes-devtools/flatbuffers",
             "homepage": "https://github.com/google/flatbuffers",
             "id": 377109,
@@ -11610,10 +11610,10 @@
             "license": "Apache-2.0",
             "pn": "flatbuffers",
             "provides": "flatbuffers ",
-            "pv": "1.7.1",
+            "pv": "1.9.0",
             "section": "console/tools",
             "summary": "Memory Efficient Serialization Library",
-            "updated": "2017-09-26T09:09:08+0000"
+            "updated": "2018-05-08T08:05:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -11658,7 +11658,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Ceres Solver is an open source C++ library for modeling and solving large, complicated optimization problems.",
-            "filename": "ceres-solver_1.13.bb",
+            "filename": "ceres-solver_1.14.bb",
             "filepath": "recipes-support/ceres-solver",
             "homepage": "http://ceres-solver.org/",
             "id": 377112,
@@ -11667,10 +11667,10 @@
             "license": "BSD-3-Clause",
             "pn": "ceres-solver",
             "provides": "ceres-solver ",
-            "pv": "1.13",
+            "pv": "1.14",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:09+0000"
+            "updated": "2018-05-08T08:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11689,7 +11689,7 @@
             "pv": "1.9.0-gitX",
             "section": "libs",
             "summary": "Linux Library for low speed I/O Communication",
-            "updated": "2018-03-07T03:03:47+0000"
+            "updated": "2018-05-08T08:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11743,10 +11743,10 @@
             "license": "(Apache-2.0 | GPL-2.0) & BSD-3-Clause",
             "pn": "rocksdb",
             "provides": "rocksdb ",
-            "pv": "5.8+gitX",
+            "pv": "5.12.2",
             "section": "base",
             "summary": "RocksDB an embeddable, persistent key-value store",
-            "updated": "2018-04-04T03:04:21+0000"
+            "updated": "2018-05-08T08:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -12012,7 +12012,7 @@
             "pv": "3.3.3+git",
             "section": "base",
             "summary": "Libyui is a widget abstraction library providing Qt, GTK and ncurses frontends.",
-            "updated": "2018-04-04T03:04:23+0000"
+            "updated": "2018-05-08T08:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -12165,6 +12165,63 @@
             "section": "base",
             "summary": "dbus broker",
             "updated": "2018-04-25T03:04:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "cpprest_2.10.2.bb",
+            "filepath": "recipes-support/cpprest",
+            "homepage": "https://github.com/Microsoft/cpprestsdk/",
+            "id": 625470,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "cpprest",
+            "provides": "cpprest ",
+            "pv": "2.10.2",
+            "section": "libs/network",
+            "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
+            "updated": "2018-05-08T08:05:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libgpiod_1.0.1.bb",
+            "filepath": "recipes-support/libgpiod",
+            "homepage": "",
+            "id": 625471,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1+",
+            "pn": "libgpiod",
+            "provides": "libgpiod ",
+            "pv": "1.0.1",
+            "section": "base",
+            "summary": "C library and tools for interacting with the linux GPIO character device",
+            "updated": "2018-05-08T08:05:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "websocketpp_0.7.0.bb",
+            "filepath": "recipes-support/websocketpp",
+            "homepage": "https://github.com/zaphoyd/websocketpp",
+            "id": 625472,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "BSD-3-Clause",
+            "pn": "websocketpp",
+            "provides": "websocketpp ",
+            "pv": "0.7.0",
+            "section": "libs/network",
+            "summary": "C++/Boost Asio based websocket client/server library.",
+            "updated": "2018-05-08T08:05:56+0000"
         }
     ],
     "wrtemplates": []
