@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180430",
+            "bitbake_branch": "wr-10.18-20180526",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-03T01:05:55+0000",
+            "updated": "2018-05-28T02:05:25+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180202",
+            "actual_branch": "wr-10.18-20180521",
             "branch": 38,
             "collection": "selinux",
             "id": 14951,
             "layer": 20,
-            "updated": "2018-04-19T07:04:50+0000",
-            "vcs_last_commit": "2018-04-19T07:04:50+0000",
-            "vcs_last_fetch": "2018-04-19T07:04:50+0000",
-            "vcs_last_rev": "5954943e7d59ef71e28177e303940d59bff7745d",
+            "updated": "2018-05-21T01:05:20+0000",
+            "vcs_last_commit": "2018-05-21T01:05:20+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:20+0000",
+            "vcs_last_rev": "3db39914f38dcf528265920597cb02f47b25f0b5",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180514",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-18T06:05:27+0000",
-            "vcs_last_commit": "2018-05-18T06:05:27+0000",
-            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
-            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
+            "updated": "2018-05-30T08:05:55+0000",
+            "vcs_last_commit": "2018-05-30T08:05:55+0000",
+            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
+            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180508",
+            "actual_branch": "wr-10.18-20180521",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-05-08T02:05:06+0000",
-            "vcs_last_commit": "2018-05-08T02:05:06+0000",
-            "vcs_last_fetch": "2018-05-08T02:05:06+0000",
-            "vcs_last_rev": "8fe2de7fb801f09cd47a5899396ca36c837b67ea",
+            "updated": "2018-05-21T01:05:08+0000",
+            "vcs_last_commit": "2018-05-21T01:05:08+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:08+0000",
+            "vcs_last_rev": "7314b9f210d8199704e934b4fc022734cb517ee1",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -94,7 +94,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2017-08-25T17:08:12+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_file_base_url": "",
@@ -111,7 +111,7 @@
             "name": "meta-python",
             "status": "P",
             "summary": "PYTHON Language related items",
-            "updated": "2017-08-25T17:08:36+0000",
+            "updated": "2018-05-30T22:05:58+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_file_base_url": "",
@@ -128,7 +128,7 @@
             "name": "meta-selinux",
             "status": "P",
             "summary": "SE Linux support",
-            "updated": "2017-08-25T17:08:31+0000",
+            "updated": "2018-05-30T22:05:27+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-selinux",
             "vcs_web_file_base_url": "",
@@ -155,7 +155,7 @@
             "pv": "2.7.6",
             "section": "base",
             "summary": "User space tools for kernel auditing",
-            "updated": "2018-03-28T05:03:13+0000"
+            "updated": "2018-05-21T09:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -307,7 +307,7 @@
             "pv": "2.7",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2018-01-30T02:01:26+0000"
+            "updated": "2018-05-21T09:05:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -345,7 +345,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux policy core utilities",
-            "updated": "2018-02-07T06:02:10+0000"
+            "updated": "2018-05-21T09:05:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -383,7 +383,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2018-01-30T02:01:25+0000"
+            "updated": "2018-05-21T09:05:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -440,7 +440,7 @@
             "pv": "2.7",
             "section": "base",
             "summary": "SELinux policy core utilities",
-            "updated": "2018-02-07T06:02:11+0000"
+            "updated": "2018-05-21T09:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -611,7 +611,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "SELinux minimum policy",
-            "updated": "2017-09-26T09:09:28+0000"
+            "updated": "2018-05-21T09:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -630,7 +630,7 @@
             "pv": "2.20170204",
             "section": "base",
             "summary": "SELinux targeted policy",
-            "updated": "2017-10-16T03:10:13+0000"
+            "updated": "2018-05-21T09:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -668,7 +668,7 @@
             "pv": "2.20170204",
             "section": "base",
             "summary": "SELinux minimum policy",
-            "updated": "2017-10-16T03:10:13+0000"
+            "updated": "2018-05-21T09:05:51+0000"
         },
         {
             "bbclassextend": "",

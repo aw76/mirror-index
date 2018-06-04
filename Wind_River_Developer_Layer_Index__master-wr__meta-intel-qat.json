@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180430",
+            "bitbake_branch": "wr-10.18-20180526",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-03T01:05:55+0000",
+            "updated": "2018-05-28T02:05:25+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180514",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-18T06:05:27+0000",
-            "vcs_last_commit": "2018-05-18T06:05:27+0000",
-            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
-            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
+            "updated": "2018-05-30T08:05:55+0000",
+            "vcs_last_commit": "2018-05-30T08:05:55+0000",
+            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
+            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180430",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-04-30T11:04:32+0000",
-            "vcs_last_commit": "2018-04-30T11:04:32+0000",
-            "vcs_last_fetch": "2018-04-30T11:04:32+0000",
-            "vcs_last_rev": "f46241eb55582c751700f7370802553e63da2ae7",
+            "updated": "2018-05-26T04:05:54+0000",
+            "vcs_last_commit": "2018-05-26T04:05:54+0000",
+            "vcs_last_fetch": "2018-05-26T04:05:54+0000",
+            "vcs_last_rev": "02424cec5ba9d69ea875109f433b30a1895a083a",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180129",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "intel-qat",
             "id": 168980,
             "layer": 193,
-            "updated": "2018-04-09T07:04:00+0000",
-            "vcs_last_commit": "2018-04-09T07:04:00+0000",
-            "vcs_last_fetch": "2018-04-09T07:04:00+0000",
-            "vcs_last_rev": "5d7907f998bb8c85337785895d242c2e9459ff87",
+            "updated": "2018-05-26T04:05:04+0000",
+            "vcs_last_commit": "2018-05-26T04:05:04+0000",
+            "vcs_last_fetch": "2018-05-26T04:05:04+0000",
+            "vcs_last_rev": "c81058110e134378d4d760245ea36aee0bc9d634",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -94,7 +94,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2017-08-25T17:08:12+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_file_base_url": "",
@@ -111,7 +111,7 @@
             "name": "meta-intel",
             "status": "P",
             "summary": "Intel board support common layer",
-            "updated": "2017-09-07T23:09:37+0000",
+            "updated": "2018-05-30T22:05:55+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-intel",
             "vcs_web_file_base_url": "",
@@ -128,7 +128,7 @@
             "name": "meta-intel-qat",
             "status": "P",
             "summary": "intel qat layer",
-            "updated": "2017-09-29T21:09:45+0000",
+            "updated": "2018-05-30T22:05:36+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-intel-qat",
             "vcs_web_file_base_url": "",
@@ -155,7 +155,7 @@
             "pv": "0.4.7-002",
             "section": "libs",
             "summary": "Zlib QAT_MEM Memory Management Module for Intel Quick Assist Technology",
-            "updated": "2017-09-28T08:09:23+0000"
+            "updated": "2018-05-28T02:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -174,7 +174,7 @@
             "pv": "0.4.9-009",
             "section": "libs/network",
             "summary": "libcrypto* (OpenSSL*) QAT_MEM Memory Management Module for Intel Quick Assist Technology",
-            "updated": "2017-09-28T08:09:23+0000"
+            "updated": "2018-05-28T02:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -193,7 +193,7 @@
             "pv": "2.5.0-80",
             "section": "base",
             "summary": "",
-            "updated": "2018-01-30T02:01:42+0000"
+            "updated": "2018-05-28T02:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -212,7 +212,7 @@
             "pv": "2.6.0-65",
             "section": "base",
             "summary": "",
-            "updated": "2018-01-30T02:01:42+0000"
+            "updated": "2018-05-28T02:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -231,7 +231,7 @@
             "pv": "1.0.3-42",
             "section": "base",
             "summary": "",
-            "updated": "2018-01-30T02:01:41+0000"
+            "updated": "2018-05-28T02:05:03+0000"
         }
     ],
     "wrtemplates": []

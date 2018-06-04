@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180430",
+            "bitbake_branch": "wr-10.18-20180526",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-03T01:05:55+0000",
+            "updated": "2018-05-28T02:05:25+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180514",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-18T06:05:27+0000",
-            "vcs_last_commit": "2018-05-18T06:05:27+0000",
-            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
-            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
+            "updated": "2018-05-30T08:05:55+0000",
+            "vcs_last_commit": "2018-05-30T08:05:55+0000",
+            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
+            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180508",
+            "actual_branch": "wr-10.18-20180521",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-05-08T02:05:56+0000",
-            "vcs_last_commit": "2018-05-08T02:05:56+0000",
-            "vcs_last_fetch": "2018-05-08T02:05:56+0000",
-            "vcs_last_rev": "0f657f14580d058cf971bbd52efcbb5f09b016bf",
+            "updated": "2018-05-21T01:05:10+0000",
+            "vcs_last_commit": "2018-05-21T01:05:10+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:10+0000",
+            "vcs_last_rev": "52187a153d1c1906e6c3a2c86bcf0ad96c15347d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -74,7 +74,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2017-08-25T17:08:12+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_file_base_url": "",
@@ -91,7 +91,7 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2017-08-25T17:08:40+0000",
+            "updated": "2018-05-30T22:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_file_base_url": "",
@@ -2158,7 +2158,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/libuv/libuv/issues",
             "description": "",
-            "filename": "libuv_1.11.0.bb",
+            "filename": "libuv_1.20.3.bb",
             "filepath": "recipes-connectivity/libuv",
             "homepage": "https://github.com/libuv/libuv",
             "id": 268989,
@@ -2167,10 +2167,10 @@
             "license": "MIT",
             "pn": "libuv",
             "provides": "libuv ",
-            "pv": "1.11.0",
+            "pv": "1.20.3",
             "section": "base",
             "summary": "A multi-platform support library with a focus on asynchronous I/O",
-            "updated": "2017-09-26T09:09:00+0000"
+            "updated": "2018-05-21T09:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2234,7 +2234,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libmbim is a glib-based library for talking to WWAN modems and devices which speak the Mobile Interface Broadband Model (MBIM) protocol",
-            "filename": "libmbim_1.14.0.bb",
+            "filename": "libmbim_1.16.0.bb",
             "filepath": "recipes-connectivity/libmbim",
             "homepage": "http://www.freedesktop.org/wiki/Software/libmbim/",
             "id": 268993,
@@ -2243,10 +2243,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "libmbim",
             "provides": "libmbim ",
-            "pv": "1.14.0",
+            "pv": "1.16.0",
             "section": "base",
             "summary": "libmbim is library for talking to WWAN devices by MBIM protocol",
-            "updated": "2017-09-26T09:09:00+0000"
+            "updated": "2018-05-21T09:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2348,7 +2348,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ModemManager is a DBus-activated daemon which controls mobile broadband (2G/3G/4G) devices and connections",
-            "filename": "modemmanager_1.6.4.bb",
+            "filename": "modemmanager_1.7.991.bb",
             "filepath": "recipes-connectivity/modemmanager",
             "homepage": "http://www.freedesktop.org/wiki/Software/ModemManager/",
             "id": 269003,
@@ -2357,10 +2357,10 @@
             "license": "GPL-2.0 & LGPL-2.1",
             "pn": "modemmanager",
             "provides": "modemmanager ",
-            "pv": "1.6.4",
+            "pv": "1.7.991",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2017-09-26T09:09:01+0000"
+            "updated": "2018-05-21T09:05:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2436,7 +2436,7 @@
             "pv": "1.7.2",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T09:09:02+0000"
+            "updated": "2018-05-21T09:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2709,7 +2709,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libwebsockets_2.1.0.bb",
+            "filename": "libwebsockets_3.0.0.bb",
             "filepath": "recipes-connectivity/libwebsockets",
             "homepage": "https://libwebsockets.org/",
             "id": 269024,
@@ -2718,10 +2718,10 @@
             "license": "LGPL-2.1",
             "pn": "libwebsockets",
             "provides": "libwebsockets ",
-            "pv": "2.1.0",
+            "pv": "3.0.0",
             "section": "base",
             "summary": "Canonical libwebsockets.org websocket library",
-            "updated": "2017-09-26T09:09:04+0000"
+            "updated": "2018-05-21T09:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -3747,7 +3747,7 @@
             "pv": "9.4.17",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2018-04-25T03:04:06+0000"
+            "updated": "2018-05-21T09:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4875,7 +4875,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Modern, powerful open source C++ class libraries and frameworks for building network- and internet-based applications that run on desktop, server, mobile and embedded systems.",
-            "filename": "poco_1.8.0.1.bb",
+            "filename": "poco_1.9.0.bb",
             "filepath": "recipes-support/poco",
             "homepage": "http://pocoproject.org/",
             "id": 269149,
@@ -4884,10 +4884,10 @@
             "license": "BSL-1.0",
             "pn": "poco",
             "provides": "poco ",
-            "pv": "1.8.0.1",
+            "pv": "1.9.0",
             "section": "libs",
             "summary": "Modern, powerful open source cross-platform C++ class libraries",
-            "updated": "2017-12-06T02:12:20+0000"
+            "updated": "2018-05-21T09:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5647,7 +5647,7 @@
             "pv": "2.1.0",
             "section": "console/utils",
             "summary": "Interactive process viewer",
-            "updated": "2018-05-08T08:05:55+0000"
+            "updated": "2018-05-21T09:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -6072,7 +6072,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LVM2 is a set of utilities to manage logical volumes in Linux.",
-            "filename": "libdevmapper_2.02.171.bb",
+            "filename": "libdevmapper_2.02.177.bb",
             "filepath": "recipes-support/lvm2",
             "homepage": "https://www.sourceware.org/lvm2/",
             "id": 269222,
@@ -6081,17 +6081,17 @@
             "license": "GPLv2 & LGPLv2",
             "pn": "libdevmapper",
             "provides": "libdevmapper ",
-            "pv": "2.02.171",
+            "pv": "2.02.177",
             "section": "utils",
             "summary": "",
-            "updated": "2017-10-10T03:10:06+0000"
+            "updated": "2018-05-21T09:05:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "LVM2 is a set of utilities to manage logical volumes in Linux.",
-            "filename": "lvm2_2.02.171.bb",
+            "filename": "lvm2_2.02.177.bb",
             "filepath": "recipes-support/lvm2",
             "homepage": "https://www.sourceware.org/lvm2/",
             "id": 269223,
@@ -6100,10 +6100,10 @@
             "license": "GPLv2 & LGPLv2",
             "pn": "lvm2",
             "provides": "lvm2 ",
-            "pv": "2.02.171",
+            "pv": "2.02.177",
             "section": "utils",
             "summary": "",
-            "updated": "2017-10-10T03:10:07+0000"
+            "updated": "2018-05-21T09:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -6623,7 +6623,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "poppler_0.63.0.bb",
+            "filename": "poppler_0.64.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 269254,
@@ -6632,17 +6632,17 @@
             "license": "GPLv2",
             "pn": "poppler",
             "provides": "poppler ",
-            "pv": "0.63.0",
+            "pv": "0.64.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2018-04-25T03:04:04+0000"
+            "updated": "2018-05-21T09:05:09+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Encoding files for use with poppler that enable poppler to                correctly render CJK and Cyrrilic.",
-            "filename": "poppler-data_0.4.8.bb",
+            "filename": "poppler-data_0.4.9.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 269255,
@@ -6651,10 +6651,10 @@
             "license": "BSD & GPLv2 & GPLv3+",
             "pn": "poppler-data",
             "provides": "poppler-data ",
-            "pv": "0.4.8",
+            "pv": "0.4.9",
             "section": "base",
             "summary": "Encoding files for Poppler",
-            "updated": "2017-12-13T02:12:37+0000"
+            "updated": "2018-05-21T09:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -7284,7 +7284,7 @@
             "updated": "2017-09-26T09:09:36+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Opus codec is designed for interactive speech and audio transmission over the Internet. It is designed by the IETF Codec Working Group and incorporates technology from Skype's SILK codec and Xiph.Org's CELT codec.",
@@ -7300,7 +7300,7 @@
             "pv": "1.1.3",
             "section": "libs/multimedia",
             "summary": "Opus Audio Codec",
-            "updated": "2017-09-26T09:09:36+0000"
+            "updated": "2018-05-21T09:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -8668,7 +8668,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-04T03:04:20+0000"
+            "updated": "2018-05-21T09:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -9105,7 +9105,7 @@
             "pv": "3.0-a9",
             "section": "console/utils",
             "summary": "Tools for performance analysis",
-            "updated": "2017-09-26T09:09:49+0000"
+            "updated": "2018-05-21T09:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -9219,7 +9219,7 @@
             "pv": "7.8.0",
             "section": "console/tests",
             "summary": "Phoronix Test Suite",
-            "updated": "2018-04-04T03:04:20+0000"
+            "updated": "2018-05-21T09:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -10055,7 +10055,7 @@
             "pv": "1.5.7",
             "section": "devel/python",
             "summary": "Cpuset is a Python application to make using the cpusets facilities in the Linux kernel easier",
-            "updated": "2017-09-26T09:09:56+0000"
+            "updated": "2018-05-21T09:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -10074,7 +10074,7 @@
             "pv": "1.31",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T06:03:20+0000"
+            "updated": "2018-05-21T09:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -10109,10 +10109,10 @@
             "license": "MIT",
             "pn": "luajit",
             "provides": "luajit ",
-            "pv": "2.0.5",
+            "pv": "2.0.5+gitX",
             "section": "base",
             "summary": "Just-In-Time Compiler for Lua",
-            "updated": "2018-03-20T06:03:20+0000"
+            "updated": "2018-05-21T09:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -10663,7 +10663,7 @@
             "pv": "0.10+gitrX",
             "section": "base",
             "summary": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing",
-            "updated": "2017-09-26T09:09:01+0000"
+            "updated": "2018-05-21T09:05:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -11708,7 +11708,7 @@
             "pv": "1.6.0-gitX",
             "section": "libs",
             "summary": "Sensor/Actuator repository for Mraa",
-            "updated": "2018-03-07T03:03:47+0000"
+            "updated": "2018-05-21T09:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -11746,7 +11746,7 @@
             "pv": "5.12.2",
             "section": "base",
             "summary": "RocksDB an embeddable, persistent key-value store",
-            "updated": "2018-05-08T08:05:53+0000"
+            "updated": "2018-05-21T09:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -12222,6 +12222,25 @@
             "section": "libs/network",
             "summary": "C++/Boost Asio based websocket client/server library.",
             "updated": "2018-05-08T08:05:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://sourceforge.net/p/stm32flash/tickets/",
+            "description": "",
+            "filename": "stm32flash_0.5.bb",
+            "filepath": "recipes-support/stm32flash",
+            "homepage": "https://sourceforge.net/projects/stm32flash/",
+            "id": 631641,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "stm32flash",
+            "provides": "stm32flash ",
+            "pv": "0.5",
+            "section": "base",
+            "summary": "Open source flash program for STM32 using the ST serial bootloader",
+            "updated": "2018-05-21T09:05:12+0000"
         }
     ],
     "wrtemplates": []

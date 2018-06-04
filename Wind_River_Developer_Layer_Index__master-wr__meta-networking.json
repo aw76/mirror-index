@@ -8,70 +8,70 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180430",
+            "bitbake_branch": "wr-10.18-20180526",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-03T01:05:55+0000",
+            "updated": "2018-05-28T02:05:25+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180514",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-18T06:05:27+0000",
-            "vcs_last_commit": "2018-05-18T06:05:27+0000",
-            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
-            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
+            "updated": "2018-05-30T08:05:55+0000",
+            "vcs_last_commit": "2018-05-30T08:05:55+0000",
+            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
+            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180508",
+            "actual_branch": "wr-10.18-20180521",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-05-15T09:05:16+0000",
-            "vcs_last_commit": "2018-05-15T09:05:16+0000",
-            "vcs_last_fetch": "2018-05-15T09:05:16+0000",
-            "vcs_last_rev": "7658e45a5aa7fa17c255888704d4183cc4526fcd",
+            "updated": "2018-05-23T01:05:55+0000",
+            "vcs_last_commit": "2018-05-23T01:05:55+0000",
+            "vcs_last_fetch": "2018-05-23T01:05:55+0000",
+            "vcs_last_rev": "199a378f96d9d071b745f9721c1193ee0032ca95",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180508",
+            "actual_branch": "wr-10.18-20180521",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-05-08T02:05:56+0000",
-            "vcs_last_commit": "2018-05-08T02:05:56+0000",
-            "vcs_last_fetch": "2018-05-08T02:05:56+0000",
-            "vcs_last_rev": "0f657f14580d058cf971bbd52efcbb5f09b016bf",
+            "updated": "2018-05-21T01:05:10+0000",
+            "vcs_last_commit": "2018-05-21T01:05:10+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:10+0000",
+            "vcs_last_rev": "52187a153d1c1906e6c3a2c86bcf0ad96c15347d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180508",
+            "actual_branch": "wr-10.18-20180521",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-05-08T02:05:06+0000",
-            "vcs_last_commit": "2018-05-08T02:05:06+0000",
-            "vcs_last_fetch": "2018-05-08T02:05:06+0000",
-            "vcs_last_rev": "8fe2de7fb801f09cd47a5899396ca36c837b67ea",
+            "updated": "2018-05-21T01:05:08+0000",
+            "vcs_last_commit": "2018-05-21T01:05:08+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:08+0000",
+            "vcs_last_rev": "7314b9f210d8199704e934b4fc022734cb517ee1",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -114,7 +114,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2017-08-25T17:08:12+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_file_base_url": "",
@@ -131,7 +131,7 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2017-08-25T17:08:40+0000",
+            "updated": "2018-05-30T22:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_file_base_url": "",
@@ -148,7 +148,7 @@
             "name": "meta-networking",
             "status": "P",
             "summary": "Networking-related packages and configuration",
-            "updated": "2017-08-25T17:08:48+0000",
+            "updated": "2018-05-30T22:05:09+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_file_base_url": "",
@@ -165,7 +165,7 @@
             "name": "meta-python",
             "status": "P",
             "summary": "PYTHON Language related items",
-            "updated": "2017-08-25T17:08:36+0000",
+            "updated": "2018-05-30T22:05:58+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_file_base_url": "",
@@ -230,7 +230,7 @@
             "pv": "2.9.7.5",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T09:09:07+0000"
+            "updated": "2018-05-23T02:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -648,7 +648,7 @@
             "pv": "1.4.4",
             "section": "net",
             "summary": "Connection tracking userspace tools for Linux",
-            "updated": "2017-09-26T09:09:10+0000"
+            "updated": "2018-05-23T02:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -914,7 +914,7 @@
             "pv": "2.2.33",
             "section": "mail",
             "summary": "Dovecot is an open source IMAP and POP3 email server",
-            "updated": "2018-02-07T06:02:25+0000"
+            "updated": "2018-05-23T02:05:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1484,7 +1484,7 @@
             "pv": "2.5.6",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-05-23T02:05:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2320,7 +2320,7 @@
             "pv": "3.2.2",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-05-15T09:05:43+0000"
+            "updated": "2018-05-21T09:05:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2434,7 +2434,7 @@
             "pv": "1.3",
             "section": "console/network",
             "summary": "An IP address pool manager",
-            "updated": "2017-09-26T09:09:22+0000"
+            "updated": "2018-05-23T02:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2890,7 +2890,7 @@
             "pv": "1.8",
             "section": "net",
             "summary": "An L2TP client/server, designed for VPN use.",
-            "updated": "2018-04-09T02:04:53+0000"
+            "updated": "2018-05-21T09:05:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2985,7 +2985,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T09:09:26+0000"
+            "updated": "2018-05-23T02:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3080,7 +3080,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T09:09:26+0000"
+            "updated": "2018-05-23T02:05:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3366,6 +3366,25 @@
             "section": "base",
             "summary": "Userspace tools for Linux IEEE 802.15.4 stack",
             "updated": "2018-05-03T01:05:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This is the userspace components for the Linux Kernel's drivers Infiniband/RDMA subsystem.",
+            "filename": "rdma-core_17.bb",
+            "filepath": "recipes-support/rdma-core",
+            "homepage": "",
+            "id": 631643,
+            "inherits": "cmake",
+            "layerbranch": 14964,
+            "license": "BSD-2-Clause | GPLv2",
+            "pn": "rdma-core",
+            "provides": "rdma-core ",
+            "pv": "17",
+            "section": "libs",
+            "summary": "Userspace support for InfiniBand/RDMA verbs",
+            "updated": "2018-05-21T09:05:34+0000"
         }
     ],
     "wrtemplates": []

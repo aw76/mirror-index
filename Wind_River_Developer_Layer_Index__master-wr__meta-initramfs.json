@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180430",
+            "bitbake_branch": "wr-10.18-20180526",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-03T01:05:55+0000",
+            "updated": "2018-05-28T02:05:25+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180514",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-18T06:05:27+0000",
-            "vcs_last_commit": "2018-05-18T06:05:27+0000",
-            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
-            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
+            "updated": "2018-05-30T08:05:55+0000",
+            "vcs_last_commit": "2018-05-30T08:05:55+0000",
+            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
+            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180508",
+            "actual_branch": "wr-10.18-20180521",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2018-05-08T02:05:07+0000",
-            "vcs_last_commit": "2018-05-08T02:05:07+0000",
-            "vcs_last_fetch": "2018-05-08T02:05:07+0000",
-            "vcs_last_rev": "752a2c8e4736b7bd4c90acc8c1f918d554d22da8",
+            "updated": "2018-05-21T01:05:09+0000",
+            "vcs_last_commit": "2018-05-21T01:05:09+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:09+0000",
+            "vcs_last_rev": "b3ce7465e0183d395ea0764e1127610ad10f7503",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": null
@@ -74,7 +74,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2017-08-25T17:08:12+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_file_base_url": "",
@@ -91,7 +91,7 @@
             "name": "meta-initramfs",
             "status": "P",
             "summary": "klibc library and related utilities for building an initramfs",
-            "updated": "2017-08-25T17:08:07+0000",
+            "updated": "2018-05-30T22:05:49+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_file_base_url": "",
@@ -336,7 +336,7 @@
             "description": "grubby is a command line tool for updating and displaying information about the configuration files for the grub, lilo, elilo (ia64), yaboot (powerpc) and zipl (s390) boot loaders. It is primarily designed to be used from scripts which install new kernels and need to find information about the current boot environment. ",
             "filename": "grubby_8.40.bb",
             "filepath": "recipes-devtools/grubby",
-            "homepage": "",
+            "homepage": "https://github.com/rhboot/grubby",
             "id": 268868,
             "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo",
             "layerbranch": 14962,
@@ -346,7 +346,7 @@
             "pv": "8.40",
             "section": "base",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2017-09-26T09:09:44+0000"
+            "updated": "2018-05-21T09:05:05+0000"
         },
         {
             "bbclassextend": "",
@@ -366,6 +366,25 @@
             "section": "kernel/userland",
             "summary": "Kexec tools, statically compiled against klibc",
             "updated": "2018-01-30T02:01:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "grubby is a command line tool for updating and displaying information about the configuration files for the grub, lilo, elilo (ia64), yaboot (powerpc) and zipl (s390) boot loaders. It is primarily designed to be used from scripts which install new kernels and need to find information about the current boot environment. ",
+            "filename": "grubby_git.bb",
+            "filepath": "recipes-devtools/grubby",
+            "homepage": "https://github.com/rhboot/grubby",
+            "id": 631640,
+            "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo",
+            "layerbranch": 14962,
+            "license": "GPLv2+",
+            "pn": "grubby",
+            "provides": "grubby ",
+            "pv": "git",
+            "section": "base",
+            "summary": "A command line tool for updating and displaying info about boot loaders",
+            "updated": "2018-05-21T09:05:05+0000"
         }
     ],
     "wrtemplates": []

@@ -8,57 +8,99 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180430",
+            "bitbake_branch": "wr-10.18-20180526",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-03T01:05:55+0000",
+            "updated": "2018-05-28T02:05:25+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180514",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-05-14T02:05:22+0000",
-            "vcs_last_commit": "2018-05-14T02:05:22+0000",
-            "vcs_last_fetch": "2018-05-14T02:05:22+0000",
-            "vcs_last_rev": "20ec8356168993913afce92c53b76a3bbcacae0a",
+            "updated": "2018-05-26T04:05:54+0000",
+            "vcs_last_commit": "2018-05-26T04:05:54+0000",
+            "vcs_last_fetch": "2018-05-26T04:05:54+0000",
+            "vcs_last_rev": "e2d3487cacd9e23e520cd434079b583807e95171",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180514",
+            "actual_branch": "wr-10.18-20180526",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-18T06:05:27+0000",
-            "vcs_last_commit": "2018-05-18T06:05:27+0000",
-            "vcs_last_fetch": "2018-05-18T06:05:27+0000",
-            "vcs_last_rev": "938887ace40c1b50c8dd99c8fd9b0b943449eb48",
+            "updated": "2018-05-30T08:05:55+0000",
+            "vcs_last_commit": "2018-05-30T08:05:55+0000",
+            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
+            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180508",
+            "actual_branch": "wr-10.18-20180521",
+            "branch": 38,
+            "collection": "filesystems-layer",
+            "id": 14959,
+            "layer": 8,
+            "updated": "2018-05-21T01:05:08+0000",
+            "vcs_last_commit": "2018-05-21T01:05:08+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:08+0000",
+            "vcs_last_rev": "7314b9f210d8199704e934b4fc022734cb517ee1",
+            "vcs_subdir": "meta-filesystems",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180521",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-05-15T09:05:16+0000",
-            "vcs_last_commit": "2018-05-15T09:05:16+0000",
-            "vcs_last_fetch": "2018-05-15T09:05:16+0000",
-            "vcs_last_rev": "7658e45a5aa7fa17c255888704d4183cc4526fcd",
+            "updated": "2018-05-23T01:05:55+0000",
+            "vcs_last_commit": "2018-05-23T01:05:55+0000",
+            "vcs_last_fetch": "2018-05-23T01:05:55+0000",
+            "vcs_last_rev": "199a378f96d9d071b745f9721c1193ee0032ca95",
             "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180521",
+            "branch": 38,
+            "collection": "openembedded-layer",
+            "id": 14965,
+            "layer": 7,
+            "updated": "2018-05-21T01:05:10+0000",
+            "vcs_last_commit": "2018-05-21T01:05:10+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:10+0000",
+            "vcs_last_rev": "52187a153d1c1906e6c3a2c86bcf0ad96c15347d",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180521",
+            "branch": 38,
+            "collection": "meta-python",
+            "id": 14967,
+            "layer": 12,
+            "updated": "2018-05-21T01:05:08+0000",
+            "vcs_last_commit": "2018-05-21T01:05:08+0000",
+            "vcs_last_fetch": "2018-05-21T01:05:08+0000",
+            "vcs_last_rev": "7314b9f210d8199704e934b4fc022734cb517ee1",
+            "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
         }
@@ -81,6 +123,24 @@
             "id": 29390,
             "layerbranch": 14952,
             "required": false
+        },
+        {
+            "dependency": 8,
+            "id": 39260,
+            "layerbranch": 14952,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 39261,
+            "layerbranch": 14952,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 39262,
+            "layerbranch": 14952,
+            "required": true
         }
     ],
     "layerItems": [
@@ -94,9 +154,43 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2017-08-25T17:08:12+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Filesystem related libraries and programs.  Includes support for FUSE and related components.",
+            "id": 8,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-filesystems",
+            "status": "P",
+            "summary": "Filesystem related libraries and programs",
+            "updated": "2018-05-30T22:05:59+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -111,7 +205,24 @@
             "name": "meta-networking",
             "status": "P",
             "summary": "Networking-related packages and configuration",
-            "updated": "2017-08-25T17:08:48+0000",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_file_base_url": "",
@@ -128,7 +239,7 @@
             "name": "meta-virtualization",
             "status": "P",
             "summary": "Virtualization related components",
-            "updated": "2017-08-25T17:08:52+0000",
+            "updated": "2018-05-30T22:05:12+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-virtualization",
             "vcs_web_file_base_url": "",
@@ -225,13 +336,13 @@
             "id": 270511,
             "inherits": "autotools pkgconfig ptest python3-dir python3native siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14952,
-            "license": "GPLv2",
+            "license": "LGPLv2.1",
             "pn": "lxc",
             "provides": "lxc ",
             "pv": "2.0.8",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-05-15T07:05:24+0000"
+            "updated": "2018-05-28T02:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -466,19 +577,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Light-weight package to set up cgroups at system boot.",
-            "filename": "cgroup-lite_1.11.bb",
+            "filename": "cgroup-lite_1.15.bb",
             "filepath": "recipes-containers/cgroup-lite",
-            "homepage": "http://packages.ubuntu.com/source/precise/cgroup-lite",
+            "homepage": "http://packages.ubuntu.com/source/artful/cgroup-lite",
             "id": 270524,
-            "inherits": "allarch update-rc.d",
+            "inherits": "allarch systemd update-rc.d",
             "layerbranch": 14952,
             "license": "GPLv2",
             "pn": "cgroup-lite",
             "provides": "cgroup-lite ",
-            "pv": "1.11",
+            "pv": "1.15",
             "section": "devel",
             "summary": "Light-weight package to set up cgroups at system boot.",
-            "updated": "2017-09-26T09:09:40+0000"
+            "updated": "2018-05-28T02:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -839,7 +950,7 @@
             "pv": "4.7+gitX",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-02-07T06:02:32+0000"
+            "updated": "2018-05-28T02:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -858,7 +969,7 @@
             "pv": "4.10.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-02-07T06:02:32+0000"
+            "updated": "2018-05-28T02:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1846,7 +1957,7 @@
             "pv": "4.9.1",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-02-07T06:02:32+0000"
+            "updated": "2018-05-28T02:05:17+0000"
         },
         {
             "bbclassextend": "",
