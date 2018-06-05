@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180526",
+            "bitbake_branch": "wr-10.18-20180604",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-28T02:05:25+0000",
+            "updated": "2018-06-05T02:06:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-30T08:05:55+0000",
-            "vcs_last_commit": "2018-05-30T08:05:55+0000",
-            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
-            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
+            "updated": "2018-06-04T03:06:19+0000",
+            "vcs_last_commit": "2018-06-04T03:06:19+0000",
+            "vcs_last_fetch": "2018-06-04T03:06:19+0000",
+            "vcs_last_rev": "8b3e41db33ef230d04c898a6678500eb1fa668f7",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-05-21T01:05:10+0000",
-            "vcs_last_commit": "2018-05-21T01:05:10+0000",
-            "vcs_last_fetch": "2018-05-21T01:05:10+0000",
-            "vcs_last_rev": "52187a153d1c1906e6c3a2c86bcf0ad96c15347d",
+            "updated": "2018-06-04T02:06:31+0000",
+            "vcs_last_commit": "2018-06-04T02:06:31+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:31+0000",
+            "vcs_last_rev": "ee2ca3bffdd823374d5412509cbf33d27daa82a7",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -594,25 +594,6 @@
             "section": "x11/graphics",
             "summary": "The GIMP is the GNU Image Manipulation Program",
             "updated": "2018-03-20T06:03:22+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "http://bugs.linuxtogo.org",
-            "description": "Basic touchscreen calibration utility",
-            "filename": "xtscal_0.6.3.bb",
-            "filepath": "recipes-graphics/xtscal",
-            "homepage": "http://gpe.linuxtogo.org",
-            "id": 268897,
-            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "GPLv2 & GPLv2+",
-            "pn": "xtscal",
-            "provides": "xtscal ",
-            "pv": "0.6.3",
-            "section": "x11/base",
-            "summary": "Touchscreen calibration utility",
-            "updated": "2017-09-26T09:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1410,7 +1391,7 @@
             "pv": "1.0.15",
             "section": "x11/drivers",
             "summary": "X.Org X server -- nouveau video driver",
-            "updated": "2017-09-26T09:09:55+0000"
+            "updated": "2018-06-05T02:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1999,7 +1980,7 @@
             "pv": "1.1.1+gitX",
             "section": "base",
             "summary": "Video Decode and Presentation API for UNIX",
-            "updated": "2018-03-20T06:03:23+0000"
+            "updated": "2018-06-05T02:06:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -2417,7 +2398,7 @@
             "pv": "1.16",
             "section": "console/network",
             "summary": "A network authentication protocol",
-            "updated": "2018-05-03T03:05:16+0000"
+            "updated": "2018-06-05T02:06:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -2740,7 +2721,7 @@
             "pv": "4.24",
             "section": "base",
             "summary": "A full-featured and high-performance event loop that is loosely modelled after libevent.",
-            "updated": "2017-09-26T09:09:04+0000"
+            "updated": "2018-06-05T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2892,7 +2873,7 @@
             "pv": "2.0.0",
             "section": "base",
             "summary": "minicoredumper provides an alternate core dump facility for Linux to allow minimal and customized crash dumps",
-            "updated": "2017-09-26T09:09:05+0000"
+            "updated": "2018-06-05T02:06:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3196,7 +3177,7 @@
             "pv": "3.3+gitX",
             "section": "libs",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2018-02-07T06:02:01+0000"
+            "updated": "2018-06-05T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3747,7 +3728,7 @@
             "pv": "9.4.17",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2018-05-21T09:05:10+0000"
+            "updated": "2018-06-05T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -4058,7 +4039,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A small C library that is supposed to make it easy to run an HTTP server as part of another application",
-            "filename": "libmicrohttpd_0.9.55.bb",
+            "filename": "libmicrohttpd_0.9.59.bb",
             "filepath": "recipes-support/libmicrohttpd",
             "homepage": "http://www.gnu.org/software/libmicrohttpd/",
             "id": 269104,
@@ -4067,10 +4048,10 @@
             "license": "LGPL-2.1+",
             "pn": "libmicrohttpd",
             "provides": "libmicrohttpd ",
-            "pv": "0.9.55",
+            "pv": "0.9.59",
             "section": "net",
             "summary": "",
-            "updated": "2018-04-04T03:04:23+0000"
+            "updated": "2018-06-05T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4096,7 +4077,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mariadb_5.5.59.bb",
+            "filename": "mariadb_5.5.60.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 269106,
@@ -4105,17 +4086,17 @@
             "license": "GPLv2",
             "pn": "mariadb",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "5.5.59",
+            "pv": "5.5.60",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2018-04-27T07:04:02+0000"
+            "updated": "2018-06-05T02:06:09+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mariadb-native_5.5.59.bb",
+            "filename": "mariadb-native_5.5.60.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 269107,
@@ -4124,10 +4105,10 @@
             "license": "GPLv2",
             "pn": "mariadb-native",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "5.5.59",
+            "pv": "5.5.60",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2018-04-27T07:04:01+0000"
+            "updated": "2018-06-05T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -4336,7 +4317,7 @@
             "pv": "3.22",
             "section": "Applications/System",
             "summary": "Mail processing program",
-            "updated": "2017-09-26T09:09:16+0000"
+            "updated": "2018-06-05T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -5217,7 +5198,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.",
-            "filename": "nano_2.9.3.bb",
+            "filename": "nano_2.9.7.bb",
             "filepath": "recipes-support/nano",
             "homepage": "http://www.nano-editor.org/",
             "id": 269167,
@@ -5226,10 +5207,10 @@
             "license": "GPLv3",
             "pn": "nano",
             "provides": "nano ",
-            "pv": "2.9.3",
+            "pv": "2.9.7",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-03-20T06:03:25+0000"
+            "updated": "2018-06-05T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -6635,7 +6616,7 @@
             "pv": "0.64.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2018-05-21T09:05:09+0000"
+            "updated": "2018-06-05T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -7338,7 +7319,7 @@
             "pv": "1.8.0",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T09:09:36+0000"
+            "updated": "2018-06-05T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -7471,7 +7452,7 @@
             "pv": "6.6",
             "section": "console/utils",
             "summary": "Control and monitor storage systems using S.M.A.R.T",
-            "updated": "2018-03-26T08:03:52+0000"
+            "updated": "2018-06-05T02:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -7680,7 +7661,7 @@
             "pv": "0.8.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T06:03:21+0000"
+            "updated": "2018-06-05T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -7820,7 +7801,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Openwsman is a project intended to provide an open-source implementation of the Web Services Management specipication (WS-Management) and to expose system management information on the Linux operating system using the WS-Management protocol. WS-Management is based on a suite of web services specifications and usage requirements that exposes a set of operations focused on and covers all system management aspects. Openwsman Server and service libraries",
-            "filename": "openwsman_2.6.3.bb",
+            "filename": "openwsman_2.6.4.bb",
             "filepath": "recipes-extended/openwsman",
             "homepage": "http://www.openwsman.org/",
             "id": 269319,
@@ -7829,10 +7810,10 @@
             "license": "BSD",
             "pn": "openwsman",
             "provides": "openwsman ",
-            "pv": "2.6.3",
+            "pv": "2.6.4",
             "section": "Applications/System",
             "summary": "Opensource Implementation of WS-Management",
-            "updated": "2018-03-13T03:03:52+0000"
+            "updated": "2018-06-05T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -7858,7 +7839,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "rrdtool_1.6.0.bb",
+            "filename": "rrdtool_1.7.0.bb",
             "filepath": "recipes-extended/rrdtool",
             "homepage": "http://oss.oetiker.ch/rrdtool/",
             "id": 269321,
@@ -7867,10 +7848,10 @@
             "license": "GPLv2",
             "pn": "rrdtool",
             "provides": "rrdtool ",
-            "pv": "1.6.0",
+            "pv": "1.7.0",
             "section": "base",
             "summary": "High performance data logging and graphing system for time series data",
-            "updated": "2017-09-26T09:09:40+0000"
+            "updated": "2018-06-05T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -8903,7 +8884,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "collectd is a daemon which collects system performance statistics periodically and provides mechanisms to store the values in a variety of ways, for example in RRD files.",
-            "filename": "collectd_5.7.2.bb",
+            "filename": "collectd_5.8.0.bb",
             "filepath": "recipes-extended/collectd",
             "homepage": "",
             "id": 269382,
@@ -8912,10 +8893,10 @@
             "license": "GPLv2 & MIT",
             "pn": "collectd",
             "provides": "collectd ",
-            "pv": "5.7.2",
+            "pv": "5.8.0",
             "section": "base",
             "summary": "Collects and summarises system performance statistics",
-            "updated": "2017-09-26T09:09:47+0000"
+            "updated": "2018-06-05T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -9067,7 +9048,7 @@
             "pv": "3.2",
             "section": "console/network",
             "summary": "Network benchmark tool",
-            "updated": "2017-09-26T09:09:48+0000"
+            "updated": "2018-06-05T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -9200,7 +9181,7 @@
             "pv": "2.2.3",
             "section": "console/utils",
             "summary": "A CPU benchmark utility",
-            "updated": "2017-10-10T03:10:05+0000"
+            "updated": "2018-06-05T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -11488,7 +11469,7 @@
             "bugtracker": "",
             "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1 and 3.1.1. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
             "filename": "mosquitto_1.4.14.bb",
-            "filepath": "recipes-connectivity/mosquitto",
+            "filepath": "../meta-networking/recipes-connectivity/mosquitto",
             "homepage": "http://mosquitto.org/",
             "id": 346987,
             "inherits": "systemd update-rc.d useradd useradd_base",
@@ -11499,7 +11480,7 @@
             "pv": "1.4.14",
             "section": "console/network",
             "summary": "Open source MQTT v3.1/3.1.1 implemention",
-            "updated": "2018-01-30T02:01:45+0000"
+            "updated": "2018-06-05T02:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -11620,7 +11601,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A parser generator utility that reads a grammar specification from a file and generates an LR(1) parser for it.  The parsers consist of a set of LALR(1) parsing tables and a driver routine written in the C programming language.",
-            "filename": "byacc_20170201.bb",
+            "filename": "byacc_20180510.bb",
             "filepath": "recipes-extended/byacc",
             "homepage": "http://invisible-island.net/byacc/",
             "id": 377110,
@@ -11629,10 +11610,10 @@
             "license": "PD",
             "pn": "byacc",
             "provides": "byacc ",
-            "pv": "20170201",
+            "pv": "20180510",
             "section": "devel",
             "summary": "Berkeley LALR Yacc parser generator",
-            "updated": "2017-09-26T09:09:08+0000"
+            "updated": "2018-06-05T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -11743,10 +11724,10 @@
             "license": "(Apache-2.0 | GPL-2.0) & BSD-3-Clause",
             "pn": "rocksdb",
             "provides": "rocksdb ",
-            "pv": "5.12.2",
+            "pv": "5.13.1",
             "section": "base",
             "summary": "RocksDB an embeddable, persistent key-value store",
-            "updated": "2018-05-21T09:05:10+0000"
+            "updated": "2018-06-05T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -11849,7 +11830,7 @@
             "bugtracker": "",
             "description": "A high performance, open source, general-purpose RPC framework. Provides gRPC libraries for multiple languages written on top of shared C core library (C++, Node.js, Python, Ruby, Objective-C, PHP, C#)",
             "filename": "grpc_1.8.5.bb",
-            "filepath": "recipes-devtools/grpc",
+            "filepath": "../meta-networking/recipes-devtools/grpc",
             "homepage": "https://github.com/grpc/grpc",
             "id": 445203,
             "inherits": "cmake",
@@ -11860,7 +11841,7 @@
             "pv": "1.8.5",
             "section": "libs",
             "summary": "",
-            "updated": "2018-02-12T08:02:21+0000"
+            "updated": "2018-06-05T02:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -12025,13 +12006,13 @@
             "id": 503679,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
-            "license": "X11",
+            "license": "MIT",
             "pn": "xorgxrdp",
             "provides": "xorgxrdp ",
             "pv": "0.2.5",
             "section": "base",
             "summary": "Xorg drivers for xrdp.",
-            "updated": "2018-03-20T06:03:24+0000"
+            "updated": "2018-06-05T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -12183,14 +12164,14 @@
             "pv": "2.10.2",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-05-08T08:05:55+0000"
+            "updated": "2018-06-05T02:06:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgpiod_1.0.1.bb",
+            "filename": "libgpiod_1.1.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 625471,
@@ -12199,10 +12180,10 @@
             "license": "LGPLv2.1+",
             "pn": "libgpiod",
             "provides": "libgpiod ",
-            "pv": "1.0.1",
+            "pv": "1.1",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2018-05-08T08:05:56+0000"
+            "updated": "2018-06-05T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -12232,15 +12213,72 @@
             "filepath": "recipes-support/stm32flash",
             "homepage": "https://sourceforge.net/projects/stm32flash/",
             "id": 631641,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "inherits": "",
             "layerbranch": 14965,
-            "license": "GPLv2",
+            "license": "GPL-2.0+",
             "pn": "stm32flash",
             "provides": "stm32flash ",
             "pv": "0.5",
             "section": "base",
             "summary": "Open source flash program for STM32 using the ST serial bootloader",
-            "updated": "2018-05-21T09:05:12+0000"
+            "updated": "2018-06-05T02:06:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/rmbreak/pam_ldapdb/issues",
+            "description": "",
+            "filename": "pam-plugin-ldapdb_1.3.bb",
+            "filepath": "recipes-extended/pam",
+            "homepage": "https://github.com/rmbreak/pam_ldapdb",
+            "id": 631666,
+            "inherits": "distro_features_check",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "pam-plugin-ldapdb",
+            "provides": "pam-plugin-ldapdb ",
+            "pv": "1.3",
+            "section": "libs",
+            "summary": "PAM searchless LDAP authentication module",
+            "updated": "2018-06-05T02:06:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Firmware for Broadcom Bluetooth devices. Note that in case of BT+WiFi devices, separate WiFi firmware might be needed.",
+            "filename": "broadcom-bt-firmware_git.bb",
+            "filepath": "recipes-kernel/broadcom-bt-firmware",
+            "homepage": "https://github.com/winterheart/broadcom-bt-firmware",
+            "id": 631667,
+            "inherits": "allarch",
+            "layerbranch": 14965,
+            "license": "Firmware-Broadcom-WIDCOMM",
+            "pn": "broadcom-bt-firmware",
+            "provides": "broadcom-bt-firmware ",
+            "pv": "0.0+gitX",
+            "section": "base",
+            "summary": "Broadcom Bluetooth firmware files",
+            "updated": "2018-06-05T02:06:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/mvp/uhubctl/issues",
+            "description": "",
+            "filename": "uhubctl_2.0.0.bb",
+            "filepath": "recipes-support/uhubctl",
+            "homepage": "https://github.com/mvp/uhubctl",
+            "id": 631668,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "uhubctl",
+            "provides": "uhubctl ",
+            "pv": "2.0.0",
+            "section": "base",
+            "summary": "USB hub per-port power control",
+            "updated": "2018-06-05T02:06:15+0000"
         }
     ],
     "wrtemplates": []

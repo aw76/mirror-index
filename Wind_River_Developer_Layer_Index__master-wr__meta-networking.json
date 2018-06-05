@@ -8,70 +8,70 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180526",
+            "bitbake_branch": "wr-10.18-20180604",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-28T02:05:25+0000",
+            "updated": "2018-06-05T02:06:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-30T08:05:55+0000",
-            "vcs_last_commit": "2018-05-30T08:05:55+0000",
-            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
-            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
+            "updated": "2018-06-04T03:06:19+0000",
+            "vcs_last_commit": "2018-06-04T03:06:19+0000",
+            "vcs_last_fetch": "2018-06-04T03:06:19+0000",
+            "vcs_last_rev": "8b3e41db33ef230d04c898a6678500eb1fa668f7",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-05-23T01:05:55+0000",
-            "vcs_last_commit": "2018-05-23T01:05:55+0000",
-            "vcs_last_fetch": "2018-05-23T01:05:55+0000",
-            "vcs_last_rev": "199a378f96d9d071b745f9721c1193ee0032ca95",
+            "updated": "2018-06-04T02:06:31+0000",
+            "vcs_last_commit": "2018-06-04T02:06:31+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:31+0000",
+            "vcs_last_rev": "5d0c09aee872d9f361b54e40d147c5e00c6b5653",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-05-21T01:05:10+0000",
-            "vcs_last_commit": "2018-05-21T01:05:10+0000",
-            "vcs_last_fetch": "2018-05-21T01:05:10+0000",
-            "vcs_last_rev": "52187a153d1c1906e6c3a2c86bcf0ad96c15347d",
+            "updated": "2018-06-04T02:06:31+0000",
+            "vcs_last_commit": "2018-06-04T02:06:31+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:31+0000",
+            "vcs_last_rev": "ee2ca3bffdd823374d5412509cbf33d27daa82a7",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-05-21T01:05:08+0000",
-            "vcs_last_commit": "2018-05-21T01:05:08+0000",
-            "vcs_last_fetch": "2018-05-21T01:05:08+0000",
-            "vcs_last_rev": "7314b9f210d8199704e934b4fc022734cb517ee1",
+            "updated": "2018-06-04T02:06:29+0000",
+            "vcs_last_commit": "2018-06-04T02:06:29+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:29+0000",
+            "vcs_last_rev": "8811ba964d62f2c46af65917e1e8707aabfddee5",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -275,7 +275,7 @@
             "blacklisted": "",
             "bugtracker": "http://github.com/wolfssl/wolfssl/issues",
             "description": "wolfSSL, formerly CyaSSL, is a lightweight SSL library written in C and                optimized for embedded and RTOS environments. It can be                Up to 20 times smaller than OpenSSL while still supporting                a full TLS 1.2 client and server.",
-            "filename": "wolfssl_3.12.0.bb",
+            "filename": "wolfssl_3.14.4.bb",
             "filepath": "recipes-connectivity/wolfssl",
             "homepage": "http://www.wolfssl.com/yaSSL/Products-wolfssl.html",
             "id": 270269,
@@ -284,10 +284,10 @@
             "license": "GPLv2",
             "pn": "wolfssl",
             "provides": "wolfssl  cyassl",
-            "pv": "3.12.0",
+            "pv": "3.14.4",
             "section": "libs",
             "summary": "wolfSSL Lightweight, Embedded SSL Library",
-            "updated": "2017-09-26T09:09:07+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -298,7 +298,7 @@
             "filepath": "recipes-connectivity/vlan",
             "homepage": "http://www.candelatech.com/~greear/vlan.html",
             "id": 270270,
-            "inherits": "",
+            "inherits": "update-alternatives",
             "layerbranch": 14964,
             "license": "GPLv2",
             "pn": "vlan",
@@ -306,7 +306,7 @@
             "pv": "1.9",
             "section": "misc",
             "summary": "VLAN provides vconfig utility",
-            "updated": "2017-09-26T09:09:07+0000"
+            "updated": "2018-06-05T02:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -503,7 +503,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LFTP is a sophisticated file transfer program with                command line interface. It supports FTP, HTTP,                FISH, SFTP, HTTPS and FTPS protocols",
-            "filename": "lftp_4.7.7.bb",
+            "filename": "lftp_4.8.3.bb",
             "filepath": "recipes-connectivity/lftp",
             "homepage": "http://lftp.yar.ru/",
             "id": 270281,
@@ -512,10 +512,10 @@
             "license": "GPLv3",
             "pn": "lftp",
             "provides": "lftp ",
-            "pv": "4.7.7",
+            "pv": "4.8.3",
             "section": "console/network",
             "summary": "",
-            "updated": "2017-09-26T09:09:09+0000"
+            "updated": "2018-06-05T02:06:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1301,7 +1301,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Chrony can synchronize the system clock with NTP servers, reference clocks (e.g. GPS receiver), and manual input using wristwatch and keyboard. It can also operate as an NTPv4 (RFC 5905) server and peer to provide a time service to other computers in the network. It is designed to perform well in a wide range of conditions, including intermittent network connections, heavily congested networks, changing temperatures (ordinary computer clocks are sensitive to temperature), and systems that do not run continuously, or run on a virtual machine. Typical accuracy between two machines on a LAN is in tens, or a few hundreds, of microseconds; over the Internet, accuracy is typically within a few milliseconds. With a good hardware reference clock sub-microsecond accuracy is possible. Two programs are included in chrony: chronyd is a daemon that can be started at boot time and chronyc is a command-line interface program which can be used to monitor chronyd's performance and to change various operating parameters whilst it is running. This recipe produces two binary packages: 'chrony' which contains chronyd, the configuration file and the init script, and 'chronyc' which contains the client program only.",
-            "filename": "chrony_3.2.bb",
+            "filename": "chrony_3.3.bb",
             "filepath": "recipes-support/chrony",
             "homepage": "https://chrony.tuxfamily.org/",
             "id": 270326,
@@ -1310,10 +1310,10 @@
             "license": "GPLv2",
             "pn": "chrony",
             "provides": "chrony ",
-            "pv": "3.2",
+            "pv": "3.3",
             "section": "net",
             "summary": "Versatile implementation of the Network Time Protocol",
-            "updated": "2018-01-12T03:01:09+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1389,7 +1389,7 @@
             "pv": "0.8.2",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-06-05T02:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1484,7 +1484,7 @@
             "pv": "2.5.6",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-23T02:05:28+0000"
+            "updated": "2018-06-05T02:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1567,7 +1567,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "perl library for country/city/organization to IP address or hostname mapping",
-            "filename": "geoip-perl_1.50.bb",
+            "filename": "geoip-perl_1.51.bb",
             "filepath": "recipes-support/geoip",
             "homepage": "http://www.maxmind.com/app/ip-location",
             "id": 270340,
@@ -1576,10 +1576,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "geoip-perl",
             "provides": "geoip-perl ",
-            "pv": "1.50",
+            "pv": "1.51",
             "section": "libdevel",
             "summary": "GeoIP perl API library to access location database",
-            "updated": "2017-09-26T09:09:16+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1605,7 +1605,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem.",
-            "filename": "ntp_4.2.8p10.bb",
+            "filename": "ntp_4.2.8p11.bb",
             "filepath": "recipes-support/ntp",
             "homepage": "http://support.ntp.org",
             "id": 270342,
@@ -1614,10 +1614,10 @@
             "license": "NTP",
             "pn": "ntp",
             "provides": "ntp ",
-            "pv": "4.2.8p10",
+            "pv": "4.2.8p11",
             "section": "net",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2018-04-09T02:04:53+0000"
+            "updated": "2018-06-05T02:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1871,7 +1871,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": " memcached optimizes specific high-load serving applications that are designed  to take advantage of its versatile no-locking memory access system. Clients  are available in several different programming languages, to suit the needs  of the specific application. Traditionally this has been used in mod_perl  apps to avoid storing large chunks of data in Apache memory, and to share  this burden across several machines.",
-            "filename": "memcached_1.5.0.bb",
+            "filename": "memcached_1.5.7.bb",
             "filepath": "recipes-support/memcached",
             "homepage": "http://memcached.org/",
             "id": 270356,
@@ -1880,10 +1880,10 @@
             "license": "BSD-3-Clause",
             "pn": "memcached",
             "provides": "memcached ",
-            "pv": "1.5.0",
+            "pv": "1.5.7",
             "section": "web",
             "summary": "A high-performance memory object caching system",
-            "updated": "2017-09-26T09:09:18+0000"
+            "updated": "2018-06-05T02:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2320,7 +2320,7 @@
             "pv": "3.2.2",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-05-21T09:05:34+0000"
+            "updated": "2018-06-05T02:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2339,7 +2339,7 @@
             "pv": "5.18.02",
             "section": "admin",
             "summary": "OpenSAF is an open source implementation of the SAF AIS specification",
-            "updated": "2018-04-09T02:04:51+0000"
+            "updated": "2018-06-05T02:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2365,7 +2365,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A fully-featured http proxy and web-cache daemon for Linux. Squid offers a rich access control, authorization and logging environment to develop web proxy and content serving applications. Squid offers a rich set of traffic optimization options, most of which are enabled by default for simpler installation and high performance. ",
-            "filename": "squid_3.5.26.bb",
+            "filename": "squid_3.5.27.bb",
             "filepath": "recipes-daemons/squid",
             "homepage": "http://www.squid-cache.org",
             "id": 270383,
@@ -2374,10 +2374,10 @@
             "license": "GPLv2+",
             "pn": "squid",
             "provides": "squid ",
-            "pv": "3.5.26",
+            "pv": "3.5.27",
             "section": "web",
             "summary": "A fully-featured http proxy and web-cache daemon for Linux",
-            "updated": "2018-04-25T03:04:39+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -3080,7 +3080,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2018-05-23T02:05:28+0000"
+            "updated": "2018-06-05T02:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -3156,7 +3156,7 @@
             "pv": "1.10.6",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2018-05-08T08:05:30+0000"
+            "updated": "2018-06-05T02:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -3175,26 +3175,26 @@
             "pv": "1.2.8",
             "section": "net/misc",
             "summary": "NetworkManager-openvpn-plugin",
-            "updated": "2017-09-26T09:09:27+0000"
+            "updated": "2018-06-05T02:06:45+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The miniUPnP daemon is an UPnP IGD (internet gateway device) which provide NAT traversal services to any UPnP enabled client on the network.",
-            "filename": "miniupnpd_2.0.bb",
+            "filename": "miniupnpd_2.0.20180203.bb",
             "filepath": "recipes-connectivity/miniupnpd",
             "homepage": "",
             "id": 377133,
-            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14964,
             "license": "BSD-3-Clause",
             "pn": "miniupnpd",
             "provides": "miniupnpd ",
-            "pv": "2.0",
+            "pv": "2.0.20180203",
             "section": "networking",
             "summary": "Lightweight UPnP IGD daemon",
-            "updated": "2017-09-26T09:09:27+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -3327,7 +3327,7 @@
             "pv": "0.2.2",
             "section": "net",
             "summary": "Tool to assist in network address calculations for IPv4 and IPv6.",
-            "updated": "2018-04-16T07:04:45+0000"
+            "updated": "2018-06-05T02:06:46+0000"
         },
         {
             "bbclassextend": " native",
@@ -3385,6 +3385,120 @@
             "section": "libs",
             "summary": "Userspace support for InfiniBand/RDMA verbs",
             "updated": "2018-05-21T09:05:34+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The CELT codec is a compression algorithm for audio. Like MP3, Vorbis, and AAC it is suitable for transmitting music with high quality. Unlike these formats CELT imposes very little delay on the signal, even less than is typical for speech centric formats like Speex, GSM, or G.729.",
+            "filename": "celt051_git.bb",
+            "filepath": "recipes-support/celt051",
+            "homepage": "",
+            "id": 631671,
+            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
+            "layerbranch": 14964,
+            "license": "BSD",
+            "pn": "celt051",
+            "provides": "celt051 ",
+            "pv": "0.5.1.3+gitX",
+            "section": "base",
+            "summary": "The CELT codec is a compression algorithm for audio",
+            "updated": "2018-06-05T02:06:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "cpprest_2.10.2.bb",
+            "filepath": "recipes-support/cpprest",
+            "homepage": "https://github.com/Microsoft/cpprestsdk/",
+            "id": 631672,
+            "inherits": "cmake",
+            "layerbranch": 14964,
+            "license": "MIT",
+            "pn": "cpprest",
+            "provides": "cpprest ",
+            "pv": "2.10.2",
+            "section": "libs/network",
+            "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
+            "updated": "2018-06-05T02:06:47+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "SPICE (the Simple Protocol for Independent Computing Environments) is a remote-display system built for virtual environments which allows users to view a computing 'desktop' environment - not only on its computer-server machine, but also from anywhere on the Internet and using a wide variety of machine architectures.",
+            "filename": "spice-protocol_git.bb",
+            "filepath": "recipes-support/spice",
+            "homepage": "",
+            "id": 631673,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "layerbranch": 14964,
+            "license": "BSD",
+            "pn": "spice-protocol",
+            "provides": "spice-protocol ",
+            "pv": "0.12.13+gitX",
+            "section": "base",
+            "summary": "Simple Protocol for Independent Computing Environments",
+            "updated": "2018-06-05T02:06:47+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "SPICE (the Simple Protocol for Independent Computing Environments) is a remote-display system built for virtual environments which allows users to view a computing 'desktop' environment - not only on its computer-server machine, but also from anywhere on the Internet and using a wide variety of machine architectures.",
+            "filename": "spice_git.bb",
+            "filepath": "recipes-support/spice",
+            "homepage": "",
+            "id": 631674,
+            "inherits": "autotools gettext pkgconfig python-dir pythonnative siteconfig siteinfo",
+            "layerbranch": 14964,
+            "license": "BSD & LGPLv2.1+",
+            "pn": "spice",
+            "provides": "spice ",
+            "pv": "0.14.0+gitX",
+            "section": "base",
+            "summary": "Simple Protocol for Independent Computing Environments",
+            "updated": "2018-06-05T02:06:48+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "usbredir_git.bb",
+            "filepath": "recipes-support/spice",
+            "homepage": "",
+            "id": 631675,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14964,
+            "license": "GPLv2+ & LGPLv2.1+",
+            "pn": "usbredir",
+            "provides": "usbredir ",
+            "pv": "0.7.1+gitX",
+            "section": "base",
+            "summary": "usbredir libraries and utilities",
+            "updated": "2018-06-05T02:06:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "websocketpp_0.7.0.bb",
+            "filepath": "recipes-support/websocketpp",
+            "homepage": "https://github.com/zaphoyd/websocketpp",
+            "id": 631676,
+            "inherits": "cmake",
+            "layerbranch": 14964,
+            "license": "BSD-3-Clause",
+            "pn": "websocketpp",
+            "provides": "websocketpp ",
+            "pv": "0.7.0",
+            "section": "libs/network",
+            "summary": "C++/Boost Asio based websocket client/server library.",
+            "updated": "2018-06-05T02:06:48+0000"
         }
     ],
     "wrtemplates": []

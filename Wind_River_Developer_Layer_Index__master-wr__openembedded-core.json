@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180526",
+            "bitbake_branch": "wr-10.18-20180604",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-28T02:05:25+0000",
+            "updated": "2018-06-05T02:06:15+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-30T08:05:55+0000",
-            "vcs_last_commit": "2018-05-30T08:05:55+0000",
-            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
-            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
+            "updated": "2018-06-04T03:06:19+0000",
+            "vcs_last_commit": "2018-06-04T03:06:19+0000",
+            "vcs_last_fetch": "2018-06-04T03:06:19+0000",
+            "vcs_last_rev": "8b3e41db33ef230d04c898a6678500eb1fa668f7",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -944,7 +944,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The DMX extension provides support for communication with and control of Xdmx(1) server. Attributes of the Xdmx(1) server and of the back-end screens attached to the server can be queried and modified via this protocol.",
-            "filename": "libdmx_1.1.3.bb",
+            "filename": "libdmx_1.1.4.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 270667,
@@ -953,10 +953,10 @@
             "license": "MIT",
             "pn": "libdmx",
             "provides": "libdmx ",
-            "pv": "1.1.3",
+            "pv": "1.1.4",
             "section": "x11/libs",
             "summary": "DMX: Distributed Multihead X extension library",
-            "updated": "2018-05-25T06:05:56+0000"
+            "updated": "2018-06-05T02:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1571,7 +1571,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The runtime library for accessing the kernel DRM services.  DRM stands for \\\"Direct Rendering Manager\\\", which is the kernel portion of the \\\"Direct Rendering Infrastructure\\\" (DRI).  DRI is required for many hardware accelerated OpenGL drivers.",
-            "filename": "libdrm_2.4.91.bb",
+            "filename": "libdrm_2.4.92.bb",
             "filepath": "recipes-graphics/drm",
             "homepage": "http://dri.freedesktop.org",
             "id": 270700,
@@ -1580,10 +1580,10 @@
             "license": "MIT",
             "pn": "libdrm",
             "provides": "libdrm drm",
-            "pv": "2.4.91",
+            "pv": "2.4.92",
             "section": "x11/base",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2018-05-25T06:05:04+0000"
+            "updated": "2018-06-05T02:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1856,7 +1856,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xf86-input-libinput_0.26.0.bb",
+            "filename": "xf86-input-libinput_0.27.1.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
             "id": 270715,
@@ -1865,10 +1865,10 @@
             "license": "MIT-X",
             "pn": "xf86-input-libinput",
             "provides": "xf86-input-libinput ",
-            "pv": "0.26.0",
+            "pv": "0.27.1",
             "section": "x11/drivers",
             "summary": "Generic input driver for the X.Org server based on libinput",
-            "updated": "2018-05-25T06:05:06+0000"
+            "updated": "2018-06-05T02:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2578,7 +2578,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wayland protocols that add functionality not available in the Wayland core protocol. Such protocols either add completely new functionality, or extend the functionality of some other protocol either in Wayland core, or some other protocol in wayland-protocols.",
-            "filename": "wayland-protocols_1.13.bb",
+            "filename": "wayland-protocols_1.14.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
             "id": 270753,
@@ -2587,10 +2587,10 @@
             "license": "MIT",
             "pn": "wayland-protocols",
             "provides": "wayland-protocols ",
-            "pv": "1.13",
+            "pv": "1.14",
             "section": "base",
             "summary": "Collection of additional Wayland protocols",
-            "updated": "2018-05-25T06:05:13+0000"
+            "updated": "2018-06-05T02:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2799,7 +2799,7 @@
             "pv": "18.0.2",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2018-05-25T06:05:14+0000"
+            "updated": "2018-06-05T02:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2837,7 +2837,7 @@
             "pv": "18.0.2",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2018-05-25T06:05:15+0000"
+            "updated": "2018-06-05T02:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3034,7 +3034,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.",
-            "filename": "iproute2_4.15.0.bb",
+            "filename": "iproute2_4.16.0.bb",
             "filepath": "recipes-connectivity/iproute2",
             "homepage": "http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2",
             "id": 270804,
@@ -3043,10 +3043,10 @@
             "license": "GPLv2+",
             "pn": "iproute2",
             "provides": "iproute2 ",
-            "pv": "4.15.0",
+            "pv": "4.16.0",
             "section": "base",
             "summary": "TCP / IP networking and traffic control utilities",
-            "updated": "2018-05-25T06:05:17+0000"
+            "updated": "2018-06-05T02:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3072,7 +3072,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is a program for logging into a remote machine and for executing commands on a remote machine.",
-            "filename": "openssh_7.6p1.bb",
+            "filename": "openssh_7.7p1.bb",
             "filepath": "recipes-connectivity/openssh",
             "homepage": "http://www.openssh.com/",
             "id": 270806,
@@ -3081,29 +3081,10 @@
             "license": "BSD",
             "pn": "openssh",
             "provides": "openssh ",
-            "pv": "7.6p1",
+            "pv": "7.7p1",
             "section": "console/network",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2018-05-25T06:05:17+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "wireless-tools_30.pre9.bb",
-            "filepath": "recipes-connectivity/wireless-tools",
-            "homepage": "https://hewlettpackard.github.io/wireless-tools/Tools.html",
-            "id": 270807,
-            "inherits": "",
-            "layerbranch": 14953,
-            "license": "GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)",
-            "pn": "wireless-tools",
-            "provides": "wireless-tools ",
-            "pv": "30.pre9",
-            "section": "base",
-            "summary": "Tools for the Linux Standard Wireless Extension Subsystem",
-            "updated": "2018-05-25T06:05:17+0000"
+            "updated": "2018-06-05T02:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3369,7 +3350,7 @@
             "pv": "1.0.2o",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-05-25T06:05:20+0000"
+            "updated": "2018-06-05T02:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3445,7 +3426,7 @@
             "pv": "1.5.5",
             "section": "base",
             "summary": "Babeltrace - Trace Format Babel Tower",
-            "updated": "2018-05-25T06:05:21+0000"
+            "updated": "2018-06-05T02:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3502,7 +3483,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2018-05-25T06:05:21+0000"
+            "updated": "2018-06-05T02:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3654,7 +3635,7 @@
             "pv": "0.0+gitX",
             "section": "kernel",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2018-05-25T06:05:23+0000"
+            "updated": "2018-06-05T02:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3756,7 +3737,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Device Tree Compiler is a tool used to manipulate the Open-Firmware-like device tree used by PowerPC kernels.",
-            "filename": "dtc_1.4.5.bb",
+            "filename": "dtc_1.4.6.bb",
             "filepath": "recipes-kernel/dtc",
             "homepage": "https://devicetree.org/",
             "id": 270844,
@@ -3765,10 +3746,10 @@
             "license": "GPLv2 | BSD",
             "pn": "dtc",
             "provides": "dtc ",
-            "pv": "1.4.5",
+            "pv": "1.4.6",
             "section": "bootloader",
             "summary": "Device Tree Compiler",
-            "updated": "2018-05-25T06:05:23+0000"
+            "updated": "2018-06-05T02:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3813,7 +3794,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Kexec is a fast reboot feature that lets you reboot to a new Linux kernel",
-            "filename": "kexec-tools_2.0.16.bb",
+            "filename": "kexec-tools_2.0.17.bb",
             "filepath": "recipes-kernel/kexec",
             "homepage": "http://kernel.org/pub/linux/utils/kernel/kexec/",
             "id": 270848,
@@ -3822,10 +3803,10 @@
             "license": "GPLv2",
             "pn": "kexec-tools",
             "provides": "kexec-tools ",
-            "pv": "2.0.16",
+            "pv": "2.0.17",
             "section": "kernel/userland",
             "summary": "Kexec fast reboot tools",
-            "updated": "2018-05-25T06:05:24+0000"
+            "updated": "2018-06-05T02:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3901,7 +3882,7 @@
             "pv": "4.15.13+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:41+0000"
+            "updated": "2018-06-05T02:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3917,10 +3898,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.12.21+gitX",
+            "pv": "4.12.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:41+0000"
+            "updated": "2018-06-05T02:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3936,10 +3917,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.12.21+gitX",
+            "pv": "4.12.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:41+0000"
+            "updated": "2018-06-05T02:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3977,7 +3958,7 @@
             "pv": "4.15.13+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:42+0000"
+            "updated": "2018-06-05T02:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3996,7 +3977,7 @@
             "pv": "4.14.30+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:42+0000"
+            "updated": "2018-06-05T02:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4015,7 +3996,7 @@
             "pv": "4.14.30+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:42+0000"
+            "updated": "2018-06-05T02:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4031,10 +4012,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-dev",
             "provides": "linux-yocto-dev  virtual/kernel",
-            "pv": "4.16-rc++gitX",
+            "pv": "4.17-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:42+0000"
+            "updated": "2018-06-05T02:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4050,10 +4031,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.12.21+gitX",
+            "pv": "4.12.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:42+0000"
+            "updated": "2018-06-05T02:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4072,7 +4053,7 @@
             "pv": "4.14.30+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:43+0000"
+            "updated": "2018-06-05T02:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4091,7 +4072,7 @@
             "pv": "4.15.13+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-28T02:05:43+0000"
+            "updated": "2018-06-05T02:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4193,7 +4174,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LZ4 is a very fast lossless compression algorithm, providing compression speed at 400 MB/s per core, scalable with multi-cores CPU. It also features an extremely fast decoder, with speed in multiple GB/s per core, typically reaching RAM speed limits on multi-core systems.",
-            "filename": "lz4_1.8.1.2.bb",
+            "filename": "lz4_1.8.2.bb",
             "filepath": "recipes-support/lz4",
             "homepage": "",
             "id": 270871,
@@ -4202,10 +4183,10 @@
             "license": "BSD | BSD-2-Clause | GPL-2.0",
             "pn": "lz4",
             "provides": "lz4 ",
-            "pv": "1.8.1.2",
+            "pv": "1.8.2",
             "section": "base",
             "summary": "Extremely Fast Compression algorithm",
-            "updated": "2018-05-25T06:05:27+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4630,7 +4611,7 @@
             "blacklisted": "",
             "bugtracker": "http://curl.haxx.se/mail/list.cgi?list=curl-tracker",
             "description": "",
-            "filename": "curl_7.59.0.bb",
+            "filename": "curl_7.60.0.bb",
             "filepath": "recipes-support/curl",
             "homepage": "http://curl.haxx.se/",
             "id": 270896,
@@ -4639,10 +4620,10 @@
             "license": "MIT",
             "pn": "curl",
             "provides": "curl ",
-            "pv": "7.59.0",
+            "pv": "7.60.0",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2018-05-25T06:05:34+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -4820,7 +4801,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS 5, PKCS 7, PKCS 11, PKCS 12, S/MIME, X.509 v3 certificates, and other security standards.",
-            "filename": "nss_3.35.bb",
+            "filename": "nss_3.36.1.bb",
             "filepath": "recipes-support/nss",
             "homepage": "http://www.mozilla.org/projects/security/pki/nss/",
             "id": 270906,
@@ -4829,10 +4810,10 @@
             "license": "MPL-2.0 | (MPL-2.0 & GPL-2.0+) | (MPL-2.0 & LGPL-2.1+)",
             "pn": "nss",
             "provides": "nss ",
-            "pv": "3.35",
+            "pv": "3.36.1",
             "section": "libs",
             "summary": "Mozilla's SSL and TLS implementation",
-            "updated": "2018-05-25T06:05:36+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5383,7 +5364,7 @@
             "pv": "1.1.0",
             "section": "base",
             "summary": "Collection of simple PIN or passphrase entry dialogs",
-            "updated": "2018-05-25T06:05:44+0000"
+            "updated": "2018-06-05T02:06:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5675,7 +5656,7 @@
             "blacklisted": "",
             "bugtracker": "http://alsa-project.org/main/index.php/Bug_Tracking",
             "description": "",
-            "filename": "alsa-utils-scripts_1.1.5.bb",
+            "filename": "alsa-utils-scripts_1.1.6.bb",
             "filepath": "recipes-multimedia/alsa",
             "homepage": "http://www.alsa-project.org",
             "id": 270951,
@@ -5684,17 +5665,17 @@
             "license": "GPLv2+",
             "pn": "alsa-utils-scripts",
             "provides": "alsa-utils-scripts alsa-utils-alsaconf",
-            "pv": "1.1.5",
+            "pv": "1.1.6",
             "section": "console/utils",
             "summary": "Shell scripts that show help info and create ALSA configuration files",
-            "updated": "2018-05-25T06:05:48+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://alsa-project.org/main/index.php/Bug_Tracking",
             "description": "",
-            "filename": "alsa-plugins_1.1.5.bb",
+            "filename": "alsa-plugins_1.1.6.bb",
             "filepath": "recipes-multimedia/alsa",
             "homepage": "http://alsa-project.org",
             "id": 270952,
@@ -5703,10 +5684,10 @@
             "license": "LGPLv2.1 & GPLv2+",
             "pn": "alsa-plugins",
             "provides": "alsa-plugins ",
-            "pv": "1.1.5",
+            "pv": "1.1.6",
             "section": "multimedia",
             "summary": "ALSA Plugins",
-            "updated": "2018-05-25T06:05:48+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -5732,7 +5713,7 @@
             "blacklisted": "",
             "bugtracker": "http://alsa-project.org/main/index.php/Bug_Tracking",
             "description": "",
-            "filename": "alsa-utils_1.1.5.bb",
+            "filename": "alsa-utils_1.1.6.bb",
             "filepath": "recipes-multimedia/alsa",
             "homepage": "http://www.alsa-project.org",
             "id": 270954,
@@ -5741,10 +5722,10 @@
             "license": "GPLv2+",
             "pn": "alsa-utils",
             "provides": "alsa-utils ",
-            "pv": "1.1.5",
+            "pv": "1.1.6",
             "section": "console/utils",
             "summary": "ALSA sound utilities",
-            "updated": "2018-05-25T06:05:48+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -5915,7 +5896,7 @@
             "pv": "1.14.0",
             "section": "multimedia",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2018-05-25T06:05:50+0000"
+            "updated": "2018-06-05T02:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -6074,7 +6055,7 @@
             "blacklisted": "",
             "bugtracker": "https://trac.xiph.org",
             "description": "Ogg Vorbis is a high-quality lossy audio codec that is free of intellectual property restrictions. libvorbis is the main vorbis codec library.",
-            "filename": "libvorbis_1.3.5.bb",
+            "filename": "libvorbis_1.3.6.bb",
             "filepath": "recipes-multimedia/libvorbis",
             "homepage": "http://www.vorbis.com/",
             "id": 270972,
@@ -6083,10 +6064,10 @@
             "license": "BSD",
             "pn": "libvorbis",
             "provides": "libvorbis ",
-            "pv": "1.3.5",
+            "pv": "1.3.6",
             "section": "libs",
             "summary": "Ogg Vorbis Audio Codec",
-            "updated": "2018-05-25T06:05:52+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -6371,7 +6352,7 @@
             "pv": "1.1",
             "section": "tests",
             "summary": "Hardware latency detector",
-            "updated": "2018-05-25T06:05:54+0000"
+            "updated": "2018-06-05T02:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -6390,7 +6371,7 @@
             "pv": "1.1",
             "section": "tests",
             "summary": "Real-Time preemption testcases",
-            "updated": "2018-05-25T06:05:54+0000"
+            "updated": "2018-06-05T02:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -6568,7 +6549,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The ACPI Component Architecture (ACPICA) project provides an OS-independent reference implementation of the Advanced Configuration and Power Interface Specification (ACPI). ACPICA code contains those portions of ACPI meant to be directly integrated into the host OS as a kernel-resident subsystem, and a small set of tools to assist in developing and debugging ACPI tables.",
-            "filename": "acpica_20170303.bb",
+            "filename": "acpica_20180508.bb",
             "filepath": "recipes-extended/acpica",
             "homepage": "http://www.acpica.org/",
             "id": 270998,
@@ -6577,10 +6558,10 @@
             "license": "BSD | GPLv2",
             "pn": "acpica",
             "provides": "acpica iasl",
-            "pv": "20170303",
+            "pv": "20180508",
             "section": "console/tools",
             "summary": "ACPICA tools for the development and debug of ACPI tables",
-            "updated": "2018-05-25T06:05:56+0000"
+            "updated": "2018-06-05T02:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -6625,7 +6606,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "wget_1.19.4.bb",
+            "filename": "wget_1.19.5.bb",
             "filepath": "recipes-extended/wget",
             "homepage": "https://www.gnu.org/software/wget/",
             "id": 271001,
@@ -6634,10 +6615,10 @@
             "license": "GPLv3",
             "pn": "wget",
             "provides": "wget ",
-            "pv": "1.19.4",
+            "pv": "1.19.5",
             "section": "console/network",
             "summary": "Console URL download utility supporting HTTP, FTP, etc",
-            "updated": "2018-05-25T06:05:57+0000"
+            "updated": "2018-06-05T02:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -7062,7 +7043,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A small utility for examining and tuning the settings of your ethernet-based network interfaces.",
-            "filename": "ethtool_4.15.bb",
+            "filename": "ethtool_4.16.bb",
             "filepath": "recipes-extended/ethtool",
             "homepage": "http://www.kernel.org/pub/software/network/ethtool/",
             "id": 271027,
@@ -7071,10 +7052,10 @@
             "license": "GPLv2+",
             "pn": "ethtool",
             "provides": "ethtool ",
-            "pv": "4.15",
+            "pv": "4.16",
             "section": "console/network",
             "summary": "Display or change ethernet card settings",
-            "updated": "2018-05-25T06:05:01+0000"
+            "updated": "2018-06-05T02:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -7670,7 +7651,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Implementation of the Stringprep, Punycode and IDNA specifications defined by the IETF Internationalized Domain Names (IDN) working group.",
-            "filename": "libidn_1.34.bb",
+            "filename": "libidn_1.35.bb",
             "filepath": "recipes-extended/libidn",
             "homepage": "http://www.gnu.org/software/libidn/",
             "id": 271059,
@@ -7679,10 +7660,10 @@
             "license": "(LGPLv2.1+ | LGPLv3) & GPLv3+",
             "pn": "libidn",
             "provides": "libidn ",
-            "pv": "1.34",
+            "pv": "1.35",
             "section": "libs",
             "summary": "Internationalized Domain Name support library",
-            "updated": "2018-05-25T06:05:07+0000"
+            "updated": "2018-06-05T02:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -8259,7 +8240,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "hdparm is a Linux shell utility for viewing and manipulating various IDE drive and driver parameters.",
-            "filename": "hdparm_9.55.bb",
+            "filename": "hdparm_9.56.bb",
             "filepath": "recipes-extended/hdparm",
             "homepage": "http://sourceforge.net/projects/hdparm/",
             "id": 271091,
@@ -8268,10 +8249,10 @@
             "license": "BSD & GPLv2",
             "pn": "hdparm",
             "provides": "hdparm ",
-            "pv": "9.55",
+            "pv": "9.56",
             "section": "console/utils",
             "summary": "Utility for viewing/manipulating IDE disk drive/driver parameters",
-            "updated": "2018-05-25T06:05:13+0000"
+            "updated": "2018-06-05T02:06:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8309,7 +8290,7 @@
             "pv": "5.2.3",
             "section": "base",
             "summary": "Utilities for managing LZMA compressed files",
-            "updated": "2018-05-25T06:05:13+0000"
+            "updated": "2018-06-05T02:06:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8601,7 +8582,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot-mkimage_2018.03.bb",
+            "filename": "u-boot-mkimage_2018.05.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 271112,
@@ -8610,17 +8591,17 @@
             "license": "GPLv2+",
             "pn": "u-boot-mkimage",
             "provides": "u-boot-mkimage ",
-            "pv": "2018.03",
+            "pv": "2018.05",
             "section": "bootloaders",
             "summary": "U-Boot bootloader image creation tool",
-            "updated": "2018-05-25T06:05:16+0000"
+            "updated": "2018-06-05T02:06:51+0000"
         },
         {
             "bbclassextend": "cross",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot-fw-utils_2018.03.bb",
+            "filename": "u-boot-fw-utils_2018.05.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 271113,
@@ -8629,17 +8610,17 @@
             "license": "GPLv2+",
             "pn": "u-boot-fw-utils",
             "provides": "u-boot-fw-utils ",
-            "pv": "2018.03",
+            "pv": "2018.05",
             "section": "bootloaders",
             "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2018-05-25T06:05:16+0000"
+            "updated": "2018-06-05T02:06:51+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot_2018.03.bb",
+            "filename": "u-boot_2018.05.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 271114,
@@ -8648,10 +8629,10 @@
             "license": "GPLv2+",
             "pn": "u-boot",
             "provides": "u-boot virtual/bootloader",
-            "pv": "2018.03",
+            "pv": "2018.05",
             "section": "bootloaders",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-05-25T06:05:16+0000"
+            "updated": "2018-06-05T02:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -8898,7 +8879,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-05-25T06:05:19+0000"
+            "updated": "2018-06-05T02:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -9213,7 +9194,7 @@
             "filepath": "recipes-devtools/i2c-tools",
             "homepage": "https://i2c.wiki.kernel.org/index.php/I2C_Tools",
             "id": 271158,
-            "inherits": "",
+            "inherits": "update-alternatives",
             "layerbranch": 14953,
             "license": "GPLv2+",
             "pn": "i2c-tools",
@@ -9221,7 +9202,7 @@
             "pv": "4.0",
             "section": "base",
             "summary": "Set of i2c tools for linux",
-            "updated": "2018-05-25T06:05:23+0000"
+            "updated": "2018-06-05T02:06:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9240,14 +9221,14 @@
             "pv": "4.14.1",
             "section": "base",
             "summary": "The RPM package management system",
-            "updated": "2018-05-25T06:05:23+0000"
+            "updated": "2018-06-05T02:06:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "distcc is a parallel build system that distributes compilation of C/C++/ObjC code across machines on a network.",
-            "filename": "distcc_3.2.bb",
+            "filename": "distcc_3.3.bb",
             "filepath": "recipes-devtools/distcc",
             "homepage": "",
             "id": 271160,
@@ -9256,10 +9237,10 @@
             "license": "GPLv2",
             "pn": "distcc",
             "provides": "distcc ",
-            "pv": "3.2",
+            "pv": "3.3",
             "section": "devel",
             "summary": "A parallel build system",
-            "updated": "2018-05-25T06:05:24+0000"
+            "updated": "2018-06-05T02:06:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9380,19 +9361,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.",
-            "filename": "btrfs-tools_4.15.1.bb",
+            "filename": "btrfs-tools_4.16.1.bb",
             "filepath": "recipes-devtools/btrfs-tools",
             "homepage": "https://btrfs.wiki.kernel.org",
             "id": 271167,
-            "inherits": "autotools autotools-brokensep manpages pkgconfig siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep distutils-common-base distutils3-base manpages pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "btrfs-tools",
             "provides": "btrfs-tools ",
-            "pv": "4.15.1",
+            "pv": "4.16.1",
             "section": "base",
             "summary": "Checksumming Copy on Write Filesystem utilities",
-            "updated": "2018-05-25T06:05:25+0000"
+            "updated": "2018-06-05T02:06:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11501,7 +11482,7 @@
             "pv": "4.22",
             "section": "console/utils",
             "summary": "System call tracing tool",
-            "updated": "2018-05-25T06:05:49+0000"
+            "updated": "2018-06-05T02:06:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -11558,7 +11539,7 @@
             "pv": "3.28.1.1",
             "section": "base",
             "summary": "WebKit based web browser for GNOME",
-            "updated": "2018-05-25T06:05:50+0000"
+            "updated": "2018-06-05T02:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -11691,25 +11672,6 @@
             "pv": "0.7.7",
             "section": "libs",
             "summary": "Library for sending desktop notifications to a notification daemon",
-            "updated": "2018-05-25T06:05:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gnome-desktop3_3.28.1.bb",
-            "filepath": "recipes-gnome/gnome-desktop",
-            "homepage": "",
-            "id": 271297,
-            "inherits": "autotools distro_features_check gconf gnome gnomebase gobject-introspection gobject-introspection-data gtk-doc gtk-icon-cache mime pkgconfig python3-dir python3native qemu siteconfig siteinfo upstream-version-is-even",
-            "layerbranch": 14953,
-            "license": "GPLv2 & LGPLv2",
-            "pn": "gnome-desktop3",
-            "provides": "gnome-desktop3 ",
-            "pv": "3.28.1",
-            "section": "x11/gnome",
-            "summary": "GNOME library for reading .desktop files",
             "updated": "2018-05-25T06:05:51+0000"
         },
         {
@@ -12147,7 +12109,7 @@
             "pv": "237",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-05-25T06:05:56+0000"
+            "updated": "2018-06-05T02:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -12337,7 +12299,7 @@
             "pv": "git",
             "section": "base",
             "summary": "OVMF - UEFI firmware for Qemu and KVM",
-            "updated": "2018-05-25T06:05:58+0000"
+            "updated": "2018-06-05T02:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13078,7 +13040,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Merge machine and distro options to create a basic machine task/package",
-            "updated": "2018-05-25T06:05:04+0000"
+            "updated": "2018-06-05T02:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13826,7 +13788,7 @@
             "blacklisted": "",
             "bugtracker": "http://bugs.webkit.org/",
             "description": "",
-            "filename": "webkitgtk_2.20.1.bb",
+            "filename": "webkitgtk_2.20.2.bb",
             "filepath": "recipes-sato/webkit",
             "homepage": "http://www.webkitgtk.org/",
             "id": 271409,
@@ -13835,10 +13797,10 @@
             "license": "BSD & LGPLv2+",
             "pn": "webkitgtk",
             "provides": "webkitgtk ",
-            "pv": "2.20.1",
+            "pv": "2.20.2",
             "section": "base",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2018-05-25T06:05:10+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14586,7 +14548,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "meson_0.46.0.bb",
+            "filename": "meson_0.46.1.bb",
             "filepath": "recipes-devtools/meson",
             "homepage": "http://mesonbuild.com",
             "id": 494786,
@@ -14595,10 +14557,10 @@
             "license": "Apache-2.0",
             "pn": "meson",
             "provides": "meson ",
-            "pv": "0.46.0",
+            "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-05-25T06:05:17+0000"
+            "updated": "2018-06-05T02:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -14966,7 +14928,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Forked code from glibc libary to extract only crypto part.",
-            "filename": "libxcrypt_4.0.0.bb",
+            "filename": "libxcrypt_4.0.1.bb",
             "filepath": "recipes-core/libxcrypt",
             "homepage": "https://github.com/besser82/libxcrypt",
             "id": 566279,
@@ -14975,10 +14937,10 @@
             "license": "LGPLv2.1",
             "pn": "libxcrypt",
             "provides": "libxcrypt virtual/crypt",
-            "pv": "4.0.0",
+            "pv": "4.0.1",
             "section": "libs",
             "summary": "Extended cryptographic library (from glibc)",
-            "updated": "2018-05-25T06:05:20+0000"
+            "updated": "2018-06-05T02:06:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15051,10 +15013,10 @@
             "license": "BSD-3-Clause",
             "pn": "rpcsvc-proto",
             "provides": "rpcsvc-proto ",
-            "pv": "1.3.1+gitX",
+            "pv": "1.4+gitX",
             "section": "libs",
             "summary": "rpcsvc protocol definitions from glibc",
-            "updated": "2018-05-25T06:05:22+0000"
+            "updated": "2018-06-05T02:06:00+0000"
         }
     ],
     "wrtemplates": []

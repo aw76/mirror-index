@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180526",
+            "bitbake_branch": "wr-10.18-20180604",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-28T02:05:25+0000",
+            "updated": "2018-06-05T02:06:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-30T08:05:55+0000",
-            "vcs_last_commit": "2018-05-30T08:05:55+0000",
-            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
-            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
+            "updated": "2018-06-04T03:06:19+0000",
+            "vcs_last_commit": "2018-06-04T03:06:19+0000",
+            "vcs_last_fetch": "2018-06-04T03:06:19+0000",
+            "vcs_last_rev": "8b3e41db33ef230d04c898a6678500eb1fa668f7",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2018-05-21T01:05:09+0000",
-            "vcs_last_commit": "2018-05-21T01:05:09+0000",
-            "vcs_last_fetch": "2018-05-21T01:05:09+0000",
-            "vcs_last_rev": "95b79afa3ee0f2ebf9232688e75078daab1e0e5e",
+            "updated": "2018-06-04T02:06:29+0000",
+            "vcs_last_commit": "2018-06-04T02:06:29+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:29+0000",
+            "vcs_last_rev": "0b7e907a7c18276a7ba97340e972e063a62ddc9c",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": null
@@ -669,7 +669,7 @@
             "pv": "5.1.0+gitX",
             "section": "base",
             "summary": "MusicBrainz client library",
-            "updated": "2017-09-26T09:09:19+0000"
+            "updated": "2018-06-05T02:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1531,19 +1531,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "TinyALSA is a small library to interface with ALSA in the Linux kernel. It is a lightweight alternative to libasound.",
-            "filename": "tinyalsa_1.1.1.bb",
+            "filename": "tinyalsa.bb",
             "filepath": "recipes-multimedia/tinyalsa",
             "homepage": "https://github.com/tinyalsa/tinyalsa",
             "id": 625481,
-            "inherits": "",
+            "inherits": "cmake",
             "layerbranch": 14963,
             "license": "BSD-3-Clause",
             "pn": "tinyalsa",
             "provides": "tinyalsa ",
-            "pv": "1.1.1",
+            "pv": "1.1.1+gitX",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2018-05-08T08:05:09+0000"
+            "updated": "2018-06-05T02:06:23+0000"
         },
         {
             "bbclassextend": "",

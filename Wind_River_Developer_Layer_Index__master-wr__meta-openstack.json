@@ -8,140 +8,140 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180526",
+            "bitbake_branch": "wr-10.18-20180604",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-05-28T02:05:25+0000",
+            "updated": "2018-06-05T02:06:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-05-26T04:05:54+0000",
-            "vcs_last_commit": "2018-05-26T04:05:54+0000",
-            "vcs_last_fetch": "2018-05-26T04:05:54+0000",
-            "vcs_last_rev": "e2d3487cacd9e23e520cd434079b583807e95171",
+            "updated": "2018-06-04T02:06:20+0000",
+            "vcs_last_commit": "2018-06-04T02:06:20+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:20+0000",
+            "vcs_last_rev": "a10904d8000c5dae78cd691d7cb065548347b021",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-05-30T08:05:55+0000",
-            "vcs_last_commit": "2018-05-30T08:05:55+0000",
-            "vcs_last_fetch": "2018-05-30T08:05:55+0000",
-            "vcs_last_rev": "52a9f8abdaf535dcd7e0c457c1ad33f4b42ad556",
+            "updated": "2018-06-04T03:06:19+0000",
+            "vcs_last_commit": "2018-06-04T03:06:19+0000",
+            "vcs_last_fetch": "2018-06-04T03:06:19+0000",
+            "vcs_last_rev": "8b3e41db33ef230d04c898a6678500eb1fa668f7",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2018-05-21T01:05:08+0000",
-            "vcs_last_commit": "2018-05-21T01:05:08+0000",
-            "vcs_last_fetch": "2018-05-21T01:05:08+0000",
-            "vcs_last_rev": "7314b9f210d8199704e934b4fc022734cb517ee1",
+            "updated": "2018-06-04T02:06:29+0000",
+            "vcs_last_commit": "2018-06-04T02:06:29+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:29+0000",
+            "vcs_last_rev": "8811ba964d62f2c46af65917e1e8707aabfddee5",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-05-23T01:05:55+0000",
-            "vcs_last_commit": "2018-05-23T01:05:55+0000",
-            "vcs_last_fetch": "2018-05-23T01:05:55+0000",
-            "vcs_last_rev": "199a378f96d9d071b745f9721c1193ee0032ca95",
+            "updated": "2018-06-04T02:06:31+0000",
+            "vcs_last_commit": "2018-06-04T02:06:31+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:31+0000",
+            "vcs_last_rev": "5d0c09aee872d9f361b54e40d147c5e00c6b5653",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-05-21T01:05:10+0000",
-            "vcs_last_commit": "2018-05-21T01:05:10+0000",
-            "vcs_last_fetch": "2018-05-21T01:05:10+0000",
-            "vcs_last_rev": "52187a153d1c1906e6c3a2c86bcf0ad96c15347d",
+            "updated": "2018-06-04T02:06:31+0000",
+            "vcs_last_commit": "2018-06-04T02:06:31+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:31+0000",
+            "vcs_last_rev": "ee2ca3bffdd823374d5412509cbf33d27daa82a7",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-05-21T01:05:08+0000",
-            "vcs_last_commit": "2018-05-21T01:05:08+0000",
-            "vcs_last_fetch": "2018-05-21T01:05:08+0000",
-            "vcs_last_rev": "7314b9f210d8199704e934b4fc022734cb517ee1",
+            "updated": "2018-06-04T02:06:29+0000",
+            "vcs_last_commit": "2018-06-04T02:06:29+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:29+0000",
+            "vcs_last_rev": "8811ba964d62f2c46af65917e1e8707aabfddee5",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "webserver",
             "id": 14976,
             "layer": 10,
-            "updated": "2018-05-21T01:05:08+0000",
-            "vcs_last_commit": "2018-05-21T01:05:08+0000",
-            "vcs_last_fetch": "2018-05-21T01:05:08+0000",
-            "vcs_last_rev": "7314b9f210d8199704e934b4fc022734cb517ee1",
+            "updated": "2018-06-04T02:06:29+0000",
+            "vcs_last_commit": "2018-06-04T02:06:29+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:29+0000",
+            "vcs_last_rev": "8811ba964d62f2c46af65917e1e8707aabfddee5",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2018-05-26T04:05:05+0000",
-            "vcs_last_commit": "2018-05-26T04:05:05+0000",
-            "vcs_last_fetch": "2018-05-26T04:05:05+0000",
-            "vcs_last_rev": "583e3b8fc9a195c1f5ee781f0d549f6c3a8e8148",
+            "updated": "2018-06-04T02:06:28+0000",
+            "vcs_last_commit": "2018-06-04T02:06:28+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:28+0000",
+            "vcs_last_rev": "a0fafc24451ae664e5e89588bb9d5da5e272638c",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180604",
             "branch": 38,
             "collection": "openstack-layer",
             "id": 57006,
             "layer": 155,
-            "updated": "2018-05-26T04:05:05+0000",
-            "vcs_last_commit": "2018-05-26T04:05:05+0000",
-            "vcs_last_fetch": "2018-05-26T04:05:05+0000",
-            "vcs_last_rev": "583e3b8fc9a195c1f5ee781f0d549f6c3a8e8148",
+            "updated": "2018-06-04T02:06:28+0000",
+            "vcs_last_commit": "2018-06-04T02:06:28+0000",
+            "vcs_last_fetch": "2018-06-04T02:06:28+0000",
+            "vcs_last_rev": "a0fafc24451ae664e5e89588bb9d5da5e272638c",
             "vcs_subdir": "meta-openstack",
             "version": null,
             "yp_compatible_version": null
@@ -1188,7 +1188,7 @@
             "pv": "1.7.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-17T02:11:40+0000"
+            "updated": "2018-06-05T02:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1321,7 +1321,7 @@
             "pv": "1.4.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-09-26T09:09:17+0000"
+            "updated": "2018-06-05T02:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1397,7 +1397,7 @@
             "pv": "0.11.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-17T02:11:54+0000"
+            "updated": "2018-06-05T02:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2100,7 +2100,7 @@
             "pv": "1.1.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-09-26T09:09:22+0000"
+            "updated": "2018-06-05T02:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2214,7 +2214,7 @@
             "pv": "5.30.1+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-17T02:11:47+0000"
+            "updated": "2018-06-05T02:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2898,7 +2898,7 @@
             "pv": "3.30.1+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-17T02:11:47+0000"
+            "updated": "2018-06-05T02:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3316,7 +3316,7 @@
             "pv": "1.25.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-17T02:11:48+0000"
+            "updated": "2018-06-05T02:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -5273,7 +5273,7 @@
             "pv": "1.28.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-17T02:11:46+0000"
+            "updated": "2018-06-05T02:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6337,7 +6337,7 @@
             "pv": "4.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-17T02:11:54+0000"
+            "updated": "2018-06-05T02:06:07+0000"
         },
         {
             "bbclassextend": "",
