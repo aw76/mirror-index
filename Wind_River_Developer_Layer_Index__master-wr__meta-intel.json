@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180604",
+            "bitbake_branch": "wr-10.18-20180611",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-05T02:06:15+0000",
+            "updated": "2018-06-12T01:06:32+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180604",
+            "actual_branch": "wr-10.18-20180611",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-07T07:06:35+0000",
-            "vcs_last_commit": "2018-06-07T07:06:35+0000",
-            "vcs_last_fetch": "2018-06-07T07:06:35+0000",
-            "vcs_last_rev": "a6d77a358a733620a38b8674f80cc0a780319b38",
+            "updated": "2018-06-11T03:06:42+0000",
+            "vcs_last_commit": "2018-06-11T03:06:42+0000",
+            "vcs_last_fetch": "2018-06-11T03:06:42+0000",
+            "vcs_last_rev": "5824299bad24de2a6784fb97357399dfa00f0921",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180526",
+            "actual_branch": "wr-10.18-20180611",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-05-26T04:05:54+0000",
-            "vcs_last_commit": "2018-05-26T04:05:54+0000",
-            "vcs_last_fetch": "2018-05-26T04:05:54+0000",
-            "vcs_last_rev": "02424cec5ba9d69ea875109f433b30a1895a083a",
+            "updated": "2018-06-11T03:06:39+0000",
+            "vcs_last_commit": "2018-06-11T03:06:39+0000",
+            "vcs_last_fetch": "2018-06-11T03:06:39+0000",
+            "vcs_last_rev": "5e2599f109a67b6e86e440004ccfb1191a49bff6",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": null
@@ -105,14 +105,14 @@
             "id": 6144,
             "layerbranch": 84751,
             "name": "intel-core2-32",
-            "updated": "2018-04-25T03:04:20+0000"
+            "updated": "2018-06-12T01:06:49+0000"
         },
         {
             "description": " 64 bit Intel Core i7 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
             "id": 6145,
             "layerbranch": 84751,
             "name": "intel-corei7-64",
-            "updated": "2018-04-25T03:04:20+0000"
+            "updated": "2018-06-12T01:06:49+0000"
         }
     ],
     "recipes": [
@@ -406,7 +406,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Thermal Daemon is a Linux daemon used to prevent the overheating of platforms. This daemon monitors temperature and applies compensation using available cooling methods.",
-            "filename": "thermald_1.7.1.bb",
+            "filename": "thermald_1.7.2.bb",
             "filepath": "recipes-bsp/thermald",
             "homepage": "https://github.com/01org/thermal_daemon",
             "id": 346935,
@@ -415,10 +415,10 @@
             "license": "GPLv2",
             "pn": "thermald",
             "provides": "thermald ",
-            "pv": "1.7.1",
+            "pv": "1.7.2",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2018-04-04T03:04:46+0000"
+            "updated": "2018-06-12T01:06:49+0000"
         },
         {
             "bbclassextend": "",

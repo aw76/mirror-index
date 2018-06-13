@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180604",
+            "bitbake_branch": "wr-10.18-20180611",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-05T02:06:15+0000",
+            "updated": "2018-06-12T01:06:32+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180604",
+            "actual_branch": "wr-10.18-20180611",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-07T07:06:35+0000",
-            "vcs_last_commit": "2018-06-07T07:06:35+0000",
-            "vcs_last_fetch": "2018-06-07T07:06:35+0000",
-            "vcs_last_rev": "a6d77a358a733620a38b8674f80cc0a780319b38",
+            "updated": "2018-06-11T03:06:42+0000",
+            "vcs_last_commit": "2018-06-11T03:06:42+0000",
+            "vcs_last_fetch": "2018-06-11T03:06:42+0000",
+            "vcs_last_rev": "5824299bad24de2a6784fb97357399dfa00f0921",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -104,7 +104,7 @@
             "id": 10498,
             "layerbranch": 14953,
             "name": "qemux86-64",
-            "updated": "2018-05-25T06:05:22+0000"
+            "updated": "2018-06-12T01:06:27+0000"
         },
         {
             "description": " a generic armv8",
@@ -118,7 +118,7 @@
             "id": 10500,
             "layerbranch": 14953,
             "name": "qemux86",
-            "updated": "2018-05-25T06:05:22+0000"
+            "updated": "2018-06-12T01:06:27+0000"
         }
     ],
     "recipes": [
@@ -1887,7 +1887,7 @@
             "pv": "1.9.2",
             "section": "x11/drivers",
             "summary": "X.Org X server -- mouse input driver",
-            "updated": "2018-05-25T06:05:06+0000"
+            "updated": "2018-06-12T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2305,7 +2305,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2018-05-25T06:05:11+0000"
+            "updated": "2018-06-12T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2324,7 +2324,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2018-05-25T06:05:11+0000"
+            "updated": "2018-06-12T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2343,7 +2343,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:11+0000"
+            "updated": "2018-06-12T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2495,7 +2495,7 @@
             "pv": "1.9.4",
             "section": "libs",
             "summary": "Library to handle input devices in Wayland compositors",
-            "updated": "2018-05-25T06:05:12+0000"
+            "updated": "2018-06-12T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2875,7 +2875,7 @@
             "pv": "1.5.0",
             "section": "libs",
             "summary": "OpenGL function pointer management library",
-            "updated": "2018-05-25T06:05:15+0000"
+            "updated": "2018-06-12T01:06:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -3084,7 +3084,7 @@
             "pv": "7.7p1",
             "section": "console/network",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2018-06-05T02:06:52+0000"
+            "updated": "2018-06-12T01:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3502,7 +3502,7 @@
             "pv": "3.26.1",
             "section": "base",
             "summary": "System-wide Performance Profiler for Linux",
-            "updated": "2018-05-25T06:05:21+0000"
+            "updated": "2018-06-12T01:06:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3635,7 +3635,7 @@
             "pv": "0.0+gitX",
             "section": "kernel",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2018-06-05T02:06:00+0000"
+            "updated": "2018-06-12T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -4484,13 +4484,13 @@
             "id": 270888,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 14953,
-            "license": "LGPLv2+",
+            "license": "GPLv2",
             "pn": "shared-mime-info",
             "provides": "shared-mime-info ",
             "pv": "1.9",
             "section": "base",
             "summary": "Shared MIME type database and specification",
-            "updated": "2018-05-25T06:05:32+0000"
+            "updated": "2018-06-12T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -5535,7 +5535,7 @@
             "pv": "2.28.0",
             "section": "base",
             "summary": "Assistive Technology Service Provider Interface (dbus core)",
-            "updated": "2018-05-25T06:05:46+0000"
+            "updated": "2018-06-12T01:06:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -5554,7 +5554,7 @@
             "pv": "2.28.1",
             "section": "x11/libs",
             "summary": "Accessibility toolkit for GNOME",
-            "updated": "2018-05-25T06:05:47+0000"
+            "updated": "2018-06-12T01:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -5573,7 +5573,7 @@
             "pv": "2.26.2",
             "section": "base",
             "summary": "AT-SPI 2 Toolkit Bridge",
-            "updated": "2018-05-25T06:05:47+0000"
+            "updated": "2018-06-12T01:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5839,7 +5839,7 @@
             "pv": "0.0.1+gitX",
             "section": "base",
             "summary": "GStreamer examples (including gtk-play, gst-play)",
-            "updated": "2018-05-25T06:05:50+0000"
+            "updated": "2018-06-12T01:06:37+0000"
         },
         {
             "bbclassextend": "",
@@ -6314,7 +6314,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-05-25T06:05:54+0000"
+            "updated": "2018-06-12T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -6333,7 +6333,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-05-25T06:05:54+0000"
+            "updated": "2018-06-12T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -7233,7 +7233,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Linux Test Project is a joint project with SGI, IBM, OSDL, and Bull with a goal to deliver test suites to the open source community that validate the reliability, robustness, and stability of Linux. The Linux Test Project is a collection of tools for testing the Linux kernel and related features.",
-            "filename": "ltp_20180118.bb",
+            "filename": "ltp_20180515.bb",
             "filepath": "recipes-extended/ltp",
             "homepage": "http://ltp.sourceforge.net",
             "id": 271037,
@@ -7242,10 +7242,10 @@
             "license": "GPLv2 & GPLv2+ & LGPLv2+ & LGPLv2.1+ & BSD-2-Clause",
             "pn": "ltp",
             "provides": "ltp ",
-            "pv": "20180118",
+            "pv": "20180515",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2018-05-25T06:05:03+0000"
+            "updated": "2018-06-12T01:06:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -7397,7 +7397,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:04+0000"
+            "updated": "2018-06-12T01:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -7416,7 +7416,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-05-25T06:05:05+0000"
+            "updated": "2018-06-12T01:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7435,7 +7435,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:05+0000"
+            "updated": "2018-06-12T01:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7454,7 +7454,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:05+0000"
+            "updated": "2018-06-12T01:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7473,7 +7473,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:05+0000"
+            "updated": "2018-06-12T01:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7492,7 +7492,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:05+0000"
+            "updated": "2018-06-12T01:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -7511,7 +7511,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:05+0000"
+            "updated": "2018-06-12T01:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -8347,7 +8347,7 @@
             "pv": "237",
             "section": "base",
             "summary": "A System and service manager",
-            "updated": "2018-05-25T06:05:14+0000"
+            "updated": "2018-06-12T01:06:37+0000"
         },
         {
             "bbclassextend": "",
@@ -9221,7 +9221,7 @@
             "pv": "4.14.1",
             "section": "base",
             "summary": "The RPM package management system",
-            "updated": "2018-06-05T02:06:59+0000"
+            "updated": "2018-06-12T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -9240,7 +9240,7 @@
             "pv": "3.3",
             "section": "devel",
             "summary": "A parallel build system",
-            "updated": "2018-06-05T02:06:53+0000"
+            "updated": "2018-06-12T01:06:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9582,7 +9582,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2018-05-28T02:05:45+0000"
+            "updated": "2018-06-12T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -9658,7 +9658,7 @@
             "pv": "2.7.14",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-05-28T02:05:40+0000"
+            "updated": "2018-06-12T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -9696,7 +9696,7 @@
             "pv": "3.5.5",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-05-25T06:05:30+0000"
+            "updated": "2018-06-12T01:06:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11406,7 +11406,7 @@
             "pv": "3.10.3",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2018-05-28T02:05:45+0000"
+            "updated": "2018-06-12T01:06:33+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11425,7 +11425,7 @@
             "pv": "3.10.3",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2018-05-25T06:05:48+0000"
+            "updated": "2018-06-12T01:06:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -11539,7 +11539,7 @@
             "pv": "3.28.1.1",
             "section": "base",
             "summary": "WebKit based web browser for GNOME",
-            "updated": "2018-06-05T02:06:00+0000"
+            "updated": "2018-06-12T01:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -11786,7 +11786,7 @@
             "pv": "1.4.2",
             "section": "base",
             "summary": "JSON-GLib implements a full JSON parser using GLib and GObject",
-            "updated": "2018-05-25T06:05:53+0000"
+            "updated": "2018-06-12T01:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -12109,7 +12109,7 @@
             "pv": "237",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-06-05T02:06:58+0000"
+            "updated": "2018-06-12T01:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -12280,7 +12280,7 @@
             "pv": "2018.76",
             "section": "console/network",
             "summary": "A lightweight SSH and SCP implementation",
-            "updated": "2018-05-25T06:05:58+0000"
+            "updated": "2018-06-12T01:06:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -12318,7 +12318,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:58+0000"
+            "updated": "2018-06-12T01:06:37+0000"
         },
         {
             "bbclassextend": "",
@@ -12470,7 +12470,7 @@
             "pv": "1.27.2",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2018-05-25T06:05:00+0000"
+            "updated": "2018-06-12T01:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -12736,7 +12736,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-05-25T06:05:02+0000"
+            "updated": "2018-06-12T01:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -12755,7 +12755,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:02+0000"
+            "updated": "2018-06-12T01:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -12774,7 +12774,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-05-25T06:05:02+0000"
+            "updated": "2018-06-12T01:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -12793,7 +12793,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-05-25T06:05:02+0000"
+            "updated": "2018-06-12T01:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -12812,7 +12812,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2018-05-25T06:05:03+0000"
+            "updated": "2018-06-12T01:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12831,7 +12831,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:03+0000"
+            "updated": "2018-06-12T01:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12850,7 +12850,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-05-25T06:05:03+0000"
+            "updated": "2018-06-12T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -13135,7 +13135,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Self-hosting",
-            "updated": "2018-05-25T06:05:04+0000"
+            "updated": "2018-06-12T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -13363,7 +13363,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Package of environment files for SDK",
-            "updated": "2018-05-25T06:05:07+0000"
+            "updated": "2018-06-12T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -13382,7 +13382,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Integrated Development Environment support",
-            "updated": "2018-05-25T06:05:07+0000"
+            "updated": "2018-06-12T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -13572,7 +13572,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Package of environment files for SDK",
-            "updated": "2018-05-25T06:05:08+0000"
+            "updated": "2018-06-12T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -13876,7 +13876,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:11+0000"
+            "updated": "2018-06-12T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -13895,7 +13895,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:11+0000"
+            "updated": "2018-06-12T01:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13914,7 +13914,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:12+0000"
+            "updated": "2018-06-12T01:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13933,7 +13933,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-25T06:05:12+0000"
+            "updated": "2018-06-12T01:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -14225,7 +14225,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "qemu_2.11.1.bb",
+            "filename": "qemu_2.12.0.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
             "id": 336710,
@@ -14234,10 +14234,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "qemu",
             "provides": "qemu ",
-            "pv": "2.11.1",
+            "pv": "2.12.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2018-05-25T06:05:15+0000"
+            "updated": "2018-06-12T01:06:26+0000"
         },
         {
             "bbclassextend": "",
@@ -14560,7 +14560,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-06-05T02:06:53+0000"
+            "updated": "2018-06-12T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -15017,6 +15017,25 @@
             "section": "libs",
             "summary": "rpcsvc protocol definitions from glibc",
             "updated": "2018-06-05T02:06:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "nativesdk-meson_0.46.1.bb",
+            "filepath": "recipes-devtools/meson",
+            "homepage": "http://mesonbuild.com",
+            "id": 640219,
+            "inherits": "distutils-common-base distutils3 distutils3-base nativesdk python3-dir python3native setuptools3",
+            "layerbranch": 14953,
+            "license": "Apache-2.0",
+            "pn": "nativesdk-meson",
+            "provides": "nativesdk-meson",
+            "pv": "0.46.1",
+            "section": "base",
+            "summary": "A high performance build system",
+            "updated": "2018-06-12T01:06:39+0000"
         }
     ],
     "wrtemplates": []

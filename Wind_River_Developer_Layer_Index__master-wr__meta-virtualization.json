@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180604",
+            "bitbake_branch": "wr-10.18-20180611",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-05T02:06:15+0000",
+            "updated": "2018-06-12T01:06:32+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180604",
+            "actual_branch": "wr-10.18-20180611",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-06-05T08:06:12+0000",
-            "vcs_last_commit": "2018-06-05T08:06:12+0000",
-            "vcs_last_fetch": "2018-06-05T08:06:12+0000",
-            "vcs_last_rev": "fc43bbf51e6af5aabbf05131d615383c8a80da93",
+            "updated": "2018-06-11T10:06:43+0000",
+            "vcs_last_commit": "2018-06-11T10:06:43+0000",
+            "vcs_last_fetch": "2018-06-11T10:06:43+0000",
+            "vcs_last_rev": "6e34b517d3bf08bf2dcab40445c68b65bedb3445",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180604",
+            "actual_branch": "wr-10.18-20180611",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-07T07:06:35+0000",
-            "vcs_last_commit": "2018-06-07T07:06:35+0000",
-            "vcs_last_fetch": "2018-06-07T07:06:35+0000",
-            "vcs_last_rev": "a6d77a358a733620a38b8674f80cc0a780319b38",
+            "updated": "2018-06-11T03:06:42+0000",
+            "vcs_last_commit": "2018-06-11T03:06:42+0000",
+            "vcs_last_fetch": "2018-06-11T03:06:42+0000",
+            "vcs_last_rev": "5824299bad24de2a6784fb97357399dfa00f0921",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -330,7 +330,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxc aims to use these new functionnalities to provide an userspace container object",
-            "filename": "lxc_2.0.8.bb",
+            "filename": "lxc_3.0.0.bb",
             "filepath": "recipes-containers/lxc",
             "homepage": "",
             "id": 270511,
@@ -339,10 +339,10 @@
             "license": "LGPLv2.1",
             "pn": "lxc",
             "provides": "lxc ",
-            "pv": "2.0.8",
+            "pv": "3.0.0",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-06-07T09:06:33+0000"
+            "updated": "2018-06-12T01:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -624,10 +624,10 @@
             "license": "Apache-2",
             "pn": "openvswitch",
             "provides": "openvswitch ",
-            "pv": "2.7.3+b8dcfbebee9e7dbc74ec5eecc9b45d335d6150c1",
+            "pv": "2.9.2+7e614671cba3c4e338d1c5003b74a10047d7a8eb",
             "section": "networking",
             "summary": "OpenvSwitch",
-            "updated": "2018-04-25T03:04:52+0000"
+            "updated": "2018-06-12T01:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -691,7 +691,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A toolkit to interact with the virtualization capabilities of recent versions of Linux.",
-            "filename": "libvirt_1.3.5.bb",
+            "filename": "libvirt_4.3.0.bb",
             "filepath": "recipes-extended/libvirt",
             "homepage": "http://libvirt.org",
             "id": 270531,
@@ -700,10 +700,10 @@
             "license": "LGPLv2.1+ & GPLv2+",
             "pn": "libvirt",
             "provides": "libvirt ",
-            "pv": "1.3.5",
+            "pv": "4.3.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-05-15T07:05:25+0000"
+            "updated": "2018-06-12T01:06:10+0000"
         },
         {
             "bbclassextend": "native",
