@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180611",
+            "bitbake_branch": "wr-10.18-20180619",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-12T01:06:32+0000",
+            "updated": "2018-06-20T01:06:38+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180611",
+            "actual_branch": "wr-10.18-20180619",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-19T02:06:15+0000",
-            "vcs_last_commit": "2018-06-19T02:06:15+0000",
-            "vcs_last_fetch": "2018-06-19T02:06:15+0000",
-            "vcs_last_rev": "355092a9e8c090f078d9b755558f531fdcd7b955",
+            "updated": "2018-06-19T03:06:51+0000",
+            "vcs_last_commit": "2018-06-19T03:06:51+0000",
+            "vcs_last_fetch": "2018-06-19T03:06:51+0000",
+            "vcs_last_rev": "fc93a69b1ec167398d65b8d694596773f5b0779f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180604",
+            "actual_branch": "wr-10.18-20180619",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-06-04T02:06:31+0000",
-            "vcs_last_commit": "2018-06-04T02:06:31+0000",
-            "vcs_last_fetch": "2018-06-04T02:06:31+0000",
-            "vcs_last_rev": "ee2ca3bffdd823374d5412509cbf33d27daa82a7",
+            "updated": "2018-06-20T01:06:02+0000",
+            "vcs_last_commit": "2018-06-20T01:06:02+0000",
+            "vcs_last_fetch": "2018-06-20T01:06:02+0000",
+            "vcs_last_rev": "75df36087670210190d1e18b671454a42f40b552",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -1296,7 +1296,7 @@
             "pv": "0.9.9-a2",
             "section": "libs",
             "summary": "OpenGL Mathematics Library",
-            "updated": "2018-03-26T08:03:52+0000"
+            "updated": "2018-06-20T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1543,7 +1543,7 @@
             "pv": "2.2.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:55+0000"
+            "updated": "2018-06-20T01:06:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -2170,7 +2170,7 @@
             "pv": "1.2-rc3",
             "section": "libs",
             "summary": "A packet dissection and creation library",
-            "updated": "2017-09-26T09:09:00+0000"
+            "updated": "2018-06-20T01:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2341,7 +2341,7 @@
             "pv": "1.7.991",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2018-05-21T09:05:08+0000"
+            "updated": "2018-06-20T01:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2417,7 +2417,7 @@
             "pv": "1.7.2",
             "section": "libs",
             "summary": "",
-            "updated": "2018-05-21T09:05:10+0000"
+            "updated": "2018-06-20T01:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2512,7 +2512,7 @@
             "pv": "0.9.3",
             "section": "base",
             "summary": "Apache Thrift",
-            "updated": "2017-09-26T09:09:02+0000"
+            "updated": "2018-06-20T01:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2645,7 +2645,7 @@
             "pv": "2.6",
             "section": "kernel/userland",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2018-04-16T07:04:36+0000"
+            "updated": "2018-06-20T01:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2702,7 +2702,7 @@
             "pv": "3.0.0",
             "section": "base",
             "summary": "Canonical libwebsockets.org websocket library",
-            "updated": "2018-05-21T09:05:07+0000"
+            "updated": "2018-06-20T01:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2835,7 +2835,7 @@
             "pv": "1.6.2",
             "section": "base",
             "summary": "VMcore extraction tool",
-            "updated": "2017-09-26T09:09:05+0000"
+            "updated": "2018-06-20T01:06:29+0000"
         },
         {
             "bbclassextend": "native cross",
@@ -2854,7 +2854,7 @@
             "pv": "7.2.0",
             "section": "devel",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2018-01-30T02:01:44+0000"
+            "updated": "2018-06-20T01:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -2911,7 +2911,7 @@
             "pv": "1.10",
             "section": "console/utils",
             "summary": "fetch and change SCSI mode pages",
-            "updated": "2017-09-26T09:09:05+0000"
+            "updated": "2018-06-20T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3348,7 +3348,7 @@
             "pv": "3.4.0",
             "section": "base",
             "summary": "lm_sensors",
-            "updated": "2018-03-07T03:03:42+0000"
+            "updated": "2018-06-20T01:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3386,7 +3386,7 @@
             "pv": "0.99.7",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T07:04:35+0000"
+            "updated": "2018-06-20T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3405,7 +3405,7 @@
             "pv": "0.1.10",
             "section": "base",
             "summary": "some essentials for string handling (and a bit more)",
-            "updated": "2017-09-26T09:09:09+0000"
+            "updated": "2018-06-20T01:06:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -3424,7 +3424,7 @@
             "pv": "1.4",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T09:09:09+0000"
+            "updated": "2018-06-20T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3488,7 +3488,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "open-vm-tools_10.1.5.bb",
+            "filename": "open-vm-tools_10.2.5.bb",
             "filepath": "recipes-support/open-vm-tools",
             "homepage": "https://github.com/vmware/open-vm-tools",
             "id": 269074,
@@ -3497,17 +3497,17 @@
             "license": "LGPL-2.0 & GPL-2.0 & BSD & CDDL-1.0",
             "pn": "open-vm-tools",
             "provides": "open-vm-tools ",
-            "pv": "10.1.5",
+            "pv": "10.2.5",
             "section": "vmware-tools",
             "summary": "Tools to enhance VMWare guest integration and performance",
-            "updated": "2018-01-30T02:01:47+0000"
+            "updated": "2018-06-20T01:06:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
-            "bugtracker": "",
+            "bugtracker": "https://github.com/jedisct1/libsodium/issues",
             "description": "",
-            "filename": "libsodium_1.0.11.bb",
+            "filename": "libsodium_1.0.16.bb",
             "filepath": "recipes-crypto/libsodium",
             "homepage": "http://libsodium.org/",
             "id": 269075,
@@ -3516,10 +3516,10 @@
             "license": "ISC",
             "pn": "libsodium",
             "provides": "libsodium ",
-            "pv": "1.0.11",
+            "pv": "1.0.16",
             "section": "base",
             "summary": "The Sodium crypto library",
-            "updated": "2018-03-07T03:03:43+0000"
+            "updated": "2018-06-20T01:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3633,7 +3633,7 @@
             "pv": "2.3.6",
             "section": "base",
             "summary": "An Open Source ODBC sub-system",
-            "updated": "2018-04-16T07:04:35+0000"
+            "updated": "2018-06-20T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3861,7 +3861,7 @@
             "pv": "2.2.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-11-23T02:11:58+0000"
+            "updated": "2018-06-20T01:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -4089,7 +4089,7 @@
             "pv": "5.5.60",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2018-06-05T02:06:09+0000"
+            "updated": "2018-06-20T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -4108,14 +4108,14 @@
             "pv": "5.5.60",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2018-06-05T02:06:09+0000"
+            "updated": "2018-06-20T01:06:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "syslog-ng, as the name shows, is a syslogd replacement, but with new functionality for the new generation. The original syslogd allows messages only to be sorted based on priority/facility pairs; syslog-ng adds the possibility to filter based on message contents using regular expressions. The new configuration scheme is intuitive and powerful. Forwarding logs over TCP and remembering all forwarding hops makes it ideal for firewalled environments. ",
-            "filename": "syslog-ng_3.8.1.bb",
+            "filename": "syslog-ng_3.15.1.bb",
             "filepath": "recipes-support/syslog-ng",
             "homepage": "http://www.balabit.com/network-security/syslog-ng/opensource-logging-system",
             "id": 269108,
@@ -4124,10 +4124,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "syslog-ng",
             "provides": "syslog-ng ",
-            "pv": "3.8.1",
+            "pv": "3.15.1",
             "section": "base",
             "summary": "Alternative system logger daemon",
-            "updated": "2018-02-07T06:02:01+0000"
+            "updated": "2018-06-20T01:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -4191,7 +4191,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtinyxml2_5.0.1.bb",
+            "filename": "libtinyxml2_6.2.0.bb",
             "filepath": "recipes-support/libtinyxml2",
             "homepage": "http://www.grinninglizard.com/tinyxml2/",
             "id": 269112,
@@ -4200,10 +4200,10 @@
             "license": "Zlib",
             "pn": "libtinyxml2",
             "provides": "libtinyxml2 ",
-            "pv": "5.0.1",
+            "pv": "6.2.0",
             "section": "libs",
             "summary": "TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-06-20T01:06:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -4431,7 +4431,7 @@
             "pv": "0.6.3",
             "section": "devel",
             "summary": "Tools of dm-thin device-mapper",
-            "updated": "2017-09-26T09:09:16+0000"
+            "updated": "2018-06-20T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -4469,7 +4469,7 @@
             "pv": "2.5.8",
             "section": "base",
             "summary": "Replacement for the old crypt() package and crypt(1) command, with extensions",
-            "updated": "2018-03-07T03:03:42+0000"
+            "updated": "2018-06-20T01:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -4792,7 +4792,7 @@
             "pv": "1.42",
             "section": "console/admin",
             "summary": "Utilities for working with generic SCSI devices",
-            "updated": "2017-09-26T09:09:18+0000"
+            "updated": "2018-06-20T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -4868,7 +4868,7 @@
             "pv": "1.9.0",
             "section": "libs",
             "summary": "Modern, powerful open source cross-platform C++ class libraries",
-            "updated": "2018-05-21T09:05:09+0000"
+            "updated": "2018-06-20T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -4944,7 +4944,7 @@
             "pv": "2.2.5",
             "section": "libs",
             "summary": "gd is a library used to create PNG, JPEG, or WBMP images",
-            "updated": "2018-04-09T02:04:46+0000"
+            "updated": "2018-06-20T01:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -5153,7 +5153,7 @@
             "pv": "1.2.1gitr+X",
             "section": "libs",
             "summary": "",
-            "updated": "2018-03-13T03:03:53+0000"
+            "updated": "2018-06-20T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -5198,7 +5198,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.",
-            "filename": "nano_2.9.7.bb",
+            "filename": "nano_2.9.8.bb",
             "filepath": "recipes-support/nano",
             "homepage": "http://www.nano-editor.org/",
             "id": 269167,
@@ -5207,10 +5207,10 @@
             "license": "GPLv3",
             "pn": "nano",
             "provides": "nano ",
-            "pv": "2.9.7",
+            "pv": "2.9.8",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-06-05T02:06:14+0000"
+            "updated": "2018-06-20T01:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -5286,7 +5286,7 @@
             "pv": "0.7.3",
             "section": "libs",
             "summary": "Multiplatform C library implementing the SSHv2 and SSHv1 protocol",
-            "updated": "2017-09-26T09:09:22+0000"
+            "updated": "2018-06-20T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -5533,7 +5533,7 @@
             "pv": "git",
             "section": "System Environment/Base",
             "summary": "Linux machine check injector tool",
-            "updated": "2017-09-26T09:09:24+0000"
+            "updated": "2018-06-20T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -5616,7 +5616,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "htop_2.1.0.bb",
+            "filename": "htop_2.2.0.bb",
             "filepath": "recipes-support/htop",
             "homepage": "http://hisham.hm/htop",
             "id": 269193,
@@ -5625,10 +5625,10 @@
             "license": "GPLv2",
             "pn": "htop",
             "provides": "htop ",
-            "pv": "2.1.0",
+            "pv": "2.2.0",
             "section": "console/utils",
             "summary": "Interactive process viewer",
-            "updated": "2018-05-21T09:05:12+0000"
+            "updated": "2018-06-20T01:06:22+0000"
         },
         {
             "bbclassextend": "",
@@ -5761,7 +5761,7 @@
             "pv": "2.7.6",
             "section": "base",
             "summary": "udisks provides dbus interfaces for disks and storage devices",
-            "updated": "2018-04-16T07:04:38+0000"
+            "updated": "2018-06-20T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -5772,7 +5772,7 @@
             "filepath": "recipes-support/udisks",
             "homepage": "",
             "id": 269203,
-            "inherits": "autotools autotools-brokensep gtk-doc pkgconfig qemu siteconfig siteinfo systemd",
+            "inherits": "autotools autotools-brokensep gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "GPLv2+",
             "pn": "udisks",
@@ -5780,7 +5780,7 @@
             "pv": "1.0.5",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:26+0000"
+            "updated": "2018-06-20T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -6065,7 +6065,7 @@
             "pv": "2.02.177",
             "section": "utils",
             "summary": "",
-            "updated": "2018-05-21T09:05:08+0000"
+            "updated": "2018-06-20T01:06:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6084,7 +6084,7 @@
             "pv": "2.02.177",
             "section": "utils",
             "summary": "",
-            "updated": "2018-05-21T09:05:09+0000"
+            "updated": "2018-06-20T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -6540,7 +6540,7 @@
             "pv": "3.3.4",
             "section": "base",
             "summary": "",
-            "updated": "2017-11-23T02:11:57+0000"
+            "updated": "2018-06-20T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7292,15 +7292,15 @@
             "filepath": "recipes-test/fwts",
             "homepage": "https://wiki.ubuntu.com/Kernel/Reference/fwts",
             "id": 269292,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools bash-completion pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv2+",
             "pn": "fwts",
             "provides": "fwts ",
-            "pv": "17.03.00+gitX",
+            "pv": "18.05.00+gitX",
             "section": "base",
             "summary": "Firmware testsuite",
-            "updated": "2017-09-26T09:09:36+0000"
+            "updated": "2018-06-20T01:06:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7585,7 +7585,7 @@
             "pv": "1.9.2",
             "section": "base",
             "summary": "haveged - A simple entropy daemon",
-            "updated": "2018-03-27T05:03:06+0000"
+            "updated": "2018-06-20T01:06:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -7889,7 +7889,7 @@
             "pv": "17.0.0",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2017-09-26T09:09:40+0000"
+            "updated": "2018-06-20T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -8003,7 +8003,7 @@
             "pv": "1.0.3+gitX",
             "section": "libs",
             "summary": "An IPC library for high performance servers",
-            "updated": "2018-04-04T03:04:21+0000"
+            "updated": "2018-06-20T01:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -8098,7 +8098,7 @@
             "pv": "0.113",
             "section": "base",
             "summary": "PolicyKit Authorization Framework",
-            "updated": "2017-11-14T08:11:35+0000"
+            "updated": "2018-06-20T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -8257,7 +8257,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "jansson_2.9.bb",
+            "filename": "jansson_2.11.bb",
             "filepath": "recipes-extended/jansson",
             "homepage": "http://www.digip.org/jansson/",
             "id": 269349,
@@ -8266,10 +8266,10 @@
             "license": "MIT",
             "pn": "jansson",
             "provides": "jansson ",
-            "pv": "2.9",
+            "pv": "2.11",
             "section": "base",
             "summary": "Jansson is a C library for encoding, decoding and manipulating JSON data",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2018-06-20T01:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -8421,7 +8421,7 @@
             "pv": "1.11.5",
             "section": "base",
             "summary": "Portable Hardware Locality (hwloc) software package",
-            "updated": "2018-01-03T05:01:47+0000"
+            "updated": "2018-06-20T01:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -8483,28 +8483,28 @@
         {
             "bbclassextend": "",
             "blacklisted": "",
-            "bugtracker": "",
+            "bugtracker": "https://github.com/hyperrealm/libconfig/issues",
             "description": "Library for manipulating structured configuration files",
-            "filename": "libconfig_1.5.bb",
+            "filename": "libconfig_1.7.2.bb",
             "filepath": "recipes-extended/libconfig",
-            "homepage": "http://www.hyperrealm.com/libconfig/",
+            "homepage": "https://hyperrealm.github.io/libconfig/",
             "id": 269361,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPLv2.1",
             "pn": "libconfig",
             "provides": "libconfig ",
-            "pv": "1.5",
+            "pv": "1.7.2",
             "section": "libs",
             "summary": "C/C++ Configuration File Library",
-            "updated": "2017-09-26T09:09:45+0000"
+            "updated": "2018-06-20T01:06:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_3.0.2.bb",
+            "filename": "redis_4.0.8.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 269362,
@@ -8513,10 +8513,10 @@
             "license": "BSD",
             "pn": "redis",
             "provides": "redis ",
-            "pv": "3.0.2",
+            "pv": "4.0.8",
             "section": "libs",
             "summary": "Redis key-value store",
-            "updated": "2017-09-26T09:09:45+0000"
+            "updated": "2018-06-20T01:06:22+0000"
         },
         {
             "bbclassextend": "",
@@ -8706,7 +8706,7 @@
             "pv": "8.29.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2018-05-08T08:05:54+0000"
+            "updated": "2018-06-20T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -8763,7 +8763,7 @@
             "pv": "2.3.1",
             "section": "base",
             "summary": "Hardware performance monitoring counters",
-            "updated": "2018-02-27T02:02:37+0000"
+            "updated": "2018-06-20T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -8839,7 +8839,7 @@
             "pv": "0.6",
             "section": "base",
             "summary": "Simple top-like I/O monitor",
-            "updated": "2017-09-26T09:09:47+0000"
+            "updated": "2018-06-20T01:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -8896,7 +8896,7 @@
             "pv": "5.8.0",
             "section": "base",
             "summary": "Collects and summarises system performance statistics",
-            "updated": "2018-06-05T02:06:09+0000"
+            "updated": "2018-06-20T01:06:26+0000"
         },
         {
             "bbclassextend": "",
@@ -8950,10 +8950,10 @@
             "license": "GPLv2+",
             "pn": "lcdproc",
             "provides": "lcdproc ",
-            "pv": "0.5.8+gitX",
+            "pv": "0.5.9+gitX",
             "section": "utils",
             "summary": "Drivers for character-based LCD displays",
-            "updated": "2017-09-26T09:09:48+0000"
+            "updated": "2018-06-20T01:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -9086,7 +9086,7 @@
             "pv": "3.0-a9",
             "section": "console/utils",
             "summary": "Tools for performance analysis",
-            "updated": "2018-05-21T09:05:09+0000"
+            "updated": "2018-06-20T01:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -9238,7 +9238,7 @@
             "pv": "465",
             "section": "console/tests",
             "summary": "Filesystem and Disk Benchmarking Tool",
-            "updated": "2017-09-26T09:09:49+0000"
+            "updated": "2018-06-20T01:06:22+0000"
         },
         {
             "bbclassextend": "",
@@ -9295,7 +9295,7 @@
             "pv": "2.20",
             "section": "base",
             "summary": "A library which provides easy access to huge pages of memory",
-            "updated": "2017-09-26T09:09:50+0000"
+            "updated": "2018-06-20T01:06:22+0000"
         },
         {
             "bbclassextend": "",
@@ -9675,7 +9675,7 @@
             "pv": "5.1.1.r37",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-05-08T08:05:53+0000"
+            "updated": "2018-06-20T01:06:25+0000"
         },
         {
             "bbclassextend": "",
@@ -9770,7 +9770,7 @@
             "pv": "1.1.0+gitX",
             "section": "libs",
             "summary": "A fast JSON parser/generator for C++ with both SAX/DOM style API",
-            "updated": "2017-09-26T09:09:54+0000"
+            "updated": "2018-06-20T01:06:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -9827,7 +9827,7 @@
             "pv": "1.2.0",
             "section": "libs",
             "summary": "log4cplus provides a simple C++ logging API for log management",
-            "updated": "2017-09-26T09:09:54+0000"
+            "updated": "2018-06-20T01:06:26+0000"
         },
         {
             "bbclassextend": "",
@@ -10157,7 +10157,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_8.9.4.bb",
+            "filename": "nodejs_8.11.2.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 269460,
@@ -10166,10 +10166,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "8.9.4",
+            "pv": "8.11.2",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T06:03:21+0000"
+            "updated": "2018-06-20T01:06:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -10245,7 +10245,7 @@
             "pv": "2.1.5+gitX",
             "section": "base",
             "summary": "MessagePack implementation for C and C++",
-            "updated": "2018-04-16T07:04:36+0000"
+            "updated": "2018-06-20T01:06:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -10480,7 +10480,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mercurial_4.4.bb",
+            "filename": "mercurial_4.6.1.bb",
             "filepath": "recipes-devtools/mercurial",
             "homepage": "http://mercurial.selenic.com/",
             "id": 269479,
@@ -10489,10 +10489,10 @@
             "license": "GPLv2",
             "pn": "mercurial",
             "provides": "mercurial ",
-            "pv": "4.4",
+            "pv": "4.6.1",
             "section": "console/utils",
             "summary": "The Mercurial distributed SCM",
-            "updated": "2017-11-23T02:11:56+0000"
+            "updated": "2018-06-20T01:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10644,7 +10644,7 @@
             "pv": "0.10+gitrX",
             "section": "base",
             "summary": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing",
-            "updated": "2018-05-21T09:05:11+0000"
+            "updated": "2018-06-20T01:06:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -10701,7 +10701,7 @@
             "pv": "2.2.0.0",
             "section": "libs",
             "summary": "RCF (Remote Call Framework) is a cross-platform interprocess communication framework for C++",
-            "updated": "2018-05-08T08:05:53+0000"
+            "updated": "2018-06-20T01:06:25+0000"
         },
         {
             "bbclassextend": "",
@@ -10739,7 +10739,7 @@
             "pv": "4.08",
             "section": "libs",
             "summary": "A C++ JSON Parser/Generator Implemented with Boost Spirit.",
-            "updated": "2017-09-26T09:09:02+0000"
+            "updated": "2018-06-20T01:06:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -10959,7 +10959,7 @@
             "filepath": "recipes-core/libxml",
             "homepage": "http://libxmlplusplus.sourceforge.net",
             "id": 269512,
-            "inherits": "autotools distro_features_check pkgconfig ptest siteconfig siteinfo",
+            "inherits": "autotools pkgconfig ptest siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPL-2.1+",
             "pn": "libxml++",
@@ -10967,7 +10967,7 @@
             "pv": "2.40.1",
             "section": "libs",
             "summary": "C++ wrapper for libxml library",
-            "updated": "2018-04-04T03:04:22+0000"
+            "updated": "2018-06-20T01:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -11328,7 +11328,7 @@
             "pv": "1.4.0",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2017-10-20T03:10:12+0000"
+            "updated": "2018-06-20T01:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -11347,7 +11347,7 @@
             "pv": "2.9.2",
             "section": "base",
             "summary": "Generic library for reporting various problems",
-            "updated": "2018-04-25T03:04:05+0000"
+            "updated": "2018-06-20T01:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -11575,7 +11575,7 @@
             "pv": "0.6.1",
             "section": "console/tools",
             "summary": "Cap'n Proto serialization/RPC system",
-            "updated": "2017-09-26T09:09:08+0000"
+            "updated": "2018-06-20T01:06:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11651,7 +11651,7 @@
             "pv": "1.14",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-08T08:05:53+0000"
+            "updated": "2018-06-20T01:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -11727,7 +11727,7 @@
             "pv": "5.13.1",
             "section": "base",
             "summary": "RocksDB an embeddable, persistent key-value store",
-            "updated": "2018-06-05T02:06:11+0000"
+            "updated": "2018-06-20T01:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -12164,7 +12164,7 @@
             "pv": "2.10.2",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-06-05T02:06:12+0000"
+            "updated": "2018-06-20T01:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -12183,7 +12183,7 @@
             "pv": "1.1",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2018-06-05T02:06:14+0000"
+            "updated": "2018-06-20T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -12279,6 +12279,101 @@
             "section": "base",
             "summary": "USB hub per-port power control",
             "updated": "2018-06-05T02:06:15+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A small tool to provide detailed information on the hardware configuration of the machine. It can report exact memory configuration, firmware version, mainboard configuration, CPU version and speed, cache configuration, bus speed, etc. on DMI-capable or EFI systems.",
+            "filename": "lshw_02.18.bb",
+            "filepath": "recipes-devtools/lshw",
+            "homepage": "http://ezix.org/project/wiki/HardwareLiSter",
+            "id": 646408,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "GPLv2+",
+            "pn": "lshw",
+            "provides": "lshw ",
+            "pv": "02.18",
+            "section": "console/tools",
+            "summary": "Hardware lister",
+            "updated": "2018-06-20T01:06:34+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "pam-plugin-ccreds_11.bb",
+            "filepath": "recipes-extended/pam",
+            "homepage": "https://www.padl.com/OSS/pam_ccreds.html",
+            "id": 646409,
+            "inherits": "autotools distro_features_check siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "pam-plugin-ccreds",
+            "provides": "pam-plugin-ccreds ",
+            "pv": "11",
+            "section": "libs",
+            "summary": "PAM cached credentials module",
+            "updated": "2018-06-20T01:06:34+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The turbostat tool allows you to determine the actual processor frequency and idle power saving state residency on supported processors.",
+            "filename": "turbostat_3.4.bb",
+            "filepath": "recipes-kernel/turbostat",
+            "homepage": "",
+            "id": 646410,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "turbostat",
+            "provides": "turbostat ",
+            "pv": "3.4",
+            "section": "base",
+            "summary": "Frequency and Idle power monitoring tools for Linux",
+            "updated": "2018-06-20T01:06:34+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Nmap (\"Network Mapper\") is a free and open source (license) utility for network discovery and security auditing.\\nGui support via appending to IMAGE_FEATURES x11-base in local.conf",
+            "filename": "nmap_7.60.bb",
+            "filepath": "recipes-security/nmap",
+            "homepage": "",
+            "id": 646411,
+            "inherits": "autotools autotools-brokensep pkgconfig python3-dir python3native siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPL-2.0",
+            "pn": "nmap",
+            "provides": "nmap ",
+            "pv": "7.60",
+            "section": "security",
+            "summary": "network auditing tool",
+            "updated": "2018-06-20T01:06:34+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/michaelrsweet/mxml/issues",
+            "description": "Tiny XML Library",
+            "filename": "libmxml_2.11.bb",
+            "filepath": "recipes-support/libmxml",
+            "homepage": "https://www.msweet.org/mxml/",
+            "id": 646412,
+            "inherits": "autotools autotools-brokensep gettext siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "Mini-XML-License",
+            "pn": "libmxml",
+            "provides": "libmxml ",
+            "pv": "2.11",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-06-20T01:06:35+0000"
         }
     ],
     "wrtemplates": []

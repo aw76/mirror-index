@@ -8,70 +8,70 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180611",
+            "bitbake_branch": "wr-10.18-20180619",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-12T01:06:32+0000",
+            "updated": "2018-06-20T01:06:38+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180611",
+            "actual_branch": "wr-10.18-20180619",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-19T02:06:15+0000",
-            "vcs_last_commit": "2018-06-19T02:06:15+0000",
-            "vcs_last_fetch": "2018-06-19T02:06:15+0000",
-            "vcs_last_rev": "355092a9e8c090f078d9b755558f531fdcd7b955",
+            "updated": "2018-06-19T03:06:51+0000",
+            "vcs_last_commit": "2018-06-19T03:06:51+0000",
+            "vcs_last_fetch": "2018-06-19T03:06:51+0000",
+            "vcs_last_rev": "fc93a69b1ec167398d65b8d694596773f5b0779f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180604",
+            "actual_branch": "wr-10.18-20180619",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-06-04T02:06:31+0000",
-            "vcs_last_commit": "2018-06-04T02:06:31+0000",
-            "vcs_last_fetch": "2018-06-04T02:06:31+0000",
-            "vcs_last_rev": "5d0c09aee872d9f361b54e40d147c5e00c6b5653",
+            "updated": "2018-06-20T09:06:33+0000",
+            "vcs_last_commit": "2018-06-20T09:06:33+0000",
+            "vcs_last_fetch": "2018-06-20T09:06:33+0000",
+            "vcs_last_rev": "8e11de42bd8b0991330c5d30f3fbb3b3b775dd00",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180604",
+            "actual_branch": "wr-10.18-20180619",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-06-04T02:06:31+0000",
-            "vcs_last_commit": "2018-06-04T02:06:31+0000",
-            "vcs_last_fetch": "2018-06-04T02:06:31+0000",
-            "vcs_last_rev": "ee2ca3bffdd823374d5412509cbf33d27daa82a7",
+            "updated": "2018-06-20T01:06:02+0000",
+            "vcs_last_commit": "2018-06-20T01:06:02+0000",
+            "vcs_last_fetch": "2018-06-20T01:06:02+0000",
+            "vcs_last_rev": "75df36087670210190d1e18b671454a42f40b552",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180604",
+            "actual_branch": "wr-10.18-20180619",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-06-04T02:06:29+0000",
-            "vcs_last_commit": "2018-06-04T02:06:29+0000",
-            "vcs_last_fetch": "2018-06-04T02:06:29+0000",
-            "vcs_last_rev": "8811ba964d62f2c46af65917e1e8707aabfddee5",
+            "updated": "2018-06-19T02:06:55+0000",
+            "vcs_last_commit": "2018-06-19T02:06:55+0000",
+            "vcs_last_fetch": "2018-06-19T02:06:55+0000",
+            "vcs_last_rev": "665869c337003afd23a7e5a2e30f2000c571b33b",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -211,7 +211,7 @@
             "pv": "6.1.5",
             "section": "console/network",
             "summary": "Remote file distribution client and server",
-            "updated": "2017-09-26T09:09:07+0000"
+            "updated": "2018-06-20T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -230,7 +230,7 @@
             "pv": "2.9.7.5",
             "section": "net",
             "summary": "",
-            "updated": "2018-05-23T02:05:27+0000"
+            "updated": "2018-06-20T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -306,7 +306,7 @@
             "pv": "1.9",
             "section": "misc",
             "summary": "VLAN provides vconfig utility",
-            "updated": "2018-06-05T02:06:45+0000"
+            "updated": "2018-06-20T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -439,7 +439,7 @@
             "pv": "1.12",
             "section": "libs",
             "summary": "dumb networking library",
-            "updated": "2017-09-26T09:09:09+0000"
+            "updated": "2018-06-20T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -534,14 +534,14 @@
             "pv": "4.7.6",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-04-16T07:04:43+0000"
+            "updated": "2018-06-20T02:06:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
-            "filename": "mbedtls_2.8.0.bb",
+            "filename": "mbedtls_2.9.0.bb",
             "filepath": "recipes-connectivity/mbedtls",
             "homepage": "https://tls.mbed.org/",
             "id": 270283,
@@ -550,10 +550,10 @@
             "license": "Apache-2.0",
             "pn": "mbedtls",
             "provides": "mbedtls  polarssl",
-            "pv": "2.8.0",
+            "pv": "2.9.0",
             "section": "libdevel",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2018-05-03T01:05:43+0000"
+            "updated": "2018-06-20T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -876,7 +876,7 @@
             "pv": "2.0.10-4",
             "section": "net",
             "summary": "Filtering tool for a Linux-based bridging firewall",
-            "updated": "2018-04-09T02:04:53+0000"
+            "updated": "2018-06-20T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1256,7 +1256,7 @@
             "pv": "0.2.8+gitX",
             "section": "libs",
             "summary": "netcf",
-            "updated": "2017-09-26T09:09:14+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1332,7 +1332,7 @@
             "pv": "0.3.1+gitX",
             "section": "net",
             "summary": "Utilities for managing the Linux LoWPAN stack",
-            "updated": "2018-05-03T01:05:44+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1446,7 +1446,7 @@
             "pv": "1.26",
             "section": "net",
             "summary": "Linux Virtual Server administration Utility",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1810,23 +1810,23 @@
             "updated": "2017-09-26T09:09:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_2.4.6.bb",
+            "filename": "wireshark_2.6.1.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 270353,
-            "inherits": "autotools perlnative pkgconfig siteconfig siteinfo upstream-version-is-even",
+            "inherits": "cmake perlnative pkgconfig python-dir pythonnative upstream-version-is-even",
             "layerbranch": 14964,
             "license": "GPL-2.0",
             "pn": "wireshark",
             "provides": "wireshark ",
-            "pv": "2.4.6",
+            "pv": "2.6.1",
             "section": "net",
             "summary": "",
-            "updated": "2018-05-03T01:05:43+0000"
+            "updated": "2018-06-20T02:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1864,7 +1864,7 @@
             "pv": "1.13.0+gitrX",
             "section": "libs",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2017-10-17T01:10:32+0000"
+            "updated": "2018-06-20T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1978,7 +1978,7 @@
             "pv": "5.6.2",
             "section": "net",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2018-04-16T07:04:44+0000"
+            "updated": "2018-06-20T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2111,7 +2111,7 @@
             "pv": "5.35",
             "section": "net",
             "summary": "Program for providing universal TLS/SSL tunneling service",
-            "updated": "2018-01-12T03:01:12+0000"
+            "updated": "2018-06-20T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2244,7 +2244,7 @@
             "pv": "8.9.6",
             "section": "admin",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2018-02-07T06:02:26+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2282,7 +2282,7 @@
             "pv": "5.1.2",
             "section": "utils",
             "summary": "Kernel based automounter for linux",
-            "updated": "2017-09-26T09:09:21+0000"
+            "updated": "2018-06-20T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2320,7 +2320,7 @@
             "pv": "3.2.2",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-06-05T02:06:46+0000"
+            "updated": "2018-06-20T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2469,10 +2469,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "iscsi-initiator-utils",
             "provides": "iscsi-initiator-utils ",
-            "pv": "2.0.876",
+            "pv": "2.0.876+gitX",
             "section": "net",
             "summary": "iSCSI daemon and utility programs",
-            "updated": "2018-04-09T02:04:51+0000"
+            "updated": "2018-06-20T09:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2491,7 +2491,7 @@
             "pv": "2.17",
             "section": "net",
             "summary": "IPv6 router advertisement daemon",
-            "updated": "2017-09-26T09:09:22+0000"
+            "updated": "2018-06-20T02:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2510,7 +2510,7 @@
             "pv": "3.0.3",
             "section": "net",
             "summary": "Very Secure FTP server",
-            "updated": "2017-09-26T09:09:23+0000"
+            "updated": "2018-06-20T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2529,7 +2529,7 @@
             "pv": "2.1.26",
             "section": "libs",
             "summary": "Generic client/server library for SASL authentication",
-            "updated": "2018-04-16T07:04:44+0000"
+            "updated": "2018-06-20T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2605,7 +2605,7 @@
             "pv": "22",
             "section": "admin",
             "summary": "Virtual EtherDrive blade AoE target",
-            "updated": "2017-09-26T09:09:23+0000"
+            "updated": "2018-06-20T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2909,7 +2909,7 @@
             "pv": "5.7.3",
             "section": "net",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2018-03-13T03:03:58+0000"
+            "updated": "2018-06-20T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2958,7 +2958,7 @@
             "filepath": "recipes-netkit/netkit-telnet",
             "homepage": "http://www.hcs.harvard.edu/~dholland/computers/netkit.html",
             "id": 270416,
-            "inherits": "",
+            "inherits": "update-alternatives",
             "layerbranch": 14964,
             "license": "BSD",
             "pn": "netkit-telnet",
@@ -2966,7 +2966,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T09:09:26+0000"
+            "updated": "2018-06-20T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3118,7 +3118,7 @@
             "pv": "5.0.1",
             "section": "console/network",
             "summary": "ntop is network top",
-            "updated": "2017-09-26T09:09:27+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3156,7 +3156,7 @@
             "pv": "1.10.6",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2018-06-05T02:06:45+0000"
+            "updated": "2018-06-20T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3232,7 +3232,7 @@
             "pv": "2.4.3",
             "section": "base",
             "summary": "The Corosync Cluster Engine and Application Programming Interfaces",
-            "updated": "2018-01-12T03:01:09+0000"
+            "updated": "2018-06-20T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3251,7 +3251,7 @@
             "pv": "4.0.2",
             "section": "utils",
             "summary": "",
-            "updated": "2017-09-26T09:09:27+0000"
+            "updated": "2018-06-20T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3372,7 +3372,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is the userspace components for the Linux Kernel's drivers Infiniband/RDMA subsystem.",
-            "filename": "rdma-core_17.bb",
+            "filename": "rdma-core_18.1.bb",
             "filepath": "recipes-support/rdma-core",
             "homepage": "",
             "id": 631643,
@@ -3381,10 +3381,10 @@
             "license": "BSD-2-Clause | GPLv2",
             "pn": "rdma-core",
             "provides": "rdma-core ",
-            "pv": "17",
+            "pv": "18.1",
             "section": "libs",
             "summary": "Userspace support for InfiniBand/RDMA verbs",
-            "updated": "2018-05-21T09:05:34+0000"
+            "updated": "2018-06-20T02:06:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3403,26 +3403,7 @@
             "pv": "0.5.1.3+gitX",
             "section": "base",
             "summary": "The CELT codec is a compression algorithm for audio",
-            "updated": "2018-06-05T02:06:47+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "cpprest_2.10.2.bb",
-            "filepath": "recipes-support/cpprest",
-            "homepage": "https://github.com/Microsoft/cpprestsdk/",
-            "id": 631672,
-            "inherits": "cmake",
-            "layerbranch": 14964,
-            "license": "MIT",
-            "pn": "cpprest",
-            "provides": "cpprest ",
-            "pv": "2.10.2",
-            "section": "libs/network",
-            "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-06-05T02:06:47+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3460,7 +3441,7 @@
             "pv": "0.14.0+gitX",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2018-06-05T02:06:48+0000"
+            "updated": "2018-06-20T02:06:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3499,6 +3480,63 @@
             "section": "libs/network",
             "summary": "C++/Boost Asio based websocket client/server library.",
             "updated": "2018-06-05T02:06:48+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "civetweb_git.bb",
+            "filepath": "recipes-connectivity/civetweb",
+            "homepage": "https://github.com/civetweb/civetweb",
+            "id": 646422,
+            "inherits": "cmake",
+            "layerbranch": 14964,
+            "license": "MIT",
+            "pn": "civetweb",
+            "provides": "civetweb ",
+            "pv": "1.10+gitX",
+            "section": "base",
+            "summary": "Civetweb embedded web server",
+            "updated": "2018-06-20T02:06:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The  HTTP Time Protocol (HTP) is used to synchronize a computer's time with web servers as reference time source. This program can be used instead ntpdate or similar, in networks that has a firewall blocking the NTP port. Htpdate will synchronize the computer time to Greenwich Mean Time (GMT), using the timestamps from HTTP headers found in web servers response (the HEAD method will be used to get the information). Htpdate works through proxy servers. Accuracy of htpdate will be usually within 0.5 seconds (better with multiple servers).",
+            "filename": "htpdate_1.2.0.bb",
+            "filepath": "recipes-support/htpdate",
+            "homepage": "http://www.vervest.org/htp/",
+            "id": 646423,
+            "inherits": "",
+            "layerbranch": 14964,
+            "license": "GPL-2.0+",
+            "pn": "htpdate",
+            "provides": "htpdate ",
+            "pv": "1.2.0",
+            "section": "base",
+            "summary": "HTTP based time synchronization tool",
+            "updated": "2018-06-20T02:06:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1 and 3.1.1. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
+            "filename": "mosquitto_1.4.15.bb",
+            "filepath": "recipes-connectivity/mosquitto",
+            "homepage": "http://mosquitto.org/",
+            "id": 646424,
+            "inherits": "systemd update-rc.d useradd useradd_base",
+            "layerbranch": 14964,
+            "license": "EPL-1.0 | EDL-1.0",
+            "pn": "mosquitto",
+            "provides": "mosquitto ",
+            "pv": "1.4.15",
+            "section": "console/network",
+            "summary": "Open source MQTT v3.1/3.1.1 implemention",
+            "updated": "2018-06-20T02:06:20+0000"
         }
     ],
     "wrtemplates": []
