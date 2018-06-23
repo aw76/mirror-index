@@ -14,7 +14,7 @@
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-20T01:06:38+0000",
+            "updated": "2018-06-19T20:06:38+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-22T02:06:26+0000",
-            "vcs_last_commit": "2018-06-22T02:06:26+0000",
-            "vcs_last_fetch": "2018-06-22T02:06:26+0000",
+            "updated": "2018-06-21T21:06:26+0000",
+            "vcs_last_commit": "2018-06-21T21:06:26+0000",
+            "vcs_last_fetch": "2018-06-21T21:06:26+0000",
             "vcs_last_rev": "0962e6a84d3245618ed38b45fd988c030fd78005",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-06-20T01:06:02+0000",
-            "vcs_last_commit": "2018-06-20T01:06:02+0000",
-            "vcs_last_fetch": "2018-06-20T01:06:02+0000",
+            "updated": "2018-06-19T20:06:02+0000",
+            "vcs_last_commit": "2018-06-19T20:06:02+0000",
+            "vcs_last_fetch": "2018-06-19T20:06:02+0000",
             "vcs_last_rev": "75df36087670210190d1e18b671454a42f40b552",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -54,9 +54,9 @@
             "collection": "perl-layer",
             "id": 14966,
             "layer": 13,
-            "updated": "2018-06-19T02:06:55+0000",
-            "vcs_last_commit": "2018-06-19T02:06:55+0000",
-            "vcs_last_fetch": "2018-06-19T02:06:55+0000",
+            "updated": "2018-06-18T21:06:55+0000",
+            "vcs_last_commit": "2018-06-18T21:06:55+0000",
+            "vcs_last_fetch": "2018-06-18T21:06:55+0000",
             "vcs_last_rev": "665869c337003afd23a7e5a2e30f2000c571b33b",
             "vcs_subdir": "meta-perl",
             "version": "1",
@@ -68,9 +68,9 @@
             "collection": "efi-secure-boot",
             "id": 56994,
             "layer": 126,
-            "updated": "2018-06-19T02:06:31+0000",
-            "vcs_last_commit": "2018-06-19T02:06:31+0000",
-            "vcs_last_fetch": "2018-06-19T02:06:31+0000",
+            "updated": "2018-06-18T21:06:31+0000",
+            "vcs_last_commit": "2018-06-18T21:06:31+0000",
+            "vcs_last_fetch": "2018-06-18T21:06:31+0000",
             "vcs_last_rev": "fd78ac3b496f5f03907d7e3c9492e64e2e6283c4",
             "vcs_subdir": "meta-efi-secure-boot",
             "version": null,
@@ -82,9 +82,9 @@
             "collection": "secure-core",
             "id": 57001,
             "layer": 149,
-            "updated": "2018-06-19T02:06:31+0000",
-            "vcs_last_commit": "2018-06-19T02:06:31+0000",
-            "vcs_last_fetch": "2018-06-19T02:06:31+0000",
+            "updated": "2018-06-18T21:06:31+0000",
+            "vcs_last_commit": "2018-06-18T21:06:31+0000",
+            "vcs_last_fetch": "2018-06-18T21:06:31+0000",
             "vcs_last_rev": "fd78ac3b496f5f03907d7e3c9492e64e2e6283c4",
             "vcs_subdir": "meta",
             "version": null,
@@ -96,9 +96,9 @@
             "collection": "signing-key",
             "id": 57003,
             "layer": 129,
-            "updated": "2018-06-19T02:06:31+0000",
-            "vcs_last_commit": "2018-06-19T02:06:31+0000",
-            "vcs_last_fetch": "2018-06-19T02:06:31+0000",
+            "updated": "2018-06-18T21:06:31+0000",
+            "vcs_last_commit": "2018-06-18T21:06:31+0000",
+            "vcs_last_fetch": "2018-06-18T21:06:31+0000",
             "vcs_last_rev": "52ffe3ad94ce376e926d9b54751e7ea40f2c403b",
             "vcs_subdir": "meta-signing-key",
             "version": null,
@@ -154,9 +154,10 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T23:05:28+0000",
+            "updated": "2018-05-30T18:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -171,9 +172,10 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T22:05:13+0000",
+            "updated": "2018-05-30T17:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -188,9 +190,10 @@
             "name": "meta-perl",
             "status": "P",
             "summary": "PERL language and related items",
-            "updated": "2018-05-30T22:05:45+0000",
+            "updated": "2018-05-30T17:05:45+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -205,9 +208,10 @@
             "name": "meta-efi-secure-boot",
             "status": "P",
             "summary": "Secure boot components",
-            "updated": "2018-05-30T22:05:28+0000",
+            "updated": "2018-05-30T17:05:28+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -222,9 +226,10 @@
             "name": "meta-signing-key",
             "status": "P",
             "summary": "User Key Store",
-            "updated": "2018-05-30T22:05:44+0000",
+            "updated": "2018-05-30T17:05:44+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -239,9 +244,10 @@
             "name": "meta-secure-core",
             "status": "P",
             "summary": "Provide the use cases for the Linux applications on secure boot, integrity and encryption",
-            "updated": "2018-05-30T22:05:37+0000",
+            "updated": "2018-05-30T17:05:37+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -266,7 +272,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-13T07:10:36+0000"
+            "updated": "2017-10-13T02:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -285,7 +291,7 @@
             "pv": "0.3.0+gitX",
             "section": "base",
             "summary": "The utility to manipulate machines owner keys which managed in shim",
-            "updated": "2017-10-13T07:10:36+0000"
+            "updated": "2017-10-13T02:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -304,7 +310,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2018-05-08T08:05:25+0000"
+            "updated": "2018-05-08T03:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -323,7 +329,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2018-05-08T08:05:24+0000"
+            "updated": "2018-05-08T03:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -342,7 +348,7 @@
             "pv": "12+gitX",
             "section": "bootloaders",
             "summary": "shim is a trivial EFI application.",
-            "updated": "2017-11-17T02:11:19+0000"
+            "updated": "2017-11-16T20:11:19+0000"
         },
         {
             "bbclassextend": "",
@@ -361,7 +367,7 @@
             "pv": "0.4.5+gitX",
             "section": "bootloaders",
             "summary": "The bootloader capable of authenticating the PE and non-PE files.",
-            "updated": "2018-05-21T09:05:04+0000"
+            "updated": "2018-05-21T04:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -380,7 +386,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "Utilities for signing UEFI binaries for use with secure boot",
-            "updated": "2017-11-23T02:11:42+0000"
+            "updated": "2017-11-22T20:11:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -399,7 +405,7 @@
             "pv": "0.3.2+gitX",
             "section": "devel",
             "summary": "A generic signing tool framework",
-            "updated": "2017-11-23T02:11:42+0000"
+            "updated": "2017-11-22T20:11:42+0000"
         }
     ],
     "wrtemplates": []

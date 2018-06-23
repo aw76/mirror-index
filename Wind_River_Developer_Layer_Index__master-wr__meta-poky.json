@@ -14,7 +14,7 @@
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-20T01:06:38+0000",
+            "updated": "2018-06-19T20:06:38+0000",
             "updates_enabled": true
         }
     ],
@@ -24,28 +24,28 @@
             "id": 1676,
             "layerbranch": 14955,
             "name": "poky-tiny",
-            "updated": "2018-02-15T17:02:06+0000"
+            "updated": "2018-02-15T11:02:06+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
             "id": 1677,
             "layerbranch": 14955,
             "name": "poky-bleeding",
-            "updated": "2017-09-26T09:09:37+0000"
+            "updated": "2017-09-26T04:09:37+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
             "id": 1678,
             "layerbranch": 14955,
             "name": "poky-lsb",
-            "updated": "2018-02-15T17:02:06+0000"
+            "updated": "2018-02-15T11:02:06+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
             "id": 1679,
             "layerbranch": 14955,
             "name": "poky",
-            "updated": "2018-06-05T02:06:37+0000"
+            "updated": "2018-06-04T21:06:37+0000"
         }
     ],
     "layerBranches": [
@@ -55,9 +55,9 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-22T02:06:26+0000",
-            "vcs_last_commit": "2018-06-22T02:06:26+0000",
-            "vcs_last_fetch": "2018-06-22T02:06:26+0000",
+            "updated": "2018-06-21T21:06:26+0000",
+            "vcs_last_commit": "2018-06-21T21:06:26+0000",
+            "vcs_last_fetch": "2018-06-21T21:06:26+0000",
             "vcs_last_rev": "0962e6a84d3245618ed38b45fd988c030fd78005",
             "vcs_subdir": "meta",
             "version": "11",
@@ -69,9 +69,9 @@
             "collection": "yocto",
             "id": 14955,
             "layer": 59,
-            "updated": "2018-06-15T10:06:28+0000",
-            "vcs_last_commit": "2018-06-15T10:06:28+0000",
-            "vcs_last_fetch": "2018-06-15T10:06:28+0000",
+            "updated": "2018-06-15T05:06:28+0000",
+            "vcs_last_commit": "2018-06-15T05:06:28+0000",
+            "vcs_last_fetch": "2018-06-15T05:06:28+0000",
             "vcs_last_rev": "737702c175691db679d513a05b1800a14da35c74",
             "vcs_subdir": "meta-poky",
             "version": "3",
@@ -97,9 +97,10 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T23:05:28+0000",
+            "updated": "2018-05-30T18:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -114,9 +115,10 @@
             "name": "meta-poky",
             "status": "P",
             "summary": "Poky reference distribution for the Yocto Project",
-            "updated": "2018-05-30T22:05:36+0000",
+            "updated": "2018-05-30T17:05:36+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-yocto",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -141,7 +143,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Poky-tiny init",
-            "updated": "2017-09-26T09:09:37+0000"
+            "updated": "2017-09-26T04:09:37+0000"
         }
     ],
     "wrtemplates": []

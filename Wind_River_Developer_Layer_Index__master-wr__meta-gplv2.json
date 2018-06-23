@@ -14,7 +14,7 @@
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-20T01:06:38+0000",
+            "updated": "2018-06-19T20:06:38+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +26,9 @@
             "collection": "gplv2",
             "id": 14948,
             "layer": 115,
-            "updated": "2018-04-30T11:04:31+0000",
-            "vcs_last_commit": "2018-04-30T11:04:31+0000",
-            "vcs_last_fetch": "2018-04-30T11:04:31+0000",
+            "updated": "2018-04-30T06:04:31+0000",
+            "vcs_last_commit": "2018-04-30T06:04:31+0000",
+            "vcs_last_fetch": "2018-04-30T06:04:31+0000",
             "vcs_last_rev": "90bc9ca48f5ef644719c690368b9f7c2fca28364",
             "vcs_subdir": "",
             "version": "1",
@@ -40,9 +40,9 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-22T02:06:26+0000",
-            "vcs_last_commit": "2018-06-22T02:06:26+0000",
-            "vcs_last_fetch": "2018-06-22T02:06:26+0000",
+            "updated": "2018-06-21T21:06:26+0000",
+            "vcs_last_commit": "2018-06-21T21:06:26+0000",
+            "vcs_last_fetch": "2018-06-21T21:06:26+0000",
             "vcs_last_rev": "0962e6a84d3245618ed38b45fd988c030fd78005",
             "vcs_subdir": "meta",
             "version": "11",
@@ -74,9 +74,10 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T23:05:28+0000",
+            "updated": "2018-05-30T18:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -91,9 +92,10 @@
             "name": "meta-gplv2",
             "status": "P",
             "summary": "This layer contains a set of recipes corresponding to old, obsolete versions of software that are GPLv2 licensed where the upstreams have moved to GPLv3 licenses.",
-            "updated": "2018-05-30T22:05:51+0000",
+            "updated": "2018-05-30T17:05:51+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-gplv2",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -118,7 +120,7 @@
             "pv": "1.8.3",
             "section": "libs",
             "summary": "Key/value database library with extensible hashing",
-            "updated": "2017-09-26T09:09:39+0000"
+            "updated": "2017-09-26T04:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -137,7 +139,7 @@
             "pv": "1.4.7",
             "section": "console/utils",
             "summary": "GNU Privacy Guard - encryption and signing tools",
-            "updated": "2017-09-26T09:09:39+0000"
+            "updated": "2017-09-26T04:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -156,7 +158,7 @@
             "pv": "4.2.1",
             "section": "devel",
             "summary": "GNU multiprecision arithmetic library",
-            "updated": "2017-09-26T09:09:40+0000"
+            "updated": "2017-09-26T04:09:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -175,7 +177,7 @@
             "pv": "2.7.1",
             "section": "libs",
             "summary": "A low level cryptographic library",
-            "updated": "2017-09-26T09:09:40+0000"
+            "updated": "2017-09-26T04:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -194,7 +196,7 @@
             "pv": "1.11.1",
             "section": "libs",
             "summary": "Character encoding support library",
-            "updated": "2017-09-26T09:09:40+0000"
+            "updated": "2017-09-26T04:09:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -213,7 +215,7 @@
             "pv": "3.3.29",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2018-03-07T03:03:17+0000"
+            "updated": "2018-03-06T21:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -232,7 +234,7 @@
             "pv": "0.5",
             "section": "base",
             "summary": "Line-oriented text editor",
-            "updated": "2017-09-26T09:09:40+0000"
+            "updated": "2017-09-26T04:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -251,7 +253,7 @@
             "pv": "2.8.1",
             "section": "base",
             "summary": "Diffutils contains tools used for finding differences between files",
-            "updated": "2018-05-03T01:05:36+0000"
+            "updated": "2018-05-02T20:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -270,7 +272,7 @@
             "pv": "1.18.1.4",
             "section": "console/utils",
             "summary": "GNU Troff software",
-            "updated": "2017-10-10T03:10:37+0000"
+            "updated": "2017-10-09T22:10:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -289,7 +291,7 @@
             "pv": "3.0.3",
             "section": "base",
             "summary": "Generate a perfect hash function from a set of keywords",
-            "updated": "2017-09-26T09:09:41+0000"
+            "updated": "2017-09-26T04:09:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -308,7 +310,7 @@
             "pv": "1.17",
             "section": "base",
             "summary": "GNU file archiving program",
-            "updated": "2017-09-26T09:09:41+0000"
+            "updated": "2017-09-26T04:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -327,7 +329,7 @@
             "pv": "3.1.5",
             "section": "console/utils",
             "summary": "GNU awk text processing utility",
-            "updated": "2017-09-26T09:09:41+0000"
+            "updated": "2017-09-26T04:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -346,7 +348,7 @@
             "pv": "1.3.12",
             "section": "console/utils",
             "summary": "Standard GNU compressor",
-            "updated": "2017-09-26T09:09:41+0000"
+            "updated": "2017-09-26T04:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -365,7 +367,7 @@
             "pv": "4.1.2",
             "section": "console/utils",
             "summary": "Stream EDitor (text filtering utility)",
-            "updated": "2017-09-26T09:09:42+0000"
+            "updated": "2017-09-26T04:09:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -384,7 +386,7 @@
             "pv": "0.6.14",
             "section": "libs",
             "summary": "Internationalized Domain Name support library",
-            "updated": "2017-09-26T09:09:42+0000"
+            "updated": "2017-09-26T04:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -403,7 +405,7 @@
             "pv": "2.18",
             "section": "libs",
             "summary": "Displays the full path of shell commands",
-            "updated": "2017-09-26T09:09:42+0000"
+            "updated": "2017-09-26T04:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -422,7 +424,7 @@
             "pv": "2.5.1a",
             "section": "console/utils",
             "summary": "Pattern matching utilities",
-            "updated": "2017-09-26T09:09:42+0000"
+            "updated": "2017-09-26T04:09:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -441,7 +443,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "GNU cpio is a program to manage archives of files",
-            "updated": "2017-09-26T09:09:42+0000"
+            "updated": "2017-09-26T04:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -460,7 +462,7 @@
             "pv": "4.7.5.2",
             "section": "console/utils",
             "summary": "Midnight Commander is an ncurses based file manager",
-            "updated": "2017-09-26T09:09:42+0000"
+            "updated": "2017-09-26T04:09:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -479,7 +481,7 @@
             "pv": "4.8",
             "section": "console/utils",
             "summary": "Documentation system for on-line information and printed output",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2017-09-26T04:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -498,7 +500,7 @@
             "pv": "3.2.57",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2018-04-25T03:04:33+0000"
+            "updated": "2018-04-24T22:04:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -517,7 +519,7 @@
             "pv": "4.2.31",
             "section": "console/utils",
             "summary": "find, locate, and xargs binaries",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2017-09-26T04:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -536,7 +538,7 @@
             "pv": "1.4.12",
             "section": "console/network",
             "summary": "msmtp is an SMTP client.",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2017-09-26T04:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -555,7 +557,7 @@
             "pv": "0.97",
             "section": "bootloaders",
             "summary": "GRUB is the GRand Unified Bootloader",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2017-09-26T04:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -574,7 +576,7 @@
             "pv": "2.11",
             "section": "base",
             "summary": "DOS FAT Filesystem Utilities",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2017-09-26T04:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -593,7 +595,7 @@
             "pv": "2.5.9",
             "section": "utils",
             "summary": "Tool for applying a patch file",
-            "updated": "2018-05-03T01:05:36+0000"
+            "updated": "2018-05-02T20:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -612,7 +614,7 @@
             "pv": "2.3",
             "section": "devel",
             "summary": "GNU Project parser generator (yacc replacement)",
-            "updated": "2017-09-26T09:09:44+0000"
+            "updated": "2017-09-26T04:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -631,7 +633,7 @@
             "pv": "2.6.9",
             "section": "console/network",
             "summary": "File synchronization tool",
-            "updated": "2018-05-03T01:05:36+0000"
+            "updated": "2018-05-02T20:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -650,7 +652,7 @@
             "pv": "3.81",
             "section": "devel",
             "summary": "GNU tool that controls the build process",
-            "updated": "2018-02-27T02:02:09+0000"
+            "updated": "2018-02-26T20:02:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -669,7 +671,7 @@
             "pv": "3.9.9",
             "section": "optional",
             "summary": "Utilities to access MS-DOS disks without mounting them",
-            "updated": "2017-09-26T09:09:44+0000"
+            "updated": "2017-09-26T04:09:44+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -688,7 +690,7 @@
             "pv": "1.4.9",
             "section": "base",
             "summary": "Traditional Unix macro processor",
-            "updated": "2017-09-26T09:09:45+0000"
+            "updated": "2017-09-26T04:09:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -707,7 +709,7 @@
             "pv": "0.148",
             "section": "base",
             "summary": "Utilities and libraries for handling compiled object files",
-            "updated": "2017-12-27T07:12:43+0000"
+            "updated": "2017-12-27T01:12:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -726,7 +728,7 @@
             "pv": "0.16.1",
             "section": "libs",
             "summary": "Utilities and libraries for producing multi-lingual messages",
-            "updated": "2017-12-27T07:12:42+0000"
+            "updated": "2017-12-27T01:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -745,7 +747,7 @@
             "pv": "6.9",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2018-04-25T03:04:33+0000"
+            "updated": "2018-04-24T22:04:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -764,7 +766,7 @@
             "pv": "5.2",
             "section": "libs",
             "summary": "Library for editing typed command lines",
-            "updated": "2017-09-26T09:09:46+0000"
+            "updated": "2017-09-26T04:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -783,7 +785,7 @@
             "pv": "9.20",
             "section": "x11/utils",
             "summary": "rxvt terminal clone supporting unicode",
-            "updated": "2018-05-03T01:05:37+0000"
+            "updated": "2018-05-02T20:05:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -802,7 +804,7 @@
             "pv": "1.7",
             "section": "utils",
             "summary": "Tool that measures CPU resources",
-            "updated": "2018-02-27T02:02:09+0000"
+            "updated": "2018-02-26T20:02:09+0000"
         }
     ],
     "wrtemplates": []

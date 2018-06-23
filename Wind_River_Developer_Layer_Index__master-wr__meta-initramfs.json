@@ -14,7 +14,7 @@
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-20T01:06:38+0000",
+            "updated": "2018-06-19T20:06:38+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-22T02:06:26+0000",
-            "vcs_last_commit": "2018-06-22T02:06:26+0000",
-            "vcs_last_fetch": "2018-06-22T02:06:26+0000",
+            "updated": "2018-06-21T21:06:26+0000",
+            "vcs_last_commit": "2018-06-21T21:06:26+0000",
+            "vcs_last_fetch": "2018-06-21T21:06:26+0000",
             "vcs_last_rev": "0962e6a84d3245618ed38b45fd988c030fd78005",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2018-06-19T02:06:55+0000",
-            "vcs_last_commit": "2018-06-19T02:06:55+0000",
-            "vcs_last_fetch": "2018-06-19T02:06:55+0000",
+            "updated": "2018-06-18T21:06:55+0000",
+            "vcs_last_commit": "2018-06-18T21:06:55+0000",
+            "vcs_last_fetch": "2018-06-18T21:06:55+0000",
             "vcs_last_rev": "665869c337003afd23a7e5a2e30f2000c571b33b",
             "vcs_subdir": "meta-initramfs",
             "version": null,
@@ -74,9 +74,10 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T23:05:28+0000",
+            "updated": "2018-05-30T18:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -91,9 +92,10 @@
             "name": "meta-initramfs",
             "status": "P",
             "summary": "klibc library and related utilities for building an initramfs",
-            "updated": "2018-05-30T22:05:49+0000",
+            "updated": "2018-05-30T17:05:49+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -118,7 +120,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Extremely basic live image init script",
-            "updated": "2017-10-10T03:10:02+0000"
+            "updated": "2017-10-09T22:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -137,7 +139,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel",
-            "updated": "2017-10-10T03:10:02+0000"
+            "updated": "2017-10-09T22:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -156,7 +158,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
-            "updated": "2018-03-13T03:03:49+0000"
+            "updated": "2018-03-12T22:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -175,7 +177,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2017-09-26T04:09:43+0000"
         },
         {
             "bbclassextend": "klibc",
@@ -194,7 +196,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2017-09-26T04:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -213,7 +215,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "Configuration files for kexecboot",
-            "updated": "2017-09-26T09:09:43+0000"
+            "updated": "2017-09-26T04:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -232,7 +234,7 @@
             "pv": "046+gita0799ffb554487a370c2a1adafaedd2021b6dc8c",
             "section": "base",
             "summary": "Initramfs generator using udev",
-            "updated": "2018-02-27T02:02:35+0000"
+            "updated": "2018-02-26T20:02:35+0000"
         },
         {
             "bbclassextend": "",
@@ -251,7 +253,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc utils for initramfs",
-            "updated": "2018-02-07T06:02:59+0000"
+            "updated": "2018-02-07T00:02:59+0000"
         },
         {
             "bbclassextend": "",
@@ -270,7 +272,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2017-10-10T03:10:02+0000"
+            "updated": "2017-10-09T22:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -289,7 +291,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2018-02-07T06:02:58+0000"
+            "updated": "2018-02-07T00:02:58+0000"
         },
         {
             "bbclassextend": "",
@@ -308,7 +310,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2017-10-10T03:10:02+0000"
+            "updated": "2017-10-09T22:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -327,7 +329,7 @@
             "pv": "2.0.2",
             "section": "base",
             "summary": "UBI utils statically compiled against klibc",
-            "updated": "2018-06-20T01:06:19+0000"
+            "updated": "2018-06-19T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -346,7 +348,7 @@
             "pv": "8.40",
             "section": "base",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2018-05-21T09:05:05+0000"
+            "updated": "2018-05-21T04:05:05+0000"
         },
         {
             "bbclassextend": "",
@@ -365,7 +367,7 @@
             "pv": "2.0.17+gitX",
             "section": "kernel/userland",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2018-06-05T02:06:06+0000"
+            "updated": "2018-06-04T21:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -384,7 +386,7 @@
             "pv": "git",
             "section": "base",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2018-05-21T09:05:05+0000"
+            "updated": "2018-05-21T04:05:05+0000"
         }
     ],
     "wrtemplates": []
