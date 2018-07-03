@@ -21,43 +21,43 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-21T21:06:26+0000",
-            "vcs_last_commit": "2018-06-21T21:06:26+0000",
-            "vcs_last_fetch": "2018-06-21T21:06:26+0000",
-            "vcs_last_rev": "0962e6a84d3245618ed38b45fd988c030fd78005",
+            "updated": "2018-07-02T02:07:12+0000",
+            "vcs_last_commit": "2018-07-02T02:07:12+0000",
+            "vcs_last_fetch": "2018-07-02T02:07:12+0000",
+            "vcs_last_rev": "ed12c5ca75cba70ab6646013c88fc1b503455a5e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-06-19T20:06:02+0000",
-            "vcs_last_commit": "2018-06-19T20:06:02+0000",
-            "vcs_last_fetch": "2018-06-19T20:06:02+0000",
-            "vcs_last_rev": "75df36087670210190d1e18b671454a42f40b552",
+            "updated": "2018-07-02T01:07:26+0000",
+            "vcs_last_commit": "2018-07-02T01:07:26+0000",
+            "vcs_last_fetch": "2018-07-02T01:07:26+0000",
+            "vcs_last_rev": "41ecbe57778a96137fbb871625b30f96a7321d86",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-06-18T21:06:55+0000",
-            "vcs_last_commit": "2018-06-18T21:06:55+0000",
-            "vcs_last_fetch": "2018-06-18T21:06:55+0000",
-            "vcs_last_rev": "665869c337003afd23a7e5a2e30f2000c571b33b",
+            "updated": "2018-07-02T01:07:25+0000",
+            "vcs_last_commit": "2018-07-02T01:07:25+0000",
+            "vcs_last_fetch": "2018-07-02T01:07:25+0000",
+            "vcs_last_rev": "b0beae6c6180ba3d24dc8cbe944d0caa494c941d",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -925,7 +925,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-cryptography-vectors_2.1.4.bb",
+            "filename": "python3-cryptography-vectors_2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://cryptography.io/",
             "id": 269663,
@@ -934,10 +934,10 @@
             "license": "Apache-2.0 | BSD",
             "pn": "python3-cryptography-vectors",
             "provides": "python3-cryptography-vectors ",
-            "pv": "2.1.4",
+            "pv": "2.2",
             "section": "devel/python",
             "summary": "Test vectors for the cryptography package.",
-            "updated": "2018-01-02T23:01:59+0000"
+            "updated": "2018-07-02T22:07:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -1860,7 +1860,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://pytest.org",
             "id": 269712,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 14967,
             "license": "MIT",
             "pn": "python3-pytest",
@@ -1868,7 +1868,7 @@
             "pv": "3.4.2",
             "section": "devel/python",
             "summary": "Simple powerful teting with python",
-            "updated": "2018-04-03T22:04:30+0000"
+            "updated": "2018-07-02T22:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2331,7 +2331,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-cryptography_2.1.4.bb",
+            "filename": "python3-cryptography_2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://cryptography.io/",
             "id": 269738,
@@ -2340,10 +2340,10 @@
             "license": "Apache-2.0 | BSD",
             "pn": "python3-cryptography",
             "provides": "python3-cryptography ",
-            "pv": "2.1.4",
+            "pv": "2.2",
             "section": "devel/python",
             "summary": "Provides cryptographic recipes and primitives to python developers",
-            "updated": "2018-06-19T20:06:42+0000"
+            "updated": "2018-07-02T22:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4079,7 +4079,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-cryptography-vectors_2.1.4.bb",
+            "filename": "python-cryptography-vectors_2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://cryptography.io/",
             "id": 269831,
@@ -4088,10 +4088,10 @@
             "license": "Apache-2.0 | BSD",
             "pn": "python-cryptography-vectors",
             "provides": "python-cryptography-vectors ",
-            "pv": "2.1.4",
+            "pv": "2.2",
             "section": "devel/python",
             "summary": "Test vectors for the cryptography package.",
-            "updated": "2018-01-02T23:01:55+0000"
+            "updated": "2018-07-02T22:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4782,7 +4782,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-cryptography_2.1.4.bb",
+            "filename": "python-cryptography_2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://cryptography.io/",
             "id": 269868,
@@ -4791,10 +4791,10 @@
             "license": "Apache-2.0 | BSD",
             "pn": "python-cryptography",
             "provides": "python-cryptography ",
-            "pv": "2.1.4",
+            "pv": "2.2",
             "section": "devel/python",
             "summary": "Provides cryptographic recipes and primitives to python developers",
-            "updated": "2018-06-19T20:06:42+0000"
+            "updated": "2018-07-02T22:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -5071,7 +5071,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://pytest.org",
             "id": 269883,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 14967,
             "license": "MIT",
             "pn": "python-pytest",
@@ -5079,7 +5079,7 @@
             "pv": "3.4.2",
             "section": "devel/python",
             "summary": "Simple powerful teting with python",
-            "updated": "2018-04-03T22:04:29+0000"
+            "updated": "2018-07-02T22:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -5763,25 +5763,6 @@
             "pv": "0.15.19",
             "section": "base",
             "summary": "Telepathy IM framework - Python package",
-            "updated": "2017-09-26T04:09:04+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "A Python library for making CIM (Common Information Model) operations over HTTP using the WBEM CIM-XML protocol. It is based on the idea that a good WBEM client should be easy to use and not necessarily require a large amount of programming knowledge. It is suitable for a large range of tasks from simply poking around to writing web and GUI applications. WBEM, or Web Based Enterprise Management is a manageability protocol, like SNMP, standardised by the Distributed Management Task Force (DMTF) available at http://www.dmtf.org/standards/wbem. It also provides a Python provider interface, and is the fastest and easiest way to write providers on the planet.",
-            "filename": "pywbem_0.8.0.bb",
-            "filepath": "recipes-extended/pywbem",
-            "homepage": "http://pywbem.sf.net/",
-            "id": 377129,
-            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
-            "layerbranch": 14967,
-            "license": "LGPLv2",
-            "pn": "pywbem",
-            "provides": "pywbem ",
-            "pv": "0.8.0",
-            "section": "Development/Libraries",
-            "summary": "Python WBEM Client and Provider Interface",
             "updated": "2017-09-26T04:09:04+0000"
         },
         {
@@ -7816,6 +7797,44 @@
             "section": "devel/python",
             "summary": "",
             "updated": "2018-06-19T20:06:44+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A Python library for making CIM (Common Information Model) operations over HTTP using the WBEM CIM-XML protocol. It is based on the idea that a good WBEM client should be easy to use and not necessarily require a large amount of programming knowledge. It is suitable for a large range of tasks from simply poking around to writing web and GUI applications. WBEM, or Web Based Enterprise Management is a manageability protocol, like SNMP, standardised by the Distributed Management Task Force (DMTF) available at http://www.dmtf.org/standards/wbem. It also provides a Python provider interface, and is the fastest and easiest way to write providers on the planet.",
+            "filename": "python-pywbem_0.11.0.bb",
+            "filepath": "recipes-extended/pywbem",
+            "homepage": "http://pywbem.github.io",
+            "id": 669833,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "LGPLv2.1",
+            "pn": "python-pywbem",
+            "provides": "python-pywbem ",
+            "pv": "0.11.0",
+            "section": "devel/python",
+            "summary": "Python WBEM Client and Provider Interface",
+            "updated": "2018-07-02T22:07:07+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A Python library for making CIM (Common Information Model) operations over HTTP using the WBEM CIM-XML protocol. It is based on the idea that a good WBEM client should be easy to use and not necessarily require a large amount of programming knowledge. It is suitable for a large range of tasks from simply poking around to writing web and GUI applications. WBEM, or Web Based Enterprise Management is a manageability protocol, like SNMP, standardised by the Distributed Management Task Force (DMTF) available at http://www.dmtf.org/standards/wbem. It also provides a Python provider interface, and is the fastest and easiest way to write providers on the planet.",
+            "filename": "python3-pywbem_0.11.0.bb",
+            "filepath": "recipes-extended/pywbem",
+            "homepage": "http://pywbem.github.io",
+            "id": 669834,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "LGPLv2.1",
+            "pn": "python3-pywbem",
+            "provides": "python3-pywbem ",
+            "pv": "0.11.0",
+            "section": "devel/python",
+            "summary": "Python WBEM Client and Provider Interface",
+            "updated": "2018-07-02T22:07:07+0000"
         }
     ],
     "wrtemplates": []

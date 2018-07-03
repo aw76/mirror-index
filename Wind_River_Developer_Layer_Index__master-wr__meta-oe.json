@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-21T21:06:26+0000",
-            "vcs_last_commit": "2018-06-21T21:06:26+0000",
-            "vcs_last_fetch": "2018-06-21T21:06:26+0000",
-            "vcs_last_rev": "0962e6a84d3245618ed38b45fd988c030fd78005",
+            "updated": "2018-07-02T02:07:12+0000",
+            "vcs_last_commit": "2018-07-02T02:07:12+0000",
+            "vcs_last_fetch": "2018-07-02T02:07:12+0000",
+            "vcs_last_rev": "ed12c5ca75cba70ab6646013c88fc1b503455a5e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-06-19T20:06:02+0000",
-            "vcs_last_commit": "2018-06-19T20:06:02+0000",
-            "vcs_last_fetch": "2018-06-19T20:06:02+0000",
-            "vcs_last_rev": "75df36087670210190d1e18b671454a42f40b552",
+            "updated": "2018-07-02T01:07:26+0000",
+            "vcs_last_commit": "2018-07-02T01:07:26+0000",
+            "vcs_last_fetch": "2018-07-02T01:07:26+0000",
+            "vcs_last_rev": "41ecbe57778a96137fbb871625b30f96a7321d86",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -2875,7 +2875,7 @@
             "pv": "2.0.0",
             "section": "base",
             "summary": "minicoredumper provides an alternate core dump facility for Linux to allow minimal and customized crash dumps",
-            "updated": "2018-06-04T21:06:12+0000"
+            "updated": "2018-07-02T22:07:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3255,7 +3255,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Simple program to read/write from/to any location in memory",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2018-07-02T22:07:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -4129,7 +4129,7 @@
             "pv": "3.15.1",
             "section": "base",
             "summary": "Alternative system logger daemon",
-            "updated": "2018-06-19T20:06:35+0000"
+            "updated": "2018-07-02T22:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -5389,25 +5389,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Engine_pkcs11 is an implementation of an engine for OpenSSL. It can be loaded using code, config file or command line and will pass any function call by openssl to a PKCS cards and software for using smart cards in PKCS",
-            "filename": "engine-pkcs11_0.2.2.bb",
-            "filepath": "recipes-crypto/engine-pkcs11",
-            "homepage": "https://github.com/OpenSC/engine_pkcs11",
-            "id": 269179,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "LGPLv2.1+",
-            "pn": "engine-pkcs11",
-            "provides": "engine-pkcs11 ",
-            "pv": "0.2.2",
-            "section": "Development/Libraries",
-            "summary": "A PKCS",
-            "updated": "2018-03-06T21:03:42+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "xdg-user-dirs is a tool to help manage user directories like the desktop folder and the music folder",
             "filename": "xdg-user-dirs_0.17.bb",
             "filepath": "recipes-support/xdg-user-dirs",
@@ -6599,7 +6580,7 @@
             "pv": "2.6.1",
             "section": "base",
             "summary": "Fast, multi-threaded malloc() and nifty performance analysis tools",
-            "updated": "2018-04-10T21:04:14+0000"
+            "updated": "2018-07-02T22:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -7891,7 +7872,7 @@
             "pv": "17.0.0",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2018-06-19T20:06:28+0000"
+            "updated": "2018-07-02T22:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -7929,7 +7910,7 @@
             "pv": "0.10.5",
             "section": "System/Management",
             "summary": "Set of CLI tools for Openlmi providers",
-            "updated": "2017-09-26T04:09:40+0000"
+            "updated": "2018-07-02T22:07:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -8757,7 +8738,7 @@
             "filepath": "recipes-extended/tiptop",
             "homepage": "http://tiptop.gforge.inria.fr/",
             "id": 269375,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "tiptop",
@@ -8765,7 +8746,7 @@
             "pv": "2.3.1",
             "section": "base",
             "summary": "Hardware performance monitoring counters",
-            "updated": "2018-06-19T20:06:28+0000"
+            "updated": "2018-07-02T22:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -9297,7 +9278,7 @@
             "pv": "2.20",
             "section": "base",
             "summary": "A library which provides easy access to huge pages of memory",
-            "updated": "2018-06-19T20:06:22+0000"
+            "updated": "2018-07-02T22:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -11691,7 +11672,7 @@
             "pv": "1.6.0-gitX",
             "section": "libs",
             "summary": "Sensor/Actuator repository for Mraa",
-            "updated": "2018-05-21T04:05:11+0000"
+            "updated": "2018-07-02T22:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -12068,10 +12049,10 @@
             "license": "GPLv2 & LGPLv2",
             "pn": "kpatch",
             "provides": "kpatch  kpatch-build",
-            "pv": "0.5.0+gitX",
+            "pv": "0.6.1+gitX",
             "section": "base",
             "summary": "Linux dynamic kernel patching infrastructure",
-            "updated": "2018-02-12T02:02:23+0000"
+            "updated": "2018-07-02T22:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -12376,6 +12357,25 @@
             "section": "base",
             "summary": "",
             "updated": "2018-06-19T20:06:35+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "pcmciautils_018.bb",
+            "filepath": "recipes-bsp/pcmciautils",
+            "homepage": "https://www.kernel.org/pub/linux/utils/kernel/pcmcia/",
+            "id": 669832,
+            "inherits": "pkgconfig",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "pcmciautils",
+            "provides": "pcmciautils ",
+            "pv": "018",
+            "section": "kernel/userland",
+            "summary": "Linux kernel userland utilities for the PCMCIA subsystem",
+            "updated": "2018-07-02T22:07:59+0000"
         }
     ],
     "wrtemplates": []

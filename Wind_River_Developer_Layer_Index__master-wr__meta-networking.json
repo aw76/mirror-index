@@ -21,57 +21,57 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-21T21:06:26+0000",
-            "vcs_last_commit": "2018-06-21T21:06:26+0000",
-            "vcs_last_fetch": "2018-06-21T21:06:26+0000",
-            "vcs_last_rev": "0962e6a84d3245618ed38b45fd988c030fd78005",
+            "updated": "2018-07-02T02:07:12+0000",
+            "vcs_last_commit": "2018-07-02T02:07:12+0000",
+            "vcs_last_fetch": "2018-07-02T02:07:12+0000",
+            "vcs_last_rev": "ed12c5ca75cba70ab6646013c88fc1b503455a5e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-06-20T04:06:33+0000",
-            "vcs_last_commit": "2018-06-20T04:06:33+0000",
-            "vcs_last_fetch": "2018-06-20T04:06:33+0000",
-            "vcs_last_rev": "8e11de42bd8b0991330c5d30f3fbb3b3b775dd00",
+            "updated": "2018-07-02T01:07:26+0000",
+            "vcs_last_commit": "2018-07-02T01:07:26+0000",
+            "vcs_last_fetch": "2018-07-02T01:07:26+0000",
+            "vcs_last_rev": "32abac5590e5a815b7d4c00c8f3d376029138ada",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-06-19T20:06:02+0000",
-            "vcs_last_commit": "2018-06-19T20:06:02+0000",
-            "vcs_last_fetch": "2018-06-19T20:06:02+0000",
-            "vcs_last_rev": "75df36087670210190d1e18b671454a42f40b552",
+            "updated": "2018-07-02T01:07:26+0000",
+            "vcs_last_commit": "2018-07-02T01:07:26+0000",
+            "vcs_last_fetch": "2018-07-02T01:07:26+0000",
+            "vcs_last_rev": "41ecbe57778a96137fbb871625b30f96a7321d86",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-06-18T21:06:55+0000",
-            "vcs_last_commit": "2018-06-18T21:06:55+0000",
-            "vcs_last_fetch": "2018-06-18T21:06:55+0000",
-            "vcs_last_rev": "665869c337003afd23a7e5a2e30f2000c571b33b",
+            "updated": "2018-07-02T01:07:25+0000",
+            "vcs_last_commit": "2018-07-02T01:07:25+0000",
+            "vcs_last_fetch": "2018-07-02T01:07:25+0000",
+            "vcs_last_rev": "b0beae6c6180ba3d24dc8cbe944d0caa494c941d",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -2236,7 +2236,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "DRBD mirrors a block device over the network to another machine.DRBD mirrors a block device over the network to another machine.Think of it as networked raid 1. It is a building block forsetting up high availability (HA) clusters.",
-            "filename": "drbd-utils_8.9.6.bb",
+            "filename": "drbd-utils_9.4.0.bb",
             "filepath": "recipes-support/drbd",
             "homepage": "http://www.drbd.org/",
             "id": 270376,
@@ -2245,10 +2245,10 @@
             "license": "GPLv2+",
             "pn": "drbd-utils",
             "provides": "drbd-utils ",
-            "pv": "8.9.6",
+            "pv": "9.4.0",
             "section": "admin",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2018-06-19T21:06:17+0000"
+            "updated": "2018-07-02T22:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2331,7 +2331,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenSAF is an open source project established to develop a base platform middleware consistent with Service Availability Forum (SA Forum) specifications, under the LGPLv2.1 license. The OpenSAF Foundation was established by leading Communications and Enterprise Computing Companies to facilitate the OpenSAF Project and to accelerate the adoption of the OpenSAF code base in commercial products. The OpenSAF project was launched in mid 2007 and has been under development by an informal group of supporters of the OpenSAF initiative. The OpenSAF Foundation was founded on January 22nd 2008 with Emerson Network Power, Ericsson, Nokia Siemens Networks, HP and Sun Microsystems as founding members.",
-            "filename": "opensaf_5.18.02.bb",
+            "filename": "opensaf_5.18.04.bb",
             "filepath": "recipes-daemons/opensaf",
             "homepage": "http://www.opensaf.org",
             "id": 270381,
@@ -2340,10 +2340,10 @@
             "license": "LGPLv2.1",
             "pn": "opensaf",
             "provides": "opensaf ",
-            "pv": "5.18.02",
+            "pv": "5.18.04",
             "section": "admin",
             "summary": "OpenSAF is an open source implementation of the SAF AIS specification",
-            "updated": "2018-06-04T21:06:46+0000"
+            "updated": "2018-07-02T22:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2381,7 +2381,7 @@
             "pv": "3.5.27",
             "section": "web",
             "summary": "A fully-featured http proxy and web-cache daemon for Linux",
-            "updated": "2018-06-04T21:06:44+0000"
+            "updated": "2018-07-02T22:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -3224,7 +3224,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This package contains the Corosync Cluster Engine Executive, several default APIs and libraries, default configuration files, and an init script.",
-            "filename": "corosync_2.4.3.bb",
+            "filename": "corosync_2.4.4.bb",
             "filepath": "recipes-extended/corosync",
             "homepage": "http://corosync.github.io/corosync/",
             "id": 377135,
@@ -3233,10 +3233,10 @@
             "license": "BSD",
             "pn": "corosync",
             "provides": "corosync ",
-            "pv": "2.4.3",
+            "pv": "2.4.4",
             "section": "base",
             "summary": "The Corosync Cluster Engine and Application Programming Interfaces",
-            "updated": "2018-06-19T21:06:15+0000"
+            "updated": "2018-07-02T22:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -3445,7 +3445,7 @@
             "pv": "0.14.0+gitX",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2018-06-19T21:06:18+0000"
+            "updated": "2018-07-02T22:07:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3502,7 +3502,7 @@
             "pv": "1.10+gitX",
             "section": "base",
             "summary": "Civetweb embedded web server",
-            "updated": "2018-06-19T21:06:19+0000"
+            "updated": "2018-07-02T22:07:43+0000"
         },
         {
             "bbclassextend": "",

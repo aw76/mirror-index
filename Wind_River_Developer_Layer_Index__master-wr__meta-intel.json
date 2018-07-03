@@ -21,15 +21,15 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180702",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-06-21T21:06:26+0000",
-            "vcs_last_commit": "2018-06-21T21:06:26+0000",
-            "vcs_last_fetch": "2018-06-21T21:06:26+0000",
-            "vcs_last_rev": "0962e6a84d3245618ed38b45fd988c030fd78005",
+            "updated": "2018-07-02T02:07:12+0000",
+            "vcs_last_commit": "2018-07-02T02:07:12+0000",
+            "vcs_last_fetch": "2018-07-02T02:07:12+0000",
+            "vcs_last_rev": "ed12c5ca75cba70ab6646013c88fc1b503455a5e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,10 +40,10 @@
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-06-18T21:06:54+0000",
-            "vcs_last_commit": "2018-06-18T21:06:54+0000",
-            "vcs_last_fetch": "2018-06-18T21:06:54+0000",
-            "vcs_last_rev": "2d540a3089a910314d801d4f3bc47525c572bbae",
+            "updated": "2018-06-24T21:06:42+0000",
+            "vcs_last_commit": "2018-06-24T21:06:42+0000",
+            "vcs_last_fetch": "2018-06-24T21:06:42+0000",
+            "vcs_last_rev": "ce50aab1fb4fb10040febe462c53b63b0a640e45",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": null
@@ -135,7 +135,7 @@
             "pv": "1.22",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2018-04-24T22:04:20+0000"
+            "updated": "2018-07-02T22:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -154,7 +154,7 @@
             "pv": "1.1.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2018-04-03T22:04:45+0000"
+            "updated": "2018-07-02T22:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -173,7 +173,7 @@
             "pv": "30",
             "section": "kernel",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2018-04-24T22:04:20+0000"
+            "updated": "2018-07-02T22:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -192,7 +192,7 @@
             "pv": "4.3.5",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-05-27T21:05:58+0000"
+            "updated": "2018-07-02T22:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -211,7 +211,7 @@
             "pv": "5.3.7",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-05-27T21:05:57+0000"
+            "updated": "2018-07-02T22:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -230,7 +230,7 @@
             "pv": "4.9.84+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-21T03:05:48+0000"
+            "updated": "2018-07-02T22:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -249,7 +249,7 @@
             "pv": "4.9.99+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-05-21T03:05:49+0000"
+            "updated": "2018-07-02T22:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -268,7 +268,7 @@
             "pv": "0.8-gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-03T22:04:45+0000"
+            "updated": "2018-07-02T22:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -287,7 +287,7 @@
             "pv": "2.1.0",
             "section": "base",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2018-04-03T22:04:45+0000"
+            "updated": "2018-07-02T22:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -306,14 +306,14 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-03T22:04:45+0000"
+            "updated": "2018-07-02T22:07:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libyami/issues/new",
             "description": "Yet Another Media Infrastructure light weight hardware codec library base on VA-API ",
-            "filename": "libyami_1.3.0.bb",
+            "filename": "libyami_git.bb",
             "filepath": "recipes-multimedia/libyami",
             "homepage": "https://github.com/intel/libyami",
             "id": 346924,
@@ -322,17 +322,17 @@
             "license": "Apache-2.0",
             "pn": "libyami",
             "provides": "libyami ",
-            "pv": "1.3.0",
+            "pv": "1.3.0+gitX",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:21+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libyami-utils/issues/new",
             "description": "Applications and Scripts for libyami.",
-            "filename": "libyami-utils_1.3.0.bb",
+            "filename": "libyami-utils_git.bb",
             "filepath": "recipes-multimedia/libyami",
             "homepage": "https://github.com/intel/libyami-utils",
             "id": 346925,
@@ -341,10 +341,10 @@
             "license": "Apache-2.0",
             "pn": "libyami-utils",
             "provides": "libyami-utils ",
-            "pv": "1.3.0",
+            "pv": "1.3.0+gitX",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -363,7 +363,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -382,7 +382,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -401,7 +401,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -420,7 +420,7 @@
             "pv": "1.7.2",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2018-06-11T20:06:49+0000"
+            "updated": "2018-07-02T22:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -439,7 +439,7 @@
             "pv": "7.1.20",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -458,7 +458,7 @@
             "pv": "8.0.0-7",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -477,7 +477,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Central RMC Database",
-            "updated": "2018-04-03T22:04:43+0000"
+            "updated": "2018-07-02T22:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -496,7 +496,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "RMC (Runtime Machine Configuration) EFI library",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -515,7 +515,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "RMC (Runtime Machine Configuration)",
-            "updated": "2018-04-03T22:04:46+0000"
+            "updated": "2018-07-02T22:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -534,7 +534,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-03T22:04:47+0000"
+            "updated": "2018-07-02T22:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -553,7 +553,7 @@
             "pv": "20180312",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2018-04-03T22:04:47+0000"
+            "updated": "2018-07-02T22:07:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -572,7 +572,7 @@
             "pv": "2.1.2",
             "section": "base",
             "summary": "Update Intel CPU microcode",
-            "updated": "2018-04-03T22:04:47+0000"
+            "updated": "2018-07-02T22:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -591,7 +591,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-03T22:04:47+0000"
+            "updated": "2018-07-02T22:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -610,7 +610,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-03T22:04:47+0000"
+            "updated": "2018-07-02T22:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -629,7 +629,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2018-04-03T22:04:45+0000"
+            "updated": "2018-07-02T22:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -648,7 +648,7 @@
             "pv": "4.14.48+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-06-19T20:06:56+0000"
+            "updated": "2018-07-02T22:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -667,7 +667,7 @@
             "pv": "4.14.40+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-06-19T20:06:56+0000"
+            "updated": "2018-07-02T22:07:22+0000"
         }
     ],
     "wrtemplates": []
