@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180625",
+            "bitbake_branch": "wr-10.18-20180708",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-25T03:06:49+0000",
+            "updated": "2018-07-10T03:07:57+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180702",
+            "actual_branch": "wr-10.18-20180708",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-05T00:07:45+0000",
-            "vcs_last_commit": "2018-07-05T00:07:45+0000",
-            "vcs_last_fetch": "2018-07-05T00:07:45+0000",
-            "vcs_last_rev": "0179280df8b54708c938fbd5a9830d41116efd10",
+            "updated": "2018-07-10T04:07:24+0000",
+            "vcs_last_commit": "2018-07-10T04:07:24+0000",
+            "vcs_last_fetch": "2018-07-10T04:07:24+0000",
+            "vcs_last_rev": "157836166d7a892ad501efc5f46d4851c9a98b61",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180702",
+            "actual_branch": "wr-10.18-20180708",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-07-02T01:07:26+0000",
-            "vcs_last_commit": "2018-07-02T01:07:26+0000",
-            "vcs_last_fetch": "2018-07-02T01:07:26+0000",
-            "vcs_last_rev": "41ecbe57778a96137fbb871625b30f96a7321d86",
+            "updated": "2018-07-08T09:07:51+0000",
+            "vcs_last_commit": "2018-07-08T09:07:51+0000",
+            "vcs_last_fetch": "2018-07-08T09:07:51+0000",
+            "vcs_last_rev": "e230fb5625715f2fb0272f0fa8d072c85f67eb85",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180702",
+            "actual_branch": "wr-10.18-20180708",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-07-02T01:07:25+0000",
-            "vcs_last_commit": "2018-07-02T01:07:25+0000",
-            "vcs_last_fetch": "2018-07-02T01:07:25+0000",
-            "vcs_last_rev": "b0beae6c6180ba3d24dc8cbe944d0caa494c941d",
+            "updated": "2018-07-08T09:07:51+0000",
+            "vcs_last_commit": "2018-07-08T09:07:51+0000",
+            "vcs_last_fetch": "2018-07-08T09:07:51+0000",
+            "vcs_last_rev": "32e0bccd43ae7160df55ed2424d9b53c7d8f0f32",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -545,7 +545,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This installable Python package contains a CA Bundle that you can reference in your Python code. This is useful for verifying HTTP requests, for example.  This is the same CA Bundle which ships with the Requests codebase, and is derived from Mozilla Firefox's canonical set.",
-            "filename": "python3-certifi_2018.1.18.bb",
+            "filename": "python3-certifi_2018.4.16.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://certifi.io/",
             "id": 269643,
@@ -554,17 +554,17 @@
             "license": "ISC",
             "pn": "python3-certifi",
             "provides": "python3-certifi ",
-            "pv": "2018.1.18",
+            "pv": "2018.4.16",
             "section": "devel/python",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2018-01-29T20:01:57+0000"
+            "updated": "2018-07-10T02:07:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python-cython_0.28.2.bb",
+            "filename": "python-cython_0.28.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269644,
@@ -573,10 +573,10 @@
             "license": "Apache-2.0",
             "pn": "python-cython",
             "provides": "python-cython ",
-            "pv": "0.28.2",
+            "pv": "0.28.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-05-08T03:05:01+0000"
+            "updated": "2018-07-10T02:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -602,7 +602,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-urllib3_1.22.bb",
+            "filename": "python3-urllib3_1.23.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/shazow/urllib3",
             "id": 269646,
@@ -611,10 +611,10 @@
             "license": "MIT",
             "pn": "python3-urllib3",
             "provides": "python3-urllib3 ",
-            "pv": "1.22",
+            "pv": "1.23",
             "section": "devel/python",
             "summary": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
-            "updated": "2017-09-26T04:09:22+0000"
+            "updated": "2018-07-10T02:07:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -678,7 +678,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This installable Python package contains a CA Bundle that you can reference in your Python code. This is useful for verifying HTTP requests, for example.  This is the same CA Bundle which ships with the Requests codebase, and is derived from Mozilla Firefox's canonical set.",
-            "filename": "python-certifi_2018.1.18.bb",
+            "filename": "python-certifi_2018.4.16.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://certifi.io/",
             "id": 269650,
@@ -687,10 +687,10 @@
             "license": "ISC",
             "pn": "python-certifi",
             "provides": "python-certifi ",
-            "pv": "2018.1.18",
+            "pv": "2018.4.16",
             "section": "devel/python",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2018-01-29T20:01:54+0000"
+            "updated": "2018-07-10T02:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -868,7 +868,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A collection of tools for internationalizing Python applications",
-            "filename": "python3-babel_2.5.3.bb",
+            "filename": "python3-babel_2.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://babel.edgewall.org/",
             "id": 269660,
@@ -877,10 +877,10 @@
             "license": "BSD",
             "pn": "python3-babel",
             "provides": "python3-babel ",
-            "pv": "2.5.3",
+            "pv": "2.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-02-12T02:02:31+0000"
+            "updated": "2018-07-10T02:07:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -925,7 +925,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-cryptography-vectors_2.2.bb",
+            "filename": "python3-cryptography-vectors_2.2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://cryptography.io/",
             "id": 269663,
@@ -934,10 +934,10 @@
             "license": "Apache-2.0 | BSD",
             "pn": "python3-cryptography-vectors",
             "provides": "python3-cryptography-vectors ",
-            "pv": "2.2",
+            "pv": "2.2.2",
             "section": "devel/python",
             "summary": "Test vectors for the cryptography package.",
-            "updated": "2018-07-02T22:07:05+0000"
+            "updated": "2018-07-10T02:07:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -982,7 +982,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python HTTP for Humans.",
-            "filename": "python-requests_2.18.4.bb",
+            "filename": "python-requests_2.19.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
             "id": 269666,
@@ -991,10 +991,10 @@
             "license": "Apache-2.0",
             "pn": "python-requests",
             "provides": "python-requests ",
-            "pv": "2.18.4",
+            "pv": "2.19.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2018-07-10T02:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1077,7 +1077,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A collection of tools for internationalizing Python applications",
-            "filename": "python-babel_2.5.3.bb",
+            "filename": "python-babel_2.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://babel.edgewall.org/",
             "id": 269671,
@@ -1086,10 +1086,10 @@
             "license": "BSD",
             "pn": "python-babel",
             "provides": "python-babel ",
-            "pv": "2.5.3",
+            "pv": "2.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-29T20:01:13+0000"
+            "updated": "2018-07-10T02:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1172,7 +1172,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The PyMongo distribution contains tools for interacting with MongoDB database from Python. The bson package is an implementation of the BSON format for Python. The pymongo package is a native Python driver for MongoDB. The gridfs package is a gridfs implementation on top of pymongo.",
-            "filename": "python-pymongo_3.6.1.bb",
+            "filename": "python-pymongo_3.7.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mongodb/mongo-python-driver",
             "id": 269676,
@@ -1181,10 +1181,10 @@
             "license": "Apache-2.0",
             "pn": "python-pymongo",
             "provides": "python-pymongo ",
-            "pv": "3.6.1",
+            "pv": "3.7.0",
             "section": "devel/python",
             "summary": "Python driver for MongoDB <http://www.mongodb.org>",
-            "updated": "2018-03-20T01:03:31+0000"
+            "updated": "2018-07-10T02:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1267,7 +1267,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-ipaddress_1.0.19.bb",
+            "filename": "python-ipaddress_1.0.22.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/phihag/ipaddress",
             "id": 269681,
@@ -1276,10 +1276,10 @@
             "license": "Python-2.0",
             "pn": "python-ipaddress",
             "provides": "python-ipaddress ",
-            "pv": "1.0.19",
+            "pv": "1.0.22",
             "section": "devel/python",
             "summary": "Python 3.3+'s ipaddress for Python 2.6, 2.7, 3.2.",
-            "updated": "2018-01-02T23:01:56+0000"
+            "updated": "2018-07-10T02:07:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1647,7 +1647,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyopenssl_17.5.0.bb",
+            "filename": "python-pyopenssl_18.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pyopenssl.org/",
             "id": 269701,
@@ -1656,10 +1656,10 @@
             "license": "Apache-2.0",
             "pn": "python-pyopenssl",
             "provides": "python-pyopenssl ",
-            "pv": "17.5.0",
+            "pv": "18.0.0",
             "section": "devel/python",
             "summary": "Simple Python wrapper around the OpenSSL library",
-            "updated": "2018-01-02T23:01:57+0000"
+            "updated": "2018-07-10T02:07:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1780,7 +1780,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyasn1_0.4.2.bb",
+            "filename": "python-pyasn1_0.4.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyasn1.sourceforge.net/",
             "id": 269708,
@@ -1789,10 +1789,10 @@
             "license": "BSD-2-Clause",
             "pn": "python-pyasn1",
             "provides": "python-pyasn1 ",
-            "pv": "0.4.2",
+            "pv": "0.4.3",
             "section": "devel/python",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2018-01-29T20:01:03+0000"
+            "updated": "2018-07-10T02:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1913,7 +1913,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python3-cython_0.28.2.bb",
+            "filename": "python3-cython_0.28.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269715,
@@ -1922,10 +1922,10 @@
             "license": "Apache-2.0",
             "pn": "python3-cython",
             "provides": "python3-cython ",
-            "pv": "0.28.2",
+            "pv": "0.28.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-05-08T03:05:03+0000"
+            "updated": "2018-07-10T02:07:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2027,7 +2027,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pytest-runner_3.0.bb",
+            "filename": "python3-pytest-runner_4.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269721,
@@ -2036,10 +2036,10 @@
             "license": "MIT",
             "pn": "python3-pytest-runner",
             "provides": "python3-pytest-runner ",
-            "pv": "3.0",
+            "pv": "4.2",
             "section": "devel/python",
             "summary": "Invoke py.test as distutils command with dependency resolution",
-            "updated": "2018-01-29T20:01:11+0000"
+            "updated": "2018-07-10T02:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2065,7 +2065,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pytz_2018.4.bb",
+            "filename": "python3-pytz_2018.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonhosted.org/pytz",
             "id": 269723,
@@ -2074,10 +2074,10 @@
             "license": "MIT",
             "pn": "python3-pytz",
             "provides": "python3-pytz ",
-            "pv": "2018.4",
+            "pv": "2018.5",
             "section": "devel/python",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2018-05-08T03:05:04+0000"
+            "updated": "2018-07-10T02:07:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2103,7 +2103,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
-            "filename": "python-protobuf_3.5.2.bb",
+            "filename": "python-protobuf_3.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://developers.google.com/protocol-buffers/",
             "id": 269725,
@@ -2112,10 +2112,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-protobuf",
             "provides": "python-protobuf ",
-            "pv": "3.5.2",
+            "pv": "3.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-06-19T20:06:43+0000"
+            "updated": "2018-07-10T02:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2331,7 +2331,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-cryptography_2.2.bb",
+            "filename": "python3-cryptography_2.2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://cryptography.io/",
             "id": 269738,
@@ -2340,10 +2340,10 @@
             "license": "Apache-2.0 | BSD",
             "pn": "python3-cryptography",
             "provides": "python3-cryptography ",
-            "pv": "2.2",
+            "pv": "2.2.2",
             "section": "devel/python",
             "summary": "Provides cryptographic recipes and primitives to python developers",
-            "updated": "2018-07-02T22:07:06+0000"
+            "updated": "2018-07-10T02:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2369,7 +2369,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pybind11_2.2.2.bb",
+            "filename": "python-pybind11_2.2.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/wjakob/pybind11",
             "id": 269740,
@@ -2378,10 +2378,10 @@
             "license": "BSD-2-Clause",
             "pn": "python-pybind11",
             "provides": "python-pybind11 ",
-            "pv": "2.2.2",
+            "pv": "2.2.3",
             "section": "devel/python",
             "summary": "Seamless operability between C++11 and Python",
-            "updated": "2018-03-06T21:03:52+0000"
+            "updated": "2018-07-10T02:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2483,7 +2483,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Twisted is an event-driven networking framework written in Python and licensed under the LGPL. Twisted supports TCP, UDP, SSL/TLS, multicast, Unix sockets, a large number of protocols                   (including HTTP, NNTP, IMAP, SSH, IRC, FTP, and others), and much more.",
-            "filename": "python3-twisted_17.9.0.bb",
+            "filename": "python3-twisted_18.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.twistedmatrix.com",
             "id": 269746,
@@ -2492,10 +2492,10 @@
             "license": "MIT",
             "pn": "python3-twisted",
             "provides": "python3-twisted ",
-            "pv": "17.9.0",
+            "pv": "18.4.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-02-26T20:02:45+0000"
+            "updated": "2018-07-10T02:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2692,7 +2692,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-dbus_1.2.6.bb",
+            "filename": "python-dbus_1.2.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.freedesktop.org/Software/dbus",
             "id": 269757,
@@ -2701,10 +2701,10 @@
             "license": "MIT & AFL-2.1 | GPLv2",
             "pn": "python-dbus",
             "provides": "python-dbus ",
-            "pv": "1.2.6",
+            "pv": "1.2.8",
             "section": "devel/python",
             "summary": "Python bindings for the DBus inter-process communication system",
-            "updated": "2018-04-03T22:04:29+0000"
+            "updated": "2018-07-10T02:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2730,7 +2730,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL",
-            "filename": "python-ndg-httpsclient_0.4.4.bb",
+            "filename": "python-ndg-httpsclient_0.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
             "id": 269759,
@@ -2739,10 +2739,10 @@
             "license": "BSD",
             "pn": "python-ndg-httpsclient",
             "provides": "python-ndg-httpsclient ",
-            "pv": "0.4.4",
+            "pv": "0.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-03T22:04:33+0000"
+            "updated": "2018-07-10T02:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2768,7 +2768,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-zopeinterface_4.4.3.bb",
+            "filename": "python3-zopeinterface_4.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269761,
@@ -2777,10 +2777,10 @@
             "license": "ZPL-2.1",
             "pn": "python3-zopeinterface",
             "provides": "python3-zopeinterface ",
-            "pv": "4.4.3",
+            "pv": "4.5.0",
             "section": "devel/python",
             "summary": "Interface definitions for Zope products",
-            "updated": "2018-01-02T23:01:04+0000"
+            "updated": "2018-07-10T02:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2882,7 +2882,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The dateutil module provides powerful extensions to the datetime module available in the Python standard library.",
-            "filename": "python-dateutil_2.7.2.bb",
+            "filename": "python-dateutil_2.7.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://dateutil.readthedocs.org",
             "id": 269767,
@@ -2891,17 +2891,17 @@
             "license": "BSD-3-Clause & Apache-2.0",
             "pn": "python-dateutil",
             "provides": "python-dateutil ",
-            "pv": "2.7.2",
+            "pv": "2.7.3",
             "section": "devel/python",
             "summary": "Extensions to the standard Python datetime module",
-            "updated": "2018-04-16T02:04:47+0000"
+            "updated": "2018-07-10T02:07:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pytz_2018.4.bb",
+            "filename": "python-pytz_2018.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonhosted.org/pytz",
             "id": 269768,
@@ -2910,10 +2910,10 @@
             "license": "MIT",
             "pn": "python-pytz",
             "provides": "python-pytz ",
-            "pv": "2018.4",
+            "pv": "2018.5",
             "section": "devel/python",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2018-05-08T03:05:02+0000"
+            "updated": "2018-07-10T02:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -3053,7 +3053,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-idna_2.6.bb",
+            "filename": "python3-idna_2.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/kjd/idna",
             "id": 269776,
@@ -3062,10 +3062,10 @@
             "license": "BSD-3-Clause & Python-2.0 & Unicode",
             "pn": "python3-idna",
             "provides": "python3-idna ",
-            "pv": "2.6",
+            "pv": "2.7",
             "section": "devel/python",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2017-09-26T04:09:42+0000"
+            "updated": "2018-07-10T02:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3110,7 +3110,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-urllib3_1.22.bb",
+            "filename": "python-urllib3_1.23.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/shazow/urllib3",
             "id": 269779,
@@ -3119,10 +3119,10 @@
             "license": "MIT",
             "pn": "python-urllib3",
             "provides": "python-urllib3 ",
-            "pv": "1.22",
+            "pv": "1.23",
             "section": "devel/python",
             "summary": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
-            "updated": "2017-09-26T04:09:42+0000"
+            "updated": "2018-07-10T02:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -3224,7 +3224,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pip_9.0.3.bb",
+            "filename": "python-pip_10.0.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pip.pypa.io/",
             "id": 269785,
@@ -3233,10 +3233,10 @@
             "license": "MIT & LGPL-2.1",
             "pn": "python-pip",
             "provides": "python-pip ",
-            "pv": "9.0.3",
+            "pv": "10.0.1",
             "section": "devel/python",
             "summary": "PIP is a tool for installing and managing Python packages",
-            "updated": "2018-04-16T02:04:47+0000"
+            "updated": "2018-07-10T02:07:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3262,7 +3262,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL",
-            "filename": "python3-ndg-httpsclient_0.4.4.bb",
+            "filename": "python3-ndg-httpsclient_0.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
             "id": 269787,
@@ -3271,17 +3271,17 @@
             "license": "BSD",
             "pn": "python3-ndg-httpsclient",
             "provides": "python3-ndg-httpsclient ",
-            "pv": "0.4.4",
+            "pv": "0.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-03T22:04:34+0000"
+            "updated": "2018-07-10T02:07:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python API for MISP",
-            "filename": "python3-pymisp_2.4.89.bb",
+            "filename": "python3-pymisp_2.4.92.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/MISP/PyMISP",
             "id": 269788,
@@ -3290,10 +3290,10 @@
             "license": "BSD-2-Clause",
             "pn": "python3-pymisp",
             "provides": "python3-pymisp ",
-            "pv": "2.4.89",
+            "pv": "2.4.92.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-16T02:04:47+0000"
+            "updated": "2018-07-10T02:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3319,7 +3319,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pyasn1_0.4.2.bb",
+            "filename": "python3-pyasn1_0.4.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyasn1.sourceforge.net/",
             "id": 269790,
@@ -3328,17 +3328,17 @@
             "license": "BSD-2-Clause",
             "pn": "python3-pyasn1",
             "provides": "python3-pyasn1 ",
-            "pv": "0.4.2",
+            "pv": "0.4.3",
             "section": "devel/python",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2018-01-29T20:01:12+0000"
+            "updated": "2018-07-10T02:07:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Twisted is an event-driven networking framework written in Python and licensed under the LGPL. Twisted supports TCP, UDP, SSL/TLS, multicast, Unix sockets, a large number of protocols                   (including HTTP, NNTP, IMAP, SSH, IRC, FTP, and others), and much more.",
-            "filename": "python-twisted_17.9.0.bb",
+            "filename": "python-twisted_18.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.twistedmatrix.com",
             "id": 269791,
@@ -3347,10 +3347,10 @@
             "license": "MIT",
             "pn": "python-twisted",
             "provides": "python-twisted ",
-            "pv": "17.9.0",
+            "pv": "18.4.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-02T23:01:05+0000"
+            "updated": "2018-07-10T02:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -3718,7 +3718,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python-lxml_4.2.1.bb",
+            "filename": "python-lxml_4.2.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
             "id": 269812,
@@ -3727,10 +3727,10 @@
             "license": "BSD & GPLv2 & MIT & PSF",
             "pn": "python-lxml",
             "provides": "python-lxml ",
-            "pv": "4.2.1",
+            "pv": "4.2.3",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2018-05-08T03:05:01+0000"
+            "updated": "2018-07-10T02:07:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4003,7 +4003,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python API for MISP",
-            "filename": "python-pymisp_2.4.89.bb",
+            "filename": "python-pymisp_2.4.92.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/MISP/PyMISP",
             "id": 269827,
@@ -4012,10 +4012,10 @@
             "license": "BSD-2-Clause",
             "pn": "python-pymisp",
             "provides": "python-pymisp ",
-            "pv": "2.4.89",
+            "pv": "2.4.92.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-16T02:04:47+0000"
+            "updated": "2018-07-10T02:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4079,7 +4079,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-cryptography-vectors_2.2.bb",
+            "filename": "python-cryptography-vectors_2.2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://cryptography.io/",
             "id": 269831,
@@ -4088,10 +4088,10 @@
             "license": "Apache-2.0 | BSD",
             "pn": "python-cryptography-vectors",
             "provides": "python-cryptography-vectors ",
-            "pv": "2.2",
+            "pv": "2.2.2",
             "section": "devel/python",
             "summary": "Test vectors for the cryptography package.",
-            "updated": "2018-07-02T22:07:05+0000"
+            "updated": "2018-07-10T02:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4136,7 +4136,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pytest-runner_3.0.bb",
+            "filename": "python-pytest-runner_4.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269834,
@@ -4145,10 +4145,10 @@
             "license": "MIT",
             "pn": "python-pytest-runner",
             "provides": "python-pytest-runner ",
-            "pv": "3.0",
+            "pv": "4.2",
             "section": "devel/python",
             "summary": "Invoke py.test as distutils command with dependency resolution",
-            "updated": "2018-01-29T20:01:05+0000"
+            "updated": "2018-07-10T02:07:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -4174,7 +4174,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pybind11_2.2.2.bb",
+            "filename": "python3-pybind11_2.2.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/wjakob/pybind11",
             "id": 269836,
@@ -4183,10 +4183,10 @@
             "license": "BSD-2-Clause",
             "pn": "python3-pybind11",
             "provides": "python3-pybind11 ",
-            "pv": "2.2.2",
+            "pv": "2.2.3",
             "section": "devel/python",
             "summary": "Seamless operability between C++11 and Python",
-            "updated": "2018-03-06T21:03:55+0000"
+            "updated": "2018-07-10T02:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -4345,7 +4345,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-idna_2.6.bb",
+            "filename": "python-idna_2.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/kjd/idna",
             "id": 269845,
@@ -4354,10 +4354,10 @@
             "license": "BSD-3-Clause & Python-2.0 & Unicode",
             "pn": "python-idna",
             "provides": "python-idna ",
-            "pv": "2.6",
+            "pv": "2.7",
             "section": "devel/python",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2017-09-26T04:09:53+0000"
+            "updated": "2018-07-10T02:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4459,7 +4459,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pyopenssl_17.5.0.bb",
+            "filename": "python3-pyopenssl_18.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pyopenssl.org/",
             "id": 269851,
@@ -4468,17 +4468,17 @@
             "license": "Apache-2.0",
             "pn": "python3-pyopenssl",
             "provides": "python3-pyopenssl ",
-            "pv": "17.5.0",
+            "pv": "18.0.0",
             "section": "devel/python",
             "summary": "Simple Python wrapper around the OpenSSL library",
-            "updated": "2018-01-02T23:01:01+0000"
+            "updated": "2018-07-10T02:07:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python3-lxml_4.2.1.bb",
+            "filename": "python3-lxml_4.2.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
             "id": 269852,
@@ -4487,17 +4487,17 @@
             "license": "BSD & GPLv2 & MIT & PSF",
             "pn": "python3-lxml",
             "provides": "python3-lxml ",
-            "pv": "4.2.1",
+            "pv": "4.2.3",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2018-05-08T03:05:03+0000"
+            "updated": "2018-07-10T02:07:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-zopeinterface_4.4.3.bb",
+            "filename": "python-zopeinterface_4.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269853,
@@ -4506,10 +4506,10 @@
             "license": "ZPL-2.1",
             "pn": "python-zopeinterface",
             "provides": "python-zopeinterface ",
-            "pv": "4.4.3",
+            "pv": "4.5.0",
             "section": "devel/python",
             "summary": "Interface definitions for Zope products",
-            "updated": "2018-01-02T23:01:03+0000"
+            "updated": "2018-07-10T02:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -4573,7 +4573,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python HTTP for Humans.",
-            "filename": "python3-requests_2.18.4.bb",
+            "filename": "python3-requests_2.19.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
             "id": 269857,
@@ -4582,10 +4582,10 @@
             "license": "Apache-2.0",
             "pn": "python3-requests",
             "provides": "python3-requests ",
-            "pv": "2.18.4",
+            "pv": "2.19.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-06T21:03:56+0000"
+            "updated": "2018-07-10T02:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -4744,7 +4744,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The PyMongo distribution contains tools for interacting with MongoDB database from Python. The bson package is an implementation of the BSON format for Python. The pymongo package is a native Python driver for MongoDB. The gridfs package is a gridfs implementation on top of pymongo.",
-            "filename": "python3-pymongo_3.6.1.bb",
+            "filename": "python3-pymongo_3.7.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mongodb/mongo-python-driver",
             "id": 269866,
@@ -4753,10 +4753,10 @@
             "license": "Apache-2.0",
             "pn": "python3-pymongo",
             "provides": "python3-pymongo ",
-            "pv": "3.6.1",
+            "pv": "3.7.0",
             "section": "devel/python",
             "summary": "Python driver for MongoDB <http://www.mongodb.org>",
-            "updated": "2018-03-20T01:03:32+0000"
+            "updated": "2018-07-10T02:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -4782,7 +4782,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-cryptography_2.2.bb",
+            "filename": "python-cryptography_2.2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://cryptography.io/",
             "id": 269868,
@@ -4791,10 +4791,10 @@
             "license": "Apache-2.0 | BSD",
             "pn": "python-cryptography",
             "provides": "python-cryptography ",
-            "pv": "2.2",
+            "pv": "2.2.2",
             "section": "devel/python",
             "summary": "Provides cryptographic recipes and primitives to python developers",
-            "updated": "2018-07-02T22:07:05+0000"
+            "updated": "2018-07-10T02:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -5105,7 +5105,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The dateutil module provides powerful extensions to the datetime module available in the Python standard library.",
-            "filename": "python3-dateutil_2.7.2.bb",
+            "filename": "python3-dateutil_2.7.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://dateutil.readthedocs.org",
             "id": 269885,
@@ -5114,10 +5114,10 @@
             "license": "BSD-3-Clause & Apache-2.0",
             "pn": "python3-dateutil",
             "provides": "python3-dateutil ",
-            "pv": "2.7.2",
+            "pv": "2.7.3",
             "section": "devel/python",
             "summary": "Extensions to the standard Python datetime module",
-            "updated": "2018-04-16T02:04:47+0000"
+            "updated": "2018-07-10T02:07:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5257,7 +5257,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-ordered-set_2.0.2.bb",
+            "filename": "python3-ordered-set_3.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/LuminosoInsight/ordered-set",
             "id": 276631,
@@ -5266,10 +5266,10 @@
             "license": "MIT",
             "pn": "python3-ordered-set",
             "provides": "python3-ordered-set ",
-            "pv": "2.0.2",
+            "pv": "3.0.0",
             "section": "devel/python",
             "summary": "A MutableSet that remembers its order, so that every entry has an index.",
-            "updated": "2017-09-26T04:09:00+0000"
+            "updated": "2018-07-10T02:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -5295,7 +5295,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The linux prctl function allows you to control specific characteristics of a process' behaviour. Usage of the function is fairly messy though, due to limitations in C and linux. This module provides a nice non-messy python(ic) interface.",
-            "filename": "python3-prctl_1.6.1.bb",
+            "filename": "python3-prctl_1.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 276633,
@@ -5304,17 +5304,17 @@
             "license": "GPLv3",
             "pn": "python3-prctl",
             "provides": "python3-prctl ",
-            "pv": "1.6.1+gitX",
+            "pv": "1.7+gitX",
             "section": "devel/python",
             "summary": "Control process attributes through prctl",
-            "updated": "2017-09-26T04:09:00+0000"
+            "updated": "2018-07-10T02:07:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-requests-file_1.4.2.bb",
+            "filename": "python3-requests-file_1.4.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/dashea/requests-file",
             "id": 276634,
@@ -5323,10 +5323,10 @@
             "license": "Apache-2.0",
             "pn": "python3-requests-file",
             "provides": "python3-requests-file ",
-            "pv": "1.4.2",
+            "pv": "1.4.3",
             "section": "devel/python",
             "summary": "File transport adapter for Requests",
-            "updated": "2017-09-26T04:09:00+0000"
+            "updated": "2018-07-10T02:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -5447,7 +5447,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pexpect_4.5.0.bb",
+            "filename": "python-pexpect_4.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pexpect.readthedocs.org/",
             "id": 339545,
@@ -5456,17 +5456,17 @@
             "license": "ISC",
             "pn": "python-pexpect",
             "provides": "python-pexpect ",
-            "pv": "4.5.0",
+            "pv": "4.6.0",
             "section": "devel/python",
             "summary": "A Pure Python Expect like Module for Python",
-            "updated": "2018-05-08T03:05:02+0000"
+            "updated": "2018-07-10T02:07:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-ptyprocess_0.5.2.bb",
+            "filename": "python-ptyprocess_0.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://ptyprocess.readthedocs.io/en/latest/",
             "id": 339546,
@@ -5475,10 +5475,10 @@
             "license": "ISC",
             "pn": "python-ptyprocess",
             "provides": "python-ptyprocess ",
-            "pv": "0.5.2",
+            "pv": "0.6.0",
             "section": "devel/python",
             "summary": "Run a subprocess in a pseudo terminal",
-            "updated": "2017-09-26T04:09:02+0000"
+            "updated": "2018-07-10T02:07:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5523,7 +5523,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pexpect_4.5.0.bb",
+            "filename": "python3-pexpect_4.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pexpect.readthedocs.org/",
             "id": 339549,
@@ -5532,17 +5532,17 @@
             "license": "ISC",
             "pn": "python3-pexpect",
             "provides": "python3-pexpect ",
-            "pv": "4.5.0",
+            "pv": "4.6.0",
             "section": "devel/python",
             "summary": "A Pure Python Expect like Module for Python",
-            "updated": "2018-05-08T03:05:04+0000"
+            "updated": "2018-07-10T02:07:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-ptyprocess_0.5.2.bb",
+            "filename": "python3-ptyprocess_0.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://ptyprocess.readthedocs.io/en/latest/",
             "id": 339550,
@@ -5551,10 +5551,10 @@
             "license": "ISC",
             "pn": "python3-ptyprocess",
             "provides": "python3-ptyprocess ",
-            "pv": "0.5.2",
+            "pv": "0.6.0",
             "section": "devel/python",
             "summary": "Run a subprocess in a pseudo terminal",
-            "updated": "2017-09-26T04:09:03+0000"
+            "updated": "2018-07-10T02:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5770,7 +5770,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
-            "filename": "python-pandas_0.22.0.bb",
+            "filename": "python-pandas_0.23.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pandas.pydata.org/",
             "id": 415561,
@@ -5779,10 +5779,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-pandas",
             "provides": "python-pandas ",
-            "pv": "0.22.0",
+            "pv": "0.23.1",
             "section": "devel/python",
             "summary": "pandas library for high-performance data analysis tools",
-            "updated": "2018-01-29T20:01:55+0000"
+            "updated": "2018-07-10T02:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -5808,7 +5808,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
-            "filename": "python3-pandas_0.22.0.bb",
+            "filename": "python3-pandas_0.23.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pandas.pydata.org/",
             "id": 415563,
@@ -5817,10 +5817,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-pandas",
             "provides": "python3-pandas ",
-            "pv": "0.22.0",
+            "pv": "0.23.1",
             "section": "devel/python",
             "summary": "pandas library for high-performance data analysis tools",
-            "updated": "2018-01-29T20:01:58+0000"
+            "updated": "2018-07-10T02:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5865,7 +5865,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
-            "filename": "python3-protobuf_3.5.2.bb",
+            "filename": "python3-protobuf_3.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://developers.google.com/protocol-buffers/",
             "id": 415702,
@@ -5874,10 +5874,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-protobuf",
             "provides": "python3-protobuf ",
-            "pv": "3.5.2",
+            "pv": "3.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-06-19T20:06:43+0000"
+            "updated": "2018-07-10T02:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5941,7 +5941,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Classes Without Boilerplate",
-            "filename": "python-attrs_17.4.0.bb",
+            "filename": "python-attrs_18.1.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.attrs.org/",
             "id": 445209,
@@ -5950,17 +5950,17 @@
             "license": "MIT",
             "pn": "python-attrs",
             "provides": "python-attrs ",
-            "pv": "17.4.0",
+            "pv": "18.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-03T22:04:31+0000"
+            "updated": "2018-07-10T02:07:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Self-service finite-state machines for the programmer on the go",
-            "filename": "python-automat_0.6.0.bb",
+            "filename": "python-automat_0.7.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/glyph/Automat",
             "id": 445210,
@@ -5969,10 +5969,10 @@
             "license": "MIT",
             "pn": "python-automat",
             "provides": "python-automat ",
-            "pv": "0.6.0",
+            "pv": "0.7.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-02T23:01:03+0000"
+            "updated": "2018-07-10T02:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6017,7 +6017,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A featureful, correct URL for Python",
-            "filename": "python-hyperlink_17.3.1.bb",
+            "filename": "python-hyperlink_18.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/python-hyper/hyperlink",
             "id": 445213,
@@ -6026,10 +6026,10 @@
             "license": "MIT",
             "pn": "python-hyperlink",
             "provides": "python-hyperlink ",
-            "pv": "17.3.1",
+            "pv": "18.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-22T20:11:15+0000"
+            "updated": "2018-07-10T02:07:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6112,7 +6112,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Classes Without Boilerplate",
-            "filename": "python3-attrs_17.4.0.bb",
+            "filename": "python3-attrs_18.1.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.attrs.org/",
             "id": 445218,
@@ -6121,17 +6121,17 @@
             "license": "MIT",
             "pn": "python3-attrs",
             "provides": "python3-attrs ",
-            "pv": "17.4.0",
+            "pv": "18.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-03T22:04:32+0000"
+            "updated": "2018-07-10T02:07:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Self-service finite-state machines for the programmer on the go",
-            "filename": "python3-automat_0.6.0.bb",
+            "filename": "python3-automat_0.7.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/glyph/Automat",
             "id": 445219,
@@ -6140,10 +6140,10 @@
             "license": "MIT",
             "pn": "python3-automat",
             "provides": "python3-automat ",
-            "pv": "0.6.0",
+            "pv": "0.7.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-29T20:01:05+0000"
+            "updated": "2018-07-10T02:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -6169,7 +6169,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A featureful, correct URL for Python",
-            "filename": "python3-hyperlink_17.3.1.bb",
+            "filename": "python3-hyperlink_18.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/python-hyper/hyperlink",
             "id": 445221,
@@ -6178,10 +6178,10 @@
             "license": "MIT",
             "pn": "python3-hyperlink",
             "provides": "python3-hyperlink ",
-            "pv": "17.3.1",
+            "pv": "18.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-29T20:01:06+0000"
+            "updated": "2018-07-10T02:07:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6283,7 +6283,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A database migration tool for SQLAlchemy",
-            "filename": "python-alembic_0.9.8.bb",
+            "filename": "python-alembic_0.9.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 494402,
@@ -6292,10 +6292,10 @@
             "license": "BSD",
             "pn": "python-alembic",
             "provides": "python-alembic ",
-            "pv": "0.9.8",
+            "pv": "0.9.10",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-06T21:03:51+0000"
+            "updated": "2018-07-10T02:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -6530,7 +6530,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A database migration tool for SQLAlchemy",
-            "filename": "python3-alembic_0.9.8.bb",
+            "filename": "python3-alembic_0.9.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 494415,
@@ -6539,10 +6539,10 @@
             "license": "BSD",
             "pn": "python3-alembic",
             "provides": "python3-alembic ",
-            "pv": "0.9.8",
+            "pv": "0.9.10",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-06T21:03:54+0000"
+            "updated": "2018-07-10T02:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -6891,7 +6891,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A cross-platform clipboard module for Python. (only handles plain text for now)",
-            "filename": "python-pyperclip_1.6.0.bb",
+            "filename": "python-pyperclip_1.6.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 494448,
@@ -6900,10 +6900,10 @@
             "license": "BSD",
             "pn": "python-pyperclip",
             "provides": "python-pyperclip ",
-            "pv": "1.6.0",
+            "pv": "1.6.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-29T20:01:04+0000"
+            "updated": "2018-07-10T02:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6948,7 +6948,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A cross-platform clipboard module for Python. (only handles plain text for now)",
-            "filename": "python3-pyperclip_1.6.0.bb",
+            "filename": "python3-pyperclip_1.6.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 494451,
@@ -6957,10 +6957,10 @@
             "license": "BSD",
             "pn": "python3-pyperclip",
             "provides": "python3-pyperclip ",
-            "pv": "1.6.0",
+            "pv": "1.6.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-01-29T20:01:10+0000"
+            "updated": "2018-07-10T02:07:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7005,7 +7005,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A collection of ASN.1 modules expressed in form of pyasn1 classes. Includes protocols PDUs definition (SNMP, LDAP etc.) and various data structures (X.509, PKCS etc.).",
-            "filename": "python-pyasn1-modules_0.2.1.bb",
+            "filename": "python-pyasn1-modules_0.2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/etingof/pyasn1-modules",
             "id": 503682,
@@ -7014,10 +7014,10 @@
             "license": "BSD-2-Clause",
             "pn": "python-pyasn1-modules",
             "provides": "python-pyasn1-modules ",
-            "pv": "0.2.1",
+            "pv": "0.2.2",
             "section": "devel/python",
             "summary": "A collection of ASN.1-based protocols modules.",
-            "updated": "2018-01-29T20:01:15+0000"
+            "updated": "2018-07-10T02:07:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7062,7 +7062,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A Python implementation of JSON Web Token draft 32. Original implementation was written by https://github.com/progrium",
-            "filename": "python-pyjwt_1.6.1.bb",
+            "filename": "python-pyjwt_1.6.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/jpadilla/pyjwt",
             "id": 503685,
@@ -7071,10 +7071,10 @@
             "license": "MIT",
             "pn": "python-pyjwt",
             "provides": "python-pyjwt ",
-            "pv": "1.6.1",
+            "pv": "1.6.4",
             "section": "devel/python",
             "summary": "JSON Web Token implementation in Python",
-            "updated": "2018-04-03T22:04:29+0000"
+            "updated": "2018-07-10T02:07:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7157,7 +7157,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A collection of ASN.1 modules expressed in form of pyasn1 classes. Includes protocols PDUs definition (SNMP, LDAP etc.) and various data structures (X.509, PKCS etc.).",
-            "filename": "python3-pyasn1-modules_0.2.1.bb",
+            "filename": "python3-pyasn1-modules_0.2.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/etingof/pyasn1-modules",
             "id": 503690,
@@ -7166,10 +7166,10 @@
             "license": "BSD-2-Clause",
             "pn": "python3-pyasn1-modules",
             "provides": "python3-pyasn1-modules ",
-            "pv": "0.2.1",
+            "pv": "0.2.2",
             "section": "devel/python",
             "summary": "A collection of ASN.1-based protocols modules.",
-            "updated": "2018-01-29T20:01:17+0000"
+            "updated": "2018-07-10T02:07:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7233,7 +7233,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A Python implementation of JSON Web Token draft 32. Original implementation was written by https://github.com/progrium",
-            "filename": "python3-pyjwt_1.6.1.bb",
+            "filename": "python3-pyjwt_1.6.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/jpadilla/pyjwt",
             "id": 503694,
@@ -7242,10 +7242,10 @@
             "license": "MIT",
             "pn": "python3-pyjwt",
             "provides": "python3-pyjwt ",
-            "pv": "1.6.1",
+            "pv": "1.6.4",
             "section": "devel/python",
             "summary": "JSON Web Token implementation in Python",
-            "updated": "2018-04-03T22:04:29+0000"
+            "updated": "2018-07-10T02:07:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7480,7 +7480,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyiface_0.0.5.bb",
+            "filename": "python-pyiface_0.0.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pyiface/",
             "id": 521060,
@@ -7489,17 +7489,17 @@
             "license": "GPLv3+",
             "pn": "python-pyiface",
             "provides": "python-pyiface ",
-            "pv": "0.0.5",
+            "pv": "0.0.6",
             "section": "devel/python",
             "summary": "Pyiface is a package that exposes the network interfaces of the operating system in a easy to use and transparent way",
-            "updated": "2018-05-08T03:05:02+0000"
+            "updated": "2018-07-10T02:07:05+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pyiface_0.0.5.bb",
+            "filename": "python3-pyiface_0.0.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pyiface/",
             "id": 521061,
@@ -7508,10 +7508,10 @@
             "license": "GPLv3+",
             "pn": "python3-pyiface",
             "provides": "python3-pyiface ",
-            "pv": "0.0.5",
+            "pv": "0.0.6",
             "section": "devel/python",
             "summary": "Pyiface is a package that exposes the network interfaces of the operating system in a easy to use and transparent way",
-            "updated": "2018-05-08T03:05:04+0000"
+            "updated": "2018-07-10T02:07:13+0000"
         },
         {
             "bbclassextend": "",

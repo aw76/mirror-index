@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180625",
+            "bitbake_branch": "wr-10.18-20180708",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-25T03:06:49+0000",
+            "updated": "2018-07-10T03:07:57+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180702",
+            "actual_branch": "wr-10.18-20180708",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-05T00:07:45+0000",
-            "vcs_last_commit": "2018-07-05T00:07:45+0000",
-            "vcs_last_fetch": "2018-07-05T00:07:45+0000",
-            "vcs_last_rev": "0179280df8b54708c938fbd5a9830d41116efd10",
+            "updated": "2018-07-10T04:07:24+0000",
+            "vcs_last_commit": "2018-07-10T04:07:24+0000",
+            "vcs_last_fetch": "2018-07-10T04:07:24+0000",
+            "vcs_last_rev": "157836166d7a892ad501efc5f46d4851c9a98b61",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -1299,7 +1299,7 @@
             "pv": "1.3.5",
             "section": "x11/libs",
             "summary": "XTrans: X Transport library",
-            "updated": "2018-05-25T01:05:01+0000"
+            "updated": "2018-07-10T03:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1576,7 +1576,7 @@
             "filepath": "recipes-graphics/drm",
             "homepage": "http://dri.freedesktop.org",
             "id": 270700,
-            "inherits": "autotools manpages pkgconfig qemu siteconfig siteinfo",
+            "inherits": "manpages meson pkgconfig python3-dir python3native qemu",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "libdrm",
@@ -1584,7 +1584,7 @@
             "pv": "2.4.92",
             "section": "x11/base",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2018-06-19T20:06:52+0000"
+            "updated": "2018-07-10T03:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -2122,25 +2122,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
-            "filename": "fstests_git.bb",
-            "filepath": "recipes-graphics/fstests",
-            "homepage": "http://www.o-hand.com",
-            "id": 270731,
-            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
-            "layerbranch": 14953,
-            "license": "Zlib",
-            "pn": "fstests",
-            "provides": "fstests ",
-            "pv": "0.1+gitX",
-            "section": "devel",
-            "summary": "Various benchmarning tests for X",
-            "updated": "2018-05-25T01:05:09+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "A library creating and utilizing caches to speed up freedesktop.org application menus",
             "filename": "menu-cache_1.0.2.bb",
             "filepath": "recipes-graphics/menu-cache",
@@ -2458,7 +2439,7 @@
             "pv": "1.11.0",
             "section": "libs",
             "summary": "Library to handle input devices in Wayland compositors",
-            "updated": "2018-06-19T20:06:43+0000"
+            "updated": "2018-07-10T03:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2750,7 +2731,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
-            "filename": "mesa_18.1.2.bb",
+            "filename": "mesa_18.1.3.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
             "id": 270791,
@@ -2759,10 +2740,10 @@
             "license": "MIT",
             "pn": "mesa",
             "provides": "mesa                          virtual/mesa     ",
-            "pv": "18.1.2",
+            "pv": "18.1.3",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2018-07-02T22:07:14+0000"
+            "updated": "2018-07-10T03:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2788,7 +2769,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
-            "filename": "mesa-gl_18.1.2.bb",
+            "filename": "mesa-gl_18.1.3.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
             "id": 270793,
@@ -2797,10 +2778,10 @@
             "license": "MIT",
             "pn": "mesa-gl",
             "provides": "mesa-gl virtual/libgl virtual/mesa",
-            "pv": "18.1.2",
+            "pv": "18.1.3",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2018-07-02T22:07:14+0000"
+            "updated": "2018-07-10T03:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2838,7 +2819,7 @@
             "pv": "1.5.2",
             "section": "libs",
             "summary": "OpenGL function pointer management library",
-            "updated": "2018-07-02T22:07:14+0000"
+            "updated": "2018-07-10T03:07:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -2978,19 +2959,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "bind_9.10.6.bb",
+            "filename": "bind_9.11.3.bb",
             "filepath": "recipes-connectivity/bind",
             "homepage": "http://www.isc.org/sw/bind/",
             "id": 270803,
-            "inherits": "autotools pkgconfig python3-dir siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 14953,
             "license": "ISC & BSD",
             "pn": "bind",
             "provides": "bind ",
-            "pv": "9.10.6",
+            "pv": "9.11.3",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2018-07-02T22:07:46+0000"
+            "updated": "2018-07-10T03:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3187,19 +3168,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "DHCP (Dynamic Host Configuration Protocol) is a protocol which allows individual devices on an IP network to get their own network configuration information from a server.  DHCP helps make it easier to administer devices.",
-            "filename": "dhcp_4.3.6.bb",
+            "filename": "dhcp_4.4.1.bb",
             "filepath": "recipes-connectivity/dhcp",
             "homepage": "http://www.isc.org/",
             "id": 270815,
-            "inherits": "autotools siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 14953,
             "license": "ISC",
             "pn": "dhcp",
             "provides": "dhcp ",
-            "pv": "4.3.6",
+            "pv": "4.4.1",
             "section": "console/network",
             "summary": "Internet Software Consortium DHCP package",
-            "updated": "2018-07-02T22:07:47+0000"
+            "updated": "2018-07-10T03:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3225,7 +3206,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The nfs-utils package provides a daemon for the kernel NFS server and related tools.",
-            "filename": "nfs-utils_2.1.1.bb",
+            "filename": "nfs-utils_2.3.1.bb",
             "filepath": "recipes-connectivity/nfs-utils",
             "homepage": "http://nfs.sourceforge.net/",
             "id": 270817,
@@ -3234,10 +3215,10 @@
             "license": "MIT & GPLv2+ & BSD",
             "pn": "nfs-utils",
             "provides": "nfs-utils ",
-            "pv": "2.1.1",
+            "pv": "2.3.1",
             "section": "console/network",
             "summary": "userspace utilities for kernel nfs",
-            "updated": "2018-07-02T22:07:48+0000"
+            "updated": "2018-07-10T03:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3408,7 +3389,7 @@
             "pv": "2.10.6",
             "section": "devel",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2018-06-20T22:06:52+0000"
+            "updated": "2018-07-10T04:07:19+0000"
         },
         {
             "bbclassextend": "",
@@ -3465,7 +3446,7 @@
             "pv": "3.26.1",
             "section": "base",
             "summary": "System-wide Performance Profiler for Linux",
-            "updated": "2018-07-02T22:07:49+0000"
+            "updated": "2018-07-10T03:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3807,7 +3788,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:29+0000"
+            "updated": "2018-07-10T03:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3826,7 +3807,7 @@
             "pv": "4.12.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:29+0000"
+            "updated": "2018-07-10T03:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3845,7 +3826,7 @@
             "pv": "4.12.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:29+0000"
+            "updated": "2018-07-10T03:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3883,7 +3864,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:29+0000"
+            "updated": "2018-07-10T03:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3902,7 +3883,7 @@
             "pv": "4.14.48+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:30+0000"
+            "updated": "2018-07-10T03:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3921,7 +3902,7 @@
             "pv": "4.14.48+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:30+0000"
+            "updated": "2018-07-10T03:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3940,7 +3921,7 @@
             "pv": "4.17-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:30+0000"
+            "updated": "2018-07-10T03:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3959,7 +3940,7 @@
             "pv": "4.12.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:30+0000"
+            "updated": "2018-07-10T03:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3978,7 +3959,7 @@
             "pv": "4.14.48+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:30+0000"
+            "updated": "2018-07-10T03:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3997,7 +3978,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:30+0000"
+            "updated": "2018-07-10T03:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -4384,7 +4365,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gnupg_2.2.5.bb",
+            "filename": "gnupg_2.2.8.bb",
             "filepath": "recipes-support/gnupg",
             "homepage": "http://www.gnupg.org/",
             "id": 270887,
@@ -4393,10 +4374,10 @@
             "license": "GPLv3 & LGPLv3",
             "pn": "gnupg",
             "provides": "gnupg ",
-            "pv": "2.2.5",
+            "pv": "2.2.8",
             "section": "base",
             "summary": "GNU Privacy Guard - encryption and signing tools (2.x)",
-            "updated": "2018-05-25T01:05:32+0000"
+            "updated": "2018-07-10T03:07:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4548,7 +4529,7 @@
             "pv": "7.60.0",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-07-10T03:07:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -4643,7 +4624,7 @@
             "pv": "4.19",
             "section": "libs/network",
             "summary": "Netscape Portable Runtime Library",
-            "updated": "2018-05-25T01:05:35+0000"
+            "updated": "2018-07-10T03:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -4726,7 +4707,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS 5, PKCS 7, PKCS 11, PKCS 12, S/MIME, X.509 v3 certificates, and other security standards.",
-            "filename": "nss_3.37.1.bb",
+            "filename": "nss_3.38.bb",
             "filepath": "recipes-support/nss",
             "homepage": "http://www.mozilla.org/projects/security/pki/nss/",
             "id": 270906,
@@ -4735,10 +4716,10 @@
             "license": "MPL-2.0 | (MPL-2.0 & GPL-2.0+) | (MPL-2.0 & LGPL-2.1+)",
             "pn": "nss",
             "provides": "nss ",
-            "pv": "3.37.1",
+            "pv": "3.38",
             "section": "libs",
             "summary": "Mozilla's SSL and TLS implementation",
-            "updated": "2018-07-02T22:07:17+0000"
+            "updated": "2018-07-10T03:07:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4757,7 +4738,7 @@
             "pv": "20170717",
             "section": "misc",
             "summary": "Common CA certificates",
-            "updated": "2018-05-25T01:05:37+0000"
+            "updated": "2018-07-10T03:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -5049,7 +5030,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.g10code.com/gnupg/index",
             "description": "GnuPG Made Easy (GPGME) is a library designed to make access to GnuPG easier for applications. It provides a High-Level Crypto API for encryption, decryption, signing, signature verification and key management",
-            "filename": "gpgme_1.10.0.bb",
+            "filename": "gpgme_1.11.1.bb",
             "filepath": "recipes-support/gpgme",
             "homepage": "http://www.gnupg.org/gpgme.html",
             "id": 270923,
@@ -5058,10 +5039,10 @@
             "license": "GPLv2+ & LGPLv2.1+",
             "pn": "gpgme",
             "provides": "gpgme ",
-            "pv": "1.10.0",
+            "pv": "1.11.1",
             "section": "base",
             "summary": "High-level GnuPG encryption/signing API",
-            "updated": "2018-05-25T01:05:41+0000"
+            "updated": "2018-07-10T03:07:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5315,7 +5296,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.g10code.com/gnupg/index",
             "description": "",
-            "filename": "libgcrypt_1.8.2.bb",
+            "filename": "libgcrypt_1.8.3.bb",
             "filepath": "recipes-support/libgcrypt",
             "homepage": "http://directory.fsf.org/project/libgcrypt/",
             "id": 270937,
@@ -5324,10 +5305,10 @@
             "license": "GPLv2+ & LGPLv2.1+ & GPLv3+",
             "pn": "libgcrypt",
             "provides": "libgcrypt ",
-            "pv": "1.8.2",
+            "pv": "1.8.3",
             "section": "libs",
             "summary": "General purpose cryptographic library based on the code from GnuPG",
-            "updated": "2018-05-25T01:05:45+0000"
+            "updated": "2018-07-10T03:07:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -5441,7 +5422,7 @@
             "pv": "3.4",
             "section": "console/utils",
             "summary": "Tools to generate block map (AKA bmap) and flash images using bmap",
-            "updated": "2018-05-25T01:05:46+0000"
+            "updated": "2018-07-10T03:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -5460,7 +5441,7 @@
             "pv": "2.28.0",
             "section": "base",
             "summary": "Assistive Technology Service Provider Interface (dbus core)",
-            "updated": "2018-07-02T22:07:33+0000"
+            "updated": "2018-07-10T03:07:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -5479,7 +5460,7 @@
             "pv": "2.28.1",
             "section": "x11/libs",
             "summary": "Accessibility toolkit for GNOME",
-            "updated": "2018-07-02T22:07:28+0000"
+            "updated": "2018-07-10T03:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -5498,7 +5479,7 @@
             "pv": "2.26.2",
             "section": "base",
             "summary": "AT-SPI 2 Toolkit Bridge",
-            "updated": "2018-06-19T20:06:00+0000"
+            "updated": "2018-07-10T03:07:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5764,7 +5745,7 @@
             "pv": "0.0.1+gitX",
             "section": "base",
             "summary": "GStreamer examples (including gtk-play, gst-play)",
-            "updated": "2018-06-19T20:06:01+0000"
+            "updated": "2018-07-10T03:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -6429,7 +6410,7 @@
             "pv": "3.6",
             "section": "base",
             "summary": "Diffutils contains tools used for finding differences between files",
-            "updated": "2018-05-25T01:05:56+0000"
+            "updated": "2018-07-10T03:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -7272,7 +7253,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Linux man-pages project documents the Linux kernel and C library interfaces that are employed by user programs",
-            "filename": "man-pages_4.14.bb",
+            "filename": "man-pages_4.16.bb",
             "filepath": "recipes-extended/man-pages",
             "homepage": "http://www.kernel.org/pub/linux/docs/man-pages",
             "id": 271043,
@@ -7281,10 +7262,10 @@
             "license": "GPLv2+",
             "pn": "man-pages",
             "provides": "man-pages ",
-            "pv": "4.14",
+            "pv": "4.16",
             "section": "console/utils",
             "summary": "Linux man-pages",
-            "updated": "2018-06-19T20:06:52+0000"
+            "updated": "2018-07-10T03:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -8006,7 +7987,7 @@
             "pv": "9.23",
             "section": "console/utils",
             "summary": "The GPL Ghostscript PostScript/PDF interpreter",
-            "updated": "2018-05-25T01:05:11+0000"
+            "updated": "2018-07-10T03:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -8025,7 +8006,7 @@
             "pv": "2.7.1",
             "section": "console/network",
             "summary": "Text-based modem control and terminal emulation program",
-            "updated": "2018-07-02T22:07:24+0000"
+            "updated": "2018-07-10T03:07:36+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8253,7 +8234,7 @@
             "pv": "237",
             "section": "base",
             "summary": "A System and service manager",
-            "updated": "2018-06-19T20:06:03+0000"
+            "updated": "2018-07-10T03:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -8697,7 +8678,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "git_2.16.1.bb",
+            "filename": "git_2.18.0.bb",
             "filepath": "recipes-devtools/git",
             "homepage": "http://git-scm.com",
             "id": 271123,
@@ -8706,10 +8687,10 @@
             "license": "GPLv2",
             "pn": "git",
             "provides": "git ",
-            "pv": "2.16.1",
+            "pv": "2.18.0",
             "section": "console/utils",
             "summary": "Distributed version control system",
-            "updated": "2018-05-25T01:05:18+0000"
+            "updated": "2018-07-10T03:07:50+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8944,7 +8925,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.",
-            "filename": "e2fsprogs_1.43.8.bb",
+            "filename": "e2fsprogs_1.44.2.bb",
             "filepath": "recipes-devtools/e2fsprogs",
             "homepage": "http://e2fsprogs.sourceforge.net/",
             "id": 271148,
@@ -8953,10 +8934,10 @@
             "license": "GPLv2 & LGPLv2 & BSD & MIT",
             "pn": "e2fsprogs",
             "provides": "e2fsprogs ",
-            "pv": "1.43.8",
+            "pv": "1.44.2",
             "section": "base",
             "summary": "Ext2 Filesystem Utilities",
-            "updated": "2018-05-25T01:05:21+0000"
+            "updated": "2018-07-10T03:07:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -9336,14 +9317,14 @@
             "pv": "0.6.2",
             "section": "devel/python",
             "summary": "Python framework to process interdependent tasks in a pool of workers",
-            "updated": "2018-05-25T01:05:26+0000"
+            "updated": "2018-07-10T03:07:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-setuptools_39.0.1.bb",
+            "filename": "python3-setuptools_39.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/setuptools",
             "id": 271171,
@@ -9352,10 +9333,10 @@
             "license": "MIT",
             "pn": "python3-setuptools",
             "provides": "python3-setuptools ",
-            "pv": "39.0.1",
+            "pv": "39.2.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-05-25T01:05:26+0000"
+            "updated": "2018-07-10T03:07:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -9381,7 +9362,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pip_9.0.3.bb",
+            "filename": "python3-pip_10.0.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pip",
             "id": 271173,
@@ -9390,10 +9371,10 @@
             "license": "MIT",
             "pn": "python3-pip",
             "provides": "python3-pip ",
-            "pv": "9.0.3",
+            "pv": "10.0.1",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2018-05-25T01:05:27+0000"
+            "updated": "2018-07-10T03:07:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9412,7 +9393,7 @@
             "pv": "1.11.0",
             "section": "devel/python",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2018-05-25T01:05:27+0000"
+            "updated": "2018-07-10T03:07:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -9431,7 +9412,7 @@
             "pv": "1.15.6",
             "section": "python-devel",
             "summary": "Python bindings for the Cairo canvas library",
-            "updated": "2018-05-25T01:05:27+0000"
+            "updated": "2018-07-10T03:07:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9450,7 +9431,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Extends Python unittest to make testing easier",
-            "updated": "2018-05-25T01:05:27+0000"
+            "updated": "2018-07-10T03:07:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -9469,7 +9450,7 @@
             "pv": "0.14",
             "section": "devel/python",
             "summary": "Text processing system for documentation",
-            "updated": "2018-05-25T01:05:28+0000"
+            "updated": "2018-07-10T03:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -9488,14 +9469,14 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2018-06-11T20:06:28+0000"
+            "updated": "2018-07-10T03:07:45+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-dbus_1.2.6.bb",
+            "filename": "python3-dbus_1.2.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.freedesktop.org/Software/dbus",
             "id": 271179,
@@ -9504,10 +9485,10 @@
             "license": "MIT",
             "pn": "python3-dbus",
             "provides": "python3-dbus ",
-            "pv": "1.2.6",
+            "pv": "1.2.8",
             "section": "devel/python",
             "summary": "Python bindings for the DBus inter-process communication system",
-            "updated": "2018-05-25T01:05:28+0000"
+            "updated": "2018-07-10T03:07:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9526,7 +9507,7 @@
             "pv": "1.0.7",
             "section": "devel/python",
             "summary": "Templating library for Python",
-            "updated": "2018-05-25T01:05:29+0000"
+            "updated": "2018-07-10T03:07:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9545,14 +9526,14 @@
             "pv": "0.9.0",
             "section": "devel/python",
             "summary": "Python implementation of a sliding window memory map manager",
-            "updated": "2018-05-25T01:05:29+0000"
+            "updated": "2018-07-10T03:07:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python_2.7.14.bb",
+            "filename": "python_2.7.15.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python.org",
             "id": 271182,
@@ -9561,10 +9542,10 @@
             "license": "PSFv2",
             "pn": "python",
             "provides": "python ",
-            "pv": "2.7.14",
+            "pv": "2.7.15",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-06-11T20:06:30+0000"
+            "updated": "2018-07-10T03:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -9583,7 +9564,7 @@
             "pv": "3.5.5",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-05-27T21:05:45+0000"
+            "updated": "2018-07-10T03:07:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9594,7 +9575,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python.org",
             "id": 271184,
-            "inherits": "autotools multilib_header pkgconfig python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools multilib_header pkgconfig python3-dir python3native siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "PSFv2",
             "pn": "python3",
@@ -9602,7 +9583,7 @@
             "pv": "3.5.5",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-06-11T20:06:29+0000"
+            "updated": "2018-07-10T03:07:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9621,7 +9602,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Extends Python unittest to make testing easier",
-            "updated": "2018-05-25T01:05:30+0000"
+            "updated": "2018-07-10T03:07:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9640,7 +9621,7 @@
             "pv": "2.0.3",
             "section": "devel/python",
             "summary": "A pure-Python git object database",
-            "updated": "2018-05-25T01:05:30+0000"
+            "updated": "2018-07-10T03:07:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9659,14 +9640,14 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "Accessing and Modifying INI files",
-            "updated": "2018-05-25T01:05:31+0000"
+            "updated": "2018-07-10T03:07:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-setuptools_39.0.1.bb",
+            "filename": "python-setuptools_39.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/setuptools",
             "id": 271188,
@@ -9675,17 +9656,17 @@
             "license": "MIT",
             "pn": "python-setuptools",
             "provides": "python-setuptools python-distribute",
-            "pv": "39.0.1",
+            "pv": "39.2.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-05-25T01:05:31+0000"
+            "updated": "2018-07-10T03:07:27+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "GitPython provides object model read and write access to a git repository. Access repository information conveniently, alter the index directly, handle remotes, or go down to low-level object database access with big-files support.",
-            "filename": "python3-git_2.1.8.bb",
+            "filename": "python3-git_2.1.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/gitpython-developers/GitPython",
             "id": 271189,
@@ -9694,17 +9675,17 @@
             "license": "BSD-3-Clause",
             "pn": "python3-git",
             "provides": "python3-git ",
-            "pv": "2.1.8",
+            "pv": "2.1.10",
             "section": "devel/python",
             "summary": "Python library used to interact with Git repositories",
-            "updated": "2018-05-25T01:05:31+0000"
+            "updated": "2018-07-10T03:07:28+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-native_2.7.14.bb",
+            "filename": "python-native_2.7.15.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python.org",
             "id": 271190,
@@ -9713,10 +9694,10 @@
             "license": "PSFv2",
             "pn": "python-native",
             "provides": "python-native ",
-            "pv": "2.7.14",
+            "pv": "2.7.15",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-05-27T21:05:39+0000"
+            "updated": "2018-07-10T03:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -9735,7 +9716,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2018-05-25T01:05:31+0000"
+            "updated": "2018-07-10T03:07:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -9830,7 +9811,7 @@
             "pv": "0.65",
             "section": "devel",
             "summary": "Tool for working with series of patches",
-            "updated": "2018-05-25T01:05:32+0000"
+            "updated": "2018-07-10T03:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -9849,7 +9830,7 @@
             "pv": "0.65",
             "section": "devel",
             "summary": "Tool for working with series of patches",
-            "updated": "2018-05-27T21:05:46+0000"
+            "updated": "2018-07-10T03:07:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -9894,7 +9875,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-numpy_1.14.2.bb",
+            "filename": "python-numpy_1.14.5.bb",
             "filepath": "recipes-devtools/python-numpy",
             "homepage": "",
             "id": 271200,
@@ -9903,17 +9884,17 @@
             "license": "BSD-3-Clause & BSD-2-Clause & PSF & Apache-2.0 & BSD",
             "pn": "python-numpy",
             "provides": "python-numpy ",
-            "pv": "1.14.2",
+            "pv": "1.14.5",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2018-05-25T01:05:33+0000"
+            "updated": "2018-07-10T03:07:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-numpy_1.14.2.bb",
+            "filename": "python3-numpy_1.14.5.bb",
             "filepath": "recipes-devtools/python-numpy",
             "homepage": "",
             "id": 271201,
@@ -9922,10 +9903,10 @@
             "license": "BSD-3-Clause & BSD-2-Clause & PSF & Apache-2.0 & BSD",
             "pn": "python3-numpy",
             "provides": "python3-numpy ",
-            "pv": "1.14.2",
+            "pv": "1.14.5",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2018-05-25T01:05:33+0000"
+            "updated": "2018-07-10T03:07:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -10065,7 +10046,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Automake is a tool for automatically generating `Makefile.in' files compliant with the GNU Coding Standards. Automake requires the use of Autoconf.",
-            "filename": "automake_1.15.1.bb",
+            "filename": "automake_1.16.1.bb",
             "filepath": "recipes-devtools/automake",
             "homepage": "http://www.gnu.org/software/automake/",
             "id": 271209,
@@ -10074,10 +10055,10 @@
             "license": "GPLv2",
             "pn": "automake",
             "provides": "automake ",
-            "pv": "1.15.1",
+            "pv": "1.16.1",
             "section": "devel",
             "summary": "A GNU tool for automatically generating Makefiles",
-            "updated": "2018-05-25T01:05:35+0000"
+            "updated": "2018-07-10T03:07:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10730,7 +10711,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "help2man-native_1.47.5.bb",
+            "filename": "help2man-native_1.47.6.bb",
             "filepath": "recipes-devtools/help2man",
             "homepage": "",
             "id": 271244,
@@ -10739,10 +10720,10 @@
             "license": "GPLv3",
             "pn": "help2man-native",
             "provides": "help2man-native ",
-            "pv": "1.47.5",
+            "pv": "1.47.6",
             "section": "devel",
             "summary": "Program for creating simple man pages",
-            "updated": "2018-05-27T21:05:43+0000"
+            "updated": "2018-07-10T03:07:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10863,7 +10844,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "elfutils_0.170.bb",
+            "filename": "elfutils_0.172.bb",
             "filepath": "recipes-devtools/elfutils",
             "homepage": "https://sourceware.org/elfutils",
             "id": 271253,
@@ -10872,10 +10853,10 @@
             "license": "(GPLv3 & Elfutils-Exception)",
             "pn": "elfutils",
             "provides": "elfutils ",
-            "pv": "0.170",
+            "pv": "0.172",
             "section": "base",
             "summary": "Utilities and libraries for handling compiled object files",
-            "updated": "2018-05-25T01:05:43+0000"
+            "updated": "2018-07-10T03:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -11119,10 +11100,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-i586",
             "provides": "go-cross-i586 virtual/i586-oe-linux-go",
-            "pv": "1.9.6",
+            "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:10+0000"
+            "updated": "2018-07-10T03:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -11138,10 +11119,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-native",
             "provides": "go-native ",
-            "pv": "1.9.6",
+            "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:10+0000"
+            "updated": "2018-07-10T03:07:42+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11157,10 +11138,10 @@
             "license": "BSD-3-Clause",
             "pn": "go",
             "provides": "go ",
-            "pv": "1.9.6",
+            "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:10+0000"
+            "updated": "2018-07-10T03:07:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11300,7 +11281,7 @@
             "blacklisted": "",
             "bugtracker": "http://public.kitware.com/Bug/my_view_page.php",
             "description": "",
-            "filename": "cmake-native_3.10.3.bb",
+            "filename": "cmake-native_3.11.4.bb",
             "filepath": "recipes-devtools/cmake",
             "homepage": "http://www.cmake.org/",
             "id": 271280,
@@ -11309,17 +11290,17 @@
             "license": "BSD",
             "pn": "cmake-native",
             "provides": "cmake-native ",
-            "pv": "3.10.3",
+            "pv": "3.11.4",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2018-06-11T20:06:33+0000"
+            "updated": "2018-07-10T03:07:25+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "http://public.kitware.com/Bug/my_view_page.php",
             "description": "",
-            "filename": "cmake_3.10.3.bb",
+            "filename": "cmake_3.11.4.bb",
             "filepath": "recipes-devtools/cmake",
             "homepage": "http://www.cmake.org/",
             "id": 271281,
@@ -11328,10 +11309,10 @@
             "license": "BSD",
             "pn": "cmake",
             "provides": "cmake ",
-            "pv": "3.10.3",
+            "pv": "3.11.4",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2018-07-02T22:07:45+0000"
+            "updated": "2018-07-10T03:07:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -11414,7 +11395,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ccache is a compiler cache. It speeds up recompilation by caching the result of previous compilations and detecting when the same compilation is being done again. Supported languages are C, C\\+\\+, Objective-C and Objective-C++.",
-            "filename": "ccache_3.3.5.bb",
+            "filename": "ccache_3.4.2.bb",
             "filepath": "recipes-devtools/ccache",
             "homepage": "http://ccache.samba.org",
             "id": 271287,
@@ -11423,10 +11404,10 @@
             "license": "GPLv3+",
             "pn": "ccache",
             "provides": "ccache ",
-            "pv": "3.3.5",
+            "pv": "3.4.2",
             "section": "devel",
             "summary": "a fast C/C++ compiler cache",
-            "updated": "2018-05-25T01:05:49+0000"
+            "updated": "2018-07-10T03:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -11445,7 +11426,7 @@
             "pv": "3.28.1.1",
             "section": "base",
             "summary": "WebKit based web browser for GNOME",
-            "updated": "2018-06-19T20:06:10+0000"
+            "updated": "2018-07-10T03:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -11692,7 +11673,7 @@
             "pv": "1.4.2",
             "section": "base",
             "summary": "JSON-GLib implements a full JSON parser using GLib and GObject",
-            "updated": "2018-06-19T20:06:11+0000"
+            "updated": "2018-07-10T03:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12015,7 +11996,7 @@
             "pv": "237",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-07-02T22:07:21+0000"
+            "updated": "2018-07-10T03:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -12155,7 +12136,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "SVr4 and XSI-Curses compatible curses library and terminfo tools including tic, infocmp, captoinfo. Supports color, multiple highlights, forms-drawing characters, and automatic recognition of keypad and function-key sequences. Extensions include resizable windows and mouse support on both xterm and Linux console using the gpm library.",
-            "filename": "ncurses_6.1.bb",
+            "filename": "ncurses_6.1+20180630.bb",
             "filepath": "recipes-core/ncurses",
             "homepage": "http://www.gnu.org/software/ncurses/ncurses.html",
             "id": 271328,
@@ -12164,10 +12145,10 @@
             "license": "MIT",
             "pn": "ncurses",
             "provides": "ncurses ",
-            "pv": "6.1",
+            "pv": "6.1+20180630",
             "section": "libs",
             "summary": "The New Curses library",
-            "updated": "2018-05-25T01:05:58+0000"
+            "updated": "2018-07-10T03:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -12300,7 +12281,7 @@
             "pv": "2.9.8",
             "section": "libs",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2018-05-25T01:05:59+0000"
+            "updated": "2018-07-10T03:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12319,7 +12300,7 @@
             "pv": "1.1.19+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2018-06-19T20:06:49+0000"
+            "updated": "2018-07-10T03:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12376,7 +12357,7 @@
             "pv": "1.27.2",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2018-07-02T22:07:49+0000"
+            "updated": "2018-07-10T03:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -12699,7 +12680,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-07-02T22:07:51+0000"
+            "updated": "2018-07-10T03:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -12851,7 +12832,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Testing tools/applications",
-            "updated": "2018-05-25T01:05:04+0000"
+            "updated": "2018-07-10T03:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -13440,7 +13421,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2018-06-19T20:06:57+0000"
+            "updated": "2018-07-10T03:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -13573,7 +13554,7 @@
             "pv": "2.32",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2018-07-02T22:07:31+0000"
+            "updated": "2018-07-10T03:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -14143,7 +14124,7 @@
             "pv": "2.12.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2018-07-02T22:07:23+0000"
+            "updated": "2018-07-10T03:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -14292,10 +14273,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-canadian-i586",
             "provides": "go-cross-canadian-i586 ",
-            "pv": "1.9.6",
+            "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:01+0000"
+            "updated": "2018-07-10T03:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -14311,10 +14292,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-crosssdk-x86_64",
             "provides": "go-crosssdk-x86_64 virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.9.6",
+            "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:02+0000"
+            "updated": "2018-07-10T03:07:49+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14330,10 +14311,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-runtime",
             "provides": "go-runtime virtual/i586-oe-linux-go-runtime",
-            "pv": "1.9.6",
+            "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:02+0000"
+            "updated": "2018-07-10T03:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -14466,7 +14447,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-06-11T20:06:28+0000"
+            "updated": "2018-07-10T03:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -14587,7 +14568,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "man-db_2.8.2.bb",
+            "filename": "man-db_2.8.3.bb",
             "filepath": "recipes-extended/man-db",
             "homepage": "http://man-db.nongnu.org/",
             "id": 520931,
@@ -14596,10 +14577,10 @@
             "license": "LGPLv2.1 & GPLv2",
             "pn": "man-db",
             "provides": "man-db ",
-            "pv": "2.8.2",
+            "pv": "2.8.3",
             "section": "base",
             "summary": "An implementation of the standard Unix documentation system accessed using the man command",
-            "updated": "2018-05-25T01:05:18+0000"
+            "updated": "2018-07-10T03:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14710,10 +14691,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-canadian-i586",
             "provides": "go-cross-canadian-i586 ",
-            "pv": "1.10.2",
+            "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:04+0000"
+            "updated": "2018-07-10T03:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -14729,10 +14710,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-i586",
             "provides": "go-cross-i586 virtual/i586-oe-linux-go",
-            "pv": "1.10.2",
+            "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:04+0000"
+            "updated": "2018-07-10T03:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -14748,10 +14729,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-crosssdk-x86_64",
             "provides": "go-crosssdk-x86_64 virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.10.2",
+            "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:04+0000"
+            "updated": "2018-07-10T03:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -14767,10 +14748,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-native",
             "provides": "go-native ",
-            "pv": "1.10.2",
+            "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:05+0000"
+            "updated": "2018-07-10T03:07:41+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14786,10 +14767,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-runtime",
             "provides": "go-runtime virtual/i586-oe-linux-go-runtime",
-            "pv": "1.10.2",
+            "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:05+0000"
+            "updated": "2018-07-10T03:07:41+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14805,10 +14786,10 @@
             "license": "BSD-3-Clause",
             "pn": "go",
             "provides": "go ",
-            "pv": "1.10.2",
+            "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-06-19T20:06:05+0000"
+            "updated": "2018-07-10T03:07:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -14903,7 +14884,7 @@
             "pv": "3.0+gitX",
             "section": "libs",
             "summary": "NSS module for glibc, to provide NIS support for glibc",
-            "updated": "2018-05-25T01:05:21+0000"
+            "updated": "2018-07-10T03:07:36+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -14941,7 +14922,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-06-11T20:06:39+0000"
+            "updated": "2018-07-10T03:07:47+0000"
         },
         {
             "bbclassextend": "",

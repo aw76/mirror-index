@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180625",
+            "bitbake_branch": "wr-10.18-20180708",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-25T03:06:49+0000",
+            "updated": "2018-07-10T03:07:57+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180702",
+            "actual_branch": "wr-10.18-20180708",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-05T00:07:45+0000",
-            "vcs_last_commit": "2018-07-05T00:07:45+0000",
-            "vcs_last_fetch": "2018-07-05T00:07:45+0000",
-            "vcs_last_rev": "0179280df8b54708c938fbd5a9830d41116efd10",
+            "updated": "2018-07-10T04:07:24+0000",
+            "vcs_last_commit": "2018-07-10T04:07:24+0000",
+            "vcs_last_fetch": "2018-07-10T04:07:24+0000",
+            "vcs_last_rev": "157836166d7a892ad501efc5f46d4851c9a98b61",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180702",
+            "actual_branch": "wr-10.18-20180708",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-07-02T01:07:26+0000",
-            "vcs_last_commit": "2018-07-02T01:07:26+0000",
-            "vcs_last_fetch": "2018-07-02T01:07:26+0000",
-            "vcs_last_rev": "41ecbe57778a96137fbb871625b30f96a7321d86",
+            "updated": "2018-07-08T09:07:51+0000",
+            "vcs_last_commit": "2018-07-08T09:07:51+0000",
+            "vcs_last_fetch": "2018-07-08T09:07:51+0000",
+            "vcs_last_rev": "e230fb5625715f2fb0272f0fa8d072c85f67eb85",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -127,7 +127,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "A collection of utilities used to tweak and query the runtime configurationof the X server.",
-            "filename": "iceauth_1.0.7.bb",
+            "filename": "iceauth_1.0.8.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 268871,
@@ -136,10 +136,10 @@
             "license": "MIT-X",
             "pn": "iceauth",
             "provides": "iceauth ",
-            "pv": "1.0.7",
+            "pv": "1.0.8",
             "section": "x11/apps",
             "summary": "X.Org X11 X client utilities",
-            "updated": "2017-09-26T04:09:46+0000"
+            "updated": "2018-07-10T02:07:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -1818,7 +1818,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgphoto2_2.5.16.bb",
+            "filename": "libgphoto2_2.5.17.bb",
             "filepath": "recipes-graphics/gphoto2",
             "homepage": "",
             "id": 268970,
@@ -1827,10 +1827,10 @@
             "license": "LGPLv2.1",
             "pn": "libgphoto2",
             "provides": "libgphoto2 ",
-            "pv": "2.5.16",
+            "pv": "2.5.17",
             "section": "libs",
             "summary": "libgphoto2 allows you to access digital cameras",
-            "updated": "2018-04-16T02:04:34+0000"
+            "updated": "2018-07-10T02:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2255,7 +2255,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libndp_1.6.bb",
+            "filename": "libndp_1.7.bb",
             "filepath": "recipes-connectivity/libndp",
             "homepage": "http://libndp.org/",
             "id": 268999,
@@ -2264,10 +2264,10 @@
             "license": "LGPLv2.1",
             "pn": "libndp",
             "provides": "libndp ",
-            "pv": "1.6",
+            "pv": "1.7",
             "section": "base",
             "summary": "Library for IPv6 Neighbor Discovery Protocol",
-            "updated": "2017-09-26T04:09:00+0000"
+            "updated": "2018-07-10T02:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -3718,7 +3718,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_9.4.17.bb",
+            "filename": "postgresql_9.4.18.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 269087,
@@ -3727,10 +3727,10 @@
             "license": "BSD",
             "pn": "postgresql",
             "provides": "postgresql ",
-            "pv": "9.4.17",
+            "pv": "9.4.18",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2018-06-04T21:06:14+0000"
+            "updated": "2018-07-10T02:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4117,7 +4117,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "syslog-ng, as the name shows, is a syslogd replacement, but with new functionality for the new generation. The original syslogd allows messages only to be sorted based on priority/facility pairs; syslog-ng adds the possibility to filter based on message contents using regular expressions. The new configuration scheme is intuitive and powerful. Forwarding logs over TCP and remembering all forwarding hops makes it ideal for firewalled environments. ",
-            "filename": "syslog-ng_3.15.1.bb",
+            "filename": "syslog-ng_3.16.1.bb",
             "filepath": "recipes-support/syslog-ng",
             "homepage": "http://www.balabit.com/network-security/syslog-ng/opensource-logging-system",
             "id": 269108,
@@ -4126,10 +4126,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "syslog-ng",
             "provides": "syslog-ng ",
-            "pv": "3.15.1",
+            "pv": "3.16.1",
             "section": "base",
             "summary": "Alternative system logger daemon",
-            "updated": "2018-07-02T22:07:59+0000"
+            "updated": "2018-07-10T02:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -4183,10 +4183,10 @@
             "license": "GPL-2.0+",
             "pn": "hwdata",
             "provides": "hwdata ",
-            "pv": "0.298+gitX",
+            "pv": "0.312+gitX",
             "section": "System/Base",
             "summary": "",
-            "updated": "2018-02-26T20:02:38+0000"
+            "updated": "2018-07-10T02:07:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -5022,7 +5022,7 @@
             "pv": "1.0.3",
             "section": "libs",
             "summary": "libnih library",
-            "updated": "2017-09-26T04:09:20+0000"
+            "updated": "2018-07-10T02:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -6112,7 +6112,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vim-tiny_8.0.0983.bb",
+            "filename": "vim-tiny_8.1.0.116.bb",
             "filepath": "recipes-support/vim",
             "homepage": "",
             "id": 269227,
@@ -6121,17 +6121,17 @@
             "license": "vim",
             "pn": "vim-tiny",
             "provides": "vim-tiny ",
-            "pv": "8.0.0983",
+            "pv": "8.1.0.116",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2018-01-29T20:01:47+0000"
+            "updated": "2018-07-10T02:07:49+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vim_8.0.0983.bb",
+            "filename": "vim_8.1.0.116.bb",
             "filepath": "recipes-support/vim",
             "homepage": "",
             "id": 269228,
@@ -6140,10 +6140,10 @@
             "license": "vim",
             "pn": "vim",
             "provides": "vim ",
-            "pv": "8.0.0983",
+            "pv": "8.1.0.116",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2018-01-29T20:01:47+0000"
+            "updated": "2018-07-10T02:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -6482,10 +6482,10 @@
             "license": "LGPLv2 & FLTK",
             "pn": "fltk",
             "provides": "fltk ",
-            "pv": "1.3.4-1",
+            "pv": "1.3.4-2",
             "section": "libs",
             "summary": "FLTK is a cross-platform C++ GUI toolkit",
-            "updated": "2018-03-20T01:03:24+0000"
+            "updated": "2018-07-10T02:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -6501,10 +6501,10 @@
             "license": "LGPLv2 & FLTK",
             "pn": "fltk-native",
             "provides": "fltk-native ",
-            "pv": "1.3.4-1",
+            "pv": "1.3.4-2",
             "section": "libs",
             "summary": "FLTK is a cross-platform C++ GUI toolkit",
-            "updated": "2018-01-02T23:01:47+0000"
+            "updated": "2018-07-10T02:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -6568,7 +6568,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gperftools_2.6.1.bb",
+            "filename": "gperftools_2.7.bb",
             "filepath": "recipes-support/gperftools",
             "homepage": "https://github.com/gperftools/gperftools",
             "id": 269253,
@@ -6577,17 +6577,17 @@
             "license": "BSD",
             "pn": "gperftools",
             "provides": "gperftools ",
-            "pv": "2.6.1",
+            "pv": "2.7",
             "section": "base",
             "summary": "Fast, multi-threaded malloc() and nifty performance analysis tools",
-            "updated": "2018-07-02T22:07:58+0000"
+            "updated": "2018-07-10T02:07:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "poppler_0.64.0.bb",
+            "filename": "poppler_0.66.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 269254,
@@ -6596,10 +6596,10 @@
             "license": "GPLv2",
             "pn": "poppler",
             "provides": "poppler ",
-            "pv": "0.64.0",
+            "pv": "0.66.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2018-06-04T21:06:13+0000"
+            "updated": "2018-07-10T02:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -8031,7 +8031,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Dialog lets you to present a variety of questions or display messages using dialog boxes from a shell script (or any scripting language).",
-            "filename": "dialog_1.3-20171209.bb",
+            "filename": "dialog_1.3-20180621.bb",
             "filepath": "recipes-extended/dialog",
             "homepage": "http://invisible-island.net/dialog/",
             "id": 269337,
@@ -8040,10 +8040,10 @@
             "license": "LGPL-2.1",
             "pn": "dialog",
             "provides": "dialog ",
-            "pv": "1.3-20171209",
+            "pv": "1.3-20180621",
             "section": "console/utils",
             "summary": "display dialog boxes from shell scripts",
-            "updated": "2018-04-16T02:04:34+0000"
+            "updated": "2018-07-10T02:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8392,7 +8392,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Portable Hardware Locality (hwloc) software package  provides a portable abstraction of the hierarchical topology of modern  architectures.",
-            "filename": "hwloc_1.11.5.bb",
+            "filename": "hwloc_1.11.10.bb",
             "filepath": "recipes-extended/hwloc",
             "homepage": "https://www.open-mpi.org/software/hwloc/",
             "id": 269357,
@@ -8401,10 +8401,10 @@
             "license": "BSD",
             "pn": "hwloc",
             "provides": "hwloc ",
-            "pv": "1.11.5",
+            "pv": "1.11.10",
             "section": "base",
             "summary": "Portable Hardware Locality (hwloc) software package",
-            "updated": "2018-06-19T20:06:27+0000"
+            "updated": "2018-07-10T02:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8639,7 +8639,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libfastjson_0.99.4.bb",
+            "filename": "libfastjson_0.99.8.bb",
             "filepath": "recipes-extended/rsyslog",
             "homepage": "https://github.com/rsyslog/libfastjson",
             "id": 269370,
@@ -8648,10 +8648,10 @@
             "license": "MIT",
             "pn": "libfastjson",
             "provides": "libfastjson ",
-            "pv": "0.99.4",
+            "pv": "0.99.8",
             "section": "base",
             "summary": "A fork of json-c library",
-            "updated": "2017-09-26T04:09:46+0000"
+            "updated": "2018-07-10T02:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8753,7 +8753,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": " liblogging (the upstream project) is a collection of several components. Namely: stdlog, journalemu, rfc3195. The stdlog component of liblogging can be viewed as an enhanced version of the syslog(3) API. It retains the easy semantics, but makes the API more sophisticated \"behind the scenes\" with better support for multiple threads and flexibility for different log destinations (e.g. syslog and systemd journal).",
-            "filename": "liblogging_1.0.5.bb",
+            "filename": "liblogging_1.0.6.bb",
             "filepath": "recipes-extended/liblogging",
             "homepage": "",
             "id": 269376,
@@ -8762,10 +8762,10 @@
             "license": "BSD",
             "pn": "liblogging",
             "provides": "liblogging ",
-            "pv": "1.0.5",
+            "pv": "1.0.6",
             "section": "libs",
             "summary": "An easy to use logging library",
-            "updated": "2017-09-26T04:09:47+0000"
+            "updated": "2018-07-10T02:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -9551,7 +9551,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_7.2.4.bb",
+            "filename": "php_7.2.7.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 269426,
@@ -9560,10 +9560,10 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "7.2.4",
+            "pv": "7.2.7",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-04-16T02:04:38+0000"
+            "updated": "2018-07-10T02:07:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9601,7 +9601,7 @@
             "pv": "3.5.1+gitX",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2018-01-29T20:01:44+0000"
+            "updated": "2018-07-10T02:07:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9620,7 +9620,7 @@
             "pv": "1.3.0+gitX",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2017-09-26T04:09:53+0000"
+            "updated": "2018-07-10T02:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -9798,7 +9798,7 @@
             "blacklisted": "",
             "bugtracker": "http://sourceforge.net/p/log4cplus/bugs/",
             "description": "",
-            "filename": "log4cplus_1.2.0.bb",
+            "filename": "log4cplus_2.0.1.bb",
             "filepath": "recipes-devtools/log4cplus",
             "homepage": "http://sourceforge.net/projects/log4cplus/",
             "id": 269442,
@@ -9807,10 +9807,10 @@
             "license": "Apache-2.0 & BSD-2-Clause",
             "pn": "log4cplus",
             "provides": "log4cplus ",
-            "pv": "1.2.0",
+            "pv": "2.0.1",
             "section": "libs",
             "summary": "log4cplus provides a simple C++ logging API for log management",
-            "updated": "2018-06-19T20:06:26+0000"
+            "updated": "2018-07-10T02:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -9874,7 +9874,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Command line editor library providing generic line editing, history, and tokenization functions",
-            "filename": "libedit_20170329-3.1.bb",
+            "filename": "libedit_20180525-3.1.bb",
             "filepath": "recipes-devtools/libedit",
             "homepage": "http://www.thrysoee.dk/editline/",
             "id": 269446,
@@ -9883,10 +9883,10 @@
             "license": "BSD",
             "pn": "libedit",
             "provides": "libedit ",
-            "pv": "20170329-3.1",
+            "pv": "20180525-3.1",
             "section": "libs",
             "summary": "BSD replacement for libreadline",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2018-07-10T02:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -11147,7 +11147,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "glade_3.20.2.bb",
+            "filename": "glade_3.22.1.bb",
             "filepath": "recipes-devtools/glade",
             "homepage": "http://www.gnu.org/software/gnash",
             "id": 276619,
@@ -11156,10 +11156,10 @@
             "license": "GPLv2 & LGPLv2",
             "pn": "glade",
             "provides": "glade ",
-            "pv": "3.20.2",
+            "pv": "3.22.1",
             "section": "base",
             "summary": "Glade - A User Interface Designer",
-            "updated": "2018-03-20T01:03:20+0000"
+            "updated": "2018-07-10T02:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12125,10 +12125,10 @@
             "license": "Apache-2.0",
             "pn": "dbus-broker",
             "provides": "dbus-broker ",
-            "pv": "9+gitX",
+            "pv": "13+gitX",
             "section": "base",
             "summary": "dbus broker",
-            "updated": "2018-04-24T22:04:05+0000"
+            "updated": "2018-07-10T02:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -12376,6 +12376,44 @@
             "section": "kernel/userland",
             "summary": "Linux kernel userland utilities for the PCMCIA subsystem",
             "updated": "2018-07-02T22:07:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Blueman is a GTK+ Bluetooth Manager",
+            "filename": "blueman_git.bb",
+            "filepath": "recipes-connectivity/blueman",
+            "homepage": "",
+            "id": 669838,
+            "inherits": "autotools gsettings gtk-icon-cache python3-dir python3native siteconfig siteinfo systemd",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "blueman",
+            "provides": "blueman ",
+            "pv": "2.0.5+gitX",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-07-10T02:07:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "bpftool is a kernel tool for inspection and simple manipulation of eBPF programs and maps.",
+            "filename": "bpftool.bb",
+            "filepath": "recipes-kernel/bpftool",
+            "homepage": "",
+            "id": 669839,
+            "inherits": "bash-completion kernel-arch kernelsrc linux-kernel-base",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "bpftool",
+            "provides": "bpftool virtual/bpftool",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Inspect and manipulate eBPF programs and maps",
+            "updated": "2018-07-10T02:07:52+0000"
         }
     ],
     "wrtemplates": []

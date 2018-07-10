@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180625",
+            "bitbake_branch": "wr-10.18-20180708",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-06-25T03:06:49+0000",
+            "updated": "2018-07-10T03:07:57+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180702",
+            "actual_branch": "wr-10.18-20180708",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-05T00:07:45+0000",
-            "vcs_last_commit": "2018-07-05T00:07:45+0000",
-            "vcs_last_fetch": "2018-07-05T00:07:45+0000",
-            "vcs_last_rev": "0179280df8b54708c938fbd5a9830d41116efd10",
+            "updated": "2018-07-10T04:07:24+0000",
+            "vcs_last_commit": "2018-07-10T04:07:24+0000",
+            "vcs_last_fetch": "2018-07-10T04:07:24+0000",
+            "vcs_last_rev": "157836166d7a892ad501efc5f46d4851c9a98b61",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180702",
+            "actual_branch": "wr-10.18-20180708",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2018-07-02T01:07:25+0000",
-            "vcs_last_commit": "2018-07-02T01:07:25+0000",
-            "vcs_last_fetch": "2018-07-02T01:07:25+0000",
-            "vcs_last_rev": "b0beae6c6180ba3d24dc8cbe944d0caa494c941d",
+            "updated": "2018-07-08T09:07:51+0000",
+            "vcs_last_commit": "2018-07-08T09:07:51+0000",
+            "vcs_last_fetch": "2018-07-08T09:07:51+0000",
+            "vcs_last_rev": "32e0bccd43ae7160df55ed2424d9b53c7d8f0f32",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": null
@@ -231,10 +231,10 @@
             "license": "GPLv2",
             "pn": "dracut",
             "provides": "dracut ",
-            "pv": "046+gita0799ffb554487a370c2a1adafaedd2021b6dc8c",
+            "pv": "047",
             "section": "base",
             "summary": "Initramfs generator using udev",
-            "updated": "2018-02-26T20:02:35+0000"
+            "updated": "2018-07-10T02:07:39+0000"
         },
         {
             "bbclassextend": "",
