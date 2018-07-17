@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180708",
+            "bitbake_branch": "wr-10.18-20180716",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-10T03:07:57+0000",
+            "updated": "2018-07-16T20:07:58+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-15T21:07:24+0000",
-            "vcs_last_commit": "2018-07-15T21:07:24+0000",
-            "vcs_last_fetch": "2018-07-15T21:07:24+0000",
-            "vcs_last_rev": "b3d7d7847d181c1be514a356e06a99205830a8c7",
+            "updated": "2018-07-16T03:07:03+0000",
+            "vcs_last_commit": "2018-07-16T03:07:03+0000",
+            "vcs_last_fetch": "2018-07-16T03:07:03+0000",
+            "vcs_last_rev": "9b8e87aeee5b6d25da922161ea4dd754805cc2c0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -54,10 +54,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-07-16T04:07:24+0000",
-            "vcs_last_commit": "2018-07-16T04:07:24+0000",
-            "vcs_last_fetch": "2018-07-16T04:07:24+0000",
-            "vcs_last_rev": "fde2973fd0b54f8727e788e29f271d6b1e620f4a",
+            "updated": "2018-07-17T03:07:12+0000",
+            "vcs_last_commit": "2018-07-17T03:07:12+0000",
+            "vcs_last_fetch": "2018-07-17T03:07:12+0000",
+            "vcs_last_rev": "04ad048ffa0ab26d633a119fe95d71183cb0c8fb",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": null
@@ -212,7 +212,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2018-07-16T02:07:23+0000"
+            "updated": "2018-07-17T04:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -231,7 +231,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2018-07-16T02:07:20+0000"
+            "updated": "2018-07-17T04:07:19+0000"
         },
         {
             "bbclassextend": "",
@@ -250,7 +250,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2018-07-16T02:07:20+0000"
+            "updated": "2018-07-17T04:07:19+0000"
         },
         {
             "bbclassextend": "",
@@ -269,7 +269,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2018-07-16T02:07:20+0000"
+            "updated": "2018-07-17T04:07:19+0000"
         },
         {
             "bbclassextend": "",
@@ -288,7 +288,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2018-07-16T02:07:20+0000"
+            "updated": "2018-07-17T04:07:20+0000"
         },
         {
             "bbclassextend": "",
@@ -307,7 +307,7 @@
             "pv": "3.4",
             "section": "base",
             "summary": "Frequency and Idle power monitoring tools for Linux",
-            "updated": "2018-07-16T04:07:22+0000"
+            "updated": "2018-07-17T04:07:20+0000"
         },
         {
             "bbclassextend": "",
@@ -326,7 +326,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2018-07-16T02:07:21+0000"
+            "updated": "2018-07-17T04:07:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -345,7 +345,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2018-07-16T02:07:21+0000"
+            "updated": "2018-07-17T04:07:20+0000"
         },
         {
             "bbclassextend": "",
@@ -364,7 +364,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2018-07-16T02:07:21+0000"
+            "updated": "2018-07-17T04:07:20+0000"
         },
         {
             "bbclassextend": "",
@@ -383,7 +383,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T02:07:21+0000"
+            "updated": "2018-07-17T04:07:20+0000"
         },
         {
             "bbclassextend": "",
@@ -402,7 +402,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2018-07-16T02:07:22+0000"
+            "updated": "2018-07-17T04:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -421,7 +421,7 @@
             "pv": "v2.1-9+gitad1238f26ca54ffb2e1a19d53edfc8e0cea07416",
             "section": "console/utils",
             "summary": "Microcode Control Tool",
-            "updated": "2018-07-16T02:07:22+0000"
+            "updated": "2018-07-17T04:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -432,7 +432,7 @@
             "filepath": "wrlinux-kernel-dev/recipes-kernel/linux",
             "homepage": "",
             "id": 410381,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 15009,
             "license": "GPLv2",
             "pn": "linux-yocto-custom",
@@ -440,7 +440,7 @@
             "pv": "4.2+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-16T02:07:22+0000"
+            "updated": "2018-07-17T04:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -459,7 +459,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required by bsp",
-            "updated": "2018-07-16T02:07:22+0000"
+            "updated": "2018-07-17T04:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -478,7 +478,7 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-07-16T02:07:22+0000"
+            "updated": "2018-07-17T04:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -497,7 +497,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T02:07:22+0000"
+            "updated": "2018-07-17T04:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -554,7 +554,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T02:07:22+0000"
+            "updated": "2018-07-17T04:07:21+0000"
         }
     ],
     "wrtemplates": [

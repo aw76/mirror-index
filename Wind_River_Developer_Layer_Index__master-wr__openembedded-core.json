@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180708",
+            "bitbake_branch": "wr-10.18-20180716",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-10T03:07:57+0000",
+            "updated": "2018-07-16T20:07:58+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-15T21:07:24+0000",
-            "vcs_last_commit": "2018-07-15T21:07:24+0000",
-            "vcs_last_fetch": "2018-07-15T21:07:24+0000",
-            "vcs_last_rev": "b3d7d7847d181c1be514a356e06a99205830a8c7",
+            "updated": "2018-07-16T03:07:03+0000",
+            "vcs_last_commit": "2018-07-16T03:07:03+0000",
+            "vcs_last_fetch": "2018-07-16T03:07:03+0000",
+            "vcs_last_rev": "9b8e87aeee5b6d25da922161ea4dd754805cc2c0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -755,7 +755,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The X Window System provides support for changing the image on a display screen after a user-settable period of inactivity to avoid burning the cathode ray tube phosphors. However, no interfaces are provided for the user to control the image that is drawn. This extension allows an external \\\"screen saver\\\" client to detect when the alternate image is to be displayed and to provide the graphics.",
-            "filename": "libxscrnsaver_1.2.2.bb",
+            "filename": "libxscrnsaver_1.2.3.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 270656,
@@ -764,10 +764,10 @@
             "license": "MIT",
             "pn": "libxscrnsaver",
             "provides": "libxscrnsaver libxss",
-            "pv": "1.2.2",
+            "pv": "1.2.3",
             "section": "x11/libs",
             "summary": "Xscrnsaver: X Screen Saver extension library",
-            "updated": "2018-05-25T01:05:54+0000"
+            "updated": "2018-07-16T20:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -907,7 +907,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The XFree86-Misc extension, provides a means to access input device configuration settings specific to the XFree86/Xorg DDX.",
-            "filename": "libxxf86misc_1.0.3.bb",
+            "filename": "libxxf86misc_1.0.4.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 270664,
@@ -916,10 +916,10 @@
             "license": "MIT",
             "pn": "libxxf86misc",
             "provides": "libxxf86misc xxf86misc",
-            "pv": "1.0.3",
+            "pv": "1.0.4",
             "section": "x11/libs",
             "summary": "XFree86-Misc: XFree86 miscellaneous extension library",
-            "updated": "2018-05-25T01:05:56+0000"
+            "updated": "2018-07-16T20:07:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -1135,7 +1135,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "Xinerama is a simple library designed to interface the Xinerama Extension for retrieving information about physical output devices which may be combined into a single logical X screen.",
-            "filename": "libxinerama_1.1.3.bb",
+            "filename": "libxinerama_1.1.4.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 270677,
@@ -1144,10 +1144,10 @@
             "license": "MIT",
             "pn": "libxinerama",
             "provides": "libxinerama xinerama",
-            "pv": "1.1.3",
+            "pv": "1.1.4",
             "section": "x11/libs",
             "summary": "Xinerama: Xinerama extension library",
-            "updated": "2018-05-25T01:05:58+0000"
+            "updated": "2018-07-16T20:07:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1584,7 +1584,7 @@
             "pv": "2.4.92",
             "section": "x11/base",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2018-07-10T03:07:37+0000"
+            "updated": "2018-07-16T20:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1876,7 +1876,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "mouse is an Xorg input driver for mice. The driver supports most available mouse types and interfaces.  The mouse driver functions as a pointer input device, and may be used as the X server's core pointer. Multiple mice are supported by multiple instances of this driver.",
-            "filename": "xf86-input-mouse_1.9.2.bb",
+            "filename": "xf86-input-mouse_1.9.3.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
             "id": 270716,
@@ -1885,10 +1885,10 @@
             "license": "MIT-X",
             "pn": "xf86-input-mouse",
             "provides": "xf86-input-mouse ",
-            "pv": "1.9.2",
+            "pv": "1.9.3",
             "section": "x11/drivers",
             "summary": "X.Org X server -- mouse input driver",
-            "updated": "2018-06-11T20:06:30+0000"
+            "updated": "2018-07-16T20:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2249,7 +2249,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2018-07-02T22:07:43+0000"
+            "updated": "2018-07-16T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2268,7 +2268,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2018-07-02T22:07:43+0000"
+            "updated": "2018-07-16T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2287,7 +2287,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:43+0000"
+            "updated": "2018-07-16T20:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2439,7 +2439,7 @@
             "pv": "1.11.0",
             "section": "libs",
             "summary": "Library to handle input devices in Wayland compositors",
-            "updated": "2018-07-10T03:07:41+0000"
+            "updated": "2018-07-16T20:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2522,7 +2522,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wayland protocols that add functionality not available in the Wayland core protocol. Such protocols either add completely new functionality, or extend the functionality of some other protocol either in Wayland core, or some other protocol in wayland-protocols.",
-            "filename": "wayland-protocols_1.14.bb",
+            "filename": "wayland-protocols_1.15.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
             "id": 270753,
@@ -2531,10 +2531,10 @@
             "license": "MIT",
             "pn": "wayland-protocols",
             "provides": "wayland-protocols ",
-            "pv": "1.14",
+            "pv": "1.15",
             "section": "base",
             "summary": "Collection of additional Wayland protocols",
-            "updated": "2018-06-19T20:06:52+0000"
+            "updated": "2018-07-16T20:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2572,7 +2572,7 @@
             "pv": "1.19.6",
             "section": "x11/base",
             "summary": "The X.Org X server",
-            "updated": "2018-05-25T01:05:13+0000"
+            "updated": "2018-07-16T20:07:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -2819,7 +2819,7 @@
             "pv": "1.5.2",
             "section": "libs",
             "summary": "OpenGL function pointer management library",
-            "updated": "2018-07-10T03:07:44+0000"
+            "updated": "2018-07-16T20:07:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -3218,26 +3218,7 @@
             "pv": "2.3.1",
             "section": "console/network",
             "summary": "userspace utilities for kernel nfs",
-            "updated": "2018-07-12T03:07:24+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "libnfsidmap_0.25.bb",
-            "filepath": "recipes-connectivity/nfs-utils",
-            "homepage": "http://www.citi.umich.edu/projects/nfsv4/linux/",
-            "id": 270818,
-            "inherits": "autotools siteconfig siteinfo",
-            "layerbranch": 14953,
-            "license": "BSD",
-            "pn": "libnfsidmap",
-            "provides": "libnfsidmap ",
-            "pv": "0.25",
-            "section": "libs",
-            "summary": "NFS id mapping library",
-            "updated": "2018-05-25T01:05:19+0000"
+            "updated": "2018-07-16T20:07:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -3351,7 +3332,7 @@
             "pv": "2.9.5",
             "section": "devel",
             "summary": "Linux Trace Toolkit Control",
-            "updated": "2018-06-19T20:06:12+0000"
+            "updated": "2018-07-16T20:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3427,7 +3408,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2018-06-04T21:06:01+0000"
+            "updated": "2018-07-16T20:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3446,7 +3427,7 @@
             "pv": "3.26.1",
             "section": "base",
             "summary": "System-wide Performance Profiler for Linux",
-            "updated": "2018-07-10T03:07:48+0000"
+            "updated": "2018-07-16T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -3560,7 +3541,7 @@
             "pv": "4.15.7",
             "section": "devel",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2018-05-25T01:05:22+0000"
+            "updated": "2018-07-16T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3780,7 +3761,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270852,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
@@ -3788,7 +3769,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:39+0000"
+            "updated": "2018-07-16T20:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3799,15 +3780,15 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270853,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.12.24+gitX",
+            "pv": "4.12.26+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:39+0000"
+            "updated": "2018-07-16T20:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3818,15 +3799,15 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270854,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.12.24+gitX",
+            "pv": "4.12.26+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:39+0000"
+            "updated": "2018-07-16T20:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3856,7 +3837,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270856,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
@@ -3864,7 +3845,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:39+0000"
+            "updated": "2018-07-16T20:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3875,7 +3856,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270857,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto",
@@ -3883,7 +3864,7 @@
             "pv": "4.14.48+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:40+0000"
+            "updated": "2018-07-16T20:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3894,7 +3875,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270858,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
@@ -3902,7 +3883,7 @@
             "pv": "4.14.48+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:40+0000"
+            "updated": "2018-07-16T20:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3913,15 +3894,15 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270859,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto-dev",
             "provides": "linux-yocto-dev  virtual/kernel",
-            "pv": "4.17-rc++gitX",
+            "pv": "4.18-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:40+0000"
+            "updated": "2018-07-16T20:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3932,15 +3913,15 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270860,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.12.24+gitX",
+            "pv": "4.12.26+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:40+0000"
+            "updated": "2018-07-16T20:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3951,7 +3932,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270864,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
@@ -3959,7 +3940,7 @@
             "pv": "4.14.48+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:40+0000"
+            "updated": "2018-07-16T20:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3970,7 +3951,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 270865,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "linux-yocto",
@@ -3978,7 +3959,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-10T03:07:40+0000"
+            "updated": "2018-07-16T20:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -4415,7 +4396,7 @@
             "pv": "0.10.1",
             "section": "base",
             "summary": "Userspace RCU (read-copy-update) library",
-            "updated": "2018-05-25T01:05:32+0000"
+            "updated": "2018-07-16T20:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -5422,7 +5403,7 @@
             "pv": "3.4",
             "section": "console/utils",
             "summary": "Tools to generate block map (AKA bmap) and flash images using bmap",
-            "updated": "2018-07-10T03:07:37+0000"
+            "updated": "2018-07-16T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -5441,7 +5422,7 @@
             "pv": "2.28.0",
             "section": "base",
             "summary": "Assistive Technology Service Provider Interface (dbus core)",
-            "updated": "2018-07-10T03:07:47+0000"
+            "updated": "2018-07-16T20:07:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -5460,7 +5441,7 @@
             "pv": "2.28.1",
             "section": "x11/libs",
             "summary": "Accessibility toolkit for GNOME",
-            "updated": "2018-07-10T03:07:47+0000"
+            "updated": "2018-07-16T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -5479,7 +5460,7 @@
             "pv": "2.26.2",
             "section": "base",
             "summary": "AT-SPI 2 Toolkit Bridge",
-            "updated": "2018-07-10T03:07:47+0000"
+            "updated": "2018-07-16T20:07:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5745,7 +5726,7 @@
             "pv": "0.0.1+gitX",
             "section": "base",
             "summary": "GStreamer examples (including gtk-play, gst-play)",
-            "updated": "2018-07-10T03:07:48+0000"
+            "updated": "2018-07-16T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -6220,7 +6201,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:34+0000"
+            "updated": "2018-07-16T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -6239,7 +6220,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:34+0000"
+            "updated": "2018-07-16T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -6854,7 +6835,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Procps contains a set of system utilities that provide system information about processes using the /proc filesystem. The package includes the programs ps, top, vmstat, w, kill, and skill.",
-            "filename": "procps_3.3.14.bb",
+            "filename": "procps_3.3.15.bb",
             "filepath": "recipes-extended/procps",
             "homepage": "https://gitlab.com/procps-ng/procps",
             "id": 271021,
@@ -6863,17 +6844,17 @@
             "license": "GPLv2+ & LGPLv2+",
             "pn": "procps",
             "provides": "procps ",
-            "pv": "3.3.14",
+            "pv": "3.3.15",
             "section": "base",
             "summary": "System and process monitoring utilities",
-            "updated": "2018-05-25T01:05:00+0000"
+            "updated": "2018-07-16T20:07:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The psmisc package contains utilities for managing processes on your system: pstree, killall and fuser.  The pstree command displays a tree structure of all of the running processes on your system.  The killall command sends a specified signal (SIGTERM if nothing is specified) to processes identified by name.  The fuser command identifies the PIDs of processes that are using specified files or filesystems.",
-            "filename": "psmisc_23.0.bb",
+            "filename": "psmisc_23.1.bb",
             "filepath": "recipes-extended/psmisc",
             "homepage": "http://psmisc.sf.net/",
             "id": 271022,
@@ -6882,10 +6863,10 @@
             "license": "GPLv2",
             "pn": "psmisc",
             "provides": "psmisc ",
-            "pv": "23.0",
+            "pv": "23.1",
             "section": "base",
             "summary": "Utilities for managing processes on your system",
-            "updated": "2018-05-25T01:05:00+0000"
+            "updated": "2018-07-16T20:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -6949,7 +6930,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A small utility for examining and tuning the settings of your ethernet-based network interfaces.",
-            "filename": "ethtool_4.16.bb",
+            "filename": "ethtool_4.17.bb",
             "filepath": "recipes-extended/ethtool",
             "homepage": "http://www.kernel.org/pub/software/network/ethtool/",
             "id": 271027,
@@ -6958,10 +6939,10 @@
             "license": "GPLv2+",
             "pn": "ethtool",
             "provides": "ethtool ",
-            "pv": "4.16",
+            "pv": "4.17",
             "section": "console/network",
             "summary": "Display or change ethernet card settings",
-            "updated": "2018-06-04T21:06:53+0000"
+            "updated": "2018-07-16T20:07:22+0000"
         },
         {
             "bbclassextend": "",
@@ -7303,7 +7284,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:37+0000"
+            "updated": "2018-07-16T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -7322,7 +7303,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:37+0000"
+            "updated": "2018-07-16T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -7341,7 +7322,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:37+0000"
+            "updated": "2018-07-16T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -7360,7 +7341,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:37+0000"
+            "updated": "2018-07-16T20:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7379,7 +7360,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:38+0000"
+            "updated": "2018-07-16T20:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7398,7 +7379,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:38+0000"
+            "updated": "2018-07-16T20:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7417,7 +7398,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:38+0000"
+            "updated": "2018-07-16T20:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -8234,7 +8215,7 @@
             "pv": "237",
             "section": "base",
             "summary": "A System and service manager",
-            "updated": "2018-07-10T03:07:48+0000"
+            "updated": "2018-07-16T20:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -8386,7 +8367,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2018-05-30T03:05:04+0000"
+            "updated": "2018-07-16T20:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -9317,14 +9298,14 @@
             "pv": "0.6.2",
             "section": "devel/python",
             "summary": "Python framework to process interdependent tasks in a pool of workers",
-            "updated": "2018-07-10T03:07:43+0000"
+            "updated": "2018-07-16T20:07:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-setuptools_39.2.0.bb",
+            "filename": "python3-setuptools_40.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/setuptools",
             "id": 271171,
@@ -9333,17 +9314,17 @@
             "license": "MIT",
             "pn": "python3-setuptools",
             "provides": "python3-setuptools ",
-            "pv": "39.2.0",
+            "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-07-10T03:07:28+0000"
+            "updated": "2018-07-16T20:07:22+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pygobject_3.28.1.bb",
+            "filename": "python3-pygobject_3.28.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 271172,
@@ -9352,10 +9333,10 @@
             "license": "LGPLv2.1",
             "pn": "python3-pygobject",
             "provides": "python3-pygobject ",
-            "pv": "3.28.1",
+            "pv": "3.28.3",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2018-05-25T01:05:26+0000"
+            "updated": "2018-07-16T20:07:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9374,7 +9355,7 @@
             "pv": "10.0.1",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2018-07-10T03:07:28+0000"
+            "updated": "2018-07-16T20:07:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9393,7 +9374,7 @@
             "pv": "1.11.0",
             "section": "devel/python",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2018-07-10T03:07:43+0000"
+            "updated": "2018-07-16T20:07:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -9412,7 +9393,7 @@
             "pv": "1.15.6",
             "section": "python-devel",
             "summary": "Python bindings for the Cairo canvas library",
-            "updated": "2018-07-10T03:07:44+0000"
+            "updated": "2018-07-16T20:07:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9450,7 +9431,7 @@
             "pv": "0.14",
             "section": "devel/python",
             "summary": "Text processing system for documentation",
-            "updated": "2018-07-10T03:07:44+0000"
+            "updated": "2018-07-16T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -9507,7 +9488,7 @@
             "pv": "1.0.7",
             "section": "devel/python",
             "summary": "Templating library for Python",
-            "updated": "2018-07-10T03:07:45+0000"
+            "updated": "2018-07-16T20:07:35+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9526,7 +9507,7 @@
             "pv": "0.9.0",
             "section": "devel/python",
             "summary": "Python implementation of a sliding window memory map manager",
-            "updated": "2018-07-10T03:07:45+0000"
+            "updated": "2018-07-16T20:07:35+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9602,7 +9583,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Extends Python unittest to make testing easier",
-            "updated": "2018-07-10T03:07:45+0000"
+            "updated": "2018-07-16T20:07:36+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9621,7 +9602,7 @@
             "pv": "2.0.3",
             "section": "devel/python",
             "summary": "A pure-Python git object database",
-            "updated": "2018-07-10T03:07:46+0000"
+            "updated": "2018-07-16T20:07:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9640,14 +9621,14 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "Accessing and Modifying INI files",
-            "updated": "2018-07-10T03:07:46+0000"
+            "updated": "2018-07-16T20:07:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-setuptools_39.2.0.bb",
+            "filename": "python-setuptools_40.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/setuptools",
             "id": 271188,
@@ -9656,10 +9637,10 @@
             "license": "MIT",
             "pn": "python-setuptools",
             "provides": "python-setuptools python-distribute",
-            "pv": "39.2.0",
+            "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-07-10T03:07:27+0000"
+            "updated": "2018-07-16T20:07:22+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9678,7 +9659,7 @@
             "pv": "2.1.10",
             "section": "devel/python",
             "summary": "Python library used to interact with Git repositories",
-            "updated": "2018-07-10T03:07:28+0000"
+            "updated": "2018-07-16T20:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -9906,7 +9887,7 @@
             "pv": "1.14.5",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2018-07-10T03:07:27+0000"
+            "updated": "2018-07-16T20:07:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -11084,7 +11065,7 @@
             "pv": "5.33",
             "section": "console/utils",
             "summary": "File classification tool",
-            "updated": "2018-07-12T21:07:32+0000"
+            "updated": "2018-07-16T20:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -11426,7 +11407,7 @@
             "pv": "3.28.1.1",
             "section": "base",
             "summary": "WebKit based web browser for GNOME",
-            "updated": "2018-07-10T03:07:43+0000"
+            "updated": "2018-07-16T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -11464,7 +11445,7 @@
             "pv": "1.56.1",
             "section": "libs",
             "summary": "Middleware layer between GObject-using C libraries and language bindings",
-            "updated": "2018-06-19T20:06:52+0000"
+            "updated": "2018-07-16T20:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -11673,7 +11654,7 @@
             "pv": "1.4.2",
             "section": "base",
             "summary": "JSON-GLib implements a full JSON parser using GLib and GObject",
-            "updated": "2018-07-10T03:07:44+0000"
+            "updated": "2018-07-16T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -11996,7 +11977,7 @@
             "pv": "237",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-07-10T03:07:46+0000"
+            "updated": "2018-07-16T20:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -12167,7 +12148,7 @@
             "pv": "2018.76",
             "section": "console/network",
             "summary": "A lightweight SSH and SCP implementation",
-            "updated": "2018-07-15T21:07:19+0000"
+            "updated": "2018-07-16T20:07:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -12205,7 +12186,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:48+0000"
+            "updated": "2018-07-16T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -12490,7 +12471,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Modular initramfs system",
-            "updated": "2018-05-25T01:05:01+0000"
+            "updated": "2018-07-16T20:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -12623,7 +12604,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:50+0000"
+            "updated": "2018-07-16T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12642,7 +12623,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:50+0000"
+            "updated": "2018-07-16T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12661,7 +12642,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:51+0000"
+            "updated": "2018-07-16T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12680,7 +12661,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-07-10T03:07:49+0000"
+            "updated": "2018-07-16T20:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12699,7 +12680,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2018-07-02T22:07:51+0000"
+            "updated": "2018-07-16T20:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12718,7 +12699,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:52+0000"
+            "updated": "2018-07-16T20:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12737,7 +12718,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:52+0000"
+            "updated": "2018-07-16T20:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -13763,7 +13744,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:32+0000"
+            "updated": "2018-07-16T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -13782,7 +13763,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:33+0000"
+            "updated": "2018-07-16T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -13801,7 +13782,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:33+0000"
+            "updated": "2018-07-16T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -13820,7 +13801,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:33+0000"
+            "updated": "2018-07-16T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -14105,7 +14086,7 @@
             "pv": "1.1.0h",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-05-25T01:05:14+0000"
+            "updated": "2018-07-16T20:07:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14427,8 +14408,8 @@
             "provides": "dwarfsrcfiles ",
             "pv": "1.0",
             "section": "base",
-            "summary": "A small utility for printing debig source file locations embedded in binaries",
-            "updated": "2018-05-25T01:05:17+0000"
+            "summary": "A small utility for printing debug source file locations embedded in binaries",
+            "updated": "2018-07-16T20:07:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -14447,7 +14428,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-07-10T03:07:43+0000"
+            "updated": "2018-07-16T20:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -14922,7 +14903,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-07-10T03:07:47+0000"
+            "updated": "2018-07-16T20:07:37+0000"
         },
         {
             "bbclassextend": "",

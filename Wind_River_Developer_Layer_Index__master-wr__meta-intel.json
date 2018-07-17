@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180708",
+            "bitbake_branch": "wr-10.18-20180716",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-10T03:07:57+0000",
+            "updated": "2018-07-16T20:07:58+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-15T21:07:24+0000",
-            "vcs_last_commit": "2018-07-15T21:07:24+0000",
-            "vcs_last_fetch": "2018-07-15T21:07:24+0000",
-            "vcs_last_rev": "b3d7d7847d181c1be514a356e06a99205830a8c7",
+            "updated": "2018-07-16T03:07:03+0000",
+            "vcs_last_commit": "2018-07-16T03:07:03+0000",
+            "vcs_last_fetch": "2018-07-16T03:07:03+0000",
+            "vcs_last_rev": "9b8e87aeee5b6d25da922161ea4dd754805cc2c0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-07-08T09:07:50+0000",
-            "vcs_last_commit": "2018-07-08T09:07:50+0000",
-            "vcs_last_fetch": "2018-07-08T09:07:50+0000",
-            "vcs_last_rev": "80ee8fbad4d3009c659ae5d3515f514727a9b032",
+            "updated": "2018-07-15T21:07:36+0000",
+            "vcs_last_commit": "2018-07-15T21:07:36+0000",
+            "vcs_last_fetch": "2018-07-15T21:07:36+0000",
+            "vcs_last_rev": "3ae9794be033844fa3fe99ef386b334c921600a0",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": null
@@ -541,7 +541,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The microcode data file contains the latest microcode definitions for all Intel processors. Intel releases microcode updates to correct processor behavior as documented in the respective processor specification updates. While the regular approach to getting this microcode update is via a BIOS upgrade, Intel realizes that this can be an administrative hassle. The Linux operating system and VMware ESX products have a mechanism to update the microcode after booting. For example, this file will be used by the operating system mechanism if the file is placed in the /etc/firmware directory of the Linux system.",
-            "filename": "intel-microcode_20180425.bb",
+            "filename": "intel-microcode_20180703.bb",
             "filepath": "recipes-core/microcode",
             "homepage": "http://www.intel.com/",
             "id": 346943,
@@ -550,10 +550,10 @@
             "license": "Intel-Microcode-License",
             "pn": "intel-microcode",
             "provides": "intel-microcode ",
-            "pv": "20180425",
+            "pv": "20180703",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2018-07-10T02:07:41+0000"
+            "updated": "2018-07-16T20:07:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -640,15 +640,15 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 462347,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 84751,
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.14.48+gitX",
+            "pv": "4.14.52+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:22+0000"
+            "updated": "2018-07-16T20:07:23+0000"
         },
         {
             "bbclassextend": "",

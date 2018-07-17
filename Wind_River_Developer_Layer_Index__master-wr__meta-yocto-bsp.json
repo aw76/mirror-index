@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180708",
+            "bitbake_branch": "wr-10.18-20180716",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-10T03:07:57+0000",
+            "updated": "2018-07-16T20:07:58+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "yoctobsp",
             "id": 14956,
             "layer": 58,
-            "updated": "2018-06-21T03:06:05+0000",
-            "vcs_last_commit": "2018-06-21T03:06:05+0000",
-            "vcs_last_fetch": "2018-06-21T03:06:05+0000",
-            "vcs_last_rev": "a503919e72fad9556ab0f51a78b92ef3e0075e97",
+            "updated": "2018-07-14T04:07:17+0000",
+            "vcs_last_commit": "2018-07-14T04:07:17+0000",
+            "vcs_last_fetch": "2018-07-14T04:07:17+0000",
+            "vcs_last_rev": "1ed60bfb46569a8b8c29f24187390ba79686486a",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
             "yp_compatible_version": null
@@ -69,7 +69,7 @@
             "id": 6132,
             "layerbranch": 14956,
             "name": "mpc8315e-rdb",
-            "updated": "2018-07-02T22:07:56+0000"
+            "updated": "2018-07-16T20:07:07+0000"
         },
         {
             "description": " generic X86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",

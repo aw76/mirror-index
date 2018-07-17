@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180708",
+            "bitbake_branch": "wr-10.18-20180716",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-10T03:07:57+0000",
+            "updated": "2018-07-16T20:07:58+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-15T21:07:24+0000",
-            "vcs_last_commit": "2018-07-15T21:07:24+0000",
-            "vcs_last_fetch": "2018-07-15T21:07:24+0000",
-            "vcs_last_rev": "b3d7d7847d181c1be514a356e06a99205830a8c7",
+            "updated": "2018-07-16T03:07:03+0000",
+            "vcs_last_commit": "2018-07-16T03:07:03+0000",
+            "vcs_last_fetch": "2018-07-16T03:07:03+0000",
+            "vcs_last_rev": "9b8e87aeee5b6d25da922161ea4dd754805cc2c0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-07-08T09:07:51+0000",
-            "vcs_last_commit": "2018-07-08T09:07:51+0000",
-            "vcs_last_fetch": "2018-07-08T09:07:51+0000",
-            "vcs_last_rev": "e230fb5625715f2fb0272f0fa8d072c85f67eb85",
+            "updated": "2018-07-15T21:07:37+0000",
+            "vcs_last_commit": "2018-07-15T21:07:37+0000",
+            "vcs_last_fetch": "2018-07-15T21:07:37+0000",
+            "vcs_last_rev": "f3afb4e70024b4e08648c70b67887841dfc74d59",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "webserver",
             "id": 14976,
             "layer": 10,
-            "updated": "2018-07-08T09:07:51+0000",
-            "vcs_last_commit": "2018-07-08T09:07:51+0000",
-            "vcs_last_fetch": "2018-07-08T09:07:51+0000",
-            "vcs_last_rev": "32e0bccd43ae7160df55ed2424d9b53c7d8f0f32",
+            "updated": "2018-07-15T21:07:37+0000",
+            "vcs_last_commit": "2018-07-15T21:07:37+0000",
+            "vcs_last_fetch": "2018-07-15T21:07:37+0000",
+            "vcs_last_rev": "6cff69e506c1cb01b3a6aefd24f7e3d9d866fa4d",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": null
@@ -146,7 +146,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "phpmyadmin_4.7.9.bb",
+            "filename": "phpmyadmin_4.8.2.bb",
             "filepath": "recipes-php/phpmyadmin",
             "homepage": "http://www.phpmyadmin.net",
             "id": 269606,
@@ -155,10 +155,10 @@
             "license": "GPLv2 & LGPLv3 & MIT",
             "pn": "phpmyadmin",
             "provides": "phpmyadmin ",
-            "pv": "4.7.9",
+            "pv": "4.8.2",
             "section": "base",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2018-03-20T01:03:28+0000"
+            "updated": "2018-07-16T20:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -260,7 +260,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Apache HTTP Server is a powerful, efficient, and extensible web server.",
-            "filename": "apache2_2.4.29.bb",
+            "filename": "apache2_2.4.33.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
             "id": 269612,
@@ -269,17 +269,17 @@
             "license": "Apache-2.0",
             "pn": "apache2",
             "provides": "apache2 ",
-            "pv": "2.4.29",
+            "pv": "2.4.33",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2018-07-10T02:07:57+0000"
+            "updated": "2018-07-16T20:07:55+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Apache HTTP Server is a powerful, efficient, and extensible web server.",
-            "filename": "apache2-native_2.4.29.bb",
+            "filename": "apache2-native_2.4.33.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
             "id": 269613,
@@ -288,17 +288,17 @@
             "license": "Apache-2.0",
             "pn": "apache2-native",
             "provides": "apache2-native ",
-            "pv": "2.4.29",
+            "pv": "2.4.33",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2017-11-22T20:11:03+0000"
+            "updated": "2018-07-16T20:07:55+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Nginx is a web server and a reverse proxy server for HTTP, SMTP, POP3 and IMAP protocols, with a strong focus on high  concurrency, performance and low memory usage.",
-            "filename": "nginx_1.13.12.bb",
+            "filename": "nginx_1.15.1.bb",
             "filepath": "recipes-httpd/nginx",
             "homepage": "http://nginx.org/",
             "id": 269614,
@@ -307,10 +307,10 @@
             "license": "BSD-2-Clause",
             "pn": "nginx",
             "provides": "nginx ",
-            "pv": "1.13.12",
+            "pv": "1.15.1",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2018-05-21T04:05:16+0000"
+            "updated": "2018-07-16T20:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -329,7 +329,7 @@
             "pv": "1.14.0",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2018-05-21T04:05:16+0000"
+            "updated": "2018-07-16T20:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -424,7 +424,7 @@
             "pv": "10.7",
             "section": "net",
             "summary": "Lightweight secure web server",
-            "updated": "2017-11-22T20:11:03+0000"
+            "updated": "2018-07-16T20:07:56+0000"
         },
         {
             "bbclassextend": "",

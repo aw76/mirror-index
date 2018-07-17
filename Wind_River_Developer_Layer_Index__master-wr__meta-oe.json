@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180708",
+            "bitbake_branch": "wr-10.18-20180716",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-10T03:07:57+0000",
+            "updated": "2018-07-16T20:07:58+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-15T21:07:24+0000",
-            "vcs_last_commit": "2018-07-15T21:07:24+0000",
-            "vcs_last_fetch": "2018-07-15T21:07:24+0000",
-            "vcs_last_rev": "b3d7d7847d181c1be514a356e06a99205830a8c7",
+            "updated": "2018-07-16T03:07:03+0000",
+            "vcs_last_commit": "2018-07-16T03:07:03+0000",
+            "vcs_last_fetch": "2018-07-16T03:07:03+0000",
+            "vcs_last_rev": "9b8e87aeee5b6d25da922161ea4dd754805cc2c0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180716",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-07-08T09:07:51+0000",
-            "vcs_last_commit": "2018-07-08T09:07:51+0000",
-            "vcs_last_fetch": "2018-07-08T09:07:51+0000",
-            "vcs_last_rev": "e230fb5625715f2fb0272f0fa8d072c85f67eb85",
+            "updated": "2018-07-15T21:07:37+0000",
+            "vcs_last_commit": "2018-07-15T21:07:37+0000",
+            "vcs_last_fetch": "2018-07-15T21:07:37+0000",
+            "vcs_last_rev": "f3afb4e70024b4e08648c70b67887841dfc74d59",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -241,7 +241,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xrdb_1.1.0.bb",
+            "filename": "xrdb_1.1.1.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 268877,
@@ -250,10 +250,10 @@
             "license": "MIT",
             "pn": "xrdb",
             "provides": "xrdb ",
-            "pv": "1.1.0",
+            "pv": "1.1.1",
             "section": "x11/apps",
             "summary": "X server resource database utility",
-            "updated": "2017-09-26T04:09:47+0000"
+            "updated": "2018-07-16T20:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1716,7 +1716,7 @@
             "pv": "3.6.1",
             "section": "x11/wm",
             "summary": "openbox Window Manager",
-            "updated": "2018-03-20T01:03:22+0000"
+            "updated": "2018-07-16T20:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2236,7 +2236,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ELL is a DBUS library which provides DBUS bindings.",
-            "filename": "ell_0.4.bb",
+            "filename": "ell_0.6.bb",
             "filepath": "recipes-core/ell",
             "homepage": "",
             "id": 268997,
@@ -2245,10 +2245,10 @@
             "license": "LGPLv2.1",
             "pn": "ell",
             "provides": "ell ",
-            "pv": "0.4",
+            "pv": "0.6",
             "section": "libs",
             "summary": "Embedded Linux Library",
-            "updated": "2018-04-24T22:04:04+0000"
+            "updated": "2018-07-16T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2388,7 +2388,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Kerberos is a system for authenticating users and services on a network.  Kerberos is a trusted third-party service.  That means that there is a  third party (the Kerberos server) that is trusted by all the entities on  the network (users and services, usually called \"principals\").  .  This is the MIT reference implementation of Kerberos V5.  .  This package contains the Kerberos key server (KDC).  The KDC manages all  authentication credentials for a Kerberos realm, holds the master keys  for the realm, and responds to authentication requests.  This package  should be installed on both master and slave KDCs.",
-            "filename": "krb5_1.16.bb",
+            "filename": "krb5_1.16.1.bb",
             "filepath": "recipes-connectivity/krb5",
             "homepage": "http://web.mit.edu/Kerberos/",
             "id": 269006,
@@ -2397,10 +2397,10 @@
             "license": "MIT",
             "pn": "krb5",
             "provides": "krb5 ",
-            "pv": "1.16",
+            "pv": "1.16.1",
             "section": "console/network",
             "summary": "A network authentication protocol",
-            "updated": "2018-06-04T21:06:11+0000"
+            "updated": "2018-07-16T20:07:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -5231,7 +5231,7 @@
             "pv": "20170412+X",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:21+0000"
+            "updated": "2018-07-16T20:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -5523,7 +5523,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mcelog is required by both 32bit x86 Linux kernels (since 2.6.30) and 64bit Linux kernels (since early 2.6 kernel releases) to log machine checks and should run on all Linux systems that need error handling.",
-            "filename": "mcelog_1.49.bb",
+            "filename": "mcelog_159.bb",
             "filepath": "recipes-support/mcelog",
             "homepage": "http://mcelog.org/",
             "id": 269188,
@@ -5532,10 +5532,10 @@
             "license": "GPLv2",
             "pn": "mcelog",
             "provides": "mcelog ",
-            "pv": "1.49",
+            "pv": "159",
             "section": "System Environment/Base",
             "summary": "mcelog daemon accounts memory and some other errors in various ways.",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2018-07-16T20:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -6112,7 +6112,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vim-tiny_8.1.0.116.bb",
+            "filename": "vim-tiny_8.1.0172.bb",
             "filepath": "recipes-support/vim",
             "homepage": "",
             "id": 269227,
@@ -6121,17 +6121,17 @@
             "license": "vim",
             "pn": "vim-tiny",
             "provides": "vim-tiny ",
-            "pv": "8.1.0.116",
+            "pv": "8.1.0172",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2018-07-10T02:07:49+0000"
+            "updated": "2018-07-16T20:07:49+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vim_8.1.0.116.bb",
+            "filename": "vim_8.1.0172.bb",
             "filepath": "recipes-support/vim",
             "homepage": "",
             "id": 269228,
@@ -6140,10 +6140,10 @@
             "license": "vim",
             "pn": "vim",
             "provides": "vim ",
-            "pv": "8.1.0.116",
+            "pv": "8.1.0172",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2018-07-10T02:07:50+0000"
+            "updated": "2018-07-16T20:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -6435,7 +6435,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.",
-            "filename": "openldap_2.4.45.bb",
+            "filename": "openldap_2.4.46.bb",
             "filepath": "recipes-support/openldap",
             "homepage": "http://www.OpenLDAP.org/license.html",
             "id": 269244,
@@ -6444,10 +6444,10 @@
             "license": "OpenLDAP",
             "pn": "openldap",
             "provides": "openldap ",
-            "pv": "2.4.45",
+            "pv": "2.4.46",
             "section": "libs",
             "summary": "OpenLDAP Directory Service",
-            "updated": "2017-12-27T01:12:13+0000"
+            "updated": "2018-07-16T20:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -7359,7 +7359,7 @@
             "pv": "1.4.9",
             "section": "Applications/System",
             "summary": "Small Footprint CIM Broker",
-            "updated": "2018-04-24T22:04:05+0000"
+            "updated": "2018-07-16T20:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -7606,7 +7606,7 @@
             "pv": "16.02",
             "section": "base",
             "summary": "7-zip is a commandline utility handling 7z archives.",
-            "updated": "2018-05-08T03:05:53+0000"
+            "updated": "2018-07-16T20:07:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -7955,7 +7955,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "CMPI-compliant provider interface for various languages via SWIG",
-            "filename": "cmpi-bindings_git.bb",
+            "filename": "cmpi-bindings_1.0.1.bb",
             "filepath": "recipes-extended/cmpi-bindings",
             "homepage": "http://github.com/kkaempf/cmpi-bindings",
             "id": 269332,
@@ -7964,10 +7964,10 @@
             "license": "BSD",
             "pn": "cmpi-bindings",
             "provides": "cmpi-bindings ",
-            "pv": "git",
+            "pv": "1.0.1",
             "section": "Development/Libraries",
             "summary": "Adapter to write and run CMPI-type CIM providers",
-            "updated": "2018-01-29T20:01:46+0000"
+            "updated": "2018-07-16T20:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8677,7 +8677,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Rsyslog is an enhanced syslogd supporting, among others, MySQL, PostgreSQL, failover log destinations, syslog/tcp, fine grain output format control, high precision timestamps, queued operations and the ability to filter on any message part. It is quite compatible to stock sysklogd and can be used as a drop-in replacement. Its advanced features make it suitable for enterprise-class, encryption protected syslog relay chains while at the same time being very easy to setup for the novice user.",
-            "filename": "rsyslog_8.29.0.bb",
+            "filename": "rsyslog_8.36.0.bb",
             "filepath": "recipes-extended/rsyslog",
             "homepage": "http://www.rsyslog.com/",
             "id": 269372,
@@ -8686,10 +8686,10 @@
             "license": "GPLv3 & LGPLv3 & Apache-2.0",
             "pn": "rsyslog",
             "provides": "rsyslog ",
-            "pv": "8.29.0",
+            "pv": "8.36.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2018-06-19T20:06:28+0000"
+            "updated": "2018-07-16T20:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -9171,7 +9171,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Phoronix Test Suite is designed to carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.",
-            "filename": "phoronix-test-suite_7.8.0.bb",
+            "filename": "phoronix-test-suite_8.0.1.bb",
             "filepath": "recipes-benchmark/phoronix-test-suite",
             "homepage": "",
             "id": 269399,
@@ -9180,10 +9180,10 @@
             "license": "GPLv3",
             "pn": "phoronix-test-suite",
             "provides": "phoronix-test-suite ",
-            "pv": "7.8.0",
+            "pv": "8.0.1",
             "section": "console/tests",
             "summary": "Phoronix Test Suite",
-            "updated": "2018-05-21T04:05:10+0000"
+            "updated": "2018-07-16T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -9209,7 +9209,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "iozone3_465.bb",
+            "filename": "iozone3_482.bb",
             "filepath": "recipes-benchmark/iozone3",
             "homepage": "http://www.iozone.org/",
             "id": 269401,
@@ -9218,10 +9218,10 @@
             "license": "iozone3",
             "pn": "iozone3",
             "provides": "iozone3 ",
-            "pv": "465",
+            "pv": "482",
             "section": "console/tests",
             "summary": "Filesystem and Disk Benchmarking Tool",
-            "updated": "2018-06-19T20:06:22+0000"
+            "updated": "2018-07-16T20:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -9532,7 +9532,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_5.6.35.bb",
+            "filename": "php_5.6.36.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 269425,
@@ -9541,10 +9541,10 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "5.6.35",
+            "pv": "5.6.36",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-04-16T02:04:37+0000"
+            "updated": "2018-07-16T20:07:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -9563,7 +9563,7 @@
             "pv": "7.2.7",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-07-10T02:07:45+0000"
+            "updated": "2018-07-16T20:07:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10140,7 +10140,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_8.11.2.bb",
+            "filename": "nodejs_8.11.3.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 269460,
@@ -10149,10 +10149,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "8.11.2",
+            "pv": "8.11.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-19T20:06:21+0000"
+            "updated": "2018-07-16T20:07:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -11242,7 +11242,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Satyr is a collection of low-level algorithms for program failure processing, analysis, and reporting supporting kernel space, user space, Python, and Java programs",
-            "filename": "satyr_0.23.bb",
+            "filename": "satyr_0.26.bb",
             "filepath": "recipes-support/satyr",
             "homepage": "https://github.com/abrt/satyr",
             "id": 276624,
@@ -11251,10 +11251,10 @@
             "license": "GPLv2",
             "pn": "satyr",
             "provides": "satyr ",
-            "pv": "0.23",
+            "pv": "0.26",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:06+0000"
+            "updated": "2018-07-16T20:07:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -11375,7 +11375,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The goal of this project is to provide a tiny library that would facilitate the common operations with sizes in bytes.",
-            "filename": "libbytesize_0.10.bb",
+            "filename": "libbytesize_1.3.bb",
             "filepath": "recipes-support/libbytesize",
             "homepage": "https://github.com/rhinstaller/libbytesize",
             "id": 336718,
@@ -11384,10 +11384,10 @@
             "license": "LGPLv2+",
             "pn": "libbytesize",
             "provides": "libbytesize ",
-            "pv": "0.10+gitX",
+            "pv": "1.3+gitX",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2017-09-26T04:09:07+0000"
+            "updated": "2018-07-16T20:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -11470,7 +11470,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Client implementation of open and standard messaging protocols for Machine-to-Machine (M2M) and Internet of Things (IoT).",
-            "filename": "paho-mqtt-c_1.2.0.bb",
+            "filename": "paho-mqtt-c_1.2.1.bb",
             "filepath": "recipes-connectivity/paho-mqtt-c",
             "homepage": "http://www.eclipse.org/paho/",
             "id": 346988,
@@ -11479,10 +11479,10 @@
             "license": "EPL-1.0 | EDL-1.0",
             "pn": "paho-mqtt-c",
             "provides": "paho-mqtt-c ",
-            "pv": "1.2.0",
+            "pv": "1.2.1",
             "section": "console/network",
             "summary": "Paho MQTT - C libraries for the MQTT and MQTT-SN protocols",
-            "updated": "2017-09-26T04:09:07+0000"
+            "updated": "2018-07-16T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -12052,7 +12052,7 @@
             "pv": "0.6.1+gitX",
             "section": "base",
             "summary": "Linux dynamic kernel patching infrastructure",
-            "updated": "2018-07-02T22:07:58+0000"
+            "updated": "2018-07-16T20:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -12325,7 +12325,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Nmap (\"Network Mapper\") is a free and open source (license) utility for network discovery and security auditing.\\nGui support via appending to IMAGE_FEATURES x11-base in local.conf",
-            "filename": "nmap_7.60.bb",
+            "filename": "nmap_7.70.bb",
             "filepath": "recipes-security/nmap",
             "homepage": "",
             "id": 646411,
@@ -12334,10 +12334,10 @@
             "license": "GPL-2.0",
             "pn": "nmap",
             "provides": "nmap ",
-            "pv": "7.60",
+            "pv": "7.70",
             "section": "security",
             "summary": "network auditing tool",
-            "updated": "2018-06-19T20:06:34+0000"
+            "updated": "2018-07-16T20:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -12414,6 +12414,44 @@
             "section": "base",
             "summary": "Inspect and manipulate eBPF programs and maps",
             "updated": "2018-07-10T02:07:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A Python module to deal with freedesktop.org specifications",
+            "filename": "pyxdg_0.26.bb",
+            "filepath": "recipes-gnome/pyxdg",
+            "homepage": "http://freedesktop.org/wiki/Software/pyxdg",
+            "id": 669850,
+            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
+            "layerbranch": 14965,
+            "license": "LGPLv2",
+            "pn": "pyxdg",
+            "provides": "pyxdg ",
+            "pv": "0.26",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2018-07-16T20:07:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://bugs.freedesktop.org",
+            "description": "",
+            "filename": "xf86-video-armsoc_1.4.1.bb",
+            "filepath": "recipes-graphics/xorg-driver",
+            "homepage": "http://www.x.org",
+            "id": 669851,
+            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "MIT-X & GPLv2+",
+            "pn": "xf86-video-armsoc",
+            "provides": "xf86-video-armsoc ",
+            "pv": "1.4.1",
+            "section": "x11/drivers",
+            "summary": "X.Org X server -- ARM SOC display driver",
+            "updated": "2018-07-16T20:07:51+0000"
         }
     ],
     "wrtemplates": []
