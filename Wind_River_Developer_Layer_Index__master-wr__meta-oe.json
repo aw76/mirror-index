@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-17T20:07:38+0000",
-            "vcs_last_commit": "2018-07-17T20:07:38+0000",
-            "vcs_last_fetch": "2018-07-17T20:07:38+0000",
-            "vcs_last_rev": "91989dd5244e0f98b12585625a3c767e74f66a70",
+            "updated": "2018-07-20T04:07:01+0000",
+            "vcs_last_commit": "2018-07-20T04:07:01+0000",
+            "vcs_last_fetch": "2018-07-20T04:07:01+0000",
+            "vcs_last_rev": "68f3fe41a4d2bf2397bf879e24d7694d14549e03",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,10 +40,10 @@
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-07-17T20:07:10+0000",
-            "vcs_last_commit": "2018-07-17T20:07:10+0000",
-            "vcs_last_fetch": "2018-07-17T20:07:10+0000",
-            "vcs_last_rev": "312608f16182333691a58bc35e722c309f60b34b",
+            "updated": "2018-07-19T21:07:17+0000",
+            "vcs_last_commit": "2018-07-19T21:07:17+0000",
+            "vcs_last_fetch": "2018-07-19T21:07:17+0000",
+            "vcs_last_rev": "478cee65042daeabff2338eec1b072c11cc7062a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -7864,7 +7864,7 @@
             "filepath": "recipes-extended/mozjs",
             "homepage": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey",
             "id": 269323,
-            "inherits": "autotools perlnative pkgconfig python-dir pythonnative siteconfig siteinfo",
+            "inherits": "autotools distro_features_check perlnative pkgconfig python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "MPL-2.0",
             "pn": "mozjs",
@@ -7872,7 +7872,7 @@
             "pv": "52.8.1",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2018-07-17T20:07:29+0000"
+            "updated": "2018-07-19T21:07:21+0000"
         },
         {
             "bbclassextend": "",
