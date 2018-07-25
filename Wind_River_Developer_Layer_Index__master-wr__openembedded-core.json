@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180716",
+            "actual_branch": "wr-10.18-20180723",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-23T03:07:31+0000",
-            "vcs_last_commit": "2018-07-23T03:07:31+0000",
-            "vcs_last_fetch": "2018-07-23T03:07:31+0000",
-            "vcs_last_rev": "abde56f56e5a76f0205d2d270b13a4c28817b90f",
+            "updated": "2018-07-25T02:07:53+0000",
+            "vcs_last_commit": "2018-07-25T02:07:53+0000",
+            "vcs_last_fetch": "2018-07-25T02:07:53+0000",
+            "vcs_last_rev": "8e5c446c3e8e2f6516248aebf264fe13c9703e2b",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -105,7 +105,7 @@
             "id": 10498,
             "layerbranch": 14953,
             "name": "qemux86-64",
-            "updated": "2018-06-11T20:06:27+0000"
+            "updated": "2018-07-24T20:07:32+0000"
         },
         {
             "description": " a generic armv8",
@@ -119,7 +119,7 @@
             "id": 10500,
             "layerbranch": 14953,
             "name": "qemux86",
-            "updated": "2018-06-11T20:06:27+0000"
+            "updated": "2018-07-24T20:07:32+0000"
         }
     ],
     "recipes": [
@@ -1568,7 +1568,7 @@
             "updated": "2018-05-25T01:05:04+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The runtime library for accessing the kernel DRM services.  DRM stands for \\\"Direct Rendering Manager\\\", which is the kernel portion of the \\\"Direct Rendering Infrastructure\\\" (DRI).  DRI is required for many hardware accelerated OpenGL drivers.",
@@ -1584,7 +1584,7 @@
             "pv": "2.4.92",
             "section": "x11/base",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2018-07-16T20:07:27+0000"
+            "updated": "2018-07-24T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1743,7 +1743,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libva/issues",
             "description": "Video Acceleration API (VA API) is a library (libVA) and API specification which enables and provides access to graphics hardware (GPU) acceleration for video processing on Linux and UNIX based operating systems. Accelerated processing includes video decoding, video encoding, subpicture blending and rendering. The specification was originally designed by Intel for its GMA (Graphics Media Accelerator) series of GPU hardware, the API is however not limited to GPUs or Intel specific hardware, as other hardware and manufacturers can also freely use this API for hardware accelerated video decoding.",
-            "filename": "libva_2.1.0.bb",
+            "filename": "libva_2.2.0.bb",
             "filepath": "recipes-graphics/libva",
             "homepage": "https://01.org/linuxmedia/vaapi",
             "id": 270709,
@@ -1752,10 +1752,10 @@
             "license": "MIT",
             "pn": "libva",
             "provides": "libva ",
-            "pv": "2.1.0",
+            "pv": "2.2.0",
             "section": "x11",
             "summary": "Video Acceleration (VA) API for Linux",
-            "updated": "2018-05-25T01:05:05+0000"
+            "updated": "2018-07-24T20:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2249,7 +2249,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2018-07-16T20:07:30+0000"
+            "updated": "2018-07-24T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -2268,7 +2268,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2018-07-16T20:07:30+0000"
+            "updated": "2018-07-24T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -2287,7 +2287,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:31+0000"
+            "updated": "2018-07-24T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2743,7 +2743,7 @@
             "pv": "18.1.3",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2018-07-10T03:07:30+0000"
+            "updated": "2018-07-24T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2781,7 +2781,7 @@
             "pv": "18.1.3",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2018-07-10T03:07:30+0000"
+            "updated": "2018-07-24T20:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -3978,7 +3978,7 @@
             "pv": "0.60.6.1",
             "section": "console/utils",
             "summary": "GNU Aspell spell-checker",
-            "updated": "2018-05-25T01:05:26+0000"
+            "updated": "2018-07-24T20:07:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4498,7 +4498,7 @@
             "blacklisted": "",
             "bugtracker": "http://curl.haxx.se/mail/list.cgi?list=curl-tracker",
             "description": "",
-            "filename": "curl_7.60.0.bb",
+            "filename": "curl_7.61.0.bb",
             "filepath": "recipes-support/curl",
             "homepage": "http://curl.haxx.se/",
             "id": 270896,
@@ -4507,10 +4507,10 @@
             "license": "MIT",
             "pn": "curl",
             "provides": "curl ",
-            "pv": "7.60.0",
+            "pv": "7.61.0",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2018-07-10T03:07:38+0000"
+            "updated": "2018-07-24T20:07:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -4814,7 +4814,7 @@
             "pv": "3.6.2",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2018-05-25T01:05:38+0000"
+            "updated": "2018-07-24T20:07:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5441,7 +5441,7 @@
             "pv": "2.28.1",
             "section": "x11/libs",
             "summary": "Accessibility toolkit for GNOME",
-            "updated": "2018-07-16T20:07:38+0000"
+            "updated": "2018-07-24T20:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -5707,7 +5707,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-06-19T20:06:45+0000"
+            "updated": "2018-07-24T20:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -5878,7 +5878,7 @@
             "pv": "4.0.9",
             "section": "base",
             "summary": "Provides support for the Tag Image File Format (TIFF)",
-            "updated": "2018-05-25T01:05:51+0000"
+            "updated": "2018-07-24T20:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -6087,7 +6087,7 @@
             "pv": "4.0",
             "section": "libs",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2018-05-25T01:05:53+0000"
+            "updated": "2018-07-24T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -6201,7 +6201,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-16T20:07:30+0000"
+            "updated": "2018-07-24T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -6220,7 +6220,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-16T20:07:30+0000"
+            "updated": "2018-07-24T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -6467,7 +6467,7 @@
             "pv": "0.1",
             "section": "examples",
             "summary": "",
-            "updated": "2018-06-19T20:06:02+0000"
+            "updated": "2018-07-24T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7284,7 +7284,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:34+0000"
+            "updated": "2018-07-24T20:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -7303,7 +7303,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-16T20:07:34+0000"
+            "updated": "2018-07-24T20:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -7322,7 +7322,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:34+0000"
+            "updated": "2018-07-24T20:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -7341,7 +7341,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:35+0000"
+            "updated": "2018-07-24T20:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -7360,7 +7360,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:35+0000"
+            "updated": "2018-07-24T20:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -7379,7 +7379,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:35+0000"
+            "updated": "2018-07-24T20:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -7398,7 +7398,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:36+0000"
+            "updated": "2018-07-24T20:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -8006,7 +8006,7 @@
             "pv": "4.4.18",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2018-05-25T01:05:11+0000"
+            "updated": "2018-07-24T20:07:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8203,7 +8203,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "systemd is a system and service manager for Linux, compatible with SysV and LSB init scripts. systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux cgroups, supports snapshotting and restoring of the system state, maintains mount and automount points and implements an elaborate transactional dependency-based service control logic. It can work as a drop-in replacement for sysvinit.",
-            "filename": "systemd-boot_237.bb",
+            "filename": "systemd-boot_239.bb",
             "filepath": "recipes-core/systemd",
             "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
             "id": 271097,
@@ -8212,10 +8212,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "systemd-boot",
             "provides": "systemd-boot ",
-            "pv": "237",
+            "pv": "239",
             "section": "base",
             "summary": "A System and service manager",
-            "updated": "2018-07-16T20:07:29+0000"
+            "updated": "2018-07-24T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -8450,7 +8450,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot-mkimage_2018.05.bb",
+            "filename": "u-boot-mkimage_2018.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 271112,
@@ -8459,17 +8459,17 @@
             "license": "GPLv2+",
             "pn": "u-boot-mkimage",
             "provides": "u-boot-mkimage ",
-            "pv": "2018.05",
+            "pv": "2018.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader image creation tool",
-            "updated": "2018-06-04T21:06:51+0000"
+            "updated": "2018-07-24T20:07:29+0000"
         },
         {
             "bbclassextend": "cross",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot-fw-utils_2018.05.bb",
+            "filename": "u-boot-fw-utils_2018.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 271113,
@@ -8478,17 +8478,17 @@
             "license": "GPLv2+",
             "pn": "u-boot-fw-utils",
             "provides": "u-boot-fw-utils ",
-            "pv": "2018.05",
+            "pv": "2018.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2018-06-04T21:06:51+0000"
+            "updated": "2018-07-24T20:07:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot_2018.05.bb",
+            "filename": "u-boot_2018.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 271114,
@@ -8497,10 +8497,10 @@
             "license": "GPLv2+",
             "pn": "u-boot",
             "provides": "u-boot virtual/bootloader",
-            "pv": "2018.05",
+            "pv": "2018.07",
             "section": "bootloaders",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-06-19T20:06:04+0000"
+            "updated": "2018-07-24T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -9317,7 +9317,7 @@
             "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-07-16T20:07:22+0000"
+            "updated": "2018-07-24T20:07:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -9640,7 +9640,7 @@
             "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-07-16T20:07:22+0000"
+            "updated": "2018-07-24T20:07:43+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10020,7 +10020,7 @@
             "pv": "4.3+gitrX",
             "section": "base",
             "summary": "Tools for manipulating SquashFS filesystems",
-            "updated": "2018-05-25T01:05:34+0000"
+            "updated": "2018-07-24T20:07:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10559,7 +10559,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "perl_5.24.1.bb",
+            "filename": "perl_5.24.4.bb",
             "filepath": "recipes-devtools/perl",
             "homepage": "http://www.perl.org/",
             "id": 271237,
@@ -10568,10 +10568,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "perl",
             "provides": "perl ",
-            "pv": "5.24.1",
+            "pv": "5.24.4",
             "section": "devel",
             "summary": "Perl scripting language",
-            "updated": "2018-05-27T21:05:41+0000"
+            "updated": "2018-07-24T20:07:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -10616,7 +10616,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "perl-native_5.24.1.bb",
+            "filename": "perl-native_5.24.4.bb",
             "filepath": "recipes-devtools/perl",
             "homepage": "http://www.perl.org/",
             "id": 271240,
@@ -10625,10 +10625,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "perl-native",
             "provides": "perl-native ",
-            "pv": "5.24.1",
+            "pv": "5.24.4",
             "section": "devel",
             "summary": "Perl scripting language",
-            "updated": "2018-05-27T21:05:42+0000"
+            "updated": "2018-07-24T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -11084,7 +11084,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:42+0000"
+            "updated": "2018-07-24T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -11103,7 +11103,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:42+0000"
+            "updated": "2018-07-24T20:07:39+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11122,7 +11122,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:42+0000"
+            "updated": "2018-07-24T20:07:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11407,7 +11407,7 @@
             "pv": "3.28.1.1",
             "section": "base",
             "summary": "WebKit based web browser for GNOME",
-            "updated": "2018-07-16T20:07:32+0000"
+            "updated": "2018-07-24T20:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -11426,7 +11426,7 @@
             "pv": "3.28.0",
             "section": "base",
             "summary": "A library for bits of crypto UI and parsing etc",
-            "updated": "2018-05-25T01:05:50+0000"
+            "updated": "2018-07-24T20:07:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -11749,7 +11749,7 @@
             "pv": "0.18.6",
             "section": "base",
             "summary": "libsecret is a library for storing and retrieving passwords and other secrets",
-            "updated": "2018-06-19T20:06:11+0000"
+            "updated": "2018-07-24T20:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -11965,7 +11965,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "systemd is a system and service manager for Linux, compatible with SysV and LSB init scripts. systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux cgroups, supports snapshotting and restoring of the system state, maintains mount and automount points and implements an elaborate transactional dependency-based service control logic. It can work as a drop-in replacement for sysvinit.",
-            "filename": "systemd_237.bb",
+            "filename": "systemd_239.bb",
             "filepath": "recipes-core/systemd",
             "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
             "id": 271320,
@@ -11974,10 +11974,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "systemd",
             "provides": "systemd udev",
-            "pv": "237",
+            "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-07-16T20:07:36+0000"
+            "updated": "2018-07-24T20:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -12186,7 +12186,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:38+0000"
+            "updated": "2018-07-24T20:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -12281,7 +12281,7 @@
             "pv": "1.1.19+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2018-07-10T03:07:33+0000"
+            "updated": "2018-07-24T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -12604,7 +12604,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-16T20:07:39+0000"
+            "updated": "2018-07-24T20:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12623,7 +12623,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:39+0000"
+            "updated": "2018-07-24T20:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12642,7 +12642,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-16T20:07:39+0000"
+            "updated": "2018-07-24T20:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12661,7 +12661,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-07-16T20:07:40+0000"
+            "updated": "2018-07-24T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -12680,7 +12680,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2018-07-16T20:07:40+0000"
+            "updated": "2018-07-24T20:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -12699,7 +12699,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:40+0000"
+            "updated": "2018-07-24T20:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -12718,7 +12718,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-16T20:07:40+0000"
+            "updated": "2018-07-24T20:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -12813,7 +12813,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Testing tools/applications",
-            "updated": "2018-07-10T03:07:33+0000"
+            "updated": "2018-07-24T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -12927,7 +12927,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Profiling tools",
-            "updated": "2018-07-02T22:07:20+0000"
+            "updated": "2018-07-24T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -13307,7 +13307,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2018-06-19T20:06:57+0000"
+            "updated": "2018-07-24T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -13326,7 +13326,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "libc and patchelf tarball for use with uninative.bbclass",
-            "updated": "2018-06-19T20:06:57+0000"
+            "updated": "2018-07-24T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -13402,7 +13402,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2018-07-10T03:07:33+0000"
+            "updated": "2018-07-24T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -13459,7 +13459,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for test systems with missing software",
-            "updated": "2018-06-19T20:06:58+0000"
+            "updated": "2018-07-24T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -13668,7 +13668,7 @@
             "pv": "2.20.3",
             "section": "base",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2018-07-04T04:07:25+0000"
+            "updated": "2018-07-25T04:07:20+0000"
         },
         {
             "bbclassextend": "",
@@ -13744,7 +13744,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:32+0000"
+            "updated": "2018-07-24T20:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -13763,7 +13763,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:32+0000"
+            "updated": "2018-07-24T20:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -13782,7 +13782,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:32+0000"
+            "updated": "2018-07-24T20:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -13801,7 +13801,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:32+0000"
+            "updated": "2018-07-24T20:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -14112,7 +14112,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libva-utils/issues",
             "description": "libva-utils is a collection of utilities and examples to exercise VA-API in accordance with the libva project.VA-API is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor",
-            "filename": "libva-utils_2.1.0.bb",
+            "filename": "libva-utils_2.2.0.bb",
             "filepath": "recipes-graphics/libva",
             "homepage": "https://01.org/linuxmedia/vaapi",
             "id": 336711,
@@ -14121,10 +14121,10 @@
             "license": "MIT",
             "pn": "libva-utils",
             "provides": "libva-utils ",
-            "pv": "2.1.0",
+            "pv": "2.2.0",
             "section": "x11",
             "summary": "libva-utils is a collection of utilities from libva project",
-            "updated": "2018-05-25T01:05:15+0000"
+            "updated": "2018-07-24T20:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -14238,7 +14238,7 @@
             "pv": "0.4.1",
             "section": "base",
             "summary": "Dependency management tool for Golang",
-            "updated": "2018-06-19T20:06:09+0000"
+            "updated": "2018-07-24T20:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -14257,7 +14257,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:49+0000"
+            "updated": "2018-07-24T20:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -14276,7 +14276,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:49+0000"
+            "updated": "2018-07-24T20:07:44+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14295,7 +14295,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:49+0000"
+            "updated": "2018-07-24T20:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -14314,7 +14314,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable Go toolchain",
-            "updated": "2018-06-19T20:06:04+0000"
+            "updated": "2018-07-24T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -14352,7 +14352,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Target packages for the Go SDK",
-            "updated": "2018-06-19T20:06:04+0000"
+            "updated": "2018-07-24T20:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -14504,7 +14504,7 @@
             "pv": "0.13.1",
             "section": "base",
             "summary": "Vendor Package Management for Golang",
-            "updated": "2018-06-19T20:06:04+0000"
+            "updated": "2018-07-24T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -14675,7 +14675,7 @@
             "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:40+0000"
+            "updated": "2018-07-24T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -14694,7 +14694,7 @@
             "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:41+0000"
+            "updated": "2018-07-24T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -14713,7 +14713,7 @@
             "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:41+0000"
+            "updated": "2018-07-24T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -14732,7 +14732,7 @@
             "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:41+0000"
+            "updated": "2018-07-24T20:07:38+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14751,7 +14751,7 @@
             "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:41+0000"
+            "updated": "2018-07-24T20:07:38+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14770,7 +14770,7 @@
             "pv": "1.10.3",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-10T03:07:41+0000"
+            "updated": "2018-07-24T20:07:38+0000"
         },
         {
             "bbclassextend": "native",

@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180716",
+            "actual_branch": "wr-10.18-20180723",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-23T03:07:31+0000",
-            "vcs_last_commit": "2018-07-23T03:07:31+0000",
-            "vcs_last_fetch": "2018-07-23T03:07:31+0000",
-            "vcs_last_rev": "abde56f56e5a76f0205d2d270b13a4c28817b90f",
+            "updated": "2018-07-25T02:07:53+0000",
+            "vcs_last_commit": "2018-07-25T02:07:53+0000",
+            "vcs_last_fetch": "2018-07-25T02:07:53+0000",
+            "vcs_last_rev": "8e5c446c3e8e2f6516248aebf264fe13c9703e2b",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180716",
+            "actual_branch": "wr-10.18-20180723",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-07-15T21:07:36+0000",
-            "vcs_last_commit": "2018-07-15T21:07:36+0000",
-            "vcs_last_fetch": "2018-07-15T21:07:36+0000",
-            "vcs_last_rev": "3ae9794be033844fa3fe99ef386b334c921600a0",
+            "updated": "2018-07-22T20:07:29+0000",
+            "vcs_last_commit": "2018-07-22T20:07:29+0000",
+            "vcs_last_fetch": "2018-07-22T20:07:29+0000",
+            "vcs_last_rev": "c54c71e7464b4f86383a6917c3bed4601231034b",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": null
@@ -107,14 +107,14 @@
             "id": 6144,
             "layerbranch": 84751,
             "name": "intel-core2-32",
-            "updated": "2018-06-11T20:06:49+0000"
+            "updated": "2018-07-24T20:07:14+0000"
         },
         {
             "description": " 64 bit Intel Core i7 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
             "id": 6145,
             "layerbranch": 84751,
             "name": "intel-corei7-64",
-            "updated": "2018-06-11T20:06:49+0000"
+            "updated": "2018-07-24T20:07:14+0000"
         }
     ],
     "recipes": [
@@ -135,7 +135,7 @@
             "pv": "1.22",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2018-07-02T22:07:22+0000"
+            "updated": "2018-07-24T20:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -154,7 +154,7 @@
             "pv": "1.1.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2018-07-02T22:07:23+0000"
+            "updated": "2018-07-24T20:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -173,7 +173,7 @@
             "pv": "30",
             "section": "kernel",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2018-07-02T22:07:23+0000"
+            "updated": "2018-07-24T20:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -192,7 +192,7 @@
             "pv": "4.3.5",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-07-02T22:07:23+0000"
+            "updated": "2018-07-24T20:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -211,7 +211,7 @@
             "pv": "5.3.7",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-07-02T22:07:23+0000"
+            "updated": "2018-07-24T20:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -222,7 +222,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 346919,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 84751,
             "license": "GPLv2",
             "pn": "linux-intel-rt",
@@ -230,7 +230,7 @@
             "pv": "4.9.84+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:23+0000"
+            "updated": "2018-07-24T20:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -241,7 +241,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 346920,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 84751,
             "license": "GPLv2",
             "pn": "linux-intel",
@@ -249,7 +249,7 @@
             "pv": "4.9.99+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:23+0000"
+            "updated": "2018-07-24T20:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -268,14 +268,14 @@
             "pv": "0.8-gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:24+0000"
+            "updated": "2018-07-24T20:07:16+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/intel-vaapi-driver/issues",
             "description": "intel-vaapi-driver is the VA-API implementation for Intel G45 chipsets and Intel HD Graphics for Intel Core processor family.",
-            "filename": "intel-vaapi-driver_2.1.0.bb",
+            "filename": "intel-vaapi-driver_2.2.0.bb",
             "filepath": "recipes-multimedia/libva",
             "homepage": "https://github.com/intel/intel-vaapi-driver",
             "id": 346922,
@@ -284,29 +284,10 @@
             "license": "MIT",
             "pn": "intel-vaapi-driver",
             "provides": "intel-vaapi-driver ",
-            "pv": "2.1.0",
+            "pv": "2.2.0",
             "section": "base",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2018-07-02T22:07:24+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Video Acceleration Add-ons for Intel BSPs",
-            "filename": "va-intel.bb",
-            "filepath": "recipes-multimedia/libva",
-            "homepage": "",
-            "id": 346923,
-            "inherits": "distro_features_check",
-            "layerbranch": 84751,
-            "license": "MIT",
-            "pn": "va-intel",
-            "provides": "va-intel ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-07-02T22:07:24+0000"
+            "updated": "2018-07-24T20:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -325,7 +306,7 @@
             "pv": "1.3.0+gitX",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2018-07-02T22:07:21+0000"
+            "updated": "2018-07-24T20:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -344,7 +325,7 @@
             "pv": "1.3.0+gitX",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2018-07-02T22:07:21+0000"
+            "updated": "2018-07-24T20:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -363,7 +344,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:21+0000"
+            "updated": "2018-07-24T20:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -382,7 +363,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:21+0000"
+            "updated": "2018-07-24T20:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -401,7 +382,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2018-07-02T22:07:24+0000"
+            "updated": "2018-07-24T20:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -420,7 +401,7 @@
             "pv": "1.7.2",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2018-07-02T22:07:24+0000"
+            "updated": "2018-07-24T20:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -439,7 +420,7 @@
             "pv": "7.1.20",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:24+0000"
+            "updated": "2018-07-24T20:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -458,64 +439,7 @@
             "pv": "8.0.0-7",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:25+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Generate a centralized RMC database for RMC feature. Fingerprints and data for all boards supported are specified by variable RMC_BOARD_DATA_DIRS which is a list of top directories that contains subdirectories for boards. Developers can add their top directories by appending them to this variable in a rmc-db.bbappend.Refer to rmc-db bbclass for more information.",
-            "filename": "rmc-db.bb",
-            "filepath": "recipes-bsp/rmc",
-            "homepage": "",
-            "id": 346939,
-            "inherits": "deploy rmc-db",
-            "layerbranch": 84751,
-            "license": "MIT",
-            "pn": "rmc-db",
-            "provides": "rmc-db ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "Central RMC Database",
-            "updated": "2018-07-02T22:07:25+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "The RMC EFI library adds RMC support to existing EFI bootloaders",
-            "filename": "rmc-efi.bb",
-            "filepath": "recipes-bsp/rmc",
-            "homepage": "",
-            "id": 346940,
-            "inherits": "",
-            "layerbranch": 84751,
-            "license": "MIT",
-            "pn": "rmc-efi",
-            "provides": "rmc-efi ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "RMC (Runtime Machine Configuration) EFI library",
-            "updated": "2018-07-02T22:07:25+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "RMC project provides a tool and libraries to identify types of hardware boards and access any file-based data specific to the board's type at runtime in a centralized way. Software (clients) can have a generic logic to query board-specific data from RMC without knowing the type of board. This make it possible to have a generic software work running on boards which require any quirks or customizations at a board or product level. ",
-            "filename": "rmc.bb",
-            "filepath": "recipes-bsp/rmc",
-            "homepage": "",
-            "id": 346941,
-            "inherits": "",
-            "layerbranch": 84751,
-            "license": "MIT",
-            "pn": "rmc",
-            "provides": "rmc ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "RMC (Runtime Machine Configuration)",
-            "updated": "2018-07-02T22:07:25+0000"
+            "updated": "2018-07-24T20:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -534,7 +458,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:25+0000"
+            "updated": "2018-07-24T20:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -553,7 +477,7 @@
             "pv": "20180703",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2018-07-16T20:07:23+0000"
+            "updated": "2018-07-24T20:07:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -572,7 +496,7 @@
             "pv": "2.3.1",
             "section": "base",
             "summary": "Update Intel CPU microcode",
-            "updated": "2018-07-10T02:07:42+0000"
+            "updated": "2018-07-24T20:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -591,7 +515,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:26+0000"
+            "updated": "2018-07-24T20:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -610,7 +534,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-02T22:07:26+0000"
+            "updated": "2018-07-24T20:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -629,7 +553,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2018-07-02T22:07:22+0000"
+            "updated": "2018-07-24T20:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -648,7 +572,7 @@
             "pv": "4.14.52+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-16T20:07:23+0000"
+            "updated": "2018-07-24T20:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -659,7 +583,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 503696,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 84751,
             "license": "GPLv2",
             "pn": "linux-intel-rt",
@@ -667,7 +591,7 @@
             "pv": "4.14.40+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-02T22:07:22+0000"
+            "updated": "2018-07-24T20:07:14+0000"
         }
     ],
     "wrtemplates": []

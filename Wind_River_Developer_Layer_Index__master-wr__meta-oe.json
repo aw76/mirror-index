@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180716",
+            "actual_branch": "wr-10.18-20180723",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-23T03:07:31+0000",
-            "vcs_last_commit": "2018-07-23T03:07:31+0000",
-            "vcs_last_fetch": "2018-07-23T03:07:31+0000",
-            "vcs_last_rev": "abde56f56e5a76f0205d2d270b13a4c28817b90f",
+            "updated": "2018-07-25T02:07:53+0000",
+            "vcs_last_commit": "2018-07-25T02:07:53+0000",
+            "vcs_last_fetch": "2018-07-25T02:07:53+0000",
+            "vcs_last_rev": "8e5c446c3e8e2f6516248aebf264fe13c9703e2b",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180716",
+            "actual_branch": "wr-10.18-20180723",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-07-19T21:07:17+0000",
-            "vcs_last_commit": "2018-07-19T21:07:17+0000",
-            "vcs_last_fetch": "2018-07-19T21:07:17+0000",
-            "vcs_last_rev": "478cee65042daeabff2338eec1b072c11cc7062a",
+            "updated": "2018-07-22T22:07:33+0000",
+            "vcs_last_commit": "2018-07-22T22:07:33+0000",
+            "vcs_last_fetch": "2018-07-22T22:07:33+0000",
+            "vcs_last_rev": "4b54f222a0afc96f5be6df39e51aa654f64a123a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -1400,7 +1400,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Open-source X.org graphics driver for ATI Radeon graphics",
-            "filename": "xf86-video-ati_7.8.0.bb",
+            "filename": "xf86-video-ati_18.0.1.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
             "id": 268944,
@@ -1409,10 +1409,10 @@
             "license": "MIT-X",
             "pn": "xf86-video-ati",
             "provides": "xf86-video-ati ",
-            "pv": "7.8.0",
+            "pv": "18.0.1",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ATI Radeon video driver",
-            "updated": "2018-05-08T03:05:54+0000"
+            "updated": "2018-07-24T20:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2050,7 +2050,7 @@
             "filepath": "recipes-connectivity/zeromq",
             "homepage": "http://www.zeromq.org",
             "id": 268982,
-            "inherits": "",
+            "inherits": "cmake",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "cppzmq",
@@ -2058,7 +2058,7 @@
             "pv": "4.2.3+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-20T01:03:20+0000"
+            "updated": "2018-07-24T20:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2806,7 +2806,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "ser2net_3.4.bb",
+            "filename": "ser2net_3.5.bb",
             "filepath": "recipes-connectivity/ser2net",
             "homepage": "http://sourceforge.net/projects/ser2net/",
             "id": 269030,
@@ -2815,10 +2815,10 @@
             "license": "GPLv2",
             "pn": "ser2net",
             "provides": "ser2net ",
-            "pv": "3.4",
+            "pv": "3.5",
             "section": "console/network",
             "summary": "A serial to network proxy",
-            "updated": "2017-09-26T04:09:05+0000"
+            "updated": "2018-07-24T20:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3034,7 +3034,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Libnice is an implementation of the IETF's draft Interactive Connectivity Establishment standard (ICE).",
-            "filename": "libnice_0.1.13.bb",
+            "filename": "libnice_0.1.14.bb",
             "filepath": "recipes-support/farsight",
             "homepage": "http://nice.freedesktop.org/wiki/",
             "id": 269044,
@@ -3043,10 +3043,10 @@
             "license": "LGPLv2.1 & MPLv1.1",
             "pn": "libnice",
             "provides": "libnice ",
-            "pv": "0.1.13",
+            "pv": "0.1.14",
             "section": "base",
             "summary": "Interactive Connectivity Establishment library",
-            "updated": "2017-09-26T04:09:06+0000"
+            "updated": "2018-07-24T20:07:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -3670,10 +3670,10 @@
             "license": "GPL-2.0 & LGPL-2.1",
             "pn": "numactl",
             "provides": "numactl ",
-            "pv": "2.0.11+gitX",
+            "pv": "2.0.12+gitX",
             "section": "apps",
             "summary": "Development package for building Applications that use numa",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2018-07-24T20:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -4288,19 +4288,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cryptsetup is used to conveniently setup dm-crypt managed device-mapper mappings. These include plain dm-crypt volumes and LUKS volumes. The difference is that LUKS uses a metadata header and can hence offer more features than plain dm-crypt. On the other hand, the header is visible and vulnerable to damage.",
-            "filename": "cryptsetup_1.7.4.bb",
+            "filename": "cryptsetup_2.0.3.bb",
             "filepath": "recipes-crypto/cryptsetup",
-            "homepage": "http://code.google.com/p/cryptsetup/",
+            "homepage": "https://gitlab.com/cryptsetup/cryptsetup",
             "id": 269117,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPL-2.0-with-OpenSSL-exception",
             "pn": "cryptsetup",
             "provides": "cryptsetup ",
-            "pv": "1.7.4",
+            "pv": "2.0.3",
             "section": "console",
             "summary": "Manage plain dm-crypt and LUKS encrypted volumes",
-            "updated": "2018-03-06T21:03:42+0000"
+            "updated": "2018-07-24T20:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -5694,7 +5694,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "It provides tools to manage multipath devices by instructing the device-mapper kernel module what to do. These tools include: 1. multipath - Scan the system for multipath devices and assemble them.2. multipathd - Detects when paths fail and execs multipath to update things.3. mpathpersist - Persistent reservation management feature allows cluster management software to manage persistent reservation through mpath device. It processes management requests from callers and hides the management task details. It also handles persistent reservation management of data path life cycle and state changes.4. kpartx - This tool, derived from util-linux's partx, reads partition tables on specified device and create device maps over partitions segments detected. It is called from hotplug upon device maps creation and deletion",
-            "filename": "multipath-tools_0.7.1.bb",
+            "filename": "multipath-tools_0.7.7.bb",
             "filepath": "recipes-support/multipath-tools",
             "homepage": "http://christophe.varoqui.free.fr/",
             "id": 269200,
@@ -5703,10 +5703,10 @@
             "license": "GPLv2",
             "pn": "multipath-tools",
             "provides": "multipath-tools  device-mapper-multipath",
-            "pv": "0.7.1",
+            "pv": "0.7.7",
             "section": "base",
             "summary": "The upstream project used to drive the Device Mapper multipathing driver",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2018-07-24T20:07:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -5732,7 +5732,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "udisks2_2.7.6.bb",
+            "filename": "udisks2_2.7.7.bb",
             "filepath": "recipes-support/udisks",
             "homepage": "",
             "id": 269202,
@@ -5741,10 +5741,10 @@
             "license": "GPLv2+ & LGPLv2+",
             "pn": "udisks2",
             "provides": "udisks2 ",
-            "pv": "2.7.6",
+            "pv": "2.7.7",
             "section": "base",
             "summary": "udisks provides dbus interfaces for disks and storage devices",
-            "updated": "2018-06-19T20:06:32+0000"
+            "updated": "2018-07-24T20:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -6067,7 +6067,7 @@
             "pv": "2.02.177",
             "section": "utils",
             "summary": "",
-            "updated": "2018-06-19T20:06:33+0000"
+            "updated": "2018-07-24T20:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -6105,7 +6105,7 @@
             "pv": "0.14+gitX",
             "section": "libs",
             "summary": "Library for interfacing with IIO devices",
-            "updated": "2018-03-20T01:03:24+0000"
+            "updated": "2018-07-24T20:07:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -6120,11 +6120,11 @@
             "layerbranch": 14965,
             "license": "vim",
             "pn": "vim-tiny",
-            "provides": "vim-tiny ",
+            "provides": "vim-tiny  vim-tiny-xxd",
             "pv": "8.1.0172",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2018-07-16T20:07:49+0000"
+            "updated": "2018-07-24T20:07:54+0000"
         },
         {
             "bbclassextend": "native",
@@ -6139,11 +6139,11 @@
             "layerbranch": 14965,
             "license": "vim",
             "pn": "vim",
-            "provides": "vim ",
+            "provides": "vim  vim-xxd",
             "pv": "8.1.0172",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2018-07-16T20:07:49+0000"
+            "updated": "2018-07-24T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -6340,7 +6340,7 @@
             "blacklisted": "",
             "bugtracker": "https://fedorahosted.org/augeas/report/1",
             "description": "",
-            "filename": "augeas_1.5.0.bb",
+            "filename": "augeas_1.10.1.bb",
             "filepath": "recipes-support/augeas",
             "homepage": "http://augeas.net/",
             "id": 269239,
@@ -6349,10 +6349,10 @@
             "license": "LGPLv2.1+",
             "pn": "augeas",
             "provides": "augeas ",
-            "pv": "1.5.0",
+            "pv": "1.10.1",
             "section": "base",
             "summary": "Augeas configuration API",
-            "updated": "2017-09-26T04:09:30+0000"
+            "updated": "2018-07-24T20:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -6454,7 +6454,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "pps-tools_git.bb",
+            "filename": "pps-tools_1.0.2.bb",
             "filepath": "recipes-support/pps-tools",
             "homepage": "http://linuxpps.org",
             "id": 269245,
@@ -6463,10 +6463,10 @@
             "license": "GPLv2",
             "pn": "pps-tools",
             "provides": "pps-tools ",
-            "pv": "0.0.0+gitX",
+            "pv": "1.0.2",
             "section": "base",
             "summary": "User-space tools for LinuxPPS",
-            "updated": "2017-09-26T04:09:31+0000"
+            "updated": "2018-07-24T20:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -8430,7 +8430,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "liblockfile_1.09.bb",
+            "filename": "liblockfile_1.14.bb",
             "filepath": "recipes-extended/liblockfile",
             "homepage": "http://packages.qa.debian.org/libl/liblockfile.html",
             "id": 269359,
@@ -8439,10 +8439,10 @@
             "license": "LGPLv2+ & GPLv2+",
             "pn": "liblockfile",
             "provides": "liblockfile ",
-            "pv": "1.09",
+            "pv": "1.14",
             "section": "libs",
             "summary": "File locking library",
-            "updated": "2017-09-26T04:09:44+0000"
+            "updated": "2018-07-24T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -8689,7 +8689,7 @@
             "pv": "8.36.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2018-07-16T20:07:47+0000"
+            "updated": "2018-07-24T20:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -9038,7 +9038,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "bonnie++_1.03e.bb",
+            "filename": "bonnie++_1.04.bb",
             "filepath": "recipes-benchmark/bonnie",
             "homepage": "http://www.coker.com.au/bonnie++/",
             "id": 269392,
@@ -9047,10 +9047,10 @@
             "license": "GPLv2",
             "pn": "bonnie++",
             "provides": "bonnie++ ",
-            "pv": "1.03e",
+            "pv": "1.04",
             "section": "benchmark/tests",
             "summary": "Tests large file IO and creation/deletion of small files",
-            "updated": "2017-09-26T04:09:48+0000"
+            "updated": "2018-07-24T20:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -9247,7 +9247,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "fio is an I/O tool meant to be used both for benchmark and stress/hardware verification. It has support for a number of I/O engines, I/O priorities (for newer Linux kernels), rate I/O, forked or threaded jobs, and much more. It can work on block devices as well as files. fio accepts job descriptions in a simple-to-understand text format. Several example job files are included. fio displays all sorts of I/O performance information.",
-            "filename": "fio_2.9.bb",
+            "filename": "fio_3.7.bb",
             "filepath": "recipes-benchmark/fio",
             "homepage": "http://freecode.com/projects/fio",
             "id": 269403,
@@ -9256,10 +9256,10 @@
             "license": "GPLv2",
             "pn": "fio",
             "provides": "fio ",
-            "pv": "2.9",
+            "pv": "3.7",
             "section": "console/tests",
             "summary": "Filesystem and hardware benchmark and stress tool",
-            "updated": "2017-09-26T04:09:49+0000"
+            "updated": "2018-07-24T20:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -9931,7 +9931,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pygobject_3.28.0.bb",
+            "filename": "python-pygobject_3.28.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.pygtk.org/",
             "id": 269449,
@@ -9940,10 +9940,10 @@
             "license": "LGPLv2.1",
             "pn": "python-pygobject",
             "provides": "python-pygobject ",
-            "pv": "3.28.0",
+            "pv": "3.28.3",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2018-04-03T22:04:21+0000"
+            "updated": "2018-07-24T20:07:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10311,7 +10311,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tclap_1.2.1.bb",
+            "filename": "tclap_1.2.2.bb",
             "filepath": "recipes-devtools/tclap",
             "homepage": "http://tclap.sourceforge.net/",
             "id": 269470,
@@ -10320,10 +10320,10 @@
             "license": "MIT",
             "pn": "tclap",
             "provides": "tclap ",
-            "pv": "1.2.1",
+            "pv": "1.2.2",
             "section": "base",
             "summary": "Templatized C++ Command Line Parser",
-            "updated": "2017-09-26T04:09:58+0000"
+            "updated": "2018-07-24T20:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -10995,7 +10995,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "glibmm_2.54.1.bb",
+            "filename": "glibmm_2.56.0.bb",
             "filepath": "recipes-core/glib-2.0",
             "homepage": "http://www.gtkmm.org/",
             "id": 269515,
@@ -11004,10 +11004,10 @@
             "license": "LGPLv2.1 & GPLv2",
             "pn": "glibmm",
             "provides": "glibmm ",
-            "pv": "2.54.1",
+            "pv": "2.56.0",
             "section": "libs",
             "summary": "C++ bindings for the glib library",
-            "updated": "2018-04-16T02:04:36+0000"
+            "updated": "2018-07-24T20:07:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -11071,7 +11071,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mm-common_0.9.11.bb",
+            "filename": "mm-common_0.9.12.bb",
             "filepath": "recipes-core/mm-common",
             "homepage": "",
             "id": 269520,
@@ -11080,10 +11080,10 @@
             "license": "GPLv2",
             "pn": "mm-common",
             "provides": "mm-common ",
-            "pv": "0.9.11",
+            "pv": "0.9.12",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-16T02:04:37+0000"
+            "updated": "2018-07-24T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -11204,7 +11204,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The volume_key project provides a libvolume_key, a library for manipulating storage volume encryption keys and storing them separately from volumes, and an associated command-line tool, named volume_key.",
-            "filename": "volume-key_0.3.9.bb",
+            "filename": "volume-key_0.3.10.bb",
             "filepath": "recipes-extended/volume_key",
             "homepage": "https://pagure.io/volume_key",
             "id": 276622,
@@ -11213,10 +11213,10 @@
             "license": "GPLv2",
             "pn": "volume-key",
             "provides": "volume-key ",
-            "pv": "0.3.9",
+            "pv": "0.3.10",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2017-09-26T04:09:06+0000"
+            "updated": "2018-07-24T20:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -11280,7 +11280,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libblockdev is a C library supporting GObject introspection for manipulation of block devices. It has a plugin-based architecture where each technology (like LVM, Btrfs, MD RAID, Swap,...) is implemented in a separate plugin, possibly with multiple implementations (e.g. using LVM CLI or the new LVM DBus API).",
-            "filename": "libblockdev_2.16.bb",
+            "filename": "libblockdev_2.18.bb",
             "filepath": "recipes-extended/libblockdev",
             "homepage": "http://rhinstaller.github.io/libblockdev/",
             "id": 336713,
@@ -11289,10 +11289,10 @@
             "license": "LGPLv2+",
             "pn": "libblockdev",
             "provides": "libblockdev ",
-            "pv": "2.16",
+            "pv": "2.18",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2018-04-16T02:04:34+0000"
+            "updated": "2018-07-24T20:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -11717,7 +11717,7 @@
             "blacklisted": "",
             "bugtracker": "http://sourceforge.net/tracker/?group_id=16191&atid=116191",
             "description": "OProfile is a system-wide profiler for Linux systems, capable of profiling all running code at low overhead.",
-            "filename": "oprofile_1.1.0.bb",
+            "filename": "oprofile_1.2.0.bb",
             "filepath": "recipes-kernel/oprofile",
             "homepage": "http://oprofile.sourceforge.net/news/",
             "id": 415736,
@@ -11726,10 +11726,10 @@
             "license": "LGPLv2.1+ & GPLv2",
             "pn": "oprofile",
             "provides": "oprofile ",
-            "pv": "1.1.0",
+            "pv": "1.2.0",
             "section": "devel",
             "summary": "System-Wide Profiler",
-            "updated": "2017-10-18T01:10:00+0000"
+            "updated": "2018-07-24T20:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -12344,19 +12344,19 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/michaelrsweet/mxml/issues",
             "description": "Tiny XML Library",
-            "filename": "libmxml_2.11.bb",
+            "filename": "libmxml_git.bb",
             "filepath": "recipes-support/libmxml",
             "homepage": "https://www.msweet.org/mxml/",
             "id": 646412,
-            "inherits": "autotools autotools-brokensep gettext siteconfig siteinfo",
+            "inherits": "",
             "layerbranch": 14965,
             "license": "Mini-XML-License",
             "pn": "libmxml",
             "provides": "libmxml ",
-            "pv": "2.11",
+            "pv": "2.12+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-19T20:06:35+0000"
+            "updated": "2018-07-24T20:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -12394,7 +12394,7 @@
             "pv": "2.0.5+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-10T02:07:52+0000"
+            "updated": "2018-07-24T20:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -12452,6 +12452,25 @@
             "section": "x11/drivers",
             "summary": "X.Org X server -- ARM SOC display driver",
             "updated": "2018-07-16T20:07:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libkcapi_git.bb",
+            "filepath": "recipes-crypto/libkcapi",
+            "homepage": "http://www.chronox.de/libkcapi.html",
+            "id": 682110,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "BSD | GPL-2.0",
+            "pn": "libkcapi",
+            "provides": "libkcapi ",
+            "pv": "1.1.1+gitX",
+            "section": "base",
+            "summary": "Linux Kernel Crypto API User Space Interface Library",
+            "updated": "2018-07-24T20:07:54+0000"
         }
     ],
     "wrtemplates": []
