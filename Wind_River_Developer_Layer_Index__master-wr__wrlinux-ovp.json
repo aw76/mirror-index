@@ -20,11 +20,11 @@
     ],
     "distros": [
         {
-            "description": "Wind River Linux (Open Virtualization)",
+            "description": "Wind River Linux OVP",
             "id": 1864,
             "layerbranch": 109415,
             "name": "wrlinux-ovp",
-            "updated": "2017-10-18T01:10:00+0000"
+            "updated": "2018-07-27T01:07:35+0000"
         }
     ],
     "layerBranches": [
@@ -48,10 +48,10 @@
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-07-08T09:07:50+0000",
-            "vcs_last_commit": "2018-07-08T09:07:50+0000",
-            "vcs_last_fetch": "2018-07-08T09:07:50+0000",
-            "vcs_last_rev": "85707bfa0eb455d882c651cf6fc3a96dedb11ccc",
+            "updated": "2018-07-27T01:07:47+0000",
+            "vcs_last_commit": "2018-07-27T01:07:47+0000",
+            "vcs_last_fetch": "2018-07-27T01:07:47+0000",
+            "vcs_last_rev": "bec2eafb5f2e4527493f25fa99ad875e48d70460",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -62,10 +62,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-26T04:07:25+0000",
-            "vcs_last_commit": "2018-07-26T04:07:25+0000",
-            "vcs_last_fetch": "2018-07-26T04:07:25+0000",
-            "vcs_last_rev": "163aee8dad7bda05903af24cd53f88886cac9a29",
+            "updated": "2018-07-26T22:07:43+0000",
+            "vcs_last_commit": "2018-07-26T22:07:43+0000",
+            "vcs_last_fetch": "2018-07-26T22:07:43+0000",
+            "vcs_last_rev": "a7650c0eb634b342749d9cd6d676f4ff76a04e9f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -90,10 +90,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-07-24T03:07:23+0000",
-            "vcs_last_commit": "2018-07-24T03:07:23+0000",
-            "vcs_last_fetch": "2018-07-24T03:07:23+0000",
-            "vcs_last_rev": "3563ec4a8c611cde90ba1e95cef4486648670322",
+            "updated": "2018-07-27T01:07:52+0000",
+            "vcs_last_commit": "2018-07-27T01:07:52+0000",
+            "vcs_last_fetch": "2018-07-27T01:07:52+0000",
+            "vcs_last_rev": "e07b0e997788c207090a1ee7f19bfc5158116eb3",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": null
@@ -118,10 +118,10 @@
             "collection": "wrlinux-distro",
             "id": 73942,
             "layer": 164,
-            "updated": "2018-07-24T03:07:23+0000",
-            "vcs_last_commit": "2018-07-24T03:07:23+0000",
-            "vcs_last_fetch": "2018-07-24T03:07:23+0000",
-            "vcs_last_rev": "3563ec4a8c611cde90ba1e95cef4486648670322",
+            "updated": "2018-07-27T01:07:51+0000",
+            "vcs_last_commit": "2018-07-27T01:07:51+0000",
+            "vcs_last_fetch": "2018-07-27T01:07:51+0000",
+            "vcs_last_rev": "61843420767d681c11bb5e83843052923e9f256f",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": null
@@ -132,10 +132,10 @@
             "collection": "wrlinux-ovp",
             "id": 109415,
             "layer": 170,
-            "updated": "2018-07-02T04:07:32+0000",
-            "vcs_last_commit": "2018-07-02T04:07:32+0000",
-            "vcs_last_fetch": "2018-07-02T04:07:32+0000",
-            "vcs_last_rev": "5d5e8e334389212e98813ce2b5c6f28acd5f087c",
+            "updated": "2018-07-27T01:07:52+0000",
+            "vcs_last_commit": "2018-07-27T01:07:52+0000",
+            "vcs_last_fetch": "2018-07-27T01:07:52+0000",
+            "vcs_last_rev": "a19d83c94ec7433bbeae984e437d5effb58d2a48",
             "vcs_subdir": "wrlinux-ovp",
             "version": "1",
             "yp_compatible_version": null
@@ -400,44 +400,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
-            "filename": "linux-yocto-ovp-kvm_4.12.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 366613,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
-            "layerbranch": 109415,
-            "license": "GPLv2",
-            "pn": "linux-yocto-ovp-kvm",
-            "provides": "linux-yocto-ovp-kvm  virtual/kernel",
-            "pv": "4.12.12+gitX",
-            "section": "kernel",
-            "summary": "Linux kernel",
-            "updated": "2017-10-02T17:10:10+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "linux-yocto-ovp-guest_4.12.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 366614,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
-            "layerbranch": 109415,
-            "license": "GPLv2",
-            "pn": "linux-yocto-ovp-guest",
-            "provides": "linux-yocto-ovp-guest  virtual/kernel",
-            "pv": "4.12.12+gitX",
-            "section": "kernel",
-            "summary": "Linux kernel",
-            "updated": "2017-10-18T01:10:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
             "filename": "wrlinux-image-ovp-guest.bb",
             "filepath": "recipes-base/images",
@@ -473,7 +435,7 @@
             "updated": "2017-10-02T17:10:10+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
@@ -481,7 +443,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 366617,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-fs_finalize image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-kvm",
@@ -489,7 +451,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:10+0000"
+            "updated": "2018-07-27T01:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -682,7 +644,7 @@
             "updated": "2017-10-02T17:10:11+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A host/service/network monitoring and management system core files",
@@ -698,7 +660,7 @@
             "pv": "4.0.8",
             "section": "console/network",
             "summary": "",
-            "updated": "2017-10-02T17:10:12+0000"
+            "updated": "2018-07-27T01:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -878,14 +840,7 @@
             "id": 14081,
             "layerbranch": 109415,
             "name": "feature/kernel-ovp-guest",
-            "updated": "2017-10-18T01:10:00+0000"
-        },
-        {
-            "description": "",
-            "id": 14082,
-            "layerbranch": 109415,
-            "name": "feature/kernel-ovp-kvm",
-            "updated": "2017-10-02T17:10:13+0000"
+            "updated": "2018-07-27T01:07:36+0000"
         },
         {
             "description": "",
@@ -907,6 +862,13 @@
             "layerbranch": 109415,
             "name": "feature/host-rt-tune",
             "updated": "2018-04-25T21:04:34+0000"
+        },
+        {
+            "description": "",
+            "id": 26898,
+            "layerbranch": 109415,
+            "name": "default",
+            "updated": "2018-07-27T01:07:35+0000"
         }
     ]
 }
