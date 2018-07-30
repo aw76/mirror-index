@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180716",
+            "bitbake_branch": "wr-10.18-20180730",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-16T20:07:58+0000",
+            "updated": "2018-07-30T02:07:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180730",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-07-27T17:07:57+0000",
-            "vcs_last_commit": "2018-07-27T17:07:57+0000",
-            "vcs_last_fetch": "2018-07-27T17:07:57+0000",
-            "vcs_last_rev": "7d8de52e9eea7ff726c5ff5778c5ef8525d221c2",
+            "updated": "2018-07-29T20:07:29+0000",
+            "vcs_last_commit": "2018-07-29T20:07:29+0000",
+            "vcs_last_fetch": "2018-07-29T20:07:29+0000",
+            "vcs_last_rev": "416670cd0ae570976922e4f8fe525c13d03db4a9",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180723",
+            "actual_branch": "wr-10.18-20180730",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-26T22:07:43+0000",
-            "vcs_last_commit": "2018-07-26T22:07:43+0000",
-            "vcs_last_fetch": "2018-07-26T22:07:43+0000",
-            "vcs_last_rev": "a7650c0eb634b342749d9cd6d676f4ff76a04e9f",
+            "updated": "2018-07-29T20:07:32+0000",
+            "vcs_last_commit": "2018-07-29T20:07:32+0000",
+            "vcs_last_fetch": "2018-07-29T20:07:32+0000",
+            "vcs_last_rev": "bb685c708041ac9e82275d70378b9836311d7eba",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -450,7 +450,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Checkpoint/Restore In Userspace, or CRIU, is a software tool for Linux operating system. Using this tool, you can freeze a running application (or part of it) and checkpoint it to a hard drive as a collection of files. You can then use the files to restore and run the application from the point it was frozen at. The distinctive feature of the CRIU project is that it is mainly implemented in user space",
-            "filename": "criu_git.bb",
+            "filename": "criu_3.9.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://criu.org",
             "id": 270517,
@@ -459,10 +459,10 @@
             "license": "GPLv2",
             "pn": "criu",
             "provides": "criu ",
-            "pv": "3.4+gitX",
+            "pv": "3.9+gitX",
             "section": "console/tools",
             "summary": "CRIU",
-            "updated": "2018-04-24T22:04:51+0000"
+            "updated": "2018-07-30T02:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -785,7 +785,7 @@
             "pv": "1.9.1",
             "section": "firmware",
             "summary": "",
-            "updated": "2017-10-09T22:10:53+0000"
+            "updated": "2018-07-30T02:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1115,19 +1115,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python documentation generator",
-            "filename": "python-sphinx_1.4.1.bb",
+            "filename": "python-sphinx_1.7.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://sphinx-doc.org/",
             "id": 270556,
-            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 14952,
             "license": "BSD",
             "pn": "python-sphinx",
             "provides": "python-sphinx ",
-            "pv": "1.4.1",
+            "pv": "1.7.6",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-22T20:11:55+0000"
+            "updated": "2018-07-30T02:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1868,7 +1868,7 @@
             "pv": "1.11.0+git210c9cd7e1782e9fe46938fe0368556f2166a528",
             "section": "base",
             "summary": "Production-Grade Container Scheduling and Management",
-            "updated": "2018-07-10T02:07:25+0000"
+            "updated": "2018-07-30T02:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2135,6 +2135,25 @@
             "section": "base",
             "summary": "Minimal init for containers",
             "updated": "2018-06-19T21:06:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "An introspection library, written in C, focused on reading                and writing memory from virtual machines (VM's).",
+            "filename": "libvmi_git.bb",
+            "filepath": "recipes-extended/libvmi",
+            "homepage": "https://github.com/libvmi/libvmi",
+            "id": 682119,
+            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
+            "layerbranch": 14952,
+            "license": "LGPLv3",
+            "pn": "libvmi",
+            "provides": "libvmi ",
+            "pv": "0.12.0",
+            "section": "console/tools",
+            "summary": "",
+            "updated": "2018-07-30T02:07:43+0000"
         }
     ],
     "wrtemplates": []

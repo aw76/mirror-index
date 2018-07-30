@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180716",
+            "bitbake_branch": "wr-10.18-20180730",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-16T20:07:58+0000",
+            "updated": "2018-07-30T02:07:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180723",
+            "actual_branch": "wr-10.18-20180730",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-26T22:07:43+0000",
-            "vcs_last_commit": "2018-07-26T22:07:43+0000",
-            "vcs_last_fetch": "2018-07-26T22:07:43+0000",
-            "vcs_last_rev": "a7650c0eb634b342749d9cd6d676f4ff76a04e9f",
+            "updated": "2018-07-29T20:07:32+0000",
+            "vcs_last_commit": "2018-07-29T20:07:32+0000",
+            "vcs_last_fetch": "2018-07-29T20:07:32+0000",
+            "vcs_last_rev": "bb685c708041ac9e82275d70378b9836311d7eba",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180723",
+            "actual_branch": "wr-10.18-20180730",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-07-22T20:07:29+0000",
-            "vcs_last_commit": "2018-07-22T20:07:29+0000",
-            "vcs_last_fetch": "2018-07-22T20:07:29+0000",
-            "vcs_last_rev": "c54c71e7464b4f86383a6917c3bed4601231034b",
+            "updated": "2018-07-29T20:07:30+0000",
+            "vcs_last_commit": "2018-07-29T20:07:30+0000",
+            "vcs_last_fetch": "2018-07-29T20:07:30+0000",
+            "vcs_last_rev": "f70502b71fec61ea2ea14539f287469e5322302d",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": null
@@ -114,7 +114,7 @@
             "id": 6145,
             "layerbranch": 84751,
             "name": "intel-corei7-64",
-            "updated": "2018-07-24T20:07:14+0000"
+            "updated": "2018-07-30T02:07:33+0000"
         }
     ],
     "recipes": [
@@ -135,7 +135,7 @@
             "pv": "1.22",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2018-07-24T20:07:15+0000"
+            "updated": "2018-07-30T02:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -154,7 +154,7 @@
             "pv": "1.1.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2018-07-24T20:07:15+0000"
+            "updated": "2018-07-30T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -173,7 +173,7 @@
             "pv": "30",
             "section": "kernel",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2018-07-24T20:07:15+0000"
+            "updated": "2018-07-30T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -192,7 +192,7 @@
             "pv": "4.3.5",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-07-24T20:07:16+0000"
+            "updated": "2018-07-30T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -211,7 +211,7 @@
             "pv": "5.3.7",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-07-24T20:07:16+0000"
+            "updated": "2018-07-30T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -230,7 +230,7 @@
             "pv": "4.9.84+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-24T20:07:16+0000"
+            "updated": "2018-07-30T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -246,10 +246,10 @@
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.9.99+gitX",
+            "pv": "4.9.113+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-24T20:07:16+0000"
+            "updated": "2018-07-30T02:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -268,7 +268,7 @@
             "pv": "0.8-gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-24T20:07:16+0000"
+            "updated": "2018-07-30T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -287,7 +287,7 @@
             "pv": "2.2.0",
             "section": "base",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2018-07-24T20:07:14+0000"
+            "updated": "2018-07-30T02:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -306,7 +306,7 @@
             "pv": "1.3.0+gitX",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2018-07-24T20:07:16+0000"
+            "updated": "2018-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -325,7 +325,7 @@
             "pv": "1.3.0+gitX",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2018-07-24T20:07:16+0000"
+            "updated": "2018-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -336,7 +336,7 @@
             "filepath": "recipes-rt/images",
             "homepage": "",
             "id": 346926,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 84751,
             "license": "MIT",
             "pn": "core-image-rt",
@@ -344,7 +344,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-24T20:07:17+0000"
+            "updated": "2018-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -355,7 +355,7 @@
             "filepath": "recipes-rt/images",
             "homepage": "",
             "id": 346927,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 84751,
             "license": "MIT",
             "pn": "core-image-rt-sdk",
@@ -363,7 +363,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-24T20:07:17+0000"
+            "updated": "2018-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -382,7 +382,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2018-07-24T20:07:17+0000"
+            "updated": "2018-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -401,26 +401,7 @@
             "pv": "1.7.2",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2018-07-24T20:07:17+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Intel Local Manageability Service allows applications to access the Intel Active Management Technology (AMT) firmware via the Intel Management Engine Interface (MEI).",
-            "filename": "lms7_7.1.20.bb",
-            "filepath": "recipes-bsp/amt",
-            "homepage": "http://software.intel.com/en-us/articles/download-the-latest-intel-amt-open-source-drivers",
-            "id": 346937,
-            "inherits": "autotools siteconfig siteinfo update-rc.d",
-            "layerbranch": 84751,
-            "license": "BSD_LMS",
-            "pn": "lms7",
-            "provides": "lms7 ",
-            "pv": "7.1.20",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-07-24T20:07:17+0000"
+            "updated": "2018-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -439,7 +420,7 @@
             "pv": "8.0.0-7",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-24T20:07:17+0000"
+            "updated": "2018-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -450,7 +431,7 @@
             "filepath": "recipes-core/ovmf",
             "homepage": "",
             "id": 346942,
-            "inherits": "image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 84751,
             "license": "",
             "pn": "ovmf-shell-image-enrollkeys",
@@ -458,7 +439,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-24T20:07:17+0000"
+            "updated": "2018-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -477,7 +458,7 @@
             "pv": "20180703",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2018-07-24T20:07:18+0000"
+            "updated": "2018-07-30T02:07:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -496,7 +477,7 @@
             "pv": "2.3.1",
             "section": "base",
             "summary": "Update Intel CPU microcode",
-            "updated": "2018-07-24T20:07:18+0000"
+            "updated": "2018-07-30T02:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -507,7 +488,7 @@
             "filepath": "recipes-selftest/images",
             "homepage": "",
             "id": 346945,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo uefi-comboapp uefi-sign",
+            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo uefi-comboapp uefi-sign",
             "layerbranch": 84751,
             "license": "MIT",
             "pn": "secureboot-selftest-image-signed",
@@ -515,7 +496,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-24T20:07:18+0000"
+            "updated": "2018-07-30T02:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -526,7 +507,7 @@
             "filepath": "recipes-selftest/images",
             "homepage": "",
             "id": 346946,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo uefi-comboapp uefi-sign",
+            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo uefi-comboapp uefi-sign",
             "layerbranch": 84751,
             "license": "MIT",
             "pn": "secureboot-selftest-image-unsigned",
@@ -534,7 +515,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-24T20:07:18+0000"
+            "updated": "2018-07-30T02:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -545,7 +526,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 377118,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 84751,
             "license": "MIT",
             "pn": "core-image-tiny",
@@ -553,7 +534,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2018-07-24T20:07:15+0000"
+            "updated": "2018-07-30T02:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -569,10 +550,10 @@
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.14.52+gitX",
+            "pv": "4.14.56+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-24T20:07:14+0000"
+            "updated": "2018-07-30T02:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -588,10 +569,10 @@
             "license": "GPLv2",
             "pn": "linux-intel-rt",
             "provides": "linux-intel-rt  virtual/kernel",
-            "pv": "4.14.40+gitX",
+            "pv": "4.14.52+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-24T20:07:14+0000"
+            "updated": "2018-07-30T02:07:34+0000"
         }
     ],
     "wrtemplates": []

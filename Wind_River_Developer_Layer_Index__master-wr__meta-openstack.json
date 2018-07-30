@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180716",
+            "bitbake_branch": "wr-10.18-20180730",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-16T20:07:58+0000",
+            "updated": "2018-07-30T02:07:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180708",
+            "actual_branch": "wr-10.18-20180730",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-07-27T17:07:57+0000",
-            "vcs_last_commit": "2018-07-27T17:07:57+0000",
-            "vcs_last_fetch": "2018-07-27T17:07:57+0000",
-            "vcs_last_rev": "7d8de52e9eea7ff726c5ff5778c5ef8525d221c2",
+            "updated": "2018-07-29T20:07:29+0000",
+            "vcs_last_commit": "2018-07-29T20:07:29+0000",
+            "vcs_last_fetch": "2018-07-29T20:07:29+0000",
+            "vcs_last_rev": "416670cd0ae570976922e4f8fe525c13d03db4a9",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180723",
+            "actual_branch": "wr-10.18-20180730",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-26T22:07:43+0000",
-            "vcs_last_commit": "2018-07-26T22:07:43+0000",
-            "vcs_last_fetch": "2018-07-26T22:07:43+0000",
-            "vcs_last_rev": "a7650c0eb634b342749d9cd6d676f4ff76a04e9f",
+            "updated": "2018-07-29T20:07:32+0000",
+            "vcs_last_commit": "2018-07-29T20:07:32+0000",
+            "vcs_last_fetch": "2018-07-29T20:07:32+0000",
+            "vcs_last_rev": "bb685c708041ac9e82275d70378b9836311d7eba",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -119,29 +119,29 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180716",
+            "actual_branch": "wr-10.18-20180730",
             "branch": 38,
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2018-07-15T21:07:36+0000",
-            "vcs_last_commit": "2018-07-15T21:07:36+0000",
-            "vcs_last_fetch": "2018-07-15T21:07:36+0000",
-            "vcs_last_rev": "34928c659ee7771f82818c2011d9e6480f75b5fd",
+            "updated": "2018-07-29T20:07:30+0000",
+            "vcs_last_commit": "2018-07-29T20:07:30+0000",
+            "vcs_last_fetch": "2018-07-29T20:07:30+0000",
+            "vcs_last_rev": "82a65a97b19d1e2ba246424a51acc1ebc9e467d6",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180716",
+            "actual_branch": "wr-10.18-20180730",
             "branch": 38,
             "collection": "openstack-layer",
             "id": 57006,
             "layer": 155,
-            "updated": "2018-07-15T21:07:36+0000",
-            "vcs_last_commit": "2018-07-15T21:07:36+0000",
-            "vcs_last_fetch": "2018-07-15T21:07:36+0000",
-            "vcs_last_rev": "34928c659ee7771f82818c2011d9e6480f75b5fd",
+            "updated": "2018-07-29T20:07:30+0000",
+            "vcs_last_commit": "2018-07-29T20:07:30+0000",
+            "vcs_last_fetch": "2018-07-29T20:07:30+0000",
+            "vcs_last_rev": "82a65a97b19d1e2ba246424a51acc1ebc9e467d6",
             "vcs_subdir": "meta-openstack",
             "version": null,
             "yp_compatible_version": null
@@ -472,10 +472,10 @@
             "license": "GPLv2",
             "pn": "tgt",
             "provides": "tgt ",
-            "pv": "1.0.67+gitX",
+            "pv": "1.0.73+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:12+0000"
+            "updated": "2018-07-30T02:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2059,7 +2059,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "HTTP client mock for Python",
-            "filename": "python-httpretty_0.8.14.bb",
+            "filename": "python-httpretty_0.9.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/httpretty",
             "id": 343295,
@@ -2068,10 +2068,10 @@
             "license": "MIT",
             "pn": "python-httpretty",
             "provides": "python-httpretty ",
-            "pv": "0.8.14",
+            "pv": "0.9.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-22T20:11:03+0000"
+            "updated": "2018-07-30T02:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3009,7 +3009,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A comprehensive HTTP client library",
-            "filename": "python-httplib2_0.10.3.bb",
+            "filename": "python-httplib2_0.11.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://code.google.com/p/httplib2/",
             "id": 343346,
@@ -3018,10 +3018,10 @@
             "license": "MIT",
             "pn": "python-httplib2",
             "provides": "python-httplib2 ",
-            "pv": "0.10.3",
+            "pv": "0.11.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-22T20:11:03+0000"
+            "updated": "2018-07-30T02:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3883,7 +3883,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Low-level AMQP client for Python",
-            "filename": "python-amqp_2.2.2.bb",
+            "filename": "python-amqp_2.3.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/amqp/",
             "id": 343393,
@@ -3892,10 +3892,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-amqp",
             "provides": "python-amqp ",
-            "pv": "2.2.2",
+            "pv": "2.3.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-16T20:11:54+0000"
+            "updated": "2018-07-30T02:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -4738,7 +4738,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A messaging framework for Python",
-            "filename": "python-kombu_4.1.0.bb",
+            "filename": "python-kombu_4.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://kombu.readthedocs.org",
             "id": 343438,
@@ -4747,10 +4747,10 @@
             "license": "BSD",
             "pn": "python-kombu",
             "provides": "python-kombu ",
-            "pv": "4.1.0",
+            "pv": "4.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-11-16T20:11:54+0000"
+            "updated": "2018-07-30T02:07:56+0000"
         },
         {
             "bbclassextend": "",
