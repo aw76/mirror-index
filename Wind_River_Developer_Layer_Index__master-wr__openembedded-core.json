@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180730",
+            "bitbake_branch": "wr-10.18-20180731",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-30T02:07:16+0000",
+            "updated": "2018-08-01T01:08:06+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180730",
+            "actual_branch": "wr-10.18-20180731",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-31T01:07:52+0000",
-            "vcs_last_commit": "2018-07-31T01:07:52+0000",
-            "vcs_last_fetch": "2018-07-31T01:07:52+0000",
-            "vcs_last_rev": "0dffb2ea5df734d76476006cbef93733577c1de8",
+            "updated": "2018-08-01T01:08:20+0000",
+            "vcs_last_commit": "2018-08-01T01:08:20+0000",
+            "vcs_last_fetch": "2018-08-01T01:08:20+0000",
+            "vcs_last_rev": "18606b65a82e3c7adaaa4da212fd3a86e925cc19",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -1435,25 +1435,6 @@
             "updated": "2018-07-30T02:07:35+0000"
         },
         {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
-            "description": "create dependencies in makefiles using 'gcc -M'",
-            "filename": "gccmakedep_1.0.3.bb",
-            "filepath": "recipes-graphics/xorg-util",
-            "homepage": "http://www.x.org",
-            "id": 270693,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
-            "layerbranch": 14953,
-            "license": "MIT-X",
-            "pn": "gccmakedep",
-            "provides": "gccmakedep ",
-            "pv": "1.0.3",
-            "section": "x11/utils",
-            "summary": "Program to create dependencies in makefiles",
-            "updated": "2018-07-30T02:07:35+0000"
-        },
-        {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "http://bugs.freedesktop.org",
@@ -2021,7 +2002,7 @@
             "pv": "2.9",
             "section": "libs",
             "summary": "Freetype font rendering library",
-            "updated": "2018-07-30T02:07:39+0000"
+            "updated": "2018-08-01T01:08:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -3267,7 +3248,7 @@
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 270821,
-            "inherits": "multilib_header pkgconfig ptest relative_symlinks siteinfo",
+            "inherits": "manpages multilib_header pkgconfig ptest qemu relative_symlinks siteinfo",
             "layerbranch": 14953,
             "license": "openssl",
             "pn": "openssl",
@@ -3275,7 +3256,7 @@
             "pv": "1.0.2o",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-07-30T02:07:12+0000"
+            "updated": "2018-08-01T01:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -4510,7 +4491,7 @@
             "pv": "7.61.0",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2018-07-30T02:07:18+0000"
+            "updated": "2018-08-01T01:08:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -4814,7 +4795,7 @@
             "pv": "3.6.2",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2018-07-30T02:07:00+0000"
+            "updated": "2018-08-01T01:08:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4928,25 +4909,6 @@
             "pv": "0.6.12",
             "section": "x11/utils",
             "summary": "Cascading Style Sheet (CSS) parsing and manipulation toolkit",
-            "updated": "2018-07-30T02:07:02+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "http://www.libusb.org/report",
-            "description": "libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims to look, feel and behave exactly like libusb-0.1",
-            "filename": "libusb-compat_0.1.5.bb",
-            "filepath": "recipes-support/libusb",
-            "homepage": "http://www.libusb.org/",
-            "id": 270919,
-            "inherits": "autotools binconfig-disabled lib_package pkgconfig siteconfig siteinfo",
-            "layerbranch": 14953,
-            "license": "LGPLv2.1+",
-            "pn": "libusb-compat",
-            "provides": "libusb-compat libusb virtual/libusb0",
-            "pv": "0.1.5",
-            "section": "libs",
-            "summary": "libusb-0.1 compatibility layer for libusb1",
             "updated": "2018-07-30T02:07:02+0000"
         },
         {
@@ -5403,7 +5365,7 @@
             "pv": "3.4",
             "section": "console/utils",
             "summary": "Tools to generate block map (AKA bmap) and flash images using bmap",
-            "updated": "2018-07-30T02:07:08+0000"
+            "updated": "2018-08-01T01:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6550,7 +6512,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cups_2.2.6.bb",
+            "filename": "cups_2.2.8.bb",
             "filepath": "recipes-extended/cups",
             "homepage": "https://www.cups.org/",
             "id": 271004,
@@ -6559,10 +6521,10 @@
             "license": "GPLv2 & LGPLv2",
             "pn": "cups",
             "provides": "cups ",
-            "pv": "2.2.6",
+            "pv": "2.2.8",
             "section": "console/utils",
             "summary": "An Internet printing system for Unix",
-            "updated": "2018-07-30T02:07:16+0000"
+            "updated": "2018-08-01T01:08:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6714,7 +6676,7 @@
             "pv": "1.6.2",
             "section": "base",
             "summary": "Tools for managing kernel packet filtering capabilities",
-            "updated": "2018-07-30T02:07:17+0000"
+            "updated": "2018-08-01T01:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -7075,7 +7037,7 @@
             "pv": "6.0",
             "section": "console/utils",
             "summary": "Utilities for extracting and viewing files in .zip archives",
-            "updated": "2018-05-25T01:05:03+0000"
+            "updated": "2018-08-01T01:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -7177,7 +7139,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Lsof is a Unix-specific diagnostic tool. Its name stands for LiSt Open Files, and it does just that.",
-            "filename": "lsof_4.89.bb",
+            "filename": "lsof_4.91.bb",
             "filepath": "recipes-extended/lsof",
             "homepage": "http://people.freebsd.org/~abe/",
             "id": 271040,
@@ -7186,10 +7148,10 @@
             "license": "BSD",
             "pn": "lsof",
             "provides": "lsof ",
-            "pv": "4.89",
+            "pv": "4.91",
             "section": "devel",
             "summary": "LiSt Open Files tool",
-            "updated": "2018-06-07T02:06:15+0000"
+            "updated": "2018-08-01T01:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -8051,7 +8013,7 @@
             "blacklisted": "",
             "bugtracker": "https://alioth.debian.org/tracker/?group_id=30580",
             "description": "",
-            "filename": "shadow-sysroot_4.2.1.bb",
+            "filename": "shadow-sysroot_4.6.bb",
             "filepath": "recipes-extended/shadow",
             "homepage": "http://pkg-shadow.alioth.debian.org",
             "id": 271088,
@@ -8060,17 +8022,17 @@
             "license": "BSD | Artistic-1.0",
             "pn": "shadow-sysroot",
             "provides": "shadow-sysroot ",
-            "pv": "4.2.1",
+            "pv": "4.6",
             "section": "base utils",
             "summary": "Shadow utils requirements for useradd.bbclass",
-            "updated": "2018-05-25T01:05:12+0000"
+            "updated": "2018-08-01T01:08:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://alioth.debian.org/tracker/?group_id=30580",
             "description": "",
-            "filename": "shadow_4.2.1.bb",
+            "filename": "shadow_4.6.bb",
             "filepath": "recipes-extended/shadow",
             "homepage": "http://pkg-shadow.alioth.debian.org",
             "id": 271089,
@@ -8079,17 +8041,17 @@
             "license": "BSD | Artistic-1.0",
             "pn": "shadow",
             "provides": "shadow ",
-            "pv": "4.2.1",
+            "pv": "4.6",
             "section": "base/utils",
             "summary": "Tools to change and administer password and group data",
-            "updated": "2018-07-30T02:07:29+0000"
+            "updated": "2018-08-01T01:08:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "shadow-securetty_4.2.1.bb",
+            "filename": "shadow-securetty_4.6.bb",
             "filepath": "recipes-extended/shadow",
             "homepage": "",
             "id": 271090,
@@ -8098,10 +8060,10 @@
             "license": "MIT",
             "pn": "shadow-securetty",
             "provides": "shadow-securetty ",
-            "pv": "4.2.1",
+            "pv": "4.6",
             "section": "base utils",
             "summary": "Provider of the machine specific securetty file",
-            "updated": "2018-05-25T01:05:12+0000"
+            "updated": "2018-08-01T01:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -8602,19 +8564,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Contains the lsusb utility for inspecting the devices connected to the USB bus.",
-            "filename": "usbutils_009.bb",
+            "filename": "usbutils_010.bb",
             "filepath": "recipes-bsp/usbutils",
             "homepage": "http://www.linux-usb.org",
             "id": 271120,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
-            "license": "GPLv2+",
+            "license": "GPLv2+ & (GPLv2 | GPLv3)",
             "pn": "usbutils",
             "provides": "usbutils ",
-            "pv": "009",
+            "pv": "010",
             "section": "base",
             "summary": "Host side USB console utilities",
-            "updated": "2018-07-30T02:07:31+0000"
+            "updated": "2018-08-01T01:08:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9279,7 +9241,7 @@
             "pv": "0.6.2",
             "section": "devel/python",
             "summary": "Python framework to process interdependent tasks in a pool of workers",
-            "updated": "2018-07-30T02:07:40+0000"
+            "updated": "2018-08-01T01:08:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9298,7 +9260,7 @@
             "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-07-30T02:07:41+0000"
+            "updated": "2018-08-01T01:08:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -9336,7 +9298,7 @@
             "pv": "10.0.1",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2018-07-30T02:07:14+0000"
+            "updated": "2018-08-01T01:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9355,7 +9317,7 @@
             "pv": "1.11.0",
             "section": "devel/python",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2018-07-30T02:07:42+0000"
+            "updated": "2018-08-01T01:08:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -9374,7 +9336,7 @@
             "pv": "1.15.6",
             "section": "python-devel",
             "summary": "Python bindings for the Cairo canvas library",
-            "updated": "2018-07-30T02:07:38+0000"
+            "updated": "2018-08-01T01:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9393,7 +9355,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Extends Python unittest to make testing easier",
-            "updated": "2018-07-30T02:07:41+0000"
+            "updated": "2018-08-01T01:08:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -9412,7 +9374,7 @@
             "pv": "0.14",
             "section": "devel/python",
             "summary": "Text processing system for documentation",
-            "updated": "2018-07-30T02:07:44+0000"
+            "updated": "2018-08-01T01:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -9431,7 +9393,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2018-07-30T02:07:42+0000"
+            "updated": "2018-08-01T01:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -9469,7 +9431,7 @@
             "pv": "1.0.7",
             "section": "devel/python",
             "summary": "Templating library for Python",
-            "updated": "2018-07-30T02:07:44+0000"
+            "updated": "2018-08-01T01:08:13+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9488,7 +9450,7 @@
             "pv": "0.9.0",
             "section": "devel/python",
             "summary": "Python implementation of a sliding window memory map manager",
-            "updated": "2018-07-30T02:07:44+0000"
+            "updated": "2018-08-01T01:08:13+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9564,7 +9526,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Extends Python unittest to make testing easier",
-            "updated": "2018-07-30T02:07:45+0000"
+            "updated": "2018-08-01T01:08:13+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9583,7 +9545,7 @@
             "pv": "2.0.3",
             "section": "devel/python",
             "summary": "A pure-Python git object database",
-            "updated": "2018-07-30T02:07:46+0000"
+            "updated": "2018-08-01T01:08:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9602,7 +9564,7 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "Accessing and Modifying INI files",
-            "updated": "2018-07-30T02:07:46+0000"
+            "updated": "2018-08-01T01:08:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9621,7 +9583,7 @@
             "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-07-30T02:07:44+0000"
+            "updated": "2018-08-01T01:08:14+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9640,7 +9602,7 @@
             "pv": "2.1.10",
             "section": "devel/python",
             "summary": "Python library used to interact with Git repositories",
-            "updated": "2018-07-30T02:07:47+0000"
+            "updated": "2018-08-01T01:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -9678,7 +9640,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2018-07-30T02:07:45+0000"
+            "updated": "2018-08-01T01:08:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -9736,25 +9698,6 @@
             "section": "base",
             "summary": "Configuration script to export target rootfs filesystem",
             "updated": "2018-05-25T01:05:32+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "A Perl script used for maintaining backwards compatibility with current desktop icon themes, while migrating to the names specified in the Icon Naming Specification. The Icon Naming Utilities map the icon names used by the GNOME and KDE desktops to the icon names proposed in the Icon Naming Specification, and generate the icon files appropriate to the desktop environment you use. The Icon Naming Specification provides a standard list of common icon contexts and names that can be used to make icon themes work in a desktop environment or application that implements the naming specification. ",
-            "filename": "icon-naming-utils_0.8.90.bb",
-            "filepath": "recipes-devtools/icon-naming-utils",
-            "homepage": "",
-            "id": 271195,
-            "inherits": "allarch autotools perlnative siteconfig siteinfo",
-            "layerbranch": 14953,
-            "license": "GPLv2",
-            "pn": "icon-naming-utils",
-            "provides": "icon-naming-utils ",
-            "pv": "0.8.90",
-            "section": "base",
-            "summary": "Enables backwards compatibility with current desktop icon themes",
-            "updated": "2018-07-30T02:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -9849,7 +9792,7 @@
             "pv": "1.14.5",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2018-07-30T02:07:47+0000"
+            "updated": "2018-08-01T01:08:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9868,7 +9811,7 @@
             "pv": "1.14.5",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2018-07-30T02:07:47+0000"
+            "updated": "2018-08-01T01:08:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -9944,25 +9887,6 @@
             "pv": "2.13.03",
             "section": "devel",
             "summary": "General-purpose x86 assembler",
-            "updated": "2018-07-30T02:07:49+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "This is a small set of various PaX aware and related utilities for ELF binaries. It can check ELF binary files and running processes for issues that might be relevant when using ELF binaries along with PaX, such as non-PIC code or executable stack and heap.",
-            "filename": "pax-utils_1.2.2.bb",
-            "filepath": "recipes-devtools/pax-utils",
-            "homepage": "http://www.gentoo.org/proj/en/hardened/pax-utils.xml",
-            "id": 271206,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
-            "layerbranch": 14953,
-            "license": "GPLv2+",
-            "pn": "pax-utils",
-            "provides": "pax-utils ",
-            "pv": "1.2.2",
-            "section": "base",
-            "summary": "Security-focused ELF files checking tool",
             "updated": "2018-07-30T02:07:49+0000"
         },
         {
@@ -11106,25 +11030,6 @@
             "updated": "2018-07-24T20:07:39+0000"
         },
         {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "OSSP uuid is a ISO-C:1999 application programming interface (API) and corresponding command line interface (CLI) for the generation of DCE 1.1, ISO/IEC 11578:1996 and RFC 4122 compliant Universally Unique Identifier (UUID). It supports DCE 1.1 variant UUIDs of version 1 (time and node based), version 3 (name based, MD5), version 4 (random number based) and version 5 (name based, SHA-1).",
-            "filename": "ossp-uuid_1.6.2.bb",
-            "filepath": "recipes-devtools/ossp-uuid",
-            "homepage": "http://www.ossp.org/pkg/lib/uuid/",
-            "id": 271273,
-            "inherits": "autotools siteconfig siteinfo update-alternatives",
-            "layerbranch": 14953,
-            "license": "MIT",
-            "pn": "ossp-uuid",
-            "provides": "ossp-uuid ",
-            "pv": "1.6.2",
-            "section": "libs",
-            "summary": "Universally Unique Identifier (UUID) library",
-            "updated": "2018-07-30T02:07:56+0000"
-        },
-        {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
@@ -11825,7 +11730,7 @@
             "pv": "2.27",
             "section": "base",
             "summary": "Locale data from glibc",
-            "updated": "2018-05-25T01:05:55+0000"
+            "updated": "2018-08-01T01:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -11958,7 +11863,7 @@
             "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-07-30T02:07:13+0000"
+            "updated": "2018-08-01T01:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -12022,7 +11927,7 @@
             "blacklisted": "",
             "bugtracker": "http://debbugs.gnu.org/coreutils",
             "description": "The GNU Core Utilities provide the basic file, shell and text manipulation utilities. These are the core utilities which are expected to exist on every system.",
-            "filename": "coreutils_8.29.bb",
+            "filename": "coreutils_8.30.bb",
             "filepath": "recipes-core/coreutils",
             "homepage": "http://www.gnu.org/software/coreutils/",
             "id": 271324,
@@ -12031,10 +11936,10 @@
             "license": "GPLv3+",
             "pn": "coreutils",
             "provides": "coreutils ",
-            "pv": "8.29",
+            "pv": "8.30",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2018-07-30T02:07:04+0000"
+            "updated": "2018-08-01T01:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -12148,7 +12053,7 @@
             "pv": "git",
             "section": "base",
             "summary": "OVMF - UEFI firmware for Qemu and KVM",
-            "updated": "2018-07-02T22:07:20+0000"
+            "updated": "2018-08-01T01:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -12205,7 +12110,7 @@
             "pv": "1.12.8",
             "section": "base",
             "summary": "D-Bus message bus",
-            "updated": "2018-07-30T02:07:05+0000"
+            "updated": "2018-08-01T01:08:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -12224,7 +12129,7 @@
             "pv": "0.110",
             "section": "base",
             "summary": "High level language (GLib) binding for D-Bus",
-            "updated": "2018-07-30T02:07:06+0000"
+            "updated": "2018-08-01T01:08:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12642,7 +12547,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-07-30T02:07:08+0000"
+            "updated": "2018-08-01T01:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -13124,7 +13029,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "update-rc.d is a utility that allows the management of symlinks to the initscripts in the /etc/rcN.d directory structure.",
-            "filename": "update-rc.d_0.7.bb",
+            "filename": "update-rc.d_0.8.bb",
             "filepath": "recipes-core/update-rc.d",
             "homepage": "http://github.com/philb/update-rc.d/",
             "id": 271382,
@@ -13133,10 +13038,10 @@
             "license": "GPLv2+",
             "pn": "update-rc.d",
             "provides": "update-rc.d ",
-            "pv": "0.7",
+            "pv": "0.8",
             "section": "base",
             "summary": "manage symlinks in /etc/rcN.d",
-            "updated": "2018-07-02T22:07:21+0000"
+            "updated": "2018-08-01T01:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -13383,7 +13288,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2018-07-24T20:07:39+0000"
+            "updated": "2018-08-01T01:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -14409,7 +14314,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-07-30T02:07:15+0000"
+            "updated": "2018-08-01T01:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -14884,7 +14789,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-07-30T02:07:16+0000"
+            "updated": "2018-08-01T01:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -14929,7 +14834,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc-cross-canadian_8.1.bb",
+            "filename": "gcc-cross-canadian_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646396,
@@ -14938,17 +14843,17 @@
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
             "pn": "gcc-cross-canadian-i586",
             "provides": "gcc-cross-canadian-i586 ",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i586 target)",
-            "updated": "2018-07-30T02:07:16+0000"
+            "updated": "2018-08-01T01:08:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc-cross-initial_8.1.bb",
+            "filename": "gcc-cross-initial_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646397,
@@ -14957,17 +14862,17 @@
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
             "pn": "gcc-cross-initial-i586",
             "provides": "gcc-cross-initial-i586 virtual/i586-oe-linux-gcc-initial",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:16+0000"
+            "updated": "2018-08-01T01:08:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc-cross_8.1.bb",
+            "filename": "gcc-cross_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646398,
@@ -14976,17 +14881,17 @@
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
             "pn": "gcc-cross-i586",
             "provides": "gcc-cross-i586 virtual/i586-oe-linux-gcc virtual/i586-oe-linux-g++",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:16+0000"
+            "updated": "2018-08-01T01:08:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc-crosssdk-initial_8.1.bb",
+            "filename": "gcc-crosssdk-initial_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646399,
@@ -14995,17 +14900,17 @@
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
             "pn": "gcc-crosssdk-initial-x86_64-oesdk-linux",
             "provides": "gcc-crosssdk-initial-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-gcc-initial-crosssdk",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:16+0000"
+            "updated": "2018-08-01T01:08:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc-crosssdk_8.1.bb",
+            "filename": "gcc-crosssdk_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646400,
@@ -15014,17 +14919,17 @@
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
             "pn": "gcc-crosssdk-x86_64-oesdk-linux",
             "provides": "gcc-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-gcc-crosssdk virtual/x86_64-oesdk-linux-g++-crosssdk",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:17+0000"
+            "updated": "2018-08-01T01:08:02+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc-runtime_8.1.bb",
+            "filename": "gcc-runtime_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646401,
@@ -15033,17 +14938,17 @@
             "license": "GPL-3.0-with-GCC-exception",
             "pn": "gcc-runtime",
             "provides": "gcc-runtime virtual/i586-oe-linux-compilerlibs",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2018-07-30T02:07:17+0000"
+            "updated": "2018-08-01T01:08:03+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc-sanitizers_8.1.bb",
+            "filename": "gcc-sanitizers_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646402,
@@ -15052,36 +14957,36 @@
             "license": "NCSA | MIT",
             "pn": "gcc-sanitizers",
             "provides": "gcc-sanitizers ",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:17+0000"
+            "updated": "2018-08-01T01:08:04+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc-source_8.1.bb",
+            "filename": "gcc-source_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646403,
             "inherits": "autotools gettext nopackages siteconfig siteinfo texinfo",
             "layerbranch": 14953,
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-source-8.1.0",
-            "provides": "gcc-source-8.1.0 ",
-            "pv": "8.1.0",
+            "pn": "gcc-source-8.2.0",
+            "provides": "gcc-source-8.2.0 ",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:17+0000"
+            "updated": "2018-08-01T01:08:04+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gcc_8.1.bb",
+            "filename": "gcc_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646404,
@@ -15090,17 +14995,17 @@
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
             "pn": "gcc",
             "provides": "gcc ",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:18+0000"
+            "updated": "2018-08-01T01:08:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgcc-initial_8.1.bb",
+            "filename": "libgcc-initial_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646405,
@@ -15109,17 +15014,17 @@
             "license": "GPL-3.0-with-GCC-exception",
             "pn": "libgcc-initial",
             "provides": "libgcc-initial ",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:18+0000"
+            "updated": "2018-08-01T01:08:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgcc_8.1.bb",
+            "filename": "libgcc_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646406,
@@ -15128,17 +15033,17 @@
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
             "pn": "libgcc",
             "provides": "libgcc ",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:18+0000"
+            "updated": "2018-08-01T01:08:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgfortran_8.1.bb",
+            "filename": "libgfortran_8.2.bb",
             "filepath": "recipes-devtools/gcc",
             "homepage": "http://www.gnu.org/software/gcc/",
             "id": 646407,
@@ -15147,10 +15052,105 @@
             "license": "GPL-3.0-with-GCC-exception & GPLv3",
             "pn": "libgfortran",
             "provides": "libgfortran ",
-            "pv": "8.1.0",
+            "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:18+0000"
+            "updated": "2018-08-01T01:08:05+0000"
+        },
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-extras_1.0.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.python.org/pypi/extras/",
+            "id": 682135,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14953,
+            "license": "Apache-2.0",
+            "pn": "python3-extras",
+            "provides": "python3-extras ",
+            "pv": "1.0.0",
+            "section": "devel/python",
+            "summary": "Useful extra bits for Python - things that should be in the standard library",
+            "updated": "2018-08-01T01:08:16+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
+            "filename": "python3-pbr_3.1.1.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.python.org/pypi/pbr",
+            "id": 682136,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14953,
+            "license": "Apache-2.0",
+            "pn": "python3-pbr",
+            "provides": "python3-pbr ",
+            "pv": "3.1.1",
+            "section": "devel/python",
+            "summary": "Python Build Reasonableness",
+            "updated": "2018-08-01T01:08:16+0000"
+        },
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-subunit_1.1.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.python.org/pypi/python-subunit/",
+            "id": 682137,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14953,
+            "license": "Apache-2.0",
+            "pn": "python3-subunit",
+            "provides": "python3-subunit ",
+            "pv": "1.1.0",
+            "section": "devel/python",
+            "summary": "Python implementation of subunit test streaming protocol",
+            "updated": "2018-08-01T01:08:16+0000"
+        },
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-testtools_2.2.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.python.org/pypi/testtools/",
+            "id": 682138,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14953,
+            "license": "Apache-2.0",
+            "pn": "python3-testtools",
+            "provides": "python3-testtools ",
+            "pv": "2.2.0",
+            "section": "devel/python",
+            "summary": "Extensions to the Python standard library unit testing framework",
+            "updated": "2018-08-01T01:08:16+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Implementation of the Stringprep, Punycode and IDNA specifications defined by the IETF Internationalized Domain Names (IDN) working group.",
+            "filename": "libidn2_2.0.5.bb",
+            "filepath": "recipes-extended/libidn",
+            "homepage": "http://www.gnu.org/software/libidn/",
+            "id": 682139,
+            "inherits": "autotools gettext gtk-doc lib_package pkgconfig python3-dir python3native qemu siteconfig siteinfo texinfo",
+            "layerbranch": 14953,
+            "license": "(GPLv2+ | LGPLv3) & GPLv3+",
+            "pn": "libidn2",
+            "provides": "libidn2 ",
+            "pv": "2.0.5",
+            "section": "libs",
+            "summary": "Internationalized Domain Name support library",
+            "updated": "2018-08-01T01:08:17+0000"
         }
     ],
     "wrtemplates": []

@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180730",
+            "bitbake_branch": "wr-10.18-20180731",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-07-30T02:07:16+0000",
+            "updated": "2018-08-01T01:08:06+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180730",
+            "actual_branch": "wr-10.18-20180731",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-07-31T01:07:52+0000",
-            "vcs_last_commit": "2018-07-31T01:07:52+0000",
-            "vcs_last_fetch": "2018-07-31T01:07:52+0000",
-            "vcs_last_rev": "0dffb2ea5df734d76476006cbef93733577c1de8",
+            "updated": "2018-08-01T01:08:20+0000",
+            "vcs_last_commit": "2018-08-01T01:08:20+0000",
+            "vcs_last_fetch": "2018-08-01T01:08:20+0000",
+            "vcs_last_rev": "18606b65a82e3c7adaaa4da212fd3a86e925cc19",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180723",
+            "actual_branch": "wr-10.18-20180731",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-07-30T20:07:26+0000",
-            "vcs_last_commit": "2018-07-30T20:07:26+0000",
-            "vcs_last_fetch": "2018-07-30T20:07:26+0000",
-            "vcs_last_rev": "4460c46e4eabdf8a286e97d85a7a7bcf0b50c634",
+            "updated": "2018-07-30T22:07:52+0000",
+            "vcs_last_commit": "2018-07-30T22:07:52+0000",
+            "vcs_last_fetch": "2018-07-30T22:07:52+0000",
+            "vcs_last_rev": "13a20d74ffea48a53fe9aa8caa086d1d0a9e13a9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -1932,7 +1932,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Tslib is an abstraction layer for touchscreen panel events, as well as a filter stack for the manipulation of those events. Tslib is generally used on embedded devices to provide a common user space interface to touchscreen functionality.",
-            "filename": "tslib_1.15.bb",
+            "filename": "tslib_1.16.bb",
             "filepath": "recipes-graphics/tslib",
             "homepage": "http://tslib.org/",
             "id": 268976,
@@ -1941,10 +1941,10 @@
             "license": "LGPLv2+ & GPLv2+",
             "pn": "tslib",
             "provides": "tslib ",
-            "pv": "1.15",
+            "pv": "1.16",
             "section": "base",
             "summary": "An abstraction layer for touchscreen panel events",
-            "updated": "2018-05-08T03:05:54+0000"
+            "updated": "2018-08-01T01:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -3410,7 +3410,7 @@
             "updated": "2018-06-19T20:06:30+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "libftdi is a library to talk to FTDI chips.FT232BM/245BM, FT2232C/D and FT232/245R using libusb,including the popular bitbang mode.",
@@ -3426,7 +3426,7 @@
             "pv": "1.4",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-19T20:06:30+0000"
+            "updated": "2018-08-01T01:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3730,7 +3730,7 @@
             "pv": "9.4.18",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2018-07-10T02:07:52+0000"
+            "updated": "2018-08-01T01:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6466,7 +6466,7 @@
             "pv": "1.0.2",
             "section": "base",
             "summary": "User-space tools for LinuxPPS",
-            "updated": "2018-07-24T20:07:52+0000"
+            "updated": "2018-08-01T01:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -7872,7 +7872,7 @@
             "pv": "52.8.1",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2018-07-19T21:07:21+0000"
+            "updated": "2018-08-01T01:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -9544,7 +9544,7 @@
             "pv": "5.6.36",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-07-16T20:07:46+0000"
+            "updated": "2018-08-01T01:08:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -9563,7 +9563,7 @@
             "pv": "7.2.7",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-07-16T20:07:50+0000"
+            "updated": "2018-08-01T01:08:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9589,7 +9589,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.",
-            "filename": "protobuf_3.5.1.bb",
+            "filename": "protobuf_3.6.0.1.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/google/protobuf",
             "id": 269429,
@@ -9598,10 +9598,10 @@
             "license": "BSD-3-Clause",
             "pn": "protobuf",
             "provides": "protobuf ",
-            "pv": "3.5.1+gitX",
+            "pv": "3.6.0.1+gitX",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2018-07-10T02:07:51+0000"
+            "updated": "2018-08-01T01:08:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9620,7 +9620,7 @@
             "pv": "1.3.0+gitX",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2018-07-10T02:07:50+0000"
+            "updated": "2018-08-01T01:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -9981,7 +9981,7 @@
             "pv": "2.39",
             "section": "devel/python",
             "summary": "python-distutils extension",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2018-08-01T01:08:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -10000,7 +10000,7 @@
             "pv": "2.39",
             "section": "devel/python",
             "summary": "python-distutils extension",
-            "updated": "2017-09-26T04:09:56+0000"
+            "updated": "2018-08-01T01:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -11292,7 +11292,7 @@
             "pv": "2.18",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2018-07-24T20:07:51+0000"
+            "updated": "2018-08-01T01:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -12147,14 +12147,14 @@
             "pv": "2.10.2",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-06-19T20:06:29+0000"
+            "updated": "2018-08-01T01:08:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgpiod_1.1.bb",
+            "filename": "libgpiod_1.1.1.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 625471,
@@ -12163,29 +12163,10 @@
             "license": "LGPLv2.1+",
             "pn": "libgpiod",
             "provides": "libgpiod ",
-            "pv": "1.1",
+            "pv": "1.1.1",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2018-06-19T20:06:30+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "websocketpp_0.7.0.bb",
-            "filepath": "recipes-support/websocketpp",
-            "homepage": "https://github.com/zaphoyd/websocketpp",
-            "id": 625472,
-            "inherits": "cmake",
-            "layerbranch": 14965,
-            "license": "BSD-3-Clause",
-            "pn": "websocketpp",
-            "provides": "websocketpp ",
-            "pv": "0.7.0",
-            "section": "libs/network",
-            "summary": "C++/Boost Asio based websocket client/server library.",
-            "updated": "2018-05-08T03:05:56+0000"
+            "updated": "2018-08-01T01:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -12471,6 +12452,63 @@
             "section": "base",
             "summary": "Linux Kernel Crypto API User Space Interface Library",
             "updated": "2018-07-24T20:07:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel. The LIBNVDIMM subsystem provides support for three types of NVDIMMs, namely,PMEM, BLK, and NVDIMM devices that can simultaneously support both PMEM and BLK mode access.",
+            "filename": "ndctl_git.bb",
+            "filepath": "recipes-core/ndctl",
+            "homepage": "https://git.kernel.org/cgit/linux/kernel/git/nvdimm/nvdimm.git/tree/Documentation/nvdimm/nvdimm.txt?h=libnvdimm-for-next",
+            "id": 682140,
+            "inherits": "autotools autotools-brokensep kernel-arch module-base pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv2+",
+            "pn": "ndctl",
+            "provides": "ndctl ",
+            "pv": "v61+gitX",
+            "section": "base",
+            "summary": "libnvdimm utility library",
+            "updated": "2018-08-01T01:08:26+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This is a small set of various PaX aware and related utilities for ELF binaries. It can check ELF binary files and running processes for issues that might be relevant when using ELF binaries along with PaX, such as non-PIC code or executable stack and heap.",
+            "filename": "pax-utils_1.2.2.bb",
+            "filepath": "recipes-devtools/pax-utils",
+            "homepage": "http://www.gentoo.org/proj/en/hardened/pax-utils.xml",
+            "id": 682141,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv2+",
+            "pn": "pax-utils",
+            "provides": "pax-utils ",
+            "pv": "1.2.2",
+            "section": "base",
+            "summary": "Security-focused ELF files checking tool",
+            "updated": "2018-08-01T01:08:26+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "http://www.libusb.org/report",
+            "description": "libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims to look, feel and behave exactly like libusb-0.1",
+            "filename": "libusb-compat_0.1.5.bb",
+            "filepath": "recipes-support/libusb",
+            "homepage": "http://www.libusb.org/",
+            "id": 682142,
+            "inherits": "autotools binconfig-disabled lib_package pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1+",
+            "pn": "libusb-compat",
+            "provides": "libusb-compat libusb virtual/libusb0",
+            "pv": "0.1.5",
+            "section": "libs",
+            "summary": "libusb-0.1 compatibility layer for libusb1",
+            "updated": "2018-08-01T01:08:26+0000"
         }
     ],
     "wrtemplates": []
