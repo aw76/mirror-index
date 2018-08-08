@@ -18,7 +18,15 @@
             "updates_enabled": true
         }
     ],
-    "distros": [],
+    "distros": [
+        {
+            "description": "overc",
+            "id": 3358,
+            "layerbranch": 833857,
+            "name": "overc",
+            "updated": "2018-08-06T18:08:27+0000"
+        }
+    ],
     "layerBranches": [
         {
             "actual_branch": "wr-10.18-20180806",
@@ -35,16 +43,16 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "",
+            "actual_branch": "wr-10.18-20180726",
             "branch": 38,
-            "collection": "wr-template",
-            "id": 15008,
-            "layer": 55,
-            "updated": "2018-04-10T03:04:26+0000",
-            "vcs_last_commit": "2018-04-10T03:04:26+0000",
-            "vcs_last_fetch": "2018-04-10T03:04:26+0000",
-            "vcs_last_rev": "a821f23f2aa8d8e2fabc11103629c0f9e105efa3",
-            "vcs_subdir": "",
+            "collection": "cube",
+            "id": 833857,
+            "layer": 246,
+            "updated": "2018-08-06T18:08:14+0000",
+            "vcs_last_commit": "2018-08-06T18:08:14+0000",
+            "vcs_last_fetch": "2018-08-06T18:08:14+0000",
+            "vcs_last_rev": "679de0e798963b04c4408d1b3a677380159a790d",
+            "vcs_subdir": "meta-cube",
             "version": "1",
             "yp_compatible_version": null
         }
@@ -52,8 +60,8 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 10157,
-            "layerbranch": 15008,
+            "id": 40752,
+            "layerbranch": 833857,
             "required": true
         }
     ],
@@ -78,18 +86,18 @@
         },
         {
             "classic": false,
-            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
-            "id": 55,
-            "index_preference": 900,
-            "layer_type": "A",
+            "description": "Recipe changes for OverC related cubes (containers)",
+            "id": 246,
+            "index_preference": 0,
+            "layer_type": "S",
             "mailing_list_url": "",
-            "name": "wr-template",
+            "name": "meta-cube",
             "status": "P",
-            "summary": "Wind River Template Support",
-            "updated": "2018-05-30T17:05:28+0000",
-            "usage_url": "README",
-            "vcs_url": "#BASE_URL#/wr-template",
-            "vcs_web_commit_url": "",
+            "summary": "Recipe changes for OverC related cubes (containers)",
+            "updated": "2018-08-06T18:08:24+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""

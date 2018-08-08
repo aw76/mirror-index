@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180731",
+            "bitbake_branch": "wr-10.18-20180806",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-01T01:08:06+0000",
+            "updated": "2018-08-06T03:08:00+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180731",
+            "actual_branch": "wr-10.18-20180806",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-01T01:08:20+0000",
-            "vcs_last_commit": "2018-08-01T01:08:20+0000",
-            "vcs_last_fetch": "2018-08-01T01:08:20+0000",
-            "vcs_last_rev": "18606b65a82e3c7adaaa4da212fd3a86e925cc19",
+            "updated": "2018-08-08T02:08:46+0000",
+            "vcs_last_commit": "2018-08-08T02:08:46+0000",
+            "vcs_last_fetch": "2018-08-08T02:08:46+0000",
+            "vcs_last_rev": "29d4b1147ee098af895ab8144642aedfc5c491a8",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180730",
+            "actual_branch": "wr-10.18-20180806",
             "branch": 38,
             "collection": "tpm2",
             "id": 57005,
             "layer": 152,
-            "updated": "2018-07-29T20:07:38+0000",
-            "vcs_last_commit": "2018-07-29T20:07:38+0000",
-            "vcs_last_fetch": "2018-07-29T20:07:38+0000",
-            "vcs_last_rev": "5078f311e53e49a33b1da10d090f99d9c966b2c4",
+            "updated": "2018-08-06T03:08:11+0000",
+            "vcs_last_commit": "2018-08-06T03:08:11+0000",
+            "vcs_last_fetch": "2018-08-06T03:08:11+0000",
+            "vcs_last_rev": "f2dad57cc0bbc209c8841fc0f434c5c2825d3b5e",
             "vcs_subdir": "meta-tpm2",
             "version": null,
             "yp_compatible_version": null
@@ -196,7 +196,7 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "Tools for TPM2",
-            "updated": "2018-07-16T20:07:20+0000"
+            "updated": "2018-08-06T04:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +215,7 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2018-07-16T20:07:20+0000"
+            "updated": "2018-08-06T04:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -234,14 +234,14 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "The TCG TPM2 Software Stack",
-            "updated": "2018-07-16T20:07:20+0000"
+            "updated": "2018-08-06T04:08:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is a system daemon implementing the TPM2 Access Broker (AB) and Resource Manager (RM) specification from the TCG (Trusted Computing Group). The daemon (tpm2-abrmd) is implemented using Glib and the GObject system.",
-            "filename": "tpm2-abrmd_1.3.1.bb",
+            "filename": "tpm2-abrmd_2.0.1.bb",
             "filepath": "recipes-tpm/tpm2-abrmd",
             "homepage": "https://github.com/tpm2-software/tpm2-abrmd",
             "id": 646419,
@@ -250,17 +250,17 @@
             "license": "BSD-2-Clause",
             "pn": "tpm2-abrmd",
             "provides": "tpm2-abrmd ",
-            "pv": "1.3.1",
+            "pv": "2.0.1",
             "section": "security/tpm",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2018-07-02T22:07:17+0000"
+            "updated": "2018-08-06T04:08:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This project builds a set of command-line tools for interacting with a TPM (Trusted Platform Module) 2.",
-            "filename": "tpm2-tools_3.0.4.bb",
+            "filename": "tpm2-tools_3.1.1.bb",
             "filepath": "recipes-tpm/tpm2-tools",
             "homepage": "https://github.com/tpm2-software/tpm2-tools",
             "id": 646420,
@@ -269,17 +269,17 @@
             "license": "BSD",
             "pn": "tpm2-tools",
             "provides": "tpm2-tools ",
-            "pv": "3.0.4",
+            "pv": "3.1.1",
             "section": "security/tpm",
             "summary": "Tools for TPM2",
-            "updated": "2018-06-19T20:06:54+0000"
+            "updated": "2018-08-06T04:08:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The TCG (Trusted Computing Group) Software Stack (TSS) provides a standard API for accessing the functions of the TPM. Application developers can use this software to develop interoperable client applications.",
-            "filename": "tpm2-tss_1.4.0.bb",
+            "filename": "tpm2-tss_2.0.0.bb",
             "filepath": "recipes-tpm/tpm2-tss",
             "homepage": "https://github.com/tpm2-software/tpm2-tss",
             "id": 646421,
@@ -287,11 +287,11 @@
             "layerbranch": 57005,
             "license": "BSD-2-Clause",
             "pn": "tpm2-tss",
-            "provides": "tpm2-tss      tpm2-tss-dbg     tpm2-tss-doc     libtss2     libtss2-dev     libtss2-staticdev     libtctidevice     libtctidevice-dev     libtctidevice-staticdev     libtctisocket     libtctisocket-dev     libtctisocket-staticdev     ",
-            "pv": "1.4.0",
+            "provides": "tpm2-tss      libtss2-mu     libtss2-mu-dev     libtss2-mu-staticdev     libtss2-tcti-device     libtss2-tcti-device-dev     libtss2-tcti-device-staticdev     libtss2-tcti-mssim     libtss2-tcti-mssim-dev     libtss2-tcti-mssim-staticdev     libtss2     libtss2-dev     libtss2-staticdev     tpm2-tss     tpm2-tss-doc     tpm2-tss-dbg ",
+            "pv": "2.0.0",
             "section": "security/tpm",
             "summary": "The TCG TPM2 Software Stack",
-            "updated": "2018-06-19T20:06:54+0000"
+            "updated": "2018-08-06T04:08:31+0000"
         }
     ],
     "wrtemplates": []

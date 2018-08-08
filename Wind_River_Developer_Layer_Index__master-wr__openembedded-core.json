@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180731",
+            "bitbake_branch": "wr-10.18-20180806",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-01T01:08:06+0000",
+            "updated": "2018-08-06T03:08:00+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180731",
+            "actual_branch": "wr-10.18-20180806",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-01T01:08:20+0000",
-            "vcs_last_commit": "2018-08-01T01:08:20+0000",
-            "vcs_last_fetch": "2018-08-01T01:08:20+0000",
-            "vcs_last_rev": "18606b65a82e3c7adaaa4da212fd3a86e925cc19",
+            "updated": "2018-08-08T02:08:46+0000",
+            "vcs_last_commit": "2018-08-08T02:08:46+0000",
+            "vcs_last_fetch": "2018-08-08T02:08:46+0000",
+            "vcs_last_rev": "29d4b1147ee098af895ab8144642aedfc5c491a8",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -91,14 +91,14 @@
             "id": 10496,
             "layerbranch": 14953,
             "name": "qemumips64",
-            "updated": "2018-05-25T01:05:22+0000"
+            "updated": "2018-08-06T03:08:42+0000"
         },
         {
             "description": "mti_malta32_be",
             "id": 10497,
             "layerbranch": 14953,
             "name": "qemumips",
-            "updated": "2018-05-25T01:05:22+0000"
+            "updated": "2018-08-06T03:08:42+0000"
         },
         {
             "description": " a common x86",
@@ -539,7 +539,7 @@
             "pv": "1.4.7+gitX",
             "section": "base",
             "summary": "Clutter based UI widget library",
-            "updated": "2018-07-30T02:07:23+0000"
+            "updated": "2018-08-06T03:08:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2579,7 +2579,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers",
             "description": "Vulkan is a new generation graphics and compute API that provides efficient access to modern GPUs. These packages provide only the common vendor-agnostic library loader, headers and the vulkaninfo utility.",
-            "filename": "vulkan_1.0.65.2.bb",
+            "filename": "vulkan_1.1.73.0.bb",
             "filepath": "recipes-graphics/vulkan",
             "homepage": "https://www.khronos.org/vulkan/",
             "id": 270757,
@@ -2588,10 +2588,10 @@
             "license": "Apache-2.0",
             "pn": "vulkan",
             "provides": "vulkan ",
-            "pv": "1.0.65.2",
+            "pv": "1.1.73.0",
             "section": "libs",
             "summary": "3D graphics and compute API common loader",
-            "updated": "2018-07-02T22:07:43+0000"
+            "updated": "2018-08-06T03:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2629,7 +2629,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:44+0000"
+            "updated": "2018-08-06T03:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -3712,7 +3712,7 @@
             "pv": "3.3",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2018-07-30T02:07:16+0000"
+            "updated": "2018-08-06T03:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -4510,7 +4510,7 @@
             "pv": "0.7.9",
             "section": "base",
             "summary": "An alternate posix capabilities library",
-            "updated": "2018-07-30T02:07:57+0000"
+            "updated": "2018-08-06T03:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -4738,7 +4738,7 @@
             "pv": "0.52.2",
             "section": "base",
             "summary": "Virtual terminal emulator GTK+ widget library",
-            "updated": "2018-07-30T02:07:59+0000"
+            "updated": "2018-08-06T03:08:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -4776,7 +4776,7 @@
             "pv": "4.13",
             "section": "base",
             "summary": "Library for ASN.1 and DER manipulation",
-            "updated": "2018-07-30T02:07:00+0000"
+            "updated": "2018-08-06T03:08:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4795,7 +4795,7 @@
             "pv": "3.6.2",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2018-08-01T01:08:11+0000"
+            "updated": "2018-08-06T03:08:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4852,7 +4852,7 @@
             "pv": "2.62.2",
             "section": "x11/gnome/libs",
             "summary": "An HTTP library implementation in C",
-            "updated": "2018-07-30T02:07:01+0000"
+            "updated": "2018-08-06T03:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -4909,7 +4909,7 @@
             "pv": "0.6.12",
             "section": "x11/utils",
             "summary": "Cascading Style Sheet (CSS) parsing and manipulation toolkit",
-            "updated": "2018-07-30T02:07:02+0000"
+            "updated": "2018-08-06T03:08:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4985,7 +4985,7 @@
             "pv": "1.11.1",
             "section": "base",
             "summary": "High-level GnuPG encryption/signing API",
-            "updated": "2018-07-30T02:07:03+0000"
+            "updated": "2018-08-06T03:08:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5118,7 +5118,7 @@
             "pv": "0.22.1",
             "section": "base",
             "summary": "Provides a way to load and enumerate PKCS#11 modules",
-            "updated": "2018-07-30T02:07:05+0000"
+            "updated": "2018-08-06T03:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -5137,7 +5137,7 @@
             "pv": "1.3.0.2",
             "section": "x11/libs",
             "summary": "Library for file management",
-            "updated": "2018-07-30T02:07:05+0000"
+            "updated": "2018-08-06T03:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5156,7 +5156,7 @@
             "pv": "1.3.0.2",
             "section": "x11/libs",
             "summary": "Library for file management",
-            "updated": "2018-07-30T02:07:05+0000"
+            "updated": "2018-08-06T03:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5365,7 +5365,7 @@
             "pv": "3.4",
             "section": "console/utils",
             "summary": "Tools to generate block map (AKA bmap) and flash images using bmap",
-            "updated": "2018-08-01T01:08:15+0000"
+            "updated": "2018-08-06T03:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5384,7 +5384,7 @@
             "pv": "2.28.0",
             "section": "base",
             "summary": "Assistive Technology Service Provider Interface (dbus core)",
-            "updated": "2018-07-16T20:07:37+0000"
+            "updated": "2018-08-06T03:08:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -5403,7 +5403,7 @@
             "pv": "2.28.1",
             "section": "x11/libs",
             "summary": "Accessibility toolkit for GNOME",
-            "updated": "2018-07-24T20:07:35+0000"
+            "updated": "2018-08-06T03:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5422,7 +5422,7 @@
             "pv": "2.26.2",
             "section": "base",
             "summary": "AT-SPI 2 Toolkit Bridge",
-            "updated": "2018-07-16T20:07:38+0000"
+            "updated": "2018-08-06T03:08:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5631,7 +5631,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-07-30T02:07:16+0000"
+            "updated": "2018-08-06T03:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -5650,7 +5650,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-07-30T02:07:10+0000"
+            "updated": "2018-08-06T03:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -5669,7 +5669,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-07-30T02:07:17+0000"
+            "updated": "2018-08-06T03:08:50+0000"
         },
         {
             "bbclassextend": "",
@@ -5688,7 +5688,7 @@
             "pv": "0.0.1+gitX",
             "section": "base",
             "summary": "GStreamer examples (including gtk-play, gst-play)",
-            "updated": "2018-07-16T20:07:38+0000"
+            "updated": "2018-08-06T03:08:50+0000"
         },
         {
             "bbclassextend": "",
@@ -5707,7 +5707,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-07-30T02:07:17+0000"
+            "updated": "2018-08-06T03:08:50+0000"
         },
         {
             "bbclassextend": "",
@@ -5726,7 +5726,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "A library on top of GStreamer for building an RTSP server",
-            "updated": "2018-07-30T02:07:10+0000"
+            "updated": "2018-08-06T03:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -5745,7 +5745,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2018-07-30T02:07:10+0000"
+            "updated": "2018-08-06T03:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -5764,7 +5764,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "Libav-based GStreamer 1.x plugin",
-            "updated": "2018-07-30T02:07:10+0000"
+            "updated": "2018-08-06T03:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -5783,7 +5783,7 @@
             "pv": "1.14.1",
             "section": "base",
             "summary": "VA-API support to GStreamer",
-            "updated": "2018-07-30T02:07:17+0000"
+            "updated": "2018-08-06T03:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -5802,7 +5802,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "OpenMAX IL plugins for GStreamer",
-            "updated": "2018-07-30T02:07:10+0000"
+            "updated": "2018-08-06T03:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -6258,7 +6258,7 @@
             "pv": "1.8.23",
             "section": "admin",
             "summary": "Provide limited super user privileges to specific users",
-            "updated": "2018-07-30T02:07:14+0000"
+            "updated": "2018-08-06T03:08:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -7512,7 +7512,7 @@
             "pv": "1.35",
             "section": "libs",
             "summary": "Internationalized Domain Name support library",
-            "updated": "2018-07-30T02:07:23+0000"
+            "updated": "2018-08-06T03:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -7740,7 +7740,7 @@
             "pv": "0.52.20",
             "section": "libs",
             "summary": "A library for text mode user interfaces - python",
-            "updated": "2018-07-30T02:07:26+0000"
+            "updated": "2018-08-06T03:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -8177,7 +8177,7 @@
             "pv": "239",
             "section": "base",
             "summary": "A System and service manager",
-            "updated": "2018-07-24T20:07:30+0000"
+            "updated": "2018-08-06T03:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -8310,7 +8310,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2018-07-30T02:07:30+0000"
+            "updated": "2018-08-07T10:08:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -8329,7 +8329,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2018-07-30T02:07:30+0000"
+            "updated": "2018-08-07T10:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -8462,7 +8462,7 @@
             "pv": "2018.07",
             "section": "bootloaders",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-07-24T20:07:30+0000"
+            "updated": "2018-08-06T03:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -8652,7 +8652,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:33+0000"
+            "updated": "2018-08-06T03:08:55+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8671,7 +8671,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:33+0000"
+            "updated": "2018-08-06T03:08:55+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8690,7 +8690,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2018-07-30T02:07:33+0000"
+            "updated": "2018-08-06T03:08:55+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8709,7 +8709,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:33+0000"
+            "updated": "2018-08-06T03:08:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8728,7 +8728,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:34+0000"
+            "updated": "2018-08-06T03:08:56+0000"
         },
         {
             "bbclassextend": "",
@@ -8747,7 +8747,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i586 target)",
-            "updated": "2018-07-30T02:07:34+0000"
+            "updated": "2018-08-06T03:08:56+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8766,7 +8766,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:34+0000"
+            "updated": "2018-08-06T03:08:56+0000"
         },
         {
             "bbclassextend": "",
@@ -8785,7 +8785,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:34+0000"
+            "updated": "2018-08-06T03:08:56+0000"
         },
         {
             "bbclassextend": "",
@@ -8804,7 +8804,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:34+0000"
+            "updated": "2018-08-06T03:08:56+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8823,7 +8823,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:35+0000"
+            "updated": "2018-08-06T03:08:57+0000"
         },
         {
             "bbclassextend": "",
@@ -8842,7 +8842,7 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:35+0000"
+            "updated": "2018-08-06T03:08:57+0000"
         },
         {
             "bbclassextend": "",
@@ -8861,14 +8861,14 @@
             "pv": "7.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-07-30T02:07:35+0000"
+            "updated": "2018-08-06T03:08:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.",
-            "filename": "e2fsprogs_1.44.2.bb",
+            "filename": "e2fsprogs_1.44.3.bb",
             "filepath": "recipes-devtools/e2fsprogs",
             "homepage": "http://e2fsprogs.sourceforge.net/",
             "id": 271148,
@@ -8877,10 +8877,10 @@
             "license": "GPLv2 & LGPLv2 & BSD & MIT",
             "pn": "e2fsprogs",
             "provides": "e2fsprogs ",
-            "pv": "1.44.2",
+            "pv": "1.44.3",
             "section": "base",
             "summary": "Ext2 Filesystem Utilities",
-            "updated": "2018-07-30T02:07:35+0000"
+            "updated": "2018-08-06T03:08:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -9051,7 +9051,7 @@
             "pv": "4.14.1",
             "section": "base",
             "summary": "The RPM package management system",
-            "updated": "2018-07-30T02:07:38+0000"
+            "updated": "2018-08-06T03:08:58+0000"
         },
         {
             "bbclassextend": "",
@@ -9108,7 +9108,7 @@
             "pv": "1.8.1",
             "section": "base",
             "summary": " A library providing C and Python (libcURL like) API for downloading linux repository metadata and packages.",
-            "updated": "2018-07-02T22:07:41+0000"
+            "updated": "2018-08-06T03:08:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9184,7 +9184,7 @@
             "pv": "4.17",
             "section": "base",
             "summary": "Checksumming Copy on Write Filesystem utilities",
-            "updated": "2018-07-30T02:07:08+0000"
+            "updated": "2018-08-06T03:08:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9241,7 +9241,7 @@
             "pv": "0.6.2",
             "section": "devel/python",
             "summary": "Python framework to process interdependent tasks in a pool of workers",
-            "updated": "2018-08-01T01:08:11+0000"
+            "updated": "2018-08-06T03:08:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9260,7 +9260,7 @@
             "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-08-01T01:08:11+0000"
+            "updated": "2018-08-06T03:08:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -9279,7 +9279,7 @@
             "pv": "3.28.3",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2018-07-30T02:07:40+0000"
+            "updated": "2018-08-06T03:08:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9298,7 +9298,7 @@
             "pv": "10.0.1",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2018-08-01T01:08:12+0000"
+            "updated": "2018-08-06T03:08:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9317,7 +9317,7 @@
             "pv": "1.11.0",
             "section": "devel/python",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2018-08-01T01:08:12+0000"
+            "updated": "2018-08-06T04:08:00+0000"
         },
         {
             "bbclassextend": "native",
@@ -9336,7 +9336,7 @@
             "pv": "1.15.6",
             "section": "python-devel",
             "summary": "Python bindings for the Cairo canvas library",
-            "updated": "2018-08-01T01:08:12+0000"
+            "updated": "2018-08-06T04:08:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9355,7 +9355,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Extends Python unittest to make testing easier",
-            "updated": "2018-08-01T01:08:12+0000"
+            "updated": "2018-08-06T04:08:00+0000"
         },
         {
             "bbclassextend": "native",
@@ -9374,7 +9374,7 @@
             "pv": "0.14",
             "section": "devel/python",
             "summary": "Text processing system for documentation",
-            "updated": "2018-08-01T01:08:12+0000"
+            "updated": "2018-08-06T04:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -9393,7 +9393,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2018-08-01T01:08:13+0000"
+            "updated": "2018-08-06T04:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -9412,7 +9412,7 @@
             "pv": "1.2.8",
             "section": "devel/python",
             "summary": "Python bindings for the DBus inter-process communication system",
-            "updated": "2018-07-30T02:07:42+0000"
+            "updated": "2018-08-06T04:08:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9431,7 +9431,7 @@
             "pv": "1.0.7",
             "section": "devel/python",
             "summary": "Templating library for Python",
-            "updated": "2018-08-01T01:08:13+0000"
+            "updated": "2018-08-06T04:08:01+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9450,7 +9450,7 @@
             "pv": "0.9.0",
             "section": "devel/python",
             "summary": "Python implementation of a sliding window memory map manager",
-            "updated": "2018-08-01T01:08:13+0000"
+            "updated": "2018-08-06T04:08:01+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10229,7 +10229,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities (cross-canadian for i586 target)",
-            "updated": "2018-07-30T02:07:07+0000"
+            "updated": "2018-08-08T03:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -10248,7 +10248,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-07-30T02:07:07+0000"
+            "updated": "2018-08-08T03:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -10267,7 +10267,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-07-30T02:07:07+0000"
+            "updated": "2018-08-08T03:08:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10286,7 +10286,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-07-30T02:07:08+0000"
+            "updated": "2018-08-08T03:08:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10791,7 +10791,7 @@
             "filepath": "recipes-devtools/libtool",
             "homepage": "http://www.gnu.org/software/libtool/libtool.html",
             "id": 271256,
-            "inherits": "autotools siteconfig siteinfo texinfo",
+            "inherits": "autotools multilib_script siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 14953,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "libtool",
@@ -10799,7 +10799,7 @@
             "pv": "2.4.6",
             "section": "devel",
             "summary": "Generic library support script",
-            "updated": "2018-07-30T02:07:54+0000"
+            "updated": "2018-08-06T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -10837,7 +10837,7 @@
             "pv": "2.0.2+X",
             "section": "base",
             "summary": "Tools for managing memory technology devices",
-            "updated": "2018-07-30T02:07:55+0000"
+            "updated": "2018-08-06T03:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12148,7 +12148,7 @@
             "pv": "2.9.8",
             "section": "libs",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2018-07-30T02:07:06+0000"
+            "updated": "2018-08-06T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -13421,7 +13421,7 @@
             "pv": "2.32",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2018-07-30T02:07:11+0000"
+            "updated": "2018-08-06T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -13554,7 +13554,7 @@
             "pv": "2.20.3",
             "section": "base",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2018-07-25T04:07:20+0000"
+            "updated": "2018-08-06T03:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -13839,7 +13839,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "Python bindings for GStreamer 1.0",
-            "updated": "2018-07-30T02:07:19+0000"
+            "updated": "2018-08-06T03:08:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13877,7 +13877,7 @@
             "pv": "3.3",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2018-07-30T02:07:19+0000"
+            "updated": "2018-08-06T03:08:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13896,7 +13896,7 @@
             "pv": "6.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-07-02T22:07:35+0000"
+            "updated": "2018-08-06T03:08:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13972,7 +13972,7 @@
             "pv": "1.1.0h",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-07-30T02:07:13+0000"
+            "updated": "2018-08-06T03:08:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14314,7 +14314,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-08-01T01:08:11+0000"
+            "updated": "2018-08-06T03:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -14333,7 +14333,7 @@
             "pv": "1.14.1",
             "section": "multimedia",
             "summary": "Gstreamer validation tool",
-            "updated": "2018-07-30T02:07:15+0000"
+            "updated": "2018-08-06T03:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -14789,7 +14789,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-08-01T01:08:15+0000"
+            "updated": "2018-08-06T03:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -15074,14 +15074,14 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "Useful extra bits for Python - things that should be in the standard library",
-            "updated": "2018-08-01T01:08:16+0000"
+            "updated": "2018-08-06T03:08:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
-            "filename": "python3-pbr_3.1.1.bb",
+            "filename": "python3-pbr_4.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
             "id": 682136,
@@ -15090,17 +15090,17 @@
             "license": "Apache-2.0",
             "pn": "python3-pbr",
             "provides": "python3-pbr ",
-            "pv": "3.1.1",
+            "pv": "4.2.0",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2018-08-01T01:08:16+0000"
+            "updated": "2018-08-06T03:08:41+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-subunit_1.1.0.bb",
+            "filename": "python3-subunit_1.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/python-subunit/",
             "id": 682137,
@@ -15109,17 +15109,17 @@
             "license": "Apache-2.0",
             "pn": "python3-subunit",
             "provides": "python3-subunit ",
-            "pv": "1.1.0",
+            "pv": "1.3.0",
             "section": "devel/python",
             "summary": "Python implementation of subunit test streaming protocol",
-            "updated": "2018-08-01T01:08:16+0000"
+            "updated": "2018-08-06T03:08:41+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-testtools_2.2.0.bb",
+            "filename": "python3-testtools_2.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/testtools/",
             "id": 682138,
@@ -15128,10 +15128,10 @@
             "license": "Apache-2.0",
             "pn": "python3-testtools",
             "provides": "python3-testtools ",
-            "pv": "2.2.0",
+            "pv": "2.3.0",
             "section": "devel/python",
             "summary": "Extensions to the Python standard library unit testing framework",
-            "updated": "2018-08-01T01:08:16+0000"
+            "updated": "2018-08-06T03:08:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15150,7 +15150,7 @@
             "pv": "2.0.5",
             "section": "libs",
             "summary": "Internationalized Domain Name support library",
-            "updated": "2018-08-01T01:08:17+0000"
+            "updated": "2018-08-06T03:08:52+0000"
         }
     ],
     "wrtemplates": []
