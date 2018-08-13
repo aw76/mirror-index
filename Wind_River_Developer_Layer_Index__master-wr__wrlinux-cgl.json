@@ -76,10 +76,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-08T02:08:46+0000",
-            "vcs_last_commit": "2018-08-08T02:08:46+0000",
-            "vcs_last_fetch": "2018-08-08T02:08:46+0000",
-            "vcs_last_rev": "29d4b1147ee098af895ab8144642aedfc5c491a8",
+            "updated": "2018-08-09T04:08:21+0000",
+            "vcs_last_commit": "2018-08-09T04:08:21+0000",
+            "vcs_last_fetch": "2018-08-09T04:08:21+0000",
+            "vcs_last_rev": "31249dead970ed286d8480caa25d7957fe3ed9af",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -258,12 +258,26 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-08-08T03:08:01+0000",
-            "vcs_last_commit": "2018-08-08T03:08:01+0000",
-            "vcs_last_fetch": "2018-08-08T03:08:01+0000",
-            "vcs_last_rev": "b5a50add5ecd0362b5ee23e80acb0307f92a42e9",
+            "updated": "2018-08-13T04:08:11+0000",
+            "vcs_last_commit": "2018-08-13T04:08:11+0000",
+            "vcs_last_fetch": "2018-08-13T04:08:11+0000",
+            "vcs_last_rev": "4bc96d61b71640986728178d61cfa2275845509f",
             "vcs_subdir": "",
             "version": "2",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180730",
+            "branch": 38,
+            "collection": "openstack-layer",
+            "id": 57006,
+            "layer": 155,
+            "updated": "2018-08-13T02:08:27+0000",
+            "vcs_last_commit": "2018-08-13T02:08:27+0000",
+            "vcs_last_fetch": "2018-08-13T02:08:27+0000",
+            "vcs_last_rev": "16b1ec2656bd0ceade5d3e063ada333ec762420a",
+            "vcs_subdir": "meta-openstack",
+            "version": null,
             "yp_compatible_version": null
         },
         {
@@ -272,10 +286,10 @@
             "collection": "wrlinux-distro",
             "id": 73942,
             "layer": 164,
-            "updated": "2018-08-08T03:08:01+0000",
-            "vcs_last_commit": "2018-08-08T03:08:01+0000",
-            "vcs_last_fetch": "2018-08-08T03:08:01+0000",
-            "vcs_last_rev": "b5a50add5ecd0362b5ee23e80acb0307f92a42e9",
+            "updated": "2018-08-13T04:08:11+0000",
+            "vcs_last_commit": "2018-08-13T04:08:11+0000",
+            "vcs_last_fetch": "2018-08-13T04:08:11+0000",
+            "vcs_last_rev": "4bc96d61b71640986728178d61cfa2275845509f",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": null
@@ -300,10 +314,10 @@
             "collection": "wrlinux-cgl",
             "id": 118404,
             "layer": 176,
-            "updated": "2018-08-07T21:08:50+0000",
-            "vcs_last_commit": "2018-08-07T21:08:50+0000",
-            "vcs_last_fetch": "2018-08-07T21:08:50+0000",
-            "vcs_last_rev": "2b92e6a4745d3bf9b631a63af0396efc2cf1f565",
+            "updated": "2018-08-13T02:08:25+0000",
+            "vcs_last_commit": "2018-08-13T02:08:25+0000",
+            "vcs_last_fetch": "2018-08-13T02:08:25+0000",
+            "vcs_last_rev": "939be5bea500ddd34a9ea6aa9cff25f12e4c1f3e",
             "vcs_subdir": "wrlinux-cgl",
             "version": "1",
             "yp_compatible_version": null
@@ -427,6 +441,12 @@
         {
             "dependency": 164,
             "id": 21046,
+            "layerbranch": 118404,
+            "required": true
+        },
+        {
+            "dependency": 155,
+            "id": 41254,
             "layerbranch": 118404,
             "required": true
         }
@@ -733,6 +753,24 @@
             "updated": "2018-05-30T17:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Support for building the packages from the OpenStack project.  It includes recipes for nova, glance, keystone, cinder, quantum, swift and horizon components.",
+            "id": 155,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack",
+            "status": "P",
+            "summary": "Support for building the packages from the OpenStack project",
+            "updated": "2018-05-30T17:05:03+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -1060,7 +1098,7 @@
             "id": 14076,
             "layerbranch": 118404,
             "name": "feature/cut",
-            "updated": "2018-03-26T03:03:28+0000"
+            "updated": "2018-08-13T02:08:20+0000"
         },
         {
             "description": "Enable ATA over Ethernet",
