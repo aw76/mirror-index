@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180806",
+            "bitbake_branch": "wr-10.18-20180813",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-06T03:08:00+0000",
+            "updated": "2018-08-13T21:08:21+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180806",
+            "actual_branch": "wr-10.18-20180813",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-09T04:08:21+0000",
-            "vcs_last_commit": "2018-08-09T04:08:21+0000",
-            "vcs_last_fetch": "2018-08-09T04:08:21+0000",
-            "vcs_last_rev": "31249dead970ed286d8480caa25d7957fe3ed9af",
+            "updated": "2018-08-12T22:08:06+0000",
+            "vcs_last_commit": "2018-08-12T22:08:06+0000",
+            "vcs_last_fetch": "2018-08-12T22:08:06+0000",
+            "vcs_last_rev": "06a7a10be407a28944d999b9722f26e8e3b57cc2",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -2819,7 +2819,7 @@
             "pv": "1.5.3",
             "section": "base",
             "summary": "Hardware accelerated JPEG compression/decompression library",
-            "updated": "2018-07-30T02:07:45+0000"
+            "updated": "2018-08-13T21:08:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2857,7 +2857,7 @@
             "pv": "2.4.7",
             "section": "console/network",
             "summary": "Point-to-Point Protocol (PPP) support",
-            "updated": "2018-07-30T02:07:45+0000"
+            "updated": "2018-08-13T21:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3256,7 +3256,7 @@
             "pv": "1.0.2o",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-08-01T01:08:07+0000"
+            "updated": "2018-08-13T21:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3408,7 +3408,7 @@
             "pv": "3.26.1",
             "section": "base",
             "summary": "System-wide Performance Profiler for Linux",
-            "updated": "2018-07-16T20:07:38+0000"
+            "updated": "2018-08-13T21:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -4289,7 +4289,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The International Component for Unicode (ICU) is a mature, portable set of C/C++ and Java libraries for Unicode support, software internationalization (I18N) and globalization (G11N), giving applications the same results on all platforms.",
-            "filename": "icu_61.1.bb",
+            "filename": "icu_62.1.bb",
             "filepath": "recipes-support/icu",
             "homepage": "http://site.icu-project.org/",
             "id": 270885,
@@ -4298,17 +4298,17 @@
             "license": "ICU",
             "pn": "icu",
             "provides": "icu ",
-            "pv": "61.1",
+            "pv": "62.1",
             "section": "base",
             "summary": "International Component for Unicode libraries",
-            "updated": "2018-07-30T02:07:55+0000"
+            "updated": "2018-08-13T21:08:03+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "npth_1.5.bb",
+            "filename": "npth_1.6.bb",
             "filepath": "recipes-support/npth",
             "homepage": "http://www.gnupg.org/software/pth/",
             "id": 270886,
@@ -4317,10 +4317,10 @@
             "license": "LGPLv2+",
             "pn": "npth",
             "provides": "npth ",
-            "pv": "1.5",
+            "pv": "1.6",
             "section": "libs",
             "summary": "New GNU Portable Threads library",
-            "updated": "2018-07-30T02:07:55+0000"
+            "updated": "2018-08-13T21:08:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -4795,7 +4795,7 @@
             "pv": "3.6.2",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2018-08-06T03:08:46+0000"
+            "updated": "2018-08-13T21:08:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4920,7 +4920,7 @@
             "filepath": "recipes-support/libusb",
             "homepage": "http://libusb.sf.net",
             "id": 270920,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools pkgconfig ptest siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "LGPLv2.1+",
             "pn": "libusb1",
@@ -4928,7 +4928,7 @@
             "pv": "1.0.22",
             "section": "libs",
             "summary": "Userspace library to access USB (version 1.0)",
-            "updated": "2018-07-30T02:07:02+0000"
+            "updated": "2018-08-13T21:08:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5498,7 +5498,7 @@
             "pv": "1.1.6",
             "section": "libs/multimedia",
             "summary": "ALSA sound library",
-            "updated": "2018-07-30T02:07:09+0000"
+            "updated": "2018-08-13T21:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5619,7 +5619,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/enter_bug.cgi?product=Gstreamer",
             "description": "",
-            "filename": "gstreamer1.0-plugins-bad_1.14.1.bb",
+            "filename": "gstreamer1.0-plugins-bad_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 270957,
@@ -5628,17 +5628,17 @@
             "license": "GPLv2+ & LGPLv2+ & LGPLv2.1+",
             "pn": "gstreamer1.0-plugins-bad",
             "provides": "gstreamer1.0-plugins-bad ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-08-06T03:08:49+0000"
+            "updated": "2018-08-13T21:08:00+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/enter_bug.cgi?product=Gstreamer",
             "description": "",
-            "filename": "gstreamer1.0-plugins-ugly_1.14.1.bb",
+            "filename": "gstreamer1.0-plugins-ugly_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 270958,
@@ -5647,17 +5647,17 @@
             "license": "GPLv2+ & LGPLv2.1+ & LGPLv2+",
             "pn": "gstreamer1.0-plugins-ugly",
             "provides": "gstreamer1.0-plugins-ugly ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-08-06T03:08:49+0000"
+            "updated": "2018-08-13T21:08:01+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/enter_bug.cgi?product=Gstreamer",
             "description": "",
-            "filename": "gstreamer1.0-plugins-good_1.14.1.bb",
+            "filename": "gstreamer1.0-plugins-good_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 270959,
@@ -5666,10 +5666,10 @@
             "license": "GPLv2+ & LGPLv2.1+",
             "pn": "gstreamer1.0-plugins-good",
             "provides": "gstreamer1.0-plugins-good ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-08-06T03:08:50+0000"
+            "updated": "2018-08-13T21:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -5695,7 +5695,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/enter_bug.cgi?product=Gstreamer",
             "description": "",
-            "filename": "gstreamer1.0-plugins-base_1.14.1.bb",
+            "filename": "gstreamer1.0-plugins-base_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 270961,
@@ -5704,17 +5704,17 @@
             "license": "GPLv2+ & LGPLv2+",
             "pn": "gstreamer1.0-plugins-base",
             "provides": "gstreamer1.0-plugins-base ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-08-06T03:08:50+0000"
+            "updated": "2018-08-13T21:08:01+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gstreamer1.0-rtsp-server_1.14.1.bb",
+            "filename": "gstreamer1.0-rtsp-server_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://cgit.freedesktop.org/gstreamer/gst-rtsp-server/",
             "id": 270962,
@@ -5723,17 +5723,17 @@
             "license": "LGPLv2",
             "pn": "gstreamer1.0-rtsp-server",
             "provides": "gstreamer1.0-rtsp-server ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "A library on top of GStreamer for building an RTSP server",
-            "updated": "2018-08-06T03:08:51+0000"
+            "updated": "2018-08-13T21:08:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/enter_bug.cgi?product=Gstreamer",
             "description": "GStreamer is a multimedia framework for encoding and decoding video and sound. It supports a wide range of formats including mp3, ogg, avi, mpeg and quicktime.",
-            "filename": "gstreamer1.0_1.14.1.bb",
+            "filename": "gstreamer1.0_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 270963,
@@ -5742,17 +5742,17 @@
             "license": "LGPLv2+",
             "pn": "gstreamer1.0",
             "provides": "gstreamer1.0 ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2018-08-06T03:08:51+0000"
+            "updated": "2018-08-13T21:08:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gstreamer1.0-libav_1.14.1.bb",
+            "filename": "gstreamer1.0-libav_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 270964,
@@ -5761,17 +5761,17 @@
             "license": "GPLv2+ & LGPLv2+ & ( (GPLv2+ & LGPLv2.1+) | (GPLv3+ & LGPLv3+) )",
             "pn": "gstreamer1.0-libav",
             "provides": "gstreamer1.0-libav ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "Libav-based GStreamer 1.x plugin",
-            "updated": "2018-08-06T03:08:51+0000"
+            "updated": "2018-08-13T21:08:00+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "gstreamer-vaapi consists of a collection of VA-API based plugins for GStreamer and helper libraries: `vaapidecode', `vaapiconvert', and `vaapisink'.",
-            "filename": "gstreamer1.0-vaapi_1.14.1.bb",
+            "filename": "gstreamer1.0-vaapi_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "",
             "id": 270965,
@@ -5780,17 +5780,17 @@
             "license": "LGPLv2.1+",
             "pn": "gstreamer1.0-vaapi",
             "provides": "gstreamer1.0-vaapi ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "base",
             "summary": "VA-API support to GStreamer",
-            "updated": "2018-08-06T03:08:51+0000"
+            "updated": "2018-08-13T21:08:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gstreamer1.0-omx_1.14.1.bb",
+            "filename": "gstreamer1.0-omx_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 270966,
@@ -5799,10 +5799,10 @@
             "license": "LGPLv2.1",
             "pn": "gstreamer1.0-omx",
             "provides": "gstreamer1.0-omx ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "OpenMAX IL plugins for GStreamer",
-            "updated": "2018-08-06T03:08:51+0000"
+            "updated": "2018-08-13T21:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6037,7 +6037,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
-            "filename": "ffmpeg_4.0.bb",
+            "filename": "ffmpeg_4.0.2.bb",
             "filepath": "recipes-multimedia/ffmpeg",
             "homepage": "https://www.ffmpeg.org/",
             "id": 270979,
@@ -6046,10 +6046,10 @@
             "license": "BSD & GPLv2+ & LGPLv2.1+ & MIT",
             "pn": "ffmpeg",
             "provides": "ffmpeg libav libpostproc",
-            "pv": "4.0",
+            "pv": "4.0.2",
             "section": "libs",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2018-07-30T02:07:12+0000"
+            "updated": "2018-08-13T21:08:59+0000"
         },
         {
             "bbclassextend": "",
@@ -7132,7 +7132,7 @@
             "pv": "1.9",
             "section": "console/utils",
             "summary": "Standard GNU compressor",
-            "updated": "2018-07-30T02:07:21+0000"
+            "updated": "2018-08-13T21:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -7398,7 +7398,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Linux Standard Base (LSB)",
-            "updated": "2018-07-02T22:07:26+0000"
+            "updated": "2018-08-13T21:08:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -7588,7 +7588,7 @@
             "pv": "4-7",
             "section": "base",
             "summary": "Tune low-level block device parameters",
-            "updated": "2018-07-30T02:07:24+0000"
+            "updated": "2018-08-13T21:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -7968,7 +7968,7 @@
             "pv": "4.4.18",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2018-07-30T02:07:28+0000"
+            "updated": "2018-08-13T21:08:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7987,7 +7987,7 @@
             "pv": "4.6.0",
             "section": "console/utils",
             "summary": "find, locate, and xargs binaries",
-            "updated": "2018-07-30T02:07:29+0000"
+            "updated": "2018-08-13T21:08:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -8101,7 +8101,7 @@
             "pv": "1.60-26",
             "section": "base",
             "summary": "Basic networking tools",
-            "updated": "2018-05-25T01:05:13+0000"
+            "updated": "2018-08-13T21:08:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9222,7 +9222,7 @@
             "pv": "3.0.4",
             "section": "devel",
             "summary": "GNU Project parser generator (yacc replacement)",
-            "updated": "2018-07-30T02:07:39+0000"
+            "updated": "2018-08-13T21:08:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9647,7 +9647,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Vala is a C#-like language dedicated to ease GObject programming. Vala compiles to plain C and has no runtime environment nor penalities whatsoever.",
-            "filename": "vala_0.40.4.bb",
+            "filename": "vala_0.40.8.bb",
             "filepath": "recipes-devtools/vala",
             "homepage": "http://vala-project.org",
             "id": 271192,
@@ -9656,10 +9656,10 @@
             "license": "LGPLv2.1",
             "pn": "vala",
             "provides": "vala ",
-            "pv": "0.40.4",
+            "pv": "0.40.8",
             "section": "devel",
             "summary": "C#-like programming language for easing GObject programming",
-            "updated": "2018-07-30T02:07:45+0000"
+            "updated": "2018-08-13T21:08:59+0000"
         },
         {
             "bbclassextend": "",
@@ -10020,7 +10020,7 @@
             "pv": "1.4.18",
             "section": "base",
             "summary": "Traditional Unix macro processor",
-            "updated": "2018-07-30T02:07:50+0000"
+            "updated": "2018-08-13T21:08:11+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10039,26 +10039,26 @@
             "pv": "1.4.18",
             "section": "base",
             "summary": "Traditional Unix macro processor",
-            "updated": "2018-07-30T02:07:50+0000"
+            "updated": "2018-08-13T21:08:11+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "desktop-file-utils-native_0.23.bb",
+            "filename": "desktop-file-utils_0.23.bb",
             "filepath": "recipes-devtools/desktop-file-utils",
             "homepage": "http://www.freedesktop.org/wiki/Software/desktop-file-utils",
             "id": 271215,
-            "inherits": "autotools native nopackages relocatable siteconfig siteinfo",
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 14953,
-            "license": "GPLv2",
-            "pn": "desktop-file-utils-native",
-            "provides": "desktop-file-utils-native ",
+            "license": "GPLv2+",
+            "pn": "desktop-file-utils",
+            "provides": "desktop-file-utils ",
             "pv": "0.23",
             "section": "console/utils",
             "summary": "Command line utilities for working with *.desktop files",
-            "updated": "2018-07-30T02:07:50+0000"
+            "updated": "2018-08-13T21:08:58+0000"
         },
         {
             "bbclassextend": "",
@@ -10112,10 +10112,10 @@
             "license": "GPLv2",
             "pn": "createrepo-c",
             "provides": "createrepo-c ",
-            "pv": "0.10.0+gitX",
+            "pv": "0.11.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:22+0000"
+            "updated": "2018-08-13T21:08:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -10229,7 +10229,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities (cross-canadian for i586 target)",
-            "updated": "2018-08-08T22:08:24+0000"
+            "updated": "2018-08-13T21:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -10248,7 +10248,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-08-08T22:08:25+0000"
+            "updated": "2018-08-13T21:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -10267,7 +10267,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-08-08T22:08:25+0000"
+            "updated": "2018-08-13T21:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10286,7 +10286,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-08-08T22:08:26+0000"
+            "updated": "2018-08-13T21:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10958,7 +10958,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "File attempts to classify files depending on their contents and prints a description if a match is found.",
-            "filename": "file_5.33.bb",
+            "filename": "file_5.34.bb",
             "filepath": "recipes-devtools/file",
             "homepage": "http://www.darwinsys.com/file/",
             "id": 271265,
@@ -10967,10 +10967,10 @@
             "license": "BSD",
             "pn": "file",
             "provides": "file ",
-            "pv": "5.33",
+            "pv": "5.34",
             "section": "console/utils",
             "summary": "File classification tool",
-            "updated": "2018-07-30T02:07:56+0000"
+            "updated": "2018-08-13T21:08:59+0000"
         },
         {
             "bbclassextend": "",
@@ -11043,10 +11043,10 @@
             "license": "GPL-3.0",
             "pn": "bootchart2",
             "provides": "bootchart2 ",
-            "pv": "0.14.8",
+            "pv": "0.14.8+gitX",
             "section": "base",
             "summary": "Booting sequence and CPU,I/O usage monitor",
-            "updated": "2018-07-02T22:07:44+0000"
+            "updated": "2018-08-13T21:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -11236,7 +11236,7 @@
             "pv": "4.23",
             "section": "console/utils",
             "summary": "System call tracing tool",
-            "updated": "2018-07-30T02:07:08+0000"
+            "updated": "2018-08-13T21:08:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -11863,7 +11863,7 @@
             "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-08-01T01:08:20+0000"
+            "updated": "2018-08-13T21:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -13117,7 +13117,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Package of environment files for SDK",
-            "updated": "2018-06-19T20:06:57+0000"
+            "updated": "2018-08-13T21:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -13136,7 +13136,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Integrated Development Environment support",
-            "updated": "2018-06-11T20:06:32+0000"
+            "updated": "2018-08-13T21:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -13326,7 +13326,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Package of environment files for SDK",
-            "updated": "2018-06-19T20:06:58+0000"
+            "updated": "2018-08-13T21:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -13827,7 +13827,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gstreamer1.0-python_1.14.1.bb",
+            "filename": "gstreamer1.0-python_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://cgit.freedesktop.org/gstreamer/gst-python/",
             "id": 276618,
@@ -13836,10 +13836,10 @@
             "license": "LGPLv2.1",
             "pn": "gstreamer1.0-python",
             "provides": "gstreamer1.0-python ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "Python bindings for GStreamer 1.0",
-            "updated": "2018-08-06T03:08:51+0000"
+            "updated": "2018-08-13T21:08:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14314,14 +14314,14 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-08-06T03:08:53+0000"
+            "updated": "2018-08-13T21:08:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A Tool to test GStreamer components",
-            "filename": "gst-validate_1.14.1.bb",
+            "filename": "gst-validate_1.14.2.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://gstreamer.freedesktop.org/releases/gst-validate/1.12.3.html",
             "id": 494787,
@@ -14330,10 +14330,10 @@
             "license": "LGPLv2.1",
             "pn": "gst-validate",
             "provides": "gst-validate ",
-            "pv": "1.14.1",
+            "pv": "1.14.2",
             "section": "multimedia",
             "summary": "Gstreamer validation tool",
-            "updated": "2018-08-06T03:08:53+0000"
+            "updated": "2018-08-13T21:08:59+0000"
         },
         {
             "bbclassextend": "",
@@ -14447,7 +14447,7 @@
             "pv": "2.8.3",
             "section": "base",
             "summary": "An implementation of the standard Unix documentation system accessed using the man command",
-            "updated": "2018-07-30T02:07:27+0000"
+            "updated": "2018-08-13T21:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -14789,7 +14789,7 @@
             "pv": "0.46.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-08-06T03:08:54+0000"
+            "updated": "2018-08-13T21:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -15150,7 +15150,7 @@
             "pv": "2.0.5",
             "section": "libs",
             "summary": "Internationalized Domain Name support library",
-            "updated": "2018-08-06T03:08:52+0000"
+            "updated": "2018-08-13T21:08:08+0000"
         }
     ],
     "wrtemplates": []
