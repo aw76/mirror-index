@@ -21,15 +21,15 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180521",
+            "actual_branch": "wr-10.18-20180814",
             "branch": 38,
             "collection": "selinux",
             "id": 14951,
             "layer": 20,
-            "updated": "2018-08-14T02:08:10+0000",
-            "vcs_last_commit": "2018-08-14T02:08:10+0000",
-            "vcs_last_fetch": "2018-08-14T02:08:10+0000",
-            "vcs_last_rev": "91ae6fbaea7fffe721e2f799bc9953cfaa8dc36c",
+            "updated": "2018-08-14T02:08:20+0000",
+            "vcs_last_commit": "2018-08-14T02:08:20+0000",
+            "vcs_last_fetch": "2018-08-14T02:08:20+0000",
+            "vcs_last_rev": "aeefa6ff4f671a23bfba4e154f1ea2d4b39859d0",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -40,24 +40,24 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-12T22:08:06+0000",
-            "vcs_last_commit": "2018-08-12T22:08:06+0000",
-            "vcs_last_fetch": "2018-08-12T22:08:06+0000",
-            "vcs_last_rev": "06a7a10be407a28944d999b9722f26e8e3b57cc2",
+            "updated": "2018-08-15T02:08:51+0000",
+            "vcs_last_commit": "2018-08-15T02:08:51+0000",
+            "vcs_last_fetch": "2018-08-15T02:08:51+0000",
+            "vcs_last_rev": "6ea3eec10d551c87871e5861cdc44de8a3179d8a",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180731",
+            "actual_branch": "wr-10.18-20180814",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-07-30T22:07:51+0000",
-            "vcs_last_commit": "2018-07-30T22:07:51+0000",
-            "vcs_last_fetch": "2018-07-30T22:07:51+0000",
-            "vcs_last_rev": "a56445457779e1cd0069022fd114c8ce91afc7cc",
+            "updated": "2018-08-14T02:08:18+0000",
+            "vcs_last_commit": "2018-08-14T02:08:18+0000",
+            "vcs_last_fetch": "2018-08-14T02:08:18+0000",
+            "vcs_last_rev": "cddff41f31e25d1f422243499a38f447c1bb2146",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -188,7 +188,7 @@
             "filepath": "recipes-security/images",
             "homepage": "",
             "id": 270112,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk selinux-image siteinfo",
+            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk selinux-image siteinfo",
             "layerbranch": 14951,
             "license": "MIT",
             "pn": "core-image-selinux",
@@ -196,7 +196,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2018-08-15T02:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -207,7 +207,7 @@
             "filepath": "recipes-security/images",
             "homepage": "",
             "id": 270113,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk selinux-image siteinfo",
+            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk selinux-image siteinfo",
             "layerbranch": 14951,
             "license": "MIT",
             "pn": "core-image-selinux-minimal",
@@ -215,7 +215,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2018-08-15T02:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -291,7 +291,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2017-09-26T04:09:26+0000"
+            "updated": "2018-08-15T02:08:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -367,7 +367,7 @@
             "pv": "2.7",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2017-09-26T04:09:26+0000"
+            "updated": "2018-08-15T02:08:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -880,7 +880,7 @@
             "pv": "2.7",
             "section": "base",
             "summary": "Utilities to manipulate SELinux policy module package",
-            "updated": "2017-09-26T04:09:29+0000"
+            "updated": "2018-08-15T02:08:15+0000"
         }
     ],
     "wrtemplates": []
