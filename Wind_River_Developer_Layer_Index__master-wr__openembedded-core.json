@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180813",
+            "bitbake_branch": "wr-10.18-20180820",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-13T21:08:21+0000",
+            "updated": "2018-08-20T02:08:20+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-16T03:08:14+0000",
-            "vcs_last_commit": "2018-08-16T03:08:14+0000",
-            "vcs_last_fetch": "2018-08-16T03:08:14+0000",
-            "vcs_last_rev": "a2105124fd9932a0a4a400a8fdb2503088a6ce7b",
+            "updated": "2018-08-19T21:08:37+0000",
+            "vcs_last_commit": "2018-08-19T21:08:37+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:37+0000",
+            "vcs_last_rev": "788a68173554c1f5647b62e8d9b647b2e27f3e9d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -1553,7 +1553,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The runtime library for accessing the kernel DRM services.  DRM stands for \\\"Direct Rendering Manager\\\", which is the kernel portion of the \\\"Direct Rendering Infrastructure\\\" (DRI).  DRI is required for many hardware accelerated OpenGL drivers.",
-            "filename": "libdrm_2.4.92.bb",
+            "filename": "libdrm_2.4.93.bb",
             "filepath": "recipes-graphics/drm",
             "homepage": "http://dri.freedesktop.org",
             "id": 270700,
@@ -1562,10 +1562,10 @@
             "license": "MIT",
             "pn": "libdrm",
             "provides": "libdrm drm",
-            "pv": "2.4.92",
+            "pv": "2.4.93",
             "section": "x11/base",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2018-07-24T20:07:34+0000"
+            "updated": "2018-08-20T02:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1793,7 +1793,7 @@
             "pv": "2.99.917+gitX",
             "section": "x11/drivers",
             "summary": "X.Org X server -- Intel integrated graphics chipsets driver",
-            "updated": "2018-07-30T02:07:37+0000"
+            "updated": "2018-08-20T02:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2222,7 +2222,7 @@
             "filepath": "recipes-graphics/images",
             "homepage": "",
             "id": 270738,
-            "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-x11",
@@ -2230,7 +2230,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2018-07-30T02:07:41+0000"
+            "updated": "2018-08-20T02:08:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2241,7 +2241,7 @@
             "filepath": "recipes-graphics/images",
             "homepage": "",
             "id": 270739,
-            "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-weston",
@@ -2249,7 +2249,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2018-07-30T02:07:41+0000"
+            "updated": "2018-08-20T02:08:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2260,7 +2260,7 @@
             "filepath": "recipes-graphics/images",
             "homepage": "",
             "id": 270740,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-clutter",
@@ -2268,7 +2268,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:41+0000"
+            "updated": "2018-08-20T02:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2439,7 +2439,7 @@
             "pv": "4.0.0",
             "section": "base",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2018-07-30T02:07:42+0000"
+            "updated": "2018-08-20T02:08:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2648,7 +2648,7 @@
             "pv": "1.0+gitrX",
             "section": "base",
             "summary": "OpenGL driver testing framework",
-            "updated": "2018-07-02T22:07:27+0000"
+            "updated": "2018-08-20T02:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2819,7 +2819,7 @@
             "pv": "1.5.3",
             "section": "base",
             "summary": "Hardware accelerated JPEG compression/decompression library",
-            "updated": "2018-08-13T21:08:09+0000"
+            "updated": "2018-08-20T02:08:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2857,7 +2857,7 @@
             "pv": "2.4.7",
             "section": "console/network",
             "summary": "Point-to-Point Protocol (PPP) support",
-            "updated": "2018-08-13T21:08:04+0000"
+            "updated": "2018-08-20T02:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2990,7 +2990,7 @@
             "pv": "20170310",
             "section": "network",
             "summary": "Mobile Broadband Service Provider Database",
-            "updated": "2018-07-30T02:07:46+0000"
+            "updated": "2018-08-20T02:08:39+0000"
         },
         {
             "bbclassextend": " nativesdk",
@@ -3244,7 +3244,7 @@
             "blacklisted": "",
             "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
             "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
-            "filename": "openssl_1.0.2o.bb",
+            "filename": "openssl_1.0.2p.bb",
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 270821,
@@ -3253,10 +3253,10 @@
             "license": "openssl",
             "pn": "openssl",
             "provides": "openssl  openssl10",
-            "pv": "1.0.2o",
+            "pv": "1.0.2p",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-08-13T21:08:04+0000"
+            "updated": "2018-08-20T02:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3381,7 +3381,7 @@
             "filepath": "recipes-kernel/perf",
             "homepage": "https://perf.wiki.kernel.org/index.php/Main_Page",
             "id": 270830,
-            "inherits": "cpan-base kernel-arch kernelsrc linux-kernel-base perl-version perlnative python-dir pythonnative",
+            "inherits": "cpan-base kernel-arch kernelsrc linux-kernel-base manpages perl-version perlnative python-dir pythonnative qemu",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "perf",
@@ -3389,7 +3389,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2018-07-16T20:07:29+0000"
+            "updated": "2018-08-20T02:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -3541,7 +3541,7 @@
             "pv": "0.0+gitX",
             "section": "kernel",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2018-07-30T02:07:15+0000"
+            "updated": "2018-08-20T02:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -3731,7 +3731,7 @@
             "pv": "1.0",
             "section": "kernel",
             "summary": "Linux kernel Development Source",
-            "updated": "2018-07-10T22:07:20+0000"
+            "updated": "2018-08-20T02:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -3750,7 +3750,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-16T20:07:28+0000"
+            "updated": "2018-08-20T02:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3769,7 +3769,7 @@
             "pv": "4.12.26+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-16T20:07:27+0000"
+            "updated": "2018-08-20T02:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3788,7 +3788,7 @@
             "pv": "4.12.26+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-16T20:07:28+0000"
+            "updated": "2018-08-20T02:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3826,7 +3826,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-07-16T20:07:27+0000"
+            "updated": "2018-08-20T02:08:50+0000"
         },
         {
             "bbclassextend": "",
@@ -4483,7 +4483,7 @@
             "filepath": "recipes-support/curl",
             "homepage": "http://curl.haxx.se/",
             "id": 270896,
-            "inherits": "autotools binconfig multilib_header pkgconfig siteconfig siteinfo",
+            "inherits": "autotools binconfig multilib_header multilib_script pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "curl",
@@ -4491,7 +4491,7 @@
             "pv": "7.61.0",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2018-08-01T01:08:10+0000"
+            "updated": "2018-08-20T02:08:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -4578,7 +4578,7 @@
             "filepath": "recipes-support/nspr",
             "homepage": "http://www.mozilla.org/projects/nspr/",
             "id": 270901,
-            "inherits": "autotools siteconfig siteinfo",
+            "inherits": "autotools multilib_script siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "GPL-2.0 | MPL-2.0 | LGPL-2.1",
             "pn": "nspr",
@@ -4586,7 +4586,7 @@
             "pv": "4.19",
             "section": "libs/network",
             "summary": "Netscape Portable Runtime Library",
-            "updated": "2018-07-30T02:07:58+0000"
+            "updated": "2018-08-20T02:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4806,7 +4806,7 @@
             "filepath": "recipes-support/libevent",
             "homepage": "http://libevent.org/",
             "id": 270913,
-            "inherits": "autotools ptest siteconfig siteinfo",
+            "inherits": "autotools multilib_header ptest siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "BSD & MIT",
             "pn": "libevent",
@@ -4814,14 +4814,14 @@
             "pv": "2.1.8",
             "section": "libs",
             "summary": "An asynchronous event notification library",
-            "updated": "2018-07-30T02:07:00+0000"
+            "updated": "2018-08-20T02:08:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mpfr_3.1.5.bb",
+            "filename": "mpfr_4.0.1.bb",
             "filepath": "recipes-support/mpfr",
             "homepage": "http://www.mpfr.org/",
             "id": 270914,
@@ -4830,10 +4830,10 @@
             "license": "LGPLv3+",
             "pn": "mpfr",
             "provides": "mpfr ",
-            "pv": "3.1.5",
+            "pv": "4.0.1",
             "section": "devel",
             "summary": "C library for multiple-precision floating-point computations with exact rounding",
-            "updated": "2018-07-30T02:07:01+0000"
+            "updated": "2018-08-20T02:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -5289,7 +5289,7 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "Library for obtaining the call-chain of a program",
-            "updated": "2018-07-30T02:07:07+0000"
+            "updated": "2018-08-20T02:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5916,7 +5916,7 @@
             "pv": "1.3.6",
             "section": "libs",
             "summary": "Ogg Vorbis Audio Codec",
-            "updated": "2018-07-30T02:07:12+0000"
+            "updated": "2018-08-20T02:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -6155,7 +6155,7 @@
             "filepath": "recipes-rt/images",
             "homepage": "",
             "id": 270985,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-rt",
@@ -6163,7 +6163,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-30T02:07:14+0000"
+            "updated": "2018-08-20T02:08:50+0000"
         },
         {
             "bbclassextend": "",
@@ -6174,7 +6174,7 @@
             "filepath": "recipes-rt/images",
             "homepage": "",
             "id": 270986,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-rt-sdk",
@@ -6182,7 +6182,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-30T02:07:14+0000"
+            "updated": "2018-08-20T02:08:50+0000"
         },
         {
             "bbclassextend": "",
@@ -6410,7 +6410,7 @@
             "pv": "20180508",
             "section": "console/tools",
             "summary": "ACPICA tools for the development and debug of ACPI tables",
-            "updated": "2018-06-04T21:06:53+0000"
+            "updated": "2018-08-20T02:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -6961,7 +6961,7 @@
             "pv": "1.3.0",
             "section": "base",
             "summary": "Linux-PAM (Pluggable Authentication Modules)",
-            "updated": "2018-07-30T02:07:20+0000"
+            "updated": "2018-08-20T02:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -7208,7 +7208,7 @@
             "pv": "4.16",
             "section": "console/utils",
             "summary": "Linux man-pages",
-            "updated": "2018-07-10T03:07:30+0000"
+            "updated": "2018-08-20T02:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -7238,7 +7238,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 271045,
-            "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "",
             "pn": "core-image-lsb-sdk",
@@ -7246,7 +7246,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:22+0000"
+            "updated": "2018-08-20T02:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -7257,7 +7257,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 271046,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-kernel-dev",
@@ -7265,7 +7265,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-30T02:07:22+0000"
+            "updated": "2018-08-20T02:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -7276,7 +7276,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 271047,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "",
             "pn": "core-image-full-cmdline",
@@ -7284,7 +7284,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:22+0000"
+            "updated": "2018-08-20T02:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -7295,7 +7295,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 271048,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-testmaster-initramfs",
@@ -7303,7 +7303,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:22+0000"
+            "updated": "2018-08-20T02:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -7314,7 +7314,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 271049,
-            "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "",
             "pn": "core-image-lsb-dev",
@@ -7322,7 +7322,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:22+0000"
+            "updated": "2018-08-20T02:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -7333,7 +7333,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 271050,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "",
             "pn": "core-image-testmaster",
@@ -7341,7 +7341,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:23+0000"
+            "updated": "2018-08-20T02:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -7352,7 +7352,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 271051,
-            "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "",
             "pn": "core-image-lsb",
@@ -7360,7 +7360,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:23+0000"
+            "updated": "2018-08-20T02:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -7664,7 +7664,7 @@
             "pv": "4.6.2",
             "section": "console/utils",
             "summary": "Multiplexing terminal manager",
-            "updated": "2018-07-30T02:07:25+0000"
+            "updated": "2018-08-20T02:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -8129,7 +8129,7 @@
             "description": "bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.",
             "filename": "bzip2_1.0.6.bb",
             "filepath": "recipes-extended/bzip2",
-            "homepage": "http://www.bzip.org/",
+            "homepage": "https://sourceware.org/bzip2/",
             "id": 271095,
             "inherits": "autotools ptest relative_symlinks siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
@@ -8139,7 +8139,7 @@
             "pv": "1.0.6",
             "section": "console/utils",
             "summary": "Very high-quality data compression program",
-            "updated": "2018-07-30T02:07:29+0000"
+            "updated": "2018-08-20T02:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -8387,25 +8387,6 @@
             "section": "console/utils",
             "summary": "Controls the configuration of serial ports",
             "updated": "2018-07-30T02:07:30+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "pcmciautils_018.bb",
-            "filepath": "recipes-bsp/pcmciautils",
-            "homepage": "https://www.kernel.org/pub/linux/utils/kernel/pcmcia/",
-            "id": 271111,
-            "inherits": "pkgconfig",
-            "layerbranch": 14953,
-            "license": "GPLv2",
-            "pn": "pcmciautils",
-            "provides": "pcmciautils ",
-            "pv": "018",
-            "section": "kernel/userland",
-            "summary": "Linux kernel userland utilities for the PCMCIA subsystem",
-            "updated": "2018-07-02T22:07:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8899,7 +8880,7 @@
             "pv": "1.0+gitX",
             "section": "devel",
             "summary": "An ELF prelinking utility",
-            "updated": "2018-07-30T02:07:36+0000"
+            "updated": "2018-08-20T02:08:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -9499,7 +9480,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python.org",
             "id": 271184,
-            "inherits": "autotools multilib_header pkgconfig python3-dir python3native siteconfig siteinfo update-alternatives",
+            "inherits": "autotools multilib_header pkgconfig python3-dir python3native qemu siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "PSFv2",
             "pn": "python3",
@@ -9507,7 +9488,7 @@
             "pv": "3.5.5",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-07-30T02:07:44+0000"
+            "updated": "2018-08-20T02:08:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10343,7 +10324,7 @@
             "pv": "3.0.12",
             "section": "devel",
             "summary": "SWIG - Simplified Wrapper and Interface Generator",
-            "updated": "2018-07-30T02:07:52+0000"
+            "updated": "2018-08-20T02:08:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10742,7 +10723,7 @@
             "pv": "0.172",
             "section": "base",
             "summary": "Utilities and libraries for handling compiled object files",
-            "updated": "2018-07-30T02:07:54+0000"
+            "updated": "2018-08-20T02:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -10818,7 +10799,7 @@
             "pv": "2.4.6",
             "section": "devel",
             "summary": "Generic library support script",
-            "updated": "2018-07-30T02:07:54+0000"
+            "updated": "2018-08-20T02:08:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11027,7 +11008,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-07-24T20:07:39+0000"
+            "updated": "2018-08-20T02:08:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -11661,7 +11642,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
-            "filename": "glibc-initial_2.27.bb",
+            "filename": "glibc-initial_2.28.bb",
             "filepath": "recipes-core/glibc",
             "homepage": "http://www.gnu.org/software/libc/libc.html",
             "id": 271310,
@@ -11670,17 +11651,17 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "glibc-initial",
             "provides": "glibc-initial virtual/i586-oe-linux-libc-initial",
-            "pv": "2.27",
+            "pv": "2.28",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2018-08-15T02:08:42+0000"
+            "updated": "2018-08-20T02:08:35+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cross-localedef-native_2.27.bb",
+            "filename": "cross-localedef-native_2.28.bb",
             "filepath": "recipes-core/glibc",
             "homepage": "http://www.gnu.org/software/libc/libc.html",
             "id": 271311,
@@ -11689,17 +11670,17 @@
             "license": "LGPL-2.1",
             "pn": "cross-localedef-native",
             "provides": "cross-localedef-native ",
-            "pv": "2.27",
+            "pv": "2.28",
             "section": "libs",
             "summary": "Cross locale generation tool for glibc",
-            "updated": "2018-07-30T02:07:02+0000"
+            "updated": "2018-08-20T02:08:35+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
-            "filename": "glibc_2.27.bb",
+            "filename": "glibc_2.28.bb",
             "filepath": "recipes-core/glibc",
             "homepage": "http://www.gnu.org/software/libc/libc.html",
             "id": 271312,
@@ -11707,18 +11688,18 @@
             "layerbranch": 14953,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "glibc",
-            "provides": "glibc virtual/libc virtual/i586-oe-linux-libc-for-gcc virtual/crypt virtual/libintl virtual/libiconv",
-            "pv": "2.27",
+            "provides": "glibc virtual/libc virtual/i586-oe-linux-libc-for-gcc virtual/libintl virtual/libiconv",
+            "pv": "2.28",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2018-08-15T02:08:42+0000"
+            "updated": "2018-08-20T02:08:36+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "glibc-locale_2.27.bb",
+            "filename": "glibc-locale_2.28.bb",
             "filepath": "recipes-core/glibc",
             "homepage": "http://www.gnu.org/software/libc/index.html",
             "id": 271313,
@@ -11727,17 +11708,17 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "glibc-locale",
             "provides": "glibc-locale virtual/libc-locale",
-            "pv": "2.27",
+            "pv": "2.28",
             "section": "base",
             "summary": "Locale data from glibc",
-            "updated": "2018-08-01T01:08:14+0000"
+            "updated": "2018-08-20T02:08:36+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "utility scripts provided by glibc",
-            "filename": "glibc-scripts_2.27.bb",
+            "filename": "glibc-scripts_2.28.bb",
             "filepath": "recipes-core/glibc",
             "homepage": "http://www.gnu.org/software/libc/index.html",
             "id": 271314,
@@ -11746,10 +11727,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "glibc-scripts",
             "provides": "glibc-scripts ",
-            "pv": "2.27",
+            "pv": "2.28",
             "section": "base",
             "summary": "utility scripts provided by glibc",
-            "updated": "2018-05-25T01:05:55+0000"
+            "updated": "2018-08-20T02:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -11775,7 +11756,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mtrace utility provided by glibc",
-            "filename": "glibc-mtrace_2.27.bb",
+            "filename": "glibc-mtrace_2.28.bb",
             "filepath": "recipes-core/glibc",
             "homepage": "http://www.gnu.org/software/libc/index.html",
             "id": 271316,
@@ -11784,10 +11765,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "glibc-mtrace",
             "provides": "glibc-mtrace ",
-            "pv": "2.27",
+            "pv": "2.28",
             "section": "base",
             "summary": "mtrace utility provided by glibc",
-            "updated": "2018-05-25T01:05:55+0000"
+            "updated": "2018-08-20T02:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -11863,7 +11844,7 @@
             "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-08-13T21:08:04+0000"
+            "updated": "2018-08-20T02:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -11901,7 +11882,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Serial terminal support for systemd",
-            "updated": "2018-05-25T01:05:56+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12064,7 +12045,7 @@
             "filepath": "recipes-core/ovmf",
             "homepage": "",
             "id": 271331,
-            "inherits": "image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "",
             "pn": "ovmf-shell-image",
@@ -12072,7 +12053,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:05+0000"
+            "updated": "2018-08-20T02:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -12148,7 +12129,7 @@
             "pv": "2.9.8",
             "section": "libs",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2018-08-06T03:08:43+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12167,7 +12148,7 @@
             "pv": "1.1.19+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2018-07-24T20:07:32+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12205,7 +12186,7 @@
             "pv": "2.88dsf",
             "section": "base",
             "summary": "System-V like init",
-            "updated": "2018-05-25T01:05:00+0000"
+            "updated": "2018-08-20T02:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -12482,7 +12463,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 271353,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-minimal-dev",
@@ -12490,7 +12471,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-30T02:07:07+0000"
+            "updated": "2018-08-20T02:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -12501,7 +12482,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 271354,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-tiny-initramfs",
@@ -12509,7 +12490,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:07+0000"
+            "updated": "2018-08-20T02:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -12520,7 +12501,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 271355,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-minimal",
@@ -12528,7 +12509,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-30T02:07:08+0000"
+            "updated": "2018-08-20T02:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -12539,7 +12520,7 @@
             "filepath": "recipes-core/images",
             "homepage": "http://www.yoctoproject.org/documentation/build-appliance",
             "id": 271356,
-            "inherits": "core-image distutils-common-base distutils3 distutils3-base image image_types image_types_wic kernel-arch license_image meta module-base populate_sdk_base populate_sdk_ext python3-dir python3native qemuboot rootfs-postcommands rootfs_ipk setuptools3 sitei",
+            "inherits": "core-image distutils-common-base distutils3 distutils3-base image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta module-base populate_sdk_base populate_sdk_ext python3-dir python3native qemuboot rootfs-postcommands ro",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "build-appliance-image",
@@ -12547,7 +12528,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-08-01T01:08:10+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12558,7 +12539,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 271357,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-base",
@@ -12566,7 +12547,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2018-07-30T02:07:08+0000"
+            "updated": "2018-08-20T02:08:55+0000"
         },
         {
             "bbclassextend": "",
@@ -12577,7 +12558,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 271358,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-minimal-initramfs",
@@ -12585,7 +12566,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:08+0000"
+            "updated": "2018-08-20T02:08:55+0000"
         },
         {
             "bbclassextend": "",
@@ -12596,7 +12577,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 271359,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-minimal-mtdutils",
@@ -12604,7 +12585,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-07-30T02:07:09+0000"
+            "updated": "2018-08-20T02:08:55+0000"
         },
         {
             "bbclassextend": "",
@@ -12965,7 +12946,7 @@
             "pv": "3.0.14",
             "section": "base",
             "summary": "Miscellaneous files for the base system",
-            "updated": "2018-05-25T01:05:05+0000"
+            "updated": "2018-08-20T02:08:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13185,7 +13166,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 271390,
-            "inherits": "meta populate_sdk populate_sdk_base rootfs_ipk",
+            "inherits": "image-postinst-intercepts meta populate_sdk populate_sdk_base rootfs_ipk",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "meta-toolchain",
@@ -13193,7 +13174,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2018-07-24T20:07:39+0000"
+            "updated": "2018-08-20T02:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -13204,7 +13185,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 271391,
-            "inherits": "meta nopackages populate_sdk populate_sdk_base rootfs_ipk",
+            "inherits": "image-postinst-intercepts meta nopackages populate_sdk populate_sdk_base rootfs_ipk",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "uninative-tarball",
@@ -13212,7 +13193,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "libc and patchelf tarball for use with uninative.bbclass",
-            "updated": "2018-07-30T02:07:13+0000"
+            "updated": "2018-08-20T02:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -13280,7 +13261,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 271395,
-            "inherits": "meta nopackages populate_sdk populate_sdk_base rootfs_ipk toolchain-scripts-base",
+            "inherits": "image-postinst-intercepts meta nopackages populate_sdk populate_sdk_base rootfs_ipk toolchain-scripts-base",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "buildtools-tarball",
@@ -13288,7 +13269,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2018-08-01T01:08:08+0000"
+            "updated": "2018-08-20T02:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -13337,7 +13318,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 271398,
-            "inherits": "meta nopackages populate_sdk populate_sdk_base rootfs_ipk toolchain-scripts-base",
+            "inherits": "image-postinst-intercepts meta nopackages populate_sdk populate_sdk_base rootfs_ipk toolchain-scripts-base",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "testexport-tarball",
@@ -13345,7 +13326,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for test systems with missing software",
-            "updated": "2018-07-24T20:07:39+0000"
+            "updated": "2018-08-20T02:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -13622,7 +13603,7 @@
             "filepath": "recipes-sato/images",
             "homepage": "",
             "id": 271413,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-sato-sdk",
@@ -13630,7 +13611,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:13+0000"
+            "updated": "2018-08-20T02:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -13641,7 +13622,7 @@
             "filepath": "recipes-sato/images",
             "homepage": "",
             "id": 271414,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-sato-sdk-ptest",
@@ -13649,7 +13630,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:13+0000"
+            "updated": "2018-08-20T02:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -13660,7 +13641,7 @@
             "filepath": "recipes-sato/images",
             "homepage": "",
             "id": 271415,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-sato-dev",
@@ -13668,7 +13649,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:14+0000"
+            "updated": "2018-08-20T02:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -13679,7 +13660,7 @@
             "filepath": "recipes-sato/images",
             "homepage": "",
             "id": 271416,
-            "inherits": "core-image image image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "core-image-sato",
@@ -13687,7 +13668,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-30T02:07:14+0000"
+            "updated": "2018-08-20T02:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -13896,7 +13877,7 @@
             "pv": "6.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-08-06T03:08:52+0000"
+            "updated": "2018-08-20T02:08:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13922,7 +13903,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "re2c_0.16.bb",
+            "filename": "re2c_1.0.1.bb",
             "filepath": "recipes-support/re2c",
             "homepage": "http://re2c.sourceforge.net/",
             "id": 300198,
@@ -13931,10 +13912,10 @@
             "license": "PD",
             "pn": "re2c",
             "provides": "re2c ",
-            "pv": "0.16",
+            "pv": "1.0.1",
             "section": "devel",
             "summary": "Tool for writing very fast and very flexible scanners",
-            "updated": "2018-07-30T02:07:15+0000"
+            "updated": "2018-08-20T02:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -13960,26 +13941,26 @@
             "blacklisted": "",
             "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
             "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
-            "filename": "openssl_1.1.0h.bb",
+            "filename": "openssl_1.1.0i.bb",
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 336709,
-            "inherits": "lib_package multilib_header ptest siteinfo",
+            "inherits": "lib_package multilib_header ptest relative_symlinks siteinfo",
             "layerbranch": 14953,
             "license": "openssl",
             "pn": "openssl",
             "provides": "openssl ",
-            "pv": "1.1.0h",
+            "pv": "1.1.0i",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-08-06T03:08:42+0000"
+            "updated": "2018-08-20T02:08:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "qemu_2.12.0.bb",
+            "filename": "qemu_3.0.0.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
             "id": 336710,
@@ -13988,10 +13969,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "qemu",
             "provides": "qemu ",
-            "pv": "2.12.0",
+            "pv": "3.0.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2018-07-10T03:07:48+0000"
+            "updated": "2018-08-20T02:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -14124,7 +14105,7 @@
             "pv": "0.4.1",
             "section": "base",
             "summary": "Dependency management tool for Golang",
-            "updated": "2018-07-24T20:07:36+0000"
+            "updated": "2018-08-20T02:08:42+0000"
         },
         {
             "bbclassextend": "",
@@ -14192,7 +14173,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 377105,
-            "inherits": "meta populate_sdk populate_sdk_base rootfs_ipk",
+            "inherits": "image-postinst-intercepts meta populate_sdk populate_sdk_base rootfs_ipk",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "meta-go-toolchain",
@@ -14200,7 +14181,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable Go toolchain",
-            "updated": "2018-07-24T20:07:37+0000"
+            "updated": "2018-08-20T02:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -14390,7 +14371,7 @@
             "pv": "0.13.1",
             "section": "base",
             "summary": "Vendor Package Management for Golang",
-            "updated": "2018-07-24T20:07:37+0000"
+            "updated": "2018-08-20T02:08:42+0000"
         },
         {
             "bbclassextend": "",
@@ -14447,7 +14428,7 @@
             "pv": "2.8.3",
             "section": "base",
             "summary": "An implementation of the standard Unix documentation system accessed using the man command",
-            "updated": "2018-08-13T21:08:08+0000"
+            "updated": "2018-08-20T02:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -14682,19 +14663,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Forked code from glibc libary to extract only crypto part.",
-            "filename": "libxcrypt_4.0.1.bb",
+            "filename": "libxcrypt_4.1.1.bb",
             "filepath": "recipes-core/libxcrypt",
             "homepage": "https://github.com/besser82/libxcrypt",
             "id": 566279,
-            "inherits": "autotools siteconfig siteinfo",
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "LGPLv2.1",
             "pn": "libxcrypt",
             "provides": "libxcrypt virtual/crypt",
-            "pv": "4.0.1",
+            "pv": "4.1.1",
             "section": "libs",
             "summary": "Extended cryptographic library (from glibc)",
-            "updated": "2018-07-30T02:07:09+0000"
+            "updated": "2018-08-20T02:08:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",

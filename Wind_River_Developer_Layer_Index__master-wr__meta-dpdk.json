@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180813",
+            "bitbake_branch": "wr-10.18-20180820",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-13T21:08:21+0000",
+            "updated": "2018-08-20T02:08:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-16T03:08:14+0000",
-            "vcs_last_commit": "2018-08-16T03:08:14+0000",
-            "vcs_last_fetch": "2018-08-16T03:08:14+0000",
-            "vcs_last_rev": "a2105124fd9932a0a4a400a8fdb2503088a6ce7b",
+            "updated": "2018-08-19T21:08:37+0000",
+            "vcs_last_commit": "2018-08-19T21:08:37+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:37+0000",
+            "vcs_last_rev": "788a68173554c1f5647b62e8d9b647b2e27f3e9d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180625",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "dpdk",
             "id": 168977,
             "layer": 192,
-            "updated": "2018-08-14T02:08:57+0000",
-            "vcs_last_commit": "2018-08-14T02:08:57+0000",
-            "vcs_last_fetch": "2018-08-14T02:08:57+0000",
-            "vcs_last_rev": "37277b6d94f05dfe78a96e7a2bd7c72aab775bde",
+            "updated": "2018-08-19T21:08:05+0000",
+            "vcs_last_commit": "2018-08-19T21:08:05+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:05+0000",
+            "vcs_last_rev": "a022dd97909cb50f265d1d9e70ab32fa6da56aa2",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -139,7 +139,7 @@
             "pv": "18.05",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T02:08:31+0000"
+            "updated": "2018-08-20T02:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -158,7 +158,7 @@
             "pv": "17.11.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T02:08:31+0000"
+            "updated": "2018-08-20T02:08:22+0000"
         }
     ],
     "wrtemplates": []

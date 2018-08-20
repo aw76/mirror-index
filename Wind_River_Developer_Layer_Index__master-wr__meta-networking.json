@@ -8,70 +8,70 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180813",
+            "bitbake_branch": "wr-10.18-20180820",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-13T21:08:21+0000",
+            "updated": "2018-08-20T02:08:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-16T03:08:14+0000",
-            "vcs_last_commit": "2018-08-16T03:08:14+0000",
-            "vcs_last_fetch": "2018-08-16T03:08:14+0000",
-            "vcs_last_rev": "a2105124fd9932a0a4a400a8fdb2503088a6ce7b",
+            "updated": "2018-08-19T21:08:37+0000",
+            "vcs_last_commit": "2018-08-19T21:08:37+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:37+0000",
+            "vcs_last_rev": "788a68173554c1f5647b62e8d9b647b2e27f3e9d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180814",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-08-14T02:08:19+0000",
-            "vcs_last_commit": "2018-08-14T02:08:19+0000",
-            "vcs_last_fetch": "2018-08-14T02:08:19+0000",
-            "vcs_last_rev": "1379232be6ad01c7f5c5e2e88342049d26c28433",
+            "updated": "2018-08-19T21:08:04+0000",
+            "vcs_last_commit": "2018-08-19T21:08:04+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:04+0000",
+            "vcs_last_rev": "8578d16c11eedb99a9da47af29d1545d0be8be40",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180814",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-08-14T02:08:19+0000",
-            "vcs_last_commit": "2018-08-14T02:08:19+0000",
-            "vcs_last_fetch": "2018-08-14T02:08:19+0000",
-            "vcs_last_rev": "6ee92e90ac7dd57c2cd1f85042a2aac9feb04cb2",
+            "updated": "2018-08-20T01:08:29+0000",
+            "vcs_last_commit": "2018-08-20T01:08:29+0000",
+            "vcs_last_fetch": "2018-08-20T01:08:29+0000",
+            "vcs_last_rev": "c330df2b2fde4c1d6282aa69eee3c3f96011a552",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180814",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-08-14T02:08:18+0000",
-            "vcs_last_commit": "2018-08-14T02:08:18+0000",
-            "vcs_last_fetch": "2018-08-14T02:08:18+0000",
-            "vcs_last_rev": "cddff41f31e25d1f422243499a38f447c1bb2146",
+            "updated": "2018-08-19T21:08:03+0000",
+            "vcs_last_commit": "2018-08-19T21:08:03+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:03+0000",
+            "vcs_last_rev": "736ca6ba50f2f252e53ce3a3b90bddbde5df9373",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -234,7 +234,7 @@
             "pv": "2.9.11.1",
             "section": "net",
             "summary": "",
-            "updated": "2018-08-01T01:08:52+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -405,7 +405,7 @@
             "pv": "2.0.6",
             "section": "libs",
             "summary": "The dump DAQ test the various inline mode features ",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2018-08-20T02:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -500,7 +500,7 @@
             "pv": "1.9.4",
             "section": "net",
             "summary": "",
-            "updated": "2018-01-11T21:01:10+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -804,7 +804,7 @@
             "pv": "0.7",
             "section": "net",
             "summary": "Netfilter Tables userspace utillites",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1811,7 +1811,7 @@
             "pv": "2.6.2",
             "section": "net",
             "summary": "",
-            "updated": "2018-08-15T02:08:18+0000"
+            "updated": "2018-08-20T02:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2400,7 +2400,7 @@
             "pv": "1.0.42",
             "section": "net",
             "summary": "FTP Server with a strong focus on software security",
-            "updated": "2017-09-26T04:09:22+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2875,7 +2875,7 @@
             "pv": "1.8",
             "section": "net",
             "summary": "An L2TP client/server, designed for VPN use.",
-            "updated": "2018-05-21T04:05:33+0000"
+            "updated": "2018-08-20T02:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2989,7 +2989,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-28T02:09:34+0000"
+            "updated": "2018-08-20T02:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3274,7 +3274,7 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "An open source implementation of the diameter protocol",
-            "updated": "2018-04-16T02:04:44+0000"
+            "updated": "2018-08-20T02:08:41+0000"
         },
         {
             "bbclassextend": "",

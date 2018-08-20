@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180813",
+            "bitbake_branch": "wr-10.18-20180820",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-13T21:08:21+0000",
+            "updated": "2018-08-20T02:08:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-16T03:08:14+0000",
-            "vcs_last_commit": "2018-08-16T03:08:14+0000",
-            "vcs_last_fetch": "2018-08-16T03:08:14+0000",
-            "vcs_last_rev": "a2105124fd9932a0a4a400a8fdb2503088a6ce7b",
+            "updated": "2018-08-19T21:08:37+0000",
+            "vcs_last_commit": "2018-08-19T21:08:37+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:37+0000",
+            "vcs_last_rev": "788a68173554c1f5647b62e8d9b647b2e27f3e9d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "cube",
             "id": 833857,
             "layer": 246,
-            "updated": "2018-08-12T22:08:53+0000",
-            "vcs_last_commit": "2018-08-12T22:08:53+0000",
-            "vcs_last_fetch": "2018-08-12T22:08:53+0000",
-            "vcs_last_rev": "c3ae510e4542ed6daa0b092661c4c6cfb0d08c6c",
+            "updated": "2018-08-19T21:08:04+0000",
+            "vcs_last_commit": "2018-08-19T21:08:04+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:04+0000",
+            "vcs_last_rev": "7e2dd5031b5eab61ca8ed366c784d6a05805ce38",
             "vcs_subdir": "meta-cube",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "metagw",
             "id": 833859,
             "layer": 248,
-            "updated": "2018-08-12T22:08:24+0000",
-            "vcs_last_commit": "2018-08-12T22:08:24+0000",
-            "vcs_last_fetch": "2018-08-12T22:08:24+0000",
-            "vcs_last_rev": "ef7650a6760fa4556fb2edf35aacdb46b8deed19",
+            "updated": "2018-08-19T21:08:31+0000",
+            "vcs_last_commit": "2018-08-19T21:08:31+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:31+0000",
+            "vcs_last_rev": "e335d02619e892b96a2bfe39aeba9f00268abf7d",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
@@ -152,7 +152,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-06T22:08:21+0000"
+            "updated": "2018-08-20T02:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -190,7 +190,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-06T22:08:21+0000"
+            "updated": "2018-08-20T02:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -209,7 +209,7 @@
             "pv": "0.32",
             "section": "console/utils",
             "summary": "Option/Vodafone 3G/GPRS control tool",
-            "updated": "2018-08-06T22:08:21+0000"
+            "updated": "2018-08-20T02:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -247,7 +247,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-06T22:08:21+0000"
+            "updated": "2018-08-20T02:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -266,7 +266,7 @@
             "pv": "git",
             "section": "console/utils",
             "summary": "UCI is the successor of the nvram based configuration found in the White Russian series of OpenWrt.",
-            "updated": "2018-08-06T22:08:22+0000"
+            "updated": "2018-08-20T02:08:34+0000"
         },
         {
             "bbclassextend": "native",
@@ -285,7 +285,7 @@
             "pv": "5.1.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-06T22:08:22+0000"
+            "updated": "2018-08-20T02:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -323,7 +323,7 @@
             "pv": "git",
             "section": "console/utils",
             "summary": "OpenWrt's micro bus architecture",
-            "updated": "2018-08-06T22:08:22+0000"
+            "updated": "2018-08-20T02:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -361,7 +361,7 @@
             "pv": "git",
             "section": "console/utils",
             "summary": "OpenWrt Network Interface Configuration Daemon",
-            "updated": "2018-08-06T22:08:22+0000"
+            "updated": "2018-08-20T02:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -418,7 +418,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-06T22:08:23+0000"
+            "updated": "2018-08-20T02:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -481,20 +481,20 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Launched from the essential image, this is a container image                which provides a headless install capable of being used as a server                and as a development platform.               ",
             "filename": "cube-gw_0.1.bb",
             "filepath": "recipes-core/images",
-            "homepage": "",
+            "homepage": "http://www.windriver.com",
             "id": 682649,
-            "inherits": "",
+            "inherits": "builder-base core-image extrausers hosts image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo useradd_base",
             "layerbranch": 833859,
-            "license": "",
+            "license": "MIT",
             "pn": "cube-gw",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "summary": "",
-            "updated": "2018-08-06T22:08:23+0000"
+            "provides": "cube-gw ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "A container image for domain gateway which is used as a headless, full development server",
+            "updated": "2018-08-20T02:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -532,7 +532,7 @@
             "pv": "0.12",
             "section": "webconsole",
             "summary": "LUCI Web Interface",
-            "updated": "2018-08-06T22:08:23+0000"
+            "updated": "2018-08-20T02:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -552,6 +552,25 @@
             "section": "webconsole",
             "summary": "Wireless information library",
             "updated": "2018-08-06T22:08:24+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This implements a Virtual Private Networking Server (VPN) that is compatible with Microsoft VPN clients. It allows Windows users to connect to an internal firewalled network using their dialup",
+            "filename": "pptpd_1.4.0.bb",
+            "filepath": "recipes-connectivity/pptpd",
+            "homepage": "http://poptop.sourceforge.net/",
+            "id": 715812,
+            "inherits": "autotools siteconfig siteinfo systemd",
+            "layerbranch": 833859,
+            "license": "GPLv2",
+            "pn": "pptpd",
+            "provides": "pptpd ",
+            "pv": "1.4.0",
+            "section": "net",
+            "summary": "The PPTP Server for Linux",
+            "updated": "2018-08-20T02:08:35+0000"
         }
     ],
     "wrtemplates": [

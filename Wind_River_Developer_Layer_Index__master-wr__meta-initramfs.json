@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180813",
+            "bitbake_branch": "wr-10.18-20180820",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-13T21:08:21+0000",
+            "updated": "2018-08-20T02:08:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-16T03:08:14+0000",
-            "vcs_last_commit": "2018-08-16T03:08:14+0000",
-            "vcs_last_fetch": "2018-08-16T03:08:14+0000",
-            "vcs_last_rev": "a2105124fd9932a0a4a400a8fdb2503088a6ce7b",
+            "updated": "2018-08-19T21:08:37+0000",
+            "vcs_last_commit": "2018-08-19T21:08:37+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:37+0000",
+            "vcs_last_rev": "788a68173554c1f5647b62e8d9b647b2e27f3e9d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180814",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2018-08-14T02:08:18+0000",
-            "vcs_last_commit": "2018-08-14T02:08:18+0000",
-            "vcs_last_fetch": "2018-08-14T02:08:18+0000",
-            "vcs_last_rev": "cddff41f31e25d1f422243499a38f447c1bb2146",
+            "updated": "2018-08-19T21:08:03+0000",
+            "vcs_last_commit": "2018-08-19T21:08:03+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:03+0000",
+            "vcs_last_rev": "736ca6ba50f2f252e53ce3a3b90bddbde5df9373",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": null
@@ -196,7 +196,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2017-09-26T04:09:43+0000"
+            "updated": "2018-08-20T02:08:58+0000"
         },
         {
             "bbclassextend": "",

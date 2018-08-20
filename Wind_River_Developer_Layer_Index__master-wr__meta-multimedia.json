@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180813",
+            "bitbake_branch": "wr-10.18-20180820",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-13T21:08:21+0000",
+            "updated": "2018-08-20T02:08:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-16T03:08:14+0000",
-            "vcs_last_commit": "2018-08-16T03:08:14+0000",
-            "vcs_last_fetch": "2018-08-16T03:08:14+0000",
-            "vcs_last_rev": "a2105124fd9932a0a4a400a8fdb2503088a6ce7b",
+            "updated": "2018-08-19T21:08:37+0000",
+            "vcs_last_commit": "2018-08-19T21:08:37+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:37+0000",
+            "vcs_last_rev": "788a68173554c1f5647b62e8d9b647b2e27f3e9d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180814",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2018-08-14T02:08:18+0000",
-            "vcs_last_commit": "2018-08-14T02:08:18+0000",
-            "vcs_last_fetch": "2018-08-14T02:08:18+0000",
-            "vcs_last_rev": "d7d257b11b8a3b9d3d9398f94afea832f4c0ff95",
+            "updated": "2018-08-19T21:08:03+0000",
+            "vcs_last_commit": "2018-08-19T21:08:03+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:03+0000",
+            "vcs_last_rev": "2a40aadccd6e98ee4c51108757c6ea4b566fdae0",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": null
@@ -272,7 +272,7 @@
             "pv": "1.10+X",
             "section": "base",
             "summary": "OSCam: Open Source Conditional Access Module",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2018-08-20T02:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1269,7 +1269,7 @@
             "description": "",
             "filename": "faac_1.29.bb",
             "filepath": "recipes-multimedia/faac",
-            "homepage": "",
+            "homepage": "http://www.audiocoding.com/faac.html",
             "id": 270096,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14963,
@@ -1279,7 +1279,7 @@
             "pv": "1.29",
             "section": "libs",
             "summary": "Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC)",
-            "updated": "2017-09-26T04:09:22+0000"
+            "updated": "2018-08-20T02:08:15+0000"
         },
         {
             "bbclassextend": "",

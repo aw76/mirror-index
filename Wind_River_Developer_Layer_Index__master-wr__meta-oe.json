@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180813",
+            "bitbake_branch": "wr-10.18-20180820",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-13T21:08:21+0000",
+            "updated": "2018-08-20T02:08:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180813",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-16T03:08:14+0000",
-            "vcs_last_commit": "2018-08-16T03:08:14+0000",
-            "vcs_last_fetch": "2018-08-16T03:08:14+0000",
-            "vcs_last_rev": "a2105124fd9932a0a4a400a8fdb2503088a6ce7b",
+            "updated": "2018-08-19T21:08:37+0000",
+            "vcs_last_commit": "2018-08-19T21:08:37+0000",
+            "vcs_last_fetch": "2018-08-19T21:08:37+0000",
+            "vcs_last_rev": "788a68173554c1f5647b62e8d9b647b2e27f3e9d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180814",
+            "actual_branch": "wr-10.18-20180820",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-08-14T02:08:19+0000",
-            "vcs_last_commit": "2018-08-14T02:08:19+0000",
-            "vcs_last_fetch": "2018-08-14T02:08:19+0000",
-            "vcs_last_rev": "6ee92e90ac7dd57c2cd1f85042a2aac9feb04cb2",
+            "updated": "2018-08-20T01:08:29+0000",
+            "vcs_last_commit": "2018-08-20T01:08:29+0000",
+            "vcs_last_fetch": "2018-08-20T01:08:29+0000",
+            "vcs_last_rev": "c330df2b2fde4c1d6282aa69eee3c3f96011a552",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -2020,7 +2020,7 @@
             "pv": "1.0",
             "section": "System Environment/Base",
             "summary": "Mobile IPv6 and NEMO for Linux",
-            "updated": "2018-03-20T01:03:19+0000"
+            "updated": "2018-08-20T02:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3844,7 +3844,7 @@
             "pv": "2.1.5",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:12+0000"
+            "updated": "2018-08-20T02:08:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -5516,7 +5516,7 @@
             "pv": "git",
             "section": "System Environment/Base",
             "summary": "Linux machine check injector tool",
-            "updated": "2018-06-19T20:06:30+0000"
+            "updated": "2018-08-20T02:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -5592,7 +5592,7 @@
             "pv": "1.0.3+gitX",
             "section": "libs",
             "summary": "Locking devices library",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2018-08-20T02:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -5637,7 +5637,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Atop is an ASCII full-screen performance monitor for Linux that is capable of reporting the activity of all processes (even if processes have finished during the interval), daily logging of system and process activity for long-term analysis, highlighting overloaded system resources by using colors, etc. At regular intervals, it shows system-level activity related to the CPU, memory, swap, disks (including LVM) and network layers, and for every process (and thread) it shows e.g. the CPU utilization, memory growth, disk utilization, priority, username, state, and exit code.",
-            "filename": "atop_2.2.3.bb",
+            "filename": "atop_2.3.0.bb",
             "filepath": "recipes-support/atop",
             "homepage": "http://www.atoptool.nl",
             "id": 269195,
@@ -5646,10 +5646,10 @@
             "license": "GPLv2",
             "pn": "atop",
             "provides": "atop ",
-            "pv": "2.2.3",
+            "pv": "2.3.0",
             "section": "console/utils",
             "summary": "Monitor for system resources and process activity",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2018-08-20T02:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -5763,7 +5763,7 @@
             "pv": "1.0.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-19T20:06:32+0000"
+            "updated": "2018-08-20T02:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -5858,7 +5858,7 @@
             "pv": "302",
             "section": "console/network",
             "summary": "",
-            "updated": "2017-09-26T04:09:26+0000"
+            "updated": "2018-08-20T02:08:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -7064,7 +7064,7 @@
             "description": "",
             "filename": "faad2_2.7.bb",
             "filepath": "recipes-multimedia/faad2",
-            "homepage": "",
+            "homepage": "http://www.audiocoding.com/faad2.html",
             "id": 269280,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14965,
@@ -7073,8 +7073,8 @@
             "provides": "faad2 ",
             "pv": "2.7",
             "section": "libs",
-            "summary": "Library for reading some sort of media format",
-            "updated": "2017-09-26T04:09:35+0000"
+            "summary": "An open source MPEG-4 and MPEG-2 AAC decoding library",
+            "updated": "2018-08-20T02:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -8354,7 +8354,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "CFEngine is an IT infrastructure automation framework that helps engineers, system administrators and other stakeholders in an IT system to manage and understand IT infrastructure throughout its lifecycle. CFEngine takes systems from Build to Deploy, Manage and Audit.  This package is intended to provide a stable base policy for installations and upgrades, and is used by CFEngine 3.6 and newer.  The contents of this packge are intended to live in `/var/cfengine/masterfiles` or wherever `$(sys.masterdir)` points. ",
-            "filename": "cfengine-masterfiles_3.10.2.bb",
+            "filename": "cfengine-masterfiles_3.12.0.bb",
             "filepath": "recipes-extended/cfengine",
             "homepage": "http://cfengine.com",
             "id": 269355,
@@ -8363,17 +8363,17 @@
             "license": "MIT",
             "pn": "cfengine-masterfiles",
             "provides": "cfengine-masterfiles ",
-            "pv": "3.10.2",
+            "pv": "3.12.0",
             "section": "base",
             "summary": "Base policy for CFEngine",
-            "updated": "2018-01-29T20:01:44+0000"
+            "updated": "2018-08-20T02:08:00+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "CFEngine is an IT infrastructure automation framework that helps engineers, system administrators and other stakeholders in an IT system to manage and understand IT infrastructure throughout its lifecycle. CFEngine takes systems from Build to Deploy, Manage and Audit.",
-            "filename": "cfengine_3.10.2.bb",
+            "filename": "cfengine_3.12.0.bb",
             "filepath": "recipes-extended/cfengine",
             "homepage": "http://cfengine.com",
             "id": 269356,
@@ -8382,10 +8382,10 @@
             "license": "GPLv3",
             "pn": "cfengine",
             "provides": "cfengine ",
-            "pv": "3.10.2",
+            "pv": "3.12.0",
             "section": "base",
             "summary": "CFEngine is an IT infrastructure automation framework",
-            "updated": "2018-01-29T20:01:44+0000"
+            "updated": "2018-08-20T02:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8411,8 +8411,8 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "lsscsi_0.28.bb",
-            "filepath": "recipes-bsp/lssci",
+            "filename": "lsscsi_0.30.bb",
+            "filepath": "recipes-bsp/lsscsi",
             "homepage": "http://sg.danny.cz/scsi/lsscsi.html",
             "id": 269358,
             "inherits": "autotools siteconfig siteinfo",
@@ -8420,10 +8420,10 @@
             "license": "GPLv2",
             "pn": "lsscsi",
             "provides": "lsscsi ",
-            "pv": "0.28",
+            "pv": "0.30",
             "section": "base",
             "summary": "The lsscsi command lists information about SCSI devices in Linux",
-            "updated": "2018-03-06T21:03:42+0000"
+            "updated": "2018-08-20T02:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8955,7 +8955,7 @@
             "pv": "6.20.00",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-06T21:03:45+0000"
+            "updated": "2018-08-20T02:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -9829,7 +9829,7 @@
             "pv": "2007f",
             "section": "devel",
             "summary": "UW c-client library for mail protocols",
-            "updated": "2018-01-29T20:01:46+0000"
+            "updated": "2018-08-20T02:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -10627,7 +10627,7 @@
             "pv": "0.10+gitrX",
             "section": "base",
             "summary": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing",
-            "updated": "2018-06-19T20:06:26+0000"
+            "updated": "2018-08-20T02:08:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -11102,7 +11102,7 @@
             "pv": "0.7.5",
             "section": "base",
             "summary": "Toybox combines common utilities together into a single executable.",
-            "updated": "2017-11-22T20:11:56+0000"
+            "updated": "2018-08-20T02:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -11292,7 +11292,7 @@
             "pv": "2.18",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2018-08-15T02:08:53+0000"
+            "updated": "2018-08-20T02:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -11736,7 +11736,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "stress-ng_0.09.14.bb",
+            "filename": "stress-ng_0.09.37.bb",
             "filepath": "recipes-test/stress-ng",
             "homepage": "http://kernel.ubuntu.com/~cking/stress-ng/",
             "id": 445158,
@@ -11745,10 +11745,10 @@
             "license": "GPLv2",
             "pn": "stress-ng",
             "provides": "stress-ng ",
-            "pv": "0.09.14",
+            "pv": "0.09.37",
             "section": "base",
             "summary": "A tool to load and stress a computer system",
-            "updated": "2018-02-12T02:02:21+0000"
+            "updated": "2018-08-20T02:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -12546,7 +12546,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel selftest for Linux",
-            "updated": "2018-08-15T02:08:57+0000"
+            "updated": "2018-08-20T02:08:02+0000"
         }
     ],
     "wrtemplates": []
