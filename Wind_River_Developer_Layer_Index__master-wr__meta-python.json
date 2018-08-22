@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180820",
+            "bitbake_branch": "wr-10.18-20180821",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-20T02:08:20+0000",
+            "updated": "2018-08-21T20:08:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180820",
+            "actual_branch": "wr-10.18-20180821",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-21T01:08:18+0000",
-            "vcs_last_commit": "2018-08-21T01:08:18+0000",
-            "vcs_last_fetch": "2018-08-21T01:08:18+0000",
-            "vcs_last_rev": "da49dab39f00025361d759ad3c4a10797451d135",
+            "updated": "2018-08-20T21:08:00+0000",
+            "vcs_last_commit": "2018-08-20T21:08:00+0000",
+            "vcs_last_fetch": "2018-08-20T21:08:00+0000",
+            "vcs_last_rev": "c5c0d142ed27077ef76d7ff9a7bfa46bc54d1b4e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180820",
+            "actual_branch": "wr-10.18-20180821",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-08-20T01:08:29+0000",
-            "vcs_last_commit": "2018-08-20T01:08:29+0000",
-            "vcs_last_fetch": "2018-08-20T01:08:29+0000",
-            "vcs_last_rev": "c330df2b2fde4c1d6282aa69eee3c3f96011a552",
+            "updated": "2018-08-20T21:08:58+0000",
+            "vcs_last_commit": "2018-08-20T21:08:58+0000",
+            "vcs_last_fetch": "2018-08-20T21:08:58+0000",
+            "vcs_last_rev": "be8cf78302ea4cb1705d7498f4ff81c7a7a8cd75",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180820",
+            "actual_branch": "wr-10.18-20180821",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-08-19T21:08:03+0000",
-            "vcs_last_commit": "2018-08-19T21:08:03+0000",
-            "vcs_last_fetch": "2018-08-19T21:08:03+0000",
-            "vcs_last_rev": "736ca6ba50f2f252e53ce3a3b90bddbde5df9373",
+            "updated": "2018-08-20T21:08:58+0000",
+            "vcs_last_commit": "2018-08-20T21:08:58+0000",
+            "vcs_last_fetch": "2018-08-20T21:08:58+0000",
+            "vcs_last_rev": "87888fbfcf160d8300866160b299dbd99505e3de",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -545,7 +545,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This installable Python package contains a CA Bundle that you can reference in your Python code. This is useful for verifying HTTP requests, for example.  This is the same CA Bundle which ships with the Requests codebase, and is derived from Mozilla Firefox's canonical set.",
-            "filename": "python3-certifi_2018.4.16.bb",
+            "filename": "python3-certifi_2018.8.13.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://certifi.io/",
             "id": 269643,
@@ -554,17 +554,17 @@
             "license": "ISC",
             "pn": "python3-certifi",
             "provides": "python3-certifi ",
-            "pv": "2018.4.16",
+            "pv": "2018.8.13",
             "section": "devel/python",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2018-07-10T02:07:09+0000"
+            "updated": "2018-08-21T20:08:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python-cython_0.28.4.bb",
+            "filename": "python-cython_0.28.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269644,
@@ -573,10 +573,10 @@
             "license": "Apache-2.0",
             "pn": "python-cython",
             "provides": "python-cython ",
-            "pv": "0.28.4",
+            "pv": "0.28.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-07-16T20:07:00+0000"
+            "updated": "2018-08-21T20:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -678,7 +678,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This installable Python package contains a CA Bundle that you can reference in your Python code. This is useful for verifying HTTP requests, for example.  This is the same CA Bundle which ships with the Requests codebase, and is derived from Mozilla Firefox's canonical set.",
-            "filename": "python-certifi_2018.4.16.bb",
+            "filename": "python-certifi_2018.8.13.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://certifi.io/",
             "id": 269650,
@@ -687,10 +687,10 @@
             "license": "ISC",
             "pn": "python-certifi",
             "provides": "python-certifi ",
-            "pv": "2018.4.16",
+            "pv": "2018.8.13",
             "section": "devel/python",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2018-07-10T02:07:00+0000"
+            "updated": "2018-08-21T20:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1704,7 +1704,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-prompt-toolkit_1.0.15.bb",
+            "filename": "python-prompt-toolkit_2.0.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269704,
@@ -1713,10 +1713,10 @@
             "license": "BSD",
             "pn": "python-prompt-toolkit",
             "provides": "python-prompt-toolkit ",
-            "pv": "1.0.15",
+            "pv": "2.0.4",
             "section": "devel/python",
             "summary": "Library for building powerful interactive command lines in Python",
-            "updated": "2018-01-29T20:01:03+0000"
+            "updated": "2018-08-21T20:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1913,7 +1913,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python3-cython_0.28.4.bb",
+            "filename": "python3-cython_0.28.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269715,
@@ -1922,10 +1922,10 @@
             "license": "Apache-2.0",
             "pn": "python3-cython",
             "provides": "python3-cython ",
-            "pv": "0.28.4",
+            "pv": "0.28.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-07-16T20:07:05+0000"
+            "updated": "2018-08-21T20:08:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3224,7 +3224,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pip_10.0.1.bb",
+            "filename": "python-pip_18.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pip.pypa.io/",
             "id": 269785,
@@ -3233,10 +3233,10 @@
             "license": "MIT & LGPL-2.1",
             "pn": "python-pip",
             "provides": "python-pip ",
-            "pv": "10.0.1",
+            "pv": "18.0",
             "section": "devel/python",
             "summary": "PIP is a tool for installing and managing Python packages",
-            "updated": "2018-07-10T02:07:04+0000"
+            "updated": "2018-08-21T20:08:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3718,7 +3718,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python-lxml_4.2.3.bb",
+            "filename": "python-lxml_4.2.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
             "id": 269812,
@@ -3727,10 +3727,10 @@
             "license": "BSD & GPLv2 & MIT & PSF",
             "pn": "python-lxml",
             "provides": "python-lxml ",
-            "pv": "4.2.3",
+            "pv": "4.2.4",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2018-07-10T02:07:03+0000"
+            "updated": "2018-08-21T20:08:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4307,7 +4307,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-prompt-toolkit_1.0.15.bb",
+            "filename": "python3-prompt-toolkit_2.0.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 269843,
@@ -4316,10 +4316,10 @@
             "license": "BSD",
             "pn": "python3-prompt-toolkit",
             "provides": "python3-prompt-toolkit ",
-            "pv": "1.0.15",
+            "pv": "2.0.4",
             "section": "devel/python",
             "summary": "Library for building powerful interactive command lines in Python",
-            "updated": "2018-01-29T20:01:07+0000"
+            "updated": "2018-08-21T20:08:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4478,7 +4478,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python3-lxml_4.2.3.bb",
+            "filename": "python3-lxml_4.2.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
             "id": 269852,
@@ -4487,10 +4487,10 @@
             "license": "BSD & GPLv2 & MIT & PSF",
             "pn": "python3-lxml",
             "provides": "python3-lxml ",
-            "pv": "4.2.3",
+            "pv": "4.2.4",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2018-07-16T20:07:08+0000"
+            "updated": "2018-08-21T20:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -5770,7 +5770,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
-            "filename": "python-pandas_0.23.3.bb",
+            "filename": "python-pandas_0.23.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pandas.pydata.org/",
             "id": 415561,
@@ -5779,10 +5779,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-pandas",
             "provides": "python-pandas ",
-            "pv": "0.23.3",
+            "pv": "0.23.4",
             "section": "devel/python",
             "summary": "pandas library for high-performance data analysis tools",
-            "updated": "2018-07-16T20:07:01+0000"
+            "updated": "2018-08-21T20:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -5808,7 +5808,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
-            "filename": "python3-pandas_0.23.3.bb",
+            "filename": "python3-pandas_0.23.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pandas.pydata.org/",
             "id": 415563,
@@ -5817,10 +5817,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-pandas",
             "provides": "python3-pandas ",
-            "pv": "0.23.3",
+            "pv": "0.23.4",
             "section": "devel/python",
             "summary": "pandas library for high-performance data analysis tools",
-            "updated": "2018-07-16T20:07:05+0000"
+            "updated": "2018-08-21T20:08:37+0000"
         },
         {
             "bbclassextend": "",

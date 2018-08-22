@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180820",
+            "bitbake_branch": "wr-10.18-20180821",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-20T02:08:20+0000",
+            "updated": "2018-08-21T20:08:15+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180820",
+            "actual_branch": "wr-10.18-20180821",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-21T01:08:18+0000",
-            "vcs_last_commit": "2018-08-21T01:08:18+0000",
-            "vcs_last_fetch": "2018-08-21T01:08:18+0000",
-            "vcs_last_rev": "da49dab39f00025361d759ad3c4a10797451d135",
+            "updated": "2018-08-20T21:08:00+0000",
+            "vcs_last_commit": "2018-08-20T21:08:00+0000",
+            "vcs_last_fetch": "2018-08-20T21:08:00+0000",
+            "vcs_last_rev": "c5c0d142ed27077ef76d7ff9a7bfa46bc54d1b4e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -2724,7 +2724,7 @@
             "pv": "18.1.3",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2018-07-30T02:07:44+0000"
+            "updated": "2018-08-21T20:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2762,7 +2762,7 @@
             "pv": "18.1.3",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2018-07-30T02:07:44+0000"
+            "updated": "2018-08-21T20:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3256,7 +3256,7 @@
             "pv": "1.0.2p",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-08-20T02:08:34+0000"
+            "updated": "2018-08-21T20:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -4783,7 +4783,7 @@
             "blacklisted": "",
             "bugtracker": "https://savannah.gnu.org/support/?group=gnutls",
             "description": "",
-            "filename": "gnutls_3.6.2.bb",
+            "filename": "gnutls_3.6.3.bb",
             "filepath": "recipes-support/gnutls",
             "homepage": "http://www.gnu.org/software/gnutls/",
             "id": 270912,
@@ -4792,10 +4792,10 @@
             "license": "GPLv3+ & LGPLv2.1+",
             "pn": "gnutls",
             "provides": "gnutls ",
-            "pv": "3.6.2",
+            "pv": "3.6.3",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2018-08-13T21:08:10+0000"
+            "updated": "2018-08-21T20:08:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7037,7 +7037,7 @@
             "pv": "6.0",
             "section": "console/utils",
             "summary": "Utilities for extracting and viewing files in .zip archives",
-            "updated": "2018-08-01T01:08:09+0000"
+            "updated": "2018-08-21T20:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -9267,7 +9267,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pip_10.0.1.bb",
+            "filename": "python3-pip_18.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pip",
             "id": 271173,
@@ -9276,10 +9276,10 @@
             "license": "MIT",
             "pn": "python3-pip",
             "provides": "python3-pip ",
-            "pv": "10.0.1",
+            "pv": "18.0",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2018-08-06T03:08:59+0000"
+            "updated": "2018-08-21T20:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9450,7 +9450,7 @@
             "pv": "2.7.15",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-08-21T01:08:25+0000"
+            "updated": "2018-08-21T20:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -9488,7 +9488,7 @@
             "pv": "3.5.5",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-08-21T01:08:25+0000"
+            "updated": "2018-08-21T20:08:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9514,7 +9514,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-gitdb_2.0.3.bb",
+            "filename": "python3-gitdb_2.0.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/gitpython-developers/gitdb",
             "id": 271186,
@@ -9523,10 +9523,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-gitdb",
             "provides": "python3-gitdb ",
-            "pv": "2.0.3",
+            "pv": "2.0.4",
             "section": "devel/python",
             "summary": "A pure-Python git object database",
-            "updated": "2018-08-01T01:08:13+0000"
+            "updated": "2018-08-21T20:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9571,7 +9571,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GitPython provides object model read and write access to a git repository. Access repository information conveniently, alter the index directly, handle remotes, or go down to low-level object database access with big-files support.",
-            "filename": "python3-git_2.1.10.bb",
+            "filename": "python3-git_2.1.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/gitpython-developers/GitPython",
             "id": 271189,
@@ -9580,10 +9580,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-git",
             "provides": "python3-git ",
-            "pv": "2.1.10",
+            "pv": "2.1.11",
             "section": "devel/python",
             "summary": "Python library used to interact with Git repositories",
-            "updated": "2018-08-01T01:08:14+0000"
+            "updated": "2018-08-21T20:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -10210,7 +10210,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities (cross-canadian for i586 target)",
-            "updated": "2018-08-16T01:08:23+0000"
+            "updated": "2018-08-21T20:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -10229,7 +10229,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-08-16T01:08:23+0000"
+            "updated": "2018-08-21T20:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -10248,7 +10248,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-08-16T01:08:23+0000"
+            "updated": "2018-08-21T20:08:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10267,7 +10267,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-08-16T01:08:24+0000"
+            "updated": "2018-08-21T20:08:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11141,7 +11141,7 @@
             "pv": "3.11.4",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2018-08-21T02:08:23+0000"
+            "updated": "2018-08-21T20:08:15+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12129,7 +12129,7 @@
             "pv": "2.9.8",
             "section": "libs",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2018-08-20T02:08:40+0000"
+            "updated": "2018-08-21T20:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -13048,7 +13048,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
-            "filename": "expat_2.2.5.bb",
+            "filename": "expat_2.2.6.bb",
             "filepath": "recipes-core/expat",
             "homepage": "http://expat.sourceforge.net/",
             "id": 271384,
@@ -13057,10 +13057,10 @@
             "license": "MIT",
             "pn": "expat",
             "provides": "expat ",
-            "pv": "2.2.5",
+            "pv": "2.2.6",
             "section": "libs",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2018-07-30T02:07:10+0000"
+            "updated": "2018-08-21T20:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13877,7 +13877,7 @@
             "pv": "6.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-08-20T02:08:43+0000"
+            "updated": "2018-08-21T20:08:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13953,7 +13953,7 @@
             "pv": "1.1.0i",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-08-20T02:08:35+0000"
+            "updated": "2018-08-21T20:08:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15131,7 +15131,7 @@
             "pv": "2.0.5",
             "section": "libs",
             "summary": "Internationalized Domain Name support library",
-            "updated": "2018-08-13T21:08:08+0000"
+            "updated": "2018-08-21T20:08:17+0000"
         }
     ],
     "wrtemplates": []

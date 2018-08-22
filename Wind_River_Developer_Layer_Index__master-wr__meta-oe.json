@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180820",
+            "bitbake_branch": "wr-10.18-20180821",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-20T02:08:20+0000",
+            "updated": "2018-08-21T20:08:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180820",
+            "actual_branch": "wr-10.18-20180821",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-21T01:08:18+0000",
-            "vcs_last_commit": "2018-08-21T01:08:18+0000",
-            "vcs_last_fetch": "2018-08-21T01:08:18+0000",
-            "vcs_last_rev": "da49dab39f00025361d759ad3c4a10797451d135",
+            "updated": "2018-08-20T21:08:00+0000",
+            "vcs_last_commit": "2018-08-20T21:08:00+0000",
+            "vcs_last_fetch": "2018-08-20T21:08:00+0000",
+            "vcs_last_rev": "c5c0d142ed27077ef76d7ff9a7bfa46bc54d1b4e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180820",
+            "actual_branch": "wr-10.18-20180821",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-08-20T01:08:29+0000",
-            "vcs_last_commit": "2018-08-20T01:08:29+0000",
-            "vcs_last_fetch": "2018-08-20T01:08:29+0000",
-            "vcs_last_rev": "c330df2b2fde4c1d6282aa69eee3c3f96011a552",
+            "updated": "2018-08-20T21:08:58+0000",
+            "vcs_last_commit": "2018-08-20T21:08:58+0000",
+            "vcs_last_fetch": "2018-08-20T21:08:58+0000",
+            "vcs_last_rev": "be8cf78302ea4cb1705d7498f4ff81c7a7a8cd75",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -443,7 +443,7 @@
             "pv": "1.1.4",
             "section": "x11/apps",
             "summary": "A program to compile XKB keyboard description",
-            "updated": "2017-09-26T04:09:49+0000"
+            "updated": "2018-08-21T20:08:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -1678,7 +1678,7 @@
             "pv": "1.7.7",
             "section": "libs",
             "summary": "Graphics abstraction library for the Linux Framebuffer Device",
-            "updated": "2018-03-26T03:03:53+0000"
+            "updated": "2018-08-21T20:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -4479,7 +4479,7 @@
             "bugtracker": "",
             "description": "",
             "filename": "libsdl2-ttf_2.0.14.bb",
-            "filepath": "recipes-support/libsdl-ttf",
+            "filepath": "recipes-graphics/libsdl",
             "homepage": "",
             "id": 269128,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
@@ -4490,7 +4490,7 @@
             "pv": "2.0.14",
             "section": "libs",
             "summary": "Simple DirectMedia Layer truetype font library",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2018-08-21T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -4498,7 +4498,7 @@
             "bugtracker": "",
             "description": "",
             "filename": "libsdl-ttf_2.0.11.bb",
-            "filepath": "recipes-support/libsdl-ttf",
+            "filepath": "recipes-graphics/libsdl",
             "homepage": "",
             "id": 269129,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
@@ -4509,7 +4509,7 @@
             "pv": "2.0.11",
             "section": "libs",
             "summary": "Simple DirectMedia Layer truetype font library",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2018-08-21T20:08:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -5060,7 +5060,7 @@
             "pv": "1.8.6",
             "section": "inputmethods",
             "summary": "",
-            "updated": "2018-03-20T01:03:24+0000"
+            "updated": "2018-08-21T20:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -5668,14 +5668,14 @@
             "pv": "1.99.7+git1fd19417b8a4dd9945347e98dfa97e4cfd798d77",
             "section": "console/utils",
             "summary": "",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2018-08-21T20:08:26+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "FFTW",
-            "filename": "fftw_3.3.7.bb",
+            "filename": "fftw_3.3.8.bb",
             "filepath": "recipes-support/fftw",
             "homepage": "",
             "id": 269199,
@@ -5684,10 +5684,10 @@
             "license": "GPLv2",
             "pn": "fftw",
             "provides": "fftw fftwl fftwf",
-            "pv": "3.3.7",
+            "pv": "3.3.8",
             "section": "libs",
             "summary": "",
-            "updated": "2017-12-12T20:12:37+0000"
+            "updated": "2018-08-21T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -6333,7 +6333,7 @@
             "pv": "2.8.51",
             "section": "devel",
             "summary": "",
-            "updated": "2017-09-26T04:09:30+0000"
+            "updated": "2018-08-21T20:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -6587,7 +6587,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "poppler_0.66.0.bb",
+            "filename": "poppler_0.67.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 269254,
@@ -6596,10 +6596,10 @@
             "license": "GPLv2",
             "pn": "poppler",
             "provides": "poppler ",
-            "pv": "0.66.0",
+            "pv": "0.67.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2018-07-10T02:07:48+0000"
+            "updated": "2018-08-21T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -6683,7 +6683,7 @@
             "bugtracker": "",
             "description": "",
             "filename": "libsdl-image_1.2.12.bb",
-            "filepath": "recipes-multimedia/libsdl-image",
+            "filepath": "recipes-graphics/libsdl",
             "homepage": "",
             "id": 269259,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
@@ -6694,15 +6694,15 @@
             "pv": "1.2.12",
             "section": "libs",
             "summary": "Simple DirectMedia Layer image library",
-            "updated": "2017-09-26T04:09:32+0000"
+            "updated": "2018-08-21T20:08:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libsdl2-image_2.0.1.bb",
-            "filepath": "recipes-multimedia/libsdl-image",
+            "filename": "libsdl2-image_2.0.3.bb",
+            "filepath": "recipes-graphics/libsdl",
             "homepage": "",
             "id": 269260,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
@@ -6710,10 +6710,10 @@
             "license": "Zlib",
             "pn": "libsdl2-image",
             "provides": "libsdl2-image ",
-            "pv": "2.0.1",
+            "pv": "2.0.3",
             "section": "libs",
             "summary": "Simple DirectMedia Layer image library v2",
-            "updated": "2017-09-26T04:09:33+0000"
+            "updated": "2018-08-21T20:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -6835,7 +6835,7 @@
             "bugtracker": "",
             "description": "",
             "filename": "libsdl2-mixer_2.0.2.bb",
-            "filepath": "recipes-multimedia/libsdl-mixer",
+            "filepath": "recipes-graphics/libsdl",
             "homepage": "",
             "id": 269268,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
@@ -6846,7 +6846,7 @@
             "pv": "2.0.2",
             "section": "libs",
             "summary": "Simple DirectMedia Layer mixer library V2",
-            "updated": "2018-03-20T01:03:19+0000"
+            "updated": "2018-08-21T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -6854,7 +6854,7 @@
             "bugtracker": "",
             "description": "",
             "filename": "libsdl-mixer_1.2.12.bb",
-            "filepath": "recipes-multimedia/libsdl-mixer",
+            "filepath": "recipes-graphics/libsdl",
             "homepage": "",
             "id": 269269,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
@@ -6865,7 +6865,7 @@
             "pv": "1.2.12",
             "section": "libs",
             "summary": "Simple DirectMedia Layer mixer library",
-            "updated": "2017-09-26T04:09:33+0000"
+            "updated": "2018-08-21T20:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -7283,7 +7283,7 @@
             "pv": "18.05.00+gitX",
             "section": "base",
             "summary": "Firmware testsuite",
-            "updated": "2018-06-19T20:06:32+0000"
+            "updated": "2018-08-21T20:08:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7872,7 +7872,7 @@
             "pv": "52.8.1",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2018-08-15T02:08:54+0000"
+            "updated": "2018-08-21T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -8822,7 +8822,7 @@
             "pv": "0.6",
             "section": "base",
             "summary": "Simple top-like I/O monitor",
-            "updated": "2018-06-19T20:06:27+0000"
+            "updated": "2018-08-21T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -9145,7 +9145,7 @@
             "pv": "2017.07+X",
             "section": "base",
             "summary": "OpenGL (ES) 2.0 benchmark",
-            "updated": "2017-09-26T04:09:49+0000"
+            "updated": "2018-08-21T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -10760,7 +10760,7 @@
             "pv": "4.11.0.1",
             "section": "devel",
             "summary": "Linux kernel style configuration framework for other projects",
-            "updated": "2017-09-26T04:09:02+0000"
+            "updated": "2018-08-21T20:08:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -12033,7 +12033,7 @@
             "pv": "20170122",
             "section": "base",
             "summary": "Linux tool to dump x86 CPUID information about the CPU(s)",
-            "updated": "2018-02-12T02:02:23+0000"
+            "updated": "2018-08-21T20:08:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12135,7 +12135,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cpprest_2.10.3.bb",
+            "filename": "cpprest_2.10.5.bb",
             "filepath": "recipes-support/cpprest",
             "homepage": "https://github.com/Microsoft/cpprestsdk/",
             "id": 625470,
@@ -12144,10 +12144,10 @@
             "license": "MIT",
             "pn": "cpprest",
             "provides": "cpprest ",
-            "pv": "2.10.3",
+            "pv": "2.10.5",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-08-15T02:08:58+0000"
+            "updated": "2018-08-21T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -12356,7 +12356,7 @@
             "pv": "018",
             "section": "kernel/userland",
             "summary": "Linux kernel userland utilities for the PCMCIA subsystem",
-            "updated": "2018-07-02T22:07:59+0000"
+            "updated": "2018-08-21T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -12538,7 +12538,7 @@
             "filepath": "recipes-kernel/kernel-selftest",
             "homepage": "",
             "id": 715795,
-            "inherits": "kernel-arch linux-kernel-base",
+            "inherits": "kernel-arch linux-kernel-base ptest",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "kernel-selftest",
@@ -12546,7 +12546,83 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel selftest for Linux",
-            "updated": "2018-08-20T02:08:02+0000"
+            "updated": "2018-08-21T20:08:26+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "lapack_3.8.0.bb",
+            "filepath": "recipes-devtools/lapack",
+            "homepage": "",
+            "id": 715831,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 14965,
+            "license": "BSD-3-Clause",
+            "pn": "lapack",
+            "provides": "lapack ",
+            "pv": "3.8.0",
+            "section": "base",
+            "summary": "Linear Algebra PACKage",
+            "updated": "2018-08-21T20:08:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Simple DirectMedia Layer networking library.",
+            "filename": "libsdl-net_1.2.8.bb",
+            "filepath": "recipes-graphics/libsdl",
+            "homepage": "",
+            "id": 715832,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "Zlib",
+            "pn": "libsdl-net",
+            "provides": "libsdl-net ",
+            "pv": "1.2.8",
+            "section": "libs/network",
+            "summary": "",
+            "updated": "2018-08-21T20:08:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Simple DirectMedia Layer networking library.",
+            "filename": "libsdl2-net_2.0.1.bb",
+            "filepath": "recipes-graphics/libsdl",
+            "homepage": "",
+            "id": 715833,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "Zlib",
+            "pn": "libsdl2-net",
+            "provides": "libsdl2-net ",
+            "pv": "2.0.1",
+            "section": "libs/network",
+            "summary": "",
+            "updated": "2018-08-21T20:08:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
+            "description": "",
+            "filename": "libxpresent_1.0.0.bb",
+            "filepath": "recipes-graphics/xorg-lib",
+            "homepage": "http://www.x.org",
+            "id": 715834,
+            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "MIT-X",
+            "pn": "libxpresent",
+            "provides": "libxpresent ",
+            "pv": "1.0.0",
+            "section": "x11/libs",
+            "summary": "X Athena Widget Set",
+            "updated": "2018-08-21T20:08:28+0000"
         }
     ],
     "wrtemplates": []
