@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180821",
+            "bitbake_branch": "wr-10.18-20180827",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-21T20:08:15+0000",
+            "updated": "2018-08-27T20:08:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180821",
+            "actual_branch": "wr-10.18-20180827",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-23T00:08:34+0000",
-            "vcs_last_commit": "2018-08-23T00:08:34+0000",
-            "vcs_last_fetch": "2018-08-23T00:08:34+0000",
-            "vcs_last_rev": "3beae98fdd998b6086f6ebb3a07fe23481a6863b",
+            "updated": "2018-08-28T04:08:54+0000",
+            "vcs_last_commit": "2018-08-28T04:08:54+0000",
+            "vcs_last_fetch": "2018-08-28T04:08:54+0000",
+            "vcs_last_rev": "2b9bae971a1ee25029d70f7c049b771e4cd2d185",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180821",
+            "actual_branch": "wr-10.18-20180827",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-08-22T21:08:47+0000",
-            "vcs_last_commit": "2018-08-22T21:08:47+0000",
-            "vcs_last_fetch": "2018-08-22T21:08:47+0000",
-            "vcs_last_rev": "488a932b48e5ad3a6c1f6c1e26a4ec2f58136cde",
+            "updated": "2018-08-26T21:08:29+0000",
+            "vcs_last_commit": "2018-08-26T21:08:29+0000",
+            "vcs_last_fetch": "2018-08-26T21:08:29+0000",
+            "vcs_last_rev": "42ad8ba13228a9697c8088e06ef49e33d2bedebf",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -1507,7 +1507,7 @@
             "pv": "0.5.3",
             "section": "base",
             "summary": "LXDM is the lightweight display manager",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2018-08-27T20:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1533,7 +1533,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenJPEG library is an open-source JPEG 2000 codec",
-            "filename": "openjpeg_2.2.0.bb",
+            "filename": "openjpeg_2.3.0.bb",
             "filepath": "recipes-graphics/openjpeg",
             "homepage": "http://www.openjpeg.org",
             "id": 268953,
@@ -1542,10 +1542,10 @@
             "license": "BSD",
             "pn": "openjpeg",
             "provides": "openjpeg ",
-            "pv": "2.2.0",
+            "pv": "2.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-19T20:06:29+0000"
+            "updated": "2018-08-27T20:08:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -2571,7 +2571,7 @@
             "pv": "1.61",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:03+0000"
+            "updated": "2018-08-27T20:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2856,7 +2856,7 @@
             "pv": "7.2.3",
             "section": "devel",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2018-08-15T02:08:51+0000"
+            "updated": "2018-08-27T20:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2875,7 +2875,7 @@
             "pv": "2.0.0",
             "section": "base",
             "summary": "minicoredumper provides an alternate core dump facility for Linux to allow minimal and customized crash dumps",
-            "updated": "2018-07-02T22:07:58+0000"
+            "updated": "2018-08-27T20:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3718,7 +3718,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_10.4.bb",
+            "filename": "postgresql_10.5.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 269087,
@@ -3727,10 +3727,10 @@
             "license": "BSD",
             "pn": "postgresql",
             "provides": "postgresql ",
-            "pv": "10.4",
+            "pv": "10.5",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2018-08-15T02:08:57+0000"
+            "updated": "2018-08-27T20:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5706,7 +5706,7 @@
             "pv": "0.7.7",
             "section": "base",
             "summary": "The upstream project used to drive the Device Mapper multipathing driver",
-            "updated": "2018-07-24T20:07:51+0000"
+            "updated": "2018-08-27T20:08:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -6182,25 +6182,6 @@
             "section": "base",
             "summary": "A mode switching tool for controlling 'flip flop' (multiple device) USB gear",
             "updated": "2017-11-22T20:11:59+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "The Dos2unix package includes utilities dos2unix and unix2dos to convert plain text files in DOS or Mac format to Unix format and vice versa.",
-            "filename": "dos2unix_7.4.0.bb",
-            "filepath": "recipes-support/dos2unix",
-            "homepage": "http://waterlan.home.xs4all.nl/dos2unix.html",
-            "id": 269231,
-            "inherits": "gettext perlnative",
-            "layerbranch": 14965,
-            "license": "BSD-2-Clause",
-            "pn": "dos2unix",
-            "provides": "dos2unix ",
-            "pv": "7.4.0",
-            "section": "support",
-            "summary": "Convert text file line endings between CRLF and LF",
-            "updated": "2017-12-05T20:12:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -6720,7 +6701,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "alsa-oss_1.0.28.bb",
+            "filename": "alsa-oss_1.1.6.bb",
             "filepath": "recipes-multimedia/alsa",
             "homepage": "",
             "id": 269261,
@@ -6729,10 +6710,10 @@
             "license": "GPLv2",
             "pn": "alsa-oss",
             "provides": "alsa-oss ",
-            "pv": "1.0.28",
+            "pv": "1.1.6",
             "section": "libs/multimedia",
             "summary": "Alsa OSS Compatibility Package",
-            "updated": "2018-02-26T20:02:37+0000"
+            "updated": "2018-08-27T20:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -9247,7 +9228,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "fio is an I/O tool meant to be used both for benchmark and stress/hardware verification. It has support for a number of I/O engines, I/O priorities (for newer Linux kernels), rate I/O, forked or threaded jobs, and much more. It can work on block devices as well as files. fio accepts job descriptions in a simple-to-understand text format. Several example job files are included. fio displays all sorts of I/O performance information.",
-            "filename": "fio_3.7.bb",
+            "filename": "fio_3.8.bb",
             "filepath": "recipes-benchmark/fio",
             "homepage": "http://freecode.com/projects/fio",
             "id": 269403,
@@ -9256,10 +9237,10 @@
             "license": "GPLv2",
             "pn": "fio",
             "provides": "fio ",
-            "pv": "3.7",
+            "pv": "3.8",
             "section": "console/tests",
             "summary": "Filesystem and hardware benchmark and stress tool",
-            "updated": "2018-07-24T20:07:49+0000"
+            "updated": "2018-08-27T20:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -9563,7 +9544,7 @@
             "pv": "7.2.8",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-08-22T21:08:33+0000"
+            "updated": "2018-08-27T20:08:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9848,7 +9829,7 @@
             "pv": "0.5.2",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-06T21:03:46+0000"
+            "updated": "2018-08-27T20:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -10095,7 +10076,7 @@
             "pv": "7.91+gitX",
             "section": "base",
             "summary": "ltrace intercepts and records dynamic library calls",
-            "updated": "2017-09-26T04:09:56+0000"
+            "updated": "2018-08-27T20:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -10931,7 +10912,7 @@
             "pv": "0.9.2",
             "section": "base",
             "summary": "Plymouth is a project from Fedora providing a flicker-free graphical boot process.",
-            "updated": "2018-01-02T23:01:47+0000"
+            "updated": "2018-08-27T20:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -11748,7 +11729,7 @@
             "pv": "0.09.37",
             "section": "base",
             "summary": "A tool to load and stress a computer system",
-            "updated": "2018-08-20T02:08:00+0000"
+            "updated": "2018-08-27T20:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -12310,7 +12291,7 @@
             "filepath": "recipes-security/nmap",
             "homepage": "",
             "id": 646411,
-            "inherits": "autotools autotools-brokensep pkgconfig python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep pkgconfig python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPL-2.0",
             "pn": "nmap",
@@ -12318,7 +12299,7 @@
             "pv": "7.70",
             "section": "security",
             "summary": "network auditing tool",
-            "updated": "2018-07-16T20:07:47+0000"
+            "updated": "2018-08-27T20:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -12462,15 +12443,15 @@
             "filepath": "recipes-core/ndctl",
             "homepage": "https://git.kernel.org/cgit/linux/kernel/git/nvdimm/nvdimm.git/tree/Documentation/nvdimm/nvdimm.txt?h=libnvdimm-for-next",
             "id": 682140,
-            "inherits": "autotools autotools-brokensep kernel-arch module-base pkgconfig siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep bash-completion kernel-arch module-base pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "GPLv2+",
             "pn": "ndctl",
             "provides": "ndctl ",
-            "pv": "v61+gitX",
+            "pv": "v62+gitX",
             "section": "base",
             "summary": "libnvdimm utility library",
-            "updated": "2018-08-01T01:08:26+0000"
+            "updated": "2018-08-27T20:08:10+0000"
         },
         {
             "bbclassextend": "native",
