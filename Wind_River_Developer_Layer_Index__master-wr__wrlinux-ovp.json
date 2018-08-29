@@ -62,10 +62,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-28T04:08:54+0000",
-            "vcs_last_commit": "2018-08-28T04:08:54+0000",
-            "vcs_last_fetch": "2018-08-28T04:08:54+0000",
-            "vcs_last_rev": "2b9bae971a1ee25029d70f7c049b771e4cd2d185",
+            "updated": "2018-08-29T04:08:32+0000",
+            "vcs_last_commit": "2018-08-29T04:08:32+0000",
+            "vcs_last_fetch": "2018-08-29T04:08:32+0000",
+            "vcs_last_rev": "e690a6479c8fe056539620a072ac94bd45b00758",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -90,10 +90,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-08-28T12:08:11+0000",
-            "vcs_last_commit": "2018-08-28T12:08:11+0000",
-            "vcs_last_fetch": "2018-08-28T12:08:11+0000",
-            "vcs_last_rev": "1b99c56d2b47c60699a29dfa27e188dce35518b1",
+            "updated": "2018-08-29T01:08:54+0000",
+            "vcs_last_commit": "2018-08-29T01:08:54+0000",
+            "vcs_last_fetch": "2018-08-29T01:08:54+0000",
+            "vcs_last_rev": "dd2abff9bdc28ff25729d699c839e1c356b50ee0",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": null
@@ -132,10 +132,10 @@
             "collection": "wrlinux-ovp",
             "id": 109415,
             "layer": 170,
-            "updated": "2018-08-26T21:08:19+0000",
-            "vcs_last_commit": "2018-08-26T21:08:19+0000",
-            "vcs_last_fetch": "2018-08-26T21:08:19+0000",
-            "vcs_last_rev": "6097780c9ff01e8807458a32e2964b97345bb435",
+            "updated": "2018-08-29T01:08:54+0000",
+            "vcs_last_commit": "2018-08-29T01:08:54+0000",
+            "vcs_last_fetch": "2018-08-29T01:08:54+0000",
+            "vcs_last_rev": "dd2abff9bdc28ff25729d699c839e1c356b50ee0",
             "vcs_subdir": "wrlinux-ovp",
             "version": "1",
             "yp_compatible_version": null
@@ -435,7 +435,7 @@
             "updated": "2017-10-02T17:10:10+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
@@ -443,7 +443,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 366617,
-            "inherits": "core-image image image-fs_finalize image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-kvm",
@@ -451,7 +451,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-16T21:08:29+0000"
+            "updated": "2018-08-29T01:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -590,25 +590,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Snappy is a fast data compression and decompression library It was designed to be very fast and stable, but not to achieve a high compression ratio.",
-            "filename": "snappy_1.1.1.bb",
-            "filepath": "recipes-extended/snappy",
-            "homepage": "",
-            "id": 366625,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
-            "layerbranch": 109415,
-            "license": "NewBSD",
-            "pn": "snappy",
-            "provides": "snappy ",
-            "pv": "1.1.1",
-            "section": "base",
-            "summary": "A compression/decompression library",
-            "updated": "2017-10-02T17:10:11+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "Zabbix is the ultimate enterprise-level software designed for monitoring availability and performance of IT infrastructure components ",
             "filename": "zabbix_2.4.4.bb",
             "filepath": "recipes-extended/zabbix",
@@ -644,7 +625,7 @@
             "updated": "2017-10-02T17:10:11+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A host/service/network monitoring and management system core files",
@@ -660,7 +641,7 @@
             "pv": "4.0.8",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-08-16T21:08:29+0000"
+            "updated": "2018-08-29T01:08:29+0000"
         },
         {
             "bbclassextend": "",
