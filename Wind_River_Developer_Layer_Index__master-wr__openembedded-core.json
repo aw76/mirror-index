@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180827",
+            "bitbake_branch": "wr-10.18-20180903",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-27T20:08:23+0000",
+            "updated": "2018-09-03T02:09:02+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180903",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-29T04:08:32+0000",
-            "vcs_last_commit": "2018-08-29T04:08:32+0000",
-            "vcs_last_fetch": "2018-08-29T04:08:32+0000",
-            "vcs_last_rev": "e690a6479c8fe056539620a072ac94bd45b00758",
+            "updated": "2018-09-03T01:09:20+0000",
+            "vcs_last_commit": "2018-09-03T01:09:20+0000",
+            "vcs_last_fetch": "2018-09-03T01:09:20+0000",
+            "vcs_last_rev": "7403756e9265d559ba4dbcacff43bae15a8f7c37",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -77,7 +77,7 @@
             "id": 10494,
             "layerbranch": 14953,
             "name": "qemuarm",
-            "updated": "2018-05-25T01:05:22+0000"
+            "updated": "2018-09-03T02:09:14+0000"
         },
         {
             "description": " PPC system under qemu emulation",
@@ -1451,7 +1451,7 @@
             "pv": "1.14.12",
             "section": "libs",
             "summary": "The Cairo 2D vector graphics library",
-            "updated": "2018-08-27T20:08:02+0000"
+            "updated": "2018-09-03T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2807,19 +2807,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libjpeg-turbo is a derivative of libjpeg that uses SIMD instructions (MMX, SSE2, NEON) to accelerate baseline JPEG compression and decompression",
-            "filename": "libjpeg-turbo_1.5.3.bb",
+            "filename": "libjpeg-turbo_2.0.0.bb",
             "filepath": "recipes-graphics/jpeg",
             "homepage": "http://libjpeg-turbo.org/",
             "id": 270796,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "cmake pkgconfig",
             "layerbranch": 14953,
             "license": "BSD-3-Clause",
             "pn": "libjpeg-turbo",
             "provides": "libjpeg-turbo jpeg",
-            "pv": "1.5.3",
+            "pv": "2.0.0",
             "section": "base",
             "summary": "Hardware accelerated JPEG compression/decompression library",
-            "updated": "2018-08-20T02:08:46+0000"
+            "updated": "2018-09-03T02:09:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2952,7 +2952,7 @@
             "pv": "9.11.4",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2018-07-30T02:07:06+0000"
+            "updated": "2018-09-03T02:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3028,7 +3028,7 @@
             "pv": "5.50",
             "section": "libs",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2018-07-30T02:07:47+0000"
+            "updated": "2018-09-03T02:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -3339,7 +3339,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The lttng-modules 2.0 package contains the kernel tracer modules",
-            "filename": "lttng-modules_2.10.6.bb",
+            "filename": "lttng-modules_2.10.7.bb",
             "filepath": "recipes-kernel/lttng",
             "homepage": "",
             "id": 270826,
@@ -3348,10 +3348,10 @@
             "license": "LGPLv2.1 & GPLv2 & MIT",
             "pn": "lttng-modules",
             "provides": "lttng-modules ",
-            "pv": "2.10.6",
+            "pv": "2.10.7",
             "section": "devel",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2018-07-10T04:07:19+0000"
+            "updated": "2018-09-03T02:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3427,7 +3427,7 @@
             "pv": "0.2+gitX",
             "section": "base",
             "summary": "Tools for managing Yocto Project style branched kernels",
-            "updated": "2018-06-19T20:06:54+0000"
+            "updated": "2018-09-03T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3465,7 +3465,7 @@
             "pv": "25+gitX",
             "section": "base",
             "summary": "Tools for managing Linux kernel modules",
-            "updated": "2018-07-30T02:07:50+0000"
+            "updated": "2018-09-03T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3510,7 +3510,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "linux-libc-headers_4.15.7.bb",
+            "filename": "linux-libc-headers_4.18.bb",
             "filepath": "recipes-kernel/linux-libc-headers",
             "homepage": "",
             "id": 270837,
@@ -3519,10 +3519,10 @@
             "license": "GPLv2",
             "pn": "linux-libc-headers",
             "provides": "linux-libc-headers ",
-            "pv": "4.15.7",
+            "pv": "4.18",
             "section": "devel",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2018-07-16T20:07:39+0000"
+            "updated": "2018-09-03T02:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3655,7 +3655,7 @@
             "pv": "1.2.0+gitX",
             "section": "base",
             "summary": "Generates traces of I/O traffic on block devices",
-            "updated": "2018-05-25T01:05:24+0000"
+            "updated": "2018-09-03T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3750,7 +3750,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:54+0000"
+            "updated": "2018-09-03T02:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3766,10 +3766,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.12.26+gitX",
+            "pv": "4.12.28+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:54+0000"
+            "updated": "2018-09-03T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3785,10 +3785,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.12.26+gitX",
+            "pv": "4.12.28+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:55+0000"
+            "updated": "2018-09-03T02:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3826,7 +3826,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:54+0000"
+            "updated": "2018-09-03T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3842,10 +3842,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.14.48+gitX",
+            "pv": "4.14.62+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:55+0000"
+            "updated": "2018-09-03T02:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3861,10 +3861,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.14.48+gitX",
+            "pv": "4.14.62+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:54+0000"
+            "updated": "2018-09-03T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3883,7 +3883,7 @@
             "pv": "4.18-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:54+0000"
+            "updated": "2018-09-03T02:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -3899,10 +3899,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.12.26+gitX",
+            "pv": "4.12.28+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:54+0000"
+            "updated": "2018-09-03T02:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3918,10 +3918,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.14.48+gitX",
+            "pv": "4.14.62+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:55+0000"
+            "updated": "2018-09-03T02:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3940,7 +3940,7 @@
             "pv": "4.15.18+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-27T20:08:56+0000"
+            "updated": "2018-09-03T02:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4396,7 +4396,7 @@
             "pv": "0.6.21",
             "section": "libs",
             "summary": "Library for reading extended image information (EXIF) from JPEG files",
-            "updated": "2018-07-30T02:07:55+0000"
+            "updated": "2018-09-03T02:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4681,7 +4681,7 @@
             "pv": "3.38",
             "section": "libs",
             "summary": "Mozilla's SSL and TLS implementation",
-            "updated": "2018-07-10T03:07:32+0000"
+            "updated": "2018-09-03T02:09:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4909,7 +4909,7 @@
             "pv": "0.6.12",
             "section": "x11/utils",
             "summary": "Cascading Style Sheet (CSS) parsing and manipulation toolkit",
-            "updated": "2018-08-06T03:08:47+0000"
+            "updated": "2018-09-03T02:09:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5847,7 +5847,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "pulseaudio_11.1.bb",
+            "filename": "pulseaudio_12.2.bb",
             "filepath": "recipes-multimedia/pulseaudio",
             "homepage": "http://www.pulseaudio.org",
             "id": 270969,
@@ -5856,10 +5856,10 @@
             "license": "LGPLv2.1+ & MIT & BSD-3-Clause",
             "pn": "pulseaudio",
             "provides": "pulseaudio ",
-            "pv": "11.1",
+            "pv": "12.2",
             "section": "libs/multimedia",
             "summary": "Sound server for Linux and Unix-like operating systems",
-            "updated": "2018-07-30T02:07:11+0000"
+            "updated": "2018-09-03T02:09:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5897,7 +5897,7 @@
             "pv": "0.15.1b",
             "section": "libs",
             "summary": "Library for interacting with ID3 tags in MP3 files",
-            "updated": "2018-07-30T02:07:11+0000"
+            "updated": "2018-09-03T02:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -7094,7 +7094,7 @@
             "pv": "20180515",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2018-08-22T21:08:30+0000"
+            "updated": "2018-09-03T02:09:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -7417,7 +7417,7 @@
             "pv": "0.27",
             "section": "libs",
             "summary": "Convert::ASN1 - Perl ASN.1 Encode/Decode library",
-            "updated": "2018-08-27T20:08:59+0000"
+            "updated": "2018-09-03T02:09:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -7436,7 +7436,7 @@
             "pv": "1.00",
             "section": "libs",
             "summary": "Perl module for using and building Perl SAX2 XML processors",
-            "updated": "2018-08-27T20:08:59+0000"
+            "updated": "2018-09-03T02:09:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -7455,7 +7455,7 @@
             "pv": "2.30",
             "section": "libs",
             "summary": "Perl modules useful for manipulating date and time information",
-            "updated": "2018-08-27T20:08:00+0000"
+            "updated": "2018-09-03T02:09:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -7474,7 +7474,7 @@
             "pv": "1.09",
             "section": "libs",
             "summary": "Base class SAX Drivers and Filters",
-            "updated": "2018-08-27T20:08:00+0000"
+            "updated": "2018-09-03T02:09:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -7493,7 +7493,7 @@
             "pv": "1.12",
             "section": "libs",
             "summary": "Perl module for supporting simple generic namespaces",
-            "updated": "2018-08-27T20:08:00+0000"
+            "updated": "2018-09-03T02:09:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9906,7 +9906,7 @@
             "pv": "4.3+gitrX",
             "section": "base",
             "summary": "Tools for manipulating SquashFS filesystems",
-            "updated": "2018-07-24T20:07:33+0000"
+            "updated": "2018-09-03T02:09:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10400,7 +10400,7 @@
             "pv": "1.74",
             "section": "libs",
             "summary": "Perl module to manipulate and access URI strings",
-            "updated": "2018-08-27T20:08:53+0000"
+            "updated": "2018-09-03T02:09:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10419,7 +10419,7 @@
             "pv": "2.44",
             "section": "libs",
             "summary": "XML::Parser - A perl module for parsing XML documents",
-            "updated": "2018-08-27T20:08:46+0000"
+            "updated": "2018-09-03T02:09:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -10438,7 +10438,7 @@
             "pv": "2.25",
             "section": "libs",
             "summary": "Perl module for reading and writing XML",
-            "updated": "2018-08-27T20:08:53+0000"
+            "updated": "2018-09-03T02:09:19+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10476,7 +10476,7 @@
             "pv": "0.17026",
             "section": "libs",
             "summary": "Error - Error/exception handling in an OO-ish way",
-            "updated": "2018-08-27T20:08:54+0000"
+            "updated": "2018-09-03T02:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -10495,7 +10495,7 @@
             "pv": "0.08",
             "section": "libs",
             "summary": "Collection of Perl modules for working with XML",
-            "updated": "2018-08-27T20:08:54+0000"
+            "updated": "2018-09-03T02:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -11236,7 +11236,7 @@
             "pv": "2.5.1",
             "section": "devel/ruby",
             "summary": "An interpreter of object-oriented scripting language",
-            "updated": "2018-07-30T02:07:14+0000"
+            "updated": "2018-09-03T02:09:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -14656,7 +14656,7 @@
             "pv": "0.002005",
             "section": "libs",
             "summary": "Skip tests when modules not available",
-            "updated": "2018-08-27T20:08:56+0000"
+            "updated": "2018-09-03T02:09:20+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -15151,6 +15151,63 @@
             "section": "support",
             "summary": "Convert text file line endings between CRLF and LF",
             "updated": "2018-08-27T20:08:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto-rt_4.18.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 715971,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto-rt",
+            "provides": "linux-yocto-rt  virtual/kernel",
+            "pv": "4.18.3+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2018-09-03T02:09:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto-tiny_4.18.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 715972,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto-tiny",
+            "provides": "linux-yocto-tiny  virtual/kernel",
+            "pv": "4.18.3+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2018-09-03T02:09:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto_4.18.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 715973,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto",
+            "provides": "linux-yocto  virtual/kernel",
+            "pv": "4.18.3+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2018-09-03T02:09:22+0000"
         }
     ],
     "wrtemplates": []

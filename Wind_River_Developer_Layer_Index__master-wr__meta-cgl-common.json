@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180827",
+            "bitbake_branch": "wr-10.18-20180903",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-27T20:08:23+0000",
+            "updated": "2018-09-03T02:09:02+0000",
             "updates_enabled": true
         }
     ],
@@ -43,29 +43,29 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180903",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-29T04:08:32+0000",
-            "vcs_last_commit": "2018-08-29T04:08:32+0000",
-            "vcs_last_fetch": "2018-08-29T04:08:32+0000",
-            "vcs_last_rev": "e690a6479c8fe056539620a072ac94bd45b00758",
+            "updated": "2018-09-03T01:09:20+0000",
+            "vcs_last_commit": "2018-09-03T01:09:20+0000",
+            "vcs_last_fetch": "2018-09-03T01:09:20+0000",
+            "vcs_last_rev": "7403756e9265d559ba4dbcacff43bae15a8f7c37",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180806",
+            "actual_branch": "wr-10.18-20180903",
             "branch": 38,
             "collection": "security",
             "id": 14954,
             "layer": 18,
-            "updated": "2018-08-20T15:08:00+0000",
-            "vcs_last_commit": "2018-08-20T15:08:00+0000",
-            "vcs_last_fetch": "2018-08-20T15:08:00+0000",
-            "vcs_last_rev": "ca37f961fb83060e2602fa13b4aff83430bd25b6",
+            "updated": "2018-09-02T20:09:41+0000",
+            "vcs_last_commit": "2018-09-02T20:09:41+0000",
+            "vcs_last_fetch": "2018-09-02T20:09:41+0000",
+            "vcs_last_rev": "5e09e061937e6e280f9b0edbc58d8542f6d25445",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
@@ -127,15 +127,15 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180730",
+            "actual_branch": "wr-10.18-20180903",
             "branch": 38,
             "collection": "cgl-common",
             "id": 113181,
             "layer": 172,
-            "updated": "2018-08-21T03:08:30+0000",
-            "vcs_last_commit": "2018-08-21T03:08:30+0000",
-            "vcs_last_fetch": "2018-08-21T03:08:30+0000",
-            "vcs_last_rev": "25990457f07a46b97774e125fa2da990bf9a2393",
+            "updated": "2018-09-02T20:09:46+0000",
+            "vcs_last_commit": "2018-09-02T20:09:46+0000",
+            "vcs_last_fetch": "2018-09-02T20:09:46+0000",
+            "vcs_last_rev": "29e3f02233819c94803c781e8b5c57b24e005c65",
             "vcs_subdir": "meta-cgl-common",
             "version": null,
             "yp_compatible_version": null
@@ -382,7 +382,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Monit is a free open source utility for managing and monitoring,   processes, programs, files, directories and filesystems on a UNIX system.   Monit conducts automatic maintenance and repair and can execute meaningful   causal actions in error situations.   ",
-            "filename": "monit_5.20.0.bb",
+            "filename": "monit_5.25.2.bb",
             "filepath": "recipes-cgl/monit",
             "homepage": "http://mmonit.com/monit/",
             "id": 369253,
@@ -391,10 +391,10 @@
             "license": "AGPLv3",
             "pn": "monit",
             "provides": "monit ",
-            "pv": "5.20.0",
+            "pv": "5.25.2",
             "section": "base",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-06-04T21:06:55+0000"
+            "updated": "2018-09-03T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -489,14 +489,14 @@
             "pv": "1.8.5",
             "section": "System Environment/Base",
             "summary": "Tools for managing the Ocfs2 cluster file system",
-            "updated": "2018-08-21T04:08:35+0000"
+            "updated": "2018-09-03T02:09:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "crm shell, a Pacemaker command line interface for management and configuration",
-            "filename": "crmsh_2.3.2.bb",
+            "filename": "crmsh_3.0.3.bb",
             "filepath": "recipes-cgl/crmsh",
             "homepage": "https://crmsh.github.io",
             "id": 369260,
@@ -505,10 +505,10 @@
             "license": "GPLv2+",
             "pn": "crmsh",
             "provides": "crmsh ",
-            "pv": "2.3.2",
+            "pv": "3.0.3",
             "section": "base",
             "summary": "Pacemaker command line interface for management and configuration",
-            "updated": "2018-06-04T21:06:56+0000"
+            "updated": "2018-09-03T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -534,7 +534,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Pacemaker is an advanced, scalable High-Availability cluster resource manager for Linux-HA (Heartbeat) and/or OpenAIS. It supports n-node clusters with significant capabilities for managing resources and dependencies. It will run scripts at initialization, when machines go up or down, when related resources fail and can be configured to periodically check resource health.",
-            "filename": "pacemaker_1.1.16.bb",
+            "filename": "pacemaker_1.1.19.bb",
             "filepath": "recipes-cgl/pacemaker",
             "homepage": "http://www.clusterlabs.org",
             "id": 369262,
@@ -543,10 +543,10 @@
             "license": "GPLv2+ & LGPLv2.1+",
             "pn": "pacemaker",
             "provides": "pacemaker ",
-            "pv": "1.1.16",
+            "pv": "1.1.19",
             "section": "base",
             "summary": "Scalable High-Availability cluster resource manager",
-            "updated": "2018-07-30T02:07:40+0000"
+            "updated": "2018-09-03T02:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -686,19 +686,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libwww-perl provides a simple and consistent API to the World Wide Web",
-            "filename": "libwww-perl_6.05.bb",
+            "filename": "libwww-perl_6.35.bb",
             "filepath": "recipes-perl/perl",
-            "homepage": "http://search.cpan.org/dist/libwww-perl/",
+            "homepage": "https://metacpan.org/release/libwww-perl",
             "id": 369270,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 113181,
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "libwww-perl",
             "provides": "libwww-perl ",
-            "pv": "6.05",
+            "pv": "6.35",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-09-03T02:09:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -724,7 +724,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Perl extensions for IPv6",
-            "filename": "libsocket6-perl_0.23.bb",
+            "filename": "libsocket6-perl_0.28.bb",
             "filepath": "recipes-perl/perl",
             "homepage": "https://metacpan.org/release/Socket6",
             "id": 369272,
@@ -733,17 +733,17 @@
             "license": "BSD",
             "pn": "libsocket6-perl",
             "provides": "libsocket6-perl ",
-            "pv": "0.23",
+            "pv": "0.28",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-04T21:06:58+0000"
+            "updated": "2018-09-03T02:09:58+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Test::Pod - check for POD errors in files",
-            "filename": "libtest-pod-perl_1.51.bb",
+            "filename": "libtest-pod-perl_1.52.bb",
             "filepath": "recipes-perl/perl",
             "homepage": "https://github.com/perl-pod/test-pod/",
             "id": 369273,
@@ -752,17 +752,17 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "libtest-pod-perl",
             "provides": "libtest-pod-perl ",
-            "pv": "1.51",
+            "pv": "1.52",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-04T21:06:58+0000"
+            "updated": "2018-09-03T02:09:58+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "MailTools is a set of Perl modules related to mail applications",
-            "filename": "libmailtools-perl_2.18.bb",
+            "filename": "libmailtools-perl_2.20.bb",
             "filepath": "recipes-perl/perl",
             "homepage": "http://search.cpan.org/dist/MailTools/",
             "id": 369274,
@@ -771,10 +771,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "libmailtools-perl",
             "provides": "libmailtools-perl ",
-            "pv": "2.18",
+            "pv": "2.20",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-04T21:06:58+0000"
+            "updated": "2018-09-03T02:09:58+0000"
         },
         {
             "bbclassextend": "",

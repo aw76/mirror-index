@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180827",
+            "bitbake_branch": "wr-10.18-20180903",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-27T20:08:23+0000",
+            "updated": "2018-09-03T02:09:02+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180903",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-08-29T04:08:32+0000",
-            "vcs_last_commit": "2018-08-29T04:08:32+0000",
-            "vcs_last_fetch": "2018-08-29T04:08:32+0000",
-            "vcs_last_rev": "e690a6479c8fe056539620a072ac94bd45b00758",
+            "updated": "2018-09-03T01:09:20+0000",
+            "vcs_last_commit": "2018-09-03T01:09:20+0000",
+            "vcs_last_fetch": "2018-09-03T01:09:20+0000",
+            "vcs_last_rev": "7403756e9265d559ba4dbcacff43bae15a8f7c37",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180806",
+            "actual_branch": "wr-10.18-20180903",
             "branch": 38,
             "collection": "security",
             "id": 14954,
             "layer": 18,
-            "updated": "2018-08-20T15:08:00+0000",
-            "vcs_last_commit": "2018-08-20T15:08:00+0000",
-            "vcs_last_fetch": "2018-08-20T15:08:00+0000",
-            "vcs_last_rev": "ca37f961fb83060e2602fa13b4aff83430bd25b6",
+            "updated": "2018-09-02T20:09:41+0000",
+            "vcs_last_commit": "2018-09-02T20:09:41+0000",
+            "vcs_last_fetch": "2018-09-02T20:09:41+0000",
+            "vcs_last_rev": "5e09e061937e6e280f9b0edbc58d8542f6d25445",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
@@ -393,7 +393,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libhtp_0.5.25.bb",
+            "filename": "libhtp_0.5.27.bb",
             "filepath": "recipes-security/suricata",
             "homepage": "http://suricata-ids.org/",
             "id": 270430,
@@ -402,17 +402,17 @@
             "license": "GPLv2",
             "pn": "libhtp",
             "provides": "libhtp ",
-            "pv": "0.5.25",
+            "pv": "0.5.27",
             "section": "security Monitor/Admin",
             "summary": "LibHTP is a security-aware parser for the HTTP protocol and the related bits and pieces.",
-            "updated": "2017-10-09T22:10:47+0000"
+            "updated": "2018-09-03T02:09:30+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "suricata_4.0.0.bb",
+            "filename": "suricata_4.0.5.bb",
             "filepath": "recipes-security/suricata",
             "homepage": "http://suricata-ids.org/",
             "id": 270431,
@@ -421,10 +421,10 @@
             "license": "GPLv2",
             "pn": "suricata",
             "provides": "suricata ",
-            "pv": "4.0.0",
+            "pv": "4.0.5",
             "section": "security Monitor/Admin",
             "summary": "The Suricata Engine is an Open Source Next Generation Intrusion Detection and Prevention Engine",
-            "updated": "2018-08-06T04:08:24+0000"
+            "updated": "2018-09-03T02:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -443,7 +443,7 @@
             "pv": "2.3.3",
             "section": "security",
             "summary": "interface to seccomp filtering mechanism",
-            "updated": "2018-02-26T20:02:20+0000"
+            "updated": "2018-09-03T02:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -792,7 +792,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Provides file integrity checking and log file monitoring/analysis",
-            "filename": "samhain-server_4.2.2.bb",
+            "filename": "samhain-server_4.2.4.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
             "id": 270453,
@@ -801,17 +801,17 @@
             "license": "GPLv2",
             "pn": "samhain-server",
             "provides": "samhain-server ",
-            "pv": "4.2.2",
+            "pv": "4.2.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T01:03:32+0000"
+            "updated": "2018-09-03T02:09:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Provides file integrity checking and log file monitoring/analysis",
-            "filename": "samhain-client_4.2.2.bb",
+            "filename": "samhain-client_4.2.4.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
             "id": 270454,
@@ -820,10 +820,10 @@
             "license": "GPLv2",
             "pn": "samhain-client",
             "provides": "samhain-client ",
-            "pv": "4.2.2",
+            "pv": "4.2.4",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2018-09-03T02:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -842,7 +842,7 @@
             "pv": "111",
             "section": "base",
             "summary": "The eCryptfs mount helper and support libraries",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2018-09-03T02:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -925,7 +925,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    XML Security Library is a C library based on     LibXML2 and OpenSSL. The library was created with a goal to support major     XML security standards \"XML Digital Signature\" and \"XML Encryption\".     ",
-            "filename": "xmlsec1_1.2.25.bb",
+            "filename": "xmlsec1_1.2.26.bb",
             "filepath": "recipes-security/xmlsec1",
             "homepage": "http://www.aleksey.com/xmlsec/",
             "id": 276647,
@@ -934,10 +934,10 @@
             "license": "MIT",
             "pn": "xmlsec1",
             "provides": "xmlsec1 ",
-            "pv": "1.2.25",
+            "pv": "1.2.26",
             "section": "libs",
             "summary": "XML Security Library is a C library based on LibXML2",
-            "updated": "2018-04-18T04:04:12+0000"
+            "updated": "2018-09-03T02:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1001,7 +1001,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Provides file integrity checking and log file monitoring/analysis",
-            "filename": "samhain-standalone_4.2.2.bb",
+            "filename": "samhain-standalone_4.2.4.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
             "id": 343204,
@@ -1010,10 +1010,10 @@
             "license": "GPLv2",
             "pn": "samhain-standalone",
             "provides": "samhain-standalone  samhain",
-            "pv": "4.2.2",
+            "pv": "4.2.4",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:10+0000"
+            "updated": "2018-09-03T02:09:29+0000"
         },
         {
             "bbclassextend": "",

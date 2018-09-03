@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180827",
+            "bitbake_branch": "wr-10.18-20180903",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-08-27T20:08:23+0000",
+            "updated": "2018-09-03T02:09:02+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180903",
             "branch": 38,
             "collection": "yoctobsp",
             "id": 14956,
             "layer": 58,
-            "updated": "2018-08-15T03:08:41+0000",
-            "vcs_last_commit": "2018-08-15T03:08:41+0000",
-            "vcs_last_fetch": "2018-08-15T03:08:41+0000",
-            "vcs_last_rev": "a0c5332aefe75cf314e78284f578b17c51b8ab27",
+            "updated": "2018-08-27T18:08:05+0000",
+            "vcs_last_commit": "2018-08-27T18:08:05+0000",
+            "vcs_last_fetch": "2018-08-27T18:08:05+0000",
+            "vcs_last_rev": "1e672581cc3fc695570f1ae9f951efbe4b05733a",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
             "yp_compatible_version": null
@@ -62,14 +62,14 @@
             "id": 6131,
             "layerbranch": 14956,
             "name": "beaglebone-yocto",
-            "updated": "2018-08-20T02:08:28+0000"
+            "updated": "2018-09-03T02:09:57+0000"
         },
         {
             "description": "",
             "id": 6132,
             "layerbranch": 14956,
             "name": "mpc8315e-rdb",
-            "updated": "2018-08-20T02:08:28+0000"
+            "updated": "2018-09-03T02:09:57+0000"
         },
         {
             "description": " generic X86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
@@ -83,7 +83,7 @@
             "id": 6134,
             "layerbranch": 14956,
             "name": "edgerouter",
-            "updated": "2018-08-20T02:08:28+0000"
+            "updated": "2018-09-03T02:09:57+0000"
         },
         {
             "description": " generic X86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
