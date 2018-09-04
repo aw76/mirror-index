@@ -26,52 +26,52 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-03T01:09:20+0000",
-            "vcs_last_commit": "2018-09-03T01:09:20+0000",
-            "vcs_last_fetch": "2018-09-03T01:09:20+0000",
-            "vcs_last_rev": "7403756e9265d559ba4dbcacff43bae15a8f7c37",
+            "updated": "2018-09-04T03:09:03+0000",
+            "vcs_last_commit": "2018-09-04T03:09:03+0000",
+            "vcs_last_fetch": "2018-09-04T03:09:03+0000",
+            "vcs_last_rev": "ca1c64367fdef90fee5a0acef5189e30c8e9c5bf",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180904",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-08-26T21:08:29+0000",
-            "vcs_last_commit": "2018-08-26T21:08:29+0000",
-            "vcs_last_fetch": "2018-08-26T21:08:29+0000",
-            "vcs_last_rev": "5ff7d193965fb3709b19fbe11f72c14348f25538",
+            "updated": "2018-09-03T22:09:29+0000",
+            "vcs_last_commit": "2018-09-03T22:09:29+0000",
+            "vcs_last_fetch": "2018-09-03T22:09:29+0000",
+            "vcs_last_rev": "626944a4784b984a66c7f3b8a9a6ebe6c76e479b",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180904",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-08-26T21:08:29+0000",
-            "vcs_last_commit": "2018-08-26T21:08:29+0000",
-            "vcs_last_fetch": "2018-08-26T21:08:29+0000",
-            "vcs_last_rev": "42ad8ba13228a9697c8088e06ef49e33d2bedebf",
+            "updated": "2018-09-03T22:09:29+0000",
+            "vcs_last_commit": "2018-09-03T22:09:29+0000",
+            "vcs_last_fetch": "2018-09-03T22:09:29+0000",
+            "vcs_last_rev": "b453502cb7693699e6fd769475f3a6ea2513269d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180904",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-08-26T21:08:28+0000",
-            "vcs_last_commit": "2018-08-26T21:08:28+0000",
-            "vcs_last_fetch": "2018-08-26T21:08:28+0000",
-            "vcs_last_rev": "bdcd12cbce2eabc529cc6e512743eaa6872b2442",
+            "updated": "2018-09-03T22:09:28+0000",
+            "vcs_last_commit": "2018-09-03T22:09:28+0000",
+            "vcs_last_fetch": "2018-09-03T22:09:28+0000",
+            "vcs_last_rev": "ff21c5497e909a0c9068ef57f148845f4ca0c128",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -473,7 +473,7 @@
             "filepath": "recipes-connectivity/crda",
             "homepage": "http://wireless.kernel.org/en/developers/Regulatory/CRDA",
             "id": 270279,
-            "inherits": "python-dir pythonnative",
+            "inherits": "python-dir pythonnative siteinfo",
             "layerbranch": 14964,
             "license": "copyleft-next-0.3.0",
             "pn": "crda",
@@ -481,7 +481,7 @@
             "pv": "3.18",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Agent",
-            "updated": "2017-09-26T04:09:09+0000"
+            "updated": "2018-09-04T01:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -519,7 +519,7 @@
             "pv": "4.8.3",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-06-04T21:06:43+0000"
+            "updated": "2018-09-04T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -545,7 +545,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
-            "filename": "mbedtls_2.11.0.bb",
+            "filename": "mbedtls_2.12.0.bb",
             "filepath": "recipes-connectivity/mbedtls",
             "homepage": "https://tls.mbed.org/",
             "id": 270283,
@@ -554,10 +554,10 @@
             "license": "Apache-2.0",
             "pn": "mbedtls",
             "provides": "mbedtls  polarssl",
-            "pv": "2.11.0",
+            "pv": "2.12.0",
             "section": "libs",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2018-07-24T20:07:31+0000"
+            "updated": "2018-09-04T01:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -587,7 +587,7 @@
             "filepath": "recipes-connectivity/wireless-regdb",
             "homepage": "http://wireless.kernel.org/en/developers/Regulatory/CRDA",
             "id": 270285,
-            "inherits": "bin_package",
+            "inherits": "allarch bin_package",
             "layerbranch": 14964,
             "license": "ISC",
             "pn": "wireless-regdb",
@@ -595,7 +595,7 @@
             "pv": "2018.05.31",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Database",
-            "updated": "2018-07-16T20:07:37+0000"
+            "updated": "2018-09-04T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1203,7 +1203,7 @@
             "pv": "1.0.4+gitX",
             "section": "net",
             "summary": "",
-            "updated": "2018-04-16T02:04:45+0000"
+            "updated": "2018-09-04T01:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1856,7 +1856,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": " memcached optimizes specific high-load serving applications that are designed  to take advantage of its versatile no-locking memory access system. Clients  are available in several different programming languages, to suit the needs  of the specific application. Traditionally this has been used in mod_perl  apps to avoid storing large chunks of data in Apache memory, and to share  this burden across several machines.",
-            "filename": "memcached_1.5.7.bb",
+            "filename": "memcached_1.5.10.bb",
             "filepath": "recipes-support/memcached",
             "homepage": "http://memcached.org/",
             "id": 270356,
@@ -1865,10 +1865,10 @@
             "license": "BSD-3-Clause",
             "pn": "memcached",
             "provides": "memcached ",
-            "pv": "1.5.7",
+            "pv": "1.5.10",
             "section": "web",
             "summary": "A high-performance memory object caching system",
-            "updated": "2018-06-04T21:06:45+0000"
+            "updated": "2018-09-04T01:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2229,7 +2229,7 @@
             "pv": "9.5.0",
             "section": "admin",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2018-08-01T01:08:53+0000"
+            "updated": "2018-09-04T01:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2267,7 +2267,7 @@
             "pv": "5.1.4",
             "section": "utils",
             "summary": "Kernel based automounter for linux",
-            "updated": "2018-08-01T01:08:52+0000"
+            "updated": "2018-09-04T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2514,7 +2514,7 @@
             "pv": "2.1.26",
             "section": "libs",
             "summary": "Generic client/server library for SASL authentication",
-            "updated": "2018-06-19T21:06:15+0000"
+            "updated": "2018-09-04T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2894,7 +2894,7 @@
             "pv": "5.8",
             "section": "net",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2018-08-15T02:08:17+0000"
+            "updated": "2018-09-04T01:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3464,7 +3464,7 @@
             "pv": "1.10+gitX",
             "section": "base",
             "summary": "Civetweb embedded web server",
-            "updated": "2018-07-02T22:07:43+0000"
+            "updated": "2018-09-04T01:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3522,6 +3522,25 @@
             "section": "libs/networking",
             "summary": "nanomsg socket library",
             "updated": "2018-07-24T20:07:31+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A high performance, open source, general-purpose RPC framework. Provides gRPC libraries for multiple languages written on top of shared C core library (C++, Node.js, Python, Ruby, Objective-C, PHP, C#)",
+            "filename": "grpc_1.14.1.bb",
+            "filepath": "recipes-devtools/grpc",
+            "homepage": "https://github.com/grpc/grpc",
+            "id": 716010,
+            "inherits": "cmake",
+            "layerbranch": 14964,
+            "license": "Apache-2",
+            "pn": "grpc",
+            "provides": "grpc ",
+            "pv": "1.14.1",
+            "section": "libs",
+            "summary": "",
+            "updated": "2018-09-04T01:09:12+0000"
         }
     ],
     "wrtemplates": []

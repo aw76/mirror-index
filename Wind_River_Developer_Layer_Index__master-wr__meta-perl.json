@@ -26,38 +26,38 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-03T01:09:20+0000",
-            "vcs_last_commit": "2018-09-03T01:09:20+0000",
-            "vcs_last_fetch": "2018-09-03T01:09:20+0000",
-            "vcs_last_rev": "7403756e9265d559ba4dbcacff43bae15a8f7c37",
+            "updated": "2018-09-04T03:09:03+0000",
+            "vcs_last_commit": "2018-09-04T03:09:03+0000",
+            "vcs_last_fetch": "2018-09-04T03:09:03+0000",
+            "vcs_last_rev": "ca1c64367fdef90fee5a0acef5189e30c8e9c5bf",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180904",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-08-26T21:08:29+0000",
-            "vcs_last_commit": "2018-08-26T21:08:29+0000",
-            "vcs_last_fetch": "2018-08-26T21:08:29+0000",
-            "vcs_last_rev": "42ad8ba13228a9697c8088e06ef49e33d2bedebf",
+            "updated": "2018-09-03T22:09:29+0000",
+            "vcs_last_commit": "2018-09-03T22:09:29+0000",
+            "vcs_last_fetch": "2018-09-03T22:09:29+0000",
+            "vcs_last_rev": "b453502cb7693699e6fd769475f3a6ea2513269d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180904",
             "branch": 38,
             "collection": "perl-layer",
             "id": 14966,
             "layer": 13,
-            "updated": "2018-08-26T21:08:28+0000",
-            "vcs_last_commit": "2018-08-26T21:08:28+0000",
-            "vcs_last_fetch": "2018-08-26T21:08:28+0000",
-            "vcs_last_rev": "bdcd12cbce2eabc529cc6e512743eaa6872b2442",
+            "updated": "2018-09-03T22:09:28+0000",
+            "vcs_last_commit": "2018-09-03T22:09:28+0000",
+            "vcs_last_fetch": "2018-09-03T22:09:28+0000",
+            "vcs_last_rev": "ff21c5497e909a0c9068ef57f148845f4ca0c128",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": null
@@ -279,7 +279,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libcrypt-openssl-rsa-perl_0.28.bb",
+            "filename": "libcrypt-openssl-rsa-perl_0.30.bb",
             "filepath": "recipes-perl/libcrypt",
             "homepage": "",
             "id": 269895,
@@ -288,10 +288,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "libcrypt-openssl-rsa-perl",
             "provides": "libcrypt-openssl-rsa-perl ",
-            "pv": "0.28",
+            "pv": "0.30",
             "section": "libs",
             "summary": "Crypt Openssl RSA cpan module",
-            "updated": "2017-09-26T04:09:07+0000"
+            "updated": "2018-09-04T01:09:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -367,7 +367,7 @@
             "pv": "1.85",
             "section": "libs",
             "summary": "Net::SSLeay - Perl extension for using OpenSSL",
-            "updated": "2018-08-15T02:08:10+0000"
+            "updated": "2018-09-04T01:09:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -849,7 +849,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This module is a true drop-in replacement for IO::Socket::INET that uses SSL to encrypt data before it is transferred to a remote server or client. IO::Socket::SSL supports all the extra features that one needs to write a full-featured SSL client or server application: multiple SSL contexts, cipher selection, certificate verification, and SSL version selection. As an extra bonus, it works perfectly with mod_perl.",
-            "filename": "libio-socket-ssl-perl_2.058.bb",
+            "filename": "libio-socket-ssl-perl_2.059.bb",
             "filepath": "recipes-perl/libio",
             "homepage": "http://search.cpan.org/dist/IO-Socket-SSL/",
             "id": 269925,
@@ -858,10 +858,10 @@
             "license": "Artistic-1.0|GPLv1+",
             "pn": "libio-socket-ssl-perl",
             "provides": "libio-socket-ssl-perl ",
-            "pv": "2.058",
+            "pv": "2.059",
             "section": "libs",
             "summary": "Perl library for transparent SSL",
-            "updated": "2018-08-15T02:08:10+0000"
+            "updated": "2018-09-04T01:09:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -1261,6 +1261,25 @@
             "section": "Applications/System",
             "summary": "Analyzes log files and sends noticeable events as email",
             "updated": "2018-08-15T02:08:09+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libcrypt-openssl-guess_0.11.bb",
+            "filepath": "recipes-perl/libcrypt",
+            "homepage": "",
+            "id": 716009,
+            "inherits": "cpan cpan-base perl-version perlnative",
+            "layerbranch": 14966,
+            "license": "Artistic-1.0 | GPL-1.0+",
+            "pn": "libcrypt-openssl-guess",
+            "provides": "libcrypt-openssl-guess ",
+            "pv": "0.11",
+            "section": "libs",
+            "summary": "Guess OpenSSL include path",
+            "updated": "2018-09-04T01:09:05+0000"
         }
     ],
     "wrtemplates": []

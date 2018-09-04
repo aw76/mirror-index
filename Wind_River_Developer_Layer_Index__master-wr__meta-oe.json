@@ -26,24 +26,24 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-03T01:09:20+0000",
-            "vcs_last_commit": "2018-09-03T01:09:20+0000",
-            "vcs_last_fetch": "2018-09-03T01:09:20+0000",
-            "vcs_last_rev": "7403756e9265d559ba4dbcacff43bae15a8f7c37",
+            "updated": "2018-09-04T03:09:03+0000",
+            "vcs_last_commit": "2018-09-04T03:09:03+0000",
+            "vcs_last_fetch": "2018-09-04T03:09:03+0000",
+            "vcs_last_rev": "ca1c64367fdef90fee5a0acef5189e30c8e9c5bf",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180904",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-08-26T21:08:29+0000",
-            "vcs_last_commit": "2018-08-26T21:08:29+0000",
-            "vcs_last_fetch": "2018-08-26T21:08:29+0000",
-            "vcs_last_rev": "42ad8ba13228a9697c8088e06ef49e33d2bedebf",
+            "updated": "2018-09-03T22:09:29+0000",
+            "vcs_last_commit": "2018-09-03T22:09:29+0000",
+            "vcs_last_fetch": "2018-09-03T22:09:29+0000",
+            "vcs_last_rev": "b453502cb7693699e6fd769475f3a6ea2513269d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -2236,7 +2236,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ELL is a DBUS library which provides DBUS bindings.",
-            "filename": "ell_0.6.bb",
+            "filename": "ell_0.8.bb",
             "filepath": "recipes-core/ell",
             "homepage": "",
             "id": 268997,
@@ -2245,10 +2245,10 @@
             "license": "LGPLv2.1",
             "pn": "ell",
             "provides": "ell ",
-            "pv": "0.6",
+            "pv": "0.8",
             "section": "libs",
             "summary": "Embedded Linux Library",
-            "updated": "2018-07-16T20:07:45+0000"
+            "updated": "2018-09-04T01:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -3190,15 +3190,15 @@
             "filepath": "recipes-support/eventlog",
             "homepage": "http://www.balabit.com/network-security/syslog-ng/opensource-logging-system",
             "id": 269056,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "BSD",
             "pn": "eventlog",
             "provides": "eventlog ",
-            "pv": "0.2.13",
+            "pv": "0.2.13+gitX",
             "section": "base",
             "summary": "Replacement syslog API",
-            "updated": "2018-03-20T01:03:24+0000"
+            "updated": "2018-09-04T01:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3490,7 +3490,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "open-vm-tools_10.2.5.bb",
+            "filename": "open-vm-tools_10.3.0.bb",
             "filepath": "recipes-support/open-vm-tools",
             "homepage": "https://github.com/vmware/open-vm-tools",
             "id": 269074,
@@ -3499,10 +3499,10 @@
             "license": "LGPL-2.0 & GPL-2.0 & BSD & CDDL-1.0",
             "pn": "open-vm-tools",
             "provides": "open-vm-tools ",
-            "pv": "10.2.5",
+            "pv": "10.3.0",
             "section": "vmware-tools",
             "summary": "Tools to enhance VMWare guest integration and performance",
-            "updated": "2018-06-19T20:06:22+0000"
+            "updated": "2018-09-04T01:09:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4288,7 +4288,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cryptsetup is used to conveniently setup dm-crypt managed device-mapper mappings. These include plain dm-crypt volumes and LUKS volumes. The difference is that LUKS uses a metadata header and can hence offer more features than plain dm-crypt. On the other hand, the header is visible and vulnerable to damage.",
-            "filename": "cryptsetup_2.0.3.bb",
+            "filename": "cryptsetup_2.0.4.bb",
             "filepath": "recipes-crypto/cryptsetup",
             "homepage": "https://gitlab.com/cryptsetup/cryptsetup",
             "id": 269117,
@@ -4297,10 +4297,10 @@
             "license": "GPL-2.0-with-OpenSSL-exception",
             "pn": "cryptsetup",
             "provides": "cryptsetup ",
-            "pv": "2.0.3",
+            "pv": "2.0.4",
             "section": "console",
             "summary": "Manage plain dm-crypt and LUKS encrypted volumes",
-            "updated": "2018-07-24T20:07:50+0000"
+            "updated": "2018-09-04T01:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -4601,10 +4601,10 @@
             "license": "GPLv2",
             "pn": "spitools",
             "provides": "spitools ",
-            "pv": "0.8.1",
+            "pv": "0.8.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-01-29T20:01:47+0000"
+            "updated": "2018-09-04T01:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4737,7 +4737,7 @@
             "pv": "1.48.04",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:18+0000"
+            "updated": "2018-09-04T01:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4756,7 +4756,7 @@
             "pv": "1.48.04",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:18+0000"
+            "updated": "2018-09-04T01:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -5109,15 +5109,15 @@
             "filepath": "recipes-dbs/mongodb",
             "homepage": "",
             "id": 269162,
-            "inherits": "dos2unix scons siteinfo",
+            "inherits": "dos2unix python-dir pythonnative scons siteinfo",
             "layerbranch": 14965,
             "license": "AGPL-3.0 & Apache-2.0 & Zlib",
             "pn": "mongodb",
             "provides": "mongodb ",
-            "pv": "3.4.13+gitX",
+            "pv": "4.0.1+gitX",
             "section": "base",
             "summary": "mongodb",
-            "updated": "2018-04-24T22:04:04+0000"
+            "updated": "2018-09-04T01:09:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -5523,7 +5523,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mcelog is required by both 32bit x86 Linux kernels (since 2.6.30) and 64bit Linux kernels (since early 2.6 kernel releases) to log machine checks and should run on all Linux systems that need error handling.",
-            "filename": "mcelog_159.bb",
+            "filename": "mcelog_160.bb",
             "filepath": "recipes-support/mcelog",
             "homepage": "http://mcelog.org/",
             "id": 269188,
@@ -5532,10 +5532,10 @@
             "license": "GPLv2",
             "pn": "mcelog",
             "provides": "mcelog ",
-            "pv": "159",
+            "pv": "160",
             "section": "System Environment/Base",
             "summary": "mcelog daemon accounts memory and some other errors in various ways.",
-            "updated": "2018-07-16T20:07:48+0000"
+            "updated": "2018-09-04T01:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -8594,7 +8594,7 @@
             "pv": "5.4.2",
             "section": "base/shell",
             "summary": "UNIX Shell similar to the Korn shell",
-            "updated": "2018-03-20T01:03:19+0000"
+            "updated": "2018-09-04T01:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -8658,7 +8658,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Rsyslog is an enhanced syslogd supporting, among others, MySQL, PostgreSQL, failover log destinations, syslog/tcp, fine grain output format control, high precision timestamps, queued operations and the ability to filter on any message part. It is quite compatible to stock sysklogd and can be used as a drop-in replacement. Its advanced features make it suitable for enterprise-class, encryption protected syslog relay chains while at the same time being very easy to setup for the novice user.",
-            "filename": "rsyslog_8.36.0.bb",
+            "filename": "rsyslog_8.37.0.bb",
             "filepath": "recipes-extended/rsyslog",
             "homepage": "http://www.rsyslog.com/",
             "id": 269372,
@@ -8667,10 +8667,10 @@
             "license": "GPLv3 & LGPLv3 & Apache-2.0",
             "pn": "rsyslog",
             "provides": "rsyslog ",
-            "pv": "8.36.0",
+            "pv": "8.37.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2018-08-15T02:08:55+0000"
+            "updated": "2018-09-04T01:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -9050,7 +9050,7 @@
             "pv": "3.0-a9",
             "section": "console/utils",
             "summary": "Tools for performance analysis",
-            "updated": "2018-06-19T20:06:23+0000"
+            "updated": "2018-09-04T01:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -9164,7 +9164,7 @@
             "pv": "8.0.1",
             "section": "console/tests",
             "summary": "Phoronix Test Suite",
-            "updated": "2018-07-16T20:07:45+0000"
+            "updated": "2018-09-04T01:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -9525,14 +9525,14 @@
             "pv": "5.6.36",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-08-22T21:08:33+0000"
+            "updated": "2018-09-04T01:09:52+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_7.2.8.bb",
+            "filename": "php_7.2.9.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 269426,
@@ -9541,10 +9541,10 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "7.2.8",
+            "pv": "7.2.9",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-08-27T20:08:11+0000"
+            "updated": "2018-09-04T01:09:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9570,7 +9570,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.",
-            "filename": "protobuf_3.6.0.1.bb",
+            "filename": "protobuf_3.6.1.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/google/protobuf",
             "id": 269429,
@@ -9579,17 +9579,17 @@
             "license": "BSD-3-Clause",
             "pn": "protobuf",
             "provides": "protobuf ",
-            "pv": "3.6.0.1+gitX",
+            "pv": "3.6.1+gitX",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2018-08-01T01:08:22+0000"
+            "updated": "2018-09-04T01:09:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is protobuf-c, a C implementation of the Google Protocol Buffers data serialization format. It includes libprotobuf-c, a pure C library that implements protobuf encoding and decoding, and protoc-c, a code generator that converts Protocol Buffer .proto files to C descriptor code, based on the original protoc. protobuf-c formerly included an RPC implementation; that code has been split out into the protobuf-c-rpc project.",
-            "filename": "protobuf-c_1.3.0.bb",
+            "filename": "protobuf-c_1.3.1.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/protobuf-c/protobuf-c",
             "id": 269430,
@@ -9598,10 +9598,10 @@
             "license": "BSD-2-Clause",
             "pn": "protobuf-c",
             "provides": "protobuf-c ",
-            "pv": "1.3.0+gitX",
+            "pv": "1.3.1+gitX",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2018-08-01T01:08:23+0000"
+            "updated": "2018-09-04T01:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -10121,7 +10121,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_8.11.3.bb",
+            "filename": "nodejs_8.11.4.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 269460,
@@ -10130,10 +10130,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "8.11.3",
+            "pv": "8.11.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:46+0000"
+            "updated": "2018-09-04T01:09:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -10247,7 +10247,7 @@
             "pv": "3.1.4",
             "section": "libs",
             "summary": "Xerces-c is a validating xml parser written in C++",
-            "updated": "2017-09-26T04:09:57+0000"
+            "updated": "2018-09-04T01:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -11284,7 +11284,7 @@
             "filepath": "recipes-extended/libpwquality",
             "homepage": "https://github.com/libpwquality/libpwquality",
             "id": 336714,
-            "inherits": "autotools gettext python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools distutils-common-base distutils3-base gettext python3-dir python3native siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "libpwquality",
@@ -11292,7 +11292,7 @@
             "pv": "1.4.0",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2018-06-19T20:06:27+0000"
+            "updated": "2018-09-04T01:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -11843,7 +11843,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2017-11-22T20:11:00+0000"
+            "updated": "2018-09-04T01:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -12280,7 +12280,7 @@
             "pv": "3.4",
             "section": "base",
             "summary": "Frequency and Idle power monitoring tools for Linux",
-            "updated": "2018-06-19T20:06:34+0000"
+            "updated": "2018-09-04T01:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -12429,10 +12429,10 @@
             "license": "BSD | GPL-2.0",
             "pn": "libkcapi",
             "provides": "libkcapi ",
-            "pv": "1.1.1+gitX",
+            "pv": "1.1.3+gitX",
             "section": "base",
             "summary": "Linux Kernel Crypto API User Space Interface Library",
-            "updated": "2018-07-24T20:07:54+0000"
+            "updated": "2018-09-04T01:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -12508,7 +12508,7 @@
             "pv": "1.1.7",
             "section": "base",
             "summary": "A compression/decompression library",
-            "updated": "2018-08-15T02:08:57+0000"
+            "updated": "2018-09-04T01:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -12527,7 +12527,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel selftest for Linux",
-            "updated": "2018-08-21T20:08:26+0000"
+            "updated": "2018-09-04T01:09:51+0000"
         },
         {
             "bbclassextend": "",
