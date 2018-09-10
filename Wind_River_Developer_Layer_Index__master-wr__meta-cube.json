@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180903",
+            "bitbake_branch": "wr-10.18-20180910",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-03T02:09:02+0000",
+            "updated": "2018-09-10T02:09:02+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180903",
+            "actual_branch": "wr-10.18-20180910",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-04T20:09:27+0000",
-            "vcs_last_commit": "2018-09-04T20:09:27+0000",
-            "vcs_last_fetch": "2018-09-04T20:09:27+0000",
-            "vcs_last_rev": "8f49f1cd0aaf41400b3932eed01c24c21f3717ee",
+            "updated": "2018-09-09T20:09:12+0000",
+            "vcs_last_commit": "2018-09-09T20:09:12+0000",
+            "vcs_last_fetch": "2018-09-09T20:09:12+0000",
+            "vcs_last_rev": "cd2f4d234d1cbcb7d06393e995e76406ab9d478d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180820",
+            "actual_branch": "wr-10.18-20180910",
             "branch": 38,
             "collection": "cube",
             "id": 835461,
             "layer": 246,
-            "updated": "2018-09-05T03:09:44+0000",
-            "vcs_last_commit": "2018-09-05T03:09:44+0000",
-            "vcs_last_fetch": "2018-09-05T03:09:44+0000",
-            "vcs_last_rev": "302ffa882c6c93986feece5562f512d9caa86110",
+            "updated": "2018-09-09T21:09:55+0000",
+            "vcs_last_commit": "2018-09-09T21:09:55+0000",
+            "vcs_last_fetch": "2018-09-09T21:09:55+0000",
+            "vcs_last_rev": "9b8e783736cf61f81d1889e069c9c70e30868766",
             "vcs_subdir": "meta-cube",
             "version": "1",
             "yp_compatible_version": null
@@ -459,23 +459,23 @@
             "updated": "2018-08-29T11:08:53+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Versioned Operating System Repository.",
+            "description": "",
             "filename": "ostree_git.bb",
             "filepath": "recipes-support/ostree",
-            "homepage": "https://ostree.readthedocs.io",
+            "homepage": "",
             "id": 715869,
             "inherits": "autotools autotools-brokensep gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo systemd",
             "layerbranch": 835461,
-            "license": "LGPLv2.1",
+            "license": "GPLv2+",
             "pn": "ostree",
             "provides": "ostree ",
-            "pv": "2018.2+gitX",
+            "pv": "2018.7+gitX",
             "section": "base",
-            "summary": "",
-            "updated": "2018-08-29T11:08:53+0000"
+            "summary": "Tool for managing bootable, immutable, versioned filesystem trees",
+            "updated": "2018-09-10T02:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1938,7 +1938,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "A container image for domain E which is used as a graphical interface for users",
-            "updated": "2018-08-29T11:08:02+0000"
+            "updated": "2018-09-10T02:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2147,7 +2147,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Self-hosting builder",
-            "updated": "2018-08-29T11:08:05+0000"
+            "updated": "2018-09-10T02:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2185,7 +2185,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Domain 0 facilities for OverC",
-            "updated": "2018-08-29T11:08:05+0000"
+            "updated": "2018-09-10T02:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2280,7 +2280,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Native host packages for OverC",
-            "updated": "2018-08-29T11:08:06+0000"
+            "updated": "2018-09-10T02:09:20+0000"
         },
         {
             "bbclassextend": "",

@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180903",
+            "bitbake_branch": "wr-10.18-20180910",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-03T02:09:02+0000",
+            "updated": "2018-09-10T02:09:02+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180903",
+            "actual_branch": "wr-10.18-20180910",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-04T20:09:27+0000",
-            "vcs_last_commit": "2018-09-04T20:09:27+0000",
-            "vcs_last_fetch": "2018-09-04T20:09:27+0000",
-            "vcs_last_rev": "8f49f1cd0aaf41400b3932eed01c24c21f3717ee",
+            "updated": "2018-09-09T20:09:12+0000",
+            "vcs_last_commit": "2018-09-09T20:09:12+0000",
+            "vcs_last_fetch": "2018-09-09T20:09:12+0000",
+            "vcs_last_rev": "cd2f4d234d1cbcb7d06393e995e76406ab9d478d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180827",
+            "actual_branch": "wr-10.18-20180910",
             "branch": 38,
             "collection": "intel-qat",
             "id": 168980,
             "layer": 193,
-            "updated": "2018-08-26T21:08:29+0000",
-            "vcs_last_commit": "2018-08-26T21:08:29+0000",
-            "vcs_last_fetch": "2018-08-26T21:08:29+0000",
-            "vcs_last_rev": "a865328ade2cd923f2928471a03cc90c2c5ad1c3",
+            "updated": "2018-09-09T20:09:10+0000",
+            "vcs_last_commit": "2018-09-09T20:09:10+0000",
+            "vcs_last_fetch": "2018-09-09T20:09:10+0000",
+            "vcs_last_rev": "b7cf51cd21312e971259008191a87beea57442de",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -107,7 +107,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "This software acelerates the data compression algorithm in the zlib software library via the Intel QuickAssist Technology implemented on Intel Communications Chipset 89xx and 895x Series based platforms.",
+            "description": "This software acelerates the data compression algorithm in the zlib software library via the Intel QuickAssist Technology",
             "filename": "zlib-qat_0.4.7-002.bb",
             "filepath": "recipes-extended/zlib-qat",
             "homepage": "http://zlib.net/",
@@ -120,26 +120,7 @@
             "pv": "0.4.7-002",
             "section": "libs",
             "summary": "Zlib QAT_MEM Memory Management Module for Intel Quick Assist Technology",
-            "updated": "2018-07-16T20:07:27+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Intel(r) QuickAssist Technology API",
-            "filename": "qat16_2.5.0-80.bb",
-            "filepath": "recipes-extended/qat",
-            "homepage": "https://01.org/packet-processing/intel%C2%AE-quickassist-technology-drivers-and-patches",
-            "id": 402575,
-            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
-            "layerbranch": 168980,
-            "license": "BSD & GPLv2",
-            "pn": "qat16",
-            "provides": "qat16  virtual/qat",
-            "pv": "2.5.0-80",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-07-16T20:07:27+0000"
+            "updated": "2018-09-10T02:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -158,7 +139,7 @@
             "pv": "2.6.0-65",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-16T20:07:27+0000"
+            "updated": "2018-09-10T02:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -178,6 +159,25 @@
             "section": "base",
             "summary": "",
             "updated": "2018-08-27T20:08:35+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This software acelerates the data compression algorithm in the zlib software library via the Intel QuickAssist Technology",
+            "filename": "zlib-qat_0.4.10-001.bb",
+            "filepath": "recipes-extended/zlib-qat",
+            "homepage": "http://zlib.net/",
+            "id": 716019,
+            "inherits": "",
+            "layerbranch": 168980,
+            "license": "Zlib & GPLv2 & BSD",
+            "pn": "zlib-qat",
+            "provides": "zlib-qat ",
+            "pv": "0.4.10-001",
+            "section": "libs",
+            "summary": "Zlib QAT_MEM Memory Management Module for Intel Quick Assist Technology",
+            "updated": "2018-09-10T02:09:06+0000"
         }
     ],
     "wrtemplates": []
