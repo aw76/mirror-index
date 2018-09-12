@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180910",
+            "bitbake_branch": "wr-10.18-20180912",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-10T02:09:02+0000",
+            "updated": "2018-09-12T02:09:02+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180910",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-11T01:09:09+0000",
-            "vcs_last_commit": "2018-09-11T01:09:09+0000",
-            "vcs_last_fetch": "2018-09-11T01:09:09+0000",
-            "vcs_last_rev": "efbe64fb6c6f9c7fefea01f21fe33ee8849136a5",
+            "updated": "2018-09-11T20:09:30+0000",
+            "vcs_last_commit": "2018-09-11T20:09:30+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:30+0000",
+            "vcs_last_rev": "ee88b38cfddd7a14960b7fca66b454a95d74d65e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180904",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-10T01:09:18+0000",
-            "vcs_last_commit": "2018-09-10T01:09:18+0000",
-            "vcs_last_fetch": "2018-09-10T01:09:18+0000",
-            "vcs_last_rev": "37ff6bb61b6c6282f52132aeb9490f98dbaba28c",
+            "updated": "2018-09-11T20:09:28+0000",
+            "vcs_last_commit": "2018-09-11T20:09:28+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
+            "vcs_last_rev": "a79d28545ec40666252ed69e9a227c3cadfdfba0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180904",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-09-03T22:09:28+0000",
-            "vcs_last_commit": "2018-09-03T22:09:28+0000",
-            "vcs_last_fetch": "2018-09-03T22:09:28+0000",
-            "vcs_last_rev": "ff21c5497e909a0c9068ef57f148845f4ca0c128",
+            "updated": "2018-09-11T20:09:28+0000",
+            "vcs_last_commit": "2018-09-11T20:09:28+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
+            "vcs_last_rev": "b4f36ac1d5efc19fadcc67c2dd105dc763963ccc",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -4167,7 +4167,7 @@
             "pv": "0.30.1",
             "section": "devel/python",
             "summary": "A Python crypto and SSL toolkit",
-            "updated": "2018-09-04T01:09:00+0000"
+            "updated": "2018-09-12T02:09:35+0000"
         },
         {
             "bbclassextend": "",
@@ -8366,7 +8366,7 @@
             "pv": "0.30.1",
             "section": "devel/python",
             "summary": "A Python crypto and SSL toolkit",
-            "updated": "2018-09-04T01:09:02+0000"
+            "updated": "2018-09-12T02:09:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -8424,6 +8424,25 @@
             "section": "devel/python",
             "summary": "",
             "updated": "2018-09-04T01:09:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Pamela: yet another Python wrapper for PAM",
+            "filename": "pamela_0.3.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 722168,
+            "inherits": "distro_features_check distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "pamela",
+            "provides": "pamela ",
+            "pv": "0.3.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2018-09-12T02:09:35+0000"
         }
     ],
     "wrtemplates": []

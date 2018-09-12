@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180910",
+            "bitbake_branch": "wr-10.18-20180912",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-10T02:09:02+0000",
+            "updated": "2018-09-12T02:09:02+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180910",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-11T01:09:09+0000",
-            "vcs_last_commit": "2018-09-11T01:09:09+0000",
-            "vcs_last_fetch": "2018-09-11T01:09:09+0000",
-            "vcs_last_rev": "efbe64fb6c6f9c7fefea01f21fe33ee8849136a5",
+            "updated": "2018-09-11T20:09:30+0000",
+            "vcs_last_commit": "2018-09-11T20:09:30+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:30+0000",
+            "vcs_last_rev": "ee88b38cfddd7a14960b7fca66b454a95d74d65e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180904",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-10T01:09:18+0000",
-            "vcs_last_commit": "2018-09-10T01:09:18+0000",
-            "vcs_last_fetch": "2018-09-10T01:09:18+0000",
-            "vcs_last_rev": "37ff6bb61b6c6282f52132aeb9490f98dbaba28c",
+            "updated": "2018-09-11T20:09:28+0000",
+            "vcs_last_commit": "2018-09-11T20:09:28+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
+            "vcs_last_rev": "a79d28545ec40666252ed69e9a227c3cadfdfba0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -2530,10 +2530,10 @@
             "license": "GPL-2.0",
             "pn": "libtorrent",
             "provides": "libtorrent ",
-            "pv": "0.13.6+gitX",
+            "pv": "0.13.7+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:03+0000"
+            "updated": "2018-09-12T02:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2590,7 +2590,7 @@
             "pv": "4.6.1",
             "section": "base",
             "summary": "WvStreams is a network programming library in C++",
-            "updated": "2017-09-26T04:09:03+0000"
+            "updated": "2018-09-12T02:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2601,7 +2601,7 @@
             "filepath": "recipes-connectivity/usbmuxd",
             "homepage": "",
             "id": 269018,
-            "inherits": "cmake gitpkgv pkgconfig",
+            "inherits": "autotools gitpkgv pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "GPLv3 & GPLv2 & LGPLv2.1",
             "pn": "usbmuxd",
@@ -2609,7 +2609,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:03+0000"
+            "updated": "2018-09-12T02:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2625,10 +2625,10 @@
             "license": "GPL-2.0",
             "pn": "rtorrent",
             "provides": "rtorrent ",
-            "pv": "0.9.6+gitX",
+            "pv": "0.9.7+gitX",
             "section": "base",
             "summary": "Torrent client",
-            "updated": "2017-09-26T04:09:03+0000"
+            "updated": "2018-09-12T02:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2647,7 +2647,7 @@
             "pv": "2.6",
             "section": "kernel/userland",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2018-06-19T20:06:23+0000"
+            "updated": "2018-09-12T02:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2730,7 +2730,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libqmi is a glib-based library for talking to WWAN modems and devices which speak the Qualcomm MSM Interface (QMI) protocol",
-            "filename": "libqmi_1.20.0.bb",
+            "filename": "libqmi_1.20.2.bb",
             "filepath": "recipes-connectivity/libqmi",
             "homepage": "http://www.freedesktop.org/wiki/Software/libqmi",
             "id": 269026,
@@ -2739,17 +2739,17 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "libqmi",
             "provides": "libqmi ",
-            "pv": "1.20.0",
+            "pv": "1.20.2",
             "section": "base",
             "summary": "libqmi is a library for talking to WWAN devices by QMI protocol",
-            "updated": "2018-02-26T20:02:36+0000"
+            "updated": "2018-09-12T02:09:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libimobiledevice_1.1.4.bb",
+            "filename": "libimobiledevice_git.bb",
             "filepath": "recipes-connectivity/libimobiledevice",
             "homepage": "http://www.libimobiledevice.org/",
             "id": 269027,
@@ -2758,10 +2758,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "libimobiledevice",
             "provides": "libimobiledevice ",
-            "pv": "1.1.4",
+            "pv": "1.2.0+gitX",
             "section": "base",
             "summary": "A protocol library to access an iPhone or iPod Touch in Linux",
-            "updated": "2017-09-26T04:09:04+0000"
+            "updated": "2018-09-12T02:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2996,7 +2996,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Links is graphics and text mode WWW browser, similar to Lynx.",
-            "filename": "links-x11_2.7.bb",
+            "filename": "links-x11_2.16.bb",
             "filepath": "recipes-support/links",
             "homepage": "http://links.twibright.com/",
             "id": 269042,
@@ -3005,17 +3005,17 @@
             "license": "GPLv2",
             "pn": "links-x11",
             "provides": "links-x11 ",
-            "pv": "2.7",
+            "pv": "2.16",
             "section": "console/network",
             "summary": "",
-            "updated": "2017-09-26T04:09:06+0000"
+            "updated": "2018-09-12T02:09:28+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Links is graphics and text mode WWW browser, similar to Lynx.",
-            "filename": "links_2.7.bb",
+            "filename": "links_2.16.bb",
             "filepath": "recipes-support/links",
             "homepage": "http://links.twibright.com/",
             "id": 269043,
@@ -3024,10 +3024,10 @@
             "license": "GPLv2",
             "pn": "links",
             "provides": "links ",
-            "pv": "2.7",
+            "pv": "2.16",
             "section": "console/network",
             "summary": "",
-            "updated": "2017-09-26T04:09:06+0000"
+            "updated": "2018-09-12T02:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -3157,17 +3157,17 @@
             "license": "GPL-2.0-with-OpenSSL-exception",
             "pn": "synergy",
             "provides": "synergy ",
-            "pv": "1.8.8+X",
+            "pv": "1.10.1+gitX",
             "section": "x11/utils",
             "summary": "Synergy - control multiple computers with one keyboard and mouse",
-            "updated": "2017-09-26T04:09:07+0000"
+            "updated": "2018-09-12T02:09:27+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "opencv_3.3.bb",
+            "filename": "opencv_3.4.3.bb",
             "filepath": "recipes-support/opencv",
             "homepage": "http://opencv.org/",
             "id": 269053,
@@ -3176,10 +3176,10 @@
             "license": "BSD-3-Clause",
             "pn": "opencv",
             "provides": "opencv ",
-            "pv": "3.3+gitX",
+            "pv": "3.4.3+gitX",
             "section": "libs",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2018-06-04T21:06:13+0000"
+            "updated": "2018-09-12T02:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -3217,7 +3217,7 @@
             "pv": "1.0.3",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2018-09-12T02:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3262,19 +3262,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgit2_0.24.3.bb",
+            "filename": "libgit2_0.27.4.bb",
             "filepath": "recipes-support/libgit2",
             "homepage": "http://libgit2.github.com/",
             "id": 269060,
             "inherits": "cmake",
             "layerbranch": 14965,
-            "license": "GPL-2.0-with-GCC-exception",
+            "license": "GPL-2.0-with-GCC-exception & MIT",
             "pn": "libgit2",
             "provides": "libgit2 ",
-            "pv": "0.24.3",
+            "pv": "0.27.4",
             "section": "base",
             "summary": "the Git linkable library",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2018-09-12T02:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -4183,10 +4183,10 @@
             "license": "GPL-2.0+",
             "pn": "hwdata",
             "provides": "hwdata ",
-            "pv": "0.312+gitX",
+            "pv": "0.315+gitX",
             "section": "System/Base",
             "summary": "",
-            "updated": "2018-07-10T02:07:51+0000"
+            "updated": "2018-09-12T02:09:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -4680,7 +4680,7 @@
             "pv": "3.1",
             "section": "admin",
             "summary": "Administration program for the grsecurity RBAC syste",
-            "updated": "2017-09-26T04:09:18+0000"
+            "updated": "2018-09-12T02:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -4832,7 +4832,7 @@
             "pv": "0.4.7",
             "section": "Development/Libraries",
             "summary": "Library for using PKCS",
-            "updated": "2017-09-26T04:09:18+0000"
+            "updated": "2018-09-12T02:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -4870,7 +4870,7 @@
             "pv": "1.9.0",
             "section": "libs",
             "summary": "Modern, powerful open source cross-platform C++ class libraries",
-            "updated": "2018-06-19T20:06:31+0000"
+            "updated": "2018-09-12T02:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -5067,7 +5067,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Asio is a cross-platform C++ library for network and low-level         I/O programming that provides developers with a consistent asynchronous         model using a modern C++ approach.",
-            "filename": "asio_1.10.6.bb",
+            "filename": "asio_1.12.1.bb",
             "filepath": "recipes-support/asio",
             "homepage": "http://think-async.com/Asio",
             "id": 269160,
@@ -5076,10 +5076,10 @@
             "license": "BSL-1.0",
             "pn": "asio",
             "provides": "asio ",
-            "pv": "1.10.6",
+            "pv": "1.12.1",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T04:09:20+0000"
+            "updated": "2018-09-12T02:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -5200,7 +5200,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.",
-            "filename": "nano_2.9.8.bb",
+            "filename": "nano_3.0.bb",
             "filepath": "recipes-support/nano",
             "homepage": "http://www.nano-editor.org/",
             "id": 269167,
@@ -5209,10 +5209,10 @@
             "license": "GPLv3",
             "pn": "nano",
             "provides": "nano ",
-            "pv": "2.9.8",
+            "pv": "3.0",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-06-19T20:06:35+0000"
+            "updated": "2018-09-12T02:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -5561,7 +5561,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenSC is a tool for accessing smart card devices. Basicfunctionality (e.g. SELECT FILE, READ BINARY) should work on any ISO7816-4 compatible smart card. Encryption and decryption using privatekeys on the smart card is possible with PKCSsuch as the FINEID (Finnish Electronic IDentity) card. Swedish PosteneID cards have also been confirmed to work.",
-            "filename": "opensc_0.16.0.bb",
+            "filename": "opensc_0.18.0.bb",
             "filepath": "recipes-support/opensc",
             "homepage": "http://www.opensc-project.org/opensc/",
             "id": 269190,
@@ -5570,10 +5570,10 @@
             "license": "LGPLv2+",
             "pn": "opensc",
             "provides": "opensc ",
-            "pv": "0.16.0",
+            "pv": "0.18.0",
             "section": "System Environment/Libraries",
             "summary": "Smart card library and applications",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2018-09-12T02:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -5884,7 +5884,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "pkcs11-helper is a library that simplifies the interaction with PKCS providers for end-user applications using a simple API and optional OpenSSL engine. The library allows using multiple PKCS enumerating available token certificates, or selecting a certificate directly by serialized id, handling card removal and card insert events, handling card ie-insert to a different slot, supporting session expiration and much more all using a simple API.",
-            "filename": "pkcs11-helper_1.11.bb",
+            "filename": "pkcs11-helper_1.25.1.bb",
             "filepath": "recipes-crypto/pkcs11-helper",
             "homepage": "http://www.opensc-project.org/pkcs11-helper/",
             "id": 269211,
@@ -5893,10 +5893,10 @@
             "license": "GPLv2 & BSD",
             "pn": "pkcs11-helper",
             "provides": "pkcs11-helper ",
-            "pv": "1.11",
+            "pv": "1.25.1",
             "section": "Development/Libraries",
             "summary": "A library for using PKCS",
-            "updated": "2018-03-06T21:03:43+0000"
+            "updated": "2018-09-12T02:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -6059,7 +6059,7 @@
             "filepath": "recipes-support/lvm2",
             "homepage": "https://www.sourceware.org/lvm2/",
             "id": 269223,
-            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd",
+            "inherits": "autotools autotools-brokensep multilib_script pkgconfig siteconfig siteinfo systemd update-alternatives",
             "layerbranch": 14965,
             "license": "GPLv2 & LGPLv2",
             "pn": "lvm2",
@@ -6067,7 +6067,7 @@
             "pv": "2.02.180",
             "section": "utils",
             "summary": "",
-            "updated": "2018-08-15T02:08:52+0000"
+            "updated": "2018-09-12T02:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -6112,7 +6112,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vim-tiny_8.1.0172.bb",
+            "filename": "vim-tiny_8.1.0347.bb",
             "filepath": "recipes-support/vim",
             "homepage": "",
             "id": 269227,
@@ -6121,17 +6121,17 @@
             "license": "vim",
             "pn": "vim-tiny",
             "provides": "vim-tiny",
-            "pv": "8.1.0172",
+            "pv": "8.1.0347",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2018-08-15T02:08:56+0000"
+            "updated": "2018-09-12T02:09:22+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vim_8.1.0172.bb",
+            "filename": "vim_8.1.0347.bb",
             "filepath": "recipes-support/vim",
             "homepage": "",
             "id": 269228,
@@ -6140,10 +6140,10 @@
             "license": "vim",
             "pn": "vim",
             "provides": "vim xxd",
-            "pv": "8.1.0172",
+            "pv": "8.1.0347",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2018-08-15T02:08:57+0000"
+            "updated": "2018-09-12T02:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -6530,7 +6530,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vboxguestdrivers_5.2.8.bb",
+            "filename": "vboxguestdrivers_5.2.18.bb",
             "filepath": "recipes-support/vboxguestdrivers",
             "homepage": "",
             "id": 269251,
@@ -6539,10 +6539,10 @@
             "license": "GPL-2.0",
             "pn": "vboxguestdrivers",
             "provides": "vboxguestdrivers ",
-            "pv": "5.2.8",
+            "pv": "5.2.18",
             "section": "core",
             "summary": "VirtualBox Linux Guest Drivers",
-            "updated": "2018-03-20T01:03:19+0000"
+            "updated": "2018-09-12T02:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -6903,7 +6903,7 @@
             "pv": "1.9.12",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2018-01-29T20:01:47+0000"
+            "updated": "2018-09-12T02:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -7340,7 +7340,7 @@
             "pv": "1.4.9",
             "section": "Applications/System",
             "summary": "Small Footprint CIM Broker",
-            "updated": "2018-07-16T20:07:49+0000"
+            "updated": "2018-09-12T02:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -7499,19 +7499,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Berkeley Open Infrastructure for Network Computing (BOINC) is an open- source software platform which supports distributed computing, primarily in the form of volunteer computing and desktop Grid computing.  It is well suited for problems which are often described as trivially parallel.  BOINC is the underlying software used by projects such as SETI@home, Einstein@Home, ClimatePrediciton.net, the World Community Grid, and many other distributed computing projects. This package installs the BOINC client software, which will allow your computer to participate in one or more BOINC projects, using your spare computer time to search for cures for diseases, model protein folding, study global warming, discover sources of gravitational waves, and many other types of scientific and mathematical research.",
-            "filename": "boinc-client_7.6.33.bb",
+            "filename": "boinc-client_7.12.bb",
             "filepath": "recipes-extended/boinc",
             "homepage": "http://boinc.berkeley.edu/",
             "id": 269305,
-            "inherits": "autotools autotools-brokensep distro_features_check gettext pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distro_features_check gettext pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "LGPLv2+ & GPLv3",
             "pn": "boinc-client",
             "provides": "boinc-client ",
-            "pv": "7.6.33",
+            "pv": "7.12",
             "section": "applications",
             "summary": "Open-source software for volunteer computing",
-            "updated": "2017-09-26T04:09:38+0000"
+            "updated": "2018-09-12T02:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -7765,7 +7765,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Openwsman is a project intended to provide an open-source implementation of the Web Services Management specipication (WS-Management) and to expose system management information on the Linux operating system using the WS-Management protocol. WS-Management is based on a suite of web services specifications and usage requirements that exposes a set of operations focused on and covers all system management aspects. Openwsman Server and service libraries",
-            "filename": "openwsman_2.6.4.bb",
+            "filename": "openwsman_2.6.5.bb",
             "filepath": "recipes-extended/openwsman",
             "homepage": "http://www.openwsman.org/",
             "id": 269319,
@@ -7774,10 +7774,10 @@
             "license": "BSD",
             "pn": "openwsman",
             "provides": "openwsman ",
-            "pv": "2.6.4",
+            "pv": "2.6.5",
             "section": "Applications/System",
             "summary": "Opensource Implementation of WS-Management",
-            "updated": "2018-06-04T21:06:09+0000"
+            "updated": "2018-09-12T02:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -8487,7 +8487,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "md5deep is a set of programs to compute MD5, SHA-1, SHA-256, Tiger, or Whirlpool message digests on an arbitrary number of files. This package also includes hashdeep which is also able to audit hashsets.",
-            "filename": "md5deep_4.4.bb",
+            "filename": "md5deep_git.bb",
             "filepath": "recipes-extended/md5deep",
             "homepage": "http://md5deep.sourceforge.net",
             "id": 269363,
@@ -8496,10 +8496,10 @@
             "license": "GPLv2",
             "pn": "md5deep",
             "provides": "md5deep ",
-            "pv": "4.4",
+            "pv": "4.4+gitX",
             "section": "base",
             "summary": "md5deep and hashdeep to compute and audit hashsets of amounts of files.",
-            "updated": "2017-09-26T04:09:45+0000"
+            "updated": "2018-09-12T02:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -8772,19 +8772,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libplist_1.8.bb",
+            "filename": "libplist_2.0.0.bb",
             "filepath": "recipes-extended/libimobiledevice",
             "homepage": "",
             "id": 269378,
-            "inherits": "cmake pkgconfig",
+            "inherits": "autotools pkgconfig python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "libplist",
             "provides": "libplist ",
-            "pv": "1.8",
+            "pv": "2.0.0",
             "section": "base",
             "summary": "A library to handle Apple Property List format whereas it's binary or XML",
-            "updated": "2017-09-26T04:09:47+0000"
+            "updated": "2018-09-12T02:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -9525,7 +9525,7 @@
             "pv": "5.6.36",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-09-04T01:09:52+0000"
+            "updated": "2018-09-12T02:09:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -9544,7 +9544,7 @@
             "pv": "7.2.9",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-09-04T01:09:48+0000"
+            "updated": "2018-09-12T02:09:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9639,7 +9639,7 @@
             "pv": "5.1.1.r37",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-08-15T02:08:53+0000"
+            "updated": "2018-09-12T02:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -10463,7 +10463,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "IPC::Run allows you run and interact with child processes using files, pipes, and pseudo-ttys. Both system()-style and scripted usages are supported and may be mixed. Likewise, functional and OO API styles are both supported and may be mixed.",
-            "filename": "ipc-run_0.96.bb",
+            "filename": "ipc-run_0.99.bb",
             "filepath": "recipes-devtools/perl",
             "homepage": "https://metacpan.org/release/IPC-Run",
             "id": 269480,
@@ -10472,10 +10472,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "ipc-run",
             "provides": "ipc-run ",
-            "pv": "0.96",
+            "pv": "0.99",
             "section": "libs",
             "summary": "",
-            "updated": "2018-02-26T20:02:37+0000"
+            "updated": "2018-09-12T02:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -10539,19 +10539,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "sip_4.19.8.bb",
+            "filename": "sip_4.19.12.bb",
             "filepath": "recipes-devtools/sip",
             "homepage": "http://www.riverbankcomputing.co.uk/sip",
             "id": 269484,
-            "inherits": "python-dir",
+            "inherits": "python-dir pythonnative",
             "layerbranch": 14965,
             "license": "GPLv2+",
             "pn": "sip",
             "provides": "sip ",
-            "pv": "4.19.8",
+            "pv": "4.19.12",
             "section": "devel",
             "summary": "SIP is a C++/Python Wrapper Generator",
-            "updated": "2018-05-08T03:05:52+0000"
+            "updated": "2018-09-12T02:09:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -10609,25 +10609,6 @@
             "section": "base",
             "summary": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing",
             "updated": "2018-08-20T02:08:01+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "fribidi_0.19.7.bb",
-            "filepath": "recipes-devtools/libfribidi",
-            "homepage": "",
-            "id": 269488,
-            "inherits": "autotools lib_package pkgconfig siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "LGPLv2.1",
-            "pn": "fribidi",
-            "provides": "fribidi libfribidi",
-            "pv": "0.19.7",
-            "section": "libs",
-            "summary": "Fribidi library for bidirectional text",
-            "updated": "2017-09-26T04:09:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -11147,7 +11128,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/namhyung/uftrace/issues",
             "description": "",
-            "filename": "uftrace_0.8.bb",
+            "filename": "uftrace_0.8.3.bb",
             "filepath": "recipes-devtools/uftrace",
             "homepage": "https://github.com/namhyung/uftrace",
             "id": 276620,
@@ -11156,10 +11137,10 @@
             "license": "GPLv2",
             "pn": "uftrace",
             "provides": "uftrace ",
-            "pv": "0.8",
+            "pv": "0.8.3",
             "section": "devel",
             "summary": "Trace and analyze execution of a program written in C/C++",
-            "updated": "2017-10-09T22:10:05+0000"
+            "updated": "2018-09-12T02:09:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -11330,7 +11311,7 @@
             "pv": "0.10.3",
             "section": "libs",
             "summary": "pam-ssh-agent-auth",
-            "updated": "2018-03-12T22:03:52+0000"
+            "updated": "2018-09-12T02:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -11938,7 +11919,7 @@
             "pv": "2.48.3+gitX",
             "section": "base",
             "summary": "Character Based User Interface for libyui",
-            "updated": "2018-04-03T22:04:23+0000"
+            "updated": "2018-09-12T02:09:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11957,7 +11938,7 @@
             "pv": "3.3.3+git",
             "section": "base",
             "summary": "Libyui is a widget abstraction library providing Qt, GTK and ncurses frontends.",
-            "updated": "2018-05-08T03:05:54+0000"
+            "updated": "2018-09-12T02:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -12356,7 +12337,7 @@
             "pv": "2.0.5+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-24T20:07:52+0000"
+            "updated": "2018-09-12T02:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -12432,7 +12413,7 @@
             "pv": "1.1.3+gitX",
             "section": "base",
             "summary": "Linux Kernel Crypto API User Space Interface Library",
-            "updated": "2018-09-04T01:09:50+0000"
+            "updated": "2018-09-12T02:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -12604,6 +12585,44 @@
             "section": "x11/libs",
             "summary": "X Athena Widget Set",
             "updated": "2018-08-21T20:08:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This daemon is in charge of multiplexing connections over USB to an iPhone or iPod touch.",
+            "filename": "libusbmuxd_git.bb",
+            "filepath": "recipes-extended/libimobiledevice",
+            "homepage": "",
+            "id": 722166,
+            "inherits": "autotools gitpkgv pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPL-2.1",
+            "pn": "libusbmuxd",
+            "provides": "libusbmuxd ",
+            "pv": "git",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-09-12T02:09:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "sanlock  is  a lock manager built on shared storage.  Hosts with access to the storage can perform locking.   An  application  running  on  the hosts  is  given  a small amount of space on the shared block device or file, and uses sanlock for its  own  application-specific  synchronization. Internally,  the  sanlock  daemon manages locks using two disk-based lease algorithms: delta leases and paxos leases.",
+            "filename": "sanlock_3.6.0.bb",
+            "filepath": "recipes-extended/sanlock",
+            "homepage": "https://pagure.io/sanlock",
+            "id": 722167,
+            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
+            "layerbranch": 14965,
+            "license": "LGPLv2+ & GPLv2 & GPLv2+",
+            "pn": "sanlock",
+            "provides": "sanlock ",
+            "pv": "3.6.0",
+            "section": "utils",
+            "summary": "A shared storage lock manager",
+            "updated": "2018-09-12T02:09:28+0000"
         }
     ],
     "wrtemplates": []

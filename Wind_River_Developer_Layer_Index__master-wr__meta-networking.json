@@ -8,70 +8,70 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180910",
+            "bitbake_branch": "wr-10.18-20180912",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-10T02:09:02+0000",
+            "updated": "2018-09-12T02:09:02+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180910",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-11T01:09:09+0000",
-            "vcs_last_commit": "2018-09-11T01:09:09+0000",
-            "vcs_last_fetch": "2018-09-11T01:09:09+0000",
-            "vcs_last_rev": "efbe64fb6c6f9c7fefea01f21fe33ee8849136a5",
+            "updated": "2018-09-11T20:09:30+0000",
+            "vcs_last_commit": "2018-09-11T20:09:30+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:30+0000",
+            "vcs_last_rev": "ee88b38cfddd7a14960b7fca66b454a95d74d65e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180904",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-09-10T01:09:05+0000",
-            "vcs_last_commit": "2018-09-10T01:09:05+0000",
-            "vcs_last_fetch": "2018-09-10T01:09:05+0000",
-            "vcs_last_rev": "b21923ac668834245f473bf4cb621f9275375aa2",
+            "updated": "2018-09-12T04:09:18+0000",
+            "vcs_last_commit": "2018-09-12T04:09:18+0000",
+            "vcs_last_fetch": "2018-09-12T04:09:18+0000",
+            "vcs_last_rev": "c0bf594c1ce91bb14a4b808ce92c4a343ada35b9",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180904",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-10T01:09:18+0000",
-            "vcs_last_commit": "2018-09-10T01:09:18+0000",
-            "vcs_last_fetch": "2018-09-10T01:09:18+0000",
-            "vcs_last_rev": "37ff6bb61b6c6282f52132aeb9490f98dbaba28c",
+            "updated": "2018-09-11T20:09:28+0000",
+            "vcs_last_commit": "2018-09-11T20:09:28+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
+            "vcs_last_rev": "a79d28545ec40666252ed69e9a227c3cadfdfba0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180904",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-09-03T22:09:28+0000",
-            "vcs_last_commit": "2018-09-03T22:09:28+0000",
-            "vcs_last_fetch": "2018-09-03T22:09:28+0000",
-            "vcs_last_rev": "ff21c5497e909a0c9068ef57f148845f4ca0c128",
+            "updated": "2018-09-11T20:09:28+0000",
+            "vcs_last_commit": "2018-09-11T20:09:28+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
+            "vcs_last_rev": "b4f36ac1d5efc19fadcc67c2dd105dc763963ccc",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -481,7 +481,7 @@
             "pv": "3.18",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Agent",
-            "updated": "2018-09-04T01:09:10+0000"
+            "updated": "2018-09-12T02:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -507,7 +507,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LFTP is a sophisticated file transfer program with                command line interface. It supports FTP, HTTP,                FISH, SFTP, HTTPS and FTPS protocols",
-            "filename": "lftp_4.8.3.bb",
+            "filename": "lftp_4.8.4.bb",
             "filepath": "recipes-connectivity/lftp",
             "homepage": "http://lftp.yar.ru/",
             "id": 270281,
@@ -516,10 +516,10 @@
             "license": "GPLv3",
             "pn": "lftp",
             "provides": "lftp ",
-            "pv": "4.8.3",
+            "pv": "4.8.4",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-09-04T01:09:11+0000"
+            "updated": "2018-09-12T02:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -994,7 +994,7 @@
             "pv": "6.3.26",
             "section": "mail",
             "summary": "Fetchmail retrieves mail from remote mail servers and forwards it via SMTP",
-            "updated": "2017-09-26T04:09:12+0000"
+            "updated": "2018-09-12T02:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1020,7 +1020,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Encrypted UDP based FTP with multicast",
-            "filename": "uftp_4.9.3.bb",
+            "filename": "uftp_4.9.8.bb",
             "filepath": "recipes-support/uftp",
             "homepage": "https://sourceforge.net/projects/uftp-multicast",
             "id": 270311,
@@ -1029,10 +1029,10 @@
             "license": "GPLv3",
             "pn": "uftp",
             "provides": "uftp ",
-            "pv": "4.9.3",
+            "pv": "4.9.8",
             "section": "libs/network",
             "summary": "",
-            "updated": "2017-09-26T04:09:12+0000"
+            "updated": "2018-09-12T02:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2058,7 +2058,7 @@
             "pv": "1.2",
             "section": "net",
             "summary": "User configurable send-only Mail Transfer Agent",
-            "updated": "2018-08-21T20:08:43+0000"
+            "updated": "2018-09-12T02:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2198,19 +2198,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "lksctp-tools_1.0.17.bb",
+            "filename": "lksctp-tools_1.0.18.bb",
             "filepath": "recipes-support/lksctp-tools",
             "homepage": "http://lksctp.org",
             "id": 270375,
-            "inherits": "autotools binconfig pkgconfig ptest siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep binconfig pkgconfig ptest siteconfig siteinfo",
             "layerbranch": 14964,
             "license": "LGPLv2.1 & GPLv2",
             "pn": "lksctp-tools",
             "provides": "lksctp-tools ",
-            "pv": "1.0.17+gitX",
+            "pv": "1.0.18+gitX",
             "section": "net",
             "summary": "The Linux Kernel Stream Control Transmission Protocol (lksctp) project",
-            "updated": "2018-01-11T21:01:12+0000"
+            "updated": "2018-09-12T02:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2305,7 +2305,7 @@
             "pv": "3.2.6",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-08-21T20:08:44+0000"
+            "updated": "2018-09-12T02:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2506,7 +2506,7 @@
             "filepath": "recipes-daemons/cyrus-sasl",
             "homepage": "http://asg.web.cmu.edu/sasl/",
             "id": 270392,
-            "inherits": "autotools pkgconfig siteconfig siteinfo systemd useradd useradd_base",
+            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 14964,
             "license": "BSD",
             "pn": "cyrus-sasl",
@@ -2514,7 +2514,7 @@
             "pv": "2.1.27",
             "section": "libs",
             "summary": "Generic client/server library for SASL authentication",
-            "updated": "2018-09-10T02:09:44+0000"
+            "updated": "2018-09-12T04:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2625,10 +2625,10 @@
             "license": "GPLv2",
             "pn": "znc",
             "provides": "znc ",
-            "pv": "1.6.0",
+            "pv": "1.7.1",
             "section": "net",
             "summary": "ZNC, an advanced IRC bouncer",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2018-09-12T02:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2666,7 +2666,7 @@
             "pv": "1.0+gitX",
             "section": "net",
             "summary": "OpenFlow communications protocol",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2018-09-12T02:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2806,7 +2806,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "noPoll is a OpenSource WebSocket implementation (RFC 6455), written in ansi C, that allows building pure WebSocket solutions or to provide WebSocket support to existing TCP oriented applications.noPoll provides support for WebSocket (ws://) and TLS (secure) WebSocket (wss://),allowing message based (handler notified) programming or stream oriented access.",
-            "filename": "nopoll_0.4.2.b297.bb",
+            "filename": "nopoll_0.4.6.b400.bb",
             "filepath": "recipes-protocols/nopoll",
             "homepage": "http://www.aspl.es/nopoll/",
             "id": 270408,
@@ -2815,10 +2815,10 @@
             "license": "LGPL-2.1",
             "pn": "nopoll",
             "provides": "nopoll ",
-            "pv": "0.4.2.b297",
+            "pv": "0.4.6.b400",
             "section": "base",
             "summary": "OpenSource WebSocket Toolkit",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2018-09-12T02:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2894,7 +2894,7 @@
             "pv": "5.8",
             "section": "net",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2018-09-04T01:09:12+0000"
+            "updated": "2018-09-12T02:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3274,7 +3274,7 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "An open source implementation of the diameter protocol",
-            "updated": "2018-08-20T02:08:41+0000"
+            "updated": "2018-09-12T02:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3312,7 +3312,7 @@
             "pv": "1.4.0",
             "section": "connectivity",
             "summary": "ISC Kea DHCP Server",
-            "updated": "2018-08-15T02:08:18+0000"
+            "updated": "2018-09-12T02:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3404,10 +3404,10 @@
             "license": "BSD & LGPLv2.1+",
             "pn": "spice",
             "provides": "spice ",
-            "pv": "0.14.0+gitX",
+            "pv": "0.14.1+gitX",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2018-07-02T22:07:44+0000"
+            "updated": "2018-09-12T02:09:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3490,7 +3490,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1 and 3.1.1. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
-            "filename": "mosquitto_1.4.15.bb",
+            "filename": "mosquitto_1.5.1.bb",
             "filepath": "recipes-connectivity/mosquitto",
             "homepage": "http://mosquitto.org/",
             "id": 646424,
@@ -3499,10 +3499,10 @@
             "license": "EPL-1.0 | EDL-1.0",
             "pn": "mosquitto",
             "provides": "mosquitto ",
-            "pv": "1.4.15",
+            "pv": "1.5.1",
             "section": "console/network",
             "summary": "Open source MQTT v3.1/3.1.1 implemention",
-            "updated": "2018-07-10T02:07:23+0000"
+            "updated": "2018-09-12T02:09:47+0000"
         },
         {
             "bbclassextend": "",

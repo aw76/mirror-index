@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180910",
+            "bitbake_branch": "wr-10.18-20180912",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-10T02:09:02+0000",
+            "updated": "2018-09-12T02:09:02+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180910",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-11T01:09:09+0000",
-            "vcs_last_commit": "2018-09-11T01:09:09+0000",
-            "vcs_last_fetch": "2018-09-11T01:09:09+0000",
-            "vcs_last_rev": "efbe64fb6c6f9c7fefea01f21fe33ee8849136a5",
+            "updated": "2018-09-11T20:09:30+0000",
+            "vcs_last_commit": "2018-09-11T20:09:30+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:30+0000",
+            "vcs_last_rev": "ee88b38cfddd7a14960b7fca66b454a95d74d65e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180904",
+            "actual_branch": "wr-10.18-20180912",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2018-09-03T22:09:28+0000",
-            "vcs_last_commit": "2018-09-03T22:09:28+0000",
-            "vcs_last_fetch": "2018-09-03T22:09:28+0000",
-            "vcs_last_rev": "ff21c5497e909a0c9068ef57f148845f4ca0c128",
+            "updated": "2018-09-11T20:09:28+0000",
+            "vcs_last_commit": "2018-09-11T20:09:28+0000",
+            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
+            "vcs_last_rev": "b4f36ac1d5efc19fadcc67c2dd105dc763963ccc",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": null
@@ -196,7 +196,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2018-08-20T02:08:58+0000"
+            "updated": "2018-09-12T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +215,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "Configuration files for kexecboot",
-            "updated": "2017-09-26T04:09:43+0000"
+            "updated": "2018-09-12T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +253,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc utils for initramfs",
-            "updated": "2018-02-07T00:02:59+0000"
+            "updated": "2018-09-12T02:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -272,7 +272,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2017-10-09T22:10:02+0000"
+            "updated": "2018-09-12T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -291,7 +291,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2018-02-07T00:02:58+0000"
+            "updated": "2018-09-12T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -310,7 +310,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2017-10-09T22:10:02+0000"
+            "updated": "2018-09-12T02:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -367,7 +367,7 @@
             "pv": "2.0.17+gitX",
             "section": "kernel/userland",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2018-09-04T01:09:45+0000"
+            "updated": "2018-09-12T02:09:16+0000"
         },
         {
             "bbclassextend": "",
