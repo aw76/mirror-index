@@ -34,10 +34,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-11T20:09:30+0000",
-            "vcs_last_commit": "2018-09-11T20:09:30+0000",
-            "vcs_last_fetch": "2018-09-11T20:09:30+0000",
-            "vcs_last_rev": "ee88b38cfddd7a14960b7fca66b454a95d74d65e",
+            "updated": "2018-09-13T03:09:17+0000",
+            "vcs_last_commit": "2018-09-13T03:09:17+0000",
+            "vcs_last_fetch": "2018-09-13T03:09:17+0000",
+            "vcs_last_rev": "dbc40bd65b8a3ed6261e6fe250ab56f05248c0db",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -1443,7 +1443,7 @@
             "filepath": "recipes-graphics/cairo",
             "homepage": "http://cairographics.org",
             "id": 270694,
-            "inherits": "autotools gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo upstream-version-is-even",
+            "inherits": "autotools gtk-doc multilib_script pkgconfig python3-dir python3native qemu siteconfig siteinfo update-alternatives upstream-version-is-even",
             "layerbranch": 14953,
             "license": "MPL-1 & LGPLv2.1 & GPLv3+",
             "pn": "cairo",
@@ -1451,7 +1451,7 @@
             "pv": "1.14.12",
             "section": "libs",
             "summary": "The Cairo 2D vector graphics library",
-            "updated": "2018-09-10T02:09:45+0000"
+            "updated": "2018-09-13T03:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1622,7 +1622,7 @@
             "pv": "2.00.1",
             "section": "x11/fonts",
             "summary": "Liberation(tm) Fonts",
-            "updated": "2018-06-19T20:06:08+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1679,7 +1679,7 @@
             "pv": "1.0",
             "section": "x11/fonts",
             "summary": "Xorg minimal fonts data",
-            "updated": "2018-05-25T01:05:05+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1698,7 +1698,7 @@
             "pv": "1.0.4",
             "section": "x11/fonts",
             "summary": "The Xorg font encoding files",
-            "updated": "2018-09-10T02:09:46+0000"
+            "updated": "2018-09-13T03:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1717,7 +1717,7 @@
             "pv": "1.0.3",
             "section": "x11/fonts",
             "summary": "X font aliases",
-            "updated": "2018-09-10T02:09:46+0000"
+            "updated": "2018-09-13T03:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2097,7 +2097,7 @@
             "pv": "0.1.1+gitX",
             "section": "x11/base",
             "summary": "Transparent X11 cursor theme for touchscreens",
-            "updated": "2018-09-10T02:09:49+0000"
+            "updated": "2018-09-13T03:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2230,7 +2230,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2018-09-10T02:09:51+0000"
+            "updated": "2018-09-13T03:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2249,7 +2249,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2018-09-10T02:09:51+0000"
+            "updated": "2018-09-13T03:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2268,7 +2268,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:51+0000"
+            "updated": "2018-09-13T03:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2287,7 +2287,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic X11 session",
-            "updated": "2018-05-25T01:05:11+0000"
+            "updated": "2018-09-13T03:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2325,7 +2325,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "X11 display server and basic utilities",
-            "updated": "2018-05-25T01:05:11+0000"
+            "updated": "2018-09-13T03:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2344,7 +2344,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Clutter package groups",
-            "updated": "2018-05-25T01:05:11+0000"
+            "updated": "2018-09-13T03:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2363,7 +2363,7 @@
             "pv": "0.0.25",
             "section": "fonts",
             "summary": "Cantarell, a Humanist sans-serif font family",
-            "updated": "2018-09-12T02:09:07+0000"
+            "updated": "2018-09-13T03:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2477,7 +2477,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Startup script and systemd unit file for the Weston Wayland compositor",
-            "updated": "2018-07-02T22:07:43+0000"
+            "updated": "2018-09-13T03:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2515,7 +2515,7 @@
             "pv": "1.15",
             "section": "base",
             "summary": "Collection of additional Wayland protocols",
-            "updated": "2018-09-10T02:09:52+0000"
+            "updated": "2018-09-13T03:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2572,7 +2572,7 @@
             "pv": "2.12.6",
             "section": "libs",
             "summary": "Generic font configuration library",
-            "updated": "2018-09-10T02:09:53+0000"
+            "updated": "2018-09-13T03:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3085,7 +3085,7 @@
             "pv": "1.79",
             "section": "console/network",
             "summary": "name server information handler",
-            "updated": "2018-05-25T01:05:18+0000"
+            "updated": "2018-09-13T03:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -3180,7 +3180,7 @@
             "pv": "0.1",
             "section": "console/network",
             "summary": "Enables PPP dial-in through a serial connection",
-            "updated": "2018-05-25T01:05:19+0000"
+            "updated": "2018-09-13T03:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -3541,7 +3541,7 @@
             "pv": "0.0+gitX",
             "section": "kernel",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2018-09-10T02:09:23+0000"
+            "updated": "2018-09-13T03:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -4179,7 +4179,7 @@
             "filepath": "recipes-support/icu",
             "homepage": "http://site.icu-project.org/",
             "id": 270885,
-            "inherits": "autotools binconfig pkgconfig siteconfig siteinfo",
+            "inherits": "autotools binconfig multilib_script pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "ICU",
             "pn": "icu",
@@ -4187,7 +4187,7 @@
             "pv": "62.1",
             "section": "base",
             "summary": "International Component for Unicode libraries",
-            "updated": "2018-09-10T02:09:04+0000"
+            "updated": "2018-09-13T03:09:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -4491,7 +4491,7 @@
             "pv": "4.1",
             "section": "base",
             "summary": "ISO language, territory, currency, script codes and their translations",
-            "updated": "2018-09-12T02:09:02+0000"
+            "updated": "2018-09-13T03:09:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4586,7 +4586,7 @@
             "pv": "20180409",
             "section": "misc",
             "summary": "Common CA certificates",
-            "updated": "2018-09-10T02:09:17+0000"
+            "updated": "2018-09-13T03:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -5110,7 +5110,7 @@
             "filepath": "recipes-support/libgpg-error",
             "homepage": "http://www.gnupg.org/related_software/libgpg-error/",
             "id": 270936,
-            "inherits": "autotools binconfig-disabled gettext multilib_header pkgconfig siteconfig siteinfo",
+            "inherits": "autotools binconfig-disabled gettext multilib_header multilib_script pkgconfig siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "GPLv2+ & LGPLv2.1+",
             "pn": "libgpg-error",
@@ -5118,7 +5118,7 @@
             "pv": "1.32",
             "section": "libs",
             "summary": "Small library that defines common error values for all GnuPG components",
-            "updated": "2018-09-10T02:09:18+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5194,7 +5194,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Creates an 'xuser' account used for running X11",
-            "updated": "2018-05-25T01:05:46+0000"
+            "updated": "2018-09-13T03:09:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -6049,7 +6049,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-09-10T02:09:29+0000"
+            "updated": "2018-09-13T03:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -6068,7 +6068,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-09-10T02:09:29+0000"
+            "updated": "2018-09-13T03:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -6334,7 +6334,7 @@
             "pv": "2018e",
             "section": "base",
             "summary": "Timezone data",
-            "updated": "2018-05-25T01:05:57+0000"
+            "updated": "2018-09-13T03:09:37+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -7132,7 +7132,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:37+0000"
+            "updated": "2018-09-13T03:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -7151,7 +7151,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-09-10T02:09:37+0000"
+            "updated": "2018-09-13T03:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -7170,7 +7170,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:37+0000"
+            "updated": "2018-09-13T03:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7189,7 +7189,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:38+0000"
+            "updated": "2018-09-13T03:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7208,7 +7208,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:38+0000"
+            "updated": "2018-09-13T03:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7227,7 +7227,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:38+0000"
+            "updated": "2018-09-13T03:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7246,7 +7246,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:38+0000"
+            "updated": "2018-09-13T03:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7265,7 +7265,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standard full-featured Linux system",
-            "updated": "2018-07-30T02:07:15+0000"
+            "updated": "2018-09-13T03:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7284,7 +7284,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Linux Standard Base (LSB)",
-            "updated": "2018-08-13T21:08:08+0000"
+            "updated": "2018-09-13T03:09:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -8101,7 +8101,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initscript for enabling USB gadget Ethernet",
-            "updated": "2018-05-25T01:05:14+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -9602,7 +9602,7 @@
             "pv": "4.5",
             "section": "base",
             "summary": "Document type definitions for verification of XML data files",
-            "updated": "2018-05-25T01:05:32+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -9621,7 +9621,7 @@
             "pv": "1.79.1",
             "section": "base",
             "summary": "XSL stylesheets for processing DocBook XML to various output formats",
-            "updated": "2018-05-25T01:05:33+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10058,7 +10058,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Provides a small set of tools for development on the device",
-            "updated": "2018-05-25T01:05:38+0000"
+            "updated": "2018-09-13T03:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -10248,7 +10248,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "Runs postinstall scripts on first boot of the target device",
-            "updated": "2018-07-02T22:07:42+0000"
+            "updated": "2018-09-13T03:09:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -11179,7 +11179,7 @@
             "pv": "3.28.0",
             "section": "x11/gnome",
             "summary": "GTK+ icon theme",
-            "updated": "2018-09-10T02:09:16+0000"
+            "updated": "2018-09-13T03:09:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -11274,7 +11274,7 @@
             "pv": "0.17",
             "section": "base",
             "summary": "Default icon theme that all icon themes automatically inherit from",
-            "updated": "2018-09-10T02:09:17+0000"
+            "updated": "2018-09-13T03:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -11388,7 +11388,7 @@
             "pv": "2.24.32",
             "section": "libs",
             "summary": "Multi-platform toolkit for creating GUIs",
-            "updated": "2018-09-10T02:09:19+0000"
+            "updated": "2018-09-13T03:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -11426,7 +11426,7 @@
             "pv": "3.22.30",
             "section": "libs",
             "summary": "Multi-platform toolkit for creating GUIs",
-            "updated": "2018-09-10T02:09:19+0000"
+            "updated": "2018-09-13T03:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -11483,7 +11483,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Volatile bind mount setup and configuration for read-only-rootfs",
-            "updated": "2018-07-02T22:07:45+0000"
+            "updated": "2018-09-13T03:09:42+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11749,7 +11749,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Operating system identification",
-            "updated": "2018-09-10T02:09:19+0000"
+            "updated": "2018-09-13T03:09:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11825,7 +11825,7 @@
             "pv": "3.2.5",
             "section": "base",
             "summary": "eudev is a fork of systemd's udev",
-            "updated": "2018-09-10T02:09:22+0000"
+            "updated": "2018-09-13T03:09:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11901,7 +11901,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:23+0000"
+            "updated": "2018-09-13T03:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -12091,7 +12091,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Extremely basic live image init script",
-            "updated": "2018-05-25T01:05:00+0000"
+            "updated": "2018-09-13T03:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -12186,7 +12186,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Modular initramfs system",
-            "updated": "2018-09-12T02:09:04+0000"
+            "updated": "2018-09-13T03:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -12319,7 +12319,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-09-10T02:09:26+0000"
+            "updated": "2018-09-13T03:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12338,7 +12338,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-12T02:09:04+0000"
+            "updated": "2018-09-13T03:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12357,7 +12357,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-09-10T02:09:26+0000"
+            "updated": "2018-09-13T03:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12376,7 +12376,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-09-10T02:09:26+0000"
+            "updated": "2018-09-13T03:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12395,7 +12395,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2018-09-10T02:09:27+0000"
+            "updated": "2018-09-13T03:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12414,7 +12414,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-12T02:09:03+0000"
+            "updated": "2018-09-13T03:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -12433,7 +12433,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-09-10T02:09:27+0000"
+            "updated": "2018-09-13T03:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -12452,7 +12452,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "OpenSSH SSH client/server",
-            "updated": "2018-05-25T01:05:03+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12509,7 +12509,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Remote debugging tools for Eclipse integration",
-            "updated": "2018-05-25T01:05:03+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12547,7 +12547,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Host packages for the standalone SDK or external toolchain",
-            "updated": "2018-05-25T01:05:04+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12585,7 +12585,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Essential build dependencies",
-            "updated": "2018-05-25T01:05:04+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12604,7 +12604,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dropbear SSH client/server",
-            "updated": "2018-05-25T01:05:04+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12661,7 +12661,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "NFS package groups",
-            "updated": "2018-05-25T01:05:04+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12680,7 +12680,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Target packages for the standalone SDK",
-            "updated": "2018-05-25T01:05:04+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12699,7 +12699,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Debugging tools",
-            "updated": "2018-05-25T01:05:04+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12718,7 +12718,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Self-hosting",
-            "updated": "2018-07-02T22:07:20+0000"
+            "updated": "2018-09-13T03:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -12870,7 +12870,7 @@
             "pv": "0.8",
             "section": "base",
             "summary": "manage symlinks in /etc/rcN.d",
-            "updated": "2018-08-01T01:08:01+0000"
+            "updated": "2018-09-13T03:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13022,7 +13022,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2018-09-10T02:09:29+0000"
+            "updated": "2018-09-13T03:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13041,7 +13041,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "libc and patchelf tarball for use with uninative.bbclass",
-            "updated": "2018-09-10T02:09:29+0000"
+            "updated": "2018-09-13T03:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13079,7 +13079,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2018-05-25T01:05:08+0000"
+            "updated": "2018-09-13T03:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13098,7 +13098,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Makes public keys of the signing keys available",
-            "updated": "2018-05-25T01:05:08+0000"
+            "updated": "2018-09-13T03:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13117,7 +13117,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2018-09-10T02:09:29+0000"
+            "updated": "2018-09-13T03:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13174,7 +13174,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for test systems with missing software",
-            "updated": "2018-09-10T02:09:30+0000"
+            "updated": "2018-09-13T03:09:35+0000"
         },
         {
             "bbclassextend": "",
@@ -13421,7 +13421,7 @@
             "pv": "1",
             "section": "multimedia",
             "summary": "/etc/pulse/client.conf tailored for Sato",
-            "updated": "2018-05-25T01:05:11+0000"
+            "updated": "2018-09-13T03:09:35+0000"
         },
         {
             "bbclassextend": "",
@@ -13459,7 +13459,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:32+0000"
+            "updated": "2018-09-13T03:09:35+0000"
         },
         {
             "bbclassextend": "",
@@ -13478,7 +13478,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:32+0000"
+            "updated": "2018-09-13T03:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -13497,7 +13497,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:32+0000"
+            "updated": "2018-09-13T03:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -13516,7 +13516,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:33+0000"
+            "updated": "2018-09-13T03:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -13611,7 +13611,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Provides an icon to shut down the system cleanly",
-            "updated": "2018-05-25T01:05:12+0000"
+            "updated": "2018-09-13T03:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -13687,7 +13687,7 @@
             "pv": "2018.03.13",
             "section": "devel",
             "summary": "a collection of freely re-usable Autoconf macros",
-            "updated": "2018-09-10T02:09:28+0000"
+            "updated": "2018-09-13T03:09:37+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -13934,7 +13934,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "initramfs-framework module for live booting",
-            "updated": "2018-05-25T01:05:16+0000"
+            "updated": "2018-09-13T03:09:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14029,7 +14029,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable Go toolchain",
-            "updated": "2018-09-10T02:09:28+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -14067,7 +14067,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Target packages for the Go SDK",
-            "updated": "2018-07-24T20:07:32+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -14181,7 +14181,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2018-05-25T01:05:17+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -14200,7 +14200,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2018-05-25T01:05:17+0000"
+            "updated": "2018-09-13T03:09:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
