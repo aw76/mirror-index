@@ -24,7 +24,7 @@
             "id": 3357,
             "layerbranch": 833856,
             "name": "overc",
-            "updated": "2018-09-10T02:09:18+0000"
+            "updated": "2018-09-14T15:09:38+0000"
         }
     ],
     "layerBranches": [
@@ -34,24 +34,24 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-13T03:09:17+0000",
-            "vcs_last_commit": "2018-09-13T03:09:17+0000",
-            "vcs_last_fetch": "2018-09-13T03:09:17+0000",
-            "vcs_last_rev": "dbc40bd65b8a3ed6261e6fe250ab56f05248c0db",
+            "updated": "2018-09-14T13:09:54+0000",
+            "vcs_last_commit": "2018-09-14T13:09:54+0000",
+            "vcs_last_fetch": "2018-09-14T13:09:54+0000",
+            "vcs_last_rev": "e1dddae9c4982ee815c42d2e4302a547bbb1be52",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180910",
+            "actual_branch": "wr-10.18-20180914",
             "branch": 38,
             "collection": "overc",
             "id": 833856,
             "layer": 245,
-            "updated": "2018-09-09T21:09:55+0000",
-            "vcs_last_commit": "2018-09-09T21:09:55+0000",
-            "vcs_last_fetch": "2018-09-09T21:09:55+0000",
-            "vcs_last_rev": "9b8e783736cf61f81d1889e069c9c70e30868766",
+            "updated": "2018-09-14T13:09:05+0000",
+            "vcs_last_commit": "2018-09-14T13:09:05+0000",
+            "vcs_last_fetch": "2018-09-14T13:09:05+0000",
+            "vcs_last_rev": "22b0502d18f128a3f5760d4125dc8732d9693cd0",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -104,6 +104,45 @@
         }
     ],
     "machines": [],
-    "recipes": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "lxcfs_3.0.1.bb",
+            "filepath": "meta-cube/recipes-core/lxcfs",
+            "homepage": "",
+            "id": 722169,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
+            "layerbranch": 833856,
+            "license": "Apache-2.0",
+            "pn": "lxcfs",
+            "provides": "lxcfs ",
+            "pv": "3.0.1",
+            "section": "base",
+            "summary": "LXCFS is a userspace filesystem created to avoid kernel limitations",
+            "updated": "2018-09-14T15:09:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Mutt is a small but very powerful text-based MIME mail client. It is highly configurable, and is well-suited to the mail power user with advanced features like key bindings, keyboard macros, mail threading, regular expression searches, and a powerful pattern matching language for selecting groups of messages.",
+            "filename": "mutt_1.10.1.bb",
+            "filepath": "meta-cube/recipes-extended/mutt",
+            "homepage": "",
+            "id": 722170,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 833856,
+            "license": "GPLv2",
+            "pn": "mutt",
+            "provides": "mutt ",
+            "pv": "1.10.1",
+            "section": "console/network",
+            "summary": "",
+            "updated": "2018-09-14T15:09:39+0000"
+        }
+    ],
     "wrtemplates": []
 }
