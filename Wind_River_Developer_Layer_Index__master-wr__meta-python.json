@@ -21,43 +21,43 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-16T20:09:27+0000",
-            "vcs_last_commit": "2018-09-16T20:09:27+0000",
-            "vcs_last_fetch": "2018-09-16T20:09:27+0000",
-            "vcs_last_rev": "45fd94213b05621466ede090ebe223e46a732165",
+            "updated": "2018-09-19T04:09:23+0000",
+            "vcs_last_commit": "2018-09-19T04:09:23+0000",
+            "vcs_last_fetch": "2018-09-19T04:09:23+0000",
+            "vcs_last_rev": "f006af35bfb5a4cba4cb8c917b9e5b927a65b774",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-12T22:09:30+0000",
-            "vcs_last_commit": "2018-09-12T22:09:30+0000",
-            "vcs_last_fetch": "2018-09-12T22:09:30+0000",
-            "vcs_last_rev": "f0da779d570eb7621671126d893a00fecd76b30f",
+            "updated": "2018-09-17T22:09:37+0000",
+            "vcs_last_commit": "2018-09-17T22:09:37+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:37+0000",
+            "vcs_last_rev": "986b2b7dddadedaabf9d6a437f1efdf1f44b3aba",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-09-11T20:09:28+0000",
-            "vcs_last_commit": "2018-09-11T20:09:28+0000",
-            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
-            "vcs_last_rev": "b4f36ac1d5efc19fadcc67c2dd105dc763963ccc",
+            "updated": "2018-09-17T22:09:36+0000",
+            "vcs_last_commit": "2018-09-17T22:09:36+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
+            "vcs_last_rev": "95b771ba00b4da154725f9ca4c531a373850bef8",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -2734,7 +2734,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
             "id": 269759,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 14967,
             "license": "BSD",
             "pn": "python-ndg-httpsclient",
@@ -2742,7 +2742,7 @@
             "pv": "0.5.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-08-01T01:08:35+0000"
+            "updated": "2018-09-18T21:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3266,7 +3266,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
             "id": 269787,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 14967,
             "license": "BSD",
             "pn": "python3-ndg-httpsclient",
@@ -3274,7 +3274,7 @@
             "pv": "0.5.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-08-01T01:08:37+0000"
+            "updated": "2018-09-18T21:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -8252,7 +8252,7 @@
             "pv": "1.6.6",
             "section": "devel/python",
             "summary": "Pyflame: A Ptracing Profiler For Python",
-            "updated": "2018-09-04T01:09:01+0000"
+            "updated": "2018-09-18T21:09:48+0000"
         },
         {
             "bbclassextend": "",

@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-16T20:09:27+0000",
-            "vcs_last_commit": "2018-09-16T20:09:27+0000",
-            "vcs_last_fetch": "2018-09-16T20:09:27+0000",
-            "vcs_last_rev": "45fd94213b05621466ede090ebe223e46a732165",
+            "updated": "2018-09-19T04:09:23+0000",
+            "vcs_last_commit": "2018-09-19T04:09:23+0000",
+            "vcs_last_fetch": "2018-09-19T04:09:23+0000",
+            "vcs_last_rev": "f006af35bfb5a4cba4cb8c917b9e5b927a65b774",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -1800,7 +1800,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "fbdev is an Xorg driver for framebuffer devices. This is a non-accelerated driver.",
-            "filename": "xf86-video-fbdev_0.4.4.bb",
+            "filename": "xf86-video-fbdev_0.5.0.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
             "id": 270713,
@@ -1809,10 +1809,10 @@
             "license": "MIT-X",
             "pn": "xf86-video-fbdev",
             "provides": "xf86-video-fbdev ",
-            "pv": "0.4.4",
+            "pv": "0.5.0",
             "section": "x11/drivers",
             "summary": "X.Org X server -- fbdev display driver",
-            "updated": "2018-09-10T02:09:47+0000"
+            "updated": "2018-09-18T21:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -2541,7 +2541,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xserver-xorg_1.19.6.bb",
+            "filename": "xserver-xorg_1.20.1.bb",
             "filepath": "recipes-graphics/xorg-xserver",
             "homepage": "http://www.x.org",
             "id": 270755,
@@ -2550,10 +2550,10 @@
             "license": "MIT-X",
             "pn": "xserver-xorg",
             "provides": "xserver-xorg virtual/xserver-xf86 virtual/xserver",
-            "pv": "1.19.6",
+            "pv": "1.20.1",
             "section": "x11/base",
             "summary": "The X.Org X server",
-            "updated": "2018-09-12T02:09:09+0000"
+            "updated": "2018-09-18T21:09:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -3237,7 +3237,7 @@
             "pv": "1.7.3.2",
             "section": "console/network",
             "summary": "Multipurpose relay for bidirectional data transfer",
-            "updated": "2018-09-10T02:09:57+0000"
+            "updated": "2018-09-18T21:09:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3389,7 +3389,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2018-08-20T02:08:47+0000"
+            "updated": "2018-09-18T21:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3522,7 +3522,7 @@
             "pv": "4.18",
             "section": "devel",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2018-09-03T02:09:13+0000"
+            "updated": "2018-09-18T21:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3674,7 +3674,7 @@
             "pv": "2.0.17",
             "section": "kernel/userland",
             "summary": "Kexec fast reboot tools",
-            "updated": "2018-09-12T02:09:09+0000"
+            "updated": "2018-09-18T21:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3769,7 +3769,7 @@
             "pv": "4.14.67+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-12T02:09:10+0000"
+            "updated": "2018-09-18T21:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3788,7 +3788,7 @@
             "pv": "4.14.67+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-12T02:09:09+0000"
+            "updated": "2018-09-18T21:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3807,7 +3807,7 @@
             "pv": "4.18-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-03T02:09:20+0000"
+            "updated": "2018-09-18T21:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3826,7 +3826,7 @@
             "pv": "4.14.67+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-12T02:09:09+0000"
+            "updated": "2018-09-18T21:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -4035,7 +4035,7 @@
             "pv": "1.6.1",
             "section": "libs",
             "summary": "Apache Portable Runtime (APR) companion library",
-            "updated": "2018-09-10T02:09:02+0000"
+            "updated": "2018-09-18T21:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -6980,7 +6980,7 @@
             "pv": "20180515",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2018-09-16T21:09:28+0000"
+            "updated": "2018-09-18T21:09:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -9324,38 +9324,38 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-native_3.5.5.bb",
+            "filename": "python3-native_3.5.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python.org",
             "id": 271183,
-            "inherits": "autotools native nopackages pkgconfig relocatable siteconfig siteinfo",
+            "inherits": "autotools bluetooth native nopackages pkgconfig relocatable siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "PSFv2",
             "pn": "python3-native",
             "provides": "python3-native ",
-            "pv": "3.5.5",
+            "pv": "3.5.6",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-09-10T02:09:00+0000"
+            "updated": "2018-09-18T21:09:27+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3_3.5.5.bb",
+            "filename": "python3_3.5.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python.org",
             "id": 271184,
-            "inherits": "autotools multilib_header pkgconfig python3-dir python3native qemu siteconfig siteinfo update-alternatives",
+            "inherits": "autotools bluetooth multilib_header pkgconfig python3-dir python3native qemu siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "PSFv2",
             "pn": "python3",
             "provides": "python3 ",
-            "pv": "3.5.5",
+            "pv": "3.5.6",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-09-12T02:09:06+0000"
+            "updated": "2018-09-18T21:09:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11768,7 +11768,7 @@
             "pv": "8.30",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2018-09-10T02:09:22+0000"
+            "updated": "2018-09-18T21:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -11806,7 +11806,7 @@
             "pv": "1.1",
             "section": "base",
             "summary": "Extra machine specific configuration files",
-            "updated": "2018-05-25T01:05:57+0000"
+            "updated": "2018-09-18T21:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -11996,7 +11996,7 @@
             "pv": "1.1.20+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2018-09-10T02:09:19+0000"
+            "updated": "2018-09-18T21:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -13789,7 +13789,7 @@
             "blacklisted": "",
             "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
             "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
-            "filename": "openssl_1.1.1-pre9.bb",
+            "filename": "openssl_1.1.1.bb",
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 336709,
@@ -13798,10 +13798,10 @@
             "license": "openssl",
             "pn": "openssl",
             "provides": "openssl ",
-            "pv": "1.1.1~pre9",
+            "pv": "1.1.1",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-09-10T02:09:14+0000"
+            "updated": "2018-09-18T21:09:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15017,7 +15017,7 @@
             "pv": "4.18.5+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-12T02:09:09+0000"
+            "updated": "2018-09-18T21:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -15036,7 +15036,7 @@
             "pv": "4.18.5+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-12T02:09:10+0000"
+            "updated": "2018-09-18T21:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -15055,7 +15055,7 @@
             "pv": "4.18.5+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-12T02:09:11+0000"
+            "updated": "2018-09-18T21:09:33+0000"
         },
         {
             "bbclassextend": "",

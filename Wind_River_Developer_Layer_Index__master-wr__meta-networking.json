@@ -21,57 +21,57 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-16T20:09:27+0000",
-            "vcs_last_commit": "2018-09-16T20:09:27+0000",
-            "vcs_last_fetch": "2018-09-16T20:09:27+0000",
-            "vcs_last_rev": "45fd94213b05621466ede090ebe223e46a732165",
+            "updated": "2018-09-19T04:09:23+0000",
+            "vcs_last_commit": "2018-09-19T04:09:23+0000",
+            "vcs_last_fetch": "2018-09-19T04:09:23+0000",
+            "vcs_last_rev": "f006af35bfb5a4cba4cb8c917b9e5b927a65b774",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-09-13T03:09:52+0000",
-            "vcs_last_commit": "2018-09-13T03:09:52+0000",
-            "vcs_last_fetch": "2018-09-13T03:09:52+0000",
-            "vcs_last_rev": "94e50a9eb870c0f6a54dfb6393b5258e58a698de",
+            "updated": "2018-09-17T22:09:37+0000",
+            "vcs_last_commit": "2018-09-17T22:09:37+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:37+0000",
+            "vcs_last_rev": "dd0eada3155e4076ef884f1c7d9bc264a3e4501c",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-12T22:09:30+0000",
-            "vcs_last_commit": "2018-09-12T22:09:30+0000",
-            "vcs_last_fetch": "2018-09-12T22:09:30+0000",
-            "vcs_last_rev": "f0da779d570eb7621671126d893a00fecd76b30f",
+            "updated": "2018-09-17T22:09:37+0000",
+            "vcs_last_commit": "2018-09-17T22:09:37+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:37+0000",
+            "vcs_last_rev": "986b2b7dddadedaabf9d6a437f1efdf1f44b3aba",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-09-11T20:09:28+0000",
-            "vcs_last_commit": "2018-09-11T20:09:28+0000",
-            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
-            "vcs_last_rev": "b4f36ac1d5efc19fadcc67c2dd105dc763963ccc",
+            "updated": "2018-09-17T22:09:36+0000",
+            "vcs_last_commit": "2018-09-17T22:09:36+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
+            "vcs_last_rev": "95b771ba00b4da154725f9ca4c531a373850bef8",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -1229,7 +1229,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Network Block Device",
-            "filename": "nbd_3.11.bb",
+            "filename": "nbd_3.17.bb",
             "filepath": "recipes-support/nbd",
             "homepage": "http://nbd.sourceforge.net",
             "id": 270322,
@@ -1238,10 +1238,10 @@
             "license": "GPLv2",
             "pn": "nbd",
             "provides": "nbd ",
-            "pv": "3.11",
+            "pv": "3.17",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T04:09:14+0000"
+            "updated": "2018-09-18T21:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2084,19 +2084,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "SSL encryption wrapper between remote client and local (inetd-startable) or remote server.",
-            "filename": "stunnel_5.35.bb",
+            "filename": "stunnel_5.49.bb",
             "filepath": "recipes-support/stunnel",
-            "homepage": "http://www.stunnel.org/",
+            "homepage": "https://www.stunnel.org/",
             "id": 270369,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14964,
             "license": "GPLv2",
             "pn": "stunnel",
             "provides": "stunnel ",
-            "pv": "5.35",
+            "pv": "5.49",
             "section": "net",
             "summary": "Program for providing universal TLS/SSL tunneling service",
-            "updated": "2018-06-19T21:06:18+0000"
+            "updated": "2018-09-18T21:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2305,7 +2305,7 @@
             "pv": "3.2.6",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-09-12T02:09:50+0000"
+            "updated": "2018-09-18T21:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2514,7 +2514,7 @@
             "pv": "2.1.27",
             "section": "libs",
             "summary": "Generic client/server library for SASL authentication",
-            "updated": "2018-09-13T03:09:47+0000"
+            "updated": "2018-09-18T21:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3407,7 +3407,7 @@
             "pv": "0.14.1+gitX",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2018-09-13T03:09:48+0000"
+            "updated": "2018-09-18T21:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3541,6 +3541,25 @@
             "section": "libs",
             "summary": "",
             "updated": "2018-09-04T01:09:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This daemon is similar to NetworkManager-dispatcher, but is much more limited in the types of events it supports due to the limited nature of systemd-networkd(8).",
+            "filename": "networkd-dispatcher.bb",
+            "filepath": "recipes-daemons/networkd-dispatcher",
+            "homepage": "",
+            "id": 722184,
+            "inherits": "",
+            "layerbranch": 14964,
+            "license": "GPLv3",
+            "pn": "networkd-dispatcher",
+            "provides": "networkd-dispatcher ",
+            "pv": "1.7+gitX",
+            "section": "base",
+            "summary": "Dispatcher service for systemd-networkd connection status changes",
+            "updated": "2018-09-18T21:09:11+0000"
         }
     ],
     "wrtemplates": []

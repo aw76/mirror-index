@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-16T20:09:27+0000",
-            "vcs_last_commit": "2018-09-16T20:09:27+0000",
-            "vcs_last_fetch": "2018-09-16T20:09:27+0000",
-            "vcs_last_rev": "45fd94213b05621466ede090ebe223e46a732165",
+            "updated": "2018-09-19T04:09:23+0000",
+            "vcs_last_commit": "2018-09-19T04:09:23+0000",
+            "vcs_last_fetch": "2018-09-19T04:09:23+0000",
+            "vcs_last_rev": "f006af35bfb5a4cba4cb8c917b9e5b927a65b774",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-12T22:09:30+0000",
-            "vcs_last_commit": "2018-09-12T22:09:30+0000",
-            "vcs_last_fetch": "2018-09-12T22:09:30+0000",
-            "vcs_last_rev": "f0da779d570eb7621671126d893a00fecd76b30f",
+            "updated": "2018-09-17T22:09:37+0000",
+            "vcs_last_commit": "2018-09-17T22:09:37+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:37+0000",
+            "vcs_last_rev": "986b2b7dddadedaabf9d6a437f1efdf1f44b3aba",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -3179,7 +3179,7 @@
             "pv": "3.4.3+gitX",
             "section": "libs",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2018-09-12T02:09:21+0000"
+            "updated": "2018-09-18T21:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -4558,7 +4558,7 @@
             "filepath": "recipes-support/fbset",
             "homepage": "http://users.telenet.be/geertu/Linux/fbdev/",
             "id": 269132,
-            "inherits": "allarch",
+            "inherits": "",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "fbset-modes",
@@ -4566,7 +4566,7 @@
             "pv": "0.1.0",
             "section": "base",
             "summary": "Default display timings and resolutions for fbset",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2018-09-18T21:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -4946,7 +4946,7 @@
             "pv": "2.2.5",
             "section": "libs",
             "summary": "gd is a library used to create PNG, JPEG, or WBMP images",
-            "updated": "2018-06-19T20:06:29+0000"
+            "updated": "2018-09-18T21:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -5003,7 +5003,7 @@
             "pv": "1.17.25",
             "section": "base",
             "summary": "Debian's start-stop-daemon utility extracted from the dpkg package",
-            "updated": "2017-09-26T04:09:20+0000"
+            "updated": "2018-09-18T21:09:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -6048,7 +6048,7 @@
             "pv": "2.02.180",
             "section": "utils",
             "summary": "",
-            "updated": "2018-08-15T02:08:51+0000"
+            "updated": "2018-09-18T21:09:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6257,7 +6257,7 @@
             "pv": "1.6.1",
             "section": "console/utils",
             "summary": "Command line XML toolkit",
-            "updated": "2017-09-26T04:09:29+0000"
+            "updated": "2018-09-18T21:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -8917,7 +8917,7 @@
             "pv": "0.5.9+gitX",
             "section": "utils",
             "summary": "Drivers for character-based LCD displays",
-            "updated": "2018-06-19T20:06:27+0000"
+            "updated": "2018-09-18T21:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -11273,7 +11273,7 @@
             "pv": "1.4.0",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2018-09-04T01:09:51+0000"
+            "updated": "2018-09-18T21:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12097,7 +12097,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cpprest_2.10.5.bb",
+            "filename": "cpprest_2.10.6.bb",
             "filepath": "recipes-support/cpprest",
             "homepage": "https://github.com/Microsoft/cpprestsdk/",
             "id": 625470,
@@ -12106,10 +12106,10 @@
             "license": "MIT",
             "pn": "cpprest",
             "provides": "cpprest ",
-            "pv": "2.10.5",
+            "pv": "2.10.6",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-08-21T20:08:24+0000"
+            "updated": "2018-09-18T21:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12489,7 +12489,7 @@
             "pv": "1.1.7",
             "section": "base",
             "summary": "A compression/decompression library",
-            "updated": "2018-09-12T22:09:29+0000"
+            "updated": "2018-09-18T21:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12508,7 +12508,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel selftest for Linux",
-            "updated": "2018-09-04T01:09:51+0000"
+            "updated": "2018-09-18T21:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -12623,6 +12623,25 @@
             "section": "utils",
             "summary": "A shared storage lock manager",
             "updated": "2018-09-12T02:09:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Persistent Memory Development Kit",
+            "filename": "pmdk_1.4.2.bb",
+            "filepath": "recipes-extended/pmdk",
+            "homepage": "http://pmem.io",
+            "id": 722180,
+            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "BSD",
+            "pn": "pmdk",
+            "provides": "pmdk ",
+            "pv": "1.4.2",
+            "section": "libs",
+            "summary": "Persistent Memory Development Kit",
+            "updated": "2018-09-18T21:09:41+0000"
         }
     ],
     "wrtemplates": []

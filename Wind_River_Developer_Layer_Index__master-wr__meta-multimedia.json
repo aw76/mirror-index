@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-16T20:09:27+0000",
-            "vcs_last_commit": "2018-09-16T20:09:27+0000",
-            "vcs_last_fetch": "2018-09-16T20:09:27+0000",
-            "vcs_last_rev": "45fd94213b05621466ede090ebe223e46a732165",
+            "updated": "2018-09-19T04:09:23+0000",
+            "vcs_last_commit": "2018-09-19T04:09:23+0000",
+            "vcs_last_fetch": "2018-09-19T04:09:23+0000",
+            "vcs_last_rev": "f006af35bfb5a4cba4cb8c917b9e5b927a65b774",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180912",
+            "actual_branch": "wr-10.18-20180918",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2018-09-11T20:09:28+0000",
-            "vcs_last_commit": "2018-09-11T20:09:28+0000",
-            "vcs_last_fetch": "2018-09-11T20:09:28+0000",
-            "vcs_last_rev": "aed78d30a38b02d425e0059579b8b7e787e3308d",
+            "updated": "2018-09-17T22:09:36+0000",
+            "vcs_last_commit": "2018-09-17T22:09:36+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
+            "vcs_last_rev": "1f0bb0026d1edc8b5957cce67485ae16ab01f3d8",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": null
@@ -1423,7 +1423,7 @@
             "filepath": "recipes-multimedia/gstreamer-1.0",
             "homepage": "https://developer.ridgerun.com/wiki/index.php?title=Gstd-1.0",
             "id": 520977,
-            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "inherits": "autotools gettext gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 14963,
             "license": "GPLv2+",
             "pn": "gstd",
@@ -1431,7 +1431,7 @@
             "pv": "1.0",
             "section": "multimedia",
             "summary": "GStreamer framework for controlling audio and video streaming using TCP connection messages",
-            "updated": "2018-03-06T21:03:00+0000"
+            "updated": "2018-09-18T21:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1546,6 +1546,25 @@
             "section": "libs",
             "summary": "C and C++ cross-platform library for decoding tracked music files (modules)",
             "updated": "2018-08-01T01:08:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients.",
+            "filename": "minidlna_1.2.1.bb",
+            "filepath": "recipes-multimedia/minidlna",
+            "homepage": "",
+            "id": 722181,
+            "inherits": "autotools autotools-brokensep gettext siteconfig siteinfo systemd update-rc.d",
+            "layerbranch": 14963,
+            "license": "GPL-2.0|BSD",
+            "pn": "minidlna",
+            "provides": "minidlna ",
+            "pv": "1.2.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-09-18T21:09:52+0000"
         }
     ],
     "wrtemplates": []
