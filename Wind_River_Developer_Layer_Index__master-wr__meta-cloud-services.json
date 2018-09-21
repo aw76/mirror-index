@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180918",
+            "actual_branch": "wr-10.18-20180921",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-19T04:09:23+0000",
-            "vcs_last_commit": "2018-09-19T04:09:23+0000",
-            "vcs_last_fetch": "2018-09-19T04:09:23+0000",
-            "vcs_last_rev": "f006af35bfb5a4cba4cb8c917b9e5b927a65b774",
+            "updated": "2018-09-21T02:09:46+0000",
+            "vcs_last_commit": "2018-09-21T02:09:46+0000",
+            "vcs_last_fetch": "2018-09-21T02:09:46+0000",
+            "vcs_last_rev": "4e481dc2ae6c5f6ad330f4f6ee007dd098c27359",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180918",
+            "actual_branch": "wr-10.18-20180921",
             "branch": 38,
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2018-09-17T22:09:35+0000",
-            "vcs_last_commit": "2018-09-17T22:09:35+0000",
-            "vcs_last_fetch": "2018-09-17T22:09:35+0000",
-            "vcs_last_rev": "f12204200786f91d1ad1691244facd865782a94d",
+            "updated": "2018-09-20T20:09:02+0000",
+            "vcs_last_commit": "2018-09-20T20:09:02+0000",
+            "vcs_last_fetch": "2018-09-20T20:09:02+0000",
+            "vcs_last_rev": "7ef83c9ea8da8e7038026bdcf96b9b52848759b8",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
@@ -310,7 +310,7 @@
             "pv": "3.11.1",
             "section": "console/network",
             "summary": "Glusterfs distributed filesystem",
-            "updated": "2018-05-27T21:05:05+0000"
+            "updated": "2018-09-21T10:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -431,7 +431,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python-PostgreSQL Database Adapter",
-            "filename": "python-psycopg2_2.7.4.bb",
+            "filename": "python-psycopg2_2.7.5.bb",
             "filepath": "meta-openstack/recipes-devtools/python",
             "homepage": "http://initd.org/psycopg/",
             "id": 557619,
@@ -440,10 +440,10 @@
             "license": "GPLv3+",
             "pn": "python-psycopg2",
             "provides": "python-psycopg2 ",
-            "pv": "2.7.4",
+            "pv": "2.7.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-04-03T22:04:53+0000"
+            "updated": "2018-09-21T10:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -488,7 +488,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-stevedore_1.28.0.bb",
+            "filename": "python-stevedore_1.29.0.bb",
             "filepath": "meta-openstack/recipes-devtools/python",
             "homepage": "",
             "id": 557622,
@@ -500,7 +500,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-04-03T22:04:53+0000"
+            "updated": "2018-09-21T10:09:01+0000"
         },
         {
             "bbclassextend": "",

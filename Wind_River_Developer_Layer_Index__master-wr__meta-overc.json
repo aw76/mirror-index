@@ -29,29 +29,29 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180918",
+            "actual_branch": "wr-10.18-20180921",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-19T04:09:23+0000",
-            "vcs_last_commit": "2018-09-19T04:09:23+0000",
-            "vcs_last_fetch": "2018-09-19T04:09:23+0000",
-            "vcs_last_rev": "f006af35bfb5a4cba4cb8c917b9e5b927a65b774",
+            "updated": "2018-09-21T02:09:46+0000",
+            "vcs_last_commit": "2018-09-21T02:09:46+0000",
+            "vcs_last_fetch": "2018-09-21T02:09:46+0000",
+            "vcs_last_rev": "4e481dc2ae6c5f6ad330f4f6ee007dd098c27359",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180914",
+            "actual_branch": "wr-10.18-20180920",
             "branch": 38,
             "collection": "overc",
             "id": 833856,
             "layer": 245,
-            "updated": "2018-09-14T13:09:05+0000",
-            "vcs_last_commit": "2018-09-14T13:09:05+0000",
-            "vcs_last_fetch": "2018-09-14T13:09:05+0000",
-            "vcs_last_rev": "22b0502d18f128a3f5760d4125dc8732d9693cd0",
+            "updated": "2018-09-21T08:09:05+0000",
+            "vcs_last_commit": "2018-09-21T08:09:05+0000",
+            "vcs_last_fetch": "2018-09-21T08:09:05+0000",
+            "vcs_last_rev": "5acc884f4bdf3494165ce0b6de1fa01fbc4ec04e",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -63,6 +63,12 @@
             "id": 40751,
             "layerbranch": 833856,
             "required": true
+        },
+        {
+            "dependency": 252,
+            "id": 42269,
+            "layerbranch": 833856,
+            "required": false
         }
     ],
     "layerItems": [
