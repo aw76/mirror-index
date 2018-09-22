@@ -43,16 +43,44 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180920",
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "xfce-layer",
+            "id": 14983,
+            "layer": 5,
+            "updated": "2018-09-17T22:09:37+0000",
+            "vcs_last_commit": "2018-09-17T22:09:37+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:37+0000",
+            "vcs_last_rev": "c180d5a8883449f0d814559c332f4d3ccbdfd88e",
+            "vcs_subdir": "meta-xfce",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180921",
             "branch": 38,
             "collection": "overc",
             "id": 833856,
             "layer": 245,
-            "updated": "2018-09-21T08:09:05+0000",
-            "vcs_last_commit": "2018-09-21T08:09:05+0000",
-            "vcs_last_fetch": "2018-09-21T08:09:05+0000",
-            "vcs_last_rev": "5acc884f4bdf3494165ce0b6de1fa01fbc4ec04e",
+            "updated": "2018-09-21T15:09:48+0000",
+            "vcs_last_commit": "2018-09-21T15:09:48+0000",
+            "vcs_last_fetch": "2018-09-21T15:09:48+0000",
+            "vcs_last_rev": "e32062abba2741c2e1f36b0c2c5fcc98e5efb3e5",
             "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180921",
+            "branch": 38,
+            "collection": "cube",
+            "id": 835461,
+            "layer": 246,
+            "updated": "2018-09-21T15:09:48+0000",
+            "vcs_last_commit": "2018-09-21T15:09:48+0000",
+            "vcs_last_fetch": "2018-09-21T15:09:48+0000",
+            "vcs_last_rev": "e32062abba2741c2e1f36b0c2c5fcc98e5efb3e5",
+            "vcs_subdir": "meta-cube",
             "version": "1",
             "yp_compatible_version": null
         }
@@ -69,6 +97,18 @@
             "id": 42269,
             "layerbranch": 833856,
             "required": false
+        },
+        {
+            "dependency": 246,
+            "id": 42288,
+            "layerbranch": 833856,
+            "required": true
+        },
+        {
+            "dependency": 5,
+            "id": 42289,
+            "layerbranch": 833856,
+            "required": true
         }
     ],
     "layerItems": [
@@ -92,6 +132,24 @@
         },
         {
             "classic": false,
+            "description": "The XFCE Desktop software and related components.",
+            "id": 5,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-xfce",
+            "status": "P",
+            "summary": "XFCE Desktop components",
+            "updated": "2018-05-30T17:05:38+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
             "description": "OverC distribution layer",
             "id": 245,
             "index_preference": 0,
@@ -101,6 +159,24 @@
             "status": "P",
             "summary": "OverC - Container environment",
             "updated": "2018-08-06T18:08:16+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Recipe changes for OverC related cubes (containers)",
+            "id": 246,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-cube",
+            "status": "P",
+            "summary": "Recipe changes for OverC related cubes (containers)",
+            "updated": "2018-08-06T18:08:24+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-overc",
             "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",

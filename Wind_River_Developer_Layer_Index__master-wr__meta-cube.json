@@ -21,6 +21,20 @@
     "distros": [],
     "layerBranches": [
         {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "virtualization-layer",
+            "id": 14952,
+            "layer": 45,
+            "updated": "2018-09-17T22:09:35+0000",
+            "vcs_last_commit": "2018-09-17T22:09:35+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:35+0000",
+            "vcs_last_rev": "f2b908d95274ede2e7061c78e0d1bc2361cc3df9",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
             "actual_branch": "wr-10.18-20180921",
             "branch": 38,
             "collection": "core",
@@ -35,15 +49,141 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180910",
+            "actual_branch": "wr-10.18-20180921",
+            "branch": 38,
+            "collection": "security",
+            "id": 14954,
+            "layer": 18,
+            "updated": "2018-09-20T20:09:01+0000",
+            "vcs_last_commit": "2018-09-20T20:09:01+0000",
+            "vcs_last_fetch": "2018-09-20T20:09:01+0000",
+            "vcs_last_rev": "ddd95774994b48d50146fe21eea1f5d63b36b300",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "filesystems-layer",
+            "id": 14959,
+            "layer": 8,
+            "updated": "2018-09-17T22:09:36+0000",
+            "vcs_last_commit": "2018-09-17T22:09:36+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
+            "vcs_last_rev": "95b771ba00b4da154725f9ca4c531a373850bef8",
+            "vcs_subdir": "meta-filesystems",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "gnome-layer",
+            "id": 14960,
+            "layer": 15,
+            "updated": "2018-09-17T22:09:36+0000",
+            "vcs_last_commit": "2018-09-17T22:09:36+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
+            "vcs_last_rev": "95b771ba00b4da154725f9ca4c531a373850bef8",
+            "vcs_subdir": "meta-gnome",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "multimedia-layer",
+            "id": 14963,
+            "layer": 16,
+            "updated": "2018-09-17T22:09:36+0000",
+            "vcs_last_commit": "2018-09-17T22:09:36+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
+            "vcs_last_rev": "1f0bb0026d1edc8b5957cce67485ae16ab01f3d8",
+            "vcs_subdir": "meta-multimedia",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "networking-layer",
+            "id": 14964,
+            "layer": 11,
+            "updated": "2018-09-17T22:09:37+0000",
+            "vcs_last_commit": "2018-09-17T22:09:37+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:37+0000",
+            "vcs_last_rev": "dd0eada3155e4076ef884f1c7d9bc264a3e4501c",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "openembedded-layer",
+            "id": 14965,
+            "layer": 7,
+            "updated": "2018-09-17T22:09:37+0000",
+            "vcs_last_commit": "2018-09-17T22:09:37+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:37+0000",
+            "vcs_last_rev": "986b2b7dddadedaabf9d6a437f1efdf1f44b3aba",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "perl-layer",
+            "id": 14966,
+            "layer": 13,
+            "updated": "2018-09-17T22:09:36+0000",
+            "vcs_last_commit": "2018-09-17T22:09:36+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
+            "vcs_last_rev": "95b771ba00b4da154725f9ca4c531a373850bef8",
+            "vcs_subdir": "meta-perl",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "meta-python",
+            "id": 14967,
+            "layer": 12,
+            "updated": "2018-09-17T22:09:36+0000",
+            "vcs_last_commit": "2018-09-17T22:09:36+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
+            "vcs_last_rev": "95b771ba00b4da154725f9ca4c531a373850bef8",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180918",
+            "branch": 38,
+            "collection": "xfce-layer",
+            "id": 14983,
+            "layer": 5,
+            "updated": "2018-09-17T22:09:37+0000",
+            "vcs_last_commit": "2018-09-17T22:09:37+0000",
+            "vcs_last_fetch": "2018-09-17T22:09:37+0000",
+            "vcs_last_rev": "c180d5a8883449f0d814559c332f4d3ccbdfd88e",
+            "vcs_subdir": "meta-xfce",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20180921",
             "branch": 38,
             "collection": "cube",
             "id": 835461,
             "layer": 246,
-            "updated": "2018-09-09T21:09:55+0000",
-            "vcs_last_commit": "2018-09-09T21:09:55+0000",
-            "vcs_last_fetch": "2018-09-09T21:09:55+0000",
-            "vcs_last_rev": "9b8e783736cf61f81d1889e069c9c70e30868766",
+            "updated": "2018-09-21T15:09:48+0000",
+            "vcs_last_commit": "2018-09-21T15:09:48+0000",
+            "vcs_last_fetch": "2018-09-21T15:09:48+0000",
+            "vcs_last_rev": "e32062abba2741c2e1f36b0c2c5fcc98e5efb3e5",
             "vcs_subdir": "meta-cube",
             "version": "1",
             "yp_compatible_version": null
@@ -53,6 +193,66 @@
         {
             "dependency": 1,
             "id": 41753,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 8,
+            "id": 42278,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 15,
+            "id": 42279,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 42280,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 16,
+            "id": 42281,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 42282,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 42283,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 13,
+            "id": 42284,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 18,
+            "id": 42285,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 45,
+            "id": 42286,
+            "layerbranch": 835461,
+            "required": true
+        },
+        {
+            "dependency": 5,
+            "id": 42287,
             "layerbranch": 835461,
             "required": true
         }
@@ -71,6 +271,186 @@
             "updated": "2018-05-30T18:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "The XFCE Desktop software and related components.",
+            "id": 5,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-xfce",
+            "status": "P",
+            "summary": "XFCE Desktop components",
+            "updated": "2018-05-30T17:05:38+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T17:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Filesystem related libraries and programs.  Includes support for FUSE and related components.",
+            "id": 8,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-filesystems",
+            "status": "P",
+            "summary": "Filesystem related libraries and programs",
+            "updated": "2018-05-30T17:05:59+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T17:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T17:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "PERL language and related items",
+            "id": 13,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-perl",
+            "status": "P",
+            "summary": "PERL language and related items",
+            "updated": "2018-05-30T17:05:45+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "GNOME desktop environment components",
+            "id": 15,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-gnome",
+            "status": "P",
+            "summary": "GNOME desktop environment components",
+            "updated": "2018-05-30T17:05:08+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Multimedia related components such as gstreamer, alsa, dvb, etc.",
+            "id": 16,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-multimedia",
+            "status": "P",
+            "summary": "Multimedia related components",
+            "updated": "2018-05-30T17:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides security tools, hardening tools for Linux kernels\r\nand libraries for implementing security mechanisms.",
+            "id": 18,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-security",
+            "status": "P",
+            "summary": "Security tools and libraries",
+            "updated": "2018-05-30T17:05:37+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-security",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides lxc package build for Wind River Linux.  It\r\nis required by most other layers that Wind River provides.",
+            "id": 45,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-virtualization",
+            "status": "P",
+            "summary": "Virtualization related components",
+            "updated": "2018-05-30T17:05:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-virtualization",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -244,10 +624,10 @@
             "license": "Apache-2.0",
             "pn": "etcd",
             "provides": "etcd ",
-            "pv": "3.1+gitX",
+            "pv": "3.3.9+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-29T11:08:51+0000"
+            "updated": "2018-09-21T11:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -399,7 +779,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "cube-vrf / minimal initialization service",
-            "updated": "2018-08-29T11:08:53+0000"
+            "updated": "2018-09-21T11:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -418,7 +798,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "OverC installer script",
-            "updated": "2018-08-29T11:08:53+0000"
+            "updated": "2018-09-21T11:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -577,7 +957,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Mutt is a small but very powerful text-based MIME mail client. It is highly configurable, and is well-suited to the mail power user with advanced features like key bindings, keyboard macros, mail threading, regular expression searches, and a powerful pattern matching language for selecting groups of messages.",
-            "filename": "mutt_1.5.24.bb",
+            "filename": "mutt_1.10.1.bb",
             "filepath": "recipes-extended/mutt",
             "homepage": "",
             "id": 715875,
@@ -586,10 +966,10 @@
             "license": "GPLv2",
             "pn": "mutt",
             "provides": "mutt ",
-            "pv": "1.5.24",
+            "pv": "1.10.1",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-08-29T11:08:54+0000"
+            "updated": "2018-09-21T11:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1850,38 +2230,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cgmanager_0.37.bb",
-            "filepath": "recipes-core/cgmanager",
-            "homepage": "https://linuxcontainers.org/cgmanager/",
-            "id": 715942,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
-            "layerbranch": 835461,
-            "license": "LGPLv2.1",
-            "pn": "cgmanager",
-            "provides": "cgmanager ",
-            "pv": "0.37",
-            "section": "base",
-            "summary": "CGManager is a central privileged daemon that manages cgroups through a simple D-Bus API.",
-            "updated": "2018-08-29T11:08:01+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "lxcfs_0.9.bb",
+            "filename": "lxcfs_3.0.1.bb",
             "filepath": "recipes-core/lxcfs",
             "homepage": "",
             "id": 715943,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 835461,
             "license": "Apache-2.0",
             "pn": "lxcfs",
             "provides": "lxcfs ",
-            "pv": "0.9",
+            "pv": "3.0.1",
             "section": "base",
             "summary": "LXCFS is a userspace filesystem created to avoid kernel limitations",
-            "updated": "2018-08-29T11:08:01+0000"
+            "updated": "2018-09-21T11:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1903,25 +2264,6 @@
             "updated": "2018-08-29T11:08:02+0000"
         },
         {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "libnih is a small library for C application development     containing functions that, despite its name, are not implemented     elsewhere in the standard library set.         libnih is roughly equivalent to other C libraries such as glib,     except that its focus is on a small size and intended for     applications that sit very low in the software stack, especially     outside of /usr.         It expressly does not reimplement functions that already exist in     libraries ordinarily shipped in /lib such libc6, and does not do     foolish things like invent arbitrary typedefs for perfectly good C types.",
-            "filename": "libnih_1.0.3.bb",
-            "filepath": "recipes-core/libnih",
-            "homepage": "",
-            "id": 715945,
-            "inherits": "autotools gettext siteconfig siteinfo",
-            "layerbranch": 835461,
-            "license": "GPL-2.0",
-            "pn": "libnih",
-            "provides": "libnih ",
-            "pv": "1.0.3",
-            "section": "libs",
-            "summary": "libnih library",
-            "updated": "2018-08-29T11:08:02+0000"
-        },
-        {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
@@ -1938,7 +2280,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "A container image for domain E which is used as a graphical interface for users",
-            "updated": "2018-09-10T02:09:21+0000"
+            "updated": "2018-09-21T11:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1995,7 +2337,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "System Virtual Routing & Forwarding (VRF) container",
-            "updated": "2018-08-29T11:08:03+0000"
+            "updated": "2018-09-21T11:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2014,7 +2356,7 @@
             "pv": "0.3",
             "section": "base",
             "summary": "A minimal native host image for OverC",
-            "updated": "2018-08-29T11:08:03+0000"
+            "updated": "2018-09-21T15:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2185,7 +2527,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Domain 0 facilities for OverC",
-            "updated": "2018-09-10T02:09:21+0000"
+            "updated": "2018-09-21T11:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2280,7 +2622,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Native host packages for OverC",
-            "updated": "2018-09-10T02:09:20+0000"
+            "updated": "2018-09-21T11:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2375,25 +2717,6 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Service to allow randomizing the MAC address of an interface",
-            "updated": "2018-08-29T11:08:06+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "High level tools to configure network interfaces This package provides the tools ifup and ifdown which may be used to configure (or, respectively, deconfigure) network interfaces, based on the file /etc/network/interfaces.",
-            "filename": "ifupdown_0.7.48.1.bb",
-            "filepath": "recipes-core/ifupdown",
-            "homepage": "",
-            "id": 715970,
-            "inherits": "systemd update-alternatives update-rc.d",
-            "layerbranch": 835461,
-            "license": "GPLv2",
-            "pn": "ifupdown",
-            "provides": "ifupdown ",
-            "pv": "0.7.48.1",
-            "section": "base",
-            "summary": "ifupdown: basic ifup and ifdown used by initscripts",
             "updated": "2018-08-29T11:08:06+0000"
         }
     ],
