@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180912",
+            "bitbake_branch": "wr-10.18-20180925",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-12T02:09:02+0000",
+            "updated": "2018-09-25T02:09:44+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180921",
+            "actual_branch": "wr-10.18-20180925",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-21T02:09:46+0000",
-            "vcs_last_commit": "2018-09-21T02:09:46+0000",
-            "vcs_last_fetch": "2018-09-21T02:09:46+0000",
-            "vcs_last_rev": "4e481dc2ae6c5f6ad330f4f6ee007dd098c27359",
+            "updated": "2018-09-25T02:09:27+0000",
+            "vcs_last_commit": "2018-09-25T02:09:27+0000",
+            "vcs_last_fetch": "2018-09-25T02:09:27+0000",
+            "vcs_last_rev": "c05da1ced4758548a2c4025169e31babd0be85ce",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180910",
+            "actual_branch": "wr-10.18-20180925",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-09-09T20:09:58+0000",
-            "vcs_last_commit": "2018-09-09T20:09:58+0000",
-            "vcs_last_fetch": "2018-09-09T20:09:58+0000",
-            "vcs_last_rev": "49ad72933a3c3afd8acdc64839440e00260ee9ce",
+            "updated": "2018-09-24T21:09:46+0000",
+            "vcs_last_commit": "2018-09-24T21:09:46+0000",
+            "vcs_last_fetch": "2018-09-24T21:09:46+0000",
+            "vcs_last_rev": "f8f388f5e419b775af4a296cb3bcec20a64f004b",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": null
@@ -123,19 +123,19 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Variety of small tools for testing intel graphics.",
-            "filename": "intel-gpu-tools_1.22.bb",
+            "filename": "igt-gpu-tools_1.23.bb",
             "filepath": "recipes-graphics/intel-gpu-tools",
             "homepage": "http://www.x.org/",
             "id": 346913,
             "inherits": "autotools distro_features_check gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 84751,
             "license": "MIT-X & ISC",
-            "pn": "intel-gpu-tools",
-            "provides": "intel-gpu-tools ",
-            "pv": "1.22",
+            "pn": "igt-gpu-tools",
+            "provides": "igt-gpu-tools ",
+            "pv": "1.23",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2018-08-06T04:08:07+0000"
+            "updated": "2018-09-25T02:09:02+0000"
         },
         {
             "bbclassextend": "",
@@ -246,10 +246,10 @@
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.9.116+gitX",
+            "pv": "4.9.126+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-10T02:09:02+0000"
+            "updated": "2018-09-25T02:09:02+0000"
         },
         {
             "bbclassextend": "",
@@ -531,10 +531,10 @@
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.14.66+gitX",
+            "pv": "4.14.68+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-10T02:09:01+0000"
+            "updated": "2018-09-25T02:09:02+0000"
         },
         {
             "bbclassextend": "",
@@ -550,10 +550,10 @@
             "license": "GPLv2",
             "pn": "linux-intel-rt",
             "provides": "linux-intel-rt  virtual/kernel",
-            "pv": "4.14.59+gitX",
+            "pv": "4.14.68+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-09-10T02:09:01+0000"
+            "updated": "2018-09-25T02:09:02+0000"
         }
     ],
     "wrtemplates": []

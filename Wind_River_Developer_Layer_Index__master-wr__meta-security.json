@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180912",
+            "bitbake_branch": "wr-10.18-20180925",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-12T02:09:02+0000",
+            "updated": "2018-09-25T02:09:44+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180921",
+            "actual_branch": "wr-10.18-20180925",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-21T02:09:46+0000",
-            "vcs_last_commit": "2018-09-21T02:09:46+0000",
-            "vcs_last_fetch": "2018-09-21T02:09:46+0000",
-            "vcs_last_rev": "4e481dc2ae6c5f6ad330f4f6ee007dd098c27359",
+            "updated": "2018-09-25T02:09:27+0000",
+            "vcs_last_commit": "2018-09-25T02:09:27+0000",
+            "vcs_last_fetch": "2018-09-25T02:09:27+0000",
+            "vcs_last_rev": "c05da1ced4758548a2c4025169e31babd0be85ce",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180921",
+            "actual_branch": "wr-10.18-20180925",
             "branch": 38,
             "collection": "security",
             "id": 14954,
             "layer": 18,
-            "updated": "2018-09-20T20:09:01+0000",
-            "vcs_last_commit": "2018-09-20T20:09:01+0000",
-            "vcs_last_fetch": "2018-09-20T20:09:01+0000",
-            "vcs_last_rev": "ddd95774994b48d50146fe21eea1f5d63b36b300",
+            "updated": "2018-09-24T21:09:17+0000",
+            "vcs_last_commit": "2018-09-24T21:09:17+0000",
+            "vcs_last_fetch": "2018-09-24T21:09:17+0000",
+            "vcs_last_rev": "887cd6e145715224abaf6ef5c29e1d9b3a78410a",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
@@ -716,7 +716,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Provides file integrity checking and log file monitoring/analysis",
-            "filename": "samhain-server_4.2.4.bb",
+            "filename": "samhain-server_4.3.0.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
             "id": 270453,
@@ -725,17 +725,17 @@
             "license": "GPLv2",
             "pn": "samhain-server",
             "provides": "samhain-server ",
-            "pv": "4.2.4",
+            "pv": "4.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-03T02:09:29+0000"
+            "updated": "2018-09-25T02:09:52+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Provides file integrity checking and log file monitoring/analysis",
-            "filename": "samhain-client_4.2.4.bb",
+            "filename": "samhain-client_4.3.0.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
             "id": 270454,
@@ -744,10 +744,10 @@
             "license": "GPLv2",
             "pn": "samhain-client",
             "provides": "samhain-client ",
-            "pv": "4.2.4",
+            "pv": "4.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-03T02:09:29+0000"
+            "updated": "2018-09-25T02:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -906,7 +906,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Provides file integrity checking and log file monitoring/analysis",
-            "filename": "samhain-standalone_4.2.4.bb",
+            "filename": "samhain-standalone_4.3.0.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
             "id": 343204,
@@ -915,10 +915,10 @@
             "license": "GPLv2",
             "pn": "samhain-standalone",
             "provides": "samhain-standalone  samhain",
-            "pv": "4.2.4",
+            "pv": "4.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-03T02:09:29+0000"
+            "updated": "2018-09-25T02:09:52+0000"
         },
         {
             "bbclassextend": "",

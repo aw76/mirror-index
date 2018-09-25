@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180912",
+            "bitbake_branch": "wr-10.18-20180925",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-12T02:09:02+0000",
+            "updated": "2018-09-25T02:09:44+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180918",
+            "actual_branch": "wr-10.18-20180925",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-09-17T22:09:35+0000",
-            "vcs_last_commit": "2018-09-17T22:09:35+0000",
-            "vcs_last_fetch": "2018-09-17T22:09:35+0000",
-            "vcs_last_rev": "f2b908d95274ede2e7061c78e0d1bc2361cc3df9",
+            "updated": "2018-09-24T21:09:32+0000",
+            "vcs_last_commit": "2018-09-24T21:09:32+0000",
+            "vcs_last_fetch": "2018-09-24T21:09:32+0000",
+            "vcs_last_rev": "88f17984a953476e0d627c53e70382a4a9311ec8",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180921",
+            "actual_branch": "wr-10.18-20180925",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-21T02:09:46+0000",
-            "vcs_last_commit": "2018-09-21T02:09:46+0000",
-            "vcs_last_fetch": "2018-09-21T02:09:46+0000",
-            "vcs_last_rev": "4e481dc2ae6c5f6ad330f4f6ee007dd098c27359",
+            "updated": "2018-09-25T02:09:27+0000",
+            "vcs_last_commit": "2018-09-25T02:09:27+0000",
+            "vcs_last_fetch": "2018-09-25T02:09:27+0000",
+            "vcs_last_rev": "c05da1ced4758548a2c4025169e31babd0be85ce",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -773,7 +773,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "SeaBIOS",
-            "filename": "seabios_1.9.1.bb",
+            "filename": "seabios_1.11.2.bb",
             "filepath": "recipes-extended/seabios",
             "homepage": "http://www.coreboot.org/SeaBIOS",
             "id": 270535,
@@ -782,10 +782,10 @@
             "license": "LGPLv3",
             "pn": "seabios",
             "provides": "seabios ",
-            "pv": "1.9.1",
+            "pv": "1.11.2",
             "section": "firmware",
             "summary": "",
-            "updated": "2018-08-20T02:08:48+0000"
+            "updated": "2018-09-25T02:09:05+0000"
         },
         {
             "bbclassextend": "",
