@@ -40,10 +40,10 @@
             "collection": "tpm",
             "id": 57004,
             "layer": 151,
-            "updated": "2018-09-24T21:09:14+0000",
-            "vcs_last_commit": "2018-09-24T21:09:14+0000",
-            "vcs_last_fetch": "2018-09-24T21:09:14+0000",
-            "vcs_last_rev": "890f5658b04ac73f9095dea7c047e2513bcbf6f5",
+            "updated": "2018-09-26T04:09:34+0000",
+            "vcs_last_commit": "2018-09-26T04:09:34+0000",
+            "vcs_last_fetch": "2018-09-26T04:09:34+0000",
+            "vcs_last_rev": "5d600f6406441f5447b20d7fca8fafc33ce32229",
             "vcs_subdir": "meta-tpm",
             "version": null,
             "yp_compatible_version": null
@@ -139,7 +139,7 @@
             "pv": "0.3.14+gitX",
             "section": "security/tpm",
             "summary": "TrouSerS - An open-source TCG Software Stack implementation.",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2018-09-26T04:09:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -158,7 +158,7 @@
             "pv": "1.3.9.1+gitX",
             "section": "security/tpm",
             "summary": "The tpm-tools package contains commands to allow the platform administrator the ability to manage and diagnose the platform's TPM.",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2018-09-26T04:09:35+0000"
         },
         {
             "bbclassextend": "",
@@ -222,19 +222,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenSSL secure engine based on TPM hardware",
-            "filename": "openssl-tpm-engine_git.bb",
+            "filename": "openssl-tpm-engine_0.5.0.bb",
             "filepath": "recipes-tpm/openssl-tpm-engine",
-            "homepage": "http://www.openssl.org/",
+            "homepage": "https://github.com/mgerstner/openssl_tpm_engine",
             "id": 343532,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 57004,
             "license": "openssl",
             "pn": "openssl-tpm-engine",
             "provides": "openssl-tpm-engine ",
-            "pv": "0.4.2+gitX",
+            "pv": "0.5.0",
             "section": "security/tpm",
             "summary": "",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2018-09-26T04:09:35+0000"
         }
     ],
     "wrtemplates": []
