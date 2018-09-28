@@ -8,56 +8,56 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180925",
+            "bitbake_branch": "wr-10.18-20180927",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-25T02:09:44+0000",
+            "updated": "2018-09-27T21:09:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180925",
+            "actual_branch": "wr-10.18-20180927",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-25T02:09:27+0000",
-            "vcs_last_commit": "2018-09-25T02:09:27+0000",
-            "vcs_last_fetch": "2018-09-25T02:09:27+0000",
-            "vcs_last_rev": "c05da1ced4758548a2c4025169e31babd0be85ce",
+            "updated": "2018-09-28T01:09:18+0000",
+            "vcs_last_commit": "2018-09-28T01:09:18+0000",
+            "vcs_last_fetch": "2018-09-28T01:09:18+0000",
+            "vcs_last_rev": "7056a85256ad11e4dba56ad3a443848328bf7c19",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180918",
+            "actual_branch": "wr-10.18-20180927",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-27T02:09:55+0000",
-            "vcs_last_commit": "2018-09-27T02:09:55+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:55+0000",
-            "vcs_last_rev": "9a441efc2ebbbcc5951f5a24974d1baf70684b3a",
+            "updated": "2018-09-28T02:09:06+0000",
+            "vcs_last_commit": "2018-09-28T02:09:06+0000",
+            "vcs_last_fetch": "2018-09-28T02:09:06+0000",
+            "vcs_last_rev": "ed5bd99499cd44adf52af610cc15f833e96ee9f7",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180918",
+            "actual_branch": "wr-10.18-20180927",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-09-17T22:09:36+0000",
-            "vcs_last_commit": "2018-09-17T22:09:36+0000",
-            "vcs_last_fetch": "2018-09-17T22:09:36+0000",
-            "vcs_last_rev": "95b771ba00b4da154725f9ca4c531a373850bef8",
+            "updated": "2018-09-27T02:09:10+0000",
+            "vcs_last_commit": "2018-09-27T02:09:10+0000",
+            "vcs_last_fetch": "2018-09-27T02:09:10+0000",
+            "vcs_last_rev": "f30e47dab3f31a98171a300ea38f92f07777f660",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -310,7 +310,7 @@
             "pv": "0.11.0",
             "section": "devel/python",
             "summary": "Python bindings for the Apache Thrift RPC system",
-            "updated": "2018-04-03T22:04:28+0000"
+            "updated": "2018-09-27T21:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1362,7 +1362,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-py_1.5.4.bb",
+            "filename": "python-py_1.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://py.readthedocs.io/",
             "id": 269686,
@@ -1371,10 +1371,10 @@
             "license": "MIT",
             "pn": "python-py",
             "provides": "python-py ",
-            "pv": "1.5.4",
+            "pv": "1.6.0",
             "section": "devel/python",
             "summary": "Library with cross-python path, ini-parsing, io, code, log facilities",
-            "updated": "2018-07-17T23:07:30+0000"
+            "updated": "2018-09-27T21:09:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3661,7 +3661,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-py_1.5.4.bb",
+            "filename": "python3-py_1.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://py.readthedocs.io/",
             "id": 269809,
@@ -3670,10 +3670,10 @@
             "license": "MIT",
             "pn": "python3-py",
             "provides": "python3-py ",
-            "pv": "1.5.4",
+            "pv": "1.6.0",
             "section": "devel/python",
             "summary": "Library with cross-python path, ini-parsing, io, code, log facilities",
-            "updated": "2018-07-17T23:07:30+0000"
+            "updated": "2018-09-27T21:09:39+0000"
         },
         {
             "bbclassextend": "",

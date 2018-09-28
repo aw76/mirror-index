@@ -8,42 +8,42 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180925",
+            "bitbake_branch": "wr-10.18-20180927",
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-25T02:09:44+0000",
+            "updated": "2018-09-27T21:09:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180925",
+            "actual_branch": "wr-10.18-20180927",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-25T02:09:27+0000",
-            "vcs_last_commit": "2018-09-25T02:09:27+0000",
-            "vcs_last_fetch": "2018-09-25T02:09:27+0000",
-            "vcs_last_rev": "c05da1ced4758548a2c4025169e31babd0be85ce",
+            "updated": "2018-09-28T01:09:18+0000",
+            "vcs_last_commit": "2018-09-28T01:09:18+0000",
+            "vcs_last_fetch": "2018-09-28T01:09:18+0000",
+            "vcs_last_rev": "7056a85256ad11e4dba56ad3a443848328bf7c19",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180925",
+            "actual_branch": "wr-10.18-20180927",
             "branch": 38,
             "collection": "secure-core",
             "id": 57001,
             "layer": 149,
-            "updated": "2018-09-24T21:09:54+0000",
-            "vcs_last_commit": "2018-09-24T21:09:54+0000",
-            "vcs_last_fetch": "2018-09-24T21:09:54+0000",
-            "vcs_last_rev": "053d188588b75af7725926f0396ecb9543d31e1b",
+            "updated": "2018-09-27T02:09:24+0000",
+            "vcs_last_commit": "2018-09-27T02:09:24+0000",
+            "vcs_last_fetch": "2018-09-27T02:09:24+0000",
+            "vcs_last_rev": "86bd658399a85d28cf16e718c986ad6b62bc70ed",
             "vcs_subdir": "meta",
             "version": null,
             "yp_compatible_version": null
@@ -144,7 +144,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 343523,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image extrausers image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo useradd_base",
             "layerbranch": 57001,
             "license": "MIT",
             "pn": "secure-core-image",
@@ -152,7 +152,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "The root image of SecureCore.",
-            "updated": "2017-09-26T04:09:53+0000"
+            "updated": "2018-09-27T21:09:52+0000"
         },
         {
             "bbclassextend": "",
