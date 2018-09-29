@@ -34,10 +34,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T01:09:18+0000",
-            "vcs_last_commit": "2018-09-28T01:09:18+0000",
-            "vcs_last_fetch": "2018-09-28T01:09:18+0000",
-            "vcs_last_rev": "7056a85256ad11e4dba56ad3a443848328bf7c19",
+            "updated": "2018-09-28T15:09:12+0000",
+            "vcs_last_commit": "2018-09-28T15:09:12+0000",
+            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
+            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -6668,7 +6668,7 @@
             "filepath": "recipes-extended/sysklogd",
             "homepage": "http://www.infodrom.org/projects/sysklogd/",
             "id": 271020,
-            "inherits": "systemd update-rc.d",
+            "inherits": "systemd update-alternatives update-rc.d",
             "layerbranch": 14953,
             "license": "GPLv2+ & BSD",
             "pn": "sysklogd",
@@ -6676,7 +6676,7 @@
             "pv": "1.5.1",
             "section": "base",
             "summary": "System Log Daemons",
-            "updated": "2018-07-02T22:07:36+0000"
+            "updated": "2018-09-28T17:09:24+0000"
         },
         {
             "bbclassextend": "",
