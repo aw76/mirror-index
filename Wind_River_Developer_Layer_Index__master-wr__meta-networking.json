@@ -9,69 +9,70 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T15:09:12+0000",
-            "vcs_last_commit": "2018-09-28T15:09:12+0000",
-            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
-            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
+            "updated": "2018-09-30T04:09:06+0000",
+            "vcs_last_commit": "2018-09-30T04:09:06+0000",
+            "vcs_last_fetch": "2018-09-30T04:09:06+0000",
+            "vcs_last_rev": "f86a767f46ed1fe2edf41b955e35a79507407e45",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-09-27T02:09:11+0000",
-            "vcs_last_commit": "2018-09-27T02:09:11+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:11+0000",
-            "vcs_last_rev": "5f00b76bb1fc1cfde5c58c5d23635f4ba8a6d4f0",
+            "updated": "2018-09-30T02:09:31+0000",
+            "vcs_last_commit": "2018-09-30T02:09:31+0000",
+            "vcs_last_fetch": "2018-09-30T02:09:31+0000",
+            "vcs_last_rev": "8a79ffb007c908f2a9c55308eab33ce01c2784c1",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-28T02:09:06+0000",
-            "vcs_last_commit": "2018-09-28T02:09:06+0000",
-            "vcs_last_fetch": "2018-09-28T02:09:06+0000",
-            "vcs_last_rev": "ed5bd99499cd44adf52af610cc15f833e96ee9f7",
+            "updated": "2018-09-30T08:09:20+0000",
+            "vcs_last_commit": "2018-09-30T08:09:20+0000",
+            "vcs_last_fetch": "2018-09-30T08:09:20+0000",
+            "vcs_last_rev": "6f3af84bcbe464ce7e9540c4a6f7bc6cc55559f2",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-09-27T02:09:10+0000",
-            "vcs_last_commit": "2018-09-27T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:10+0000",
-            "vcs_last_rev": "f30e47dab3f31a98171a300ea38f92f07777f660",
+            "updated": "2018-09-29T03:09:44+0000",
+            "vcs_last_commit": "2018-09-29T03:09:44+0000",
+            "vcs_last_fetch": "2018-09-29T03:09:44+0000",
+            "vcs_last_rev": "b6d724e192a9e67a674717ac04cace3d46adf941",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -105,7 +106,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -114,7 +115,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -123,7 +124,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Additional shared OE metadata",
             "id": 7,
             "index_preference": 0,
@@ -132,7 +133,7 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T17:05:13+0000",
+            "updated": "2018-05-30T22:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -141,7 +142,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
             "id": 11,
             "index_preference": 800,
@@ -150,7 +151,7 @@
             "name": "meta-networking",
             "status": "P",
             "summary": "Networking-related packages and configuration",
-            "updated": "2018-05-30T17:05:09+0000",
+            "updated": "2018-05-30T22:05:09+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -159,7 +160,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "PYTHON Language related items",
             "id": 12,
             "index_preference": 800,
@@ -168,7 +169,7 @@
             "name": "meta-python",
             "status": "P",
             "summary": "PYTHON Language related items",
-            "updated": "2018-05-30T17:05:58+0000",
+            "updated": "2018-05-30T22:05:58+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -196,7 +197,7 @@
             "pv": "7.08",
             "section": "base",
             "summary": "Open client for Cisco AnyConnect VPN",
-            "updated": "2017-09-26T04:09:07+0000"
+            "updated": "2017-09-26T09:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +216,7 @@
             "pv": "6.1.5",
             "section": "console/network",
             "summary": "Remote file distribution client and server",
-            "updated": "2018-08-27T20:08:45+0000"
+            "updated": "2018-08-28T01:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -234,7 +235,7 @@
             "pv": "2.9.11.1",
             "section": "net",
             "summary": "",
-            "updated": "2018-08-20T02:08:40+0000"
+            "updated": "2018-08-20T07:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +254,7 @@
             "pv": "0.0.1+gitX",
             "section": "console/network",
             "summary": "",
-            "updated": "2017-09-26T04:09:07+0000"
+            "updated": "2017-09-26T09:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -272,7 +273,7 @@
             "pv": "0.5.3r550-2jnpr1",
             "section": "net",
             "summary": "A client for the Cisco3000 VPN Concentrator",
-            "updated": "2017-09-26T04:09:07+0000"
+            "updated": "2017-09-26T09:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -291,7 +292,7 @@
             "pv": "3.14.4",
             "section": "libs",
             "summary": "wolfSSL Lightweight, Embedded SSL Library",
-            "updated": "2018-06-04T21:06:44+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -310,7 +311,7 @@
             "pv": "1.9",
             "section": "misc",
             "summary": "VLAN provides vconfig utility",
-            "updated": "2018-06-19T21:06:14+0000"
+            "updated": "2018-06-20T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -329,7 +330,7 @@
             "pv": "1.5",
             "section": "Applications/System",
             "summary": "Tool for getting the date/time from a remote machine.",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2017-09-26T09:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -348,7 +349,7 @@
             "pv": "6.11.5",
             "section": "console/network",
             "summary": "dhcpcd - a DHCP client",
-            "updated": "2018-04-08T21:04:50+0000"
+            "updated": "2018-04-09T02:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -367,7 +368,7 @@
             "pv": "1.0",
             "section": "comm",
             "summary": "",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2017-09-26T09:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -386,7 +387,7 @@
             "pv": "3.0.17",
             "section": "System/Servers",
             "summary": "High-performance and highly configurable RADIUS server",
-            "updated": "2018-08-01T01:08:51+0000"
+            "updated": "2018-08-01T06:08:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -405,7 +406,7 @@
             "pv": "2.0.6",
             "section": "libs",
             "summary": "The dump DAQ test the various inline mode features ",
-            "updated": "2018-08-20T02:08:39+0000"
+            "updated": "2018-08-20T07:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -424,7 +425,7 @@
             "pv": "0.33",
             "section": "net",
             "summary": "Uncomplicated Firewall",
-            "updated": "2017-09-26T04:09:08+0000"
+            "updated": "2017-09-26T09:09:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -443,7 +444,7 @@
             "pv": "1.12",
             "section": "libs",
             "summary": "dumb networking library",
-            "updated": "2018-06-19T21:06:13+0000"
+            "updated": "2018-06-20T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -462,7 +463,7 @@
             "pv": "3.0.11b7",
             "section": "base",
             "summary": "daemon that sends updates when your IP changes",
-            "updated": "2017-09-26T04:09:09+0000"
+            "updated": "2017-09-26T09:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -481,7 +482,7 @@
             "pv": "3.18",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Agent",
-            "updated": "2018-09-26T04:09:38+0000"
+            "updated": "2018-09-26T09:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -500,7 +501,7 @@
             "pv": "1.9.4",
             "section": "net",
             "summary": "",
-            "updated": "2018-08-20T02:08:40+0000"
+            "updated": "2018-08-20T07:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -519,7 +520,7 @@
             "pv": "4.8.4",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-09-12T02:09:46+0000"
+            "updated": "2018-09-12T07:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -538,7 +539,7 @@
             "pv": "4.8.4",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-08-27T20:08:44+0000"
+            "updated": "2018-08-28T01:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -557,7 +558,7 @@
             "pv": "2.12.0",
             "section": "libs",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2018-09-04T01:09:10+0000"
+            "updated": "2018-09-04T06:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -576,7 +577,7 @@
             "pv": "1.0.1+1.0.2RC1+gitc4b0ed52e751da7823dd9a36e91f93a6310e5525",
             "section": "base",
             "summary": "Dibbler DHCPv6 client",
-            "updated": "2017-09-26T04:09:09+0000"
+            "updated": "2017-09-26T09:09:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -595,7 +596,7 @@
             "pv": "2018.05.31",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Database",
-            "updated": "2018-09-04T01:09:11+0000"
+            "updated": "2018-09-04T06:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -614,7 +615,7 @@
             "pv": "0.0.20171221",
             "section": "networking",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2018-03-12T22:03:57+0000"
+            "updated": "2018-03-13T03:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -633,7 +634,7 @@
             "pv": "0.0.20171221",
             "section": "networking",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2018-03-12T22:03:57+0000"
+            "updated": "2018-03-13T03:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -652,7 +653,7 @@
             "pv": "1.4.4",
             "section": "net",
             "summary": "Connection tracking userspace tools for Linux",
-            "updated": "2018-05-22T21:05:27+0000"
+            "updated": "2018-05-23T02:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -671,7 +672,7 @@
             "pv": "1.0.3",
             "section": "libs",
             "summary": "libnetfilter_acct accounting infrastructure.",
-            "updated": "2017-09-26T04:09:10+0000"
+            "updated": "2017-09-26T09:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -690,7 +691,7 @@
             "pv": "1.0.2+git981025e103d887fb6a9c9bb49c74ec323108d098",
             "section": "libs",
             "summary": "Netfilter packet queue access library",
-            "updated": "2017-09-26T04:09:10+0000"
+            "updated": "2017-09-26T09:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -709,7 +710,7 @@
             "pv": "1.0.0",
             "section": "libs",
             "summary": "Netfilter connection tracking helper library",
-            "updated": "2017-09-26T04:09:10+0000"
+            "updated": "2017-09-26T09:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -728,7 +729,7 @@
             "pv": "1.0.6",
             "section": "libs",
             "summary": "Netfilter connection tracking library",
-            "updated": "2017-09-26T04:09:10+0000"
+            "updated": "2017-09-26T09:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -747,7 +748,7 @@
             "pv": "1.0.0",
             "section": "libs",
             "summary": "Netfilter connection tracking timeout library",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -766,7 +767,7 @@
             "pv": "1.0.1+gitX",
             "section": "libs",
             "summary": "Netfilter logging library",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -785,7 +786,7 @@
             "pv": "1.0.1",
             "section": "libs",
             "summary": "Low-level library for netfilter related kernel/userspace communication",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -804,7 +805,7 @@
             "pv": "0.7",
             "section": "net",
             "summary": "Netfilter Tables userspace utillites",
-            "updated": "2018-08-20T02:08:40+0000"
+            "updated": "2018-08-20T07:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -823,7 +824,7 @@
             "pv": "1.0.2",
             "section": "base",
             "summary": "nfacct is the command line tool to create/retrieve/delete accounting objects",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -842,7 +843,7 @@
             "pv": "2.0.1g",
             "section": "base",
             "summary": "IPTables based firewall scripts",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -861,7 +862,7 @@
             "pv": "1.0.7+gitX",
             "section": "libs",
             "summary": "Library for low-level interaction with nftables Netlink's API over libmnl",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -880,7 +881,7 @@
             "pv": "2.0.10-4",
             "section": "net",
             "summary": "Filtering tool for a Linux-based bridging firewall",
-            "updated": "2018-06-19T21:06:16+0000"
+            "updated": "2018-06-20T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -899,7 +900,7 @@
             "pv": "2.6.9",
             "section": "base",
             "summary": "fwknop - Single Packet Authorization",
-            "updated": "2018-04-16T02:04:44+0000"
+            "updated": "2018-04-16T07:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -918,7 +919,7 @@
             "pv": "2.2.33",
             "section": "mail",
             "summary": "Dovecot is an open source IMAP and POP3 email server",
-            "updated": "2018-05-22T21:05:28+0000"
+            "updated": "2018-05-23T02:05:28+0000"
         },
         {
             "bbclassextend": "",
@@ -937,7 +938,7 @@
             "pv": "2.02",
             "section": "net",
             "summary": "DNSSEC and DLV configuration and priming tool",
-            "updated": "2017-09-26T04:09:12+0000"
+            "updated": "2017-09-26T09:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -956,7 +957,7 @@
             "pv": "0.0+gitX",
             "section": "net",
             "summary": "Network time synchronization software, NTPD replacement",
-            "updated": "2018-02-07T00:02:26+0000"
+            "updated": "2018-02-07T06:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -967,7 +968,7 @@
             "filepath": "recipes-support/libldb",
             "homepage": "http://ldb.samba.org",
             "id": 270308,
-            "inherits": "python-dir pythonnative qemu waf-samba",
+            "inherits": "distro_features_check python-dir pythonnative qemu waf-samba",
             "layerbranch": 14964,
             "license": "LGPL-3.0+ & LGPL-2.1+ & GPL-3.0+",
             "pn": "libldb",
@@ -975,7 +976,7 @@
             "pv": "1.4.1",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2018-09-27T21:09:06+0000"
+            "updated": "2018-09-30T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -994,7 +995,7 @@
             "pv": "6.3.26",
             "section": "mail",
             "summary": "Fetchmail retrieves mail from remote mail servers and forwards it via SMTP",
-            "updated": "2018-09-12T02:09:49+0000"
+            "updated": "2018-09-12T07:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1013,7 +1014,7 @@
             "pv": "0.87+gitX",
             "section": "net",
             "summary": "Combined traceroute and ping utility",
-            "updated": "2017-09-26T04:09:12+0000"
+            "updated": "2017-09-26T09:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1032,7 +1033,7 @@
             "pv": "4.9.8",
             "section": "libs/network",
             "summary": "",
-            "updated": "2018-09-12T02:09:47+0000"
+            "updated": "2018-09-12T07:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1051,7 +1052,7 @@
             "pv": "6.7",
             "section": "otherosfs",
             "summary": "",
-            "updated": "2018-01-11T21:01:11+0000"
+            "updated": "2018-01-12T03:01:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1070,7 +1071,7 @@
             "pv": "3.5",
             "section": "net",
             "summary": "sends ICMP ECHO_REQUEST packets to network hosts",
-            "updated": "2017-09-26T04:09:13+0000"
+            "updated": "2017-09-26T09:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1089,7 +1090,7 @@
             "pv": "1.0.7",
             "section": "libdevel",
             "summary": "",
-            "updated": "2017-09-26T04:09:13+0000"
+            "updated": "2017-09-26T09:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1108,7 +1109,7 @@
             "pv": "1.0.18",
             "section": "libdevel",
             "summary": "",
-            "updated": "2017-09-26T04:09:13+0000"
+            "updated": "2017-09-26T09:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1127,7 +1128,7 @@
             "pv": "2.7.0+gitX",
             "section": "net",
             "summary": "A networking benchmarking tool",
-            "updated": "2017-09-26T04:09:13+0000"
+            "updated": "2018-09-30T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1146,7 +1147,7 @@
             "pv": "2.40.0",
             "section": "doc",
             "summary": "Common Information Model (CIM) Schema",
-            "updated": "2017-09-26T04:09:13+0000"
+            "updated": "2017-09-26T09:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1165,7 +1166,7 @@
             "pv": "2.50.0",
             "section": "libs",
             "summary": "Common Information Model (CIM) Schema",
-            "updated": "2018-03-12T22:03:57+0000"
+            "updated": "2018-03-13T03:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1184,7 +1185,7 @@
             "pv": "2.40.0",
             "section": "libs",
             "summary": "Common Information Model (CIM) Schema",
-            "updated": "2017-09-26T04:09:13+0000"
+            "updated": "2017-09-26T09:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1203,7 +1204,7 @@
             "pv": "1.0.4+gitX",
             "section": "net",
             "summary": "",
-            "updated": "2018-09-04T01:09:12+0000"
+            "updated": "2018-09-04T06:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1222,7 +1223,7 @@
             "pv": "2.64",
             "section": "base",
             "summary": "extremely simple MTA to get mail off the system to a mail hub",
-            "updated": "2018-01-11T21:01:12+0000"
+            "updated": "2018-01-12T03:01:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1241,7 +1242,7 @@
             "pv": "3.17",
             "section": "net",
             "summary": "",
-            "updated": "2018-09-18T21:09:10+0000"
+            "updated": "2018-09-19T02:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1260,7 +1261,7 @@
             "pv": "0.2.8+gitX",
             "section": "libs",
             "summary": "netcf",
-            "updated": "2018-06-19T21:06:17+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1279,7 +1280,7 @@
             "pv": "1.6",
             "section": "net",
             "summary": "Tools for ethernet bridging",
-            "updated": "2018-01-11T21:01:13+0000"
+            "updated": "2018-01-12T03:01:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1298,7 +1299,7 @@
             "pv": "1.5",
             "section": "net",
             "summary": "Tool for controlling the Linux TUN/TAP driver",
-            "updated": "2017-09-26T04:09:14+0000"
+            "updated": "2017-09-26T09:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1317,7 +1318,7 @@
             "pv": "3.3",
             "section": "net",
             "summary": "Versatile implementation of the Network Time Protocol",
-            "updated": "2018-06-04T21:06:44+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1336,7 +1337,7 @@
             "pv": "0.3.1+gitX",
             "section": "net",
             "summary": "Utilities for managing the Linux LoWPAN stack",
-            "updated": "2018-06-19T21:06:17+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1355,7 +1356,7 @@
             "pv": "0.98",
             "section": "net",
             "summary": "iSNS daemon and utility programs",
-            "updated": "2018-07-16T20:07:36+0000"
+            "updated": "2018-07-17T01:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1374,7 +1375,7 @@
             "pv": "36",
             "section": "admin",
             "summary": "ATA over Ethernet Tools",
-            "updated": "2017-09-26T04:09:14+0000"
+            "updated": "2017-09-26T09:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1393,7 +1394,7 @@
             "pv": "0.8.2",
             "section": "net",
             "summary": "",
-            "updated": "2018-09-26T04:09:38+0000"
+            "updated": "2018-09-26T09:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1412,7 +1413,7 @@
             "pv": "0.9.1",
             "section": "net",
             "summary": "ssmping is a tool for checking whether one can receive SSM from a given host",
-            "updated": "2017-09-26T04:09:15+0000"
+            "updated": "2017-09-26T09:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1431,7 +1432,7 @@
             "pv": "2.3.2",
             "section": "net",
             "summary": "pimd is a lightweight stand-alone PIM-SM v2 multicast routing daemon.",
-            "updated": "2017-09-26T04:09:15+0000"
+            "updated": "2017-09-26T09:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1450,7 +1451,7 @@
             "pv": "1.29",
             "section": "net",
             "summary": "Linux Virtual Server administration Utility",
-            "updated": "2018-08-21T20:08:43+0000"
+            "updated": "2018-08-22T01:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1469,7 +1470,7 @@
             "pv": "1.3.16",
             "section": "libs",
             "summary": "The tdb library",
-            "updated": "2018-09-27T21:09:06+0000"
+            "updated": "2018-09-28T02:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1488,7 +1489,7 @@
             "pv": "2.5.2",
             "section": "libs",
             "summary": "Drivers and tools to support ATM networking under Linux",
-            "updated": "2017-09-26T04:09:15+0000"
+            "updated": "2017-09-26T09:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1507,7 +1508,7 @@
             "pv": "0.9.37",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2018-09-27T21:09:06+0000"
+            "updated": "2018-09-28T02:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1526,7 +1527,7 @@
             "pv": "1.6.12",
             "section": "libdevel",
             "summary": "C library for country/city/organization to IP address or hostname mapping",
-            "updated": "2018-08-01T01:08:53+0000"
+            "updated": "2018-08-01T06:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1545,7 +1546,7 @@
             "pv": "2.5.0",
             "section": "net",
             "summary": "Crontab entry to provide weekly updates of the GeoIP free databases.",
-            "updated": "2018-04-08T21:04:52+0000"
+            "updated": "2018-04-09T02:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1564,7 +1565,7 @@
             "pv": "1.51",
             "section": "libdevel",
             "summary": "GeoIP perl API library to access location database",
-            "updated": "2018-06-04T21:06:44+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1583,7 +1584,7 @@
             "pv": "0.0.4+gitX",
             "section": "net",
             "summary": "Administration tool for arp packet filtering",
-            "updated": "2018-01-11T21:01:11+0000"
+            "updated": "2018-01-12T03:01:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1602,7 +1603,7 @@
             "pv": "4.2.8p12",
             "section": "net",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2018-08-27T20:08:45+0000"
+            "updated": "2018-08-28T01:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1621,7 +1622,7 @@
             "pv": "0.36",
             "section": "base",
             "summary": "RULI stands for Resolver User Layer Interface It's a library\tbuilt on top of an asynchronous DNS stub resolver",
-            "updated": "2017-09-26T04:09:16+0000"
+            "updated": "2017-09-26T09:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1640,7 +1641,7 @@
             "pv": "1.5.0",
             "section": "net",
             "summary": "Tool to view/change network interface MAC addresses",
-            "updated": "2017-09-26T04:09:16+0000"
+            "updated": "2017-09-26T09:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1659,7 +1660,7 @@
             "pv": "1.10.0",
             "section": "base",
             "summary": "Lightweight http(s) proxy daemon",
-            "updated": "2018-09-27T21:09:05+0000"
+            "updated": "2018-09-28T02:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1678,7 +1679,7 @@
             "pv": "7.2.1",
             "section": "net",
             "summary": "network performance measurement tool",
-            "updated": "2017-09-26T04:09:16+0000"
+            "updated": "2017-09-26T09:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1697,7 +1698,7 @@
             "pv": "2.9",
             "section": "net",
             "summary": "Configure network interfaces for parallel routing",
-            "updated": "2018-08-15T02:08:18+0000"
+            "updated": "2018-08-15T07:08:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1716,7 +1717,7 @@
             "pv": "0.31",
             "section": "base",
             "summary": "reimplement libdjb",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2017-09-26T09:09:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1735,7 +1736,7 @@
             "pv": "1.2.4",
             "section": "base",
             "summary": "a fast file copy tool for LANs",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2017-09-26T09:09:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1754,7 +1755,7 @@
             "pv": "0.8.1",
             "section": "libdevel",
             "summary": "C++ library for client-side URL transfers",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2017-09-26T09:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1773,7 +1774,7 @@
             "pv": "1.190",
             "section": "net",
             "summary": "OpenBSD Netcat",
-            "updated": "2018-08-15T02:08:18+0000"
+            "updated": "2018-08-15T07:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1792,7 +1793,7 @@
             "pv": "0.7.1",
             "section": "net",
             "summary": "GNU Netcat",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2017-09-26T09:09:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -1811,7 +1812,7 @@
             "pv": "2.6.2",
             "section": "net",
             "summary": "",
-            "updated": "2018-08-20T02:08:41+0000"
+            "updated": "2018-08-20T07:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1830,7 +1831,7 @@
             "pv": "2.1.0",
             "section": "net",
             "summary": "A new modern implementation of traceroute(8) utility for Linux systems",
-            "updated": "2017-09-26T04:09:18+0000"
+            "updated": "2017-09-26T09:09:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -1849,7 +1850,7 @@
             "pv": "1.14.0+gitrX",
             "section": "libs",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2018-08-01T01:08:52+0000"
+            "updated": "2018-08-01T06:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1868,7 +1869,7 @@
             "pv": "1.5.10",
             "section": "web",
             "summary": "A high-performance memory object caching system",
-            "updated": "2018-09-04T01:09:10+0000"
+            "updated": "2018-09-04T06:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1887,7 +1888,7 @@
             "pv": "2.0.0",
             "section": "net",
             "summary": "Static Multicast Routing Daemon",
-            "updated": "2017-09-26T04:09:18+0000"
+            "updated": "2017-09-26T09:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1906,7 +1907,7 @@
             "pv": "2.79",
             "section": "net",
             "summary": "Lightweight, easy to configure DNS forwarder and DHCP server",
-            "updated": "2018-07-10T02:07:23+0000"
+            "updated": "2018-07-10T07:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1925,7 +1926,7 @@
             "pv": "4.9.2",
             "section": "net",
             "summary": "A sophisticated network protocol analyzer",
-            "updated": "2017-09-26T04:09:18+0000"
+            "updated": "2017-09-26T09:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1944,7 +1945,7 @@
             "pv": "1.2a3",
             "section": "net",
             "summary": "tcpslice",
-            "updated": "2017-09-26T04:09:18+0000"
+            "updated": "2017-09-26T09:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1963,7 +1964,7 @@
             "pv": "5.6.3",
             "section": "net",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2018-07-16T20:07:36+0000"
+            "updated": "2018-07-17T01:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1982,7 +1983,7 @@
             "pv": "1.0pre4",
             "section": "net",
             "summary": "iftop does for network usage what top(1) does for CPU usage",
-            "updated": "2017-09-26T04:09:19+0000"
+            "updated": "2017-09-26T09:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2001,7 +2002,7 @@
             "pv": "4.2.3",
             "section": "net",
             "summary": "NIS client programs",
-            "updated": "2018-08-15T02:08:19+0000"
+            "updated": "2018-08-15T07:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2020,7 +2021,7 @@
             "pv": "2.14",
             "section": "net",
             "summary": "NIS client programs",
-            "updated": "2018-03-12T22:03:58+0000"
+            "updated": "2018-03-13T03:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2039,7 +2040,7 @@
             "pv": "2.4",
             "section": "net",
             "summary": "",
-            "updated": "2018-03-12T22:03:58+0000"
+            "updated": "2018-03-13T03:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2058,7 +2059,7 @@
             "pv": "1.2",
             "section": "net",
             "summary": "User configurable send-only Mail Transfer Agent",
-            "updated": "2018-09-12T02:09:49+0000"
+            "updated": "2018-09-12T07:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2077,7 +2078,7 @@
             "pv": "2.1.14",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2018-09-27T21:09:06+0000"
+            "updated": "2018-09-28T02:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2096,7 +2097,7 @@
             "pv": "5.49",
             "section": "net",
             "summary": "Program for providing universal TLS/SSL tunneling service",
-            "updated": "2018-09-18T21:09:12+0000"
+            "updated": "2018-09-19T02:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2115,7 +2116,7 @@
             "pv": "1.0.6",
             "section": "libs",
             "summary": "SMTP client library",
-            "updated": "2017-09-26T04:09:20+0000"
+            "updated": "2017-09-26T09:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2134,7 +2135,7 @@
             "pv": "1.0.1+gitX",
             "section": "base",
             "summary": "PHY interface tool for Linux",
-            "updated": "2017-09-26T04:09:20+0000"
+            "updated": "2017-09-26T09:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2153,7 +2154,7 @@
             "pv": "2.4.4",
             "section": "net",
             "summary": "A full-featured SSL VPN solution via tun device.",
-            "updated": "2018-01-11T21:01:10+0000"
+            "updated": "2018-01-12T03:01:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2172,7 +2173,7 @@
             "pv": "20151004",
             "section": "net",
             "summary": "Enhanced NetBSD ftp client",
-            "updated": "2017-09-26T04:09:20+0000"
+            "updated": "2017-09-26T09:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2191,7 +2192,7 @@
             "pv": "4.2.6",
             "section": "net",
             "summary": "Use previously captured traffic to test network devices",
-            "updated": "2017-09-26T04:09:20+0000"
+            "updated": "2017-09-26T09:09:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -2210,7 +2211,7 @@
             "pv": "1.0.18+gitX",
             "section": "net",
             "summary": "The Linux Kernel Stream Control Transmission Protocol (lksctp) project",
-            "updated": "2018-09-27T21:09:07+0000"
+            "updated": "2018-09-28T02:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2229,7 +2230,7 @@
             "pv": "9.5.0",
             "section": "admin",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2018-09-04T01:09:12+0000"
+            "updated": "2018-09-04T06:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2248,7 +2249,7 @@
             "pv": "3.2.6",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T04:09:21+0000"
+            "updated": "2017-09-26T09:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2267,7 +2268,7 @@
             "pv": "5.1.4",
             "section": "utils",
             "summary": "Kernel based automounter for linux",
-            "updated": "2018-09-04T01:09:11+0000"
+            "updated": "2018-09-04T06:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2286,7 +2287,7 @@
             "pv": "2.3.1",
             "section": "net",
             "summary": "The PTP daemon (PTPd)",
-            "updated": "2017-09-26T04:09:21+0000"
+            "updated": "2017-09-26T09:09:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -2305,7 +2306,7 @@
             "pv": "3.2.6",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-09-18T21:09:11+0000"
+            "updated": "2018-09-19T02:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2324,7 +2325,7 @@
             "pv": "5.18.04",
             "section": "admin",
             "summary": "OpenSAF is an open source implementation of the SAF AIS specification",
-            "updated": "2018-08-27T20:08:45+0000"
+            "updated": "2018-08-28T01:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2343,7 +2344,7 @@
             "pv": "0.9.8",
             "section": "net/misc",
             "summary": "A 802.1ab implementation (LLDP) to help you locate neighbors of all your equipments",
-            "updated": "2017-10-16T20:10:31+0000"
+            "updated": "2017-10-17T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2362,7 +2363,7 @@
             "pv": "3.5.27",
             "section": "web",
             "summary": "A fully-featured http proxy and web-cache daemon for Linux",
-            "updated": "2018-07-02T22:07:43+0000"
+            "updated": "2018-07-03T03:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2381,7 +2382,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "simple dynamic multicast routing daemon that only uses IGMP signalling",
-            "updated": "2017-09-26T04:09:22+0000"
+            "updated": "2017-09-26T09:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2400,7 +2401,7 @@
             "pv": "1.0.42",
             "section": "net",
             "summary": "FTP Server with a strong focus on software security",
-            "updated": "2018-08-20T02:08:40+0000"
+            "updated": "2018-08-20T07:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2419,7 +2420,7 @@
             "pv": "1.3",
             "section": "console/network",
             "summary": "An IP address pool manager",
-            "updated": "2018-05-22T21:05:27+0000"
+            "updated": "2018-05-23T02:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2438,7 +2439,7 @@
             "pv": "1.3.6",
             "section": "net",
             "summary": "Secure and configurable FTP server",
-            "updated": "2017-09-26T04:09:22+0000"
+            "updated": "2017-09-26T09:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2457,7 +2458,7 @@
             "pv": "2.0.876+gitX",
             "section": "net",
             "summary": "iSCSI daemon and utility programs",
-            "updated": "2018-06-20T04:06:39+0000"
+            "updated": "2018-06-20T09:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2476,7 +2477,7 @@
             "pv": "2.17",
             "section": "net",
             "summary": "IPv6 router advertisement daemon",
-            "updated": "2018-06-19T21:06:19+0000"
+            "updated": "2018-06-20T02:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2495,7 +2496,7 @@
             "pv": "3.0.3",
             "section": "net",
             "summary": "Very Secure FTP server",
-            "updated": "2018-09-27T21:09:05+0000"
+            "updated": "2018-09-28T02:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2506,7 +2507,7 @@
             "filepath": "recipes-daemons/cyrus-sasl",
             "homepage": "http://asg.web.cmu.edu/sasl/",
             "id": 270392,
-            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd useradd useradd_base",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 14964,
             "license": "BSD",
             "pn": "cyrus-sasl",
@@ -2514,7 +2515,7 @@
             "pv": "2.1.27",
             "section": "libs",
             "summary": "Generic client/server library for SASL authentication",
-            "updated": "2018-09-18T21:09:10+0000"
+            "updated": "2018-09-30T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2533,7 +2534,7 @@
             "pv": "3.8.0",
             "section": "net",
             "summary": "Hardware Platform Interface Library and Tools",
-            "updated": "2018-09-10T02:09:44+0000"
+            "updated": "2018-09-10T07:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2552,7 +2553,7 @@
             "pv": "0.7.1+gitX",
             "section": "net",
             "summary": "Advanced TFTP server and client",
-            "updated": "2017-09-26T04:09:23+0000"
+            "updated": "2017-09-26T09:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2571,7 +2572,7 @@
             "pv": "1.4.2",
             "section": "base",
             "summary": "High Availability monitor built upon LVS, VRRP and service pollers",
-            "updated": "2018-04-08T21:04:51+0000"
+            "updated": "2018-04-09T02:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2590,7 +2591,7 @@
             "pv": "22",
             "section": "admin",
             "summary": "Virtual EtherDrive blade AoE target",
-            "updated": "2018-06-19T21:06:15+0000"
+            "updated": "2018-06-20T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2609,7 +2610,7 @@
             "pv": "5.2",
             "section": "net",
             "summary": "Client for the Trivial File Transfer Protocol",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2017-09-26T09:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2628,7 +2629,7 @@
             "pv": "1.7.1",
             "section": "net",
             "summary": "ZNC, an advanced IRC bouncer",
-            "updated": "2018-09-12T02:09:48+0000"
+            "updated": "2018-09-12T07:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2647,7 +2648,7 @@
             "pv": "1.0",
             "section": "net",
             "summary": "OpenFlow communications protocol",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2017-09-26T09:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2666,7 +2667,7 @@
             "pv": "1.0+gitX",
             "section": "net",
             "summary": "OpenFlow communications protocol",
-            "updated": "2018-09-12T02:09:49+0000"
+            "updated": "2018-09-12T07:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2685,7 +2686,7 @@
             "pv": "1.2.4",
             "section": "net",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2018-04-16T02:04:45+0000"
+            "updated": "2018-04-16T07:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2704,7 +2705,7 @@
             "pv": "1.8beta5",
             "section": "net",
             "summary": "Libraries and wrapper for using a SOCKS proxy",
-            "updated": "2018-09-27T21:09:06+0000"
+            "updated": "2018-09-28T02:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2723,7 +2724,7 @@
             "pv": "1.3.9+gitX",
             "section": "net",
             "summary": "Xelerance version of the Layer 2 Tunneling Protocol (L2TP) daemon",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2017-09-26T09:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2742,7 +2743,7 @@
             "pv": "1.3.6",
             "section": "net",
             "summary": "Xelerance version of the Layer 2 Tunneling Protocol (L2TP) daemon",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2017-09-26T09:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2761,7 +2762,7 @@
             "pv": "0.9",
             "section": "net",
             "summary": "IPv4 link-local address allocator",
-            "updated": "2017-09-26T04:09:24+0000"
+            "updated": "2017-09-26T09:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2780,7 +2781,7 @@
             "pv": "1.9.0",
             "section": "net",
             "summary": "Client for Microsoft PPTP VPNs",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2017-09-26T09:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2799,7 +2800,7 @@
             "pv": "3.12",
             "section": "net",
             "summary": "A user-mode PPPoE client and server suite for Linux",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2017-09-26T09:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2818,7 +2819,7 @@
             "pv": "0.4.6.b400",
             "section": "base",
             "summary": "OpenSource WebSocket Toolkit",
-            "updated": "2018-09-12T02:09:47+0000"
+            "updated": "2018-09-12T07:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2837,7 +2838,7 @@
             "pv": "1.4.1",
             "section": "console/utils",
             "summary": "A free SOCKS server",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2017-09-26T09:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2856,7 +2857,7 @@
             "pv": "0.5.6",
             "section": "net",
             "summary": "RADIUS protocol client library",
-            "updated": "2018-08-15T02:08:18+0000"
+            "updated": "2018-08-15T07:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2875,7 +2876,7 @@
             "pv": "1.8",
             "section": "net",
             "summary": "An L2TP client/server, designed for VPN use.",
-            "updated": "2018-08-20T02:08:41+0000"
+            "updated": "2018-08-20T07:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2894,7 +2895,7 @@
             "pv": "5.8",
             "section": "net",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2018-09-12T02:09:49+0000"
+            "updated": "2018-09-29T06:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2913,7 +2914,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:26+0000"
+            "updated": "2017-09-26T09:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2932,7 +2933,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2018-08-27T20:08:46+0000"
+            "updated": "2018-08-28T01:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2951,7 +2952,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2018-05-22T21:05:27+0000"
+            "updated": "2018-05-23T02:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2970,7 +2971,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T04:09:26+0000"
+            "updated": "2017-09-26T09:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2989,7 +2990,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2018-08-27T20:08:45+0000"
+            "updated": "2018-08-28T01:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -3008,7 +3009,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "tftp - Trivial file transfer protocol client",
-            "updated": "2017-09-26T04:09:26+0000"
+            "updated": "2017-09-26T09:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3027,7 +3028,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2017-09-26T04:09:26+0000"
+            "updated": "2017-09-26T09:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3046,7 +3047,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2018-08-27T20:08:46+0000"
+            "updated": "2018-08-28T01:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -3065,7 +3066,7 @@
             "pv": "9.0.8-1",
             "section": "base",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2018-05-08T03:05:30+0000"
+            "updated": "2018-05-08T08:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3084,7 +3085,7 @@
             "pv": "5.0.1",
             "section": "console/network",
             "summary": "ntop is network top",
-            "updated": "2018-07-11T01:07:19+0000"
+            "updated": "2018-07-11T06:07:19+0000"
         },
         {
             "bbclassextend": "",
@@ -3103,7 +3104,7 @@
             "pv": "2.0.1",
             "section": "devel/python",
             "summary": "Easy communication with NetworkManager from Python",
-            "updated": "2017-09-26T04:09:27+0000"
+            "updated": "2017-09-26T09:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3122,7 +3123,7 @@
             "pv": "1.10.10",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2018-07-16T20:07:35+0000"
+            "updated": "2018-07-17T01:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3141,7 +3142,7 @@
             "pv": "1.2.10",
             "section": "net/misc",
             "summary": "NetworkManager-openvpn-plugin",
-            "updated": "2018-07-16T20:07:35+0000"
+            "updated": "2018-07-17T01:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3160,7 +3161,7 @@
             "pv": "2.0.20180203",
             "section": "networking",
             "summary": "Lightweight UPnP IGD daemon",
-            "updated": "2018-06-04T21:06:44+0000"
+            "updated": "2018-06-05T02:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -3179,7 +3180,7 @@
             "pv": "2.0.25",
             "section": "base",
             "summary": "IPMI (Intelligent Platform Management Interface) library and tools",
-            "updated": "2018-07-16T20:07:36+0000"
+            "updated": "2018-07-17T01:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -3198,7 +3199,7 @@
             "pv": "2.4.4",
             "section": "base",
             "summary": "The Corosync Cluster Engine and Application Programming Interfaces",
-            "updated": "2018-07-02T22:07:42+0000"
+            "updated": "2018-07-03T03:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -3217,7 +3218,7 @@
             "pv": "4.0.7",
             "section": "utils",
             "summary": "",
-            "updated": "2018-08-27T20:08:45+0000"
+            "updated": "2018-08-28T01:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -3236,7 +3237,7 @@
             "pv": "2.4.45",
             "section": "devel/python",
             "summary": "Provides a wrapper in Python to LDAP",
-            "updated": "2018-07-16T20:07:36+0000"
+            "updated": "2018-07-17T01:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -3255,7 +3256,7 @@
             "pv": "765.50.9",
             "section": "base",
             "summary": "Publishes & browses available services on a link according to the Zeroconf / Bonjour protocol",
-            "updated": "2018-04-08T21:04:53+0000"
+            "updated": "2018-04-09T02:04:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3274,7 +3275,7 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "An open source implementation of the diameter protocol",
-            "updated": "2018-09-12T02:09:48+0000"
+            "updated": "2018-09-12T07:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3293,7 +3294,7 @@
             "pv": "0.2.2",
             "section": "net",
             "summary": "Tool to assist in network address calculations for IPv4 and IPv6.",
-            "updated": "2018-06-04T21:06:46+0000"
+            "updated": "2018-06-05T02:06:46+0000"
         },
         {
             "bbclassextend": " native",
@@ -3312,7 +3313,7 @@
             "pv": "1.4.0",
             "section": "connectivity",
             "summary": "ISC Kea DHCP Server",
-            "updated": "2018-09-12T02:09:48+0000"
+            "updated": "2018-09-12T07:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3331,7 +3332,7 @@
             "pv": "0.8+gitX",
             "section": "base",
             "summary": "Userspace tools for Linux IEEE 802.15.4 stack",
-            "updated": "2018-05-02T20:05:44+0000"
+            "updated": "2018-05-03T01:05:44+0000"
         },
         {
             "bbclassextend": "",
@@ -3350,7 +3351,7 @@
             "pv": "18.1",
             "section": "libs",
             "summary": "Userspace support for InfiniBand/RDMA verbs",
-            "updated": "2018-06-19T21:06:13+0000"
+            "updated": "2018-06-20T02:06:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3369,7 +3370,7 @@
             "pv": "0.5.1.3+gitX",
             "section": "base",
             "summary": "The CELT codec is a compression algorithm for audio",
-            "updated": "2018-06-19T21:06:17+0000"
+            "updated": "2018-06-20T02:06:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3388,7 +3389,7 @@
             "pv": "0.12.13+gitX",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2018-06-04T21:06:47+0000"
+            "updated": "2018-06-05T02:06:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3407,7 +3408,7 @@
             "pv": "0.14.1+gitX",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2018-09-18T21:09:11+0000"
+            "updated": "2018-09-19T02:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3426,7 +3427,7 @@
             "pv": "0.7.1+gitX",
             "section": "base",
             "summary": "usbredir libraries and utilities",
-            "updated": "2018-06-04T21:06:48+0000"
+            "updated": "2018-06-05T02:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3445,7 +3446,7 @@
             "pv": "0.8.1",
             "section": "libs/network",
             "summary": "C++/Boost Asio based websocket client/server library.",
-            "updated": "2018-08-01T01:08:54+0000"
+            "updated": "2018-08-01T06:08:54+0000"
         },
         {
             "bbclassextend": "native",
@@ -3464,7 +3465,7 @@
             "pv": "1.10+gitX",
             "section": "base",
             "summary": "Civetweb embedded web server",
-            "updated": "2018-09-04T01:09:10+0000"
+            "updated": "2018-09-04T06:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3483,7 +3484,7 @@
             "pv": "1.2.0",
             "section": "base",
             "summary": "HTTP based time synchronization tool",
-            "updated": "2018-06-19T21:06:19+0000"
+            "updated": "2018-06-20T02:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -3502,7 +3503,7 @@
             "pv": "1.5.1",
             "section": "console/network",
             "summary": "Open source MQTT v3.1/3.1.1 implemention",
-            "updated": "2018-09-12T02:09:47+0000"
+            "updated": "2018-09-30T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3521,7 +3522,7 @@
             "pv": "1.1.4",
             "section": "libs/networking",
             "summary": "nanomsg socket library",
-            "updated": "2018-07-24T20:07:31+0000"
+            "updated": "2018-07-25T01:07:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3540,7 +3541,7 @@
             "pv": "1.14.1",
             "section": "libs",
             "summary": "",
-            "updated": "2018-09-04T01:09:12+0000"
+            "updated": "2018-09-04T06:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3559,7 +3560,7 @@
             "pv": "1.7+gitX",
             "section": "base",
             "summary": "Dispatcher service for systemd-networkd connection status changes",
-            "updated": "2018-09-18T21:09:11+0000"
+            "updated": "2018-09-19T02:09:11+0000"
         }
     ],
     "wrtemplates": []

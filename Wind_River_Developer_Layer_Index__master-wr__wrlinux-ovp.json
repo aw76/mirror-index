@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
@@ -24,7 +25,7 @@
             "id": 1864,
             "layerbranch": 109415,
             "name": "wrlinux-ovp",
-            "updated": "2018-09-11T02:09:27+0000"
+            "updated": "2018-09-11T07:09:27+0000"
         }
     ],
     "layerBranches": [
@@ -34,38 +35,38 @@
             "collection": "realtime",
             "id": 14950,
             "layer": 48,
-            "updated": "2018-04-08T01:04:02+0000",
-            "vcs_last_commit": "2018-04-08T01:04:02+0000",
-            "vcs_last_fetch": "2018-04-08T01:04:02+0000",
+            "updated": "2018-04-08T06:04:02+0000",
+            "vcs_last_commit": "2018-04-08T06:04:02+0000",
+            "vcs_last_fetch": "2018-04-08T06:04:02+0000",
             "vcs_last_rev": "f4a661044f7383ca94894b42fe2b258e6a4a1566",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-09-27T02:09:09+0000",
-            "vcs_last_commit": "2018-09-27T02:09:09+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:09+0000",
-            "vcs_last_rev": "0017b30db72c63a5a6f5d5d2b7b9a6c84336df56",
+            "updated": "2018-09-30T02:09:14+0000",
+            "vcs_last_commit": "2018-09-30T02:09:14+0000",
+            "vcs_last_fetch": "2018-09-30T02:09:14+0000",
+            "vcs_last_rev": "2bbbce5c30c588bd1daf03f8dee0b7973d753099",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T15:09:12+0000",
-            "vcs_last_commit": "2018-09-28T15:09:12+0000",
-            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
-            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
+            "updated": "2018-09-30T04:09:06+0000",
+            "vcs_last_commit": "2018-09-30T04:09:06+0000",
+            "vcs_last_fetch": "2018-09-30T04:09:06+0000",
+            "vcs_last_rev": "f86a767f46ed1fe2edf41b955e35a79507407e45",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -76,9 +77,9 @@
             "collection": "wr-template",
             "id": 15008,
             "layer": 55,
-            "updated": "2018-09-27T01:09:31+0000",
-            "vcs_last_commit": "2018-09-27T01:09:31+0000",
-            "vcs_last_fetch": "2018-09-27T01:09:31+0000",
+            "updated": "2018-09-27T06:09:31+0000",
+            "vcs_last_commit": "2018-09-27T06:09:31+0000",
+            "vcs_last_fetch": "2018-09-27T06:09:31+0000",
             "vcs_last_rev": "058347a4fd3419769a05ba75cc6afbeb002c5387",
             "vcs_subdir": "",
             "version": "1",
@@ -90,10 +91,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-09-28T14:09:55+0000",
-            "vcs_last_commit": "2018-09-28T14:09:55+0000",
-            "vcs_last_fetch": "2018-09-28T14:09:55+0000",
-            "vcs_last_rev": "5cd5b94336ad8f7538b7866662d3d4025a6d4a73",
+            "updated": "2018-10-03T06:10:26+0000",
+            "vcs_last_commit": "2018-10-03T06:10:26+0000",
+            "vcs_last_fetch": "2018-10-03T06:10:26+0000",
+            "vcs_last_rev": "6825e268c49a36f2b106930faa60c718fb7815b0",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": null
@@ -104,10 +105,10 @@
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2018-09-27T02:09:09+0000",
-            "vcs_last_commit": "2018-09-27T02:09:09+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:09+0000",
-            "vcs_last_rev": "47f47f90437b7983ae53ac8a43cdf22ba9fb24ec",
+            "updated": "2018-09-29T06:09:47+0000",
+            "vcs_last_commit": "2018-09-29T06:09:47+0000",
+            "vcs_last_fetch": "2018-09-29T06:09:47+0000",
+            "vcs_last_rev": "44c381e39fd69fd28ee3ba0c8c76b7e6f4ec515c",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
@@ -118,10 +119,10 @@
             "collection": "wrlinux-distro",
             "id": 73942,
             "layer": 164,
-            "updated": "2018-09-28T01:09:04+0000",
-            "vcs_last_commit": "2018-09-28T01:09:04+0000",
-            "vcs_last_fetch": "2018-09-28T01:09:04+0000",
-            "vcs_last_rev": "c8be05bca17219d0b8a88beabb7d9f43773a7feb",
+            "updated": "2018-09-29T02:09:09+0000",
+            "vcs_last_commit": "2018-09-29T02:09:09+0000",
+            "vcs_last_fetch": "2018-09-29T02:09:09+0000",
+            "vcs_last_rev": "a002209ce47aae7211e2fa0f3b60f18386c736d5",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": null
@@ -132,9 +133,9 @@
             "collection": "wrlinux-ovp",
             "id": 109415,
             "layer": 170,
-            "updated": "2018-09-21T02:09:17+0000",
-            "vcs_last_commit": "2018-09-21T02:09:17+0000",
-            "vcs_last_fetch": "2018-09-21T02:09:17+0000",
+            "updated": "2018-09-21T07:09:17+0000",
+            "vcs_last_commit": "2018-09-21T07:09:17+0000",
+            "vcs_last_fetch": "2018-09-21T07:09:17+0000",
             "vcs_last_rev": "f93a6d11bdeb4fda5dafcafcdc61f23d95676e8e",
             "vcs_subdir": "wrlinux-ovp",
             "version": "1",
@@ -146,9 +147,9 @@
             "collection": "dpdk",
             "id": 168977,
             "layer": 192,
-            "updated": "2018-09-24T21:09:46+0000",
-            "vcs_last_commit": "2018-09-24T21:09:46+0000",
-            "vcs_last_fetch": "2018-09-24T21:09:46+0000",
+            "updated": "2018-09-25T02:09:46+0000",
+            "vcs_last_commit": "2018-09-25T02:09:46+0000",
+            "vcs_last_fetch": "2018-09-25T02:09:46+0000",
             "vcs_last_rev": "de1987b84db73627e9bfb14ce65023f463065d68",
             "vcs_subdir": "",
             "version": "1",
@@ -213,7 +214,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -222,7 +223,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -231,7 +232,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides lxc package build for Wind River Linux.  It\r\nis required by most other layers that Wind River provides.",
             "id": 45,
             "index_preference": 900,
@@ -240,7 +241,7 @@
             "name": "meta-virtualization",
             "status": "P",
             "summary": "Virtualization related components",
-            "updated": "2018-05-30T17:05:12+0000",
+            "updated": "2018-05-30T22:05:12+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-virtualization",
             "vcs_web_commit_url": "",
@@ -249,7 +250,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
             "id": 48,
             "index_preference": 900,
@@ -258,7 +259,7 @@
             "name": "meta-realtime",
             "status": "P",
             "summary": "Realtime related kernel components",
-            "updated": "2018-05-30T17:05:35+0000",
+            "updated": "2018-05-30T22:05:35+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-realtime",
             "vcs_web_commit_url": "",
@@ -267,7 +268,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
             "id": 49,
             "index_preference": 900,
@@ -276,7 +277,7 @@
             "name": "wrlinux",
             "status": "P",
             "summary": "Wind River Linux distribution definitions",
-            "updated": "2018-05-30T17:05:16+0000",
+            "updated": "2018-05-30T22:05:16+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wrlinux",
             "vcs_web_commit_url": "",
@@ -285,7 +286,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
             "id": 55,
             "index_preference": 900,
@@ -294,7 +295,7 @@
             "name": "wr-template",
             "status": "P",
             "summary": "Wind River Template Support",
-            "updated": "2018-05-30T17:05:28+0000",
+            "updated": "2018-05-30T22:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wr-template",
             "vcs_web_commit_url": "",
@@ -303,7 +304,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "meta cloud services",
             "id": 141,
             "index_preference": 0,
@@ -312,7 +313,7 @@
             "name": "meta-cloud-services",
             "status": "P",
             "summary": "meta cloud services",
-            "updated": "2018-05-30T17:05:35+0000",
+            "updated": "2018-05-30T22:05:35+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-cloud-services",
             "vcs_web_commit_url": "",
@@ -321,7 +322,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "The base distribution settings for wrlinux and related DISTRO items.",
             "id": 164,
             "index_preference": 0,
@@ -330,7 +331,7 @@
             "name": "wrlinux-distro",
             "status": "P",
             "summary": "Wind River Linux base distribution layer",
-            "updated": "2018-05-30T17:05:34+0000",
+            "updated": "2018-05-30T22:05:34+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/wrlinux",
             "vcs_web_commit_url": "",
@@ -339,7 +340,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer is derived from the Wind River Linux Open Virtualization Profile and contains the images and recipes required to build images related to virtual machines and containers.",
             "id": 170,
             "index_preference": 0,
@@ -348,7 +349,7 @@
             "name": "wrlinux-ovp",
             "status": "P",
             "summary": "Open Virtualization Platform",
-            "updated": "2018-05-30T17:05:37+0000",
+            "updated": "2018-05-30T22:05:37+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/wrlinux",
             "vcs_web_commit_url": "",
@@ -357,7 +358,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "DPDK is a set of libraries and drivers for fast packet processing.",
             "id": 192,
             "index_preference": 0,
@@ -366,7 +367,7 @@
             "name": "meta-dpdk",
             "status": "P",
             "summary": "dpdk layer",
-            "updated": "2018-05-30T17:05:19+0000",
+            "updated": "2018-05-30T22:05:19+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-dpdk",
             "vcs_web_commit_url": "",
@@ -394,7 +395,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:10+0000"
+            "updated": "2017-10-02T22:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -413,7 +414,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:10+0000"
+            "updated": "2017-10-02T22:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -432,7 +433,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:10+0000"
+            "updated": "2017-10-02T22:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -451,7 +452,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-29T01:08:28+0000"
+            "updated": "2018-08-29T06:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -470,7 +471,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:11+0000"
+            "updated": "2017-10-02T22:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -489,7 +490,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:11+0000"
+            "updated": "2017-10-02T22:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -508,7 +509,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-07-02T22:07:34+0000"
+            "updated": "2018-07-03T03:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -527,7 +528,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:11+0000"
+            "updated": "2017-10-02T22:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -546,7 +547,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:11+0000"
+            "updated": "2017-10-02T22:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -565,7 +566,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:11+0000"
+            "updated": "2017-10-02T22:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -584,7 +585,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-12T04:09:41+0000"
+            "updated": "2018-09-12T09:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -603,7 +604,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-04T01:09:24+0000"
+            "updated": "2018-09-04T06:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -622,7 +623,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:12+0000"
+            "updated": "2017-10-02T22:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -641,7 +642,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:12+0000"
+            "updated": "2017-10-02T22:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -660,7 +661,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-02T17:10:12+0000"
+            "updated": "2017-10-02T22:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -679,7 +680,7 @@
             "pv": "1.0",
             "section": "console/utils",
             "summary": "Generate various system information report of this system",
-            "updated": "2017-10-02T17:10:12+0000"
+            "updated": "2017-10-02T22:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -698,7 +699,7 @@
             "pv": "9.2.0",
             "section": "base",
             "summary": "An unified, distributed storage system",
-            "updated": "2018-09-21T10:09:47+0000"
+            "updated": "2018-09-21T15:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -717,7 +718,7 @@
             "pv": "0.10.1",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-08-20T02:08:16+0000"
+            "updated": "2018-08-20T07:08:16+0000"
         }
     ],
     "wrtemplates": [
@@ -726,35 +727,35 @@
             "id": 14081,
             "layerbranch": 109415,
             "name": "feature/kernel-ovp-guest",
-            "updated": "2018-07-27T01:07:36+0000"
+            "updated": "2018-07-27T06:07:36+0000"
         },
         {
             "description": "",
             "id": 23448,
             "layerbranch": 109415,
             "name": "feature",
-            "updated": "2018-04-25T21:04:34+0000"
+            "updated": "2018-04-26T02:04:34+0000"
         },
         {
             "description": "",
             "id": 23449,
             "layerbranch": 109415,
             "name": "feature/guest-rt-tune",
-            "updated": "2018-04-25T21:04:34+0000"
+            "updated": "2018-04-26T02:04:34+0000"
         },
         {
             "description": "",
             "id": 23450,
             "layerbranch": 109415,
             "name": "feature/host-rt-tune",
-            "updated": "2018-04-25T21:04:34+0000"
+            "updated": "2018-04-26T02:04:34+0000"
         },
         {
             "description": "",
             "id": 26898,
             "layerbranch": 109415,
             "name": "default",
-            "updated": "2018-07-27T01:07:35+0000"
+            "updated": "2018-07-27T06:07:35+0000"
         }
     ]
 }

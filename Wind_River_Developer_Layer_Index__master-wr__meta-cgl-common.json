@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
@@ -24,7 +25,7 @@
             "id": 3127,
             "layerbranch": 113181,
             "name": "poky-cgl",
-            "updated": "2018-05-02T20:05:53+0000"
+            "updated": "2018-05-03T01:05:53+0000"
         }
     ],
     "layerBranches": [
@@ -34,24 +35,24 @@
             "collection": "selinux",
             "id": 14951,
             "layer": 20,
-            "updated": "2018-09-27T00:09:22+0000",
-            "vcs_last_commit": "2018-09-27T00:09:22+0000",
-            "vcs_last_fetch": "2018-09-27T00:09:22+0000",
+            "updated": "2018-09-27T05:09:22+0000",
+            "vcs_last_commit": "2018-09-27T05:09:22+0000",
+            "vcs_last_fetch": "2018-09-27T05:09:22+0000",
             "vcs_last_rev": "a98a2459455c14987e5ddaa573cc40a4ad74d4db",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T15:09:12+0000",
-            "vcs_last_commit": "2018-09-28T15:09:12+0000",
-            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
-            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
+            "updated": "2018-09-30T04:09:06+0000",
+            "vcs_last_commit": "2018-09-30T04:09:06+0000",
+            "vcs_last_fetch": "2018-09-30T04:09:06+0000",
+            "vcs_last_rev": "f86a767f46ed1fe2edf41b955e35a79507407e45",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -62,66 +63,66 @@
             "collection": "security",
             "id": 14954,
             "layer": 18,
-            "updated": "2018-09-24T21:09:17+0000",
-            "vcs_last_commit": "2018-09-24T21:09:17+0000",
-            "vcs_last_fetch": "2018-09-24T21:09:17+0000",
-            "vcs_last_rev": "887cd6e145715224abaf6ef5c29e1d9b3a78410a",
+            "updated": "2018-09-29T02:09:19+0000",
+            "vcs_last_commit": "2018-09-29T02:09:19+0000",
+            "vcs_last_fetch": "2018-09-29T02:09:19+0000",
+            "vcs_last_rev": "d980ad25c8d6b788ac85d7036b46536d97b2b9ee",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2018-09-27T02:09:10+0000",
-            "vcs_last_commit": "2018-09-27T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:10+0000",
-            "vcs_last_rev": "f30e47dab3f31a98171a300ea38f92f07777f660",
+            "updated": "2018-09-29T03:09:44+0000",
+            "vcs_last_commit": "2018-09-29T03:09:44+0000",
+            "vcs_last_fetch": "2018-09-29T03:09:44+0000",
+            "vcs_last_rev": "b6d724e192a9e67a674717ac04cace3d46adf941",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-09-27T02:09:11+0000",
-            "vcs_last_commit": "2018-09-27T02:09:11+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:11+0000",
-            "vcs_last_rev": "5f00b76bb1fc1cfde5c58c5d23635f4ba8a6d4f0",
+            "updated": "2018-09-30T02:09:31+0000",
+            "vcs_last_commit": "2018-09-30T02:09:31+0000",
+            "vcs_last_fetch": "2018-09-30T02:09:31+0000",
+            "vcs_last_rev": "8a79ffb007c908f2a9c55308eab33ce01c2784c1",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-28T02:09:06+0000",
-            "vcs_last_commit": "2018-09-28T02:09:06+0000",
-            "vcs_last_fetch": "2018-09-28T02:09:06+0000",
-            "vcs_last_rev": "ed5bd99499cd44adf52af610cc15f833e96ee9f7",
+            "updated": "2018-09-30T08:09:20+0000",
+            "vcs_last_commit": "2018-09-30T08:09:20+0000",
+            "vcs_last_fetch": "2018-09-30T08:09:20+0000",
+            "vcs_last_rev": "6f3af84bcbe464ce7e9540c4a6f7bc6cc55559f2",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "perl-layer",
             "id": 14966,
             "layer": 13,
-            "updated": "2018-09-27T02:09:10+0000",
-            "vcs_last_commit": "2018-09-27T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:10+0000",
-            "vcs_last_rev": "f30e47dab3f31a98171a300ea38f92f07777f660",
+            "updated": "2018-09-29T03:09:44+0000",
+            "vcs_last_commit": "2018-09-29T03:09:44+0000",
+            "vcs_last_fetch": "2018-09-29T03:09:44+0000",
+            "vcs_last_rev": "b6d724e192a9e67a674717ac04cace3d46adf941",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": null
@@ -132,10 +133,10 @@
             "collection": "cgl-common",
             "id": 113181,
             "layer": 172,
-            "updated": "2018-09-02T20:09:46+0000",
-            "vcs_last_commit": "2018-09-02T20:09:46+0000",
-            "vcs_last_fetch": "2018-09-02T20:09:46+0000",
-            "vcs_last_rev": "29e3f02233819c94803c781e8b5c57b24e005c65",
+            "updated": "2018-09-29T02:09:35+0000",
+            "vcs_last_commit": "2018-09-29T02:09:35+0000",
+            "vcs_last_fetch": "2018-09-29T02:09:35+0000",
+            "vcs_last_rev": "35c561e52279a1ff70935f0a58d75eea047ad76a",
             "vcs_subdir": "meta-cgl-common",
             "version": null,
             "yp_compatible_version": null
@@ -193,7 +194,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -202,7 +203,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -211,7 +212,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Additional shared OE metadata",
             "id": 7,
             "index_preference": 0,
@@ -220,7 +221,7 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T17:05:13+0000",
+            "updated": "2018-05-30T22:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -229,7 +230,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Filesystem related libraries and programs.  Includes support for FUSE and related components.",
             "id": 8,
             "index_preference": 0,
@@ -238,7 +239,7 @@
             "name": "meta-filesystems",
             "status": "P",
             "summary": "Filesystem related libraries and programs",
-            "updated": "2018-05-30T17:05:59+0000",
+            "updated": "2018-05-30T22:05:59+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -247,7 +248,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
             "id": 11,
             "index_preference": 800,
@@ -256,7 +257,7 @@
             "name": "meta-networking",
             "status": "P",
             "summary": "Networking-related packages and configuration",
-            "updated": "2018-05-30T17:05:09+0000",
+            "updated": "2018-05-30T22:05:09+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -265,7 +266,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "PERL language and related items",
             "id": 13,
             "index_preference": 800,
@@ -274,7 +275,7 @@
             "name": "meta-perl",
             "status": "P",
             "summary": "PERL language and related items",
-            "updated": "2018-05-30T17:05:45+0000",
+            "updated": "2018-05-30T22:05:45+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -283,7 +284,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides security tools, hardening tools for Linux kernels\r\nand libraries for implementing security mechanisms.",
             "id": 18,
             "index_preference": 800,
@@ -292,7 +293,7 @@
             "name": "meta-security",
             "status": "P",
             "summary": "Security tools and libraries",
-            "updated": "2018-05-30T17:05:37+0000",
+            "updated": "2018-05-30T22:05:37+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-security",
             "vcs_web_commit_url": "",
@@ -301,7 +302,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer's purpose is enabling SE Linux support when used with Poky.",
             "id": 20,
             "index_preference": 800,
@@ -310,7 +311,7 @@
             "name": "meta-selinux",
             "status": "P",
             "summary": "SE Linux support",
-            "updated": "2018-05-30T17:05:27+0000",
+            "updated": "2018-05-30T22:05:27+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-selinux",
             "vcs_web_commit_url": "",
@@ -319,7 +320,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Carrier Grade Linux related components",
             "id": 172,
             "index_preference": 0,
@@ -328,7 +329,7 @@
             "name": "meta-cgl-common",
             "status": "P",
             "summary": "Carrier Grade Linux related components",
-            "updated": "2018-05-30T17:05:05+0000",
+            "updated": "2018-05-30T22:05:05+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-cgl",
             "vcs_web_commit_url": "",
@@ -356,7 +357,7 @@
             "pv": "4.0.1",
             "section": "base",
             "summary": "OCF resource agents for use by compatible cluster managers",
-            "updated": "2018-06-04T21:06:55+0000"
+            "updated": "2018-06-05T02:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -375,7 +376,7 @@
             "pv": "1.0.12",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-04T21:06:55+0000"
+            "updated": "2018-06-05T02:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -394,7 +395,7 @@
             "pv": "5.25.2",
             "section": "base",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-09-03T02:09:57+0000"
+            "updated": "2018-09-03T07:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -413,7 +414,7 @@
             "pv": "3.0.6",
             "section": "System Environment/Daemons",
             "summary": "Messaging and membership subsystem for High-Availability Linux",
-            "updated": "2018-06-04T21:06:56+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -432,7 +433,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "Common Address Redundancy Protocol for Unix",
-            "updated": "2018-06-04T21:06:56+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -451,7 +452,7 @@
             "pv": "1.1.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-04T21:06:56+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -470,7 +471,7 @@
             "pv": "20100526a",
             "section": "base",
             "summary": "An implementation of key management system for IPsec",
-            "updated": "2018-06-04T21:06:56+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -489,7 +490,7 @@
             "pv": "1.8.5",
             "section": "System Environment/Base",
             "summary": "Tools for managing the Ocfs2 cluster file system",
-            "updated": "2018-09-03T02:09:59+0000"
+            "updated": "2018-09-03T07:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -508,7 +509,7 @@
             "pv": "3.0.3",
             "section": "base",
             "summary": "Pacemaker command line interface for management and configuration",
-            "updated": "2018-09-03T02:09:57+0000"
+            "updated": "2018-09-03T07:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -527,7 +528,7 @@
             "pv": "3.2.0",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-04T21:06:56+0000"
+            "updated": "2018-06-05T02:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -546,7 +547,7 @@
             "pv": "1.1.19",
             "section": "base",
             "summary": "Scalable High-Availability cluster resource manager",
-            "updated": "2018-09-03T02:09:58+0000"
+            "updated": "2018-09-29T06:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -565,7 +566,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -584,7 +585,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -603,7 +604,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Application packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -622,7 +623,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -641,7 +642,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Software development tools packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -660,7 +661,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Middleware packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -679,7 +680,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -698,7 +699,7 @@
             "pv": "6.35",
             "section": "libs",
             "summary": "",
-            "updated": "2018-09-03T02:09:59+0000"
+            "updated": "2018-09-03T07:09:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -717,7 +718,7 @@
             "pv": "3.20",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-04T21:06:57+0000"
+            "updated": "2018-06-05T02:06:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -736,7 +737,7 @@
             "pv": "0.28",
             "section": "libs",
             "summary": "",
-            "updated": "2018-09-03T02:09:58+0000"
+            "updated": "2018-09-03T07:09:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -755,7 +756,7 @@
             "pv": "1.52",
             "section": "libs",
             "summary": "",
-            "updated": "2018-09-03T02:09:58+0000"
+            "updated": "2018-09-03T07:09:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -774,7 +775,7 @@
             "pv": "2.20",
             "section": "libs",
             "summary": "",
-            "updated": "2018-09-03T02:09:58+0000"
+            "updated": "2018-09-03T07:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -793,7 +794,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Support for having multipath iSCSI devices as root file system",
-            "updated": "2018-06-04T21:06:58+0000"
+            "updated": "2018-06-05T02:06:58+0000"
         }
     ],
     "wrtemplates": []

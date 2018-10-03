@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
@@ -26,38 +27,38 @@
             "collection": "selinux",
             "id": 14951,
             "layer": 20,
-            "updated": "2018-09-27T00:09:22+0000",
-            "vcs_last_commit": "2018-09-27T00:09:22+0000",
-            "vcs_last_fetch": "2018-09-27T00:09:22+0000",
+            "updated": "2018-09-27T05:09:22+0000",
+            "vcs_last_commit": "2018-09-27T05:09:22+0000",
+            "vcs_last_fetch": "2018-09-27T05:09:22+0000",
             "vcs_last_rev": "a98a2459455c14987e5ddaa573cc40a4ad74d4db",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T15:09:12+0000",
-            "vcs_last_commit": "2018-09-28T15:09:12+0000",
-            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
-            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
+            "updated": "2018-09-30T04:09:06+0000",
+            "vcs_last_commit": "2018-09-30T04:09:06+0000",
+            "vcs_last_fetch": "2018-09-30T04:09:06+0000",
+            "vcs_last_rev": "f86a767f46ed1fe2edf41b955e35a79507407e45",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-09-27T02:09:10+0000",
-            "vcs_last_commit": "2018-09-27T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:10+0000",
-            "vcs_last_rev": "f30e47dab3f31a98171a300ea38f92f07777f660",
+            "updated": "2018-09-29T03:09:44+0000",
+            "vcs_last_commit": "2018-09-29T03:09:44+0000",
+            "vcs_last_fetch": "2018-09-29T03:09:44+0000",
+            "vcs_last_rev": "b6d724e192a9e67a674717ac04cace3d46adf941",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -85,7 +86,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -94,7 +95,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -103,7 +104,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "PYTHON Language related items",
             "id": 12,
             "index_preference": 800,
@@ -112,7 +113,7 @@
             "name": "meta-python",
             "status": "P",
             "summary": "PYTHON Language related items",
-            "updated": "2018-05-30T17:05:58+0000",
+            "updated": "2018-05-30T22:05:58+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -121,7 +122,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer's purpose is enabling SE Linux support when used with Poky.",
             "id": 20,
             "index_preference": 800,
@@ -130,7 +131,7 @@
             "name": "meta-selinux",
             "status": "P",
             "summary": "SE Linux support",
-            "updated": "2018-05-30T17:05:27+0000",
+            "updated": "2018-05-30T22:05:27+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-selinux",
             "vcs_web_commit_url": "",
@@ -158,7 +159,7 @@
             "pv": "2.8.4",
             "section": "base",
             "summary": "User space tools for kernel auditing",
-            "updated": "2018-09-10T02:09:49+0000"
+            "updated": "2018-09-10T07:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +178,7 @@
             "pv": "4.1.1",
             "section": "base",
             "summary": "Policy analysis tools for SELinux",
-            "updated": "2018-08-20T02:08:18+0000"
+            "updated": "2018-08-20T07:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -196,7 +197,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-15T02:08:14+0000"
+            "updated": "2018-08-15T07:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +216,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-15T02:08:14+0000"
+            "updated": "2018-08-15T07:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -234,7 +235,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T02:09:49+0000"
+            "updated": "2018-09-10T07:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +254,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2017-09-26T09:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -272,7 +273,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:25+0000"
+            "updated": "2017-09-26T09:09:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -291,7 +292,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2018-09-10T02:09:50+0000"
+            "updated": "2018-09-10T07:09:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -310,7 +311,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2018-09-10T02:09:49+0000"
+            "updated": "2018-09-10T07:09:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -329,7 +330,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux policy compiler",
-            "updated": "2018-09-10T02:09:50+0000"
+            "updated": "2018-09-10T07:09:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -348,7 +349,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux policy core utilities",
-            "updated": "2018-09-12T02:09:42+0000"
+            "updated": "2018-09-12T07:09:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -367,7 +368,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2018-09-10T02:09:49+0000"
+            "updated": "2018-09-10T07:09:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -386,7 +387,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2018-09-10T02:09:50+0000"
+            "updated": "2018-09-10T07:09:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -405,7 +406,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux policy compiler",
-            "updated": "2018-09-10T02:09:51+0000"
+            "updated": "2018-09-10T07:09:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -424,7 +425,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2018-09-10T02:09:51+0000"
+            "updated": "2018-09-10T07:09:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -443,7 +444,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux policy core utilities",
-            "updated": "2018-09-12T02:09:42+0000"
+            "updated": "2018-09-12T07:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -462,7 +463,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux init script",
-            "updated": "2017-09-26T04:09:27+0000"
+            "updated": "2017-09-26T09:09:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -481,7 +482,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux Common Intermediate Language (CIL) compiler",
-            "updated": "2018-09-10T02:09:52+0000"
+            "updated": "2018-09-10T07:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -500,7 +501,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux autorelabel script",
-            "updated": "2017-09-26T04:09:27+0000"
+            "updated": "2017-09-26T09:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -519,7 +520,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux init script",
-            "updated": "2017-09-26T04:09:27+0000"
+            "updated": "2017-09-26T09:09:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -538,7 +539,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2018-09-10T02:09:51+0000"
+            "updated": "2018-09-10T07:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -557,7 +558,7 @@
             "pv": "2.20170204",
             "section": "base",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2017-10-15T22:10:14+0000"
+            "updated": "2017-10-16T03:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -576,7 +577,7 @@
             "pv": "2.20170204",
             "section": "base",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2017-10-15T22:10:14+0000"
+            "updated": "2017-10-16T03:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -595,7 +596,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "SELinux targeted policy",
-            "updated": "2017-09-26T04:09:28+0000"
+            "updated": "2017-09-26T09:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -614,7 +615,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "SELinux minimum policy",
-            "updated": "2018-05-21T04:05:50+0000"
+            "updated": "2018-05-21T09:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -633,7 +634,7 @@
             "pv": "2.20170204",
             "section": "base",
             "summary": "SELinux targeted policy",
-            "updated": "2018-05-21T04:05:50+0000"
+            "updated": "2018-05-21T09:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -652,7 +653,7 @@
             "pv": "2.20170204",
             "section": "base",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2017-10-15T22:10:13+0000"
+            "updated": "2017-10-16T03:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -671,7 +672,7 @@
             "pv": "2.20170204",
             "section": "base",
             "summary": "SELinux minimum policy",
-            "updated": "2018-05-21T04:05:51+0000"
+            "updated": "2018-05-21T09:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -690,7 +691,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2017-09-26T04:09:28+0000"
+            "updated": "2017-09-26T09:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -709,7 +710,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2017-09-26T04:09:28+0000"
+            "updated": "2017-09-26T09:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -728,7 +729,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2017-09-26T04:09:28+0000"
+            "updated": "2017-09-26T09:09:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -747,7 +748,7 @@
             "pv": "0.83",
             "section": "devel/python",
             "summary": "Python module for handling IPv4 and IPv6 Addresses and Networks",
-            "updated": "2018-01-23T04:01:46+0000"
+            "updated": "2018-01-23T10:01:46+0000"
         },
         {
             "bbclassextend": "",
@@ -766,7 +767,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Daemon to translate SELinux MCS/MLS sensitivity labels",
-            "updated": "2018-09-10T02:09:51+0000"
+            "updated": "2018-09-10T07:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -785,7 +786,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Daemon to watch for file creation and set default file context",
-            "updated": "2018-09-10T02:09:51+0000"
+            "updated": "2018-09-10T07:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -804,7 +805,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux dbus service files",
-            "updated": "2018-09-10T02:09:52+0000"
+            "updated": "2018-09-10T07:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -823,7 +824,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux GUI tools",
-            "updated": "2018-09-10T02:09:52+0000"
+            "updated": "2018-09-10T07:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -842,7 +843,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Python modules and various SELinux utilities.",
-            "updated": "2018-09-10T02:09:52+0000"
+            "updated": "2018-09-10T07:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -861,7 +862,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Run cmd under an SELinux sandbox",
-            "updated": "2018-09-10T02:09:52+0000"
+            "updated": "2018-09-10T07:09:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -880,7 +881,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Utilities to manipulate SELinux policy module package",
-            "updated": "2018-09-10T02:09:52+0000"
+            "updated": "2018-09-10T07:09:52+0000"
         }
     ],
     "wrtemplates": []

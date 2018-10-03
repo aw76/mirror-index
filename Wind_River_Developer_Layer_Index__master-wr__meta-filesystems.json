@@ -9,55 +9,56 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T15:09:12+0000",
-            "vcs_last_commit": "2018-09-28T15:09:12+0000",
-            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
-            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
+            "updated": "2018-09-30T04:09:06+0000",
+            "vcs_last_commit": "2018-09-30T04:09:06+0000",
+            "vcs_last_fetch": "2018-09-30T04:09:06+0000",
+            "vcs_last_rev": "f86a767f46ed1fe2edf41b955e35a79507407e45",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2018-09-27T02:09:10+0000",
-            "vcs_last_commit": "2018-09-27T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:10+0000",
-            "vcs_last_rev": "f30e47dab3f31a98171a300ea38f92f07777f660",
+            "updated": "2018-09-29T03:09:44+0000",
+            "vcs_last_commit": "2018-09-29T03:09:44+0000",
+            "vcs_last_fetch": "2018-09-29T03:09:44+0000",
+            "vcs_last_rev": "b6d724e192a9e67a674717ac04cace3d46adf941",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-28T02:09:06+0000",
-            "vcs_last_commit": "2018-09-28T02:09:06+0000",
-            "vcs_last_fetch": "2018-09-28T02:09:06+0000",
-            "vcs_last_rev": "ed5bd99499cd44adf52af610cc15f833e96ee9f7",
+            "updated": "2018-09-30T08:09:20+0000",
+            "vcs_last_commit": "2018-09-30T08:09:20+0000",
+            "vcs_last_fetch": "2018-09-30T08:09:20+0000",
+            "vcs_last_rev": "6f3af84bcbe464ce7e9540c4a6f7bc6cc55559f2",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -85,7 +86,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -94,7 +95,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -103,7 +104,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Additional shared OE metadata",
             "id": 7,
             "index_preference": 0,
@@ -112,7 +113,7 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T17:05:13+0000",
+            "updated": "2018-05-30T22:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -121,7 +122,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Filesystem related libraries and programs.  Includes support for FUSE and related components.",
             "id": 8,
             "index_preference": 0,
@@ -130,7 +131,7 @@
             "name": "meta-filesystems",
             "status": "P",
             "summary": "Filesystem related libraries and programs",
-            "updated": "2018-05-30T17:05:59+0000",
+            "updated": "2018-05-30T22:05:59+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -158,7 +159,7 @@
             "pv": "2.8",
             "section": "console/network",
             "summary": "This is a filesystem client based on the SSH File Transfer Protocol using FUSE",
-            "updated": "2017-09-26T04:09:10+0000"
+            "updated": "2017-09-26T09:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +178,7 @@
             "pv": "1.1.2",
             "section": "base",
             "summary": "A fuse filesystem to access the contents of an iPhone or iPod Touch",
-            "updated": "2017-09-26T04:09:10+0000"
+            "updated": "2017-09-26T09:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -196,7 +197,7 @@
             "pv": "3.2p2",
             "section": "console/network",
             "summary": "1-Wire file system",
-            "updated": "2018-08-20T02:08:05+0000"
+            "updated": "2018-08-20T07:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +216,7 @@
             "pv": "2.0",
             "section": "console/network",
             "summary": "A FUSE based implemention of unionfs",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -234,7 +235,7 @@
             "pv": "0.0+gitX",
             "section": "base",
             "summary": "Yet Another Flash File System",
-            "updated": "2018-08-21T20:08:31+0000"
+            "updated": "2018-08-22T01:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +254,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -272,7 +273,7 @@
             "pv": "2017.3.23",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-19T20:06:37+0000"
+            "updated": "2018-06-20T01:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -291,7 +292,7 @@
             "pv": "git",
             "section": "base",
             "summary": "LogFS Programs: used to create LogFS file system",
-            "updated": "2018-08-20T02:08:06+0000"
+            "updated": "2018-08-20T07:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -310,7 +311,7 @@
             "pv": "1.2.3",
             "section": "universe/otherosfs",
             "summary": "read and write exFAT driver for FUSE",
-            "updated": "2017-09-26T04:09:11+0000"
+            "updated": "2017-09-26T09:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -329,7 +330,7 @@
             "pv": "2.9.8",
             "section": "libs",
             "summary": "Implementation of a fully functional filesystem in a userspace program",
-            "updated": "2018-09-27T21:09:34+0000"
+            "updated": "2018-09-28T02:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -348,7 +349,7 @@
             "pv": "3.0.1",
             "section": "base",
             "summary": "PhysicsFS is a library to provide abstract access to various archives",
-            "updated": "2018-05-21T04:05:14+0000"
+            "updated": "2018-05-21T09:05:14+0000"
         },
         {
             "bbclassextend": "",
@@ -367,7 +368,7 @@
             "pv": "4.18.0",
             "section": "base",
             "summary": "XFS Filesystem Utilities",
-            "updated": "2018-09-12T02:09:30+0000"
+            "updated": "2018-09-12T07:09:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -386,7 +387,7 @@
             "pv": "1.4.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:12+0000"
+            "updated": "2017-09-26T09:09:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -405,7 +406,7 @@
             "pv": "1.11.0",
             "section": "base",
             "summary": "Tools for Flash-Friendly File System (F2FS)",
-            "updated": "2018-08-20T02:08:05+0000"
+            "updated": "2018-08-20T07:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -424,7 +425,7 @@
             "pv": "1.2.3",
             "section": "universe/otherosfs",
             "summary": "utilities to create, check, label and dump exFAT filesystem",
-            "updated": "2017-09-26T04:09:13+0000"
+            "updated": "2017-09-26T09:09:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -443,7 +444,7 @@
             "pv": "4.9+gitX",
             "section": "base",
             "summary": "Tools for managing AUFS mounts",
-            "updated": "2018-08-01T01:08:29+0000"
+            "updated": "2018-08-01T06:08:29+0000"
         },
         {
             "bbclassextend": "",
@@ -462,7 +463,7 @@
             "pv": "3.1.8",
             "section": "base",
             "summary": "XFS Filesystem Dump Utility",
-            "updated": "2018-07-16T20:07:53+0000"
+            "updated": "2018-07-17T01:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -481,7 +482,7 @@
             "pv": "0.4.4",
             "section": "base",
             "summary": "A command line Linux program which mounts and unmounts removable devices",
-            "updated": "2017-09-26T04:09:13+0000"
+            "updated": "2017-09-26T09:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -500,7 +501,7 @@
             "pv": "git",
             "section": "base",
             "summary": "FUSE module for mounting an entire SMB/NMB network in a single directory",
-            "updated": "2018-03-12T22:03:54+0000"
+            "updated": "2018-03-13T03:03:54+0000"
         }
     ],
     "wrtemplates": []

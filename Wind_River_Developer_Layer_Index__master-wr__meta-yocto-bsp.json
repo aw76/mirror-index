@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "yoctobsp",
             "id": 14956,
             "layer": 58,
-            "updated": "2018-09-25T09:09:43+0000",
-            "vcs_last_commit": "2018-09-25T09:09:43+0000",
-            "vcs_last_fetch": "2018-09-25T09:09:43+0000",
+            "updated": "2018-09-25T14:09:43+0000",
+            "vcs_last_commit": "2018-09-25T14:09:43+0000",
+            "vcs_last_fetch": "2018-09-25T14:09:43+0000",
             "vcs_last_rev": "f7d36129adfeb0d0d5fe26675e2668c49573a32d",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
@@ -38,7 +39,7 @@
     "layerDependencies": [],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "Yocto Project BSPs for reference hardware.  These BSPs are best-effort support in Wind River Linux.",
             "id": 58,
             "index_preference": 800,
@@ -47,7 +48,7 @@
             "name": "meta-yocto-bsp",
             "status": "P",
             "summary": "BSP layer for Yocto Project reference hardware",
-            "updated": "2018-05-30T17:05:48+0000",
+            "updated": "2018-05-30T22:05:48+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-yocto",
             "vcs_web_commit_url": "",
@@ -62,35 +63,35 @@
             "id": 6131,
             "layerbranch": 14956,
             "name": "beaglebone-yocto",
-            "updated": "2018-09-03T02:09:57+0000"
+            "updated": "2018-09-03T07:09:57+0000"
         },
         {
             "description": "",
             "id": 6132,
             "layerbranch": 14956,
             "name": "mpc8315e-rdb",
-            "updated": "2018-09-03T02:09:57+0000"
+            "updated": "2018-09-03T07:09:57+0000"
         },
         {
             "description": " generic X86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
             "id": 6133,
             "layerbranch": 14956,
             "name": "genericx86",
-            "updated": "2017-09-26T04:09:15+0000"
+            "updated": "2017-09-26T09:09:15+0000"
         },
         {
             "description": "Edgerouter",
             "id": 6134,
             "layerbranch": 14956,
             "name": "edgerouter",
-            "updated": "2018-09-03T02:09:57+0000"
+            "updated": "2018-09-03T07:09:57+0000"
         },
         {
             "description": " generic X86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
             "id": 6135,
             "layerbranch": 14956,
             "name": "genericx86-64",
-            "updated": "2017-09-26T04:09:15+0000"
+            "updated": "2017-09-26T09:09:15+0000"
         }
     ],
     "recipes": [
@@ -111,7 +112,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2017-09-26T04:09:15+0000"
+            "updated": "2017-09-26T09:09:15+0000"
         }
     ],
     "wrtemplates": []

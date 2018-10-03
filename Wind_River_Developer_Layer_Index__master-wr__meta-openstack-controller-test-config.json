@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "openstack-controller-deploy-layer",
             "id": 57010,
             "layer": 159,
-            "updated": "2018-09-27T02:09:09+0000",
-            "vcs_last_commit": "2018-09-27T02:09:09+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:09+0000",
+            "updated": "2018-09-27T07:09:09+0000",
+            "vcs_last_commit": "2018-09-27T07:09:09+0000",
+            "vcs_last_fetch": "2018-09-27T07:09:09+0000",
             "vcs_last_rev": "c465f80f016c2dd40417e444e41aa02185ce37d4",
             "vcs_subdir": "meta-openstack-controller-deploy",
             "version": null,
@@ -40,9 +41,9 @@
             "collection": "openstack-controller-test-config-layer",
             "id": 57011,
             "layer": 160,
-            "updated": "2018-09-27T02:09:09+0000",
-            "vcs_last_commit": "2018-09-27T02:09:09+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:09+0000",
+            "updated": "2018-09-27T07:09:09+0000",
+            "vcs_last_commit": "2018-09-27T07:09:09+0000",
+            "vcs_last_fetch": "2018-09-27T07:09:09+0000",
             "vcs_last_rev": "c465f80f016c2dd40417e444e41aa02185ce37d4",
             "vcs_subdir": "meta-openstack-controller-test-config",
             "version": null,
@@ -59,7 +60,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "Provides support configuring and deploying the recipes to create a controller node.",
             "id": 159,
             "index_preference": 0,
@@ -68,7 +69,7 @@
             "name": "meta-openstack-controller-deploy",
             "status": "P",
             "summary": "Support configuring and deploying the recipes to create a controller node",
-            "updated": "2018-05-30T17:05:54+0000",
+            "updated": "2018-05-30T22:05:54+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-cloud-services",
             "vcs_web_commit_url": "",
@@ -77,7 +78,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Provides support configuring and deploying the recipes to setup/configure system to prepare for running openstack tests, e.g. tempest testsuite.",
             "id": 160,
             "index_preference": 0,
@@ -86,7 +87,7 @@
             "name": "meta-openstack-controller-test-config",
             "status": "P",
             "summary": "Support for preparing to run openstack tests",
-            "updated": "2018-05-30T17:05:40+0000",
+            "updated": "2018-05-30T22:05:40+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-cloud-services",
             "vcs_web_commit_url": "",

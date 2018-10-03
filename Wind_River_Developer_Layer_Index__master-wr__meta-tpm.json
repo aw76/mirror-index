@@ -9,27 +9,28 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T15:09:12+0000",
-            "vcs_last_commit": "2018-09-28T15:09:12+0000",
-            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
-            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
+            "updated": "2018-09-30T04:09:06+0000",
+            "vcs_last_commit": "2018-09-30T04:09:06+0000",
+            "vcs_last_fetch": "2018-09-30T04:09:06+0000",
+            "vcs_last_rev": "f86a767f46ed1fe2edf41b955e35a79507407e45",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,9 +41,9 @@
             "collection": "tpm",
             "id": 57004,
             "layer": 151,
-            "updated": "2018-09-27T02:09:24+0000",
-            "vcs_last_commit": "2018-09-27T02:09:24+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:24+0000",
+            "updated": "2018-09-27T07:09:24+0000",
+            "vcs_last_commit": "2018-09-27T07:09:24+0000",
+            "vcs_last_fetch": "2018-09-27T07:09:24+0000",
             "vcs_last_rev": "b485bc7f0e05f36d23eefcf42994d5c7fcbf043d",
             "vcs_subdir": "meta-tpm",
             "version": null,
@@ -65,7 +66,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -74,7 +75,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -83,7 +84,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This feature enables tpm 1.2 support, including kernel option changes to enable tpm drivers, and picking up packages trousers, tpm-tools, openssl-tpm-engine, tpm-quote-tools and so on.",
             "id": 151,
             "index_preference": 0,
@@ -92,7 +93,7 @@
             "name": "meta-tpm",
             "status": "P",
             "summary": "Provide TPM 1.x support",
-            "updated": "2018-05-30T17:05:09+0000",
+            "updated": "2018-05-30T22:05:09+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-secure-core",
             "vcs_web_commit_url": "",
@@ -120,7 +121,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:54+0000"
+            "updated": "2017-09-26T09:09:54+0000"
         },
         {
             "bbclassextend": "native",
@@ -139,7 +140,7 @@
             "pv": "0.3.14+gitX",
             "section": "security/tpm",
             "summary": "TrouSerS - An open-source TCG Software Stack implementation.",
-            "updated": "2018-09-26T04:09:36+0000"
+            "updated": "2018-09-26T09:09:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -158,7 +159,7 @@
             "pv": "1.3.9.1+gitX",
             "section": "security/tpm",
             "summary": "The tpm-tools package contains commands to allow the platform administrator the ability to manage and diagnose the platform's TPM.",
-            "updated": "2018-09-26T04:09:35+0000"
+            "updated": "2018-09-26T09:09:35+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +178,7 @@
             "pv": "gitX",
             "section": "security/tpm",
             "summary": "Testcases to exercise the TSS stack/TSS API",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2017-09-26T09:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -196,7 +197,7 @@
             "pv": "1.0.4+gitX",
             "section": "security/tpm",
             "summary": "A collection of programs that provide support for TPM based attestation using the TPM quote mechanism. ",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2017-09-26T09:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +216,7 @@
             "pv": "0.1+gitX",
             "section": "security/tpm",
             "summary": "Command line utility to extend hash of arbitrary data into a TPMs PCR.",
-            "updated": "2017-09-26T04:09:55+0000"
+            "updated": "2017-09-26T09:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -234,7 +235,7 @@
             "pv": "0.5.0",
             "section": "security/tpm",
             "summary": "",
-            "updated": "2018-09-26T04:09:35+0000"
+            "updated": "2018-09-26T09:09:35+0000"
         }
     ],
     "wrtemplates": []

@@ -9,27 +9,28 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T15:09:12+0000",
-            "vcs_last_commit": "2018-09-28T15:09:12+0000",
-            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
-            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
+            "updated": "2018-09-30T04:09:06+0000",
+            "vcs_last_commit": "2018-09-30T04:09:06+0000",
+            "vcs_last_fetch": "2018-09-30T04:09:06+0000",
+            "vcs_last_rev": "f86a767f46ed1fe2edf41b955e35a79507407e45",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,9 +41,9 @@
             "collection": "tpm2",
             "id": 57005,
             "layer": 152,
-            "updated": "2018-09-27T02:09:24+0000",
-            "vcs_last_commit": "2018-09-27T02:09:24+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:24+0000",
+            "updated": "2018-09-27T07:09:24+0000",
+            "vcs_last_commit": "2018-09-27T07:09:24+0000",
+            "vcs_last_fetch": "2018-09-27T07:09:24+0000",
             "vcs_last_rev": "b485bc7f0e05f36d23eefcf42994d5c7fcbf043d",
             "vcs_subdir": "meta-tpm2",
             "version": null,
@@ -65,7 +66,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -74,7 +75,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -83,7 +84,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer enables Trusted Platform Module (TPM 2.0) support, including kernel option changes to enable tpm drivers, and picking up TPM 2.0 packages.",
             "id": 152,
             "index_preference": 0,
@@ -92,7 +93,7 @@
             "name": "meta-tpm2",
             "status": "P",
             "summary": "Provide TPM 2.x support",
-            "updated": "2018-05-30T17:05:55+0000",
+            "updated": "2018-05-30T22:05:55+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-secure-core",
             "vcs_web_commit_url": "",
@@ -120,7 +121,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-04T21:06:29+0000"
+            "updated": "2018-06-05T02:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -139,7 +140,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-10-13T02:10:22+0000"
+            "updated": "2017-10-13T07:10:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -158,7 +159,7 @@
             "pv": "4.4.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-10-13T02:10:22+0000"
+            "updated": "2017-10-13T07:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +178,7 @@
             "pv": "1.38+gitX",
             "section": "base",
             "summary": "TPM 2.0 Simulator Extraction Script",
-            "updated": "2017-10-13T02:10:22+0000"
+            "updated": "2017-10-13T07:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -196,7 +197,7 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "Tools for TPM2",
-            "updated": "2018-08-06T04:08:31+0000"
+            "updated": "2018-08-06T09:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +216,7 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2018-08-06T04:08:30+0000"
+            "updated": "2018-08-06T09:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -234,7 +235,7 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "The TCG TPM2 Software Stack",
-            "updated": "2018-08-06T04:08:31+0000"
+            "updated": "2018-08-06T09:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +254,7 @@
             "pv": "2.0.1",
             "section": "security/tpm",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2018-08-06T04:08:31+0000"
+            "updated": "2018-08-06T09:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -272,7 +273,7 @@
             "pv": "3.1.1",
             "section": "security/tpm",
             "summary": "Tools for TPM2",
-            "updated": "2018-08-06T04:08:31+0000"
+            "updated": "2018-08-06T09:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -291,7 +292,7 @@
             "pv": "2.0.0",
             "section": "security/tpm",
             "summary": "The TCG TPM2 Software Stack",
-            "updated": "2018-08-06T04:08:31+0000"
+            "updated": "2018-08-06T09:08:31+0000"
         }
     ],
     "wrtemplates": []

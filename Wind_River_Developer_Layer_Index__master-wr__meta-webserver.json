@@ -9,55 +9,56 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.18-20180927",
+            "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-27T21:09:55+0000",
+            "updated": "2018-09-28T02:09:55+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-09-28T15:09:12+0000",
-            "vcs_last_commit": "2018-09-28T15:09:12+0000",
-            "vcs_last_fetch": "2018-09-28T15:09:12+0000",
-            "vcs_last_rev": "8e6b23422d2989c5537f41ac3cb1fdc1bb25ee68",
+            "updated": "2018-09-30T04:09:06+0000",
+            "vcs_last_commit": "2018-09-30T04:09:06+0000",
+            "vcs_last_fetch": "2018-09-30T04:09:06+0000",
+            "vcs_last_rev": "f86a767f46ed1fe2edf41b955e35a79507407e45",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-09-28T02:09:06+0000",
-            "vcs_last_commit": "2018-09-28T02:09:06+0000",
-            "vcs_last_fetch": "2018-09-28T02:09:06+0000",
-            "vcs_last_rev": "ed5bd99499cd44adf52af610cc15f833e96ee9f7",
+            "updated": "2018-09-30T08:09:20+0000",
+            "vcs_last_commit": "2018-09-30T08:09:20+0000",
+            "vcs_last_fetch": "2018-09-30T08:09:20+0000",
+            "vcs_last_rev": "6f3af84bcbe464ce7e9540c4a6f7bc6cc55559f2",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20180929",
             "branch": 38,
             "collection": "webserver",
             "id": 14976,
             "layer": 10,
-            "updated": "2018-09-27T02:09:10+0000",
-            "vcs_last_commit": "2018-09-27T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-27T02:09:10+0000",
-            "vcs_last_rev": "f30e47dab3f31a98171a300ea38f92f07777f660",
+            "updated": "2018-09-29T03:09:44+0000",
+            "vcs_last_commit": "2018-09-29T03:09:44+0000",
+            "vcs_last_fetch": "2018-09-29T03:09:44+0000",
+            "vcs_last_rev": "b6d724e192a9e67a674717ac04cace3d46adf941",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": null
@@ -85,7 +86,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -94,7 +95,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -103,7 +104,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Additional shared OE metadata",
             "id": 7,
             "index_preference": 0,
@@ -112,7 +113,7 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T17:05:13+0000",
+            "updated": "2018-05-30T22:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -121,7 +122,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides support for building web servers, web-based\r\napplications and related software.",
             "id": 10,
             "index_preference": 800,
@@ -130,7 +131,7 @@
             "name": "meta-webserver",
             "status": "P",
             "summary": "Web server software and web-based applications",
-            "updated": "2018-05-30T17:05:31+0000",
+            "updated": "2018-05-30T22:05:31+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -158,7 +159,7 @@
             "pv": "4.8.3",
             "section": "base",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2018-09-12T02:09:33+0000"
+            "updated": "2018-09-12T07:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +178,7 @@
             "pv": "2.6.1",
             "section": "base",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2018-08-27T20:08:17+0000"
+            "updated": "2018-08-28T01:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -196,7 +197,7 @@
             "pv": "1.850",
             "section": "base",
             "summary": "Web-based administration interface",
-            "updated": "2018-03-20T01:03:28+0000"
+            "updated": "2018-03-20T06:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +216,7 @@
             "pv": "1.8.0+gitX",
             "section": "base",
             "summary": "Real-time performance monitoring",
-            "updated": "2017-11-22T20:11:04+0000"
+            "updated": "2017-11-23T02:11:04+0000"
         },
         {
             "bbclassextend": "",
@@ -234,7 +235,7 @@
             "pv": "1.6.4",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T04:09:15+0000"
+            "updated": "2017-09-26T09:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +254,7 @@
             "pv": "2.4.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-04T21:06:18+0000"
+            "updated": "2018-06-05T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -272,7 +273,7 @@
             "pv": "2.4.34",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2018-09-04T01:09:57+0000"
+            "updated": "2018-09-04T06:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -291,7 +292,7 @@
             "pv": "2.4.34",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2018-08-01T01:08:31+0000"
+            "updated": "2018-08-01T06:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -310,7 +311,7 @@
             "pv": "1.15.1",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2018-09-27T21:09:36+0000"
+            "updated": "2018-09-28T02:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -329,7 +330,7 @@
             "pv": "1.15.2",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2018-09-27T21:09:36+0000"
+            "updated": "2018-09-28T02:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -348,7 +349,7 @@
             "pv": "1.5.6",
             "section": "net",
             "summary": "Fast and Lightweight HTTP Server for Linux",
-            "updated": "2018-03-20T01:03:28+0000"
+            "updated": "2018-03-20T06:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -367,7 +368,7 @@
             "pv": "0.1.1",
             "section": "net",
             "summary": "Websocket module for Apache web server",
-            "updated": "2017-09-26T04:09:16+0000"
+            "updated": "2017-09-26T09:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -386,7 +387,7 @@
             "pv": "1.9.6",
             "section": "base",
             "summary": "A simple, fast and secure HTTP server",
-            "updated": "2018-08-20T02:08:08+0000"
+            "updated": "2018-08-20T07:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -405,7 +406,7 @@
             "pv": "2.27.1",
             "section": "base",
             "summary": "A simple, small, portable, fast, and secure HTTP server",
-            "updated": "2018-08-20T02:08:08+0000"
+            "updated": "2018-08-20T07:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -424,7 +425,7 @@
             "pv": "10.7",
             "section": "net",
             "summary": "Lightweight secure web server",
-            "updated": "2018-08-20T02:08:08+0000"
+            "updated": "2018-08-20T07:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -443,7 +444,7 @@
             "pv": "1.2.104+gitX",
             "section": "network",
             "summary": "Cherokee Web Server fast and secure",
-            "updated": "2017-09-26T04:09:17+0000"
+            "updated": "2017-09-26T09:09:17+0000"
         }
     ],
     "wrtemplates": []
