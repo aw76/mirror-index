@@ -22,10 +22,10 @@
     "distros": [
         {
             "description": "",
-            "id": 3127,
+            "id": 3551,
             "layerbranch": 113181,
             "name": "poky-cgl",
-            "updated": "2018-05-03T01:05:53+0000"
+            "updated": "2018-10-05T09:10:25+0000"
         }
     ],
     "layerBranches": [
@@ -35,9 +35,9 @@
             "collection": "selinux",
             "id": 14951,
             "layer": 20,
-            "updated": "2018-09-27T05:09:22+0000",
-            "vcs_last_commit": "2018-09-27T05:09:22+0000",
-            "vcs_last_fetch": "2018-09-27T05:09:22+0000",
+            "updated": "2018-09-26T22:09:22+0000",
+            "vcs_last_commit": "2018-09-26T22:09:22+0000",
+            "vcs_last_fetch": "2018-09-26T22:09:22+0000",
             "vcs_last_rev": "a98a2459455c14987e5ddaa573cc40a4ad74d4db",
             "vcs_subdir": "",
             "version": "1",
@@ -63,9 +63,9 @@
             "collection": "security",
             "id": 14954,
             "layer": 18,
-            "updated": "2018-09-29T02:09:19+0000",
-            "vcs_last_commit": "2018-09-29T02:09:19+0000",
-            "vcs_last_fetch": "2018-09-29T02:09:19+0000",
+            "updated": "2018-09-28T19:09:19+0000",
+            "vcs_last_commit": "2018-09-28T19:09:19+0000",
+            "vcs_last_fetch": "2018-09-28T19:09:19+0000",
             "vcs_last_rev": "d980ad25c8d6b788ac85d7036b46536d97b2b9ee",
             "vcs_subdir": "",
             "version": null,
@@ -133,9 +133,9 @@
             "collection": "cgl-common",
             "id": 113181,
             "layer": 172,
-            "updated": "2018-09-29T02:09:35+0000",
-            "vcs_last_commit": "2018-09-29T02:09:35+0000",
-            "vcs_last_fetch": "2018-09-29T02:09:35+0000",
+            "updated": "2018-09-28T19:09:35+0000",
+            "vcs_last_commit": "2018-09-28T19:09:35+0000",
+            "vcs_last_fetch": "2018-09-28T19:09:35+0000",
             "vcs_last_rev": "35c561e52279a1ff70935f0a58d75eea047ad76a",
             "vcs_subdir": "meta-cgl-common",
             "version": null,
@@ -348,7 +348,7 @@
             "filename": "resource-agents_4.0.1.bb",
             "filepath": "recipes-cgl/cluster-resource-agents",
             "homepage": "http://sources.redhat.com/cluster/wiki/",
-            "id": 369251,
+            "id": 725170,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 113181,
             "license": "GPLv2+ & LGPLv2+ & GPLv3",
@@ -357,7 +357,7 @@
             "pv": "4.0.1",
             "section": "base",
             "summary": "OCF resource agents for use by compatible cluster managers",
-            "updated": "2018-06-05T02:06:55+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -367,7 +367,7 @@
             "filename": "cluster-glue_1.0.12.bb",
             "filepath": "recipes-cgl/cluster-glue",
             "homepage": "http://clusterlabs.org/",
-            "id": 369252,
+            "id": 725171,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 113181,
             "license": "GPLv2 & LGPLv2.1",
@@ -376,7 +376,7 @@
             "pv": "1.0.12",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-05T02:06:55+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -386,7 +386,7 @@
             "filename": "monit_5.25.2.bb",
             "filepath": "recipes-cgl/monit",
             "homepage": "http://mmonit.com/monit/",
-            "id": 369253,
+            "id": 725172,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 113181,
             "license": "AGPLv3",
@@ -395,7 +395,7 @@
             "pv": "5.25.2",
             "section": "base",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-09-03T07:09:57+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -405,7 +405,7 @@
             "filename": "heartbeat_3.0.6.bb",
             "filepath": "recipes-cgl/heartbeat",
             "homepage": "http://linux-ha.org/",
-            "id": 369254,
+            "id": 725173,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 113181,
             "license": "GPLv2 & LGPLv2+",
@@ -414,7 +414,7 @@
             "pv": "3.0.6",
             "section": "System Environment/Daemons",
             "summary": "Messaging and membership subsystem for High-Availability Linux",
-            "updated": "2018-06-05T02:06:56+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -424,7 +424,7 @@
             "filename": "ucarp_1.5.2.bb",
             "filepath": "recipes-cgl/ucarp",
             "homepage": "http://www.ucarp.org",
-            "id": 369255,
+            "id": 725174,
             "inherits": "autotools gettext siteconfig siteinfo systemd",
             "layerbranch": 113181,
             "license": "BSD-3-Clause",
@@ -433,7 +433,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "Common Address Redundancy Protocol for Unix",
-            "updated": "2018-06-05T02:06:56+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -443,7 +443,7 @@
             "filename": "openais_1.1.4.bb",
             "filepath": "recipes-cgl/openais",
             "homepage": "",
-            "id": 369256,
+            "id": 725175,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 113181,
             "license": "BSD",
@@ -452,7 +452,7 @@
             "pv": "1.1.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-05T02:06:56+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -462,7 +462,7 @@
             "filename": "racoon2_20100526a.bb",
             "filepath": "recipes-cgl/racoon2",
             "homepage": "http://ftp.racoon2.wide.ad.jp/pub/racoon2/",
-            "id": 369257,
+            "id": 725176,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 113181,
             "license": "BSD-3-Clause",
@@ -471,7 +471,7 @@
             "pv": "20100526a",
             "section": "base",
             "summary": "An implementation of key management system for IPsec",
-            "updated": "2018-06-05T02:06:56+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -481,7 +481,7 @@
             "filename": "ocfs2-tools_1.8.5.bb",
             "filepath": "recipes-cgl/ocfs2-tools",
             "homepage": "http://oss.oracle.com/projects/ocfs2-tools/",
-            "id": 369259,
+            "id": 725177,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 113181,
             "license": "GPLv2",
@@ -490,7 +490,7 @@
             "pv": "1.8.5",
             "section": "System Environment/Base",
             "summary": "Tools for managing the Ocfs2 cluster file system",
-            "updated": "2018-09-03T07:09:59+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -500,7 +500,7 @@
             "filename": "crmsh_3.0.3.bb",
             "filepath": "recipes-cgl/crmsh",
             "homepage": "https://crmsh.github.io",
-            "id": 369260,
+            "id": 725178,
             "inherits": "autotools autotools-brokensep distutils-base distutils-common-base python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 113181,
             "license": "GPLv2+",
@@ -509,7 +509,7 @@
             "pv": "3.0.3",
             "section": "base",
             "summary": "Pacemaker command line interface for management and configuration",
-            "updated": "2018-09-03T07:09:57+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -519,7 +519,7 @@
             "filename": "cluster_3.2.0.bb",
             "filepath": "recipes-cgl/cluster",
             "homepage": "https://fedorahosted.org/cluster/wiki/HomePage",
-            "id": 369261,
+            "id": 725179,
             "inherits": "",
             "layerbranch": 113181,
             "license": "GPL-2.0 & LGPL-2.0",
@@ -528,7 +528,7 @@
             "pv": "3.2.0",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-05T02:06:56+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -538,7 +538,7 @@
             "filename": "pacemaker_1.1.19.bb",
             "filepath": "recipes-cgl/pacemaker",
             "homepage": "http://www.clusterlabs.org",
-            "id": 369262,
+            "id": 725180,
             "inherits": "autotools autotools-brokensep pkgconfig python-dir siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 113181,
             "license": "GPLv2+ & LGPLv2.1+",
@@ -547,7 +547,7 @@
             "pv": "1.1.19",
             "section": "base",
             "summary": "Scalable High-Availability cluster resource manager",
-            "updated": "2018-09-29T06:09:37+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -557,8 +557,8 @@
             "filename": "core-image-cgl-initramfs.bb",
             "filepath": "images",
             "homepage": "",
-            "id": 369263,
-            "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "id": 725181,
+            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 113181,
             "license": "MIT",
             "pn": "core-image-cgl-initramfs",
@@ -566,7 +566,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-05T02:06:57+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -576,8 +576,8 @@
             "filename": "core-image-cgl.bb",
             "filepath": "images",
             "homepage": "",
-            "id": 369264,
-            "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "id": 725182,
+            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 113181,
             "license": "",
             "pn": "core-image-cgl",
@@ -585,7 +585,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-05T02:06:57+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -595,7 +595,7 @@
             "filename": "packagegroup-cgl-applications.bb",
             "filepath": "packagegroups",
             "homepage": "",
-            "id": 369265,
+            "id": 725183,
             "inherits": "allarch packagegroup pkgconfig",
             "layerbranch": 113181,
             "license": "MIT",
@@ -604,7 +604,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Application packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-05T02:06:57+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -614,7 +614,7 @@
             "filename": "packagegroup-cgl.bb",
             "filepath": "packagegroups",
             "homepage": "",
-            "id": 369266,
+            "id": 725184,
             "inherits": "allarch packagegroup",
             "layerbranch": 113181,
             "license": "MIT",
@@ -623,7 +623,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-05T02:06:57+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -633,7 +633,7 @@
             "filename": "packagegroup-cgl-swdevtools.bb",
             "filepath": "packagegroups",
             "homepage": "",
-            "id": 369267,
+            "id": 725185,
             "inherits": "allarch packagegroup",
             "layerbranch": 113181,
             "license": "MIT",
@@ -642,7 +642,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Software development tools packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-05T02:06:57+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -652,7 +652,7 @@
             "filename": "packagegroup-cgl-middleware.bb",
             "filepath": "packagegroups",
             "homepage": "",
-            "id": 369268,
+            "id": 725186,
             "inherits": "allarch packagegroup",
             "layerbranch": 113181,
             "license": "MIT",
@@ -661,7 +661,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Middleware packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-05T02:06:57+0000"
+            "updated": "2018-10-05T09:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -671,7 +671,7 @@
             "filename": "packagegroup-cgl-kernel.bb",
             "filepath": "packagegroups",
             "homepage": "",
-            "id": 369269,
+            "id": 725187,
             "inherits": "allarch packagegroup",
             "layerbranch": 113181,
             "license": "MIT",
@@ -680,83 +680,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-06-05T02:06:57+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "libwww-perl provides a simple and consistent API to the World Wide Web",
-            "filename": "libwww-perl_6.35.bb",
-            "filepath": "recipes-perl/perl",
-            "homepage": "https://metacpan.org/release/libwww-perl",
-            "id": 369270,
-            "inherits": "cpan cpan-base perl-version perlnative",
-            "layerbranch": 113181,
-            "license": "Artistic-1.0 | GPL-1.0+",
-            "pn": "libwww-perl",
-            "provides": "libwww-perl ",
-            "pv": "6.35",
-            "section": "libs",
-            "summary": "",
-            "updated": "2018-09-03T07:09:59+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "HTML Tagset bits.",
-            "filename": "libhtml-tagset-perl_3.20.bb",
-            "filepath": "recipes-perl/perl",
-            "homepage": "http://search.cpan.org/dist/HTML-Tagset/",
-            "id": 369271,
-            "inherits": "cpan cpan-base perl-version perlnative",
-            "layerbranch": 113181,
-            "license": "Artistic-1.0 | GPL-1.0+",
-            "pn": "libhtml-tagset-perl",
-            "provides": "libhtml-tagset-perl ",
-            "pv": "3.20",
-            "section": "libs",
-            "summary": "",
-            "updated": "2018-06-05T02:06:57+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Perl extensions for IPv6",
-            "filename": "libsocket6-perl_0.28.bb",
-            "filepath": "recipes-perl/perl",
-            "homepage": "https://metacpan.org/release/Socket6",
-            "id": 369272,
-            "inherits": "cpan cpan-base perl-version perlnative",
-            "layerbranch": 113181,
-            "license": "BSD",
-            "pn": "libsocket6-perl",
-            "provides": "libsocket6-perl ",
-            "pv": "0.28",
-            "section": "libs",
-            "summary": "",
-            "updated": "2018-09-03T07:09:58+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Test::Pod - check for POD errors in files",
-            "filename": "libtest-pod-perl_1.52.bb",
-            "filepath": "recipes-perl/perl",
-            "homepage": "https://github.com/perl-pod/test-pod/",
-            "id": 369273,
-            "inherits": "cpan cpan-base perl-version perlnative",
-            "layerbranch": 113181,
-            "license": "Artistic-1.0 | GPL-1.0+",
-            "pn": "libtest-pod-perl",
-            "provides": "libtest-pod-perl ",
-            "pv": "1.52",
-            "section": "libs",
-            "summary": "",
-            "updated": "2018-09-03T07:09:58+0000"
+            "updated": "2018-10-05T09:10:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -766,7 +690,7 @@
             "filename": "libmailtools-perl_2.20.bb",
             "filepath": "recipes-perl/perl",
             "homepage": "http://search.cpan.org/dist/MailTools/",
-            "id": 369274,
+            "id": 725188,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 113181,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -775,7 +699,83 @@
             "pv": "2.20",
             "section": "libs",
             "summary": "",
-            "updated": "2018-09-03T07:09:58+0000"
+            "updated": "2018-10-05T09:10:29+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Test::Pod - check for POD errors in files",
+            "filename": "libtest-pod-perl_1.52.bb",
+            "filepath": "recipes-perl/perl",
+            "homepage": "https://github.com/perl-pod/test-pod/",
+            "id": 725189,
+            "inherits": "cpan cpan-base perl-version perlnative",
+            "layerbranch": 113181,
+            "license": "Artistic-1.0 | GPL-1.0+",
+            "pn": "libtest-pod-perl",
+            "provides": "libtest-pod-perl ",
+            "pv": "1.52",
+            "section": "libs",
+            "summary": "",
+            "updated": "2018-10-05T09:10:29+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "libwww-perl provides a simple and consistent API to the World Wide Web",
+            "filename": "libwww-perl_6.35.bb",
+            "filepath": "recipes-perl/perl",
+            "homepage": "https://metacpan.org/release/libwww-perl",
+            "id": 725190,
+            "inherits": "cpan cpan-base perl-version perlnative",
+            "layerbranch": 113181,
+            "license": "Artistic-1.0 | GPL-1.0+",
+            "pn": "libwww-perl",
+            "provides": "libwww-perl ",
+            "pv": "6.35",
+            "section": "libs",
+            "summary": "",
+            "updated": "2018-10-05T09:10:29+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "HTML Tagset bits.",
+            "filename": "libhtml-tagset-perl_3.20.bb",
+            "filepath": "recipes-perl/perl",
+            "homepage": "http://search.cpan.org/dist/HTML-Tagset/",
+            "id": 725191,
+            "inherits": "cpan cpan-base perl-version perlnative",
+            "layerbranch": 113181,
+            "license": "Artistic-1.0 | GPL-1.0+",
+            "pn": "libhtml-tagset-perl",
+            "provides": "libhtml-tagset-perl ",
+            "pv": "3.20",
+            "section": "libs",
+            "summary": "",
+            "updated": "2018-10-05T09:10:29+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Perl extensions for IPv6",
+            "filename": "libsocket6-perl_0.28.bb",
+            "filepath": "recipes-perl/perl",
+            "homepage": "https://metacpan.org/release/Socket6",
+            "id": 725192,
+            "inherits": "cpan cpan-base perl-version perlnative",
+            "layerbranch": 113181,
+            "license": "BSD",
+            "pn": "libsocket6-perl",
+            "provides": "libsocket6-perl ",
+            "pv": "0.28",
+            "section": "libs",
+            "summary": "",
+            "updated": "2018-10-05T09:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -785,7 +785,7 @@
             "filename": "initramfs-cgl-boot_1.0.bb",
             "filepath": "recipes-core/initrdscripts",
             "homepage": "",
-            "id": 369275,
+            "id": 725193,
             "inherits": "allarch",
             "layerbranch": 113181,
             "license": "MIT",
@@ -794,7 +794,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Support for having multipath iSCSI devices as root file system",
-            "updated": "2018-06-05T02:06:58+0000"
+            "updated": "2018-10-05T09:10:30+0000"
         }
     ],
     "wrtemplates": []

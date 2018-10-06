@@ -27,9 +27,9 @@
             "collection": "meta-mingw",
             "id": 14949,
             "layer": 50,
-            "updated": "2018-09-25T02:09:47+0000",
-            "vcs_last_commit": "2018-09-25T02:09:47+0000",
-            "vcs_last_fetch": "2018-09-25T02:09:47+0000",
+            "updated": "2018-09-24T19:09:47+0000",
+            "vcs_last_commit": "2018-09-24T19:09:47+0000",
+            "vcs_last_fetch": "2018-09-24T19:09:47+0000",
             "vcs_last_rev": "f7ed27ce06e59e84dc4fb6016df0ddf7827e31bb",
             "vcs_subdir": "",
             "version": null,
@@ -112,7 +112,7 @@
             "filename": "libiconv_1.14.bb",
             "filepath": "recipes-support/libiconv",
             "homepage": "http://www.gnu.org/software/libiconv",
-            "id": 270147,
+            "id": 724436,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 14949,
             "license": "LGPLv3",
@@ -121,7 +121,7 @@
             "pv": "1.14",
             "section": "libs",
             "summary": "Character encoding support library",
-            "updated": "2017-09-26T09:09:33+0000"
+            "updated": "2018-10-05T09:10:49+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -131,7 +131,7 @@
             "filename": "pthreads-win32_2.9.1.bb",
             "filepath": "recipes-devtools/pthreads-win32",
             "homepage": "http://www.sourceware.org/pthreads-win32",
-            "id": 270148,
+            "id": 724437,
             "inherits": "",
             "layerbranch": 14949,
             "license": "LGPLv2.1",
@@ -140,26 +140,7 @@
             "pv": "2.9.1",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:33+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Header files from the MingGW-w64 project",
-            "filename": "nativesdk-mingw-w64-headers_5.0.3.bb",
-            "filepath": "recipes-devtools/mingw-w64",
-            "homepage": "",
-            "id": 270149,
-            "inherits": "autotools nativesdk siteconfig siteinfo",
-            "layerbranch": 14949,
-            "license": "ZPL-2.1",
-            "pn": "nativesdk-mingw-w64-headers",
-            "provides": "nativesdk-mingw-w64-headers ",
-            "pv": "5.0.3",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-06-12T01:06:53+0000"
+            "updated": "2018-10-05T09:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -169,7 +150,7 @@
             "filename": "nativesdk-mingw-w64-runtime_5.0.3.bb",
             "filepath": "recipes-devtools/mingw-w64",
             "homepage": "",
-            "id": 270150,
+            "id": 724438,
             "inherits": "autotools nativesdk siteconfig siteinfo",
             "layerbranch": 14949,
             "license": "ZPL-2.1",
@@ -178,7 +159,26 @@
             "pv": "5.0.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-12T01:06:53+0000"
+            "updated": "2018-10-05T09:10:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Header files from the MingGW-w64 project",
+            "filename": "nativesdk-mingw-w64-headers_5.0.3.bb",
+            "filepath": "recipes-devtools/mingw-w64",
+            "homepage": "",
+            "id": 724439,
+            "inherits": "autotools nativesdk siteconfig siteinfo",
+            "layerbranch": 14949,
+            "license": "ZPL-2.1",
+            "pn": "nativesdk-mingw-w64-headers",
+            "provides": "nativesdk-mingw-w64-headers ",
+            "pv": "5.0.3",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-10-05T09:10:49+0000"
         }
     ],
     "wrtemplates": []

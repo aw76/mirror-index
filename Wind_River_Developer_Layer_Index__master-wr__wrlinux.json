@@ -210,7 +210,7 @@
             "filename": "wr-themes_1.0.bb",
             "filepath": "recipes-graphics/wr-themes",
             "homepage": "http://www.windriver.com",
-            "id": 343615,
+            "id": 725722,
             "inherits": "distro_features_check",
             "layerbranch": 15009,
             "license": "windriver",
@@ -219,7 +219,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2018-10-01T07:10:28+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -229,7 +229,7 @@
             "filename": "aer-inject_git.bb",
             "filepath": "recipes-kernel/aer-inject",
             "homepage": "",
-            "id": 343616,
+            "id": 725723,
             "inherits": "",
             "layerbranch": 15009,
             "license": "GPLv2",
@@ -238,7 +238,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2018-10-01T07:10:25+0000"
+            "updated": "2018-10-05T09:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -248,7 +248,7 @@
             "filename": "vdso-test.bb",
             "filepath": "recipes-kernel/vdso-test",
             "homepage": "",
-            "id": 343617,
+            "id": 725724,
             "inherits": "siteinfo",
             "layerbranch": 15009,
             "license": "GPLv2",
@@ -257,7 +257,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2018-10-01T07:10:25+0000"
+            "updated": "2018-10-05T09:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -267,7 +267,7 @@
             "filename": "mce-test_git.bb",
             "filepath": "recipes-kernel/mce-test",
             "homepage": "",
-            "id": 343618,
+            "id": 725725,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 15009,
             "license": "GPLv2",
@@ -276,7 +276,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2018-10-01T07:10:25+0000"
+            "updated": "2018-10-05T09:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -286,7 +286,7 @@
             "filename": "intel-pcm_2.3a.bb",
             "filepath": "recipes-kernel/intel-pcm",
             "homepage": "http://software.intel.com/en-us/articles/intel-performance-counter-monitor-a-better-way-to-measure-cpu-utilization",
-            "id": 343619,
+            "id": 725726,
             "inherits": "",
             "layerbranch": 15009,
             "license": "BSD",
@@ -295,7 +295,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2018-10-01T07:10:26+0000"
+            "updated": "2018-10-05T09:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -305,7 +305,7 @@
             "filename": "cma-test.bb",
             "filepath": "recipes-kernel/cma-test",
             "homepage": "http://ozlabs.org/~cyeoh/cma/process_vm_readv.txt",
-            "id": 343621,
+            "id": 725727,
             "inherits": "",
             "layerbranch": 15009,
             "license": "PD",
@@ -314,7 +314,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2018-10-01T07:10:26+0000"
+            "updated": "2018-10-05T09:10:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -324,7 +324,7 @@
             "filename": "anspass_git.bb",
             "filepath": "recipes-support/anspass",
             "homepage": "",
-            "id": 343622,
+            "id": 725728,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 15009,
             "license": "LGPLv2",
@@ -333,178 +333,45 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2018-10-01T07:10:26+0000"
+            "updated": "2018-10-05T09:10:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
-            "filename": "packagegroup-xfce.bb",
-            "filepath": "dynamic-layers/xfce-layer/recipes-xfce/packagegroups",
-            "homepage": "",
-            "id": 343623,
-            "inherits": "allarch distro_features_check packagegroup",
-            "layerbranch": 15009,
-            "license": "MIT",
-            "pn": "packagegroup-xfce",
-            "provides": "packagegroup-xfce ",
-            "pv": "1.0",
-            "section": "x11/wm",
-            "summary": "All packages for full XFCE installation",
-            "updated": "2018-10-01T07:10:26+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "A list of commonly used native packages.",
-            "filename": "wr-common-packages-native.bb",
-            "filepath": "recipes-base/wr-common-packages-native",
-            "homepage": "",
-            "id": 343624,
-            "inherits": "native nopackages relocatable",
-            "layerbranch": 15009,
-            "license": "MIT",
-            "pn": "wr-common-packages-native",
-            "provides": "wr-common-packages-native ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-01T07:10:26+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Tools to replace busybox",
-            "filename": "packagegroup-busybox-replacement.bb",
-            "filepath": "recipes-base/packagegroups",
-            "homepage": "",
-            "id": 343625,
-            "inherits": "allarch packagegroup",
-            "layerbranch": 15009,
-            "license": "",
-            "pn": "packagegroup-busybox-replacement",
-            "provides": "packagegroup-busybox-replacement ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "Tools to replace busybox",
-            "updated": "2018-10-01T07:10:27+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "linux-yocto-custom.bb",
-            "filepath": "wrlinux-kernel-dev/recipes-kernel/linux",
-            "homepage": "",
-            "id": 410381,
-            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
-            "layerbranch": 15009,
-            "license": "GPLv2",
-            "pn": "linux-yocto-custom",
-            "provides": "linux-yocto-custom  virtual/kernel",
-            "pv": "1.0",
-            "section": "kernel",
-            "summary": "Linux kernel",
-            "updated": "2018-10-01T07:10:28+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "packagegroup-wr-bsps.bb",
-            "filepath": "wrlinux-distro/recipes-base/packagegroups",
-            "homepage": "",
-            "id": 444073,
-            "inherits": "packagegroup",
-            "layerbranch": 15009,
-            "license": "",
-            "pn": "packagegroup-wr-bsps",
-            "provides": "packagegroup-wr-bsps packagegroup-wr-bsps packagegroup-wr-bsps-dbg packagegroup-wr-bsps-dev",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "Packages required by bsp",
-            "updated": "2018-10-01T07:10:27+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "U-Boot provided by Freescale with focus on  i.MX reference boards.",
-            "filename": "u-boot-imx_2016.03.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "",
-            "id": 445195,
-            "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 15009,
-            "license": "GPLv2+",
-            "pn": "u-boot-imx",
-            "provides": "u-boot-imx virtual/bootloader",
-            "pv": "2016.03",
-            "section": "base",
-            "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-10-01T07:10:27+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Tiny image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently. core-image-tiny-initramfs doesn't actually generate an image but rather generates boot and rootfs artifacts that can subsequently be picked up by external image generation tools such as wic.",
-            "filename": "wrlinux-image-tiny-initramfs.bb",
-            "filepath": "wrlinux-distro/recipes-base/images",
-            "homepage": "",
-            "id": 462310,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
-            "layerbranch": 15009,
-            "license": "MIT",
-            "pn": "wrlinux-image-tiny-initramfs",
-            "provides": "wrlinux-image-tiny-initramfs ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-01T07:10:27+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
+            "description": "The initramfs contains anaconda installer, which supports PXE install (net boot installation)",
             "filename": "wrlinux-image-installer-initramfs.bb",
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
-            "id": 520946,
-            "inherits": "",
+            "id": 725729,
+            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrltemplate_image",
             "layerbranch": 15009,
-            "license": "",
+            "license": "MIT",
             "pn": "wrlinux-image-installer-initramfs",
-            "provides": "",
-            "pv": "",
-            "section": "",
+            "provides": "wrlinux-image-installer-initramfs ",
+            "pv": "1.0",
+            "section": "base",
             "summary": "",
-            "updated": "2018-03-05T03:03:14+0000"
+            "updated": "2018-10-05T09:10:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "An image with Anaconda to do installation.",
             "filename": "wrlinux-image-installer.bb",
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
-            "id": 520947,
-            "inherits": "",
+            "id": 725730,
+            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux wrltemplate",
             "layerbranch": 15009,
-            "license": "",
+            "license": "MIT",
             "pn": "wrlinux-image-installer",
-            "provides": "",
-            "pv": "",
-            "section": "",
+            "provides": "wrlinux-image-installer ",
+            "pv": "1.0",
+            "section": "base",
             "summary": "",
-            "updated": "2018-03-05T03:03:14+0000"
+            "updated": "2018-10-05T09:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -514,7 +381,7 @@
             "filename": "windriver-logos.bb",
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/logos",
             "homepage": "",
-            "id": 520948,
+            "id": 725731,
             "inherits": "allarch",
             "layerbranch": 15009,
             "license": "GPLv2",
@@ -523,203 +390,260 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-01T07:10:28+0000"
+            "updated": "2018-10-05T09:10:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
-            "bugtracker": "https://savannah.nongnu.org/bugs/?group=monit",
-            "description": "Monit is a free open source utility for managing and monitoring, processes, programs, files, directories and filesystems on a UNIX system. Monit conducts automatic maintenance and repair and can execute meaningful causal actions in error situations.",
-            "filename": "monit_4.9.bb",
-            "filepath": "wrlinux-cgl/recipes-cgl/monit",
-            "homepage": "http://mmonit.com/monit/",
-            "id": 682653,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d",
+            "bugtracker": "",
+            "description": "",
+            "filename": "packagegroup-xfce.bb",
+            "filepath": "dynamic-layers/xfce-layer/recipes-xfce/packagegroups",
+            "homepage": "",
+            "id": 725732,
+            "inherits": "allarch distro_features_check packagegroup",
             "layerbranch": 15009,
-            "license": "GPLv2",
-            "pn": "monit",
-            "provides": "monit ",
-            "pv": "4.9",
+            "license": "MIT",
+            "pn": "packagegroup-xfce",
+            "provides": "packagegroup-xfce ",
+            "pv": "1.0",
+            "section": "x11/wm",
+            "summary": "All packages for full XFCE installation",
+            "updated": "2018-10-05T09:10:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A list of commonly used native packages.",
+            "filename": "wr-common-packages-native.bb",
+            "filepath": "recipes-base/wr-common-packages-native",
+            "homepage": "",
+            "id": 725733,
+            "inherits": "native nopackages relocatable",
+            "layerbranch": 15009,
+            "license": "MIT",
+            "pn": "wr-common-packages-native",
+            "provides": "wr-common-packages-native ",
+            "pv": "1.0",
             "section": "base",
-            "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-10-01T07:10:28+0000"
+            "summary": "",
+            "updated": "2018-10-05T09:10:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Tools to replace busybox",
+            "filename": "packagegroup-busybox-replacement.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 725734,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 15009,
+            "license": "",
+            "pn": "packagegroup-busybox-replacement",
+            "provides": "packagegroup-busybox-replacement ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Tools to replace busybox",
+            "updated": "2018-10-05T09:10:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "U-Boot provided by Freescale with focus on  i.MX reference boards.",
+            "filename": "u-boot-imx_2016.03.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 725735,
+            "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 15009,
+            "license": "GPLv2+",
+            "pn": "u-boot-imx",
+            "provides": "u-boot-imx virtual/bootloader",
+            "pv": "2016.03",
+            "section": "base",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2018-10-05T09:10:20+0000"
         }
     ],
     "wrtemplates": [
         {
+            "description": "",
+            "id": 28479,
+            "layerbranch": 15009,
+            "name": "feature/ecryptfs",
+            "updated": "2018-10-05T09:10:17+0000"
+        },
+        {
             "description": "Enable common Managed Build Project (mbp) settings",
-            "id": 14001,
+            "id": 28480,
             "layerbranch": 15009,
             "name": "feature/mbp-project",
-            "updated": "2017-10-11T15:10:12+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add packagegroup-self-hosted to the image",
-            "id": 14002,
+            "id": 28481,
             "layerbranch": 15009,
             "name": "feature/self-hosted",
-            "updated": "2018-03-16T17:03:08+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add gcc-sanitizers to image",
-            "id": 14003,
+            "id": 28482,
             "layerbranch": 15009,
             "name": "feature/gcc-sanitizers",
-            "updated": "2018-06-19T03:06:46+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Enable package-test functionality",
-            "id": 14004,
+            "id": 28483,
             "layerbranch": 15009,
             "name": "feature/ptest",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Enable archiver class and original src mode",
-            "id": 14005,
+            "id": 28484,
             "layerbranch": 15009,
             "name": "feature/archiver",
-            "updated": "2017-10-13T07:10:17+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Set the default syslog to sysklogd",
-            "id": 14006,
+            "id": 28485,
             "layerbranch": 15009,
             "name": "feature/sysklogd",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Enable readonly-root filesystem",
-            "id": 14007,
+            "id": 28486,
             "layerbranch": 15009,
             "name": "feature/readonly-root",
-            "updated": "2018-08-13T06:08:25+0000"
+            "updated": "2018-10-05T09:10:17+0000"
+        },
+        {
+            "description": "",
+            "id": 28487,
+            "layerbranch": 15009,
+            "name": "feature/ntp",
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add on-target package management to image",
-            "id": 14008,
+            "id": 28488,
             "layerbranch": 15009,
             "name": "feature/package-management",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add valgrind to the image",
-            "id": 14009,
+            "id": 28489,
             "layerbranch": 15009,
             "name": "feature/valgrind",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add system and process monitoring utilities to the image",
-            "id": 14010,
+            "id": 28490,
             "layerbranch": 15009,
             "name": "feature/system-stats",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "",
-            "id": 14011,
+            "id": 28491,
             "layerbranch": 15009,
             "name": "feature/rpm-local-keys",
-            "updated": "2017-10-20T05:10:05+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Enable qemu to use native SDL libraries",
-            "id": 14012,
+            "id": 28492,
             "layerbranch": 15009,
             "name": "feature/qemu-sdl",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Enable Data Plane Development Kit (DPDK)",
-            "id": 14013,
+            "id": 28493,
             "layerbranch": 15009,
             "name": "feature/dpdk",
-            "updated": "2018-08-14T07:08:34+0000"
+            "updated": "2018-10-05T09:10:17+0000"
+        },
+        {
+            "description": "",
+            "id": 28494,
+            "layerbranch": 15009,
+            "name": "feature/strict-qa",
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add sftp-server to the image",
-            "id": 14014,
+            "id": 28495,
             "layerbranch": 15009,
             "name": "feature/sftp-server",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add dev packages to image",
-            "id": 14015,
+            "id": 28496,
             "layerbranch": 15009,
             "name": "feature/dev-pkgs",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add gdb and gdbserver to image",
-            "id": 14016,
+            "id": 28497,
             "layerbranch": 15009,
             "name": "feature/gdb",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Enable on-target software development",
-            "id": 14017,
+            "id": 28498,
             "layerbranch": 15009,
             "name": "feature/target-toolchain",
-            "updated": "2017-10-02T22:10:59+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "",
-            "id": 14019,
+            "id": 28499,
+            "layerbranch": 15009,
+            "name": "feature/installer-support",
+            "updated": "2018-10-05T09:10:17+0000"
+        },
+        {
+            "description": "",
+            "id": 28500,
             "layerbranch": 15009,
             "name": "feature/rpm-required-sig",
-            "updated": "2017-10-20T05:10:05+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "Add gdbserver to image",
-            "id": 14020,
+            "id": 28501,
             "layerbranch": 15009,
             "name": "feature/gdbserver",
-            "updated": "2017-10-11T15:10:13+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "",
-            "id": 14021,
+            "id": 28502,
             "layerbranch": 15009,
             "name": "feature/wr-profiling-kernel-overrides",
-            "updated": "2017-10-02T22:10:59+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         },
         {
             "description": "",
-            "id": 15917,
-            "layerbranch": 15009,
-            "name": "feature/ntp",
-            "updated": "2017-10-18T06:10:50+0000"
-        },
-        {
-            "description": "",
-            "id": 22023,
-            "layerbranch": 15009,
-            "name": "feature/installer-support",
-            "updated": "2018-07-03T03:07:10+0000"
-        },
-        {
-            "description": "",
-            "id": 22961,
+            "id": 28503,
             "layerbranch": 15009,
             "name": "feature/gperftools",
-            "updated": "2018-04-11T02:04:31+0000"
-        },
-        {
-            "description": "",
-            "id": 28235,
-            "layerbranch": 15009,
-            "name": "feature/ecryptfs",
-            "updated": "2018-08-27T06:08:24+0000"
-        },
-        {
-            "description": "",
-            "id": 28474,
-            "layerbranch": 15009,
-            "name": "feature/strict-qa",
-            "updated": "2018-09-11T03:09:50+0000"
+            "updated": "2018-10-05T09:10:17+0000"
         }
     ]
 }

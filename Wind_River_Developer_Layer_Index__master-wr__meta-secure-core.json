@@ -41,9 +41,9 @@
             "collection": "secure-core",
             "id": 57001,
             "layer": 149,
-            "updated": "2018-09-27T07:09:24+0000",
-            "vcs_last_commit": "2018-09-27T07:09:24+0000",
-            "vcs_last_fetch": "2018-09-27T07:09:24+0000",
+            "updated": "2018-09-27T00:09:24+0000",
+            "vcs_last_commit": "2018-09-27T00:09:24+0000",
+            "vcs_last_fetch": "2018-09-27T00:09:24+0000",
             "vcs_last_rev": "86bd658399a85d28cf16e718c986ad6b62bc70ed",
             "vcs_subdir": "meta",
             "version": null,
@@ -106,7 +106,7 @@
             "filename": "initrdscripts-secure-core.bb",
             "filepath": "recipes-core/initrdscripts",
             "homepage": "",
-            "id": 343521,
+            "id": 724384,
             "inherits": "",
             "layerbranch": 57001,
             "license": "MIT",
@@ -115,7 +115,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic init for initramfs to mount and pivot root",
-            "updated": "2018-08-16T08:08:33+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -125,8 +125,8 @@
             "filename": "secure-core-minimal-image.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 343522,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "id": 724385,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 57001,
             "license": "MIT",
             "pn": "secure-core-minimal-image",
@@ -134,7 +134,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "The root image of SecureCore.",
-            "updated": "2017-09-26T09:09:53+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -144,7 +144,7 @@
             "filename": "secure-core-image.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 343523,
+            "id": 724386,
             "inherits": "core-image extrausers image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo useradd_base",
             "layerbranch": 57001,
             "license": "MIT",
@@ -153,7 +153,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "The root image of SecureCore.",
-            "updated": "2018-09-28T02:09:52+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -163,7 +163,7 @@
             "filename": "kernel-initramfs.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 343524,
+            "id": 724387,
             "inherits": "kernel-arch linux-kernel-base update-alternatives",
             "layerbranch": 57001,
             "license": "MIT",
@@ -172,7 +172,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2018-09-21T15:09:11+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -182,8 +182,8 @@
             "filename": "secure-core-image-initramfs.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 343525,
-            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "id": 724388,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 57001,
             "license": "MIT",
             "pn": "secure-core-image-initramfs",
@@ -191,7 +191,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:53+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         }
     ],
     "wrtemplates": []

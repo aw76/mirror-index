@@ -41,9 +41,9 @@
             "collection": "signing-key",
             "id": 57003,
             "layer": 129,
-            "updated": "2018-09-27T07:09:24+0000",
-            "vcs_last_commit": "2018-09-27T07:09:24+0000",
-            "vcs_last_fetch": "2018-09-27T07:09:24+0000",
+            "updated": "2018-09-27T00:09:24+0000",
+            "vcs_last_commit": "2018-09-27T00:09:24+0000",
+            "vcs_last_fetch": "2018-09-27T00:09:24+0000",
             "vcs_last_rev": "b485bc7f0e05f36d23eefcf42994d5c7fcbf043d",
             "vcs_subdir": "meta-signing-key",
             "version": null,
@@ -112,7 +112,7 @@
             "filename": "key-store_0.1.bb",
             "filepath": "recipes-support/key-store",
             "homepage": "",
-            "id": 343540,
+            "id": 724429,
             "inherits": "user-key-store",
             "layerbranch": 57003,
             "license": "MIT",
@@ -121,7 +121,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T07:09:04+0000"
+            "updated": "2018-10-05T09:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -131,7 +131,7 @@
             "filename": "sbsigntool_git.bb",
             "filepath": "recipes-devtools/sbsigntool",
             "homepage": "",
-            "id": 715840,
+            "id": 724430,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 57003,
             "license": "GPLv3",
@@ -140,7 +140,26 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "Utilities for signing UEFI binaries for use with secure boot",
-            "updated": "2018-08-28T01:08:33+0000"
+            "updated": "2018-10-05T09:10:44+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This project targets to provide a generic signing framework. This framework separates the signing request and signing process and correspondingly forms the so-called signlet and signaturelet. Each signaturelet only concerns about the details about how to construct the layout of a signature format, and signlet only cares how to construct the signing request. ",
+            "filename": "libsign_git.bb",
+            "filepath": "recipes-devtools/libsign",
+            "homepage": "https://github.com/jiazhang0/libsign",
+            "id": 724431,
+            "inherits": "",
+            "layerbranch": 57003,
+            "license": "BSD-3-Clause",
+            "pn": "libsign",
+            "provides": "libsign ",
+            "pv": "0.3.2+gitX",
+            "section": "devel",
+            "summary": "A generic signing tool framework",
+            "updated": "2018-10-05T09:10:44+0000"
         }
     ],
     "wrtemplates": []

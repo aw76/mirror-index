@@ -76,6 +76,12 @@
             "id": 23143,
             "layerbranch": 14976,
             "required": true
+        },
+        {
+            "dependency": 267,
+            "id": 42307,
+            "layerbranch": 14976,
+            "required": false
         }
     ],
     "layerItems": [
@@ -144,7 +150,7 @@
             "filename": "phpmyadmin_4.8.3.bb",
             "filepath": "recipes-php/phpmyadmin",
             "homepage": "http://www.phpmyadmin.net",
-            "id": 269606,
+            "id": 723756,
             "inherits": "allarch",
             "layerbranch": 14976,
             "license": "GPLv2 & LGPLv3 & MIT",
@@ -153,7 +159,7 @@
             "pv": "4.8.3",
             "section": "base",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2018-09-12T07:09:33+0000"
+            "updated": "2018-10-05T09:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -163,7 +169,7 @@
             "filename": "xdebug_2.6.1.bb",
             "filepath": "recipes-php/xdebug",
             "homepage": "",
-            "id": 269607,
+            "id": 723757,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14976,
             "license": "Xdebug",
@@ -172,7 +178,7 @@
             "pv": "2.6.1",
             "section": "base",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2018-08-28T01:08:17+0000"
+            "updated": "2018-10-05T09:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -182,7 +188,7 @@
             "filename": "webmin_1.850.bb",
             "filepath": "recipes-webadmin/webmin",
             "homepage": "http://www.webmin.com",
-            "id": 269608,
+            "id": 723758,
             "inherits": "perlnative systemd update-rc.d",
             "layerbranch": 14976,
             "license": "BSD",
@@ -191,7 +197,7 @@
             "pv": "1.850",
             "section": "base",
             "summary": "Web-based administration interface",
-            "updated": "2018-03-20T06:03:28+0000"
+            "updated": "2018-10-05T09:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -201,7 +207,7 @@
             "filename": "netdata_git.bb",
             "filepath": "recipes-webadmin/netdata",
             "homepage": "https://github.com/firehol/netdata/",
-            "id": 269609,
+            "id": 723759,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 14976,
             "license": "GPLv3",
@@ -210,7 +216,7 @@
             "pv": "1.8.0+gitX",
             "section": "base",
             "summary": "Real-time performance monitoring",
-            "updated": "2017-11-23T02:11:04+0000"
+            "updated": "2018-10-05T09:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -220,7 +226,7 @@
             "filename": "spawn-fcgi_1.6.4.bb",
             "filepath": "recipes-support/spawn-fcgi",
             "homepage": "http://redmine.lighttpd.net/projects/spawn-fcgi",
-            "id": 269610,
+            "id": 723760,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14976,
             "license": "BSD",
@@ -229,7 +235,7 @@
             "pv": "1.6.4",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -239,7 +245,7 @@
             "filename": "fcgi_git.bb",
             "filepath": "recipes-support/fcgi",
             "homepage": "http://www.fastcgi.com",
-            "id": 269611,
+            "id": 723761,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14976,
             "license": "OML",
@@ -248,7 +254,7 @@
             "pv": "2.4.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-05T02:06:18+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -258,7 +264,7 @@
             "filename": "apache2_2.4.34.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
-            "id": 269612,
+            "id": 723762,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-alternatives update-rc.d",
             "layerbranch": 14976,
             "license": "Apache-2.0",
@@ -267,7 +273,7 @@
             "pv": "2.4.34",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2018-09-04T06:09:57+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -277,7 +283,7 @@
             "filename": "apache2-native_2.4.34.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
-            "id": 269613,
+            "id": 723763,
             "inherits": "autotools native nopackages pkgconfig relocatable siteconfig siteinfo",
             "layerbranch": 14976,
             "license": "Apache-2.0",
@@ -286,7 +292,7 @@
             "pv": "2.4.34",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2018-08-01T06:08:31+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -296,7 +302,7 @@
             "filename": "nginx_1.15.1.bb",
             "filepath": "recipes-httpd/nginx",
             "homepage": "http://nginx.org/",
-            "id": 269614,
+            "id": 723764,
             "inherits": "siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 14976,
             "license": "BSD-2-Clause",
@@ -305,7 +311,7 @@
             "pv": "1.15.1",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2018-09-28T02:09:36+0000"
+            "updated": "2018-10-05T09:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -315,7 +321,7 @@
             "filename": "nginx_1.15.2.bb",
             "filepath": "recipes-httpd/nginx",
             "homepage": "http://nginx.org/",
-            "id": 269615,
+            "id": 723765,
             "inherits": "siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 14976,
             "license": "BSD-2-Clause",
@@ -324,7 +330,7 @@
             "pv": "1.15.2",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2018-09-28T02:09:36+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -334,7 +340,7 @@
             "filename": "monkey_1.5.6.bb",
             "filepath": "recipes-httpd/monkey",
             "homepage": "http://monkey-project.com",
-            "id": 269616,
+            "id": 723766,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14976,
             "license": "Apache-2.0",
@@ -343,7 +349,7 @@
             "pv": "1.5.6",
             "section": "net",
             "summary": "Fast and Lightweight HTTP Server for Linux",
-            "updated": "2018-03-20T06:03:28+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -353,7 +359,7 @@
             "filename": "apache-websocket_git.bb",
             "filepath": "recipes-httpd/apache-mod",
             "homepage": "https://github.com/jchampio/apache-websocket/",
-            "id": 269617,
+            "id": 723767,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 14976,
             "license": "Apache-2.0",
@@ -362,7 +368,7 @@
             "pv": "0.1.1",
             "section": "net",
             "summary": "Websocket module for Apache web server",
-            "updated": "2017-09-26T09:09:16+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -372,7 +378,7 @@
             "filename": "nostromo_1.9.6.bb",
             "filepath": "recipes-httpd/nostromo",
             "homepage": "http://www.nazgul.ch/dev_nostromo.html",
-            "id": 269618,
+            "id": 723768,
             "inherits": "update-rc.d",
             "layerbranch": 14976,
             "license": "MIT",
@@ -381,7 +387,7 @@
             "pv": "1.9.6",
             "section": "base",
             "summary": "A simple, fast and secure HTTP server",
-            "updated": "2018-08-20T07:08:08+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -391,7 +397,7 @@
             "filename": "sthttpd_2.27.1.bb",
             "filepath": "recipes-httpd/sthttpd",
             "homepage": "http://opensource.dyc.edu/sthttpd",
-            "id": 269619,
+            "id": 723769,
             "inherits": "autotools siteconfig siteinfo systemd update-alternatives update-rc.d",
             "layerbranch": 14976,
             "license": "BSD-2-Clause",
@@ -400,7 +406,7 @@
             "pv": "2.27.1",
             "section": "base",
             "summary": "A simple, small, portable, fast, and secure HTTP server",
-            "updated": "2018-08-20T07:08:08+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -410,7 +416,7 @@
             "filename": "hiawatha_10.7.bb",
             "filepath": "recipes-httpd/hiawatha",
             "homepage": "http://www.hiawatha-webserver.org",
-            "id": 269620,
+            "id": 723770,
             "inherits": "cmake systemd update-rc.d",
             "layerbranch": 14976,
             "license": "GPLv2",
@@ -419,7 +425,7 @@
             "pv": "10.7",
             "section": "net",
             "summary": "Lightweight secure web server",
-            "updated": "2018-08-20T07:08:08+0000"
+            "updated": "2018-10-05T09:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -429,7 +435,7 @@
             "filename": "cherokee_git.bb",
             "filepath": "recipes-httpd/cherokee",
             "homepage": "http://www.cherokee-project.com/",
-            "id": 269621,
+            "id": 723771,
             "inherits": "autotools autotools-brokensep binconfig pkgconfig python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14976,
             "license": "GPLv2",
@@ -438,7 +444,7 @@
             "pv": "1.2.104+gitX",
             "section": "network",
             "summary": "Cherokee Web Server fast and secure",
-            "updated": "2017-09-26T09:09:17+0000"
+            "updated": "2018-10-05T09:10:28+0000"
         }
     ],
     "wrtemplates": []

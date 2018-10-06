@@ -27,9 +27,9 @@
             "collection": "yoctobsp",
             "id": 14956,
             "layer": 58,
-            "updated": "2018-09-25T14:09:43+0000",
-            "vcs_last_commit": "2018-09-25T14:09:43+0000",
-            "vcs_last_fetch": "2018-09-25T14:09:43+0000",
+            "updated": "2018-09-25T07:09:43+0000",
+            "vcs_last_commit": "2018-09-25T07:09:43+0000",
+            "vcs_last_fetch": "2018-09-25T07:09:43+0000",
             "vcs_last_rev": "f7d36129adfeb0d0d5fe26675e2668c49573a32d",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
@@ -59,39 +59,39 @@
     ],
     "machines": [
         {
-            "description": "Reference machine configuration for http://beagleboard.org/bone and http://beagleboard.org/black boards",
-            "id": 6131,
-            "layerbranch": 14956,
-            "name": "beaglebone-yocto",
-            "updated": "2018-09-03T07:09:57+0000"
-        },
-        {
             "description": "",
-            "id": 6132,
+            "id": 12626,
             "layerbranch": 14956,
             "name": "mpc8315e-rdb",
-            "updated": "2018-09-03T07:09:57+0000"
+            "updated": "2018-10-05T09:10:55+0000"
+        },
+        {
+            "description": "Reference machine configuration for http://beagleboard.org/bone and http://beagleboard.org/black boards",
+            "id": 12627,
+            "layerbranch": 14956,
+            "name": "beaglebone-yocto",
+            "updated": "2018-10-05T09:10:55+0000"
         },
         {
             "description": " generic X86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 6133,
+            "id": 12628,
             "layerbranch": 14956,
             "name": "genericx86",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-10-05T09:10:55+0000"
         },
         {
             "description": "Edgerouter",
-            "id": 6134,
+            "id": 12629,
             "layerbranch": 14956,
             "name": "edgerouter",
-            "updated": "2018-09-03T07:09:57+0000"
+            "updated": "2018-10-05T09:10:55+0000"
         },
         {
             "description": " generic X86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 6135,
+            "id": 12630,
             "layerbranch": 14956,
             "name": "genericx86-64",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-10-05T09:10:55+0000"
         }
     ],
     "recipes": [
@@ -103,7 +103,7 @@
             "filename": "gma500-gfx-check_1.0.bb",
             "filepath": "recipes-bsp/gma500-gfx-check",
             "homepage": "",
-            "id": 268854,
+            "id": 722285,
             "inherits": "",
             "layerbranch": 14956,
             "license": "GPLv2",
@@ -112,7 +112,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2017-09-26T09:09:15+0000"
+            "updated": "2018-10-05T09:10:56+0000"
         }
     ],
     "wrtemplates": []
