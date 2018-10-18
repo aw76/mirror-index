@@ -1,0 +1,240 @@
+{
+    "CFG": {
+        "BRANCH": "master-wr",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20181015",
+            "comparison": false,
+            "id": 38,
+            "name": "master-wr",
+            "short_description": "Wind River Linux Development",
+            "sort_priority": 1,
+            "update_environment": null,
+            "updated": "2018-10-15T19:10:23+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20181015",
+            "branch": 38,
+            "collection": "core",
+            "id": 14953,
+            "layer": 1,
+            "updated": "2018-10-18T08:10:54+0000",
+            "vcs_last_commit": "2018-10-18T08:10:54+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:54+0000",
+            "vcs_last_rev": "15b878d44531c9b16df7d62d0f3615761c06e099",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 38,
+            "collection": "wrlinux",
+            "id": 15009,
+            "layer": 49,
+            "updated": "2018-10-18T08:10:29+0000",
+            "vcs_last_commit": "2018-10-18T08:10:29+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:29+0000",
+            "vcs_last_rev": "a1e83b9d7f566d6da7ba3ae46aa1750bfe83c9fc",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20181007",
+            "branch": 38,
+            "collection": "intel",
+            "id": 84751,
+            "layer": 166,
+            "updated": "2018-10-07T06:10:55+0000",
+            "vcs_last_commit": "2018-10-07T06:10:55+0000",
+            "vcs_last_fetch": "2018-10-07T06:10:55+0000",
+            "vcs_last_rev": "375ae3b476515372ae10388ea18d0cf2e77f2110",
+            "vcs_subdir": "",
+            "version": "5",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 38,
+            "collection": "intel-x86",
+            "id": 190597,
+            "layer": 32,
+            "updated": "2018-10-18T08:10:09+0000",
+            "vcs_last_commit": "2018-10-18T08:10:09+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:09+0000",
+            "vcs_last_rev": "873335b815cd3b6874639574fc2962da127338c9",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 49,
+            "id": 22155,
+            "layerbranch": 190597,
+            "required": true
+        },
+        {
+            "dependency": 1,
+            "id": 22227,
+            "layerbranch": 190597,
+            "required": true
+        },
+        {
+            "dependency": 166,
+            "id": 40735,
+            "layerbranch": 190597,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Common BSP, also known as intel-x86-32/64, provide a few carefully selected tune options and generic hardware support to cover the majority of current Intel CPUs and devices.  See the README.hardware for more information.",
+            "id": 32,
+            "index_preference": 100,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "intel-x86",
+            "status": "P",
+            "summary": "Common Intel x86 BSP",
+            "updated": "2018-05-30T22:05:07+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/intel-x86",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Official layer for Intel platform/board support. This layer itself (at the top level) contains common components, and then there are sub-layers for each BSP which are listed individually in this index.\r\n\r\nThis layer includes support for DPDK.",
+            "id": 166,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-intel",
+            "status": "P",
+            "summary": "Intel board support common layer",
+            "updated": "2018-05-30T22:05:55+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " a common intel cpu.",
+            "id": 12641,
+            "layerbranch": 190597,
+            "name": "intel-x86-64",
+            "updated": "2018-10-18T08:10:27+0000"
+        },
+        {
+            "description": " a common intel cpu.",
+            "id": 12642,
+            "layerbranch": 190597,
+            "name": "intel-x86-32",
+            "updated": "2018-10-18T08:10:27+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "TMON is conceived as a tool to help visualize, tune, and test the complex thermal subsystem",
+            "filename": "tmon_1.0.bb",
+            "filepath": "recipes-kernel/tmon",
+            "homepage": "",
+            "id": 725810,
+            "inherits": "",
+            "layerbranch": 190597,
+            "license": "GPLv2",
+            "pn": "tmon",
+            "provides": "tmon ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
+            "updated": "2018-10-05T09:10:37+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "rtl8723bs-bt_git.bb",
+            "filepath": "recipes-bsp/rtl8723bs",
+            "homepage": "",
+            "id": 725811,
+            "inherits": "",
+            "layerbranch": 190597,
+            "license": "GPLv2",
+            "pn": "rtl8723bs-bt",
+            "provides": "rtl8723bs-bt ",
+            "pv": "git",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-10-05T09:10:37+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 28506,
+            "layerbranch": 190597,
+            "name": "default",
+            "updated": "2018-10-05T09:10:36+0000"
+        }
+    ]
+}
