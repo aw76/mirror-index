@@ -8,43 +8,43 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180927",
+            "bitbake_branch": "wr-10.18-20181015",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-28T02:09:55+0000",
+            "updated": "2018-10-15T19:10:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-04T18:10:49+0000",
-            "vcs_last_commit": "2018-10-04T18:10:49+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:49+0000",
-            "vcs_last_rev": "5cfcd412afb65cafd66d15a3de12d6f8df9fcdab",
+            "updated": "2018-10-18T08:10:54+0000",
+            "vcs_last_commit": "2018-10-18T08:10:54+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:54+0000",
+            "vcs_last_rev": "15b878d44531c9b16df7d62d0f3615761c06e099",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181007",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-09-28T20:09:44+0000",
-            "vcs_last_commit": "2018-09-28T20:09:44+0000",
-            "vcs_last_fetch": "2018-09-28T20:09:44+0000",
-            "vcs_last_rev": "ffab1ee77a2055a857d9782066217df548b37316",
+            "updated": "2018-10-07T06:10:55+0000",
+            "vcs_last_commit": "2018-10-07T06:10:55+0000",
+            "vcs_last_fetch": "2018-10-07T06:10:55+0000",
+            "vcs_last_rev": "375ae3b476515372ae10388ea18d0cf2e77f2110",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": null
@@ -333,7 +333,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libyami/issues/new",
             "description": "Yet Another Media Infrastructure light weight hardware codec library base on VA-API ",
-            "filename": "libyami_git.bb",
+            "filename": "libyami_1.3.1.bb",
             "filepath": "recipes-multimedia/libyami",
             "homepage": "https://github.com/intel/libyami",
             "id": 724417,
@@ -342,17 +342,17 @@
             "license": "Apache-2.0",
             "pn": "libyami",
             "provides": "libyami ",
-            "pv": "1.3.0+gitX",
+            "pv": "1.3.1",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-08T07:10:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libyami-utils/issues/new",
             "description": "Applications and Scripts for libyami.",
-            "filename": "libyami-utils_git.bb",
+            "filename": "libyami-utils_1.3.1.bb",
             "filepath": "recipes-multimedia/libyami",
             "homepage": "https://github.com/intel/libyami-utils",
             "id": 724418,
@@ -361,10 +361,10 @@
             "license": "Apache-2.0",
             "pn": "libyami-utils",
             "provides": "libyami-utils ",
-            "pv": "1.3.0+gitX",
+            "pv": "1.3.1",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-08T07:10:12+0000"
         },
         {
             "bbclassextend": "",

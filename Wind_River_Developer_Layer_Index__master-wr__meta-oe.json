@@ -8,43 +8,43 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180927",
+            "bitbake_branch": "wr-10.18-20181015",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-28T02:09:55+0000",
+            "updated": "2018-10-15T19:10:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-04T18:10:49+0000",
-            "vcs_last_commit": "2018-10-04T18:10:49+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:49+0000",
-            "vcs_last_rev": "5cfcd412afb65cafd66d15a3de12d6f8df9fcdab",
+            "updated": "2018-10-18T08:10:54+0000",
+            "vcs_last_commit": "2018-10-18T08:10:54+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:54+0000",
+            "vcs_last_rev": "15b878d44531c9b16df7d62d0f3615761c06e099",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-10-04T18:10:14+0000",
-            "vcs_last_commit": "2018-10-04T18:10:14+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:14+0000",
-            "vcs_last_rev": "25c0e39c636d9523172eea525e373e0c4c8541b2",
+            "updated": "2018-10-15T04:10:08+0000",
+            "vcs_last_commit": "2018-10-15T04:10:08+0000",
+            "vcs_last_fetch": "2018-10-15T04:10:08+0000",
+            "vcs_last_rev": "472ff0a9bae961838418f1ba6150a7006041e8a8",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -1812,7 +1812,7 @@
             "pv": "2.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-08T07:10:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -2287,25 +2287,6 @@
             "pv": "20170731",
             "section": "base",
             "summary": "A font editor",
-            "updated": "2018-10-05T09:10:42+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "UMIP is an open source implementation of Mobile IPv6 and NEMO Basic Support for Linux. It is released under the GPLv2 license. It supports the following IETF RFC: RFC6275 (Mobile IPv6), RFC3963 (NEMO), RFC3776 and RFC4877 (IPsec and IKEv2).",
-            "filename": "umip_1.0.bb",
-            "filepath": "recipes-connectivity/umip",
-            "homepage": "http://umip.org/",
-            "id": 723203,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d",
-            "layerbranch": 14965,
-            "license": "GPLv2",
-            "pn": "umip",
-            "provides": "umip ",
-            "pv": "1.0",
-            "section": "System Environment/Base",
-            "summary": "Mobile IPv6 and NEMO for Linux",
             "updated": "2018-10-05T09:10:42+0000"
         },
         {
@@ -2806,25 +2787,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Blueman is a GTK+ Bluetooth Manager",
-            "filename": "blueman_git.bb",
-            "filepath": "recipes-connectivity/blueman",
-            "homepage": "",
-            "id": 723230,
-            "inherits": "autotools gsettings gtk-icon-cache python3-dir python3native siteconfig siteinfo systemd",
-            "layerbranch": 14965,
-            "license": "GPLv3",
-            "pn": "blueman",
-            "provides": "blueman ",
-            "pv": "2.0.5+gitX",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-05T09:10:47+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "WvDial is a program that makes it easy to connect your Linux workstation to the Internet.",
             "filename": "wvdial_1.61.bb",
             "filepath": "recipes-connectivity/wvdial",
@@ -3187,7 +3149,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The core analysis suite is a self-contained tool that can be used toinvestigate either live systems, kernel core dumps created from thenetdump, diskdump and kdump packages from Red Hat Linux, the mcore kernel patchoffered by Mission Critical Linux, or the LKCD kernel patch.",
-            "filename": "crash_7.2.3.bb",
+            "filename": "crash_7.2.4.bb",
             "filepath": "recipes-kernel/crash",
             "homepage": "http://people.redhat.com/anderson",
             "id": 723250,
@@ -3196,10 +3158,10 @@
             "license": "GPLv3",
             "pn": "crash",
             "provides": "crash ",
-            "pv": "7.2.3",
+            "pv": "7.2.4",
             "section": "devel",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-15T19:10:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4190,7 +4152,7 @@
             "updated": "2018-10-05T09:10:00+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used",
@@ -4206,7 +4168,7 @@
             "pv": "2.2.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:00+0000"
+            "updated": "2018-10-15T19:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -4966,7 +4928,7 @@
             "pv": "1.14",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2018-10-08T07:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5030,19 +4992,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The glog library implements application-level logging. This library provides logging APIs based on C++-style streams and various helper macros.",
-            "filename": "glog_0.3.4.bb",
+            "filename": "glog_0.3.5.bb",
             "filepath": "recipes-support/glog",
             "homepage": "https://github.com/google/glog",
             "id": 723347,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "cmake",
             "layerbranch": 14965,
             "license": "BSD-3-Clause",
             "pn": "glog",
             "provides": "glog ",
-            "pv": "0.3.4",
+            "pv": "0.3.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2018-10-15T19:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -5479,7 +5441,7 @@
             "pv": "3.0",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-08T07:10:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6695,7 +6657,7 @@
             "pv": "2.4.46",
             "section": "libs",
             "summary": "OpenLDAP Directory Service",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2018-10-15T19:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -6854,7 +6816,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "poppler_0.67.0.bb",
+            "filename": "poppler_0.69.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 723443,
@@ -6863,10 +6825,10 @@
             "license": "GPLv2",
             "pn": "poppler",
             "provides": "poppler ",
-            "pv": "0.67.0",
+            "pv": "0.69.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2018-10-08T07:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -7740,7 +7702,7 @@
             "pv": "4.0.1+gitX",
             "section": "base",
             "summary": "mongodb",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2018-10-08T07:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -8763,10 +8725,10 @@
             "license": "GPLv2+",
             "pn": "libcec",
             "provides": "libcec ",
-            "pv": "4.0.1+gitrX",
+            "pv": "4.0.2+gitrX",
             "section": "base",
             "summary": "USB CEC Adaptor communication Library",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2018-10-08T07:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -9447,10 +9409,10 @@
             "license": "GPLv2+",
             "pn": "p8platform",
             "provides": "p8platform ",
-            "pv": "2.1.0",
+            "pv": "2.1.0.1",
             "section": "base",
             "summary": "Platform support library used by libCEC and binary add-ons for Kodi",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-10-08T07:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -10131,10 +10093,10 @@
             "license": "LGPLv2.1",
             "pn": "libhugetlbfs",
             "provides": "libhugetlbfs ",
-            "pv": "2.20",
+            "pv": "2.21",
             "section": "base",
             "summary": "A library which provides easy access to huge pages of memory",
-            "updated": "2018-10-05T09:10:54+0000"
+            "updated": "2018-10-08T07:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -10666,7 +10628,7 @@
             "pv": "5.1.1.r37",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-10-05T09:10:59+0000"
+            "updated": "2018-10-08T07:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -11171,7 +11133,7 @@
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 723670,
-            "inherits": "",
+            "inherits": "pkgconfig",
             "layerbranch": 14965,
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
@@ -11179,7 +11141,7 @@
             "pv": "8.12.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-10-15T19:10:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -11623,7 +11585,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "sip_4.19.12.bb",
+            "filename": "sip_4.19.13.bb",
             "filepath": "recipes-devtools/sip",
             "homepage": "http://www.riverbankcomputing.co.uk/sip",
             "id": 723694,
@@ -11632,10 +11594,10 @@
             "license": "GPLv2+",
             "pn": "sip",
             "provides": "sip ",
-            "pv": "4.19.12",
+            "pv": "4.19.13",
             "section": "devel",
             "summary": "SIP is a C++/Python Wrapper Generator",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-10-08T07:10:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -12202,10 +12164,10 @@
             "license": "Apache-2.0",
             "pn": "dbus-broker",
             "provides": "dbus-broker ",
-            "pv": "13+gitX",
+            "pv": "16+gitX",
             "section": "base",
             "summary": "dbus broker",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-10-15T19:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -12434,6 +12396,139 @@
             "section": "base",
             "summary": "A user tool to support sleeping some number of microseconds",
             "updated": "2018-10-05T09:10:17+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Crypto and TLS for C++11",
+            "filename": "botan_2.7.0.bb",
+            "filepath": "recipes-crypto/botan",
+            "homepage": "https://botan.randombit.net",
+            "id": 733042,
+            "inherits": "lib_package python3-dir python3native siteinfo",
+            "layerbranch": 14965,
+            "license": "BSD-2-Clause",
+            "pn": "botan",
+            "provides": "botan ",
+            "pv": "2.7.0",
+            "section": "libs",
+            "summary": "",
+            "updated": "2018-10-08T07:10:48+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "nlohmann-json_git.bb",
+            "filepath": "recipes-devtools/nlohmann-json",
+            "homepage": "https://nlohmann.github.io/json/",
+            "id": 733043,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "nlohmann-json",
+            "provides": "nlohmann-json ",
+            "pv": "3.3.0+gitX",
+            "section": "libs",
+            "summary": "JSON for modern C++",
+            "updated": "2018-10-15T19:10:20+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "sip3_4.19.13.bb",
+            "filepath": "recipes-devtools/sip",
+            "homepage": "http://www.riverbankcomputing.co.uk/sip",
+            "id": 733044,
+            "inherits": "python3-dir python3native",
+            "layerbranch": 14965,
+            "license": "GPLv2+",
+            "pn": "sip3",
+            "provides": "sip3 ",
+            "pv": "4.19.13",
+            "section": "devel",
+            "summary": "SIP is a C++/Python Wrapper Generator",
+            "updated": "2018-10-08T07:10:49+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "yasm_git.bb",
+            "filepath": "recipes-devtools/yasm",
+            "homepage": "http://www.tortall.net/projects/yasm/",
+            "id": 733045,
+            "inherits": "autotools gettext python-dir pythonnative siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "BSD",
+            "pn": "yasm",
+            "provides": "yasm ",
+            "pv": "1.3.0+gitX",
+            "section": "base",
+            "summary": "x86 (SSE) assembler supporting NASM and GAS-syntaxes",
+            "updated": "2018-10-08T07:10:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libsdl-gfx_2.0.25.bb",
+            "filepath": "recipes-graphics/libsdl",
+            "homepage": "",
+            "id": 733046,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "Zlib",
+            "pn": "libsdl-gfx",
+            "provides": "libsdl-gfx ",
+            "pv": "2.0.25",
+            "section": "libs",
+            "summary": "SDL graphics drawing primitives and other support functions",
+            "updated": "2018-10-08T07:10:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "nvme-cli_1.6.bb",
+            "filepath": "recipes-bsp/nvme-cli",
+            "homepage": "https://github.com/linux-nvme/nvme-cli",
+            "id": 776536,
+            "inherits": "bash-completion",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "nvme-cli",
+            "provides": "nvme-cli ",
+            "pv": "1.6+gitX",
+            "section": "console/utils",
+            "summary": "NVMe management command line interface",
+            "updated": "2018-10-15T19:10:21+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "valijson_git.bb",
+            "filepath": "recipes-devtools/valijson",
+            "homepage": "https://github.com/tristanpenman/valijson",
+            "id": 776537,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "BSD-2-Clause",
+            "pn": "valijson",
+            "provides": "valijson ",
+            "pv": "0.1+gitX",
+            "section": "base",
+            "summary": "Header-only C++ library for JSON Schema validation",
+            "updated": "2018-10-15T19:10:22+0000"
         }
     ],
     "wrtemplates": []

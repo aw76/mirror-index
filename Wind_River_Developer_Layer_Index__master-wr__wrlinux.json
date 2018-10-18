@@ -8,29 +8,29 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180927",
+            "bitbake_branch": "wr-10.18-20181015",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-28T02:09:55+0000",
+            "updated": "2018-10-15T19:10:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-04T18:10:49+0000",
-            "vcs_last_commit": "2018-10-04T18:10:49+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:49+0000",
-            "vcs_last_rev": "5cfcd412afb65cafd66d15a3de12d6f8df9fcdab",
+            "updated": "2018-10-18T08:10:54+0000",
+            "vcs_last_commit": "2018-10-18T08:10:54+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:54+0000",
+            "vcs_last_rev": "15b878d44531c9b16df7d62d0f3615761c06e099",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -41,10 +41,10 @@
             "collection": "wr-template",
             "id": 15008,
             "layer": 55,
-            "updated": "2018-10-04T09:10:18+0000",
-            "vcs_last_commit": "2018-10-04T09:10:18+0000",
-            "vcs_last_fetch": "2018-10-04T09:10:18+0000",
-            "vcs_last_rev": "2857f7264510c61dffaaa8d01ab3d1af491667f3",
+            "updated": "2018-10-07T07:10:46+0000",
+            "vcs_last_commit": "2018-10-07T07:10:46+0000",
+            "vcs_last_fetch": "2018-10-07T07:10:46+0000",
+            "vcs_last_rev": "d9d3376e87a11de1a9e4f695ead31f89b8e281d1",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -55,10 +55,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-10-03T06:10:26+0000",
-            "vcs_last_commit": "2018-10-03T06:10:26+0000",
-            "vcs_last_fetch": "2018-10-03T06:10:26+0000",
-            "vcs_last_rev": "6825e268c49a36f2b106930faa60c718fb7815b0",
+            "updated": "2018-10-18T08:10:29+0000",
+            "vcs_last_commit": "2018-10-18T08:10:29+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:29+0000",
+            "vcs_last_rev": "a1e83b9d7f566d6da7ba3ae46aa1750bfe83c9fc",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": null
@@ -219,7 +219,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2018-10-18T00:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -238,7 +238,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2018-10-15T11:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -257,7 +257,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2018-10-15T11:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -276,7 +276,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2018-10-15T11:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -295,7 +295,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2018-10-15T11:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -314,7 +314,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2018-10-15T11:10:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -333,7 +333,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2018-10-15T11:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -344,7 +344,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 725729,
-            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrltemplate_image",
+            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 15009,
             "license": "MIT",
             "pn": "wrlinux-image-installer-initramfs",
@@ -352,7 +352,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2018-10-15T11:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -363,7 +363,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 725730,
-            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux wrltemplate",
+            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux",
             "layerbranch": 15009,
             "license": "MIT",
             "pn": "wrlinux-image-installer",
@@ -371,7 +371,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2018-10-15T11:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -390,7 +390,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2018-10-15T11:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -409,7 +409,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2018-10-15T11:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -428,7 +428,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-10-17T11:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -447,7 +447,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-10-15T11:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -466,7 +466,26 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-10-15T11:10:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-libc-headers-custom.bb",
+            "filepath": "wrlinux-kernel-dev/recipes-kernel/linux-libc-headers",
+            "homepage": "",
+            "id": 754636,
+            "inherits": "",
+            "layerbranch": 15009,
+            "license": "",
+            "pn": "linux-libc-headers-custom",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "summary": "",
+            "updated": "2018-10-11T23:10:16+0000"
         }
     ],
     "wrtemplates": [
@@ -573,7 +592,7 @@
             "id": 28493,
             "layerbranch": 15009,
             "name": "feature/dpdk",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2018-10-18T08:10:25+0000"
         },
         {
             "description": "",
@@ -644,6 +663,13 @@
             "layerbranch": 15009,
             "name": "feature/gperftools",
             "updated": "2018-10-05T09:10:17+0000"
+        },
+        {
+            "description": "",
+            "id": 29389,
+            "layerbranch": 15009,
+            "name": "feature/kernel-hardening",
+            "updated": "2018-10-11T01:10:23+0000"
         }
     ]
 }

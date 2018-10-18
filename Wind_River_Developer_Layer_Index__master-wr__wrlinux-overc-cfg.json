@@ -1,0 +1,63 @@
+{
+    "CFG": {
+        "BRANCH": "master-wr",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20181015",
+            "comparison": false,
+            "id": 38,
+            "name": "master-wr",
+            "short_description": "Wind River Linux Development",
+            "sort_priority": 1,
+            "update_environment": null,
+            "updated": "2018-10-15T19:10:23+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 38,
+            "collection": "wrlinux-overc-cfg",
+            "id": 836942,
+            "layer": 270,
+            "updated": "2018-10-09T16:10:14+0000",
+            "vcs_last_commit": "2018-10-09T16:10:14+0000",
+            "vcs_last_fetch": "2018-10-09T16:10:14+0000",
+            "vcs_last_rev": "b6dbfc2ccd6b45b5d635dfd0189199d66bb8c955",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "Wind River Linux OverC configuration elements, including supported hash and PR values.",
+            "id": 270,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux-overc-cfg",
+            "status": "P",
+            "summary": "wrlinux-overc configuration",
+            "updated": "2018-10-09T10:10:51+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wrlinux-overc-cfg",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wrlinux-overc-cfg/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}

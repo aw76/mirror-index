@@ -8,43 +8,43 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180927",
+            "bitbake_branch": "wr-10.18-20181015",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-28T02:09:55+0000",
+            "updated": "2018-10-15T19:10:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180925",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 38,
             "collection": "gplv2",
             "id": 14948,
             "layer": 115,
-            "updated": "2018-10-04T17:10:22+0000",
-            "vcs_last_commit": "2018-10-04T17:10:22+0000",
-            "vcs_last_fetch": "2018-10-04T17:10:22+0000",
-            "vcs_last_rev": "7da7fe810495568d186cf0a043230ef4630077ec",
+            "updated": "2018-10-10T02:10:43+0000",
+            "vcs_last_commit": "2018-10-10T02:10:43+0000",
+            "vcs_last_fetch": "2018-10-10T02:10:43+0000",
+            "vcs_last_rev": "d1e788bae61a83603407d100bf7d219da8d5bb64",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-04T18:10:49+0000",
-            "vcs_last_commit": "2018-10-04T18:10:49+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:49+0000",
-            "vcs_last_rev": "5cfcd412afb65cafd66d15a3de12d6f8df9fcdab",
+            "updated": "2018-10-18T08:10:54+0000",
+            "vcs_last_commit": "2018-10-18T08:10:54+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:54+0000",
+            "vcs_last_rev": "15b878d44531c9b16df7d62d0f3615761c06e099",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -216,7 +216,7 @@
             "pv": "3.3.30",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2018-10-11T00:10:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -596,7 +596,7 @@
             "pv": "0.97",
             "section": "bootloaders",
             "summary": "GRUB is the GRand Unified Bootloader",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2018-10-11T00:10:41+0000"
         },
         {
             "bbclassextend": "",

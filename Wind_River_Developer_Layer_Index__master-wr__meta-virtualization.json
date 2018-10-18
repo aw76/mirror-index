@@ -8,99 +8,99 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20180927",
+            "bitbake_branch": "wr-10.18-20181015",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-09-28T02:09:55+0000",
+            "updated": "2018-10-15T19:10:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2018-10-04T18:10:06+0000",
-            "vcs_last_commit": "2018-10-04T18:10:06+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:06+0000",
-            "vcs_last_rev": "0c970af1fb6b06a258166c02f928280c94af9952",
+            "updated": "2018-10-17T16:10:40+0000",
+            "vcs_last_commit": "2018-10-17T16:10:40+0000",
+            "vcs_last_fetch": "2018-10-17T16:10:40+0000",
+            "vcs_last_rev": "c08db11561ae0a0e591d975c528676dbb529dbf6",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-04T18:10:49+0000",
-            "vcs_last_commit": "2018-10-04T18:10:49+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:49+0000",
-            "vcs_last_rev": "5cfcd412afb65cafd66d15a3de12d6f8df9fcdab",
+            "updated": "2018-10-18T08:10:54+0000",
+            "vcs_last_commit": "2018-10-18T08:10:54+0000",
+            "vcs_last_fetch": "2018-10-18T08:10:54+0000",
+            "vcs_last_rev": "15b878d44531c9b16df7d62d0f3615761c06e099",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2018-10-04T18:10:14+0000",
-            "vcs_last_commit": "2018-10-04T18:10:14+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:14+0000",
-            "vcs_last_rev": "25c0e39c636d9523172eea525e373e0c4c8541b2",
+            "updated": "2018-10-15T04:10:05+0000",
+            "vcs_last_commit": "2018-10-15T04:10:05+0000",
+            "vcs_last_fetch": "2018-10-15T04:10:05+0000",
+            "vcs_last_rev": "6682aaecd3ea7e8adc6efffe21183246d70d6502",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-10-04T18:10:14+0000",
-            "vcs_last_commit": "2018-10-04T18:10:14+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:14+0000",
-            "vcs_last_rev": "25c0e39c636d9523172eea525e373e0c4c8541b2",
+            "updated": "2018-10-15T04:10:08+0000",
+            "vcs_last_commit": "2018-10-15T04:10:08+0000",
+            "vcs_last_fetch": "2018-10-15T04:10:08+0000",
+            "vcs_last_rev": "17a20a9292bcc868d9bbf1ae7e85aeab13749bcd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-10-04T18:10:14+0000",
-            "vcs_last_commit": "2018-10-04T18:10:14+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:14+0000",
-            "vcs_last_rev": "25c0e39c636d9523172eea525e373e0c4c8541b2",
+            "updated": "2018-10-15T04:10:08+0000",
+            "vcs_last_commit": "2018-10-15T04:10:08+0000",
+            "vcs_last_fetch": "2018-10-15T04:10:08+0000",
+            "vcs_last_rev": "472ff0a9bae961838418f1ba6150a7006041e8a8",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-10-04T18:10:14+0000",
-            "vcs_last_commit": "2018-10-04T18:10:14+0000",
-            "vcs_last_fetch": "2018-10-04T18:10:14+0000",
-            "vcs_last_rev": "25c0e39c636d9523172eea525e373e0c4c8541b2",
+            "updated": "2018-10-15T04:10:05+0000",
+            "vcs_last_commit": "2018-10-15T04:10:05+0000",
+            "vcs_last_fetch": "2018-10-15T04:10:05+0000",
+            "vcs_last_rev": "6682aaecd3ea7e8adc6efffe21183246d70d6502",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -292,7 +292,7 @@
             "pv": "v2.6.2",
             "section": "base",
             "summary": "The Docker toolset to pack, ship, store, and deliver content",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2018-10-15T19:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -349,7 +349,7 @@
             "pv": "0.2.0-dev+gitX",
             "section": "base",
             "summary": "A collection of tools for working with the OCI image format specification",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2018-10-15T21:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -444,7 +444,7 @@
             "pv": "0.1.0+gitX",
             "section": "base",
             "summary": "oci-runtime-tool is a collection of tools for working with the OCI runtime specification",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2018-10-15T21:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -710,7 +710,7 @@
             "pv": "18.03.0+git708b068d3095c6a6be939eb2da78c921d2e945e2",
             "section": "base",
             "summary": "Linux container runtime",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2018-10-15T21:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -748,7 +748,7 @@
             "pv": "2.10.0+5563e309b80bbea9bff538e71ecfd7e5e538bab9",
             "section": "networking",
             "summary": "OpenvSwitch",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-17T16:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -831,7 +831,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A toolkit to interact with the virtualization capabilities of recent versions of Linux.",
-            "filename": "libvirt_4.5.0.bb",
+            "filename": "libvirt_4.7.0.bb",
             "filepath": "recipes-extended/libvirt",
             "homepage": "http://libvirt.org",
             "id": 725224,
@@ -840,10 +840,10 @@
             "license": "LGPLv2.1+ & GPLv2+",
             "pn": "libvirt",
             "provides": "libvirt ",
-            "pv": "4.5.0",
+            "pv": "4.7.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-15T23:10:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -900,7 +900,7 @@
             "pv": "gitrX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-15T19:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -995,7 +995,7 @@
             "pv": "1.11.2",
             "section": "firmware",
             "summary": "",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2018-10-15T19:10:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -1150,25 +1150,6 @@
             "updated": "2018-10-05T09:10:41+0000"
         },
         {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "This is a cross development C compiler, assembler and linker environment for the production of 8086 executables (Optionally MSDOS COM)",
-            "filename": "iasl_20160527.bb",
-            "filepath": "recipes-extended/iasl",
-            "homepage": "http://www.acpica.org/",
-            "id": 725241,
-            "inherits": "",
-            "layerbranch": 14952,
-            "license": "Intel-ACPI",
-            "pn": "iasl",
-            "provides": "iasl ",
-            "pv": "20160527",
-            "section": "console/tools",
-            "summary": "Intel ASL compiler/decompiler",
-            "updated": "2018-10-05T09:10:41+0000"
-        },
-        {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
@@ -1261,7 +1242,7 @@
             "pv": "4.12+gitX",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2018-10-15T19:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1280,7 +1261,7 @@
             "pv": "4.11.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2018-10-15T19:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2212,6 +2193,63 @@
             "section": "base",
             "summary": "Hypervisor-based Runtime for OCI",
             "updated": "2018-10-05T09:10:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "lxcfs_3.0.1.bb",
+            "filepath": "recipes-containers/lxcfs",
+            "homepage": "",
+            "id": 733049,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
+            "layerbranch": 14952,
+            "license": "Apache-2.0",
+            "pn": "lxcfs",
+            "provides": "lxcfs ",
+            "pv": "3.0.1",
+            "section": "base",
+            "summary": "LXCFS is a userspace filesystem created to avoid kernel limitations",
+            "updated": "2018-10-08T07:10:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ceph_13.2.1.bb",
+            "filepath": "recipes-extended/ceph",
+            "homepage": "",
+            "id": 733050,
+            "inherits": "cmake python-dir pythonnative",
+            "layerbranch": 14952,
+            "license": "LGPLv2.1 & GPLv2 & Unknown & Apache-2.0 & MIT",
+            "pn": "ceph",
+            "provides": "ceph ",
+            "pv": "13.2.1",
+            "section": "base",
+            "summary": "User space components of the Ceph file system",
+            "updated": "2018-10-11T00:10:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "oath_2.6.2.bb",
+            "filepath": "recipes-extended/oath",
+            "homepage": "",
+            "id": 733051,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 14952,
+            "license": "GPLv3 & LGPLv2.1",
+            "pn": "oath",
+            "provides": "oath ",
+            "pv": "2.6.2",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-10-08T07:10:48+0000"
         }
     ],
     "wrtemplates": []
