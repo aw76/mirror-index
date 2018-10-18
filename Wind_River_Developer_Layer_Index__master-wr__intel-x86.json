@@ -69,10 +69,10 @@
             "collection": "intel-x86",
             "id": 190597,
             "layer": 32,
-            "updated": "2018-10-18T08:10:09+0000",
-            "vcs_last_commit": "2018-10-18T08:10:09+0000",
-            "vcs_last_fetch": "2018-10-18T08:10:09+0000",
-            "vcs_last_rev": "873335b815cd3b6874639574fc2962da127338c9",
+            "updated": "2018-10-18T12:10:41+0000",
+            "vcs_last_commit": "2018-10-18T12:10:41+0000",
+            "vcs_last_fetch": "2018-10-18T12:10:41+0000",
+            "vcs_last_rev": "c666bf43352cc54a69c420ddbbba3edd1d08b361",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": null
@@ -175,17 +175,17 @@
     "machines": [
         {
             "description": " a common intel cpu.",
-            "id": 12641,
+            "id": 12901,
             "layerbranch": 190597,
             "name": "intel-x86-64",
-            "updated": "2018-10-18T08:10:27+0000"
+            "updated": "2018-10-18T12:10:53+0000"
         },
         {
             "description": " a common intel cpu.",
-            "id": 12642,
+            "id": 12902,
             "layerbranch": 190597,
             "name": "intel-x86-32",
-            "updated": "2018-10-18T08:10:27+0000"
+            "updated": "2018-10-18T12:10:53+0000"
         }
     ],
     "recipes": [
@@ -206,7 +206,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-18T12:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -225,16 +225,16 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-18T12:10:52+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 28506,
+            "id": 30080,
             "layerbranch": 190597,
             "name": "default",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2018-10-18T12:10:53+0000"
         }
     ]
 }
