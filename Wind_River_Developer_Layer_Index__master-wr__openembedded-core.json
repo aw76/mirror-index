@@ -31,14 +31,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181015",
+            "bitbake_branch": "wr-10.18-20181022",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-15T19:10:23+0000",
+            "updated": "2018-10-23T03:10:23+0000",
             "updates_enabled": true
         }
     ],
@@ -53,18 +53,18 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-18T19:10:30+0000",
-            "vcs_last_commit": "2018-10-18T19:10:30+0000",
-            "vcs_last_fetch": "2018-10-18T19:10:30+0000",
-            "vcs_last_rev": "ee08b57ec1b2759154713a5e32d83a42b7c6d7b3",
+            "updated": "2018-10-23T04:10:30+0000",
+            "vcs_last_commit": "2018-10-23T04:10:30+0000",
+            "vcs_last_fetch": "2018-10-23T04:10:30+0000",
+            "vcs_last_rev": "7766b5f4b2fbf3f8b93391e8c569d8aa37e62d6d",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         }
     ],
     "layerDependencies": [
@@ -129,7 +129,7 @@
             "id": 12635,
             "layerbranch": 14953,
             "name": "qemux86-64",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         },
         {
             "description": " a generic armv8",
@@ -143,7 +143,7 @@
             "id": 12637,
             "layerbranch": 14953,
             "name": "qemux86",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         }
     ],
     "recipes": [
@@ -544,7 +544,7 @@
             "pv": "3.0",
             "section": "x11",
             "summary": "Simple Xserver Init Script (no dm)",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2018-10-23T03:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1494,7 +1494,7 @@
             "pv": "0.1",
             "section": "x11",
             "summary": "Custom Matchbox session files",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1513,7 +1513,7 @@
             "pv": "1.0.0",
             "section": "graphics",
             "summary": "Utility for printing information EGL and its client APIs (OpenGL, OpenGL ES, OpenVG) (X11 version)",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1532,7 +1532,7 @@
             "pv": "1.0.0",
             "section": "graphics",
             "summary": "Utility for printing information EGL and its client APIs (OpenGL, OpenGL ES, OpenVG) (Framebuffer version)",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1570,7 +1570,7 @@
             "pv": "0.0",
             "section": "base",
             "summary": "Touchscreen calibration data from xinput-calibrator",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1627,7 +1627,7 @@
             "pv": "1.10",
             "section": "x11/fonts",
             "summary": "The Bitstream Vera fonts - TTF Edition",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1646,7 +1646,7 @@
             "pv": "2.00.1",
             "section": "x11/fonts",
             "summary": "Liberation(tm) Fonts",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1703,7 +1703,7 @@
             "pv": "1.0",
             "section": "x11/fonts",
             "summary": "Xorg minimal fonts data",
-            "updated": "2018-10-05T09:10:22+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1798,7 +1798,7 @@
             "pv": "0.1",
             "section": "x11",
             "summary": "Very simple session manager for X",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2018-10-23T03:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1817,7 +1817,7 @@
             "pv": "2.1.0",
             "section": "base",
             "summary": "OpenGL extension loading library",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2018-10-23T03:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2102,7 +2102,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "cross-platform C library to defer selection of GL API and of window system",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2121,7 +2121,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A clock combined with a game of pong",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2273,7 +2273,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2018-10-15T19:10:11+0000"
+            "updated": "2018-10-23T03:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2292,7 +2292,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2018-10-15T19:10:11+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2311,7 +2311,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:11+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2330,7 +2330,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic X11 session",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2349,7 +2349,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "X11 display server",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2368,7 +2368,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "X11 display server and basic utilities",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2387,7 +2387,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Clutter package groups",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2425,7 +2425,7 @@
             "pv": "0.1",
             "section": "x11",
             "summary": "New user to do specific job",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2463,7 +2463,7 @@
             "pv": "5.0.0",
             "section": "base",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2018-10-17T16:10:26+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2482,7 +2482,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Startup script and systemd unit file for the Weston Wayland compositor",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2577,7 +2577,7 @@
             "pv": "0.1",
             "section": "x11/base",
             "summary": "X.Org X server configuration file",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2634,7 +2634,7 @@
             "pv": "1.1.73.0",
             "section": "libs",
             "summary": "3D graphics and compute API common loader",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2653,7 +2653,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2672,7 +2672,7 @@
             "pv": "4.1.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2881,7 +2881,7 @@
             "pv": "2.0.0",
             "section": "base",
             "summary": "Hardware accelerated JPEG compression/decompression library",
-            "updated": "2018-10-05T09:10:35+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2938,7 +2938,7 @@
             "pv": "1.24",
             "section": "base",
             "summary": "open source telephony",
-            "updated": "2018-10-11T00:10:37+0000"
+            "updated": "2018-10-23T03:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2957,7 +2957,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Connman config to setup wired interface on qemu machines",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2018-10-23T03:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2976,7 +2976,7 @@
             "pv": "1.35",
             "section": "base",
             "summary": "A daemon for managing internet connections within embedded devices",
-            "updated": "2018-10-11T00:10:37+0000"
+            "updated": "2018-10-23T03:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3014,7 +3014,7 @@
             "pv": "9.11.4",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2018-10-11T00:10:38+0000"
+            "updated": "2018-10-23T03:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3033,7 +3033,7 @@
             "pv": "4.18.0",
             "section": "base",
             "summary": "TCP / IP networking and traffic control utilities",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3071,7 +3071,7 @@
             "pv": "7.8p1+git",
             "section": "console/network",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2018-10-11T00:10:38+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3090,7 +3090,7 @@
             "pv": "5.50",
             "section": "libs",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2018-10-11T00:10:39+0000"
+            "updated": "2018-10-23T03:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3109,7 +3109,7 @@
             "pv": "0.9.18",
             "section": "base",
             "summary": "Common files for IrDA",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3128,7 +3128,7 @@
             "pv": "4.14",
             "section": "base",
             "summary": "nl80211 based CLI configuration utility for wireless devices",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3147,7 +3147,7 @@
             "pv": "1.79",
             "section": "console/network",
             "summary": "name server information handler",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -3185,7 +3185,7 @@
             "pv": "0.7",
             "section": "network",
             "summary": "Avahi IPv4LL network address configuration daemon",
-            "updated": "2018-10-16T01:10:15+0000"
+            "updated": "2018-10-23T03:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -3223,7 +3223,7 @@
             "pv": "4.4.1",
             "section": "console/network",
             "summary": "Internet Software Consortium DHCP package",
-            "updated": "2018-10-11T00:10:39+0000"
+            "updated": "2018-10-23T03:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -3242,7 +3242,7 @@
             "pv": "0.1",
             "section": "console/network",
             "summary": "Enables PPP dial-in through a serial connection",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2018-10-23T03:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -3261,7 +3261,7 @@
             "pv": "2.3.1",
             "section": "console/network",
             "summary": "userspace utilities for kernel nfs",
-            "updated": "2018-10-11T00:10:40+0000"
+            "updated": "2018-10-23T03:10:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -3337,7 +3337,7 @@
             "pv": "1.1.1",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-10-14T23:10:15+0000"
+            "updated": "2018-10-23T03:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3356,7 +3356,7 @@
             "pv": "0.16",
             "section": "base",
             "summary": "Linux NFC daemon",
-            "updated": "2018-10-11T00:10:42+0000"
+            "updated": "2018-10-23T03:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -3375,7 +3375,7 @@
             "pv": "2.6",
             "section": "network",
             "summary": "Client for Wi-Fi Protected Access (WPA)",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2018-10-23T03:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3394,7 +3394,7 @@
             "pv": "2.9.5",
             "section": "devel",
             "summary": "Linux Trace Toolkit Control",
-            "updated": "2018-10-11T00:10:42+0000"
+            "updated": "2018-10-23T03:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3527,7 +3527,7 @@
             "pv": "0.2+gitX",
             "section": "base",
             "summary": "Tools for managing Yocto Project style branched kernels",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2018-10-23T03:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3565,7 +3565,7 @@
             "pv": "25+gitX",
             "section": "base",
             "summary": "Tools for managing Linux kernel modules",
-            "updated": "2018-10-11T00:10:43+0000"
+            "updated": "2018-10-23T03:10:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3603,7 +3603,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Wrapper script for the Linux kernel module dependency indexer",
-            "updated": "2018-10-05T09:10:44+0000"
+            "updated": "2018-10-23T03:10:11+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -3679,7 +3679,7 @@
             "pv": "1.9",
             "section": "base",
             "summary": "A test suite for /dev/crypto device driver",
-            "updated": "2018-10-05T09:10:44+0000"
+            "updated": "2018-10-23T03:10:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3698,7 +3698,7 @@
             "pv": "1.9",
             "section": "base",
             "summary": "A /dev/crypto device driver header file",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2018-10-23T03:10:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3717,7 +3717,7 @@
             "pv": "1.4.7",
             "section": "bootloader",
             "summary": "Device Tree Compiler",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2018-10-23T03:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3736,7 +3736,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initscript for auto-loading kernel modules on boot",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2018-10-23T03:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3755,7 +3755,7 @@
             "pv": "1.2.0+gitX",
             "section": "base",
             "summary": "Generates traces of I/O traffic on block devices",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2018-10-23T03:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3774,7 +3774,7 @@
             "pv": "2.0.17",
             "section": "kernel/userland",
             "summary": "Kexec fast reboot tools",
-            "updated": "2018-10-11T00:10:44+0000"
+            "updated": "2018-10-23T03:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3790,10 +3790,10 @@
             "license": "GPLv2",
             "pn": "systemtap-uprobes",
             "provides": "systemtap-uprobes ",
-            "pv": "3.3",
+            "pv": "4.0",
             "section": "base",
             "summary": "UProbes kernel module for SystemTap",
-            "updated": "2018-10-11T00:10:44+0000"
+            "updated": "2018-10-23T03:10:34+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -3804,15 +3804,15 @@
             "filepath": "recipes-kernel/systemtap",
             "homepage": "https://sourceware.org/systemtap/",
             "id": 722478,
-            "inherits": "autotools distutils-common-base distutils3-base gettext native nopackages pkgconfig python3-dir python3native relocatable siteconfig siteinfo",
+            "inherits": "autotools distutils-common-base distutils3-base gettext native nopackages pkgconfig python3-dir python3native relocatable siteconfig siteinfo systemd",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "systemtap-native",
             "provides": "systemtap-native",
-            "pv": "3.3",
+            "pv": "4.0",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2018-10-11T00:10:45+0000"
+            "updated": "2018-10-23T03:10:34+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -3823,15 +3823,15 @@
             "filepath": "recipes-kernel/systemtap",
             "homepage": "https://sourceware.org/systemtap/",
             "id": 722479,
-            "inherits": "autotools distutils-common-base distutils3-base gettext pkgconfig python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools distutils-common-base distutils3-base gettext pkgconfig python3-dir python3native siteconfig siteinfo systemd",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "systemtap",
             "provides": "systemtap ",
-            "pv": "3.3",
+            "pv": "4.0",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2018-10-11T00:10:45+0000"
+            "updated": "2018-10-23T03:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3847,10 +3847,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.18.9+gitX",
+            "pv": "4.18.14+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-11T00:10:45+0000"
+            "updated": "2018-10-23T03:10:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3885,10 +3885,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.14.71+gitX",
+            "pv": "4.14.76+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-11T00:10:45+0000"
+            "updated": "2018-10-23T03:10:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3907,7 +3907,7 @@
             "pv": "1.0",
             "section": "kernel",
             "summary": "Dummy Linux kernel",
-            "updated": "2018-10-05T09:10:47+0000"
+            "updated": "2018-10-23T03:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3923,10 +3923,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-dev",
             "provides": "linux-yocto-dev  virtual/kernel",
-            "pv": "4.18-rc++gitX",
+            "pv": "4.19-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-11T00:10:45+0000"
+            "updated": "2018-10-23T03:10:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3942,10 +3942,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.14.71+gitX",
+            "pv": "4.14.76+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-11T00:10:46+0000"
+            "updated": "2018-10-23T03:10:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3961,10 +3961,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.14.71+gitX",
+            "pv": "4.14.76+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-11T00:10:46+0000"
+            "updated": "2018-10-23T03:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3980,10 +3980,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.18.9+gitX",
+            "pv": "4.18.14+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-11T00:10:46+0000"
+            "updated": "2018-10-23T03:10:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3999,10 +3999,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.18.9+gitX",
+            "pv": "4.18.14+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-11T00:10:47+0000"
+            "updated": "2018-10-23T03:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4040,7 +4040,7 @@
             "pv": "1.68.0",
             "section": "libs",
             "summary": "Free peer-reviewed portable C++ source libraries",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-10-23T03:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -4059,7 +4059,7 @@
             "pv": "1.68.0",
             "section": "devel",
             "summary": "Portable Boost.Jam build tool for boost",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-10-23T03:10:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4116,7 +4116,7 @@
             "pv": "1.8.2",
             "section": "base",
             "summary": "Extremely Fast Compression algorithm",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-10-23T03:10:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4230,7 +4230,7 @@
             "pv": "2.0.0",
             "section": "libs",
             "summary": "iCal and scheduling (RFC 2445, 2446, 2447) library",
-            "updated": "2018-10-05T09:10:52+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4496,7 +4496,7 @@
             "pv": "1.11.1",
             "section": "libs/multimedia",
             "summary": "Library for reading and editing the meta-data of popular audio formats",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2018-10-23T03:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4591,7 +4591,7 @@
             "pv": "5",
             "section": "base",
             "summary": "Random number generator daemon",
-            "updated": "2018-10-11T00:10:54+0000"
+            "updated": "2018-10-23T03:10:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4724,7 +4724,7 @@
             "pv": "2.2+gitX",
             "section": "base",
             "summary": "A C program to run all installed ptests",
-            "updated": "2018-10-05T09:10:00+0000"
+            "updated": "2018-10-23T03:10:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4762,7 +4762,7 @@
             "pv": "20180409",
             "section": "misc",
             "summary": "Common CA certificates",
-            "updated": "2018-10-05T09:10:00+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -4895,7 +4895,7 @@
             "pv": "4.0.1",
             "section": "devel",
             "summary": "C library for multiple-precision floating-point computations with exact rounding",
-            "updated": "2018-10-11T00:10:59+0000"
+            "updated": "2018-10-23T03:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -5161,7 +5161,7 @@
             "pv": "1.3.9",
             "section": "base",
             "summary": "High-Performance Asynchronous HTTP Client Library",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-10-23T03:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -5275,7 +5275,7 @@
             "pv": "2.25",
             "section": "base",
             "summary": "Library for getting/setting POSIX.1e capabilities",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-10-23T03:10:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -5313,7 +5313,7 @@
             "pv": "1.32",
             "section": "libs",
             "summary": "Small library that defines common error values for all GnuPG components",
-            "updated": "2018-10-11T00:10:05+0000"
+            "updated": "2018-10-23T03:10:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5332,7 +5332,7 @@
             "pv": "7.4.0",
             "section": "support",
             "summary": "Convert text file line endings between CRLF and LF",
-            "updated": "2018-10-05T09:10:11+0000"
+            "updated": "2018-10-23T03:10:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5427,7 +5427,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Creates an 'xuser' account used for running X11",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-23T03:10:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -5484,7 +5484,7 @@
             "pv": "3.4",
             "section": "console/utils",
             "summary": "Tools to generate block map (AKA bmap) and flash images using bmap",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2018-10-23T03:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -5731,7 +5731,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Gstreamer1.0 package groups",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2018-10-23T03:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -5902,7 +5902,7 @@
             "pv": "1.14.2",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2018-10-16T01:10:17+0000"
+            "updated": "2018-10-23T03:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -6016,7 +6016,7 @@
             "pv": "12.2",
             "section": "libs/multimedia",
             "summary": "Sound server for Linux and Unix-like operating systems",
-            "updated": "2018-10-11T00:10:13+0000"
+            "updated": "2018-10-23T03:10:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6320,7 +6320,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-15T19:10:09+0000"
+            "updated": "2018-10-23T03:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6339,7 +6339,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-15T19:10:09+0000"
+            "updated": "2018-10-23T03:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6358,7 +6358,7 @@
             "pv": "1.1",
             "section": "tests",
             "summary": "Hardware latency detector",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2018-10-23T03:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6377,7 +6377,7 @@
             "pv": "1.1",
             "section": "tests",
             "summary": "Real-Time preemption testcases",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2018-10-23T03:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6491,7 +6491,7 @@
             "pv": "1.14.2",
             "section": "base",
             "summary": "Line-oriented text editor",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2018-10-23T03:10:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6567,7 +6567,7 @@
             "pv": "20180508",
             "section": "console/tools",
             "summary": "ACPICA tools for the development and debug of ACPI tables",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2018-10-23T03:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -6586,7 +6586,7 @@
             "pv": "0.1",
             "section": "examples",
             "summary": "",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2018-10-23T03:10:26+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -6624,7 +6624,7 @@
             "pv": "2018e",
             "section": "base",
             "summary": "Timezone data",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2018-10-23T03:10:26+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -6700,7 +6700,7 @@
             "pv": "2.2.8",
             "section": "console/utils",
             "summary": "An Internet printing system for Unix",
-            "updated": "2018-10-11T00:10:19+0000"
+            "updated": "2018-10-23T03:10:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6719,7 +6719,7 @@
             "pv": "1.20",
             "section": "console/utils",
             "summary": "Lossless data compressor based on the LZMA algorithm",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-10-23T03:10:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -6814,7 +6814,7 @@
             "pv": "s20180629",
             "section": "console/network",
             "summary": "Network monitoring tools",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2018-10-23T03:10:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -6890,7 +6890,7 @@
             "pv": "1.4.50",
             "section": "net",
             "summary": "Lightweight high-performance web server",
-            "updated": "2018-10-11T00:10:21+0000"
+            "updated": "2018-10-23T03:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -6909,7 +6909,7 @@
             "pv": "3.1.20",
             "section": "base",
             "summary": "Delayed job execution and batch processing",
-            "updated": "2018-10-11T00:10:22+0000"
+            "updated": "2018-10-23T03:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -6966,7 +6966,7 @@
             "pv": "2.4",
             "section": "console/utils",
             "summary": "A parallel implementation of gzip",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-10-23T03:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -6985,7 +6985,7 @@
             "pv": "1.5.1",
             "section": "base",
             "summary": "System Log Daemons",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-10-23T03:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -7042,7 +7042,7 @@
             "pv": "1.0",
             "section": "console/utils",
             "summary": "Automates Linux Standard Base (LSB) tests",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2018-10-23T03:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -7061,7 +7061,7 @@
             "pv": "5.0",
             "section": "console/utils",
             "summary": "LSB support for OpenEmbedded",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2018-10-23T03:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -7080,7 +7080,7 @@
             "pv": "9.79",
             "section": "base",
             "summary": "SysV init scripts which are only used in an LSB image",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2018-10-23T03:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -7137,7 +7137,7 @@
             "pv": "0.2.4",
             "section": "console/network",
             "summary": "Universal Addresses to RPC Program Number Mapper",
-            "updated": "2018-10-11T00:10:23+0000"
+            "updated": "2018-10-23T03:10:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7194,7 +7194,7 @@
             "pv": "1.08",
             "section": "console/utils",
             "summary": "Compact getty terminal handler for virtual consoles only",
-            "updated": "2018-10-05T09:10:35+0000"
+            "updated": "2018-10-23T03:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -7213,7 +7213,7 @@
             "pv": "7.6",
             "section": "console/network",
             "summary": "Security tool that is a wrapper for TCP daemons",
-            "updated": "2018-10-05T09:10:35+0000"
+            "updated": "2018-10-23T03:10:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7251,7 +7251,7 @@
             "pv": "6.0",
             "section": "console/utils",
             "summary": "Utilities for extracting and viewing files in .zip archives",
-            "updated": "2018-10-05T09:10:35+0000"
+            "updated": "2018-10-23T03:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -7270,7 +7270,7 @@
             "pv": "1.3.58",
             "section": "base",
             "summary": "A system tool for maintaining the /etc/rc*.d hierarchy",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2018-10-23T03:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -7289,7 +7289,7 @@
             "pv": "1.3.59+X",
             "section": "base",
             "summary": "${SUMMARY_chkconfig-alternatives}",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2018-10-23T03:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -7308,7 +7308,7 @@
             "pv": "20180515",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2018-10-11T00:10:50+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -7384,7 +7384,7 @@
             "pv": "1.5.2",
             "section": "utils",
             "summary": "Cron daemon for executing programs at set times",
-            "updated": "2018-10-11T00:10:25+0000"
+            "updated": "2018-10-23T03:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -7422,7 +7422,7 @@
             "pv": "4.16",
             "section": "console/utils",
             "summary": "Linux man-pages",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -7441,7 +7441,7 @@
             "pv": "2.3.15",
             "section": "base",
             "summary": "Socket-based service activation daemon",
-            "updated": "2018-10-11T00:10:25+0000"
+            "updated": "2018-10-23T03:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7460,7 +7460,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:12+0000"
+            "updated": "2018-10-23T03:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7479,7 +7479,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-15T19:10:12+0000"
+            "updated": "2018-10-23T03:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7498,7 +7498,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:12+0000"
+            "updated": "2018-10-23T03:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7517,7 +7517,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:13+0000"
+            "updated": "2018-10-23T03:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -7536,7 +7536,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:13+0000"
+            "updated": "2018-10-23T03:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -7555,7 +7555,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:13+0000"
+            "updated": "2018-10-23T03:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -7574,7 +7574,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:13+0000"
+            "updated": "2018-10-23T03:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -7650,7 +7650,7 @@
             "pv": "1.00",
             "section": "libs",
             "summary": "Perl module for using and building Perl SAX2 XML processors",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-23T03:10:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -7669,7 +7669,7 @@
             "pv": "0.27",
             "section": "libs",
             "summary": "Convert::ASN1 - Perl ASN.1 Encode/Decode library",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-23T03:10:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -7688,7 +7688,7 @@
             "pv": "2.30",
             "section": "libs",
             "summary": "Perl modules useful for manipulating date and time information",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-23T03:10:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -7707,7 +7707,7 @@
             "pv": "1.09",
             "section": "libs",
             "summary": "Base class SAX Drivers and Filters",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-23T03:10:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -7726,7 +7726,7 @@
             "pv": "1.12",
             "section": "libs",
             "summary": "Perl module for supporting simple generic namespaces",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-23T03:10:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7821,7 +7821,7 @@
             "pv": "0.3.111",
             "section": "base",
             "summary": "Asynchronous I/O library",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2018-10-23T03:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -7935,7 +7935,7 @@
             "pv": "2018e",
             "section": "base",
             "summary": "tzcode, timezone zoneinfo utils -- zic, zdump, tzselect",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2018-10-23T03:10:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -8049,7 +8049,7 @@
             "pv": "0.6.35",
             "section": "devel",
             "summary": "Library for solving packages and reading repositories",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2018-10-23T03:10:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8087,7 +8087,7 @@
             "pv": "3.0",
             "section": "console/utils",
             "summary": "Compressor/archiver for creating and modifying .zip files",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2018-10-23T03:10:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -8106,7 +8106,7 @@
             "pv": "20110201",
             "section": "base",
             "summary": "Collection of autoconf m4 macros",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2018-10-23T03:10:33+0000"
         },
         {
             "bbclassextend": "",
@@ -8125,7 +8125,7 @@
             "pv": "5.15",
             "section": "base",
             "summary": "Software watchdog",
-            "updated": "2018-10-11T00:10:31+0000"
+            "updated": "2018-10-23T03:10:33+0000"
         },
         {
             "bbclassextend": "",
@@ -8144,7 +8144,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Software watchdog",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2018-10-23T03:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -8163,7 +8163,7 @@
             "pv": "1.0",
             "section": "console/utils",
             "summary": "Fake version of the texinfo utility suite",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2018-10-23T03:10:34+0000"
         },
         {
             "bbclassextend": "native",
@@ -8258,7 +8258,7 @@
             "pv": "1.1.13",
             "section": "console/utils",
             "summary": "PBZIP2 is a parallel implementation of bzip2",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-10-23T03:10:34+0000"
         },
         {
             "bbclassextend": "native",
@@ -8296,7 +8296,7 @@
             "pv": "4.6",
             "section": "base utils",
             "summary": "Shadow utils requirements for useradd.bbclass",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-10-23T03:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -8315,7 +8315,7 @@
             "pv": "4.6",
             "section": "base utils",
             "summary": "Provider of the machine specific securetty file",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-10-23T03:10:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8353,7 +8353,7 @@
             "pv": "9.56",
             "section": "console/utils",
             "summary": "Utility for viewing/manipulating IDE disk drive/driver parameters",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-10-23T03:10:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8372,7 +8372,7 @@
             "pv": "1.60-26",
             "section": "base",
             "summary": "Basic networking tools",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-10-23T03:10:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8467,7 +8467,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initscript for enabling USB gadget Ethernet",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2018-10-23T03:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -8486,7 +8486,7 @@
             "pv": "3.2.2-15",
             "section": "base",
             "summary": "Utilities for Advanced Power Management",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -8505,7 +8505,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Keyboard maps",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -8524,7 +8524,7 @@
             "pv": "3.0.8",
             "section": "devel",
             "summary": "Libraries for producing EFI binaries",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -8543,7 +8543,7 @@
             "pv": "0.1.10",
             "section": "base",
             "summary": "User support binary for the uvesafb kernel module",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -8581,7 +8581,7 @@
             "pv": "1.00",
             "section": "base",
             "summary": "Basic grub.cfg for use in EFI systems",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -8619,7 +8619,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "ACPI data gathering library",
-            "updated": "2018-10-05T09:10:52+0000"
+            "updated": "2018-10-23T03:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -8657,7 +8657,7 @@
             "pv": "2018.07",
             "section": "bootloaders",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2018-10-23T03:10:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8676,7 +8676,7 @@
             "pv": "2018.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader image creation tool",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2018-10-23T03:10:37+0000"
         },
         {
             "bbclassextend": "cross",
@@ -8695,7 +8695,7 @@
             "pv": "2018.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8714,7 +8714,7 @@
             "pv": "0.2.0",
             "section": "base",
             "summary": "Alsa scenario files to enable alsa state restoration",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8733,7 +8733,7 @@
             "pv": "0.0",
             "section": "base",
             "summary": "Device formfactor information",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8771,7 +8771,7 @@
             "pv": "2.0.30",
             "section": "base",
             "summary": "A daemon for delivering ACPI events",
-            "updated": "2018-10-11T00:10:35+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8847,7 +8847,7 @@
             "pv": "6.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9113,7 +9113,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-10-11T00:10:39+0000"
+            "updated": "2018-10-23T03:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -9208,7 +9208,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2018-10-11T00:10:40+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -9341,7 +9341,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-10-11T00:10:42+0000"
+            "updated": "2018-10-23T03:10:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9398,7 +9398,7 @@
             "pv": "1.8.2",
             "section": "base",
             "summary": "Ninja is a small build system with a focus on speed.",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -9550,7 +9550,7 @@
             "pv": "4.0",
             "section": "base",
             "summary": "Set of i2c tools for linux",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9569,7 +9569,7 @@
             "pv": "4.14.2",
             "section": "base",
             "summary": "The RPM package management system",
-            "updated": "2018-10-11T00:10:45+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -9588,7 +9588,7 @@
             "pv": "3.3.2",
             "section": "devel",
             "summary": "A parallel build system",
-            "updated": "2018-10-11T00:10:45+0000"
+            "updated": "2018-10-23T03:10:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9607,7 +9607,7 @@
             "pv": "20180713+gitX",
             "section": "devel",
             "summary": "gnu-configize",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2018-10-23T03:10:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9626,7 +9626,7 @@
             "pv": "1.8.1",
             "section": "base",
             "summary": " A library providing C and Python (libcURL like) API for downloading linux repository metadata and packages.",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2018-10-23T03:10:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9645,7 +9645,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "icecc environment setup script",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2018-10-23T03:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -9683,7 +9683,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Generates Icecream toolchain for SDK",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2018-10-23T03:10:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9778,7 +9778,7 @@
             "pv": "0.14",
             "section": "devel/python",
             "summary": "Text processing system for documentation",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2018-10-23T03:10:41+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9797,7 +9797,7 @@
             "pv": "2.1.11",
             "section": "devel/python",
             "summary": "Python library used to interact with Git repositories",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-10-23T03:10:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9816,7 +9816,7 @@
             "pv": "18.0",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-10-23T03:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -9835,7 +9835,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-10-23T03:10:41+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9854,7 +9854,7 @@
             "pv": "0.6.2",
             "section": "devel/python",
             "summary": "Python framework to process interdependent tasks in a pool of workers",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-10-23T03:10:41+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9873,7 +9873,7 @@
             "pv": "2.3.0",
             "section": "devel/python",
             "summary": "Extensions to the Python standard library unit testing framework",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-10-23T03:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9892,7 +9892,7 @@
             "pv": "4.2.0",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-10-23T03:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9911,7 +9911,7 @@
             "pv": "1.11.0",
             "section": "devel/python",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-10-23T03:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9930,7 +9930,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Extends Python unittest to make testing easier",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-10-23T03:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9968,7 +9968,7 @@
             "pv": "1.15.6",
             "section": "python-devel",
             "summary": "Python bindings for the Cairo canvas library",
-            "updated": "2018-10-05T09:10:11+0000"
+            "updated": "2018-10-23T03:10:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9987,7 +9987,7 @@
             "pv": "1.0.7",
             "section": "devel/python",
             "summary": "Templating library for Python",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-23T03:10:43+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10006,7 +10006,7 @@
             "pv": "2.0.4",
             "section": "devel/python",
             "summary": "A pure-Python git object database",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-23T03:10:43+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10025,7 +10025,7 @@
             "pv": "0.9.0",
             "section": "devel/python",
             "summary": "Python implementation of a sliding window memory map manager",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-23T03:10:44+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10044,7 +10044,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "Python implementation of subunit test streaming protocol",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-23T03:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -10063,7 +10063,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-23T03:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10082,7 +10082,7 @@
             "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2018-10-23T03:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -10158,7 +10158,7 @@
             "pv": "40.0.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-10-05T09:10:14+0000"
+            "updated": "2018-10-23T03:10:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10177,7 +10177,7 @@
             "pv": "2.7.15",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-10-15T19:10:05+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10196,7 +10196,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Extends Python unittest to make testing easier",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-10-23T03:10:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10215,7 +10215,7 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "Accessing and Modifying INI files",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-10-23T03:10:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10234,7 +10234,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "Useful extra bits for Python - things that should be in the standard library",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-10-23T03:10:46+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10253,7 +10253,7 @@
             "pv": "3.5.6",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-10-15T19:10:05+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -10291,7 +10291,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Sets up distcc for compilation on the target device",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2018-10-23T03:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -10310,7 +10310,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Configuration script to export target rootfs filesystem",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2018-10-23T03:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -10367,7 +10367,7 @@
             "pv": "4.5",
             "section": "base",
             "summary": "Document type definitions for verification of XML data files",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2018-10-23T03:10:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -10386,7 +10386,7 @@
             "pv": "1.79.1",
             "section": "base",
             "summary": "XSL stylesheets for processing DocBook XML to various output formats",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2018-10-23T03:10:46+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -10424,7 +10424,7 @@
             "pv": "1.14.5",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2018-10-23T03:10:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10443,7 +10443,7 @@
             "pv": "1.14.5",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2018-10-23T03:10:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -10557,7 +10557,7 @@
             "pv": "4.3+gitrX",
             "section": "base",
             "summary": "Tools for manipulating SquashFS filesystems",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2018-10-23T03:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10614,7 +10614,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Userspace tools for MMC/SD devices",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-10-23T03:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10747,7 +10747,7 @@
             "pv": "0.11.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -10785,7 +10785,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Keyrings for verifying opkg packages and feeds",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -10804,7 +10804,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Architecture-dependent configuration for opkg",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10842,7 +10842,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Provides a small set of tools for development on the device",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -10861,7 +10861,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-10-11T00:10:54+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -10880,7 +10880,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-10-11T00:10:54+0000"
+            "updated": "2018-10-23T03:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -10899,7 +10899,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities (cross-canadian for i586 target)",
-            "updated": "2018-10-11T00:10:54+0000"
+            "updated": "2018-10-23T03:10:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10918,7 +10918,7 @@
             "pv": "2.31",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2018-10-11T00:10:55+0000"
+            "updated": "2018-10-23T03:10:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10994,7 +10994,7 @@
             "pv": "2.7.5",
             "section": "base",
             "summary": "Package manager forked from Yum, using libsolv as a dependency resolver",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2018-10-23T03:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -11013,7 +11013,7 @@
             "pv": "0.47.2",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2018-10-23T03:10:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -11032,14 +11032,14 @@
             "pv": "0.47.2",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2018-10-23T03:10:50+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://valgrind.org/support/bug_reports.html",
             "description": "",
-            "filename": "valgrind_3.13.0.bb",
+            "filename": "valgrind_3.14.0.bb",
             "filepath": "recipes-devtools/valgrind",
             "homepage": "http://valgrind.org/",
             "id": 722859,
@@ -11048,10 +11048,10 @@
             "license": "GPLv2 & GPLv2+ & BSD",
             "pn": "valgrind",
             "provides": "valgrind ",
-            "pv": "3.13.0",
+            "pv": "3.14.0",
             "section": "base",
             "summary": "Valgrind memory debugger and instrumentation framework",
-            "updated": "2018-10-11T00:10:57+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11070,7 +11070,7 @@
             "pv": "0.13.1",
             "section": "base",
             "summary": "Vendor Package Management for Golang",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2018-10-23T03:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -11089,7 +11089,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "Runs postinstall scripts on first boot of the target device",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2018-10-23T03:10:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -11108,7 +11108,7 @@
             "pv": "2.25",
             "section": "libs",
             "summary": "Perl module for reading and writing XML",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2018-10-23T03:10:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -11127,7 +11127,7 @@
             "pv": "0.002005",
             "section": "libs",
             "summary": "Skip tests when modules not available",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11146,7 +11146,7 @@
             "pv": "2.44",
             "section": "libs",
             "summary": "XML::Parser - A perl module for parsing XML documents",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -11165,7 +11165,7 @@
             "pv": "0.17026",
             "section": "libs",
             "summary": "Error - Error/exception handling in an OO-ish way",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -11184,7 +11184,7 @@
             "pv": "5.24.4",
             "section": "devel",
             "summary": "Perl scripting language",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -11203,7 +11203,7 @@
             "pv": "1.74",
             "section": "libs",
             "summary": "Perl module to manipulate and access URI strings",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -11222,7 +11222,7 @@
             "pv": "0.08",
             "section": "libs",
             "summary": "Collection of Perl modules for working with XML",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11241,7 +11241,7 @@
             "pv": "5.24.4",
             "section": "devel",
             "summary": "Perl scripting language",
-            "updated": "2018-10-11T00:10:57+0000"
+            "updated": "2018-10-23T03:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -11260,7 +11260,7 @@
             "pv": "3.1",
             "section": "base",
             "summary": "DMI (Desktop Management Interface) table related utilities",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -11279,7 +11279,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small utility for printing debug source file locations embedded in binaries",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11317,7 +11317,7 @@
             "pv": "3.01a31+really3.01",
             "section": "console/utils",
             "summary": "A set of tools for CD recording, including cdrecord",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11374,7 +11374,7 @@
             "pv": "0.1.8+gitX",
             "section": "base",
             "summary": "Libcomps is alternative for yum.comps library (which is for managing rpm package groups).",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11393,7 +11393,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Helper utilities needed by the runqemu script",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11412,7 +11412,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "QEMU wrapper script",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11431,7 +11431,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Qemu helper scripts",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2018-10-23T03:10:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11450,7 +11450,7 @@
             "pv": "3.0.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11697,7 +11697,7 @@
             "pv": "2015.02.10+gitX",
             "section": "base",
             "summary": "Build Result Compare Script",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-23T03:10:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11708,7 +11708,7 @@
             "filepath": "recipes-devtools/file",
             "homepage": "http://www.darwinsys.com/file/",
             "id": 722894,
-            "inherits": "autotools siteconfig siteinfo",
+            "inherits": "autotools siteconfig siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "BSD",
             "pn": "file",
@@ -11716,14 +11716,14 @@
             "pv": "5.34",
             "section": "console/utils",
             "summary": "File classification tool",
-            "updated": "2018-10-11T00:10:01+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross_1.10.bb",
+            "filename": "go-cross_1.11.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722895,
@@ -11732,17 +11732,17 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-i586",
             "provides": "go-cross-i586 virtual/i586-oe-linux-go",
-            "pv": "1.10.3",
+            "pv": "1.11.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-runtime_1.10.bb",
+            "filename": "go-runtime_1.11.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722896,
@@ -11751,10 +11751,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-runtime",
             "provides": "go-runtime virtual/i586-oe-linux-go-runtime",
-            "pv": "1.10.3",
+            "pv": "1.11.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -11773,7 +11773,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-10-23T03:10:54+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11792,7 +11792,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11811,7 +11811,7 @@
             "pv": "0.5.0",
             "section": "base",
             "summary": "Dependency management tool for Golang",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -11830,7 +11830,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -11849,14 +11849,14 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-native_1.10.bb",
+            "filename": "go-native_1.11.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722902,
@@ -11865,10 +11865,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-native",
             "provides": "go-native ",
-            "pv": "1.10.3",
+            "pv": "1.11.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -11887,7 +11887,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2018-10-23T03:10:44+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11906,14 +11906,14 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2018-10-23T03:10:44+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-crosssdk_1.10.bb",
+            "filename": "go-crosssdk_1.11.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722905,
@@ -11922,17 +11922,17 @@
             "license": "BSD-3-Clause",
             "pn": "go-crosssdk-x86_64",
             "provides": "go-crosssdk-x86_64 virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.10.3",
+            "pv": "1.11.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross-canadian_1.10.bb",
+            "filename": "go-cross-canadian_1.11.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722906,
@@ -11941,17 +11941,17 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-canadian-i586",
             "provides": "go-cross-canadian-i586 ",
-            "pv": "1.10.3",
+            "pv": "1.11.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2018-10-23T03:10:51+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go_1.10.bb",
+            "filename": "go_1.11.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722907,
@@ -11960,10 +11960,10 @@
             "license": "BSD-3-Clause",
             "pn": "go",
             "provides": "go ",
-            "pv": "1.10.3",
+            "pv": "1.11.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2018-10-23T03:10:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -11982,7 +11982,7 @@
             "pv": "0.14.8+gitX",
             "section": "base",
             "summary": "Booting sequence and CPU,I/O usage monitor",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2018-10-23T03:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12001,7 +12001,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Target Communication Framework for the Eclipse IDE",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-23T03:10:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12020,7 +12020,7 @@
             "pv": "1.0.1",
             "section": "base",
             "summary": "Tool for creating device nodes",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -12039,7 +12039,7 @@
             "pv": "1.2.24",
             "section": "base",
             "summary": "Advanced front-end for dpkg",
-            "updated": "2018-10-11T00:10:01+0000"
+            "updated": "2018-10-23T03:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12058,7 +12058,7 @@
             "pv": "1.2.24",
             "section": "base",
             "summary": "Advanced front-end for dpkg",
-            "updated": "2018-10-11T00:10:01+0000"
+            "updated": "2018-10-23T03:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12077,7 +12077,7 @@
             "pv": "3.12.2",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12096,7 +12096,7 @@
             "pv": "3.12.2",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -12115,7 +12115,7 @@
             "pv": "2.11",
             "section": "devel",
             "summary": "Selectively remove #ifdef statements from sources",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12134,7 +12134,7 @@
             "pv": "6.03",
             "section": "base",
             "summary": "Multi-purpose linux bootloader",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -12210,7 +12210,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "bitbake-layers recipe",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2018-10-23T03:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -12495,7 +12495,7 @@
             "pv": "3.22.30",
             "section": "libs",
             "summary": "Native icon utils for GTK+",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -12590,7 +12590,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Volatile bind mount setup and configuration for read-only-rootfs",
-            "updated": "2018-10-05T09:10:47+0000"
+            "updated": "2018-10-23T03:10:59+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12723,7 +12723,7 @@
             "pv": "2.12.1",
             "section": "base",
             "summary": "A standalone native ldconfig build",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -12742,7 +12742,7 @@
             "pv": "0.19.8.1",
             "section": "base",
             "summary": "Minimal gettext for supporting native autoconf/automake",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12780,7 +12780,7 @@
             "pv": "1.00",
             "section": "base",
             "summary": "Basic systemd-boot configuration files",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2018-10-23T03:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -12799,7 +12799,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Enhances systemd compatilibity with existing SysVinit scripts",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -12818,7 +12818,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Wrapper for enabling systemd services",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -12837,7 +12837,7 @@
             "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-10-17T16:10:25+0000"
+            "updated": "2018-10-23T03:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -12856,7 +12856,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Machine specific systemd units",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -12894,7 +12894,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Serial terminal support for systemd",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -12913,7 +12913,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Operating system identification",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12970,7 +12970,7 @@
             "pv": "1.1",
             "section": "base",
             "summary": "Extra machine specific configuration files",
-            "updated": "2018-10-05T09:10:52+0000"
+            "updated": "2018-10-23T03:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -12989,7 +12989,7 @@
             "pv": "3.2.5",
             "section": "base",
             "summary": "eudev is a fork of systemd's udev",
-            "updated": "2018-10-11T00:10:54+0000"
+            "updated": "2018-10-23T03:10:08+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -13046,7 +13046,7 @@
             "pv": "2018.76",
             "section": "console/network",
             "summary": "A lightweight SSH and SCP implementation",
-            "updated": "2018-10-11T00:10:55+0000"
+            "updated": "2018-10-23T03:10:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -13065,7 +13065,7 @@
             "pv": "git",
             "section": "base",
             "summary": "OVMF - UEFI firmware for Qemu and KVM",
-            "updated": "2018-10-05T09:10:54+0000"
+            "updated": "2018-10-23T03:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -13084,7 +13084,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:09+0000"
+            "updated": "2018-10-23T03:10:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13103,7 +13103,7 @@
             "pv": "1.12.10",
             "section": "base",
             "summary": "D-Bus message bus",
-            "updated": "2018-10-11T00:10:55+0000"
+            "updated": "2018-10-23T03:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -13179,7 +13179,7 @@
             "pv": "1.0",
             "section": "libs",
             "summary": "Minimal libssp_nonshared.a must needed for ssp to work with gcc on musl",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2018-10-23T03:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -13198,7 +13198,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "BSD compatible headers",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2018-10-23T03:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -13217,7 +13217,7 @@
             "pv": "1.1.20+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2018-10-23T03:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -13255,7 +13255,7 @@
             "pv": "2.88dsf",
             "section": "base",
             "summary": "Inittab configuration for SysVinit",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2018-10-23T03:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13274,7 +13274,7 @@
             "pv": "2.88dsf",
             "section": "base",
             "summary": "System-V like init",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2018-10-23T03:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13293,7 +13293,7 @@
             "pv": "1.29.2",
             "section": "base",
             "summary": "inittab configuration for BusyBox",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2018-10-23T03:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13312,7 +13312,7 @@
             "pv": "1.29.2",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2018-10-15T19:10:01+0000"
+            "updated": "2018-10-23T03:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13350,7 +13350,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Extremely basic live image init script",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-10-23T03:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13369,7 +13369,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "initramfs-framework module for live booting",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-10-23T03:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13388,7 +13388,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Live image init script",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-10-23T03:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13407,7 +13407,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Live image init script",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-10-23T03:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13426,7 +13426,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Live image install script with a second rootfs/kernel",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-10-23T03:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13445,7 +13445,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "initramfs-framework module for EFI installation option",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-10-23T03:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13464,7 +13464,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Live image install script for grub",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-10-23T03:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13483,7 +13483,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Live image install script for grub-efi",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-10-23T03:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13502,7 +13502,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Modular initramfs system",
-            "updated": "2018-10-05T09:10:58+0000"
+            "updated": "2018-10-23T03:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -13521,7 +13521,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "initramfs-framework module for installation option",
-            "updated": "2018-10-05T09:10:58+0000"
+            "updated": "2018-10-23T03:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -13540,7 +13540,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Live image install script for with a second rootfs/kernel option",
-            "updated": "2018-10-05T09:10:58+0000"
+            "updated": "2018-10-23T03:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -13578,7 +13578,7 @@
             "pv": "5.4",
             "section": "base",
             "summary": "Basic TCP/IP networking support",
-            "updated": "2018-10-05T09:10:58+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13616,7 +13616,7 @@
             "pv": "1.2.11",
             "section": "libs",
             "summary": "Zlib Compression Library",
-            "updated": "2018-10-05T09:10:59+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -13635,7 +13635,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-15T19:10:09+0000"
+            "updated": "2018-10-23T03:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -13654,7 +13654,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:09+0000"
+            "updated": "2018-10-23T03:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -13673,7 +13673,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-15T19:10:09+0000"
+            "updated": "2018-10-23T03:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -13692,7 +13692,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-10-15T19:10:10+0000"
+            "updated": "2018-10-23T03:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -13711,7 +13711,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2018-10-15T19:10:10+0000"
+            "updated": "2018-10-23T03:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -13730,7 +13730,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:10+0000"
+            "updated": "2018-10-23T03:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -13749,7 +13749,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-15T19:10:10+0000"
+            "updated": "2018-10-23T03:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -13768,7 +13768,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "OpenSSH SSH client/server",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -13787,7 +13787,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Host SDK package for Go cross canadian toolchain",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -13806,7 +13806,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Minimal boot requirements",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -13825,7 +13825,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Software development tools",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -13844,7 +13844,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Remote debugging tools for Eclipse integration",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -13863,7 +13863,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Testing tools/applications",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13901,7 +13901,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Host SDK package for cross canadian toolchain",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13920,7 +13920,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Essential build dependencies",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13939,7 +13939,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Target packages for the Go SDK",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13958,7 +13958,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dropbear SSH client/server",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13977,7 +13977,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Merge machine and distro options to create a basic machine task/package",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13996,7 +13996,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Profiling tools",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -14015,7 +14015,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "NFS package groups",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -14034,7 +14034,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Target packages for the standalone SDK",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-10-23T03:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14053,7 +14053,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Debugging tools",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-10-23T03:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14072,7 +14072,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Self-hosting",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-10-23T03:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14110,7 +14110,7 @@
             "pv": "0.1+gitX",
             "section": "base",
             "summary": "Userspace framebuffer boot logo based on usplash",
-            "updated": "2018-10-11T00:10:59+0000"
+            "updated": "2018-10-23T03:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -14129,7 +14129,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "SysV init scripts",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2018-10-23T03:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14148,7 +14148,7 @@
             "pv": "3.0.0",
             "section": "libs",
             "summary": "Newlib is a C library intended for use on embedded systems",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2018-10-23T03:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14167,7 +14167,7 @@
             "pv": "3.0.0",
             "section": "libs",
             "summary": "Newlib is a C library intended for use on embedded systems",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2018-10-23T03:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14186,7 +14186,7 @@
             "pv": "3.0.14",
             "section": "base",
             "summary": "Miscellaneous files for the base system",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2018-10-23T03:10:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14243,7 +14243,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic TCP/IP networking init scripts and configuration files",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-10-23T03:10:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14262,7 +14262,7 @@
             "pv": "0.8",
             "section": "base",
             "summary": "manage symlinks in /etc/rcN.d",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-10-23T03:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14338,7 +14338,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2018-10-23T03:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14395,7 +14395,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A meta recipe to build native tools used by wic.",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2018-10-23T03:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14414,7 +14414,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Pulls in pkgdata for world",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2018-10-23T03:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14433,7 +14433,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2018-10-15T19:10:10+0000"
+            "updated": "2018-10-23T03:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14452,7 +14452,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "libc and patchelf tarball for use with uninative.bbclass",
-            "updated": "2018-10-15T19:10:10+0000"
+            "updated": "2018-10-23T03:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14471,7 +14471,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Rebuilds the package index",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14490,7 +14490,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14509,7 +14509,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Makes public keys of the signing keys available",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14528,7 +14528,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2018-10-18T20:10:15+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14547,7 +14547,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Extensible SDK toolchain meta-recipe",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14585,7 +14585,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for test systems with missing software",
-            "updated": "2018-10-15T19:10:11+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14604,7 +14604,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable Go toolchain",
-            "updated": "2018-10-15T19:10:11+0000"
+            "updated": "2018-10-23T03:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14623,7 +14623,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2018-10-23T03:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -14642,7 +14642,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2018-10-23T03:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -14661,7 +14661,7 @@
             "pv": "0.8.16",
             "section": "base",
             "summary": "ifupdown: basic ifup and ifdown used by initscripts",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2018-10-23T03:10:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -14699,7 +14699,7 @@
             "pv": "2.32.1",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2018-10-15T19:10:12+0000"
+            "updated": "2018-10-23T03:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -14851,7 +14851,7 @@
             "pv": "0.1",
             "section": "x11",
             "summary": "Custom Matchbox session files for the Sato environment",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-10-23T03:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -14870,7 +14870,7 @@
             "pv": "1",
             "section": "multimedia",
             "summary": "/etc/pulse/client.conf tailored for Sato",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-10-23T03:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -14908,7 +14908,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:13+0000"
+            "updated": "2018-10-23T03:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -14927,7 +14927,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:13+0000"
+            "updated": "2018-10-23T03:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -14946,7 +14946,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:14+0000"
+            "updated": "2018-10-23T03:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -14965,7 +14965,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:14+0000"
+            "updated": "2018-10-23T03:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -14984,7 +14984,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Sato desktop",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-23T03:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -15060,7 +15060,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Provides an icon to shut down the system cleanly",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-10-23T03:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -15117,7 +15117,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Systemd system configuration",
-            "updated": "2018-10-17T16:10:27+0000"
+            "updated": "2018-10-23T03:10:55+0000"
         }
     ],
     "wrtemplates": []

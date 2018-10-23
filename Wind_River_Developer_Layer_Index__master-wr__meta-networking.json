@@ -31,74 +31,74 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181015",
+            "bitbake_branch": "wr-10.18-20181022",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-15T19:10:23+0000",
+            "updated": "2018-10-23T03:10:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-18T19:10:30+0000",
-            "vcs_last_commit": "2018-10-18T19:10:30+0000",
-            "vcs_last_fetch": "2018-10-18T19:10:30+0000",
-            "vcs_last_rev": "ee08b57ec1b2759154713a5e32d83a42b7c6d7b3",
+            "updated": "2018-10-23T04:10:30+0000",
+            "vcs_last_commit": "2018-10-23T04:10:30+0000",
+            "vcs_last_fetch": "2018-10-23T04:10:30+0000",
+            "vcs_last_rev": "7766b5f4b2fbf3f8b93391e8c569d8aa37e62d6d",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-10-15T04:10:08+0000",
-            "vcs_last_commit": "2018-10-15T04:10:08+0000",
-            "vcs_last_fetch": "2018-10-15T04:10:08+0000",
-            "vcs_last_rev": "17a20a9292bcc868d9bbf1ae7e85aeab13749bcd",
+            "updated": "2018-10-22T01:10:20+0000",
+            "vcs_last_commit": "2018-10-22T01:10:20+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
+            "vcs_last_rev": "1fb9445ff775fce86966f8019b0cf8548f924461",
             "vcs_subdir": "meta-networking",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-10-15T04:10:08+0000",
-            "vcs_last_commit": "2018-10-15T04:10:08+0000",
-            "vcs_last_fetch": "2018-10-15T04:10:08+0000",
-            "vcs_last_rev": "472ff0a9bae961838418f1ba6150a7006041e8a8",
+            "updated": "2018-10-22T01:10:21+0000",
+            "vcs_last_commit": "2018-10-22T01:10:21+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:21+0000",
+            "vcs_last_rev": "8661b5fd9a7ecaec87f2e6cb79b25fc18082908a",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-10-15T04:10:05+0000",
-            "vcs_last_commit": "2018-10-15T04:10:05+0000",
-            "vcs_last_fetch": "2018-10-15T04:10:05+0000",
-            "vcs_last_rev": "6682aaecd3ea7e8adc6efffe21183246d70d6502",
+            "updated": "2018-10-22T01:10:20+0000",
+            "vcs_last_commit": "2018-10-22T01:10:20+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
+            "vcs_last_rev": "f45b6c7c22d399c065c2c1bb94836461c505a567",
             "vcs_subdir": "meta-python",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         }
     ],
     "layerDependencies": [
@@ -2146,7 +2146,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_2.6.2.bb",
+            "filename": "wireshark_2.6.4.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 725002,
@@ -2155,10 +2155,10 @@
             "license": "GPL-2.0",
             "pn": "wireshark",
             "provides": "wireshark ",
-            "pv": "2.6.2",
+            "pv": "2.6.4",
             "section": "net",
             "summary": "",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2018-10-23T03:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2317,7 +2317,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "strongSwan is an OpenSource IPsec implementation for the Linux operating system.",
-            "filename": "strongswan_5.6.3.bb",
+            "filename": "strongswan_5.7.1.bb",
             "filepath": "recipes-support/strongswan",
             "homepage": "http://www.strongswan.org",
             "id": 725011,
@@ -2326,10 +2326,10 @@
             "license": "GPLv2",
             "pn": "strongswan",
             "provides": "strongswan ",
-            "pv": "5.6.3",
+            "pv": "5.7.1",
             "section": "net",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2018-10-23T03:10:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2891,7 +2891,7 @@
             "filepath": "recipes-daemons/radvd",
             "homepage": "http://www.litech.org/radvd/",
             "id": 725041,
-            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 14964,
             "license": "radvd",
             "pn": "radvd",
@@ -2899,7 +2899,7 @@
             "pv": "2.17",
             "section": "net",
             "summary": "IPv6 router advertisement daemon",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-10-23T03:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2986,7 +2986,7 @@
             "filepath": "recipes-daemons/keepalived",
             "homepage": "http://www.keepalived.org/",
             "id": 725046,
-            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14964,
             "license": "GPLv2",
             "pn": "keepalived",
@@ -2994,7 +2994,7 @@
             "pv": "1.4.2",
             "section": "base",
             "summary": "High Availability monitor built upon LVS, VRRP and service pollers",
-            "updated": "2018-10-05T09:10:52+0000"
+            "updated": "2018-10-23T03:10:33+0000"
         },
         {
             "bbclassextend": "",

@@ -31,46 +31,46 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181015",
+            "bitbake_branch": "wr-10.18-20181022",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-15T19:10:23+0000",
+            "updated": "2018-10-23T03:10:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-18T19:10:30+0000",
-            "vcs_last_commit": "2018-10-18T19:10:30+0000",
-            "vcs_last_fetch": "2018-10-18T19:10:30+0000",
-            "vcs_last_rev": "ee08b57ec1b2759154713a5e32d83a42b7c6d7b3",
+            "updated": "2018-10-23T04:10:30+0000",
+            "vcs_last_commit": "2018-10-23T04:10:30+0000",
+            "vcs_last_fetch": "2018-10-23T04:10:30+0000",
+            "vcs_last_rev": "7766b5f4b2fbf3f8b93391e8c569d8aa37e62d6d",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-10-15T04:10:08+0000",
-            "vcs_last_commit": "2018-10-15T04:10:08+0000",
-            "vcs_last_fetch": "2018-10-15T04:10:08+0000",
-            "vcs_last_rev": "472ff0a9bae961838418f1ba6150a7006041e8a8",
+            "updated": "2018-10-22T01:10:21+0000",
+            "vcs_last_commit": "2018-10-22T01:10:21+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:21+0000",
+            "vcs_last_rev": "8661b5fd9a7ecaec87f2e6cb79b25fc18082908a",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         }
     ],
     "layerDependencies": [
@@ -4492,10 +4492,10 @@
             "license": "GPL-2.0+",
             "pn": "hwdata",
             "provides": "hwdata ",
-            "pv": "0.315+gitX",
+            "pv": "0.316+gitX",
             "section": "System/Base",
             "summary": "",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4571,7 +4571,7 @@
             "pv": "2017-08-20.18",
             "section": "devel",
             "summary": "The GNU portability library",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -5027,7 +5027,7 @@
             "pv": "0.3.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:21+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6041,7 +6041,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "udisks2_2.7.7.bb",
+            "filename": "udisks2_2.7.8.bb",
             "filepath": "recipes-support/udisks",
             "homepage": "",
             "id": 723401,
@@ -6050,10 +6050,10 @@
             "license": "GPLv2+ & LGPLv2+",
             "pn": "udisks2",
             "provides": "udisks2 ",
-            "pv": "2.7.7",
+            "pv": "2.7.8",
             "section": "base",
             "summary": "udisks provides dbus interfaces for disks and storage devices",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2018-10-23T03:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6186,7 +6186,7 @@
             "pv": "4.15.2",
             "section": "console/utils",
             "summary": "This is the set of GNU shar utilities.",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6376,7 +6376,7 @@
             "pv": "8.1.0347",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2018-10-23T03:10:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -6391,11 +6391,11 @@
             "layerbranch": 14965,
             "license": "vim",
             "pn": "vim-tiny",
-            "provides": "vim-tiny",
+            "provides": "vim-tiny ",
             "pv": "8.1.0347",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2018-10-23T03:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6763,7 +6763,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.",
-            "filename": "libeigen_3.3.4.bb",
+            "filename": "libeigen_3.3.5.bb",
             "filepath": "recipes-support/libeigen",
             "homepage": "http://eigen.tuxfamily.org/",
             "id": 723439,
@@ -6772,10 +6772,10 @@
             "license": "MPL-2.0",
             "pn": "libeigen",
             "provides": "libeigen ",
-            "pv": "3.3.4",
+            "pv": "3.3.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -8903,7 +8903,7 @@
             "pv": "1.2.12+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -10582,7 +10582,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "cpuid dumps detailed information about the CPU(s) gathered from the CPUID instruction, and also determines the exact model of CPU(s). It supports Intel, AMD, and VIA CPUs, as well as older Transmeta, Cyrix, UMC, NexGen, Rise, and SiS CPUs",
-            "filename": "cpuid_20170122.bb",
+            "filename": "cpuid_20180519.bb",
             "filepath": "recipes-devtools/cpuid",
             "homepage": "",
             "id": 723640,
@@ -10591,10 +10591,10 @@
             "license": "GPLv2",
             "pn": "cpuid",
             "provides": "cpuid ",
-            "pv": "20170122",
+            "pv": "20180519",
             "section": "base",
             "summary": "Linux tool to dump x86 CPUID information about the CPU(s)",
-            "updated": "2018-10-05T09:10:58+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11570,7 +11570,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "IPC::Run allows you run and interact with child processes using files, pipes, and pseudo-ttys. Both system()-style and scripted usages are supported and may be mixed. Likewise, functional and OO API styles are both supported and may be mixed.",
-            "filename": "ipc-run_0.99.bb",
+            "filename": "ipc-run_20180523.0.bb",
             "filepath": "recipes-devtools/perl",
             "homepage": "https://metacpan.org/release/IPC-Run",
             "id": 723692,
@@ -11579,10 +11579,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "ipc-run",
             "provides": "ipc-run ",
-            "pv": "0.99",
+            "pv": "20180523.0",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2018-10-23T03:10:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -12380,7 +12380,7 @@
             "pv": "0.7.5",
             "section": "base",
             "summary": "Toybox combines common utilities together into a single executable.",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2018-10-23T03:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -12552,6 +12552,63 @@
             "section": "base",
             "summary": "Header-only C++ library for JSON Schema validation",
             "updated": "2018-10-15T19:10:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "OpenCL compute API headers from Khronos Group",
+            "filename": "opencl-headers_git.bb",
+            "filepath": "recipes-core/opencl-headers",
+            "homepage": "",
+            "id": 793645,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "Khronos",
+            "pn": "opencl-headers",
+            "provides": "opencl-headers ",
+            "pv": "git",
+            "section": "base",
+            "summary": "OpenCL API Headers",
+            "updated": "2018-10-23T03:10:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "OpenCL compute ICD Loader from Khronos Group",
+            "filename": "opencl-icd-loader_git.bb",
+            "filepath": "recipes-core/opencl-icd-loader",
+            "homepage": "",
+            "id": 793646,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 14965,
+            "license": "Khronos",
+            "pn": "opencl-icd-loader",
+            "provides": "opencl-icd-loader ",
+            "pv": "git",
+            "section": "base",
+            "summary": "OpenCL ICD Loader",
+            "updated": "2018-10-23T03:10:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later.",
+            "filename": "catch2_2.4.1.bb",
+            "filepath": "recipes-test/catch2",
+            "homepage": "https://github.com/catchorg/Catch2",
+            "id": 793647,
+            "inherits": "cmake python3-dir python3native",
+            "layerbranch": 14965,
+            "license": "BSL-1.0",
+            "pn": "catch2",
+            "provides": "catch2 ",
+            "pv": "2.4.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-10-23T03:10:07+0000"
         }
     ],
     "wrtemplates": []

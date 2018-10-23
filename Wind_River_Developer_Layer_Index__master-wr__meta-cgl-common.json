@@ -31,24 +31,24 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181015",
+            "bitbake_branch": "wr-10.18-20181022",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-15T19:10:23+0000",
+            "updated": "2018-10-23T03:10:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 3781,
+            "id": 3878,
             "layerbranch": 113181,
             "name": "poky-cgl",
-            "updated": "2018-10-15T19:10:49+0000"
+            "updated": "2018-10-23T03:10:40+0000"
         }
     ],
     "layerBranches": [
@@ -67,18 +67,18 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-18T19:10:30+0000",
-            "vcs_last_commit": "2018-10-18T19:10:30+0000",
-            "vcs_last_fetch": "2018-10-18T19:10:30+0000",
-            "vcs_last_rev": "ee08b57ec1b2759154713a5e32d83a42b7c6d7b3",
+            "updated": "2018-10-23T04:10:30+0000",
+            "vcs_last_commit": "2018-10-23T04:10:30+0000",
+            "vcs_last_fetch": "2018-10-23T04:10:30+0000",
+            "vcs_last_rev": "7766b5f4b2fbf3f8b93391e8c569d8aa37e62d6d",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
             "actual_branch": "wr-10.18-20181007",
@@ -95,74 +95,74 @@
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2018-10-15T04:10:05+0000",
-            "vcs_last_commit": "2018-10-15T04:10:05+0000",
-            "vcs_last_fetch": "2018-10-15T04:10:05+0000",
-            "vcs_last_rev": "6682aaecd3ea7e8adc6efffe21183246d70d6502",
+            "updated": "2018-10-22T01:10:20+0000",
+            "vcs_last_commit": "2018-10-22T01:10:20+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
+            "vcs_last_rev": "f45b6c7c22d399c065c2c1bb94836461c505a567",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-10-15T04:10:08+0000",
-            "vcs_last_commit": "2018-10-15T04:10:08+0000",
-            "vcs_last_fetch": "2018-10-15T04:10:08+0000",
-            "vcs_last_rev": "17a20a9292bcc868d9bbf1ae7e85aeab13749bcd",
+            "updated": "2018-10-22T01:10:20+0000",
+            "vcs_last_commit": "2018-10-22T01:10:20+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
+            "vcs_last_rev": "1fb9445ff775fce86966f8019b0cf8548f924461",
             "vcs_subdir": "meta-networking",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-10-15T04:10:08+0000",
-            "vcs_last_commit": "2018-10-15T04:10:08+0000",
-            "vcs_last_fetch": "2018-10-15T04:10:08+0000",
-            "vcs_last_rev": "472ff0a9bae961838418f1ba6150a7006041e8a8",
+            "updated": "2018-10-22T01:10:21+0000",
+            "vcs_last_commit": "2018-10-22T01:10:21+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:21+0000",
+            "vcs_last_rev": "8661b5fd9a7ecaec87f2e6cb79b25fc18082908a",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "perl-layer",
             "id": 14966,
             "layer": 13,
-            "updated": "2018-10-15T04:10:05+0000",
-            "vcs_last_commit": "2018-10-15T04:10:05+0000",
-            "vcs_last_fetch": "2018-10-15T04:10:05+0000",
-            "vcs_last_rev": "6682aaecd3ea7e8adc6efffe21183246d70d6502",
+            "updated": "2018-10-22T01:10:20+0000",
+            "vcs_last_commit": "2018-10-22T01:10:20+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
+            "vcs_last_rev": "f45b6c7c22d399c065c2c1bb94836461c505a567",
             "vcs_subdir": "meta-perl",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 38,
             "collection": "cgl-common",
             "id": 113181,
             "layer": 172,
-            "updated": "2018-10-14T23:10:32+0000",
-            "vcs_last_commit": "2018-10-14T23:10:32+0000",
-            "vcs_last_fetch": "2018-10-14T23:10:32+0000",
-            "vcs_last_rev": "15c757419dbeeef34dab73e9a8979a30a4507657",
+            "updated": "2018-10-22T01:10:25+0000",
+            "vcs_last_commit": "2018-10-22T01:10:25+0000",
+            "vcs_last_fetch": "2018-10-22T01:10:25+0000",
+            "vcs_last_rev": "9dec43c88add7b753978c0e640d9119b64ff120b",
             "vcs_subdir": "meta-cgl-common",
             "version": null,
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         }
     ],
     "layerDependencies": [
@@ -380,7 +380,7 @@
             "pv": "4.0.1",
             "section": "base",
             "summary": "OCF resource agents for use by compatible cluster managers",
-            "updated": "2018-10-15T19:10:45+0000"
+            "updated": "2018-10-23T03:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -399,7 +399,7 @@
             "pv": "1.0.12",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:45+0000"
+            "updated": "2018-10-23T03:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -418,7 +418,7 @@
             "pv": "5.25.2",
             "section": "base",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-10-15T19:10:45+0000"
+            "updated": "2018-10-23T03:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -437,7 +437,7 @@
             "pv": "3.0.6",
             "section": "System Environment/Daemons",
             "summary": "Messaging and membership subsystem for High-Availability Linux",
-            "updated": "2018-10-15T19:10:45+0000"
+            "updated": "2018-10-23T03:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -456,7 +456,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "Common Address Redundancy Protocol for Unix",
-            "updated": "2018-10-15T19:10:46+0000"
+            "updated": "2018-10-23T03:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -475,7 +475,7 @@
             "pv": "1.1.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:46+0000"
+            "updated": "2018-10-23T03:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -494,7 +494,7 @@
             "pv": "20100526a",
             "section": "base",
             "summary": "An implementation of key management system for IPsec",
-            "updated": "2018-10-15T19:10:46+0000"
+            "updated": "2018-10-23T03:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -513,7 +513,7 @@
             "pv": "1.8.5",
             "section": "System Environment/Base",
             "summary": "Tools for managing the Ocfs2 cluster file system",
-            "updated": "2018-10-15T19:10:46+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -532,7 +532,7 @@
             "pv": "3.0.3",
             "section": "base",
             "summary": "Pacemaker command line interface for management and configuration",
-            "updated": "2018-10-15T19:10:47+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -551,7 +551,7 @@
             "pv": "3.2.0",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-15T19:10:47+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -570,7 +570,7 @@
             "pv": "1.1.19",
             "section": "base",
             "summary": "Scalable High-Availability cluster resource manager",
-            "updated": "2018-10-15T19:10:47+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -589,7 +589,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:47+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -608,7 +608,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:47+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -627,7 +627,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Application packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-10-15T19:10:47+0000"
+            "updated": "2018-10-23T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -646,7 +646,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-10-15T19:10:47+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -665,7 +665,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Software development tools packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-10-15T19:10:47+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -684,7 +684,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Middleware packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-10-15T19:10:48+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -703,7 +703,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2018-10-15T19:10:48+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -722,7 +722,7 @@
             "pv": "2.20",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-15T19:10:48+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -741,7 +741,7 @@
             "pv": "1.52",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-15T19:10:48+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -760,7 +760,7 @@
             "pv": "6.35",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-15T19:10:48+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -779,7 +779,7 @@
             "pv": "3.20",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-15T19:10:48+0000"
+            "updated": "2018-10-23T03:10:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -798,7 +798,7 @@
             "pv": "0.28",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-15T19:10:48+0000"
+            "updated": "2018-10-23T03:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -817,7 +817,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Support for having multipath iSCSI devices as root file system",
-            "updated": "2018-10-15T19:10:49+0000"
+            "updated": "2018-10-23T03:10:40+0000"
         }
     ],
     "wrtemplates": []
