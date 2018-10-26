@@ -135,10 +135,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-10-25T03:10:21+0000",
-            "vcs_last_commit": "2018-10-25T03:10:21+0000",
-            "vcs_last_fetch": "2018-10-25T03:10:21+0000",
-            "vcs_last_rev": "d9bbf62f78dbf018f0eca6107b7e95f55a7577da",
+            "updated": "2018-10-25T08:10:04+0000",
+            "vcs_last_commit": "2018-10-25T08:10:04+0000",
+            "vcs_last_fetch": "2018-10-25T08:10:04+0000",
+            "vcs_last_rev": "0cdba2589db552a877b9599c451d084a12090080",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -177,10 +177,10 @@
             "collection": "wrlinux-ovp",
             "id": 109415,
             "layer": 170,
-            "updated": "2018-10-25T03:10:21+0000",
-            "vcs_last_commit": "2018-10-25T03:10:21+0000",
-            "vcs_last_fetch": "2018-10-25T03:10:21+0000",
-            "vcs_last_rev": "d9bbf62f78dbf018f0eca6107b7e95f55a7577da",
+            "updated": "2018-10-25T08:10:04+0000",
+            "vcs_last_commit": "2018-10-25T08:10:04+0000",
+            "vcs_last_fetch": "2018-10-25T08:10:04+0000",
+            "vcs_last_rev": "0cdba2589db552a877b9599c451d084a12090080",
             "vcs_subdir": "wrlinux-ovp",
             "version": "1",
             "yp_compatible_version": 2
@@ -480,7 +480,7 @@
             "updated": "2018-10-11T01:10:26+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
@@ -488,7 +488,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 725842,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-kvm",
@@ -496,7 +496,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-25T03:10:46+0000"
+            "updated": "2018-10-25T08:10:27+0000"
         },
         {
             "bbclassextend": "",
