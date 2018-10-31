@@ -73,23 +73,23 @@
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 3787,
+            "id": 4156,
             "layerbranch": 493034,
             "name": "anaconda",
-            "updated": "2018-10-23T06:10:25+0000"
+            "updated": "2018-10-30T19:10:11+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181022",
+            "actual_branch": "wr-10.18-20181029",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-30T08:10:53+0000",
-            "vcs_last_commit": "2018-10-30T08:10:53+0000",
-            "vcs_last_fetch": "2018-10-30T08:10:53+0000",
-            "vcs_last_rev": "59293edce99a3c512e8b1ca254f80f9dcffbe141",
+            "updated": "2018-10-30T20:10:49+0000",
+            "vcs_last_commit": "2018-10-30T20:10:49+0000",
+            "vcs_last_fetch": "2018-10-30T20:10:49+0000",
+            "vcs_last_rev": "c9cd87b296c13638c3f59378656f1b06545f439c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -179,15 +179,15 @@
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20180929",
+            "actual_branch": "wr-10.18-20181029",
             "branch": 38,
             "collection": "meta-anaconda",
             "id": 493034,
             "layer": 235,
-            "updated": "2018-10-23T06:10:39+0000",
-            "vcs_last_commit": "2018-10-23T06:10:39+0000",
-            "vcs_last_fetch": "2018-10-23T06:10:39+0000",
-            "vcs_last_rev": "b665e4287469f6b6dd0d1f6dcd98998c0c4bdc39",
+            "updated": "2018-10-29T01:10:26+0000",
+            "vcs_last_commit": "2018-10-29T01:10:26+0000",
+            "vcs_last_fetch": "2018-10-29T01:10:26+0000",
+            "vcs_last_rev": "a84d4cf0f0e9207ff668776ebaa51d3d2a055ebb",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 3
@@ -408,7 +408,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T06:10:26+0000"
+            "updated": "2018-10-30T19:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -427,7 +427,7 @@
             "pv": "1.3",
             "section": "devel",
             "summary": "A text UI framework",
-            "updated": "2018-10-23T06:10:26+0000"
+            "updated": "2018-10-30T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -446,7 +446,7 @@
             "pv": "28.22.11",
             "section": "devel",
             "summary": "The anaconda package",
-            "updated": "2018-10-23T06:10:26+0000"
+            "updated": "2018-10-30T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -465,7 +465,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T06:10:26+0000"
+            "updated": "2018-10-30T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -476,7 +476,7 @@
             "filepath": "recipes-installer/images",
             "homepage": "",
             "id": 776563,
-            "inherits": "anaconda_image core-image fs-uuid grub-efi grub-efi-cfg image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinf",
+            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux",
             "layerbranch": 493034,
             "license": "MIT",
             "pn": "core-image-anaconda",
@@ -484,7 +484,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T06:10:26+0000"
+            "updated": "2018-10-30T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -503,7 +503,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T06:10:26+0000"
+            "updated": "2018-10-30T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -522,7 +522,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T06:10:26+0000"
+            "updated": "2018-10-30T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -541,7 +541,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T06:10:26+0000"
+            "updated": "2018-10-30T19:10:11+0000"
         }
     ],
     "wrtemplates": []
