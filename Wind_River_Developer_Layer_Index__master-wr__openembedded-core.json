@@ -59,14 +59,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181022",
+            "bitbake_branch": "wr-10.18-20181031",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-23T03:10:23+0000",
+            "updated": "2018-10-31T18:10:49+0000",
             "updates_enabled": true
         }
     ],
@@ -81,15 +81,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181029",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-30T20:10:49+0000",
-            "vcs_last_commit": "2018-10-30T20:10:49+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:49+0000",
-            "vcs_last_rev": "c9cd87b296c13638c3f59378656f1b06545f439c",
+            "updated": "2018-10-31T23:10:21+0000",
+            "vcs_last_commit": "2018-10-31T23:10:21+0000",
+            "vcs_last_fetch": "2018-10-31T23:10:21+0000",
+            "vcs_last_rev": "49bc446244c59a7d5fc1fa966a35dc286db9d626",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -1617,7 +1617,7 @@
             "pv": "2.4.94",
             "section": "x11/base",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2018-10-11T09:10:16+0000"
+            "updated": "2018-10-31T18:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2548,7 +2548,7 @@
             "pv": "1.11.3",
             "section": "libs",
             "summary": "Library to handle input devices in Wayland compositors",
-            "updated": "2018-10-11T09:10:14+0000"
+            "updated": "2018-10-31T18:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2890,7 +2890,7 @@
             "pv": "1.5.2",
             "section": "libs",
             "summary": "OpenGL function pointer management library",
-            "updated": "2018-10-11T09:10:16+0000"
+            "updated": "2018-10-31T18:10:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -3536,7 +3536,7 @@
             "pv": "3.30.0",
             "section": "base",
             "summary": "System-wide Performance Profiler for Linux",
-            "updated": "2018-10-11T09:10:16+0000"
+            "updated": "2018-10-31T18:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -4581,7 +4581,7 @@
             "pv": "7.61.0",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2018-10-11T00:10:51+0000"
+            "updated": "2018-10-31T18:10:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -5379,7 +5379,7 @@
             "pv": "1.0.5",
             "section": "libs",
             "summary": "Free Implementation of the Unicode Bidirectional Algorithm",
-            "updated": "2018-10-11T09:10:14+0000"
+            "updated": "2018-10-31T18:10:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5531,7 +5531,7 @@
             "pv": "2.28.0",
             "section": "base",
             "summary": "Assistive Technology Service Provider Interface (dbus core)",
-            "updated": "2018-10-16T01:10:14+0000"
+            "updated": "2018-10-31T18:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -5550,7 +5550,7 @@
             "pv": "2.26.2",
             "section": "base",
             "summary": "AT-SPI 2 Toolkit Bridge",
-            "updated": "2018-10-11T09:10:14+0000"
+            "updated": "2018-10-31T18:10:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -5569,7 +5569,7 @@
             "pv": "2.28.1",
             "section": "x11/libs",
             "summary": "Accessibility toolkit for GNOME",
-            "updated": "2018-10-16T01:10:15+0000"
+            "updated": "2018-10-31T18:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5968,7 +5968,7 @@
             "pv": "0.0.1+gitX",
             "section": "base",
             "summary": "GStreamer examples (including gtk-play, gst-play)",
-            "updated": "2018-10-11T09:10:16+0000"
+            "updated": "2018-10-31T18:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -6640,7 +6640,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tzdata_2018e.bb",
+            "filename": "tzdata_2018f.bb",
             "filepath": "recipes-extended/tzdata",
             "homepage": "http://www.iana.org/time-zones",
             "id": 722626,
@@ -6649,10 +6649,10 @@
             "license": "PD & BSD & BSD-3-Clause",
             "pn": "tzdata",
             "provides": "tzdata ",
-            "pv": "2018e",
+            "pv": "2018f",
             "section": "base",
             "summary": "Timezone data",
-            "updated": "2018-10-23T03:10:26+0000"
+            "updated": "2018-10-31T18:10:42+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -6861,7 +6861,7 @@
             "pv": "1.22.3",
             "section": "base",
             "summary": "GNU Troff software",
-            "updated": "2018-10-11T00:10:20+0000"
+            "updated": "2018-10-31T18:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7951,7 +7951,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tzcode-native_2018e.bb",
+            "filename": "tzcode-native_2018f.bb",
             "filepath": "recipes-extended/tzcode",
             "homepage": "",
             "id": 722695,
@@ -7960,10 +7960,10 @@
             "license": "PD & BSD & BSD-3-Clause",
             "pn": "tzcode-native",
             "provides": "tzcode-native ",
-            "pv": "2018e",
+            "pv": "2018f",
             "section": "base",
             "summary": "tzcode, timezone zoneinfo utils -- zic, zdump, tzselect",
-            "updated": "2018-10-23T03:10:33+0000"
+            "updated": "2018-10-31T18:10:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -8901,7 +8901,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "git_2.18.0.bb",
+            "filename": "git_2.18.1.bb",
             "filepath": "recipes-devtools/git",
             "homepage": "http://git-scm.com",
             "id": 722745,
@@ -8910,10 +8910,10 @@
             "license": "GPLv2",
             "pn": "git",
             "provides": "git ",
-            "pv": "2.18.0",
+            "pv": "2.18.1",
             "section": "console/utils",
             "summary": "Distributed version control system",
-            "updated": "2018-10-11T00:10:36+0000"
+            "updated": "2018-10-31T18:10:47+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11839,7 +11839,7 @@
             "pv": "0.5.0",
             "section": "base",
             "summary": "Dependency management tool for Golang",
-            "updated": "2018-10-23T03:10:55+0000"
+            "updated": "2018-10-31T20:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -12067,7 +12067,7 @@
             "pv": "1.2.24",
             "section": "base",
             "summary": "Advanced front-end for dpkg",
-            "updated": "2018-10-23T03:10:56+0000"
+            "updated": "2018-10-31T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -12086,7 +12086,7 @@
             "pv": "1.2.24",
             "section": "base",
             "summary": "Advanced front-end for dpkg",
-            "updated": "2018-10-23T03:10:56+0000"
+            "updated": "2018-10-31T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -12257,7 +12257,7 @@
             "pv": "3.28.3.1",
             "section": "base",
             "summary": "WebKit based web browser for GNOME",
-            "updated": "2018-10-11T09:10:14+0000"
+            "updated": "2018-10-31T18:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12504,7 +12504,7 @@
             "pv": "1.4.2",
             "section": "base",
             "summary": "JSON-GLib implements a full JSON parser using GLib and GObject",
-            "updated": "2018-10-16T01:10:22+0000"
+            "updated": "2018-10-31T18:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -12865,7 +12865,7 @@
             "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-10-30T19:10:01+0000"
+            "updated": "2018-10-31T18:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12903,7 +12903,7 @@
             "pv": "239",
             "section": "base",
             "summary": "A System and service manager",
-            "updated": "2018-10-11T09:10:15+0000"
+            "updated": "2018-10-31T18:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -13720,7 +13720,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-10-23T03:10:14+0000"
+            "updated": "2018-10-31T18:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -14385,7 +14385,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Package of environment files for SDK",
-            "updated": "2018-10-11T00:10:01+0000"
+            "updated": "2018-10-31T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14404,7 +14404,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Integrated Development Environment support",
-            "updated": "2018-10-11T00:10:01+0000"
+            "updated": "2018-10-31T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14594,7 +14594,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Package of environment files for SDK",
-            "updated": "2018-10-11T00:10:02+0000"
+            "updated": "2018-10-31T23:10:18+0000"
         },
         {
             "bbclassextend": "",

@@ -59,135 +59,135 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181022",
+            "bitbake_branch": "wr-10.18-20181031",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-23T03:10:23+0000",
+            "updated": "2018-10-31T18:10:49+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 4156,
+            "id": 4191,
             "layerbranch": 493034,
             "name": "anaconda",
-            "updated": "2018-10-30T19:10:11+0000"
+            "updated": "2018-10-31T18:10:35+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181029",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-30T20:10:49+0000",
-            "vcs_last_commit": "2018-10-30T20:10:49+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:49+0000",
-            "vcs_last_rev": "c9cd87b296c13638c3f59378656f1b06545f439c",
+            "updated": "2018-10-31T23:10:21+0000",
+            "vcs_last_commit": "2018-10-31T23:10:21+0000",
+            "vcs_last_fetch": "2018-10-31T23:10:21+0000",
+            "vcs_last_rev": "49bc446244c59a7d5fc1fa966a35dc286db9d626",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181022",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2018-10-22T01:10:20+0000",
-            "vcs_last_commit": "2018-10-22T01:10:20+0000",
-            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
-            "vcs_last_rev": "f45b6c7c22d399c065c2c1bb94836461c505a567",
+            "updated": "2018-10-30T20:10:11+0000",
+            "vcs_last_commit": "2018-10-30T20:10:11+0000",
+            "vcs_last_fetch": "2018-10-30T20:10:11+0000",
+            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181022",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "gnome-layer",
             "id": 14960,
             "layer": 15,
-            "updated": "2018-10-22T01:10:20+0000",
-            "vcs_last_commit": "2018-10-22T01:10:20+0000",
-            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
-            "vcs_last_rev": "f45b6c7c22d399c065c2c1bb94836461c505a567",
+            "updated": "2018-10-30T20:10:11+0000",
+            "vcs_last_commit": "2018-10-30T20:10:11+0000",
+            "vcs_last_fetch": "2018-10-30T20:10:11+0000",
+            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181022",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2018-10-22T01:10:20+0000",
-            "vcs_last_commit": "2018-10-22T01:10:20+0000",
-            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
-            "vcs_last_rev": "f45b6c7c22d399c065c2c1bb94836461c505a567",
+            "updated": "2018-10-30T20:10:11+0000",
+            "vcs_last_commit": "2018-10-30T20:10:11+0000",
+            "vcs_last_fetch": "2018-10-30T20:10:11+0000",
+            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181022",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-10-23T23:10:21+0000",
-            "vcs_last_commit": "2018-10-23T23:10:21+0000",
-            "vcs_last_fetch": "2018-10-23T23:10:21+0000",
-            "vcs_last_rev": "77be8e3d4e477e1af453aac72e7a84474fda9a72",
+            "updated": "2018-11-01T03:11:42+0000",
+            "vcs_last_commit": "2018-11-01T03:11:42+0000",
+            "vcs_last_fetch": "2018-11-01T03:11:42+0000",
+            "vcs_last_rev": "26ff010c890b86ca31ad12f4b03befa1dcc73e2a",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181022",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-10-22T01:10:21+0000",
-            "vcs_last_commit": "2018-10-22T01:10:21+0000",
-            "vcs_last_fetch": "2018-10-22T01:10:21+0000",
-            "vcs_last_rev": "8661b5fd9a7ecaec87f2e6cb79b25fc18082908a",
+            "updated": "2018-11-01T01:11:52+0000",
+            "vcs_last_commit": "2018-11-01T01:11:52+0000",
+            "vcs_last_fetch": "2018-11-01T01:11:52+0000",
+            "vcs_last_rev": "9e90e578b883b482fa4d5c1a3281471c18087d6e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181022",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-10-22T01:10:20+0000",
-            "vcs_last_commit": "2018-10-22T01:10:20+0000",
-            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
-            "vcs_last_rev": "f45b6c7c22d399c065c2c1bb94836461c505a567",
+            "updated": "2018-10-30T20:10:11+0000",
+            "vcs_last_commit": "2018-10-30T20:10:11+0000",
+            "vcs_last_fetch": "2018-10-30T20:10:11+0000",
+            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181029",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "meta-anaconda",
             "id": 493034,
             "layer": 235,
-            "updated": "2018-10-29T01:10:26+0000",
-            "vcs_last_commit": "2018-10-29T01:10:26+0000",
-            "vcs_last_fetch": "2018-10-29T01:10:26+0000",
-            "vcs_last_rev": "a84d4cf0f0e9207ff668776ebaa51d3d2a055ebb",
+            "updated": "2018-10-30T23:10:46+0000",
+            "vcs_last_commit": "2018-10-30T23:10:46+0000",
+            "vcs_last_fetch": "2018-10-30T23:10:46+0000",
+            "vcs_last_rev": "d30ff78f3c7b63495e090c3b654f403e80e14602",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 3
@@ -408,7 +408,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-30T19:10:09+0000"
+            "updated": "2018-10-31T18:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -427,7 +427,7 @@
             "pv": "1.3",
             "section": "devel",
             "summary": "A text UI framework",
-            "updated": "2018-10-30T19:10:10+0000"
+            "updated": "2018-10-31T18:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -446,7 +446,7 @@
             "pv": "28.22.11",
             "section": "devel",
             "summary": "The anaconda package",
-            "updated": "2018-10-30T19:10:10+0000"
+            "updated": "2018-10-31T18:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -465,7 +465,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-30T19:10:10+0000"
+            "updated": "2018-10-31T18:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -484,7 +484,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-30T19:10:10+0000"
+            "updated": "2018-10-31T18:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -503,7 +503,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-30T19:10:10+0000"
+            "updated": "2018-10-31T18:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -522,7 +522,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-30T19:10:10+0000"
+            "updated": "2018-10-31T18:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -541,7 +541,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-30T19:10:11+0000"
+            "updated": "2018-10-31T18:10:35+0000"
         }
     ],
     "wrtemplates": []

@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181022",
+            "bitbake_branch": "wr-10.18-20181031",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-23T03:10:23+0000",
+            "updated": "2018-10-31T18:10:49+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181029",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-10-30T20:10:49+0000",
-            "vcs_last_commit": "2018-10-30T20:10:49+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:49+0000",
-            "vcs_last_rev": "c9cd87b296c13638c3f59378656f1b06545f439c",
+            "updated": "2018-10-31T23:10:21+0000",
+            "vcs_last_commit": "2018-10-31T23:10:21+0000",
+            "vcs_last_fetch": "2018-10-31T23:10:21+0000",
+            "vcs_last_rev": "49bc446244c59a7d5fc1fa966a35dc286db9d626",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181022",
+            "actual_branch": "wr-10.18-20181031",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2018-10-22T01:10:20+0000",
-            "vcs_last_commit": "2018-10-22T01:10:20+0000",
-            "vcs_last_fetch": "2018-10-22T01:10:20+0000",
-            "vcs_last_rev": "384a052fb3c92306ff0dce55a2e58e8e7db94f41",
+            "updated": "2018-10-30T20:10:12+0000",
+            "vcs_last_commit": "2018-10-30T20:10:12+0000",
+            "vcs_last_fetch": "2018-10-30T20:10:12+0000",
+            "vcs_last_rev": "772696f464025ced34cdf507151c7bfe3780d08d",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 3
@@ -1015,7 +1015,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mpd_0.20.21.bb",
+            "filename": "mpd_0.20.22.bb",
             "filepath": "recipes-multimedia/musicpd",
             "homepage": "http://www.musicpd.org",
             "id": 724311,
@@ -1024,10 +1024,10 @@
             "license": "GPLv2",
             "pn": "mpd",
             "provides": "mpd ",
-            "pv": "0.20.21",
+            "pv": "0.20.22",
             "section": "base",
             "summary": "Music Player Daemon",
-            "updated": "2018-10-08T07:10:00+0000"
+            "updated": "2018-10-31T18:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1053,7 +1053,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mpc_0.30.bb",
+            "filename": "mpc_0.31.bb",
             "filepath": "recipes-multimedia/musicpd",
             "homepage": "https://www.musicpd.org/clients/mpc/",
             "id": 724313,
@@ -1062,10 +1062,10 @@
             "license": "GPLv2",
             "pn": "mpc",
             "provides": "mpc ",
-            "pv": "0.30",
+            "pv": "0.31",
             "section": "base",
             "summary": "A minimalist command line interface to the Music Player Daemon",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-10-31T18:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1091,7 +1091,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "ncmpc_0.32.bb",
+            "filename": "ncmpc_0.33.bb",
             "filepath": "recipes-multimedia/musicpd",
             "homepage": "https://www.musicpd.org/clients/ncmpc/",
             "id": 724315,
@@ -1100,10 +1100,10 @@
             "license": "GPLv2",
             "pn": "ncmpc",
             "provides": "ncmpc ",
-            "pv": "0.32",
+            "pv": "0.33",
             "section": "base",
             "summary": "A curses client for the Music Player Daemon",
-            "updated": "2018-10-08T07:10:01+0000"
+            "updated": "2018-10-31T18:10:06+0000"
         },
         {
             "bbclassextend": "",
