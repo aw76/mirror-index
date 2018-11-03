@@ -72,11 +72,11 @@
     ],
     "distros": [
         {
-            "description": "Wind River Linux OVP",
-            "id": 3558,
+            "description": "Wind River Linux (Open Virtualization)",
+            "id": 4201,
             "layerbranch": 109415,
             "name": "wrlinux-ovp",
-            "updated": "2018-10-31T01:10:31+0000"
+            "updated": "2018-11-02T13:11:15+0000"
         }
     ],
     "layerBranches": [
@@ -142,10 +142,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-11-01T18:11:02+0000",
-            "vcs_last_commit": "2018-11-01T18:11:02+0000",
-            "vcs_last_fetch": "2018-11-01T18:11:02+0000",
-            "vcs_last_rev": "e1fe75389f990cae56271d44f74db63282a2e99b",
+            "updated": "2018-11-02T07:11:01+0000",
+            "vcs_last_commit": "2018-11-02T07:11:01+0000",
+            "vcs_last_fetch": "2018-11-02T07:11:01+0000",
+            "vcs_last_rev": "962e89692be6a206d2b721a14de622ebb03aec38",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -184,10 +184,10 @@
             "collection": "wrlinux-ovp",
             "id": 109415,
             "layer": 170,
-            "updated": "2018-10-31T19:10:52+0000",
-            "vcs_last_commit": "2018-10-31T19:10:52+0000",
-            "vcs_last_fetch": "2018-10-31T19:10:52+0000",
-            "vcs_last_rev": "84e398abdd5e3038c7bebe750e7579d5fb528654",
+            "updated": "2018-11-02T07:11:01+0000",
+            "vcs_last_commit": "2018-11-02T07:11:01+0000",
+            "vcs_last_fetch": "2018-11-02T07:11:01+0000",
+            "vcs_last_rev": "962e89692be6a206d2b721a14de622ebb03aec38",
             "vcs_subdir": "wrlinux-ovp",
             "version": "1",
             "yp_compatible_version": 2
@@ -430,14 +430,14 @@
     "machines": [],
     "recipes": [
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packagegroup defining packages needed for lxc",
             "filename": "packagegroup-containers.bb",
             "filepath": "recipes-containers/packagegroups",
             "homepage": "",
-            "id": 725839,
+            "id": 849507,
             "inherits": "packagegroup",
             "layerbranch": 109415,
             "license": "MIT",
@@ -446,18 +446,18 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:25+0000"
+            "updated": "2018-11-02T13:11:15+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
             "filename": "wrlinux-image-ovp-guest.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 725840,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "id": 849508,
+            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-guest",
@@ -465,18 +465,18 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:26+0000"
+            "updated": "2018-11-02T13:11:16+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
             "filename": "wrlinux-image-ovp-kvm-minimal.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 725841,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "id": 849509,
+            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-kvm-minimal",
@@ -484,18 +484,18 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:26+0000"
+            "updated": "2018-11-02T13:11:16+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
             "filename": "wrlinux-image-ovp-kvm.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 725842,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "id": 849510,
+            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-kvm",
@@ -503,17 +503,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-25T08:10:27+0000"
+            "updated": "2018-11-02T13:11:16+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "criu packagegroup",
             "filename": "packagegroup-ovp-criu.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 725843,
+            "id": 849511,
             "inherits": "packagegroup",
             "layerbranch": 109415,
             "license": "MIT",
@@ -522,17 +522,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:26+0000"
+            "updated": "2018-11-02T13:11:16+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Debugging packages for VM's.",
             "filename": "packagegroup-ovp-debug.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 725844,
+            "id": 849512,
             "inherits": "packagegroup",
             "layerbranch": 109415,
             "license": "MIT",
@@ -541,17 +541,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:26+0000"
+            "updated": "2018-11-02T13:11:16+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Trace tools packagegroup extending glibc_std.",
             "filename": "packagegroup-ovp-trace-tools.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 725845,
+            "id": 849513,
             "inherits": "",
             "layerbranch": 109415,
             "license": "MIT",
@@ -560,17 +560,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:16+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "OVP LTTng Toolchain",
             "filename": "packagegroup-ovp-lttng-toolchain.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 725846,
+            "id": 849514,
             "inherits": "packagegroup",
             "layerbranch": 109415,
             "license": "MIT",
@@ -579,17 +579,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packagegroup for VM",
             "filename": "packagegroup-ovp-vm.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 725847,
+            "id": 849515,
             "inherits": "packagegroup",
             "layerbranch": 109415,
             "license": "MIT",
@@ -598,17 +598,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "docker packagegroup",
             "filename": "packagegroup-ovp-docker.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 725848,
+            "id": 849516,
             "inherits": "packagegroup",
             "layerbranch": 109415,
             "license": "MIT",
@@ -617,17 +617,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packagegroup for glusterfs components",
             "filename": "packagegroup-glusterfs.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 725849,
+            "id": 849517,
             "inherits": "",
             "layerbranch": 109415,
             "license": "MIT",
@@ -636,17 +636,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Virtual/monitoring for zabbix packages",
             "filename": "packagegroup-zabbix-monitoring.bb",
             "filepath": "recipes-extended/packagegroup",
             "homepage": "",
-            "id": 725850,
+            "id": 849518,
             "inherits": "allarch packagegroup",
             "layerbranch": 109415,
             "license": "GPLv2",
@@ -655,17 +655,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "OVP Default Monitoring System",
             "filename": "packagegroup-ovp-default-monitoring.bb",
             "filepath": "recipes-extended/packagegroup",
             "homepage": "",
-            "id": 725851,
+            "id": 849519,
             "inherits": "",
             "layerbranch": 109415,
             "license": "MIT",
@@ -674,17 +674,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Empty virtual/monitoring provider",
             "filename": "packagegroup-empty-monitoring.bb",
             "filepath": "recipes-extended/packagegroup",
             "homepage": "",
-            "id": 725852,
+            "id": 849520,
             "inherits": "allarch packagegroup",
             "layerbranch": 109415,
             "license": "GPLv2",
@@ -693,17 +693,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Virtual/monitoring for nagios packages",
             "filename": "packagegroup-nagios-monitoring.bb",
             "filepath": "recipes-extended/packagegroup",
             "homepage": "",
-            "id": 725853,
+            "id": 849521,
             "inherits": "allarch packagegroup",
             "layerbranch": 109415,
             "license": "GPLv2",
@@ -712,17 +712,17 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "SystemReporter is a simple tool which gathers/crawls  various system files, uses various helper tools to obtain relevant  system information. The gathered information is grouped, and is shown  on the console.",
             "filename": "system-report_1.0.bb",
             "filepath": "recipes-extended/system-report",
             "homepage": "",
-            "id": 725854,
+            "id": 849522,
             "inherits": "",
             "layerbranch": 109415,
             "license": "GPLv2",
@@ -731,17 +731,17 @@
             "pv": "1.0",
             "section": "console/utils",
             "summary": "Generate various system information report of this system",
-            "updated": "2018-10-11T01:10:27+0000"
+            "updated": "2018-11-02T13:11:17+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An introspection library, written in C, focused on reading                and writing memory from virtual machines (VM's).",
             "filename": "libvmi_git.bb",
             "filepath": "recipes-extended/libvmi",
             "homepage": "https://github.com/bdpayne/libvmi",
-            "id": 725856,
+            "id": 849523,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 109415,
             "license": "LGPLv3",
@@ -750,44 +750,44 @@
             "pv": "0.10.1",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-10-11T01:10:25+0000"
+            "updated": "2018-11-02T13:11:18+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 28560,
+            "id": 33221,
             "layerbranch": 109415,
             "name": "feature",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-11-02T13:11:15+0000"
         },
         {
             "description": "",
-            "id": 28561,
+            "id": 33222,
             "layerbranch": 109415,
             "name": "feature/guest-rt-tune",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-11-02T13:11:15+0000"
         },
         {
             "description": "",
-            "id": 28562,
+            "id": 33223,
             "layerbranch": 109415,
             "name": "feature/kernel-ovp-guest",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-11-02T13:11:15+0000"
         },
         {
             "description": "",
-            "id": 28563,
+            "id": 33224,
             "layerbranch": 109415,
             "name": "feature/host-rt-tune",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-11-02T13:11:15+0000"
         },
         {
             "description": "",
-            "id": 28564,
+            "id": 33225,
             "layerbranch": 109415,
             "name": "default",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-11-02T13:11:15+0000"
         }
     ]
 }
