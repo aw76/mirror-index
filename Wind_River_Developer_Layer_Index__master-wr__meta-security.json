@@ -87,15 +87,15 @@
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181105",
             "branch": 38,
             "collection": "security",
             "id": 14954,
             "layer": 18,
-            "updated": "2018-10-24T18:10:12+0000",
-            "vcs_last_commit": "2018-10-24T18:10:12+0000",
-            "vcs_last_fetch": "2018-10-24T18:10:12+0000",
-            "vcs_last_rev": "77192f5e0c151b593c6f7a3c0614bc00372f3f55",
+            "updated": "2018-11-04T22:11:57+0000",
+            "vcs_last_commit": "2018-11-04T22:11:57+0000",
+            "vcs_last_fetch": "2018-11-04T22:11:57+0000",
+            "vcs_last_rev": "bc7be9c8d200bbb0240baf0c6a65bf3c029ce5df",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 3
@@ -316,7 +316,7 @@
             "filepath": "recipes-security/fail2ban",
             "homepage": "http://www.fail2ban.org",
             "id": 725118,
-            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools update-rc.d",
+            "inherits": "distutils distutils-base distutils-common-base ptest python-dir pythonnative setuptools update-rc.d",
             "layerbranch": 14954,
             "license": "GPL-2.0",
             "pn": "python-fail2ban",
@@ -324,7 +324,7 @@
             "pv": "0.10.3.1",
             "section": "base",
             "summary": "Daemon to ban hosts that cause multiple authentication errors.",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-11-05T18:11:20+0000"
         },
         {
             "bbclassextend": "",
@@ -335,7 +335,7 @@
             "filepath": "recipes-security/fail2ban",
             "homepage": "http://www.fail2ban.org",
             "id": 725119,
-            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3 update-rc.d",
+            "inherits": "distutils-common-base distutils3 distutils3-base ptest python3-dir python3native setuptools3 update-rc.d",
             "layerbranch": 14954,
             "license": "GPL-2.0",
             "pn": "python3-fail2ban",
@@ -343,7 +343,7 @@
             "pv": "0.10.3.1",
             "section": "base",
             "summary": "Daemon to ban hosts that cause multiple authentication errors.",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-11-05T18:11:21+0000"
         },
         {
             "bbclassextend": "",
@@ -449,7 +449,7 @@
             "filepath": "recipes-security/suricata",
             "homepage": "http://suricata-ids.org/",
             "id": 725125,
-            "inherits": "autotools autotools-brokensep pkgconfig python-dir siteconfig siteinfo systemd",
+            "inherits": "autotools autotools-brokensep pkgconfig ptest python-dir siteconfig siteinfo systemd",
             "layerbranch": 14954,
             "license": "GPLv2",
             "pn": "suricata",
@@ -457,7 +457,7 @@
             "pv": "4.0.5",
             "section": "security Monitor/Admin",
             "summary": "The Suricata Engine is an Open Source Next Generation Intrusion Detection and Prevention Engine",
-            "updated": "2018-10-05T09:10:11+0000"
+            "updated": "2018-11-05T18:11:21+0000"
         },
         {
             "bbclassextend": "",
@@ -571,7 +571,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:12+0000"
+            "updated": "2018-11-05T18:11:21+0000"
         },
         {
             "bbclassextend": "",
@@ -620,7 +620,7 @@
             "filepath": "recipes-security/tripwire",
             "homepage": "http://sourceforge.net/projects/tripwire",
             "id": 725135,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo update-rc.d",
+            "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo update-rc.d",
             "layerbranch": 14954,
             "license": "GPLv2",
             "pn": "tripwire",
@@ -628,7 +628,7 @@
             "pv": "2.4.3.6",
             "section": "security Monitor/Admin",
             "summary": "Tripwire: A system integrity assessment tool (IDS)",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2018-11-05T18:11:22+0000"
         },
         {
             "bbclassextend": "",
@@ -723,7 +723,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:14+0000"
+            "updated": "2018-11-05T18:11:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1015,7 +1015,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
-            "filename": "clamav_0.99.3.bb",
+            "filename": "clamav_0.99.4.bb",
             "filepath": "recipes-security/clamav",
             "homepage": "http://www.clamav.net/index.html",
             "id": 725156,
@@ -1024,10 +1024,10 @@
             "license": "LGPL-2.1",
             "pn": "clamav",
             "provides": "clamav ",
-            "pv": "0.99.3",
+            "pv": "0.99.4",
             "section": "security",
             "summary": "ClamAV anti-virus utility for Unix - command-line interface",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2018-11-05T18:11:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1085,6 +1085,44 @@
             "section": "libs",
             "summary": "Perl module that imports environment variables as scalars or arrays",
             "updated": "2018-10-05T09:10:18+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This is a system daemon implementing the TPM2 access broker (TAB) & Resource Manager (RM) spec from the TCG. The daemon (tpm2-abrmd) is implemented using Glib and the GObject system. In this documentation and in the code we use `tpm2-abrmd` and `tabrmd` interchangeably. ",
+            "filename": "tpm2-abrmd_2.0.2.bb",
+            "filepath": "meta-tpm/recipes-tpm/tpm2-abrmd",
+            "homepage": "",
+            "id": 849562,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "layerbranch": 14954,
+            "license": "BSD-2-Clause",
+            "pn": "tpm2-abrmd",
+            "provides": "tpm2-abrmd ",
+            "pv": "2.0.2",
+            "section": "security/tpm",
+            "summary": "TPM2 Access Broker & Resource Manager",
+            "updated": "2018-11-05T18:11:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "tpm2simulator_138.bb",
+            "filepath": "meta-tpm/recipes-tpm/tpm2simulator",
+            "homepage": "",
+            "id": 849563,
+            "inherits": "cmake lib_package native nopackages relocatable",
+            "layerbranch": 14954,
+            "license": "BSD-2-Clause",
+            "pn": "tpm2simulator",
+            "provides": "tpm2simulator ",
+            "pv": "138",
+            "section": "base",
+            "summary": "TPM 2.0 Simulator Extraction Script",
+            "updated": "2018-11-05T18:11:22+0000"
         }
     ],
     "wrtemplates": []
