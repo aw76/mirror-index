@@ -59,57 +59,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-11-07T08:11:00+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T08:11:00+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-04T22:12:49+0000",
+            "vcs_last_commit": "2018-12-04T22:12:49+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
+            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-11-08T23:11:09+0000",
-            "vcs_last_commit": "2018-11-08T23:11:09+0000",
-            "vcs_last_fetch": "2018-11-08T23:11:09+0000",
-            "vcs_last_rev": "68c543a56702879dbb76f868721f257b2e9ecd62",
+            "updated": "2018-12-04T22:12:30+0000",
+            "vcs_last_commit": "2018-12-04T22:12:30+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:30+0000",
+            "vcs_last_rev": "5b1402339726d25d374299ee37db3a856624632b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-10-30T20:10:11+0000",
-            "vcs_last_commit": "2018-10-30T20:10:11+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:11+0000",
-            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
+            "updated": "2018-12-02T17:12:47+0000",
+            "vcs_last_commit": "2018-12-02T17:12:47+0000",
+            "vcs_last_fetch": "2018-12-02T17:12:47+0000",
+            "vcs_last_rev": "435484e821fe123b32e45cdae750c9c50ba53f0c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -129,8 +129,8 @@
             "required": true
         },
         {
-            "dependency": 264,
-            "id": 42308,
+            "dependency": 282,
+            "id": 44881,
             "layerbranch": 14967,
             "required": false
         }
@@ -559,7 +559,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A python module for system storage configuration",
-            "filename": "python3-blivet_3.0.1.bb",
+            "filename": "python3-blivet_3.1.1.bb",
             "filepath": "recipes-extended/python-blivet",
             "homepage": "http://fedoraproject.org/wiki/blivet",
             "id": 723791,
@@ -568,17 +568,17 @@
             "license": "LGPLv2+",
             "pn": "python3-blivet",
             "provides": "python3-blivet ",
-            "pv": "3.0.1",
+            "pv": "3.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2018-12-03T18:12:49+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "GUI tool for storage configuration using blivet library",
-            "filename": "python3-blivetgui_2.1.8.bb",
+            "filename": "python3-blivetgui_2.1.9.bb",
             "filepath": "recipes-extended/python-blivet",
             "homepage": "https://github.com/rhinstaller/blivet-gui",
             "id": 723792,
@@ -587,17 +587,17 @@
             "license": "GPLv2+",
             "pn": "python3-blivetgui",
             "provides": "python3-blivetgui ",
-            "pv": "2.1.8",
+            "pv": "2.1.9",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2018-12-03T18:12:49+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A python library for manipulating kickstart files",
-            "filename": "python3-pykickstart_3.15.bb",
+            "filename": "python3-pykickstart_3.18.bb",
             "filepath": "recipes-extended/python-pykickstart",
             "homepage": "http://fedoraproject.org/wiki/pykickstart",
             "id": 723793,
@@ -606,10 +606,10 @@
             "license": "GPLv2+",
             "pn": "python3-pykickstart",
             "provides": "python3-pykickstart ",
-            "pv": "3.15",
+            "pv": "3.18",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2018-12-03T18:12:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -787,7 +787,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyiface_0.0.10.bb",
+            "filename": "python-pyiface_0.0.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pyiface/",
             "id": 723803,
@@ -796,10 +796,10 @@
             "license": "GPLv3+",
             "pn": "python-pyiface",
             "provides": "python-pyiface ",
-            "pv": "0.0.10",
+            "pv": "0.0.11",
             "section": "devel/python",
             "summary": "Pyiface is a package that exposes the network interfaces of the operating system in a easy to use and transparent way",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2018-11-27T18:11:40+0000"
         },
         {
             "bbclassextend": "",
@@ -818,7 +818,7 @@
             "pv": "3.3.2",
             "section": "devel/python",
             "summary": "Multidicts are useful for working with HTTP headers, URL query args etc.",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2018-12-03T18:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -932,7 +932,7 @@
             "pv": "234",
             "section": "devel/python",
             "summary": "Python interface for libsystemd",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-12-03T18:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1566,7 +1566,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-bandit_1.4.0.bb",
+            "filename": "python3-bandit_1.5.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723844,
@@ -1575,10 +1575,10 @@
             "license": "Apache-2.0",
             "pn": "python3-bandit",
             "provides": "python3-bandit ",
-            "pv": "1.4.0",
+            "pv": "1.5.1",
             "section": "devel/python",
             "summary": "Security oriented static analyser for python code.",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2018-12-03T18:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -3610,8 +3610,8 @@
             "provides": "python-configparser ",
             "pv": "3.5.0",
             "section": "devel/python",
-            "summary": "This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what\u2019s found in Microsoft Windows INI files.",
-            "updated": "2018-10-05T09:10:02+0000"
+            "summary": "This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what's found in Microsoft Windows INI files.",
+            "updated": "2018-11-27T18:11:40+0000"
         },
         {
             "bbclassextend": "",
@@ -4055,7 +4055,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pyiface_0.0.10.bb",
+            "filename": "python3-pyiface_0.0.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pyiface/",
             "id": 723975,
@@ -4064,10 +4064,10 @@
             "license": "GPLv3+",
             "pn": "python3-pyiface",
             "provides": "python3-pyiface ",
-            "pv": "0.0.10",
+            "pv": "0.0.11",
             "section": "devel/python",
             "summary": "Pyiface is a package that exposes the network interfaces of the operating system in a easy to use and transparent way",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-11-27T18:11:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4523,7 +4523,7 @@
             "pv": "18.4.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-11-27T18:11:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4542,7 +4542,7 @@
             "pv": "2.7",
             "section": "devel/python",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2018-12-03T18:12:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5157,7 +5157,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-paho-mqtt_1.3.1.bb",
+            "filename": "python-paho-mqtt_1.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724033,
@@ -5166,10 +5166,10 @@
             "license": "EPL-1.0 | EDL-1.0",
             "pn": "python-paho-mqtt",
             "provides": "python-paho-mqtt ",
-            "pv": "1.3.1",
+            "pv": "1.4.0",
             "section": "devel/python",
             "summary": "MQTT version 3.1/3.1.1 client library",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2018-12-03T18:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5492,7 +5492,7 @@
             "pv": "18.4.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-11-27T18:11:40+0000"
         },
         {
             "bbclassextend": "",
@@ -6005,7 +6005,7 @@
             "pv": "2.7",
             "section": "devel/python",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2018-12-03T18:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -7581,8 +7581,8 @@
             "provides": "python3-configparser ",
             "pv": "3.5.0",
             "section": "devel/python",
-            "summary": "This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what\u2019s found in Microsoft Windows INI files.",
-            "updated": "2018-10-05T09:10:41+0000"
+            "summary": "This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what's found in Microsoft Windows INI files.",
+            "updated": "2018-11-27T18:11:40+0000"
         },
         {
             "bbclassextend": "",
@@ -8254,7 +8254,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-paho-mqtt_1.3.1.bb",
+            "filename": "python3-paho-mqtt_1.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724196,
@@ -8263,10 +8263,10 @@
             "license": "EPL-1.0 | EDL-1.0",
             "pn": "python3-paho-mqtt",
             "provides": "python3-paho-mqtt ",
-            "pv": "1.3.1",
+            "pv": "1.4.0",
             "section": "devel/python",
             "summary": "MQTT version 3.1/3.1.1 client library",
-            "updated": "2018-10-05T09:10:47+0000"
+            "updated": "2018-12-03T18:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -8533,6 +8533,44 @@
             "section": "devel/python",
             "summary": "djangorestframework",
             "updated": "2018-10-31T18:10:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python-tzlocal_1.5.1.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.org/project/tzlocal/",
+            "id": 876215,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python-tzlocal",
+            "provides": "python-tzlocal ",
+            "pv": "1.5.1",
+            "section": "devel/python",
+            "summary": "Library to return tzinfo with the local timezone information",
+            "updated": "2018-12-03T18:12:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-tzlocal_1.5.1.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.org/project/tzlocal/",
+            "id": 876216,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python3-tzlocal",
+            "provides": "python3-tzlocal ",
+            "pv": "1.5.1",
+            "section": "devel/python",
+            "summary": "Library to return tzinfo with the local timezone information",
+            "updated": "2018-12-03T18:12:50+0000"
         }
     ],
     "wrtemplates": []

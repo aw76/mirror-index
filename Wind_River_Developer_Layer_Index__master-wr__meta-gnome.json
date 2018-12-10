@@ -59,71 +59,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-11-07T08:11:00+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T08:11:00+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-04T22:12:49+0000",
+            "vcs_last_commit": "2018-12-04T22:12:49+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
+            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "gnome-layer",
             "id": 14960,
             "layer": 15,
-            "updated": "2018-11-02T01:11:31+0000",
-            "vcs_last_commit": "2018-11-02T01:11:31+0000",
-            "vcs_last_fetch": "2018-11-02T01:11:31+0000",
-            "vcs_last_rev": "b7a4581fda7bd3df14f47dff9cd8ad1d58f223af",
+            "updated": "2018-12-02T17:12:47+0000",
+            "vcs_last_commit": "2018-12-02T17:12:47+0000",
+            "vcs_last_fetch": "2018-12-02T17:12:47+0000",
+            "vcs_last_rev": "435484e821fe123b32e45cdae750c9c50ba53f0c",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-11-08T01:11:15+0000",
-            "vcs_last_commit": "2018-11-08T01:11:15+0000",
-            "vcs_last_fetch": "2018-11-08T01:11:15+0000",
-            "vcs_last_rev": "4cbb116f9b8d650b66b412db386796f8a1869af7",
+            "updated": "2018-12-05T22:12:28+0000",
+            "vcs_last_commit": "2018-12-05T22:12:28+0000",
+            "vcs_last_fetch": "2018-12-05T22:12:28+0000",
+            "vcs_last_rev": "0e68b75b92ac30590774d6e057cecd1ee62f4d6f",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-11-08T23:11:09+0000",
-            "vcs_last_commit": "2018-11-08T23:11:09+0000",
-            "vcs_last_fetch": "2018-11-08T23:11:09+0000",
-            "vcs_last_rev": "68c543a56702879dbb76f868721f257b2e9ecd62",
+            "updated": "2018-12-04T22:12:30+0000",
+            "vcs_last_commit": "2018-12-04T22:12:30+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:30+0000",
+            "vcs_last_rev": "5b1402339726d25d374299ee37db3a856624632b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -149,8 +149,8 @@
             "required": true
         },
         {
-            "dependency": 256,
-            "id": 42315,
+            "dependency": 274,
+            "id": 44888,
             "layerbranch": 14960,
             "required": false
         }
@@ -240,7 +240,7 @@
             "filepath": "recipes-connectivity/network-manager-applet",
             "homepage": "",
             "id": 725079,
-            "inherits": "autotools distro_features_check gnomebase gobject-introspection gobject-introspection-data gsettings gtk-icon-cache pkgconfig python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep distro_features_check gnomebase gobject-introspection gobject-introspection-data gsettings gtk-icon-cache pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 14960,
             "license": "GPLv2",
             "pn": "network-manager-applet",
@@ -248,7 +248,7 @@
             "pv": "1.8.18",
             "section": "base",
             "summary": "GTK+ applet for NetworkManager",
-            "updated": "2018-11-02T01:11:16+0000"
+            "updated": "2018-11-27T18:11:28+0000"
         },
         {
             "bbclassextend": "",
@@ -407,19 +407,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "gvfs is a userspace virtual filesystem",
-            "filename": "gvfs_1.36.2.bb",
+            "filename": "gvfs_1.39.1.bb",
             "filepath": "recipes-gnome/gvfs",
             "homepage": "",
             "id": 725088,
-            "inherits": "autotools bash-completion gconf gettext gnome gnomebase gtk-icon-cache mime pkgconfig siteconfig siteinfo",
+            "inherits": "bash-completion gconf gettext gnome gnomebase gtk-icon-cache meson mime pkgconfig python3-dir python3native siteinfo",
             "layerbranch": 14960,
             "license": "LGPLv2",
             "pn": "gvfs",
             "provides": "gvfs ",
-            "pv": "1.36.2",
+            "pv": "1.39.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-11-27T18:11:29+0000"
         },
         {
             "bbclassextend": "",
@@ -571,7 +571,7 @@
             "pv": "5.4",
             "section": "base",
             "summary": "Helper lib for keyboard management",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2018-12-03T18:12:30+0000"
         },
         {
             "bbclassextend": "",
@@ -654,7 +654,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libwnck3_3.24.1.bb",
+            "filename": "libwnck3_3.30.0.bb",
             "filepath": "recipes-gnome/libwnck",
             "homepage": "",
             "id": 725101,
@@ -663,10 +663,10 @@
             "license": "LGPLv2",
             "pn": "libwnck3",
             "provides": "libwnck3 ",
-            "pv": "3.24.1",
+            "pv": "3.30.0",
             "section": "x11/libs",
             "summary": "Window navigation construction toolkit",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2018-11-27T18:11:29+0000"
         },
         {
             "bbclassextend": "",
@@ -749,7 +749,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dconf_0.28.0.bb",
+            "filename": "dconf_0.30.1.bb",
             "filepath": "recipes-gnome/dconf",
             "homepage": "",
             "id": 725106,
@@ -758,10 +758,10 @@
             "license": "LGPLv2.1",
             "pn": "dconf",
             "provides": "dconf ",
-            "pv": "0.28.0",
+            "pv": "0.30.1",
             "section": "x11/gnome",
             "summary": "configuation database system",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-12-03T18:12:30+0000"
         },
         {
             "bbclassextend": "",
@@ -818,7 +818,7 @@
             "pv": "3.28.2",
             "section": "x11/office",
             "summary": "Evince is a document viewer for document formats like pdf, ps, djvu",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2018-12-03T18:12:30+0000"
         },
         {
             "bbclassextend": "",

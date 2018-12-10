@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-11-07T08:11:00+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T08:11:00+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-04T22:12:49+0000",
+            "vcs_last_commit": "2018-12-04T22:12:49+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
+            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2018-10-30T20:10:12+0000",
-            "vcs_last_commit": "2018-10-30T20:10:12+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:12+0000",
-            "vcs_last_rev": "772696f464025ced34cdf507151c7bfe3780d08d",
+            "updated": "2018-12-02T17:12:48+0000",
+            "vcs_last_commit": "2018-12-02T17:12:48+0000",
+            "vcs_last_fetch": "2018-12-02T17:12:48+0000",
+            "vcs_last_rev": "e2b35433f59a7871b49e99d1426c98e98ec2a152",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 3
@@ -109,8 +109,8 @@
             "required": true
         },
         {
-            "dependency": 259,
-            "id": 42310,
+            "dependency": 277,
+            "id": 44883,
             "layerbranch": 14963,
             "required": false
         }
@@ -293,7 +293,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Rygel is a home media solution (UPnP AV MediaServer) that allow you to easily share audio, video and pictures to other devices. Additionally, media player software may use Rygel to become a MediaRenderer that may be controlled remotely by a UPnP or DLNA Controller.",
-            "filename": "rygel_0.34.0.bb",
+            "filename": "rygel_0.37.0.bb",
             "filepath": "recipes-connectivity/rygel",
             "homepage": "http://live.gnome.org/Rygel",
             "id": 724273,
@@ -302,10 +302,10 @@
             "license": "LGPL-2.1",
             "pn": "rygel",
             "provides": "rygel ",
-            "pv": "0.34.0",
+            "pv": "0.37.0",
             "section": "base",
             "summary": "A UPnP AV media server and renderer",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-12-03T18:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1655,6 +1655,63 @@
             "section": "base",
             "summary": "libmatroska is a C++ libary to parse Matroska files (.mkv and .mka)",
             "updated": "2018-10-05T09:10:16+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "tvheadend_git.bb",
+            "filepath": "recipes-dvb/tvheadend",
+            "homepage": "",
+            "id": 876217,
+            "inherits": "",
+            "layerbranch": 14963,
+            "license": "",
+            "pn": "tvheadend",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "summary": "",
+            "updated": "2018-12-03T18:12:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "dvb-apps_1.1.1.bb",
+            "filepath": "recipes-multimedia/dvb-apps",
+            "homepage": "http://www.linuxtv.org",
+            "id": 876218,
+            "inherits": "perlnative",
+            "layerbranch": 14963,
+            "license": "GPLv2",
+            "pn": "dvb-apps",
+            "provides": "dvb-apps ",
+            "pv": "1.1.1",
+            "section": "base",
+            "summary": "Linux DVB API applications and utilities",
+            "updated": "2018-12-03T18:12:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libdvbcsa_1.1.0.bb",
+            "filepath": "recipes-multimedia/libdvbcsa",
+            "homepage": "",
+            "id": 876219,
+            "inherits": "autotools lib_package pkgconfig siteconfig siteinfo",
+            "layerbranch": 14963,
+            "license": "LGPLv2.1+",
+            "pn": "libdvbcsa",
+            "provides": "libdvbcsa ",
+            "pv": "1.1.0",
+            "section": "libs/multimedia",
+            "summary": "Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt ",
+            "updated": "2018-12-03T18:12:55+0000"
         }
     ],
     "wrtemplates": []

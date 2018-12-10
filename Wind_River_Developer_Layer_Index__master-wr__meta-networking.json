@@ -59,71 +59,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-11-07T08:11:00+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T08:11:00+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-04T22:12:49+0000",
+            "vcs_last_commit": "2018-12-04T22:12:49+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
+            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2018-11-08T01:11:15+0000",
-            "vcs_last_commit": "2018-11-08T01:11:15+0000",
-            "vcs_last_fetch": "2018-11-08T01:11:15+0000",
-            "vcs_last_rev": "4cbb116f9b8d650b66b412db386796f8a1869af7",
+            "updated": "2018-12-05T22:12:28+0000",
+            "vcs_last_commit": "2018-12-05T22:12:28+0000",
+            "vcs_last_fetch": "2018-12-05T22:12:28+0000",
+            "vcs_last_rev": "0e68b75b92ac30590774d6e057cecd1ee62f4d6f",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-11-08T23:11:09+0000",
-            "vcs_last_commit": "2018-11-08T23:11:09+0000",
-            "vcs_last_fetch": "2018-11-08T23:11:09+0000",
-            "vcs_last_rev": "68c543a56702879dbb76f868721f257b2e9ecd62",
+            "updated": "2018-12-04T22:12:30+0000",
+            "vcs_last_commit": "2018-12-04T22:12:30+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:30+0000",
+            "vcs_last_rev": "5b1402339726d25d374299ee37db3a856624632b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-10-30T20:10:11+0000",
-            "vcs_last_commit": "2018-10-30T20:10:11+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:11+0000",
-            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
+            "updated": "2018-12-02T17:12:47+0000",
+            "vcs_last_commit": "2018-12-02T17:12:47+0000",
+            "vcs_last_fetch": "2018-12-02T17:12:47+0000",
+            "vcs_last_rev": "435484e821fe123b32e45cdae750c9c50ba53f0c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -149,8 +149,8 @@
             "required": true
         },
         {
-            "dependency": 260,
-            "id": 42314,
+            "dependency": 278,
+            "id": 44886,
             "layerbranch": 14964,
             "required": false
         }
@@ -400,7 +400,7 @@
             "pv": "1.10+gitX",
             "section": "base",
             "summary": "Civetweb embedded web server",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2018-11-27T18:11:18+0000"
         },
         {
             "bbclassextend": "",
@@ -673,7 +673,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1 and 3.1.1. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
-            "filename": "mosquitto_1.5.1.bb",
+            "filename": "mosquitto_1.5.4.bb",
             "filepath": "recipes-connectivity/mosquitto",
             "homepage": "http://mosquitto.org/",
             "id": 724923,
@@ -682,10 +682,10 @@
             "license": "EPL-1.0 | EDL-1.0",
             "pn": "mosquitto",
             "provides": "mosquitto ",
-            "pv": "1.5.1",
+            "pv": "1.5.4",
             "section": "console/network",
             "summary": "Open source MQTT v3.1/3.1.1 implemention",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-12-03T18:12:22+0000"
         },
         {
             "bbclassextend": "",
@@ -749,7 +749,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "networkmanager_1.10.10.bb",
+            "filename": "networkmanager_1.14.4.bb",
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 724927,
@@ -758,10 +758,10 @@
             "license": "GPLv2+",
             "pn": "networkmanager",
             "provides": "networkmanager ",
-            "pv": "1.10.10",
+            "pv": "1.14.4",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2018-11-27T18:11:19+0000"
         },
         {
             "bbclassextend": "",
@@ -787,7 +787,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The miniUPnP daemon is an UPnP IGD (internet gateway device) which provide NAT traversal services to any UPnP enabled client on the network.",
-            "filename": "miniupnpd_2.0.20180203.bb",
+            "filename": "miniupnpd_2.1.20180706.bb",
             "filepath": "recipes-connectivity/miniupnpd",
             "homepage": "",
             "id": 724929,
@@ -796,10 +796,10 @@
             "license": "BSD-3-Clause",
             "pn": "miniupnpd",
             "provides": "miniupnpd ",
-            "pv": "2.0.20180203",
+            "pv": "2.1.20180706",
             "section": "networking",
             "summary": "Lightweight UPnP IGD daemon",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2018-12-03T18:12:22+0000"
         },
         {
             "bbclassextend": "",
@@ -996,19 +996,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "nftables_0.7.bb",
+            "filename": "nftables_0.9.0.bb",
             "filepath": "recipes-filter/nftables",
             "homepage": "",
             "id": 724940,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools manpages pkgconfig qemu siteconfig siteinfo",
             "layerbranch": 14964,
             "license": "GPLv2",
             "pn": "nftables",
             "provides": "nftables ",
-            "pv": "0.7",
+            "pv": "0.9.0",
             "section": "net",
             "summary": "Netfilter Tables userspace utillites",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-11-27T18:11:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1053,7 +1053,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libnftnl_1.0.7.bb",
+            "filename": "libnftnl_1.1.1.bb",
             "filepath": "recipes-filter/libnftnl",
             "homepage": "",
             "id": 724943,
@@ -1062,10 +1062,10 @@
             "license": "GPLv2",
             "pn": "libnftnl",
             "provides": "libnftnl ",
-            "pv": "1.0.7+gitX",
+            "pv": "1.1.1+gitX",
             "section": "libs",
             "summary": "Library for low-level interaction with nftables Netlink's API over libmnl",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-11-27T18:11:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1882,7 +1882,7 @@
             "pv": "1.6.12",
             "section": "libdevel",
             "summary": "C library for country/city/organization to IP address or hostname mapping",
-            "updated": "2018-11-08T01:11:20+0000"
+            "updated": "2018-12-05T23:12:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1939,7 +1939,7 @@
             "pv": "4.2.8p12",
             "section": "net",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2018-11-27T18:11:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2129,14 +2129,14 @@
             "pv": "0.8.1",
             "section": "libdevel",
             "summary": "C++ library for client-side URL transfers",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2018-11-27T18:11:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A simple Unix utility which reads and writes data across network connections using TCP or UDP protocol.  It is designed to be a reliable 'back-end' tool that can be used directly or easily driven by other programs and scripts. At the same time it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.",
-            "filename": "netcat-openbsd_1.190.bb",
+            "filename": "netcat-openbsd_1.195.bb",
             "filepath": "recipes-support/netcat",
             "homepage": "http://ftp.debian.org",
             "id": 725000,
@@ -2145,10 +2145,10 @@
             "license": "BSD-2-Clause",
             "pn": "netcat-openbsd",
             "provides": "netcat-openbsd ",
-            "pv": "1.190",
+            "pv": "1.195",
             "section": "net",
             "summary": "OpenBSD Netcat",
-            "updated": "2018-10-31T23:10:21+0000"
+            "updated": "2018-12-03T18:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2212,7 +2212,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "c-ares_1.14.0.bb",
+            "filename": "c-ares_1.15.0.bb",
             "filepath": "recipes-support/c-ares",
             "homepage": "http://daniel.haxx.se/projects/c-ares/",
             "id": 725004,
@@ -2221,10 +2221,10 @@
             "license": "MIT",
             "pn": "c-ares",
             "provides": "c-ares ",
-            "pv": "1.14.0+gitrX",
+            "pv": "1.15.0+gitrX",
             "section": "libs",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2018-10-15T19:10:42+0000"
+            "updated": "2018-12-03T18:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2288,7 +2288,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dnsmasq_2.79.bb",
+            "filename": "dnsmasq_2.80.bb",
             "filepath": "recipes-support/dnsmasq",
             "homepage": "http://www.thekelleys.org.uk/dnsmasq/doc.html",
             "id": 725008,
@@ -2297,10 +2297,10 @@
             "license": "GPLv2 | GPLv3",
             "pn": "dnsmasq",
             "provides": "dnsmasq ",
-            "pv": "2.79",
+            "pv": "2.80",
             "section": "net",
             "summary": "Lightweight, easy to configure DNS forwarder and DHCP server",
-            "updated": "2018-10-05T09:10:44+0000"
+            "updated": "2018-12-03T18:12:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2687,7 +2687,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "autofs_5.1.4.bb",
+            "filename": "autofs_5.1.5.bb",
             "filepath": "recipes-daemons/autofs",
             "homepage": "",
             "id": 725029,
@@ -2696,10 +2696,10 @@
             "license": "GPL-2.0",
             "pn": "autofs",
             "provides": "autofs ",
-            "pv": "5.1.4",
+            "pv": "5.1.5",
             "section": "utils",
             "summary": "Kernel based automounter for linux",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-12-03T18:12:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2946,7 +2946,7 @@
             "pv": "3.0.3",
             "section": "net",
             "summary": "Very Secure FTP server",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2018-12-03T18:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3337,7 +3337,7 @@
             "filepath": "recipes-protocols/net-snmp",
             "homepage": "http://www.net-snmp.org/",
             "id": 725063,
-            "inherits": "autotools autotools-brokensep perlnative pkgconfig siteconfig siteinfo systemd update-rc.d",
+            "inherits": "autotools autotools-brokensep perlnative pkgconfig ptest siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14964,
             "license": "BSD",
             "pn": "net-snmp",
@@ -3345,7 +3345,7 @@
             "pv": "5.8",
             "section": "net",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2018-12-03T18:12:23+0000"
         },
         {
             "bbclassextend": "",

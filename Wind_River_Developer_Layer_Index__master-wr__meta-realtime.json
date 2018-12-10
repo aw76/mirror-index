@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.19-20181126",
             "branch": 38,
             "collection": "realtime",
             "id": 14950,
             "layer": 48,
-            "updated": "2018-10-08T06:10:12+0000",
-            "vcs_last_commit": "2018-10-08T06:10:12+0000",
-            "vcs_last_fetch": "2018-10-08T06:10:12+0000",
-            "vcs_last_rev": "76b0ce6b914c442088657c627a325e82d66678b9",
+            "updated": "2018-12-06T22:12:41+0000",
+            "vcs_last_commit": "2018-12-06T22:12:41+0000",
+            "vcs_last_fetch": "2018-12-06T22:12:41+0000",
+            "vcs_last_rev": "5b190c74349063506b98db72da98049a7dfab91a",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 4
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-11-07T08:11:00+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T08:11:00+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-04T22:12:49+0000",
+            "vcs_last_commit": "2018-12-04T22:12:49+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
+            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -109,8 +109,8 @@
             "required": true
         },
         {
-            "dependency": 265,
-            "id": 42311,
+            "dependency": 283,
+            "id": 45438,
             "layerbranch": 14950,
             "required": false
         }

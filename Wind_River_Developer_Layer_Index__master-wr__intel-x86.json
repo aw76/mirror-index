@@ -59,29 +59,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-11-07T08:11:00+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T08:11:00+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-04T22:12:49+0000",
+            "vcs_last_commit": "2018-12-04T22:12:49+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
+            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -92,24 +92,24 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2018-11-26T00:11:03+0000",
-            "vcs_last_commit": "2018-11-26T00:11:03+0000",
-            "vcs_last_fetch": "2018-11-26T00:11:03+0000",
-            "vcs_last_rev": "4c15d4fea019f3b51deddae2b71fa324da84eb48",
+            "updated": "2018-12-10T00:12:03+0000",
+            "vcs_last_commit": "2018-12-10T00:12:03+0000",
+            "vcs_last_fetch": "2018-12-10T00:12:03+0000",
+            "vcs_last_rev": "b8b816c466234b73d93b202504f6fc18dcbf4cce",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2018-10-30T20:10:11+0000",
-            "vcs_last_commit": "2018-10-30T20:10:11+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:11+0000",
-            "vcs_last_rev": "71268cffca8f7a9d1474aa4c8f1f8cfb174b2b9d",
+            "updated": "2018-12-02T17:12:47+0000",
+            "vcs_last_commit": "2018-12-02T17:12:47+0000",
+            "vcs_last_fetch": "2018-12-02T17:12:47+0000",
+            "vcs_last_rev": "c079e29b4e938eac7706cb07bea7a481e10b4c8e",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 3
@@ -120,10 +120,10 @@
             "collection": "intel-x86",
             "id": 190597,
             "layer": 32,
-            "updated": "2018-11-19T18:11:38+0000",
-            "vcs_last_commit": "2018-11-19T18:11:38+0000",
-            "vcs_last_fetch": "2018-11-19T18:11:38+0000",
-            "vcs_last_rev": "e360da177e2a2253058241dcf15efee9bdbb30fd",
+            "updated": "2018-12-05T22:12:32+0000",
+            "vcs_last_commit": "2018-12-05T22:12:32+0000",
+            "vcs_last_fetch": "2018-12-05T22:12:32+0000",
+            "vcs_last_rev": "053fefc01f7ccdb3f49f4b04d65e7c7aa4b697ca",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 2
@@ -237,6 +237,27 @@
             "layerbranch": 190597,
             "name": "intel-x86-32",
             "updated": "2018-10-29T18:10:16+0000"
+        },
+        {
+            "description": " Intel Haswell CPU (64bit)",
+            "id": 14437,
+            "layerbranch": 190597,
+            "name": "intel-haswell-64",
+            "updated": "2018-12-04T12:12:17+0000"
+        },
+        {
+            "description": " Intel Skylake CPU (64bit)",
+            "id": 14438,
+            "layerbranch": 190597,
+            "name": "intel-skylake-64",
+            "updated": "2018-12-04T12:12:17+0000"
+        },
+        {
+            "description": " Intel Skylake CPU (64bit) with AVX-512 enabled",
+            "id": 14439,
+            "layerbranch": 190597,
+            "name": "intel-skylake-avx512-64",
+            "updated": "2018-12-04T12:12:17+0000"
         }
     ],
     "recipes": [

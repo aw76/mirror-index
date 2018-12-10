@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-11-07T08:11:00+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T08:11:00+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-04T22:12:49+0000",
+            "vcs_last_commit": "2018-12-04T22:12:49+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
+            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-11-08T23:11:09+0000",
-            "vcs_last_commit": "2018-11-08T23:11:09+0000",
-            "vcs_last_fetch": "2018-11-08T23:11:09+0000",
-            "vcs_last_rev": "68c543a56702879dbb76f868721f257b2e9ecd62",
+            "updated": "2018-12-04T22:12:30+0000",
+            "vcs_last_commit": "2018-12-04T22:12:30+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:30+0000",
+            "vcs_last_rev": "5b1402339726d25d374299ee37db3a856624632b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -109,8 +109,8 @@
             "required": true
         },
         {
-            "dependency": 261,
-            "id": 42305,
+            "dependency": 279,
+            "id": 44878,
             "layerbranch": 14965,
             "required": false
         }
@@ -1426,7 +1426,7 @@
             "pv": "3.3.3+git",
             "section": "base",
             "summary": "Libyui is a widget abstraction library providing Qt, GTK and ncurses frontends.",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2018-11-27T18:11:28+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -1445,7 +1445,7 @@
             "pv": "2.48.3+gitX",
             "section": "base",
             "summary": "Character Based User Interface for libyui",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2018-11-27T18:11:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1927,7 +1927,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "pangomm_2.40.1.bb",
+            "filename": "pangomm_2.42.0.bb",
             "filepath": "recipes-graphics/pango",
             "homepage": "",
             "id": 723181,
@@ -1936,10 +1936,10 @@
             "license": "LGPLv2.1 & GPLv2",
             "pn": "pangomm",
             "provides": "pangomm ",
-            "pv": "2.40.1",
+            "pv": "2.42.0",
             "section": "libs",
             "summary": "C++ bindings for the pango library",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2018-12-03T18:12:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2623,7 +2623,7 @@
             "pv": "1.8.2",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-03T18:12:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2668,7 +2668,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Kerberos is a system for authenticating users and services on a network.  Kerberos is a trusted third-party service.  That means that there is a  third party (the Kerberos server) that is trusted by all the entities on  the network (users and services, usually called \"principals\").  .  This is the MIT reference implementation of Kerberos V5.  .  This package contains the Kerberos key server (KDC).  The KDC manages all  authentication credentials for a Kerberos realm, holds the master keys  for the realm, and responds to authentication requests.  This package  should be installed on both master and slave KDCs.",
-            "filename": "krb5_1.16.1.bb",
+            "filename": "krb5_1.16.2.bb",
             "filepath": "recipes-connectivity/krb5",
             "homepage": "http://web.mit.edu/Kerberos/",
             "id": 723221,
@@ -2677,10 +2677,10 @@
             "license": "MIT",
             "pn": "krb5",
             "provides": "krb5 ",
-            "pv": "1.16.1",
+            "pv": "1.16.2",
             "section": "console/network",
             "summary": "A network authentication protocol",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2018-12-03T18:12:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -3523,7 +3523,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The goal of this project is to provide a tiny library that would facilitate the common operations with sizes in bytes.",
-            "filename": "libbytesize_1.3.bb",
+            "filename": "libbytesize_1.4.bb",
             "filepath": "recipes-support/libbytesize",
             "homepage": "https://github.com/rhinstaller/libbytesize",
             "id": 723267,
@@ -3532,10 +3532,10 @@
             "license": "LGPLv2+",
             "pn": "libbytesize",
             "provides": "libbytesize ",
-            "pv": "1.3+gitX",
+            "pv": "1.4",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2018-10-05T09:10:54+0000"
+            "updated": "2018-12-03T18:12:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3747,7 +3747,7 @@
             "updated": "2018-10-05T09:10:56+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -3763,7 +3763,7 @@
             "pv": "0.8.4",
             "section": "base",
             "summary": "RFC 3986 compliant URI parsing library",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2018-11-27T18:11:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3808,7 +3808,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libestr_0.1.10.bb",
+            "filename": "libestr_0.1.11.bb",
             "filepath": "recipes-support/libestr",
             "homepage": "http://libestr.adiscon.com/",
             "id": 723282,
@@ -3817,10 +3817,10 @@
             "license": "LGPLv2.1",
             "pn": "libestr",
             "provides": "libestr ",
-            "pv": "0.1.10",
+            "pv": "0.1.11",
             "section": "base",
             "summary": "some essentials for string handling (and a bit more)",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2018-11-27T18:11:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4048,7 +4048,7 @@
             "pv": "1.11",
             "section": "base",
             "summary": "A graphical front-end for gcov",
-            "updated": "2018-10-05T09:10:59+0000"
+            "updated": "2018-11-27T18:11:29+0000"
         },
         {
             "bbclassextend": "",
@@ -4283,7 +4283,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgpiod_1.1.1.bb",
+            "filename": "libgpiod_1.2.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 723307,
@@ -4292,10 +4292,10 @@
             "license": "LGPLv2.1+",
             "pn": "libgpiod",
             "provides": "libgpiod ",
-            "pv": "1.1.1",
+            "pv": "1.2",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-11-27T18:11:29+0000"
         },
         {
             "bbclassextend": "",
@@ -4355,7 +4355,7 @@
             "updated": "2018-10-05T09:10:02+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -4371,7 +4371,7 @@
             "pv": "1.2.2",
             "section": "libs",
             "summary": "A C++11 library for serialization",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-12-03T18:12:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -4396,20 +4396,20 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "read-edid elucidates various very useful informations from a conforming PnP monitor",
-            "filename": "read-edid_2.0.0.bb",
+            "description": "read-edid is a set of two tools - get-edid, which gets the raw                EDID information from the monitor, and parse-edid, which turns \t       the raw binary information into a xorg.conf-compatible monitor \t       section.",
+            "filename": "read-edid_3.0.2.bb",
             "filepath": "recipes-support/read-edid",
-            "homepage": "",
+            "homepage": "http://www.polypux.org/projects/read-edid/",
             "id": 723313,
-            "inherits": "autotools siteconfig siteinfo",
+            "inherits": "cmake",
             "layerbranch": 14965,
-            "license": "GPLv2",
+            "license": "read-edid",
             "pn": "read-edid",
             "provides": "read-edid ",
-            "pv": "2.0.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-05T09:10:02+0000"
+            "pv": "3.0.2",
+            "section": "console/utils",
+            "summary": "A pair of tools for reading the EDID from a monitor",
+            "updated": "2018-12-03T18:12:41+0000"
         },
         {
             "bbclassextend": "",
@@ -4435,7 +4435,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Satyr is a collection of low-level algorithms for program failure processing, analysis, and reporting supporting kernel space, user space, Python, and Java programs",
-            "filename": "satyr_0.26.bb",
+            "filename": "satyr_0.27.bb",
             "filepath": "recipes-support/satyr",
             "homepage": "https://github.com/abrt/satyr",
             "id": 723315,
@@ -4444,10 +4444,10 @@
             "license": "GPLv2",
             "pn": "satyr",
             "provides": "satyr ",
-            "pv": "0.26",
+            "pv": "0.27",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2018-12-03T18:12:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4492,7 +4492,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Boehm-Demers-Weiser conservative garbage collector can be used as a garbage collecting replacement for C malloc or C++ new. It allows you to allocate memory basically as you normally would, without explicitly deallocating memory that is no longer useful. The collector automatically recycles memory when it determines that it can no longer be otherwise accessed.  The collector is also used by a number of programming language implementations that either use C as intermediate code, want to facilitate easier interoperation with C libraries, or just prefer the simple collector interface.  Alternatively, the garbage collector may be used as a leak detector for C or C++ programs, though that is not its primary goal.  Empirically, this collector works with most unmodified C programs, simply by replacing malloc with GC_malloc calls, replacing realloc with GC_realloc calls, and removing free calls.",
-            "filename": "bdwgc_7.6.0.bb",
+            "filename": "bdwgc_7.6.8.bb",
             "filepath": "recipes-support/bdwgc",
             "homepage": "http://www.hboehm.info/gc/",
             "id": 723318,
@@ -4501,10 +4501,10 @@
             "license": "MIT",
             "pn": "bdwgc",
             "provides": "bdwgc ",
-            "pv": "7.6.0",
+            "pv": "7.6.8",
             "section": "devel",
             "summary": "A garbage collector for C and C++",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2018-12-03T18:12:36+0000"
         },
         {
             "bbclassextend": "",
@@ -4549,7 +4549,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtinyxml2_6.2.0.bb",
+            "filename": "libtinyxml2_7.0.1.bb",
             "filepath": "recipes-support/libtinyxml2",
             "homepage": "http://www.grinninglizard.com/tinyxml2/",
             "id": 723321,
@@ -4558,10 +4558,10 @@
             "license": "Zlib",
             "pn": "libtinyxml2",
             "provides": "libtinyxml2 ",
-            "pv": "6.2.0",
+            "pv": "7.0.1",
             "section": "libs",
             "summary": "TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2018-12-03T18:12:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -4789,7 +4789,7 @@
             "pv": "0.7.6",
             "section": "devel",
             "summary": "Tools of dm-thin device-mapper",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-12-03T18:12:39+0000"
         },
         {
             "bbclassextend": "",
@@ -5055,14 +5055,14 @@
             "pv": "0.3.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T03:10:05+0000"
+            "updated": "2018-11-27T18:11:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This package contains low level utilities for devices that use the SCSI command set",
-            "filename": "sg3-utils_1.42.bb",
+            "filename": "sg3-utils_1.44.bb",
             "filepath": "recipes-support/sg3-utils",
             "homepage": "http://sg.danny.cz/sg/sg3_utils.html",
             "id": 723348,
@@ -5071,10 +5071,10 @@
             "license": "GPLv2+ & BSD",
             "pn": "sg3-utils",
             "provides": "sg3-utils ",
-            "pv": "1.42",
+            "pv": "1.44",
             "section": "console/admin",
             "summary": "Utilities for working with generic SCSI devices",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2018-12-03T18:12:39+0000"
         },
         {
             "bbclassextend": "",
@@ -5644,7 +5644,7 @@
             "pv": "7.0.7_7",
             "section": "console/utils",
             "summary": "ImageMagick is an image convertion tools",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2018-11-27T18:11:29+0000"
         },
         {
             "bbclassextend": "",
@@ -5803,7 +5803,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mcelog is required by both 32bit x86 Linux kernels (since 2.6.30) and 64bit Linux kernels (since early 2.6 kernel releases) to log machine checks and should run on all Linux systems that need error handling.",
-            "filename": "mcelog_160.bb",
+            "filename": "mcelog_161.bb",
             "filepath": "recipes-support/mcelog",
             "homepage": "http://mcelog.org/",
             "id": 723387,
@@ -5812,10 +5812,10 @@
             "license": "GPLv2",
             "pn": "mcelog",
             "provides": "mcelog ",
-            "pv": "160",
+            "pv": "161",
             "section": "System Environment/Base",
             "summary": "mcelog daemon accounts memory and some other errors in various ways.",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-11-27T18:11:30+0000"
         },
         {
             "bbclassextend": "",
@@ -5853,7 +5853,7 @@
             "pv": "0.18.0",
             "section": "System Environment/Libraries",
             "summary": "Smart card library and applications",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-11-27T18:11:30+0000"
         },
         {
             "bbclassextend": "",
@@ -6012,7 +6012,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "It provides tools to manage multipath devices by instructing the device-mapper kernel module what to do. These tools include: 1. multipath - Scan the system for multipath devices and assemble them.2. multipathd - Detects when paths fail and execs multipath to update things.3. mpathpersist - Persistent reservation management feature allows cluster management software to manage persistent reservation through mpath device. It processes management requests from callers and hides the management task details. It also handles persistent reservation management of data path life cycle and state changes.4. kpartx - This tool, derived from util-linux's partx, reads partition tables on specified device and create device maps over partitions segments detected. It is called from hotplug upon device maps creation and deletion",
-            "filename": "multipath-tools_0.7.7.bb",
+            "filename": "multipath-tools_0.7.9.bb",
             "filepath": "recipes-support/multipath-tools",
             "homepage": "http://christophe.varoqui.free.fr/",
             "id": 723398,
@@ -6021,10 +6021,10 @@
             "license": "GPLv2",
             "pn": "multipath-tools",
             "provides": "multipath-tools  device-mapper-multipath",
-            "pv": "0.7.7",
+            "pv": "0.7.9",
             "section": "base",
             "summary": "The upstream project used to drive the Device Mapper multipathing driver",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2018-12-03T18:12:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -6316,38 +6316,38 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LVM2 is a set of utilities to manage logical volumes in Linux.",
-            "filename": "lvm2_2.02.180.bb",
+            "filename": "lvm2_2.03.01.bb",
             "filepath": "recipes-support/lvm2",
             "homepage": "https://www.sourceware.org/lvm2/",
             "id": 723414,
             "inherits": "autotools autotools-brokensep multilib_script pkgconfig siteconfig siteinfo systemd update-alternatives",
             "layerbranch": 14965,
-            "license": "GPLv2 & LGPLv2",
+            "license": "GPLv2 & LGPLv2.1",
             "pn": "lvm2",
             "provides": "lvm2 ",
-            "pv": "2.02.180",
+            "pv": "2.03.01",
             "section": "utils",
             "summary": "",
-            "updated": "2018-11-01T02:11:16+0000"
+            "updated": "2018-12-03T18:12:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "LVM2 is a set of utilities to manage logical volumes in Linux.",
-            "filename": "libdevmapper_2.02.180.bb",
+            "filename": "libdevmapper_2.03.01.bb",
             "filepath": "recipes-support/lvm2",
             "homepage": "https://www.sourceware.org/lvm2/",
             "id": 723415,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14965,
-            "license": "GPLv2 & LGPLv2",
+            "license": "GPLv2 & LGPLv2.1",
             "pn": "libdevmapper",
             "provides": "libdevmapper ",
-            "pv": "2.02.180",
+            "pv": "2.03.01",
             "section": "utils",
             "summary": "",
-            "updated": "2018-11-01T02:11:17+0000"
+            "updated": "2018-12-03T18:12:38+0000"
         },
         {
             "bbclassextend": "",
@@ -6382,10 +6382,10 @@
             "license": "LGPLv2.1+",
             "pn": "libiio",
             "provides": "libiio ",
-            "pv": "0.14+gitX",
+            "pv": "0.15+gitX",
             "section": "libs",
             "summary": "Library for interfacing with IIO devices",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2018-12-03T18:12:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -6423,7 +6423,7 @@
             "pv": "8.1.0347",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2018-10-23T03:10:06+0000"
+            "updated": "2018-11-27T18:11:30+0000"
         },
         {
             "bbclassextend": "",
@@ -6499,14 +6499,14 @@
             "pv": "1.8.22",
             "section": "base",
             "summary": "PC/SC Lite smart card framework and applications",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2018-11-27T18:11:30+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cpprest_2.10.6.bb",
+            "filename": "cpprest_2.10.8.bb",
             "filepath": "recipes-support/cpprest",
             "homepage": "https://github.com/Microsoft/cpprestsdk/",
             "id": 723424,
@@ -6515,10 +6515,10 @@
             "license": "MIT",
             "pn": "cpprest",
             "provides": "cpprest ",
-            "pv": "2.10.6",
+            "pv": "2.10.8",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-10-05T09:10:22+0000"
+            "updated": "2018-12-03T18:12:36+0000"
         },
         {
             "bbclassextend": "",
@@ -6829,7 +6829,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vboxguestdrivers_5.2.18.bb",
+            "filename": "vboxguestdrivers_5.2.22.bb",
             "filepath": "recipes-support/vboxguestdrivers",
             "homepage": "",
             "id": 723441,
@@ -6838,10 +6838,10 @@
             "license": "GPL-2.0",
             "pn": "vboxguestdrivers",
             "provides": "vboxguestdrivers ",
-            "pv": "5.2.18",
+            "pv": "5.2.22",
             "section": "core",
             "summary": "VirtualBox Linux Guest Drivers",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2018-12-03T18:12:39+0000"
         },
         {
             "bbclassextend": "",
@@ -6867,7 +6867,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "poppler_0.70.1.bb",
+            "filename": "poppler_0.71.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 723443,
@@ -6876,10 +6876,10 @@
             "license": "GPLv2",
             "pn": "poppler",
             "provides": "poppler ",
-            "pv": "0.70.1",
+            "pv": "0.71.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-03T18:12:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7266,7 +7266,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "v4l-utils_1.12.3.bb",
+            "filename": "v4l-utils_1.16.0.bb",
             "filepath": "recipes-multimedia/v4l2apps",
             "homepage": "",
             "id": 723464,
@@ -7275,10 +7275,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "v4l-utils",
             "provides": "v4l-utils libv4l media-ctl",
-            "pv": "1.12.3",
+            "pv": "1.16.0",
             "section": "base",
             "summary": "v4l2 and IR applications",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2018-11-27T18:11:28+0000"
         },
         {
             "bbclassextend": "",
@@ -7627,7 +7627,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_10.5.bb",
+            "filename": "postgresql_11.1.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 723483,
@@ -7636,17 +7636,17 @@
             "license": "BSD",
             "pn": "postgresql",
             "provides": "postgresql ",
-            "pv": "10.5",
+            "pv": "11.1",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-03T18:12:40+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mariadb-native_5.5.61.bb",
+            "filename": "mariadb-native_5.5.62.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 723484,
@@ -7655,10 +7655,10 @@
             "license": "GPLv2",
             "pn": "mariadb-native",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "5.5.61",
+            "pv": "5.5.62",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-11-27T18:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -7684,7 +7684,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mariadb_5.5.61.bb",
+            "filename": "mariadb_5.5.62.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 723486,
@@ -7693,10 +7693,10 @@
             "license": "GPLv2",
             "pn": "mariadb",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "5.5.61",
+            "pv": "5.5.62",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-11-27T18:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -7912,7 +7912,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "stress-ng_0.09.37.bb",
+            "filename": "stress-ng_0.09.45.bb",
             "filepath": "recipes-test/stress-ng",
             "homepage": "http://kernel.ubuntu.com/~cking/stress-ng/",
             "id": 723498,
@@ -7921,10 +7921,10 @@
             "license": "GPLv2",
             "pn": "stress-ng",
             "provides": "stress-ng ",
-            "pv": "0.09.37",
+            "pv": "0.09.45",
             "section": "base",
             "summary": "A tool to load and stress a computer system",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2018-11-27T18:11:30+0000"
         },
         {
             "bbclassextend": "",
@@ -8045,7 +8045,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Libraries providing API for reporting different problems in applications to different bug targets like Bugzilla, ftp, trac, etc...",
-            "filename": "libreport_2.9.5.bb",
+            "filename": "libreport_2.9.6.bb",
             "filepath": "recipes-extended/libreport",
             "homepage": "https://abrt.readthedocs.org/",
             "id": 723505,
@@ -8054,10 +8054,10 @@
             "license": "GPLv2+",
             "pn": "libreport",
             "provides": "libreport ",
-            "pv": "2.9.5",
+            "pv": "2.9.6",
             "section": "base",
             "summary": "Generic library for reporting various problems",
-            "updated": "2018-10-05T09:10:35+0000"
+            "updated": "2018-12-03T18:12:35+0000"
         },
         {
             "bbclassextend": "",
@@ -8203,13 +8203,13 @@
             "id": 723513,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14965,
-            "license": "EPL",
+            "license": "EPL-1.0",
             "pn": "sblim-sfc-common",
             "provides": "sblim-sfc-common ",
             "pv": "1.0.1",
             "section": "Development/Libraries",
             "summary": "Common functions for SBLIM Small Footprint CIM Broker and CIM Client Library.",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2018-12-03T18:12:35+0000"
         },
         {
             "bbclassextend": "",
@@ -8520,19 +8520,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Openwsman is a project intended to provide an open-source implementation of the Web Services Management specipication (WS-Management) and to expose system management information on the Linux operating system using the WS-Management protocol. WS-Management is based on a suite of web services specifications and usage requirements that exposes a set of operations focused on and covers all system management aspects. Openwsman Server and service libraries",
-            "filename": "openwsman_2.6.5.bb",
+            "filename": "openwsman_2.6.8.bb",
             "filepath": "recipes-extended/openwsman",
             "homepage": "http://www.openwsman.org/",
             "id": 723530,
-            "inherits": "cmake distro_features_check perlnative pkgconfig python-dir pythonnative systemd",
+            "inherits": "cmake distro_features_check perlnative pkgconfig python3-dir python3native systemd",
             "layerbranch": 14965,
             "license": "BSD",
             "pn": "openwsman",
             "provides": "openwsman ",
-            "pv": "2.6.5",
+            "pv": "2.6.8",
             "section": "Applications/System",
             "summary": "Opensource Implementation of WS-Management",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-12-03T18:12:35+0000"
         },
         {
             "bbclassextend": "",
@@ -8589,7 +8589,7 @@
             "pv": "52.9.1",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2018-12-03T18:12:35+0000"
         },
         {
             "bbclassextend": "",
@@ -8615,7 +8615,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libblockdev is a C library supporting GObject introspection for manipulation of block devices. It has a plugin-based architecture where each technology (like LVM, Btrfs, MD RAID, Swap,...) is implemented in a separate plugin, possibly with multiple implementations (e.g. using LVM CLI or the new LVM DBus API).",
-            "filename": "libblockdev_2.18.bb",
+            "filename": "libblockdev_2.20.bb",
             "filepath": "recipes-extended/libblockdev",
             "homepage": "http://rhinstaller.github.io/libblockdev/",
             "id": 723535,
@@ -8624,10 +8624,10 @@
             "license": "LGPLv2+",
             "pn": "libblockdev",
             "provides": "libblockdev ",
-            "pv": "2.18",
+            "pv": "2.20",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2018-12-03T18:12:34+0000"
         },
         {
             "bbclassextend": "native",
@@ -9432,19 +9432,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "librelp_1.2.16.bb",
+            "filename": "librelp_1.2.18.bb",
             "filepath": "recipes-extended/rsyslog",
-            "homepage": "https://github.com/rsyslog/libfastjson",
+            "homepage": "https://github.com/rsyslog/librelp",
             "id": 723578,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv3",
             "pn": "librelp",
             "provides": "librelp ",
-            "pv": "1.2.16",
+            "pv": "1.2.18",
             "section": "base",
             "summary": "A reliable logging library",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-12-03T18:12:35+0000"
         },
         {
             "bbclassextend": "",
@@ -9470,7 +9470,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The volume_key project provides a libvolume_key, a library for manipulating storage volume encryption keys and storing them separately from volumes, and an associated command-line tool, named volume_key.",
-            "filename": "volume-key_0.3.11.bb",
+            "filename": "volume-key_0.3.12.bb",
             "filepath": "recipes-extended/volume_key",
             "homepage": "https://pagure.io/volume_key",
             "id": 723580,
@@ -9479,10 +9479,10 @@
             "license": "GPLv2",
             "pn": "volume-key",
             "provides": "volume-key ",
-            "pv": "0.3.11",
+            "pv": "0.3.12",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-12-03T18:12:35+0000"
         },
         {
             "bbclassextend": "",
@@ -10021,7 +10021,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Phoronix Test Suite is designed to carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.",
-            "filename": "phoronix-test-suite_8.0.1.bb",
+            "filename": "phoronix-test-suite_8.2.0.bb",
             "filepath": "recipes-benchmark/phoronix-test-suite",
             "homepage": "",
             "id": 723609,
@@ -10030,10 +10030,10 @@
             "license": "GPLv3",
             "pn": "phoronix-test-suite",
             "provides": "phoronix-test-suite ",
-            "pv": "8.0.1",
+            "pv": "8.2.0",
             "section": "console/tests",
             "summary": "Phoronix Test Suite",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2018-12-03T18:12:33+0000"
         },
         {
             "bbclassextend": "",
@@ -10078,7 +10078,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "iozone3_482.bb",
+            "filename": "iozone3_484.bb",
             "filepath": "recipes-benchmark/iozone3",
             "homepage": "http://www.iozone.org/",
             "id": 723612,
@@ -10087,10 +10087,10 @@
             "license": "iozone3",
             "pn": "iozone3",
             "provides": "iozone3 ",
-            "pv": "482",
+            "pv": "484",
             "section": "console/tests",
             "summary": "Filesystem and Disk Benchmarking Tool",
-            "updated": "2018-10-05T09:10:54+0000"
+            "updated": "2018-11-27T18:11:26+0000"
         },
         {
             "bbclassextend": "",
@@ -10116,7 +10116,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "fio is an I/O tool meant to be used both for benchmark and stress/hardware verification. It has support for a number of I/O engines, I/O priorities (for newer Linux kernels), rate I/O, forked or threaded jobs, and much more. It can work on block devices as well as files. fio accepts job descriptions in a simple-to-understand text format. Several example job files are included. fio displays all sorts of I/O performance information.",
-            "filename": "fio_3.8.bb",
+            "filename": "fio_3.12.bb",
             "filepath": "recipes-benchmark/fio",
             "homepage": "http://freecode.com/projects/fio",
             "id": 723614,
@@ -10125,10 +10125,10 @@
             "license": "GPLv2",
             "pn": "fio",
             "provides": "fio ",
-            "pv": "3.8",
+            "pv": "3.12",
             "section": "console/tests",
             "summary": "Filesystem and hardware benchmark and stress tool",
-            "updated": "2018-10-05T09:10:54+0000"
+            "updated": "2018-11-27T18:11:26+0000"
         },
         {
             "bbclassextend": "",
@@ -10249,7 +10249,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "efivar provides a simple command line interface to the UEFI variable facility",
-            "filename": "efivar_0.36.bb",
+            "filename": "efivar_36.bb",
             "filepath": "recipes-bsp/efivar",
             "homepage": "https://github.com/rhinstaller/efivar",
             "id": 723621,
@@ -10258,10 +10258,10 @@
             "license": "LGPLv2.1",
             "pn": "efivar",
             "provides": "efivar ",
-            "pv": "0.36",
+            "pv": "36",
             "section": "base",
             "summary": "Tools to manipulate UEFI variables",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2018-12-03T18:12:27+0000"
         },
         {
             "bbclassextend": "",
@@ -10287,7 +10287,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Linux user-space application to modify the EFI Boot Manager.",
-            "filename": "efibootmgr_0.16.bb",
+            "filename": "efibootmgr_17.bb",
             "filepath": "recipes-bsp/efibootmgr",
             "homepage": "https://github.com/rhinstaller/efibootmgr",
             "id": 723623,
@@ -10296,10 +10296,10 @@
             "license": "GPLv2+",
             "pn": "efibootmgr",
             "provides": "efibootmgr ",
-            "pv": "0.16",
+            "pv": "17",
             "section": "base",
             "summary": "EFI Boot Manager",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2018-12-03T18:12:33+0000"
         },
         {
             "bbclassextend": "",
@@ -10739,7 +10739,7 @@
             "updated": "2018-10-05T09:10:00+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -10755,7 +10755,7 @@
             "pv": "8.6.8",
             "section": "devel/tcltk",
             "summary": "Tool Command Language ToolKit Extension",
-            "updated": "2018-10-05T09:10:00+0000"
+            "updated": "2018-11-27T18:11:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10774,7 +10774,7 @@
             "pv": "1.1.0+gitX",
             "section": "libs",
             "summary": "A fast JSON parser/generator for C++ with both SAX/DOM style API",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-11-27T18:11:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -10819,7 +10819,7 @@
             "blacklisted": "",
             "bugtracker": "http://sourceforge.net/p/log4cplus/bugs/",
             "description": "",
-            "filename": "log4cplus_2.0.1.bb",
+            "filename": "log4cplus_2.0.2.bb",
             "filepath": "recipes-devtools/log4cplus",
             "homepage": "http://sourceforge.net/projects/log4cplus/",
             "id": 723651,
@@ -10828,10 +10828,10 @@
             "license": "Apache-2.0 & BSD-2-Clause",
             "pn": "log4cplus",
             "provides": "log4cplus ",
-            "pv": "2.0.1",
+            "pv": "2.0.2",
             "section": "libs",
             "summary": "log4cplus provides a simple C++ logging API for log management",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-11-27T18:11:27+0000"
         },
         {
             "bbclassextend": "",
@@ -11199,7 +11199,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libgee is a collection library providing GObject-based interfaces and classes for commonly used data structures.",
-            "filename": "libgee_0.18.0.bb",
+            "filename": "libgee_0.20.1.bb",
             "filepath": "recipes-devtools/libgee",
             "homepage": "http://live.gnome.org/Libgee",
             "id": 723671,
@@ -11208,10 +11208,10 @@
             "license": "LGPLv2.1",
             "pn": "libgee",
             "provides": "libgee ",
-            "pv": "0.18.0",
+            "pv": "0.20.1",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-12-03T18:12:34+0000"
         },
         {
             "bbclassextend": "",
@@ -11686,7 +11686,7 @@
             "pv": "0.8.3",
             "section": "devel",
             "summary": "Trace and analyze execution of a program written in C/C++",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-11-27T18:11:28+0000"
         },
         {
             "bbclassextend": "",
@@ -12130,26 +12130,26 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel. The LIBNVDIMM subsystem provides support for three types of NVDIMMs, namely,PMEM, BLK, and NVDIMM devices that can simultaneously support both PMEM and BLK mode access.",
-            "filename": "ndctl_git.bb",
+            "filename": "ndctl_v63.bb",
             "filepath": "recipes-core/ndctl",
             "homepage": "https://git.kernel.org/cgit/linux/kernel/git/nvdimm/nvdimm.git/tree/Documentation/nvdimm/nvdimm.txt?h=libnvdimm-for-next",
             "id": 723720,
-            "inherits": "autotools autotools-brokensep bash-completion kernel-arch module-base pkgconfig siteconfig siteinfo systemd",
+            "inherits": "autotools autotools-brokensep bash-completion pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "GPLv2+",
             "pn": "ndctl",
             "provides": "ndctl ",
-            "pv": "v62+gitX",
+            "pv": "v63",
             "section": "base",
             "summary": "libnvdimm utility library",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-12-04T22:12:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "ELL is a DBUS library which provides DBUS bindings.",
-            "filename": "ell_0.8.bb",
+            "filename": "ell_0.15.bb",
             "filepath": "recipes-core/ell",
             "homepage": "",
             "id": 723721,
@@ -12158,10 +12158,10 @@
             "license": "LGPLv2.1",
             "pn": "ell",
             "provides": "ell ",
-            "pv": "0.8",
+            "pv": "0.15",
             "section": "libs",
             "summary": "Embedded Linux Library",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-12-03T18:12:34+0000"
         },
         {
             "bbclassextend": "native",
@@ -12218,7 +12218,7 @@
             "pv": "16+gitX",
             "section": "base",
             "summary": "dbus broker",
-            "updated": "2018-10-15T19:10:20+0000"
+            "updated": "2018-11-27T18:11:26+0000"
         },
         {
             "bbclassextend": "",
@@ -12656,6 +12656,291 @@
             "section": "base",
             "summary": "Small collection of benchmarks for storage I/O",
             "updated": "2018-10-31T18:10:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "meta-oe-image-base.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 863112,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "meta-oe-image-base",
+            "provides": "meta-oe-image-base ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "meta-oe build test image",
+            "updated": "2018-11-27T18:11:32+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "meta-oe-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 863113,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "meta-oe-image",
+            "provides": "meta-oe-image ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "meta-oe build test image",
+            "updated": "2018-11-27T18:11:32+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "meta-oe-ptest-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 863114,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "meta-oe-ptest-image",
+            "provides": "meta-oe-ptest-image ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "meta-oe ptest test image",
+            "updated": "2018-11-27T18:11:32+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "packagegroup-meta-oe.bb",
+            "filepath": "recipes-core/packagegroups",
+            "homepage": "",
+            "id": 863115,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 14965,
+            "license": "",
+            "pn": "packagegroup-meta-oe",
+            "provides": "packagegroup-meta-oe packagegroup-meta-oe packagegroup-meta-oe-dbg packagegroup-meta-oe-dev packagegroup-meta-oe-benchmarks packagegroup-meta-oe-benchmarks-dbg packagegroup-meta-oe-benchmarks-dev packagegroup-meta-oe-connectivity packagegroup-meta-oe-connectivity-dbg packagegroup-meta-oe-connectivity-dev packagegroup-meta-oe-core packagegroup-meta-oe-core-dbg packagegroup-meta-oe-core-dev packagegroup-meta-oe-crypto packagegroup-meta-oe-crypto-dbg packagegroup-meta-oe-crypto-dev packagegroup-meta-oe-bsp packagegroup-meta-oe-bsp-dbg packagegroup-meta-oe-bsp-dev packagegroup-meta-oe-dbs packagegroup-meta-oe-dbs-dbg packagegroup-meta-oe-dbs-dev packagegroup-meta-oe-devtools packagegroup-meta-oe-devtools-dbg packagegroup-meta-oe-devtools-dev packagegroup-meta-oe-extended packagegroup-meta-oe-extended-dbg packagegroup-meta-oe-extended-dev packagegroup-meta-oe-kernel packagegroup-meta-oe-kernel-dbg packagegroup-meta-oe-kernel-dev packagegroup-meta-oe-multimedia packagegroup-meta-oe-multimedia-dbg packagegroup-meta-oe-multimedia-dev packagegroup-meta-oe-navigation packagegroup-meta-oe-navigation-dbg packagegroup-meta-oe-navigation-dev packagegroup-meta-oe-security packagegroup-meta-oe-security-dbg packagegroup-meta-oe-security-dev packagegroup-meta-oe-support packagegroup-meta-oe-support-dbg packagegroup-meta-oe-support-dev packagegroup-meta-oe-test packagegroup-meta-oe-test-dbg packagegroup-meta-oe-test-dev packagegroup-meta-oe-gnome packagegroup-meta-oe-gnome-dbg packagegroup-meta-oe-gnome-dev packagegroup-meta-oe-graphics packagegroup-meta-oe-graphics-dbg packagegroup-meta-oe-graphics-dev",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Meta-oe ptest packagegroups",
+            "updated": "2018-12-03T18:12:34+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/google/brotli/issues",
+            "description": "",
+            "filename": "brotli_1.0.7.bb",
+            "filepath": "recipes-extended/brotli",
+            "homepage": "https://github.com/google/brotli",
+            "id": 863116,
+            "inherits": "cmake lib_package",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "brotli",
+            "provides": "brotli ",
+            "pv": "1.0.7",
+            "section": "base",
+            "summary": "Lossless compression library and tool",
+            "updated": "2018-11-27T18:11:33+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A utility to manage self encrypting drives that conform to the Trusted Computing Group OPAL 2.0 SSC specification.",
+            "filename": "sedutil_git.bb",
+            "filepath": "recipes-extended/sedutil",
+            "homepage": "https://github.com/Drive-Trust-Alliance/sedutil",
+            "id": 863117,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "sedutil",
+            "provides": "sedutil ",
+            "pv": "1.15.1+gitX",
+            "section": "console/utils",
+            "summary": "The Drive Trust Alliance Self Encrypting Drive Utility",
+            "updated": "2018-12-03T18:12:35+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "xscreensaver_5.39.bb",
+            "filepath": "recipes-graphics/xscreensaver",
+            "homepage": "",
+            "id": 863118,
+            "inherits": "autotools autotools-brokensep distro_features_check gettext perlnative pkgconfig siteconfig siteinfo systemd",
+            "layerbranch": 14965,
+            "license": "BSD",
+            "pn": "xscreensaver",
+            "provides": "xscreensaver ",
+            "pv": "5.39",
+            "section": "base",
+            "summary": "X screen saver and locker",
+            "updated": "2018-12-03T18:12:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Wireless daemon for Linux",
+            "filename": "iwd_0.12.bb",
+            "filepath": "recipes-connectivity/iwd",
+            "homepage": "",
+            "id": 876207,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
+            "layerbranch": 14965,
+            "license": "LGPL-2.1",
+            "pn": "iwd",
+            "provides": "iwd ",
+            "pv": "0.12",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-12-03T18:12:39+0000"
+        },
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "C bindings for ZeroMQ",
+            "filename": "czmq_4.1.1.bb",
+            "filepath": "recipes-connectivity/zeromq",
+            "homepage": "http://www.zeromq.org",
+            "id": 876208,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "MPL-2.0",
+            "pn": "czmq",
+            "provides": "czmq ",
+            "pv": "4.1.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-12-03T18:12:39+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Doxygen is the de facto standard tool for generating documentation from annotated C++ sources.",
+            "filename": "doxygen_1.8.14.bb",
+            "filepath": "recipes-devtools/doxygen",
+            "homepage": "http://www.doxygen.org/",
+            "id": 876209,
+            "inherits": "cmake python3-dir python3native",
+            "layerbranch": 14965,
+            "license": "GPL-2.0",
+            "pn": "doxygen",
+            "provides": "doxygen ",
+            "pv": "1.8.14",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-12-03T18:12:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "libserialport is a minimal, cross-platform shared library written in C that is intended to take care of the OS-specific details when writing software that uses serial ports.",
+            "filename": "libserialport_0.1.1.bb",
+            "filepath": "recipes-extended/libserialport",
+            "homepage": "https://sigrok.org/wiki/Libserialport",
+            "id": 876210,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPL-3.0+",
+            "pn": "libserialport",
+            "provides": "libserialport ",
+            "pv": "0.1.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-12-03T18:12:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "libzip is a C library for reading, creating, and modifying zip archives.",
+            "filename": "libzip_1.5.1.bb",
+            "filepath": "recipes-extended/libzip",
+            "homepage": "https://libzip.org/",
+            "id": 876211,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "BSD-3-Clause",
+            "pn": "libzip",
+            "provides": "libzip ",
+            "pv": "1.5.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-12-03T18:12:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "libsigrok is a shared library written in C, which provides the basic hardware access drivers for logic analyzers and other supported devices, as well as input/output file format support.",
+            "filename": "libsigrok_0.5.1.bb",
+            "filepath": "recipes-extended/sigrok",
+            "homepage": "http://sigrok.org/wiki/Main_Page",
+            "id": 876212,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "libsigrok",
+            "provides": "libsigrok ",
+            "pv": "0.5.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-12-03T18:12:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "libsigrokdecode is a shared library written in C, which provides (streaming) protocol decoding functionality.",
+            "filename": "libsigrokdecode_0.5.2.bb",
+            "filepath": "recipes-extended/sigrok",
+            "homepage": "http://sigrok.org/wiki/Main_Page",
+            "id": 876213,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "libsigrokdecode",
+            "provides": "libsigrokdecode ",
+            "pv": "0.5.2",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-12-03T18:12:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "sigrok-cli is a command-line frontend for sigrok.",
+            "filename": "sigrok-cli_0.7.0.bb",
+            "filepath": "recipes-extended/sigrok",
+            "homepage": "http://sigrok.org/wiki/Main_Page",
+            "id": 876214,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "sigrok-cli",
+            "provides": "sigrok-cli ",
+            "pv": "0.7.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-12-03T18:12:41+0000"
         }
     ],
     "wrtemplates": []

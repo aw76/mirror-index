@@ -59,57 +59,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-11-08T23:11:09+0000",
-            "vcs_last_commit": "2018-11-08T23:11:09+0000",
-            "vcs_last_fetch": "2018-11-08T23:11:09+0000",
-            "vcs_last_rev": "68c543a56702879dbb76f868721f257b2e9ecd62",
+            "updated": "2018-12-04T22:12:30+0000",
+            "vcs_last_commit": "2018-12-04T22:12:30+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:30+0000",
+            "vcs_last_rev": "5b1402339726d25d374299ee37db3a856624632b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-10-30T20:10:11+0000",
-            "vcs_last_commit": "2018-10-30T20:10:11+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:11+0000",
-            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
+            "updated": "2018-12-02T17:12:47+0000",
+            "vcs_last_commit": "2018-12-02T17:12:47+0000",
+            "vcs_last_fetch": "2018-12-02T17:12:47+0000",
+            "vcs_last_rev": "435484e821fe123b32e45cdae750c9c50ba53f0c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181126",
             "branch": 38,
             "collection": "iot-cloud",
             "id": 833858,
             "layer": 247,
-            "updated": "2018-10-30T20:10:10+0000",
-            "vcs_last_commit": "2018-10-30T20:10:10+0000",
-            "vcs_last_fetch": "2018-10-30T20:10:10+0000",
-            "vcs_last_rev": "dba145f9c343ef1772e81afb64428f6464a0c7ba",
+            "updated": "2018-11-25T22:11:35+0000",
+            "vcs_last_commit": "2018-11-25T22:11:35+0000",
+            "vcs_last_fetch": "2018-11-25T22:11:35+0000",
+            "vcs_last_rev": "25ee30b9f3277c29b529f0f72c4f1c0ec61b8fdb",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 3
@@ -359,49 +359,11 @@
             "updated": "2018-10-31T18:10:11+0000"
         },
         {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Java Client Library can be used to simplify interactions with the IBM Watson IoT Platform",
-            "filename": "ibm-iotf-java_0.2.6.bb",
-            "filepath": "java/recipes-ibm/ibm-iotf-java",
-            "homepage": "https://github.com/ibm-watson-iot/iot-java",
-            "id": 724513,
-            "inherits": "",
-            "layerbranch": 833858,
-            "license": "EPL-1.0",
-            "pn": "ibm-iotf-java",
-            "provides": "ibm-iotf-java ",
-            "pv": "0.2.6",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-31T18:10:11+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Java SDK for connecting to AWS IoT from a device.",
-            "filename": "aws-iot-device-sdk-java_1.1.1.bb",
-            "filepath": "java/recipes-aws/aws-iot-device-sdk-java",
-            "homepage": "https://github.com/aws/aws-iot-device-sdk-java",
-            "id": 724514,
-            "inherits": "",
-            "layerbranch": 833858,
-            "license": "Apache-2.0",
-            "pn": "aws-iot-device-sdk-java",
-            "provides": "aws-iot-device-sdk-java ",
-            "pv": "1.1.1",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-31T18:10:11+0000"
-        },
-        {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "http-parser_2.7.0.bb",
+            "filename": "http-parser_2.8.1.bb",
             "filepath": "recipes-support/http-parser",
             "homepage": "https://github.com/nodejs/http-parser",
             "id": 724515,
@@ -410,10 +372,10 @@
             "license": "MIT",
             "pn": "http-parser",
             "provides": "http-parser ",
-            "pv": "2.7.0",
+            "pv": "2.8.1",
             "section": "base",
             "summary": "Parser for HTTP messages written in C",
-            "updated": "2018-10-31T18:10:12+0000"
+            "updated": "2018-11-27T18:11:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -610,7 +572,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This package provides a unified command line interface to Amazon Web Services.",
-            "filename": "python3-awscli_1.11.105.bb",
+            "filename": "python3-awscli_1.16.57.bb",
             "filepath": "recipes-aws/python",
             "homepage": "https://github.com/aws/aws-cli",
             "id": 724526,
@@ -619,10 +581,10 @@
             "license": "Apache-2.0",
             "pn": "python3-awscli",
             "provides": "python3-awscli ",
-            "pv": "1.11.105",
+            "pv": "1.16.57",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2018-11-27T18:11:06+0000"
         },
         {
             "bbclassextend": "",
@@ -641,14 +603,14 @@
             "pv": "0.1.13",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2018-11-27T18:11:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This package provides a unified command line interface to Amazon Web Services.",
-            "filename": "python-awscli_1.11.105.bb",
+            "filename": "python-awscli_1.16.57.bb",
             "filepath": "recipes-aws/python",
             "homepage": "https://github.com/aws/aws-cli",
             "id": 724528,
@@ -657,17 +619,17 @@
             "license": "Apache-2.0",
             "pn": "python-awscli",
             "provides": "python-awscli ",
-            "pv": "1.11.105",
+            "pv": "1.16.57",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2018-11-27T18:11:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Low-level, data-driven core of boto 3.",
-            "filename": "python3-botocore_1.10.11.bb",
+            "filename": "python3-botocore_1.12.47.bb",
             "filepath": "recipes-aws/python",
             "homepage": "https://github.com/boto/botocore",
             "id": 724529,
@@ -676,17 +638,17 @@
             "license": "Apache-2.0",
             "pn": "python3-botocore",
             "provides": "python3-botocore ",
-            "pv": "1.10.11",
+            "pv": "1.12.47",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2018-11-27T18:11:03+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Low-level, data-driven core of boto 3.",
-            "filename": "python-botocore_1.10.11.bb",
+            "filename": "python-botocore_1.12.47.bb",
             "filepath": "recipes-aws/python",
             "homepage": "https://github.com/boto/botocore",
             "id": 724530,
@@ -695,10 +657,10 @@
             "license": "Apache-2.0",
             "pn": "python-botocore",
             "provides": "python-botocore ",
-            "pv": "1.10.11",
+            "pv": "1.12.47",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2018-11-27T18:11:03+0000"
         },
         {
             "bbclassextend": "",
@@ -755,7 +717,7 @@
             "pv": "0.1.13",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:15+0000"
+            "updated": "2018-11-27T18:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2567,7 +2529,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Microsoft Azure IoT SDKs and libraries for C",
-            "filename": "azure-iot-sdk-c_1.2.4.bb",
+            "filename": "azure-iot-sdk-c_1.2.10.bb",
             "filepath": "recipes-azure/azure-iot-sdk-c",
             "homepage": "https://github.com/Azure/azure-iot-sdk-c",
             "id": 724629,
@@ -2576,10 +2538,10 @@
             "license": "MIT",
             "pn": "azure-iot-sdk-c",
             "provides": "azure-iot-sdk-c ",
-            "pv": "1.2.4",
+            "pv": "1.2.10",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:30+0000"
+            "updated": "2018-11-27T18:11:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2605,7 +2567,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Microsoft Azure MQTT",
-            "filename": "azure-umqtt-c_1.1.4.bb",
+            "filename": "azure-umqtt-c_1.1.10.bb",
             "filepath": "recipes-azure/azure-umqtt-c",
             "homepage": "https://github.com/Azure/azure-umqtt-c",
             "id": 724631,
@@ -2614,17 +2576,17 @@
             "license": "MIT",
             "pn": "azure-umqtt-c",
             "provides": "azure-umqtt-c ",
-            "pv": "1.1.4",
+            "pv": "1.1.10",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:30+0000"
+            "updated": "2018-11-27T18:11:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Azure C Shared Utility",
-            "filename": "azure-c-shared-utility_1.1.4.bb",
+            "filename": "azure-c-shared-utility_1.1.10.bb",
             "filepath": "recipes-azure/azure-c-shared-utility",
             "homepage": "https://github.com/Azure/azure-c-shared-utility",
             "id": 724632,
@@ -2633,10 +2595,10 @@
             "license": "MIT",
             "pn": "azure-c-shared-utility",
             "provides": "azure-c-shared-utility ",
-            "pv": "1.1.4",
+            "pv": "1.1.10",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:31+0000"
+            "updated": "2018-11-27T18:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2852,7 +2814,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Azure IoT Hub Service Client Library",
-            "filename": "python-azure-iothub-service-client_1.2.2.bb",
+            "filename": "python-azure-iothub-service-client_1.4.4.bb",
             "filepath": "recipes-azure/python",
             "homepage": "https://github.com/Azure/azure-iot-sdk-python",
             "id": 724644,
@@ -2861,10 +2823,10 @@
             "license": "MIT",
             "pn": "python-azure-iothub-service-client",
             "provides": "python-azure-iothub-service-client ",
-            "pv": "1.2.2",
+            "pv": "1.4.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:32+0000"
+            "updated": "2018-11-27T18:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -3004,7 +2966,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Azure IoT Hub Provisioning Service Client Library",
-            "filename": "python-azure-iothub-provisioningserviceclient_1.0.0.bb",
+            "filename": "python-azure-iothub-provisioningserviceclient_1.1.0.bb",
             "filepath": "recipes-azure/python",
             "homepage": "https://github.com/Azure/azure-iot-sdk-python",
             "id": 724652,
@@ -3013,10 +2975,10 @@
             "license": "MIT",
             "pn": "python-azure-iothub-provisioningserviceclient",
             "provides": "python-azure-iothub-provisioningserviceclient ",
-            "pv": "1.0.0",
+            "pv": "1.1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:34+0000"
+            "updated": "2018-11-27T18:11:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4315,7 +4277,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Azure IoT Provisioning Device Client Library",
-            "filename": "python-azure-iot-provisioning-device-client_1.2.2.bb",
+            "filename": "python-azure-iot-provisioning-device-client_1.4.4.bb",
             "filepath": "recipes-azure/python",
             "homepage": "https://github.com/Azure/azure-iot-sdk-python",
             "id": 724721,
@@ -4324,10 +4286,10 @@
             "license": "MIT",
             "pn": "python-azure-iot-provisioning-device-client",
             "provides": "python-azure-iot-provisioning-device-client ",
-            "pv": "1.2.2",
+            "pv": "1.4.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:43+0000"
+            "updated": "2018-11-27T18:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -5151,7 +5113,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Azure IoT Hub Device Client Library",
-            "filename": "python-azure-iothub-device-client_1.2.2.bb",
+            "filename": "python-azure-iothub-device-client_1.4.4.bb",
             "filepath": "recipes-azure/python",
             "homepage": "https://github.com/Azure/azure-iot-sdk-python",
             "id": 724765,
@@ -5160,10 +5122,10 @@
             "license": "MIT",
             "pn": "python-azure-iothub-device-client",
             "provides": "python-azure-iothub-device-client ",
-            "pv": "1.2.2",
+            "pv": "1.4.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:49+0000"
+            "updated": "2018-11-27T18:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -6975,7 +6937,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Azure IoT Hub Provisioning Service Client Library",
-            "filename": "python3-azure-iothub-provisioningserviceclient_1.0.0.bb",
+            "filename": "python3-azure-iothub-provisioningserviceclient_1.1.0.bb",
             "filepath": "recipes-azure/python",
             "homepage": "https://github.com/Azure/azure-iot-sdk-python",
             "id": 724861,
@@ -6984,10 +6946,10 @@
             "license": "MIT",
             "pn": "python3-azure-iothub-provisioningserviceclient",
             "provides": "python3-azure-iothub-provisioningserviceclient ",
-            "pv": "1.0.0",
+            "pv": "1.1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:02+0000"
+            "updated": "2018-11-27T18:11:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7259,46 +7221,8 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "HTTP Library written in C",
-            "filename": "azure-uhttp-c_1.0.1.bb",
-            "filepath": "recipes-azure/azure-uhttp-c",
-            "homepage": "https://github.com/Azure/azure-uhttp-c",
-            "id": 724876,
-            "inherits": "cmake",
-            "layerbranch": 833858,
-            "license": "MIT",
-            "pn": "azure-uhttp-c",
-            "provides": "azure-uhttp-c ",
-            "pv": "1.0.1",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-31T18:10:05+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "TPM C library for use with Azure IoT SDKs",
-            "filename": "azure-utpm-c_1.0.1.bb",
-            "filepath": "recipes-azure/azure-utpm-c",
-            "homepage": "https://github.com/Azure/azure-utpm-c",
-            "id": 724877,
-            "inherits": "cmake",
-            "layerbranch": 833858,
-            "license": "MIT",
-            "pn": "azure-utpm-c",
-            "provides": "azure-utpm-c ",
-            "pv": "1.0.1",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-31T18:10:05+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "uAMQP is a general purpose C library for AMQP",
-            "filename": "azure-uamqp-c_1.2.4.bb",
+            "filename": "azure-uamqp-c_1.2.10.bb",
             "filepath": "recipes-azure/azure-uamqp-c",
             "homepage": "https://github.com/Azure/azure-uamqp-c",
             "id": 724878,
@@ -7307,10 +7231,10 @@
             "license": "MIT",
             "pn": "azure-uamqp-c",
             "provides": "azure-uamqp-c ",
-            "pv": "1.2.4",
+            "pv": "1.2.10",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:05+0000"
+            "updated": "2018-11-27T18:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -7348,7 +7272,7 @@
             "pv": "0.13",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:05+0000"
+            "updated": "2018-11-27T18:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -7367,7 +7291,7 @@
             "pv": "0.7",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:05+0000"
+            "updated": "2018-11-27T18:11:06+0000"
         },
         {
             "bbclassextend": "",

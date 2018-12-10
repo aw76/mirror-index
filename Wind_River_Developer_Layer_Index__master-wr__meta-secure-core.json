@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181031",
+            "bitbake_branch": "wr-10.19-20181203",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-10-31T18:10:49+0000",
+            "updated": "2018-12-03T18:12:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181031",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-11-07T08:11:00+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T08:11:00+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-04T22:12:49+0000",
+            "vcs_last_commit": "2018-12-04T22:12:49+0000",
+            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
+            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.18-20181029",
+            "actual_branch": "wr-10.19-20181203",
             "branch": 38,
             "collection": "secure-core",
             "id": 57001,
             "layer": 149,
-            "updated": "2018-10-29T01:10:37+0000",
-            "vcs_last_commit": "2018-10-29T01:10:37+0000",
-            "vcs_last_fetch": "2018-10-29T01:10:37+0000",
-            "vcs_last_rev": "06edb42af6fa66b99742056530d74a43cecdfdd9",
+            "updated": "2018-12-02T17:12:52+0000",
+            "vcs_last_commit": "2018-12-02T17:12:52+0000",
+            "vcs_last_fetch": "2018-12-02T17:12:52+0000",
+            "vcs_last_rev": "61826576773213ee5ad7916da64da7a76e29cd0a",
             "vcs_subdir": "meta",
             "version": null,
             "yp_compatible_version": 3
@@ -223,7 +223,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2018-12-03T18:12:57+0000"
         },
         {
             "bbclassextend": "",
