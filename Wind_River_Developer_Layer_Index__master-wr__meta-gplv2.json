@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20181203",
+            "bitbake_branch": "wr-10.19-20181210",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-12-03T18:12:30+0000",
+            "updated": "2018-12-11T01:12:21+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181126",
+            "actual_branch": "wr-10.19-20181210",
             "branch": 38,
             "collection": "gplv2",
             "id": 14948,
             "layer": 115,
-            "updated": "2018-11-26T19:11:52+0000",
-            "vcs_last_commit": "2018-11-26T19:11:52+0000",
-            "vcs_last_fetch": "2018-11-26T19:11:52+0000",
-            "vcs_last_rev": "c70fe65fe3ef06099822f9bce80e44841e06471b",
+            "updated": "2018-12-09T18:12:52+0000",
+            "vcs_last_commit": "2018-12-09T18:12:52+0000",
+            "vcs_last_fetch": "2018-12-09T18:12:52+0000",
+            "vcs_last_rev": "83378fc68bc29006e35e4a15eabaec7798b46bab",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181203",
+            "actual_branch": "wr-10.19-20181210",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-04T22:12:49+0000",
-            "vcs_last_commit": "2018-12-04T22:12:49+0000",
-            "vcs_last_fetch": "2018-12-04T22:12:49+0000",
-            "vcs_last_rev": "527042e51a921f749386e881a2ce1563180df41f",
+            "updated": "2018-12-09T18:12:59+0000",
+            "vcs_last_commit": "2018-12-09T18:12:59+0000",
+            "vcs_last_fetch": "2018-12-09T18:12:59+0000",
+            "vcs_last_rev": "13c0d99dd013a1a39676074736beeecbdfab0e6d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -514,7 +514,7 @@
             "pv": "2.5.1a",
             "section": "console/utils",
             "summary": "Pattern matching utilities",
-            "updated": "2018-10-05T09:10:11+0000"
+            "updated": "2018-12-11T01:12:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -837,7 +837,7 @@
             "pv": "6.9",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-12-11T01:12:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",

@@ -59,35 +59,35 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20181203",
+            "bitbake_branch": "wr-10.19-20181210",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-12-03T18:12:30+0000",
+            "updated": "2018-12-11T01:12:21+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181203",
+            "actual_branch": "wr-10.19-20181210",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-12-04T22:12:30+0000",
-            "vcs_last_commit": "2018-12-04T22:12:30+0000",
-            "vcs_last_fetch": "2018-12-04T22:12:30+0000",
-            "vcs_last_rev": "5b1402339726d25d374299ee37db3a856624632b",
+            "updated": "2018-12-10T19:12:07+0000",
+            "vcs_last_commit": "2018-12-10T19:12:07+0000",
+            "vcs_last_fetch": "2018-12-10T19:12:07+0000",
+            "vcs_last_rev": "e59d806d710312ff72ce059e1471bd4e07d21363",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181203",
+            "actual_branch": "wr-10.19-20181210",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
@@ -101,15 +101,15 @@
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181126",
+            "actual_branch": "wr-10.19-20181210",
             "branch": 38,
             "collection": "iot-cloud",
             "id": 833858,
             "layer": 247,
-            "updated": "2018-11-25T22:11:35+0000",
-            "vcs_last_commit": "2018-11-25T22:11:35+0000",
-            "vcs_last_fetch": "2018-11-25T22:11:35+0000",
-            "vcs_last_rev": "25ee30b9f3277c29b529f0f72c4f1c0ec61b8fdb",
+            "updated": "2018-12-09T18:12:52+0000",
+            "vcs_last_commit": "2018-12-09T18:12:52+0000",
+            "vcs_last_fetch": "2018-12-09T18:12:52+0000",
+            "vcs_last_rev": "bf9593b6219bc944fbc74dd6b25e292c00c46518",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 3
@@ -344,7 +344,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Node-RED",
-            "filename": "node-red_0.18.5.bb",
+            "filename": "node-red_0.19.5.bb",
             "filepath": "recipes-node-red/node-red",
             "homepage": "http://nodered.org",
             "id": 724512,
@@ -353,10 +353,10 @@
             "license": "Apache-2.0",
             "pn": "node-red",
             "provides": "node-red ",
-            "pv": "0.18.5",
+            "pv": "0.19.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:11+0000"
+            "updated": "2018-12-11T01:12:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7235,25 +7235,6 @@
             "section": "base",
             "summary": "",
             "updated": "2018-11-27T18:11:05+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "This is a client for Amazon's Alexa service.",
-            "filename": "alexa_1.5.bb",
-            "filepath": "recipes-alexa/alexa",
-            "homepage": "https://github.com/alexa-pi/AlexaPi",
-            "id": 724879,
-            "inherits": "python-dir systemd",
-            "layerbranch": 833858,
-            "license": "MIT",
-            "pn": "alexa",
-            "provides": "alexa ",
-            "pv": "1.5",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-31T18:10:05+0000"
         },
         {
             "bbclassextend": "",
