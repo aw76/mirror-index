@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20181210",
+            "bitbake_branch": "wr-10.19-20181217",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-12-11T01:12:21+0000",
+            "updated": "2018-12-17T17:12:41+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-13T23:12:41+0000",
-            "vcs_last_commit": "2018-12-13T23:12:41+0000",
-            "vcs_last_fetch": "2018-12-13T23:12:41+0000",
-            "vcs_last_rev": "dfe90fd514b8b6a18c288b8836f68f1f7720065f",
+            "updated": "2018-12-17T00:12:05+0000",
+            "vcs_last_commit": "2018-12-17T00:12:05+0000",
+            "vcs_last_fetch": "2018-12-17T00:12:05+0000",
+            "vcs_last_rev": "c6e3fa1e64c9e6dc736170cda195e14a0a430c1c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-12-10T19:12:07+0000",
-            "vcs_last_commit": "2018-12-10T19:12:07+0000",
-            "vcs_last_fetch": "2018-12-10T19:12:07+0000",
-            "vcs_last_rev": "e59d806d710312ff72ce059e1471bd4e07d21363",
+            "updated": "2018-12-16T17:12:44+0000",
+            "vcs_last_commit": "2018-12-16T17:12:44+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:44+0000",
+            "vcs_last_rev": "dcda3aee8afe8ddefd9c999564476bb22b3dee4e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -2250,19 +2250,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "library for easy implementation of a RDP/VNC server",
-            "filename": "libvncserver_0.9.11.bb",
+            "filename": "libvncserver_git.bb",
             "filepath": "recipes-graphics/libvncserver",
             "homepage": "https://libvnc.github.io",
             "id": 723198,
-            "inherits": "autotools binconfig distro_features_check pkgconfig siteconfig siteinfo",
+            "inherits": "cmake",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "libvncserver",
             "provides": "libvncserver ",
-            "pv": "0.9.11",
+            "pv": "git",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2569,11 +2569,11 @@
             "updated": "2018-10-05T09:10:44+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "libmtp is an Initiator implementation of the Media Transfer Protocol (MTP) in the form of a library suitable primarily for POSIX compliant operating systems",
-            "filename": "libmtp_1.1.5.bb",
+            "filename": "libmtp_1.1.16.bb",
             "filepath": "recipes-connectivity/libmtp",
             "homepage": "http://libmtp.sourceforge.net/",
             "id": 723216,
@@ -2582,10 +2582,10 @@
             "license": "LGPL-2.1+",
             "pn": "libmtp",
             "provides": "libmtp ",
-            "pv": "1.1.5",
+            "pv": "1.1.16",
             "section": "base",
             "summary": "libmtp is an Initiator implementation of the Media Transfer Protocol (MTP)",
-            "updated": "2018-10-05T09:10:44+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3098,7 +3098,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Inspect and manipulate eBPF programs and maps",
-            "updated": "2018-10-05T09:10:49+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3174,7 +3174,7 @@
             "pv": "1.6.4",
             "section": "base",
             "summary": "VMcore extraction tool",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3915,7 +3915,7 @@
             "pv": "10.3.0",
             "section": "vmware-tools",
             "summary": "Tools to enhance VMWare guest integration and performance",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -5055,7 +5055,7 @@
             "pv": "0.3.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:29+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -5264,7 +5264,7 @@
             "pv": "2.0.0+gitrX",
             "section": "net",
             "summary": "",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -7221,7 +7221,7 @@
             "pv": "8",
             "section": "libs/multimedia",
             "summary": "a2jmidid is daemon for exposing ALSA sequencer applications as JACK MIDI",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -8133,7 +8133,7 @@
             "pv": "1.9.0-gitX",
             "section": "libs",
             "summary": "Linux Library for low speed I/O Communication",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -8974,9 +8974,9 @@
         {
             "bbclassextend": "",
             "blacklisted": "",
-            "bugtracker": "",
+            "bugtracker": "https://github.com/akheron/jansson/issues",
             "description": "",
-            "filename": "jansson_2.11.bb",
+            "filename": "jansson_2.12.bb",
             "filepath": "recipes-extended/jansson",
             "homepage": "http://www.digip.org/jansson/",
             "id": 723554,
@@ -8985,10 +8985,10 @@
             "license": "MIT",
             "pn": "jansson",
             "provides": "jansson ",
-            "pv": "2.11",
+            "pv": "2.12",
             "section": "base",
             "summary": "Jansson is a C library for encoding, decoding and manipulating JSON data",
-            "updated": "2018-10-05T09:10:44+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -9425,7 +9425,7 @@
             "pv": "8.37.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -10743,7 +10743,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tk_8.6.8.bb",
+            "filename": "tk_8.6.9.bb",
             "filepath": "recipes-devtools/tcltk",
             "homepage": "http://tcl.sourceforge.net",
             "id": 723647,
@@ -10752,10 +10752,10 @@
             "license": "tcl",
             "pn": "tk",
             "provides": "tk ",
-            "pv": "8.6.8",
+            "pv": "8.6.9",
             "section": "devel/tcltk",
             "summary": "Tool Command Language ToolKit Extension",
-            "updated": "2018-11-27T18:11:27+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10956,7 +10956,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.pygtk.org/",
             "id": 723658,
-            "inherits": "autotools distutils-base distutils-common-base gnomebase gobject-introspection gobject-introspection-data pkgconfig python-dir python3-dir python3native pythonnative siteconfig siteinfo",
+            "inherits": "autotools distutils-base distutils-common-base gnomebase gobject-introspection gobject-introspection-data pkgconfig python-dir python3-dir python3native pythonnative siteconfig siteinfo upstream-version-is-even",
             "layerbranch": 14965,
             "license": "LGPLv2.1",
             "pn": "python-pygobject",
@@ -10964,7 +10964,7 @@
             "pv": "3.28.3",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11180,7 +11180,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_8.12.0.bb",
+            "filename": "nodejs_8.14.0.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 723670,
@@ -11189,10 +11189,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "8.12.0",
+            "pv": "8.14.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T19:10:20+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -12400,7 +12400,7 @@
             "filepath": "recipes-core/toybox",
             "homepage": "http://www.landley.net/toybox/",
             "id": 723734,
-            "inherits": "update-alternatives",
+            "inherits": "cml1 update-alternatives",
             "layerbranch": 14965,
             "license": "BSD-0-Clause",
             "pn": "toybox",
@@ -12408,7 +12408,7 @@
             "pv": "0.7.5",
             "section": "base",
             "summary": "Toybox combines common utilities together into a single executable.",
-            "updated": "2018-10-23T03:10:04+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -12723,7 +12723,7 @@
             "filepath": "recipes-core/packagegroups",
             "homepage": "",
             "id": 863115,
-            "inherits": "allarch packagegroup",
+            "inherits": "packagegroup",
             "layerbranch": 14965,
             "license": "",
             "pn": "packagegroup-meta-oe",
@@ -12731,7 +12731,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2018-12-03T18:12:34+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -12807,7 +12807,7 @@
             "pv": "0.12",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T18:12:39+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12845,7 +12845,7 @@
             "pv": "1.8.14",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T18:12:40+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -12941,6 +12941,82 @@
             "section": "base",
             "summary": "",
             "updated": "2018-12-03T18:12:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The MirBSD Korn Shell - an enhanced version of the public domain ksh",
+            "filename": "mksh_56.bb",
+            "filepath": "recipes-shells/mksh",
+            "homepage": "http://www.mirbsd.org/mksh.htm",
+            "id": 891205,
+            "inherits": "update-alternatives",
+            "layerbranch": 14965,
+            "license": "MirOS & ISC",
+            "pn": "mksh",
+            "provides": "mksh ",
+            "pv": "56",
+            "section": "base/shell",
+            "summary": "",
+            "updated": "2018-12-17T17:12:18+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libusbgx-config.bb",
+            "filepath": "recipes-support/libusbgx",
+            "homepage": "",
+            "id": 891206,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "libusbgx-config",
+            "provides": "libusbgx-config ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "USB Gadget Configuration Files",
+            "updated": "2018-12-17T17:12:18+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libusbgx_git.bb",
+            "filepath": "recipes-support/libusbgx",
+            "homepage": "",
+            "id": 891207,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
+            "layerbranch": 14965,
+            "license": "GPLv2 & LGPLv2.1",
+            "pn": "libusbgx",
+            "provides": "libusbgx ",
+            "pv": "0.2.0+gitX",
+            "section": "base",
+            "summary": "USB Gadget neXt Configfs Library",
+            "updated": "2018-12-17T17:12:18+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The MCE test suite is a collection of tools and test scripts for testing the Linux RAS related features, including CPU/Memory error containment and recovery, ACPI/APEI support etc.",
+            "filename": "mce-test_git.bb",
+            "filepath": "recipes-support/mcelog",
+            "homepage": "",
+            "id": 891208,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "mce-test",
+            "provides": "mce-test ",
+            "pv": "20171030+gitX",
+            "section": "base",
+            "summary": "MCE test suite",
+            "updated": "2018-12-17T17:12:19+0000"
         }
     ],
     "wrtemplates": []

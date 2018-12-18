@@ -59,99 +59,99 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20181210",
+            "bitbake_branch": "wr-10.19-20181217",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-12-11T01:12:21+0000",
+            "updated": "2018-12-17T17:12:41+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-13T23:12:41+0000",
-            "vcs_last_commit": "2018-12-13T23:12:41+0000",
-            "vcs_last_fetch": "2018-12-13T23:12:41+0000",
-            "vcs_last_rev": "dfe90fd514b8b6a18c288b8836f68f1f7720065f",
+            "updated": "2018-12-17T00:12:05+0000",
+            "vcs_last_commit": "2018-12-17T00:12:05+0000",
+            "vcs_last_fetch": "2018-12-17T00:12:05+0000",
+            "vcs_last_rev": "c6e3fa1e64c9e6dc736170cda195e14a0a430c1c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-12-10T19:12:07+0000",
-            "vcs_last_commit": "2018-12-10T19:12:07+0000",
-            "vcs_last_fetch": "2018-12-10T19:12:07+0000",
-            "vcs_last_rev": "e59d806d710312ff72ce059e1471bd4e07d21363",
+            "updated": "2018-12-16T17:12:44+0000",
+            "vcs_last_commit": "2018-12-16T17:12:44+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:44+0000",
+            "vcs_last_rev": "dcda3aee8afe8ddefd9c999564476bb22b3dee4e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "perl-layer",
             "id": 14966,
             "layer": 13,
-            "updated": "2018-12-02T17:12:47+0000",
-            "vcs_last_commit": "2018-12-02T17:12:47+0000",
-            "vcs_last_fetch": "2018-12-02T17:12:47+0000",
-            "vcs_last_rev": "435484e821fe123b32e45cdae750c9c50ba53f0c",
+            "updated": "2018-12-16T17:12:44+0000",
+            "vcs_last_commit": "2018-12-16T17:12:44+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:44+0000",
+            "vcs_last_rev": "f440bf7708461948a1a75cd27e36732a4fb39bec",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "efi-secure-boot",
             "id": 56994,
             "layer": 126,
-            "updated": "2018-12-16T17:12:32+0000",
-            "vcs_last_commit": "2018-12-16T17:12:32+0000",
-            "vcs_last_fetch": "2018-12-16T17:12:32+0000",
-            "vcs_last_rev": "c9c511bc8d39ce565b71b2514b88baad6ebc4a21",
+            "updated": "2018-12-16T17:12:29+0000",
+            "vcs_last_commit": "2018-12-16T17:12:29+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:29+0000",
+            "vcs_last_rev": "20e556bb5d9a5846dd471349554a6e0e26437285",
             "vcs_subdir": "meta-efi-secure-boot",
             "version": null,
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "secure-core",
             "id": 57001,
             "layer": 149,
-            "updated": "2018-12-16T17:12:32+0000",
-            "vcs_last_commit": "2018-12-16T17:12:32+0000",
-            "vcs_last_fetch": "2018-12-16T17:12:32+0000",
-            "vcs_last_rev": "2c717b47d14dbf04c85ca5cb9b16c707cadf5058",
+            "updated": "2018-12-16T17:12:29+0000",
+            "vcs_last_commit": "2018-12-16T17:12:29+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:29+0000",
+            "vcs_last_rev": "cf17f2613aba43571018c905661513de5b64b19b",
             "vcs_subdir": "meta",
             "version": null,
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "signing-key",
             "id": 57003,
             "layer": 129,
-            "updated": "2018-12-10T19:12:21+0000",
-            "vcs_last_commit": "2018-12-10T19:12:21+0000",
-            "vcs_last_fetch": "2018-12-10T19:12:21+0000",
-            "vcs_last_rev": "19ffae6457d0b50947a9e7cfbc4089cac248d595",
+            "updated": "2018-12-16T17:12:33+0000",
+            "vcs_last_commit": "2018-12-16T17:12:33+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:33+0000",
+            "vcs_last_rev": "b28557c221e510d75be9d27d716923d2532543f6",
             "vcs_subdir": "meta-signing-key",
             "version": null,
             "yp_compatible_version": 3
@@ -324,7 +324,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2018-12-17T17:12:24+0000"
         },
         {
             "bbclassextend": "",
@@ -343,7 +343,7 @@
             "pv": "0.3.0+gitX",
             "section": "base",
             "summary": "The utility to manipulate machines owner keys which managed in shim",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2018-12-17T17:12:24+0000"
         },
         {
             "bbclassextend": "",
@@ -362,7 +362,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2018-12-17T17:12:24+0000"
         },
         {
             "bbclassextend": "",
@@ -381,7 +381,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2018-12-17T17:12:25+0000"
         },
         {
             "bbclassextend": "",
@@ -400,7 +400,7 @@
             "pv": "12+gitX",
             "section": "bootloaders",
             "summary": "shim is a trivial EFI application.",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2018-12-17T17:12:25+0000"
         },
         {
             "bbclassextend": "",
@@ -419,7 +419,7 @@
             "pv": "0.4.6+gitX",
             "section": "bootloaders",
             "summary": "The bootloader capable of authenticating the PE and non-PE files.",
-            "updated": "2018-11-27T18:11:11+0000"
+            "updated": "2018-12-17T17:12:25+0000"
         }
     ],
     "wrtemplates": []

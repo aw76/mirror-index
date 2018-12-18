@@ -59,57 +59,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20181210",
+            "bitbake_branch": "wr-10.19-20181217",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-12-11T01:12:21+0000",
+            "updated": "2018-12-17T17:12:41+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-12-10T19:12:07+0000",
-            "vcs_last_commit": "2018-12-10T19:12:07+0000",
-            "vcs_last_fetch": "2018-12-10T19:12:07+0000",
-            "vcs_last_rev": "e59d806d710312ff72ce059e1471bd4e07d21363",
+            "updated": "2018-12-16T17:12:44+0000",
+            "vcs_last_commit": "2018-12-16T17:12:44+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:44+0000",
+            "vcs_last_rev": "dcda3aee8afe8ddefd9c999564476bb22b3dee4e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-12-02T17:12:47+0000",
-            "vcs_last_commit": "2018-12-02T17:12:47+0000",
-            "vcs_last_fetch": "2018-12-02T17:12:47+0000",
-            "vcs_last_rev": "435484e821fe123b32e45cdae750c9c50ba53f0c",
+            "updated": "2018-12-16T17:12:44+0000",
+            "vcs_last_commit": "2018-12-16T17:12:44+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:44+0000",
+            "vcs_last_rev": "f440bf7708461948a1a75cd27e36732a4fb39bec",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "iot-cloud",
             "id": 833858,
             "layer": 247,
-            "updated": "2018-12-09T18:12:52+0000",
-            "vcs_last_commit": "2018-12-09T18:12:52+0000",
-            "vcs_last_fetch": "2018-12-09T18:12:52+0000",
-            "vcs_last_rev": "bf9593b6219bc944fbc74dd6b25e292c00c46518",
+            "updated": "2018-12-16T17:12:42+0000",
+            "vcs_last_commit": "2018-12-16T17:12:42+0000",
+            "vcs_last_fetch": "2018-12-16T17:12:42+0000",
+            "vcs_last_rev": "5c4d005848f8f4a475e337be5d45a3eed10c1918",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 3
@@ -287,7 +287,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python Client for IBM Watson IoT Platform",
-            "filename": "python3-ibmiotf_0.3.1.bb",
+            "filename": "python3-ibmiotf_0.3.4.bb",
             "filepath": "recipes-ibm/python",
             "homepage": "https://github.com/ibm-watson-iot/iot-python",
             "id": 724509,
@@ -296,10 +296,10 @@
             "license": "EPL-1.0",
             "pn": "python3-ibmiotf",
             "provides": "python3-ibmiotf ",
-            "pv": "0.3.1",
+            "pv": "0.3.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:11+0000"
+            "updated": "2018-12-17T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -318,7 +318,7 @@
             "pv": "0.3.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:11+0000"
+            "updated": "2018-12-17T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -576,7 +576,7 @@
             "filepath": "recipes-aws/python",
             "homepage": "https://github.com/aws/aws-cli",
             "id": 724526,
-            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "Apache-2.0",
             "pn": "python3-awscli",
@@ -584,7 +584,7 @@
             "pv": "1.16.57",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:06+0000"
+            "updated": "2018-12-17T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -603,7 +603,7 @@
             "pv": "0.1.13",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-11-27T18:11:06+0000"
+            "updated": "2018-12-17T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -614,7 +614,7 @@
             "filepath": "recipes-aws/python",
             "homepage": "https://github.com/aws/aws-cli",
             "id": 724528,
-            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "Apache-2.0",
             "pn": "python-awscli",
@@ -622,7 +622,7 @@
             "pv": "1.16.57",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:06+0000"
+            "updated": "2018-12-17T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -679,7 +679,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:15+0000"
+            "updated": "2018-12-17T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -698,7 +698,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:15+0000"
+            "updated": "2018-12-17T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -717,7 +717,7 @@
             "pv": "0.1.13",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-11-27T18:11:05+0000"
+            "updated": "2018-12-17T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -918,7 +918,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/pahaz/sshtunnel",
             "id": 724544,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python3-sshtunnel",
@@ -926,7 +926,7 @@
             "pv": "0.1.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:17+0000"
+            "updated": "2018-12-17T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -937,7 +937,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://pygments.org/",
             "id": 724545,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "BSD",
             "pn": "python-pygments",
@@ -945,7 +945,7 @@
             "pv": "2.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:17+0000"
+            "updated": "2018-12-17T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -956,7 +956,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/pypa/wheel",
             "id": 724546,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python-wheel",
@@ -964,7 +964,7 @@
             "pv": "0.31.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:17+0000"
+            "updated": "2018-12-17T17:12:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1222,7 +1222,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "http://pygments.org/",
             "id": 724560,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "BSD",
             "pn": "python3-pygments",
@@ -1230,7 +1230,7 @@
             "pv": "2.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:20+0000"
+            "updated": "2018-12-17T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1317,7 +1317,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://bitbucket.org/astanin/python-tabulate",
             "id": 724565,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python-tabulate",
@@ -1325,7 +1325,7 @@
             "pv": "0.8.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:20+0000"
+            "updated": "2018-12-17T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1488,7 +1488,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/pahaz/sshtunnel",
             "id": 724574,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python-sshtunnel",
@@ -1496,7 +1496,7 @@
             "pv": "0.1.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:22+0000"
+            "updated": "2018-12-17T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1583,7 +1583,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/jaraco/keyring",
             "id": 724579,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python-keyring",
@@ -1591,7 +1591,7 @@
             "pv": "13.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:23+0000"
+            "updated": "2018-12-17T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1849,7 +1849,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://humanfriendly.readthedocs.io/",
             "id": 724593,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python3-humanfriendly",
@@ -1857,7 +1857,7 @@
             "pv": "4.12.1",
             "section": "devel/python",
             "summary": "Human friendly output for text interfaces using Python",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2018-12-17T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1887,7 +1887,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://bitbucket.org/astanin/python-tabulate",
             "id": 724595,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python3-tabulate",
@@ -1895,7 +1895,7 @@
             "pv": "0.8.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2018-12-17T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2115,7 +2115,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724607,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "Apache-2.0",
             "pn": "python-rsa",
@@ -2123,7 +2123,7 @@
             "pv": "3.4.2",
             "section": "devel/python",
             "summary": "Pure-Python RSA implementation",
-            "updated": "2018-10-31T18:10:27+0000"
+            "updated": "2018-12-17T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2267,7 +2267,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/pypa/wheel",
             "id": 724615,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python3-wheel",
@@ -2275,7 +2275,7 @@
             "pv": "0.31.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:28+0000"
+            "updated": "2018-12-17T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2286,7 +2286,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://humanfriendly.readthedocs.io/",
             "id": 724616,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python-humanfriendly",
@@ -2294,7 +2294,7 @@
             "pv": "4.12.1",
             "section": "devel/python",
             "summary": "Human friendly output for text interfaces using Python",
-            "updated": "2018-10-31T18:10:28+0000"
+            "updated": "2018-12-17T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2362,7 +2362,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724620,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "Apache-2.0",
             "pn": "python3-rsa",
@@ -2370,7 +2370,7 @@
             "pv": "3.4.2",
             "section": "devel/python",
             "summary": "Pure-Python RSA implementation",
-            "updated": "2018-10-31T18:10:28+0000"
+            "updated": "2018-12-17T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2438,7 +2438,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/jaraco/keyring",
             "id": 724624,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python3-keyring",
@@ -2446,7 +2446,7 @@
             "pv": "13.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:29+0000"
+            "updated": "2018-12-17T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2636,7 +2636,7 @@
             "pv": "1.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:31+0000"
+            "updated": "2018-12-17T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2655,7 +2655,7 @@
             "pv": "0.2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:31+0000"
+            "updated": "2018-12-17T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2674,7 +2674,7 @@
             "pv": "0.0.22",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:31+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2693,7 +2693,7 @@
             "pv": "2.0.14",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:31+0000"
+            "updated": "2018-12-17T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2712,7 +2712,7 @@
             "pv": "0.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:31+0000"
+            "updated": "2018-12-17T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2731,7 +2731,7 @@
             "pv": "0.0.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:31+0000"
+            "updated": "2018-12-17T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2750,7 +2750,7 @@
             "pv": "0.35.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:32+0000"
+            "updated": "2018-12-17T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2769,7 +2769,7 @@
             "pv": "5.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:32+0000"
+            "updated": "2018-12-17T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2788,7 +2788,7 @@
             "pv": "2.0.16",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:32+0000"
+            "updated": "2018-12-17T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2807,7 +2807,7 @@
             "pv": "0.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:32+0000"
+            "updated": "2018-12-17T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2845,7 +2845,7 @@
             "pv": "2.0.23",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:33+0000"
+            "updated": "2018-12-17T17:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2864,7 +2864,7 @@
             "pv": "0.50.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:33+0000"
+            "updated": "2018-12-17T17:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2921,7 +2921,7 @@
             "pv": "0.1.35",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:33+0000"
+            "updated": "2018-12-17T17:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2940,7 +2940,7 @@
             "pv": "0.1.8",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:33+0000"
+            "updated": "2018-12-17T17:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2959,7 +2959,7 @@
             "pv": "2.1.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:34+0000"
+            "updated": "2018-12-17T17:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2997,7 +2997,7 @@
             "pv": "5.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:34+0000"
+            "updated": "2018-12-17T17:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3016,7 +3016,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:34+0000"
+            "updated": "2018-12-17T17:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3035,7 +3035,7 @@
             "pv": "0.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:34+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3054,7 +3054,7 @@
             "pv": "2.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:34+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3073,7 +3073,7 @@
             "pv": "0.0.14",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:34+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3092,7 +3092,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:34+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3111,7 +3111,7 @@
             "pv": "0.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3130,7 +3130,7 @@
             "pv": "1.1.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3149,7 +3149,7 @@
             "pv": "0.1.24",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3168,7 +3168,7 @@
             "pv": "2.0.32",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3187,7 +3187,7 @@
             "pv": "0.1.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3206,7 +3206,7 @@
             "pv": "1.1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3225,7 +3225,7 @@
             "pv": "2.0.38",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3244,7 +3244,7 @@
             "pv": "2.0.14",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3263,7 +3263,7 @@
             "pv": "0.3.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:35+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3282,7 +3282,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:36+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3301,7 +3301,7 @@
             "pv": "2.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:36+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3320,7 +3320,7 @@
             "pv": "0.0.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:36+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3339,7 +3339,7 @@
             "pv": "2.0.35",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:36+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3358,7 +3358,7 @@
             "pv": "0.1.35",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:36+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3396,7 +3396,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:37+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3415,7 +3415,7 @@
             "pv": "1.1.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:37+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3434,7 +3434,7 @@
             "pv": "0.4.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:37+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3472,7 +3472,7 @@
             "pv": "0.1.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:37+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3491,7 +3491,7 @@
             "pv": "0.1.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:38+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3510,7 +3510,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:38+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3548,7 +3548,7 @@
             "pv": "0.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:38+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3567,7 +3567,7 @@
             "pv": "4.1.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:38+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3586,7 +3586,7 @@
             "pv": "1.1.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:38+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3605,7 +3605,7 @@
             "pv": "1.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:38+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3624,7 +3624,7 @@
             "pv": "0.2.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:38+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3643,7 +3643,7 @@
             "pv": "0.2.14",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:39+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3662,7 +3662,7 @@
             "pv": "0.21.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:39+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3681,7 +3681,7 @@
             "pv": "2.0.27",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:39+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3700,7 +3700,7 @@
             "pv": "1.1.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:39+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3719,7 +3719,7 @@
             "pv": "0.2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:39+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3738,7 +3738,7 @@
             "pv": "1.1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:39+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3757,7 +3757,7 @@
             "pv": "0.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:39+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3776,7 +3776,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:40+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3814,7 +3814,7 @@
             "pv": "1.7.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:40+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3833,7 +3833,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:40+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3852,7 +3852,7 @@
             "pv": "0.1.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:40+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3871,7 +3871,7 @@
             "pv": "1.2.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:40+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3890,7 +3890,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:40+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3909,7 +3909,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:40+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3928,7 +3928,7 @@
             "pv": "0.1.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:41+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3947,7 +3947,7 @@
             "pv": "1.1.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:41+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3966,7 +3966,7 @@
             "pv": "0.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:41+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3985,7 +3985,7 @@
             "pv": "0.0.22",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:41+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4004,7 +4004,7 @@
             "pv": "2.1.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:41+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4023,7 +4023,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:41+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4042,7 +4042,7 @@
             "pv": "3.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:41+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4061,7 +4061,7 @@
             "pv": "0.2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:42+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4080,7 +4080,7 @@
             "pv": "1.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:42+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4118,7 +4118,7 @@
             "pv": "2.0.16",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:42+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4137,7 +4137,7 @@
             "pv": "1.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:42+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4156,7 +4156,7 @@
             "pv": "0.1.8",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:42+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4175,7 +4175,7 @@
             "pv": "0.0.14",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:42+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4194,7 +4194,7 @@
             "pv": "1.1.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:42+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4213,7 +4213,7 @@
             "pv": "0.2.14",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:43+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4232,7 +4232,7 @@
             "pv": "0.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:43+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4251,7 +4251,7 @@
             "pv": "0.30.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:43+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4270,7 +4270,7 @@
             "pv": "3.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:43+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4308,7 +4308,7 @@
             "pv": "0.1.13",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:43+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4346,7 +4346,7 @@
             "pv": "2.0.27",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:43+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4365,7 +4365,7 @@
             "pv": "0.21.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:44+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4384,7 +4384,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:44+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4403,7 +4403,7 @@
             "pv": "3.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:44+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4422,7 +4422,7 @@
             "pv": "0.0.15",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:44+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4441,7 +4441,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:44+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4460,7 +4460,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:45+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4479,7 +4479,7 @@
             "pv": "0.1.24",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:45+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4498,7 +4498,7 @@
             "pv": "0.1.21",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:45+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4517,7 +4517,7 @@
             "pv": "3.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:45+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4536,7 +4536,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:45+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4555,7 +4555,7 @@
             "pv": "5.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:45+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4574,7 +4574,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:45+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4593,7 +4593,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:45+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4612,7 +4612,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:46+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4631,7 +4631,7 @@
             "pv": "4.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:46+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4650,7 +4650,7 @@
             "pv": "0.1.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:46+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4669,7 +4669,7 @@
             "pv": "0.1.8",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:46+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4688,7 +4688,7 @@
             "pv": "0.30.0rc6",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:46+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4707,7 +4707,7 @@
             "pv": "0.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:46+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4726,7 +4726,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:46+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4745,7 +4745,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:46+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4764,7 +4764,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:47+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4783,7 +4783,7 @@
             "pv": "1.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:47+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4802,7 +4802,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:47+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4821,7 +4821,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:47+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4840,7 +4840,7 @@
             "pv": "2.1.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:47+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4878,7 +4878,7 @@
             "pv": "0.1.21",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:47+0000"
+            "updated": "2018-12-17T17:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -4897,7 +4897,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:47+0000"
+            "updated": "2018-12-17T17:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -4916,7 +4916,7 @@
             "pv": "0.4.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:48+0000"
+            "updated": "2018-12-17T17:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -4935,7 +4935,7 @@
             "pv": "0.0.22",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:48+0000"
+            "updated": "2018-12-17T17:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -4954,7 +4954,7 @@
             "pv": "0.0.22",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:48+0000"
+            "updated": "2018-12-17T17:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -4992,7 +4992,7 @@
             "pv": "0.3.25",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:48+0000"
+            "updated": "2018-12-17T17:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -5011,7 +5011,7 @@
             "pv": "0.1.21",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:48+0000"
+            "updated": "2018-12-17T17:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -5030,7 +5030,7 @@
             "pv": "0.30.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:48+0000"
+            "updated": "2018-12-17T17:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -5049,7 +5049,7 @@
             "pv": "2.0.32",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:49+0000"
+            "updated": "2018-12-17T17:12:08+0000"
         },
         {
             "bbclassextend": "",
@@ -5068,7 +5068,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:49+0000"
+            "updated": "2018-12-17T17:12:08+0000"
         },
         {
             "bbclassextend": "",
@@ -5087,7 +5087,7 @@
             "pv": "0.30.0rc6",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:49+0000"
+            "updated": "2018-12-17T17:12:08+0000"
         },
         {
             "bbclassextend": "",
@@ -5106,7 +5106,7 @@
             "pv": "2.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:49+0000"
+            "updated": "2018-12-17T17:12:08+0000"
         },
         {
             "bbclassextend": "",
@@ -5144,7 +5144,7 @@
             "pv": "3.2.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:49+0000"
+            "updated": "2018-12-17T17:12:08+0000"
         },
         {
             "bbclassextend": "",
@@ -5163,7 +5163,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:49+0000"
+            "updated": "2018-12-17T17:12:08+0000"
         },
         {
             "bbclassextend": "",
@@ -5182,7 +5182,7 @@
             "pv": "1.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:50+0000"
+            "updated": "2018-12-17T17:12:08+0000"
         },
         {
             "bbclassextend": "",
@@ -5201,7 +5201,7 @@
             "pv": "0.9.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:50+0000"
+            "updated": "2018-12-17T17:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5220,7 +5220,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:50+0000"
+            "updated": "2018-12-17T17:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5239,7 +5239,7 @@
             "pv": "0.34.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:50+0000"
+            "updated": "2018-12-17T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5258,7 +5258,7 @@
             "pv": "3.0.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:50+0000"
+            "updated": "2018-12-17T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5277,7 +5277,7 @@
             "pv": "0.1.21",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:50+0000"
+            "updated": "2018-12-17T17:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5296,7 +5296,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:50+0000"
+            "updated": "2018-12-17T17:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5315,7 +5315,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:51+0000"
+            "updated": "2018-12-17T17:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5334,7 +5334,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:51+0000"
+            "updated": "2018-12-17T17:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5353,7 +5353,7 @@
             "pv": "0.5.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:51+0000"
+            "updated": "2018-12-17T17:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5372,7 +5372,7 @@
             "pv": "0.0.22",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:51+0000"
+            "updated": "2018-12-17T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5391,7 +5391,7 @@
             "pv": "0.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:51+0000"
+            "updated": "2018-12-17T17:12:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5410,7 +5410,7 @@
             "pv": "2.0.35",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:51+0000"
+            "updated": "2018-12-17T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5429,7 +5429,7 @@
             "pv": "1.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:51+0000"
+            "updated": "2018-12-17T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5448,7 +5448,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-17T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5467,7 +5467,7 @@
             "pv": "1.2.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-17T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5486,7 +5486,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-17T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5505,7 +5505,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-17T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5524,7 +5524,7 @@
             "pv": "0.5.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-17T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5543,7 +5543,7 @@
             "pv": "2.0.27",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-17T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5562,7 +5562,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-17T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5581,7 +5581,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:52+0000"
+            "updated": "2018-12-17T17:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5600,7 +5600,7 @@
             "pv": "0.2.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-17T17:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5619,7 +5619,7 @@
             "pv": "0.30.0rc6",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-17T17:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5638,7 +5638,7 @@
             "pv": "0.40.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-17T17:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5657,7 +5657,7 @@
             "pv": "2.0.38",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-17T17:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5676,7 +5676,7 @@
             "pv": "0.9.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-17T17:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5695,7 +5695,7 @@
             "pv": "4.1.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-17T17:12:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5714,7 +5714,7 @@
             "pv": "0.5.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-17T17:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5733,7 +5733,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2018-12-17T17:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5752,7 +5752,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:54+0000"
+            "updated": "2018-12-17T17:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5771,7 +5771,7 @@
             "pv": "1.7.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:54+0000"
+            "updated": "2018-12-17T17:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5790,7 +5790,7 @@
             "pv": "0.3.25",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:54+0000"
+            "updated": "2018-12-17T17:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5809,7 +5809,7 @@
             "pv": "0.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:54+0000"
+            "updated": "2018-12-17T17:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5828,7 +5828,7 @@
             "pv": "0.50.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:54+0000"
+            "updated": "2018-12-17T17:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5866,7 +5866,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:54+0000"
+            "updated": "2018-12-17T17:12:13+0000"
         },
         {
             "bbclassextend": "",
@@ -5885,7 +5885,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:54+0000"
+            "updated": "2018-12-17T17:12:13+0000"
         },
         {
             "bbclassextend": "",
@@ -5904,7 +5904,7 @@
             "pv": "2.0.35",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:55+0000"
+            "updated": "2018-12-17T17:12:13+0000"
         },
         {
             "bbclassextend": "",
@@ -5923,7 +5923,7 @@
             "pv": "0.2.11",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:55+0000"
+            "updated": "2018-12-17T17:12:13+0000"
         },
         {
             "bbclassextend": "",
@@ -5942,7 +5942,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:55+0000"
+            "updated": "2018-12-17T17:12:13+0000"
         },
         {
             "bbclassextend": "",
@@ -5961,7 +5961,7 @@
             "pv": "4.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:55+0000"
+            "updated": "2018-12-17T17:12:13+0000"
         },
         {
             "bbclassextend": "",
@@ -5980,7 +5980,7 @@
             "pv": "0.35.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:55+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -5999,7 +5999,7 @@
             "pv": "2.0.38",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:55+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -6037,7 +6037,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:56+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -6056,7 +6056,7 @@
             "pv": "0.50.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:56+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -6075,7 +6075,7 @@
             "pv": "0.40.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:56+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -6094,7 +6094,7 @@
             "pv": "2.0.26",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:56+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -6113,7 +6113,7 @@
             "pv": "0.1.13",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:56+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -6132,7 +6132,7 @@
             "pv": "2.0.38",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:14+0000"
         },
         {
             "bbclassextend": "",
@@ -6151,7 +6151,7 @@
             "pv": "2.1.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6170,7 +6170,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6189,7 +6189,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6208,7 +6208,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6227,7 +6227,7 @@
             "pv": "2.0.27",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6246,7 +6246,7 @@
             "pv": "0.2.11",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6265,7 +6265,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6284,7 +6284,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:57+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -6303,7 +6303,7 @@
             "pv": "2.0.26",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:58+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -6322,7 +6322,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:58+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -6341,7 +6341,7 @@
             "pv": "2.0.27",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:58+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -6360,7 +6360,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:58+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -6379,7 +6379,7 @@
             "pv": "0.5.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:58+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -6417,7 +6417,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:58+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -6436,7 +6436,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:58+0000"
+            "updated": "2018-12-17T17:12:16+0000"
         },
         {
             "bbclassextend": "",
@@ -6455,7 +6455,7 @@
             "pv": "0.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:59+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -6474,7 +6474,7 @@
             "pv": "1.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:59+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -6493,7 +6493,7 @@
             "pv": "1.0.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:59+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -6512,7 +6512,7 @@
             "pv": "5.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:59+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -6531,7 +6531,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:59+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -6569,7 +6569,7 @@
             "pv": "0.3.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:59+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -6588,7 +6588,7 @@
             "pv": "2.0.27",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:59+0000"
+            "updated": "2018-12-17T17:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -6607,7 +6607,7 @@
             "pv": "2.0.23",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:00+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6626,7 +6626,7 @@
             "pv": "0.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:00+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6645,7 +6645,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:00+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6664,7 +6664,7 @@
             "pv": "0.0.15",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:00+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6683,7 +6683,7 @@
             "pv": "0.50.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:00+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6702,7 +6702,7 @@
             "pv": "2.0.35",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:00+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6721,7 +6721,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:00+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6740,7 +6740,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:00+0000"
+            "updated": "2018-12-17T17:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6759,7 +6759,7 @@
             "pv": "1.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:01+0000"
+            "updated": "2018-12-17T17:12:19+0000"
         },
         {
             "bbclassextend": "",
@@ -6778,7 +6778,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:01+0000"
+            "updated": "2018-12-17T17:12:19+0000"
         },
         {
             "bbclassextend": "",
@@ -6797,7 +6797,7 @@
             "pv": "2.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:01+0000"
+            "updated": "2018-12-17T17:12:19+0000"
         },
         {
             "bbclassextend": "",
@@ -6816,7 +6816,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:01+0000"
+            "updated": "2018-12-17T17:12:19+0000"
         },
         {
             "bbclassextend": "",
@@ -6835,7 +6835,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:01+0000"
+            "updated": "2018-12-17T17:12:19+0000"
         },
         {
             "bbclassextend": "",
@@ -6854,7 +6854,7 @@
             "pv": "0.20.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:01+0000"
+            "updated": "2018-12-17T17:12:19+0000"
         },
         {
             "bbclassextend": "",
@@ -6873,7 +6873,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:01+0000"
+            "updated": "2018-12-17T17:12:19+0000"
         },
         {
             "bbclassextend": "",
@@ -6892,7 +6892,7 @@
             "pv": "0.2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:02+0000"
+            "updated": "2018-12-17T17:12:20+0000"
         },
         {
             "bbclassextend": "",
@@ -6911,7 +6911,7 @@
             "pv": "0.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:02+0000"
+            "updated": "2018-12-17T17:12:20+0000"
         },
         {
             "bbclassextend": "",
@@ -6930,7 +6930,7 @@
             "pv": "0.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:02+0000"
+            "updated": "2018-12-17T17:12:20+0000"
         },
         {
             "bbclassextend": "",
@@ -6987,7 +6987,7 @@
             "pv": "1.0.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:02+0000"
+            "updated": "2018-12-17T17:12:20+0000"
         },
         {
             "bbclassextend": "",
@@ -7006,7 +7006,7 @@
             "pv": "0.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:03+0000"
+            "updated": "2018-12-17T17:12:20+0000"
         },
         {
             "bbclassextend": "",
@@ -7025,7 +7025,7 @@
             "pv": "0.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:03+0000"
+            "updated": "2018-12-17T17:12:20+0000"
         },
         {
             "bbclassextend": "",
@@ -7044,7 +7044,7 @@
             "pv": "0.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:03+0000"
+            "updated": "2018-12-17T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7063,7 +7063,7 @@
             "pv": "1.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:03+0000"
+            "updated": "2018-12-17T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7082,7 +7082,7 @@
             "pv": "0.0.22",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:03+0000"
+            "updated": "2018-12-17T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7101,7 +7101,7 @@
             "pv": "0.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:03+0000"
+            "updated": "2018-12-17T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7120,7 +7120,7 @@
             "pv": "0.1.8",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:03+0000"
+            "updated": "2018-12-17T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7139,7 +7139,7 @@
             "pv": "0.34.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:04+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -7158,7 +7158,7 @@
             "pv": "0.20.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:04+0000"
+            "updated": "2018-12-17T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7177,7 +7177,7 @@
             "pv": "3.2.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:04+0000"
+            "updated": "2018-12-17T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7196,7 +7196,7 @@
             "pv": "0.30.0rc6",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:04+0000"
+            "updated": "2018-12-17T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7215,7 +7215,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:04+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7241,57 +7241,57 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packages for Amazon Web Services.",
-            "filename": "packagegroup-cloud-aws_0.13.bb",
+            "filename": "packagegroup-cloud-aws_0.14.bb",
             "filepath": "recipes-core/packagegroups",
             "homepage": "",
             "id": 724880,
-            "inherits": "allarch packagegroup python-dir",
+            "inherits": "allarch packagegroup",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "packagegroup-cloud-aws",
             "provides": "packagegroup-cloud-aws ",
-            "pv": "0.13",
+            "pv": "0.14",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:05+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packages for IBM Cloud & Watson platforms.",
-            "filename": "packagegroup-cloud-ibm_0.7.bb",
+            "filename": "packagegroup-cloud-ibm_0.8.bb",
             "filepath": "recipes-core/packagegroups",
             "homepage": "",
             "id": 724881,
-            "inherits": "allarch packagegroup python-dir",
+            "inherits": "allarch packagegroup",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "packagegroup-cloud-ibm",
             "provides": "packagegroup-cloud-ibm ",
-            "pv": "0.7",
+            "pv": "0.8",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:06+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packages for Microsoft Azure IoT.",
-            "filename": "packagegroup-cloud-azure_0.16.bb",
+            "filename": "packagegroup-cloud-azure_0.17.bb",
             "filepath": "recipes-core/packagegroups",
             "homepage": "",
             "id": 724882,
-            "inherits": "allarch packagegroup python-dir",
+            "inherits": "allarch packagegroup",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "packagegroup-cloud-azure",
             "provides": "packagegroup-cloud-azure ",
-            "pv": "0.16",
+            "pv": "0.17",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:05+0000"
+            "updated": "2018-12-17T17:12:49+0000"
         },
         {
             "bbclassextend": "",

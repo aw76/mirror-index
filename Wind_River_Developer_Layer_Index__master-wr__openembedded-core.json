@@ -59,14 +59,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20181210",
+            "bitbake_branch": "wr-10.19-20181217",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-12-11T01:12:21+0000",
+            "updated": "2018-12-17T17:12:41+0000",
             "updates_enabled": true
         }
     ],
@@ -81,15 +81,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181210",
+            "actual_branch": "wr-10.19-20181217",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-13T23:12:41+0000",
-            "vcs_last_commit": "2018-12-13T23:12:41+0000",
-            "vcs_last_fetch": "2018-12-13T23:12:41+0000",
-            "vcs_last_rev": "dfe90fd514b8b6a18c288b8836f68f1f7720065f",
+            "updated": "2018-12-17T00:12:05+0000",
+            "vcs_last_commit": "2018-12-17T00:12:05+0000",
+            "vcs_last_fetch": "2018-12-17T00:12:05+0000",
+            "vcs_last_rev": "c6e3fa1e64c9e6dc736170cda195e14a0a430c1c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -2130,7 +2130,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "cross-platform C library to defer selection of GL API and of window system",
-            "updated": "2018-12-11T01:12:06+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2648,7 +2648,7 @@
         {
             "bbclassextend": "",
             "blacklisted": "",
-            "bugtracker": "https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers",
+            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Loader",
             "description": "Vulkan is a new generation graphics and compute API that provides efficient access to modern GPUs. These packages provide only the common vendor-agnostic library loader, headers and the vulkaninfo utility.",
             "filename": "vulkan_1.1.73.0.bb",
             "filepath": "recipes-graphics/vulkan",
@@ -2662,7 +2662,7 @@
             "pv": "1.1.73.0",
             "section": "libs",
             "summary": "3D graphics and compute API common loader",
-            "updated": "2018-12-11T01:12:08+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2681,7 +2681,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:08+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2700,7 +2700,7 @@
             "pv": "4.1.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-12-11T01:12:09+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2719,7 +2719,7 @@
             "pv": "1.0+gitrX",
             "section": "base",
             "summary": "OpenGL driver testing framework",
-            "updated": "2018-12-11T01:12:15+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -2909,7 +2909,7 @@
             "pv": "2.0.0",
             "section": "base",
             "summary": "Hardware accelerated JPEG compression/decompression library",
-            "updated": "2018-12-11T01:12:11+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3346,7 +3346,7 @@
             "pv": "1.0.2q",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-12-11T01:12:09+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3365,7 +3365,7 @@
             "pv": "1.1.1a",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-12-11T01:12:09+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3650,7 +3650,7 @@
             "pv": "4.18",
             "section": "devel",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2018-10-11T00:10:44+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "",
@@ -4258,7 +4258,7 @@
             "pv": "2.0.0",
             "section": "libs",
             "summary": "iCal and scheduling (RFC 2445, 2446, 2447) library",
-            "updated": "2018-12-11T01:12:27+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4524,7 +4524,7 @@
             "pv": "1.11.1",
             "section": "libs/multimedia",
             "summary": "Library for reading and editing the meta-data of popular audio formats",
-            "updated": "2018-12-11T01:12:29+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4581,7 +4581,7 @@
             "pv": "7.62.0",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2018-12-11T01:12:29+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -4809,7 +4809,7 @@
             "pv": "0.4.15",
             "section": "libs",
             "summary": "Library providing automatic proxy configuration management",
-            "updated": "2018-12-11T01:12:31+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4930,7 +4930,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
             "description": "",
-            "filename": "libsoup-2.4_2.62.3.bb",
+            "filename": "libsoup-2.4_2.64.2.bb",
             "filepath": "recipes-support/libsoup",
             "homepage": "https://wiki.gnome.org/Projects/libsoup",
             "id": 722536,
@@ -4939,10 +4939,10 @@
             "license": "LGPLv2",
             "pn": "libsoup-2.4",
             "provides": "libsoup-2.4 ",
-            "pv": "2.62.3",
+            "pv": "2.64.2",
             "section": "x11/gnome/libs",
             "summary": "An HTTP library implementation in C",
-            "updated": "2018-12-11T01:12:32+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -5094,7 +5094,7 @@
             "pv": "1.16",
             "section": "libs",
             "summary": "Library for parsing command line options",
-            "updated": "2018-11-27T18:11:13+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6747,7 +6747,7 @@
             "pv": "1.20",
             "section": "console/utils",
             "summary": "Lossless data compressor based on the LZMA algorithm",
-            "updated": "2018-10-23T03:10:26+0000"
+            "updated": "2018-12-17T17:12:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -7336,7 +7336,7 @@
             "pv": "20180926",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2018-11-27T18:11:03+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -8077,7 +8077,7 @@
             "pv": "0.7.1",
             "section": "devel",
             "summary": "Library for solving packages and reading repositories",
-            "updated": "2018-12-11T01:12:49+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8875,7 +8875,7 @@
             "pv": "6.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-12-11T01:12:53+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8916,25 +8916,6 @@
             "updated": "2018-11-27T18:11:46+0000"
         },
         {
-            "bbclassextend": "nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "libgfortran_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722746,
-            "inherits": "autotools gettext siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "libgfortran",
-            "provides": "libgfortran ",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:46+0000"
-        },
-        {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
@@ -8951,7 +8932,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:46+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8970,7 +8951,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:47+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8989,45 +8970,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:47+0000"
-        },
-        {
-            "bbclassextend": "nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722750,
-            "inherits": "autotools gettext siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc",
-            "provides": "gcc ",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:47+0000"
-        },
-        {
-            "bbclassextend": "nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "libgcc-initial_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722751,
-            "inherits": "autotools gettext nopackages siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception",
-            "pn": "libgcc-initial",
-            "provides": "libgcc-initial ",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:47+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -9046,64 +8989,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:47+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-cross_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722753,
-            "inherits": "autotools cross gettext nopackages relocatable siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-cross-i586",
-            "provides": "gcc-cross-i586 virtual/i586-oe-linux-gcc virtual/i586-oe-linux-g++",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:48+0000"
-        },
-        {
-            "bbclassextend": "nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-sanitizers_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722754,
-            "inherits": "autotools gettext siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "NCSA | MIT",
-            "pn": "gcc-sanitizers",
-            "provides": "gcc-sanitizers ",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:48+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-crosssdk_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722755,
-            "inherits": "autotools cross crosssdk gettext nopackages relocatable siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-crosssdk-x86_64-oesdk-linux",
-            "provides": "gcc-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-gcc-crosssdk virtual/x86_64-oesdk-linux-g++-crosssdk",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:48+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -9122,7 +9008,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:48+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9141,7 +9027,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:49+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -9160,64 +9046,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i586 target)",
-            "updated": "2018-11-27T18:11:49+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-cross-canadian_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722759,
-            "inherits": "autotools cross-canadian gettext siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-cross-canadian-i586",
-            "provides": "gcc-cross-canadian-i586 ",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers (cross-canadian for i586 target)",
-            "updated": "2018-11-27T18:11:49+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-source_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722760,
-            "inherits": "autotools gettext nopackages siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-source-7.3.0",
-            "provides": "gcc-source-7.3.0 ",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:49+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-crosssdk-initial_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722761,
-            "inherits": "autotools cross crosssdk gettext nopackages relocatable siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-crosssdk-initial-x86_64-oesdk-linux",
-            "provides": "gcc-crosssdk-initial-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-gcc-initial-crosssdk",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:49+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9236,7 +9065,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2018-11-27T18:11:50+0000"
+            "updated": "2018-12-17T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -9255,45 +9084,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:50+0000"
-        },
-        {
-            "bbclassextend": "nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-runtime_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722764,
-            "inherits": "autotools gettext siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception",
-            "pn": "gcc-runtime",
-            "provides": "gcc-runtime virtual/i586-oe-linux-compilerlibs",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "Runtime libraries from GCC",
-            "updated": "2018-11-27T18:11:50+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-cross-initial_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722765,
-            "inherits": "autotools cross gettext nopackages relocatable siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-cross-initial-i586",
-            "provides": "gcc-cross-initial-i586 virtual/i586-oe-linux-gcc-initial",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:50+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -9312,26 +9103,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:50+0000"
-        },
-        {
-            "bbclassextend": "nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "libgcc_7.3.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722767,
-            "inherits": "autotools gettext siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "libgcc",
-            "provides": "libgcc ",
-            "pv": "7.3.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:51+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9350,7 +9122,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:51+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9369,7 +9141,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-11-27T18:11:51+0000"
+            "updated": "2018-12-17T17:12:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9654,7 +9426,7 @@
             "pv": "1.9.2",
             "section": "base",
             "summary": " A library providing C and Python (libcURL like) API for downloading linux repository metadata and packages.",
-            "updated": "2018-12-11T01:12:55+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10281,7 +10053,7 @@
             "pv": "3.5.6",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-12-11T01:12:12+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -10775,7 +10547,7 @@
             "pv": "0.11.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:57+0000"
+            "updated": "2018-12-17T17:12:00+0000"
         },
         {
             "bbclassextend": "native",
@@ -11022,7 +10794,7 @@
             "pv": "4.0.9",
             "section": "base",
             "summary": "Package manager forked from Yum, using libsolv as a dependency resolver",
-            "updated": "2018-12-11T01:12:59+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -11181,19 +10953,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Error package provides two interfaces. Firstly Error provides a procedural interface to exception handling. Secondly Error is a base class for errors/exceptions that can either be thrown, for subsequent catch, or can simply be recorded.",
-            "filename": "liberror-perl_0.17026.bb",
+            "filename": "liberror-perl_0.17027.bb",
             "filepath": "recipes-devtools/perl",
-            "homepage": "",
+            "homepage": "https://bitbucket.org/shlomif/perl-error.pm",
             "id": 722865,
             "inherits": "cpan cpan-base perl-version perlnative ptest ptest-perl",
             "layerbranch": 14953,
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "liberror-perl",
             "provides": "liberror-perl ",
-            "pv": "0.17026",
+            "pv": "0.17027",
             "section": "libs",
             "summary": "Error - Error/exception handling in an OO-ish way",
-            "updated": "2018-12-11T01:12:00+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -11326,7 +11098,7 @@
             "pv": "0.22.3",
             "section": "base",
             "summary": "Library providing simplified C and Python API to libsolv",
-            "updated": "2018-12-11T01:12:02+0000"
+            "updated": "2018-12-17T17:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -11402,7 +11174,7 @@
             "pv": "0.1.8+gitX",
             "section": "base",
             "summary": "Libcomps is alternative for yum.comps library (which is for managing rpm package groups).",
-            "updated": "2018-12-11T01:12:03+0000"
+            "updated": "2018-12-17T17:12:02+0000"
         },
         {
             "bbclassextend": "",
@@ -11440,7 +11212,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "QEMU wrapper script",
-            "updated": "2018-10-23T03:10:53+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "",
@@ -11466,7 +11238,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "qemu_3.0.0.bb",
+            "filename": "qemu_3.1.0.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
             "id": 722880,
@@ -11475,10 +11247,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "qemu",
             "provides": "qemu ",
-            "pv": "3.0.0",
+            "pv": "3.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2018-12-11T01:12:03+0000"
+            "updated": "2018-12-17T17:12:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11796,12 +11568,12 @@
             "inherits": "cross crosssdk goarch nopackages relocatable",
             "layerbranch": 14953,
             "license": "BSD-3-Clause",
-            "pn": "go-crosssdk-x86_64",
-            "provides": "go-crosssdk-x86_64 virtual/x86_64-oesdk-linux-go-crosssdk",
+            "pn": "go-crosssdk-x86_64-oesdk-linux",
+            "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-11-27T18:11:11+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11948,12 +11720,12 @@
             "inherits": "cross crosssdk goarch nopackages relocatable",
             "layerbranch": 14953,
             "license": "BSD-3-Clause",
-            "pn": "go-crosssdk-x86_64",
-            "provides": "go-crosssdk-x86_64 virtual/x86_64-oesdk-linux-go-crosssdk",
+            "pn": "go-crosssdk-x86_64-oesdk-linux",
+            "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
             "pv": "1.11.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-11-27T18:11:12+0000"
+            "updated": "2018-12-17T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -12124,7 +11896,7 @@
             "pv": "3.12.2",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2018-12-11T01:12:07+0000"
+            "updated": "2018-12-17T17:12:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -12846,7 +12618,7 @@
             "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-12-11T01:12:19+0000"
+            "updated": "2018-12-17T17:12:56+0000"
         },
         {
             "bbclassextend": "",
@@ -13226,7 +12998,7 @@
             "pv": "1.1.20+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2018-12-11T01:12:10+0000"
+            "updated": "2018-12-17T17:12:55+0000"
         },
         {
             "bbclassextend": "",
@@ -14841,7 +14613,7 @@
             "pv": "2.22.4",
             "section": "base",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2018-12-11T01:12:33+0000"
+            "updated": "2018-12-17T17:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -15203,6 +14975,25 @@
             "section": "base",
             "summary": "Hardware RNG based on CPU timing jitter",
             "updated": "2018-11-27T18:11:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libpsl_0.20.2.bb",
+            "filepath": "recipes-support/libpsl",
+            "homepage": "",
+            "id": 891204,
+            "inherits": "autotools gettext gtk-doc lib_package manpages pkgconfig python3-dir python3native qemu siteconfig siteinfo",
+            "layerbranch": 14953,
+            "license": "MIT",
+            "pn": "libpsl",
+            "provides": "libpsl ",
+            "pv": "0.20.2",
+            "section": "base",
+            "summary": "Public Suffix List library",
+            "updated": "2018-12-17T17:12:07+0000"
         }
     ],
     "wrtemplates": []
