@@ -86,10 +86,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-19T00:12:54+0000",
-            "vcs_last_commit": "2018-12-19T00:12:54+0000",
-            "vcs_last_fetch": "2018-12-19T00:12:54+0000",
-            "vcs_last_rev": "486bda40c85a0a93482d1e8d0ec9c51e29424ec1",
+            "updated": "2018-12-23T23:12:52+0000",
+            "vcs_last_commit": "2018-12-23T23:12:52+0000",
+            "vcs_last_fetch": "2018-12-23T23:12:52+0000",
+            "vcs_last_rev": "19c616b705dacfe278781d3a6e77d08c910a660b",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -8916,25 +8916,6 @@
             "updated": "2018-11-27T18:11:46+0000"
         },
         {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-cross-initial_8.2.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722747,
-            "inherits": "autotools cross gettext nopackages relocatable siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-cross-initial-i586",
-            "provides": "gcc-cross-initial-i586 virtual/i586-oe-linux-gcc-initial",
-            "pv": "8.2.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:02+0000"
-        },
-        {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
@@ -8951,7 +8932,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:02+0000"
+            "updated": "2018-12-23T23:12:24+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8970,7 +8951,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:02+0000"
+            "updated": "2018-12-23T23:12:25+0000"
         },
         {
             "bbclassextend": "",
@@ -8989,7 +8970,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:02+0000"
+            "updated": "2018-12-23T23:12:25+0000"
         },
         {
             "bbclassextend": "",
@@ -9008,7 +8989,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:03+0000"
+            "updated": "2018-12-23T23:12:25+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9027,7 +9008,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:03+0000"
+            "updated": "2018-12-23T23:12:25+0000"
         },
         {
             "bbclassextend": "",
@@ -9046,7 +9027,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i586 target)",
-            "updated": "2018-12-17T17:12:03+0000"
+            "updated": "2018-12-23T23:12:26+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9065,7 +9046,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2018-12-17T17:12:03+0000"
+            "updated": "2018-12-23T23:12:26+0000"
         },
         {
             "bbclassextend": "",
@@ -9084,26 +9065,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:04+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "gcc-crosssdk-initial_8.2.bb",
-            "filepath": "recipes-devtools/gcc",
-            "homepage": "http://www.gnu.org/software/gcc/",
-            "id": 722766,
-            "inherits": "autotools cross crosssdk gettext nopackages relocatable siteconfig siteinfo texinfo",
-            "layerbranch": 14953,
-            "license": "GPL-3.0-with-GCC-exception & GPLv3",
-            "pn": "gcc-crosssdk-initial-x86_64-oesdk-linux",
-            "provides": "gcc-crosssdk-initial-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-gcc-initial-crosssdk",
-            "pv": "8.2.0",
-            "section": "devel",
-            "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:04+0000"
+            "updated": "2018-12-23T23:12:27+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9122,7 +9084,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:04+0000"
+            "updated": "2018-12-23T23:12:27+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9141,7 +9103,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2018-12-17T17:12:04+0000"
+            "updated": "2018-12-23T23:12:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11402,7 +11364,7 @@
             "pv": "8.2",
             "section": "devel",
             "summary": "GNU debugger (cross-canadian gdb for i586 target)",
-            "updated": "2018-12-11T01:12:05+0000"
+            "updated": "2018-12-23T23:12:26+0000"
         },
         {
             "bbclassextend": "",
@@ -11649,7 +11611,7 @@
             "pv": "1.9.7",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-30T08:10:22+0000"
+            "updated": "2018-12-23T23:12:27+0000"
         },
         {
             "bbclassextend": "",
@@ -11744,7 +11706,7 @@
             "pv": "1.11.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-30T08:10:23+0000"
+            "updated": "2018-12-23T23:12:28+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12386,11 +12348,11 @@
             "layerbranch": 14953,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "glibc",
-            "provides": "glibc virtual/libc virtual/i586-oe-linux-libc-for-gcc virtual/libintl virtual/libiconv",
+            "provides": "glibc virtual/libc virtual/libintl virtual/libiconv",
             "pv": "2.28",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2018-12-11T01:12:10+0000"
+            "updated": "2018-12-23T23:12:28+0000"
         },
         {
             "bbclassextend": "",
@@ -12410,25 +12372,6 @@
             "section": "base",
             "summary": "mtrace utility provided by glibc",
             "updated": "2018-10-15T19:10:14+0000"
-        },
-        {
-            "bbclassextend": "nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
-            "filename": "glibc-initial_2.28.bb",
-            "filepath": "recipes-core/glibc",
-            "homepage": "http://www.gnu.org/software/libc/libc.html",
-            "id": 722943,
-            "inherits": "autotools distro_features_check libc-common linuxloader multilib_header nopackages siteconfig siteinfo systemd texinfo",
-            "layerbranch": 14953,
-            "license": "GPLv2 & LGPLv2.1",
-            "pn": "glibc-initial",
-            "provides": "glibc-initial virtual/i586-oe-linux-libc-initial",
-            "pv": "2.28",
-            "section": "libs",
-            "summary": "GLIBC (GNU C Library)",
-            "updated": "2018-12-11T01:12:17+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12960,7 +12903,7 @@
             "pv": "1.0",
             "section": "libs",
             "summary": "Minimal libssp_nonshared.a must needed for ssp to work with gcc on musl",
-            "updated": "2018-10-23T03:10:10+0000"
+            "updated": "2018-12-23T23:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -12994,11 +12937,11 @@
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "musl",
-            "provides": "musl  virtual/libc virtual/i586-oe-linux-libc-for-gcc virtual/libiconv virtual/libintl virtual/crypt",
+            "provides": "musl  virtual/libc virtual/libiconv virtual/libintl virtual/crypt",
             "pv": "1.1.20+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2018-12-17T17:12:55+0000"
+            "updated": "2018-12-23T23:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -13929,7 +13872,7 @@
             "pv": "3.0.0",
             "section": "libs",
             "summary": "Newlib is a C library intended for use on embedded systems",
-            "updated": "2018-10-23T03:10:18+0000"
+            "updated": "2018-12-23T23:12:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13944,11 +13887,11 @@
             "layerbranch": 14953,
             "license": "GPLv2 & LGPLv3 & GPLv3 & LGPLv2",
             "pn": "newlib",
-            "provides": "newlib  virtual/libc virtual/i586-oe-linux-libc-for-gcc virtual/libiconv virtual/libintl",
+            "provides": "newlib  virtual/libc virtual/libiconv virtual/libintl",
             "pv": "3.0.0",
             "section": "libs",
             "summary": "Newlib is a C library intended for use on embedded systems",
-            "updated": "2018-10-23T03:10:18+0000"
+            "updated": "2018-12-23T23:12:23+0000"
         },
         {
             "bbclassextend": "",
