@@ -76,20 +76,20 @@
             "id": 3545,
             "layerbranch": 14953,
             "name": "nodistro",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2018-12-25T17:12:41+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181217",
+            "actual_branch": "wr-10.19-20181225",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-23T23:12:52+0000",
-            "vcs_last_commit": "2018-12-23T23:12:52+0000",
-            "vcs_last_fetch": "2018-12-23T23:12:52+0000",
-            "vcs_last_rev": "19c616b705dacfe278781d3a6e77d08c910a660b",
+            "updated": "2018-12-25T18:12:25+0000",
+            "vcs_last_commit": "2018-12-25T18:12:25+0000",
+            "vcs_last_fetch": "2018-12-25T18:12:25+0000",
+            "vcs_last_rev": "02953768d8a40327eceda19458ad10adc5c02828",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -2080,7 +2080,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=HarfBuzz",
             "description": "HarfBuzz is an OpenType text shaping engine.",
-            "filename": "harfbuzz_2.1.3.bb",
+            "filename": "harfbuzz_2.2.0.bb",
             "filepath": "recipes-graphics/harfbuzz",
             "homepage": "http://www.freedesktop.org/wiki/Software/HarfBuzz",
             "id": 722386,
@@ -2089,10 +2089,10 @@
             "license": "MIT",
             "pn": "harfbuzz",
             "provides": "harfbuzz ",
-            "pv": "2.1.3",
+            "pv": "2.2.0",
             "section": "libs",
             "summary": "Text shaping library",
-            "updated": "2018-11-27T18:11:07+0000"
+            "updated": "2018-12-25T17:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2301,7 +2301,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2018-12-11T01:12:07+0000"
+            "updated": "2018-12-25T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2320,7 +2320,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2018-12-11T01:12:07+0000"
+            "updated": "2018-12-25T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2339,7 +2339,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:07+0000"
+            "updated": "2018-12-25T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -3555,7 +3555,7 @@
             "pv": "0.2+gitX",
             "section": "base",
             "summary": "Tools for managing Yocto Project style branched kernels",
-            "updated": "2018-10-23T03:10:10+0000"
+            "updated": "2018-12-25T17:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -3650,7 +3650,7 @@
             "pv": "4.18",
             "section": "devel",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2018-12-17T17:12:58+0000"
+            "updated": "2018-12-25T19:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3875,10 +3875,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.18.14+gitX",
+            "pv": "4.18.21+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-12-11T01:12:23+0000"
+            "updated": "2018-12-25T17:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -3897,14 +3897,14 @@
             "pv": "1.0",
             "section": "kernel",
             "summary": "Linux kernel Development Source",
-            "updated": "2018-11-27T18:11:01+0000"
+            "updated": "2018-12-25T17:12:43+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "linux-yocto-tiny_4.14.bb",
+            "filename": "linux-yocto-tiny_4.19.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 722482,
@@ -3913,10 +3913,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.14.76+gitX",
+            "pv": "4.19.8+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-12-11T01:12:23+0000"
+            "updated": "2018-12-25T17:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -3961,7 +3961,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "linux-yocto-rt_4.14.bb",
+            "filename": "linux-yocto-rt_4.19.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 722485,
@@ -3970,17 +3970,17 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.14.76+gitX",
+            "pv": "4.19.8+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-12-11T01:12:25+0000"
+            "updated": "2018-12-25T17:12:43+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "linux-yocto_4.14.bb",
+            "filename": "linux-yocto_4.19.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 722486,
@@ -3989,10 +3989,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.14.76+gitX",
+            "pv": "4.19.8+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-12-11T01:12:26+0000"
+            "updated": "2018-12-25T17:12:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4008,10 +4008,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.18.14+gitX",
+            "pv": "4.18.21+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-12-11T01:12:26+0000"
+            "updated": "2018-12-25T17:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -4027,10 +4027,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.18.14+gitX",
+            "pv": "4.18.21+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-12-11T01:12:26+0000"
+            "updated": "2018-12-25T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -4645,7 +4645,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "sqlite3_3.25.3.bb",
+            "filename": "sqlite3_3.26.0.bb",
             "filepath": "recipes-support/sqlite",
             "homepage": "http://www.sqlite.org",
             "id": 722521,
@@ -4654,10 +4654,10 @@
             "license": "PD",
             "pn": "sqlite3",
             "provides": "sqlite3 ",
-            "pv": "3.25.3",
+            "pv": "3.26.0",
             "section": "libs",
             "summary": "Embeddable SQL database engine",
-            "updated": "2018-11-27T18:11:20+0000"
+            "updated": "2018-12-25T17:12:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5576,7 +5576,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libatomic-ops_7.6.6.bb",
+            "filename": "libatomic-ops_7.6.8.bb",
             "filepath": "recipes-support/libatomic-ops",
             "homepage": "https://github.com/ivmai/libatomic_ops/",
             "id": 722570,
@@ -5585,10 +5585,10 @@
             "license": "GPLv2 & MIT",
             "pn": "libatomic-ops",
             "provides": "libatomic-ops  libatomics-ops",
-            "pv": "7.6.6+gitX",
+            "pv": "7.6.8",
             "section": "optional",
             "summary": "A library for atomic integer operations",
-            "updated": "2018-11-27T18:11:18+0000"
+            "updated": "2018-12-25T17:12:45+0000"
         },
         {
             "bbclassextend": "",
@@ -6051,7 +6051,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libpng_1.6.35.bb",
+            "filename": "libpng_1.6.36.bb",
             "filepath": "recipes-multimedia/libpng",
             "homepage": "http://www.libpng.org/",
             "id": 722595,
@@ -6060,10 +6060,10 @@
             "license": "Libpng",
             "pn": "libpng",
             "provides": "libpng ",
-            "pv": "1.6.35",
+            "pv": "1.6.36",
             "section": "libs",
             "summary": "PNG image format decoding library",
-            "updated": "2018-11-27T18:11:21+0000"
+            "updated": "2018-12-25T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -6348,7 +6348,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-12-11T01:12:40+0000"
+            "updated": "2018-12-25T17:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -6367,7 +6367,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-12-11T01:12:40+0000"
+            "updated": "2018-12-25T17:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -7488,7 +7488,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:45+0000"
+            "updated": "2018-12-25T17:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -7507,7 +7507,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-12-11T01:12:46+0000"
+            "updated": "2018-12-25T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -7526,7 +7526,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:46+0000"
+            "updated": "2018-12-25T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -7545,7 +7545,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:46+0000"
+            "updated": "2018-12-25T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -7564,7 +7564,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:46+0000"
+            "updated": "2018-12-25T17:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -7583,7 +7583,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:47+0000"
+            "updated": "2018-12-25T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -7602,7 +7602,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:47+0000"
+            "updated": "2018-12-25T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -9046,7 +9046,7 @@
             "pv": "8.2.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2018-12-23T23:12:26+0000"
+            "updated": "2018-12-25T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -9300,7 +9300,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "i2c-tools_4.0.bb",
+            "filename": "i2c-tools_4.1.bb",
             "filepath": "recipes-devtools/i2c-tools",
             "homepage": "https://i2c.wiki.kernel.org/index.php/I2C_Tools",
             "id": 722780,
@@ -9309,10 +9309,10 @@
             "license": "GPLv2+",
             "pn": "i2c-tools",
             "provides": "i2c-tools ",
-            "pv": "4.0",
+            "pv": "4.1",
             "section": "base",
             "summary": "Set of i2c tools for linux",
-            "updated": "2018-12-11T01:12:54+0000"
+            "updated": "2018-12-25T17:12:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11494,10 +11494,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-i586",
             "provides": "go-cross-i586 virtual/i586-go",
-            "pv": "1.11.1",
+            "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-11-27T18:11:10+0000"
+            "updated": "2018-12-25T17:12:49+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11513,10 +11513,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-runtime",
             "provides": "go-runtime virtual/i586-oe-linux-go-runtime",
-            "pv": "1.11.1",
+            "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-11-27T18:11:11+0000"
+            "updated": "2018-12-25T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -11627,10 +11627,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-native",
             "provides": "go-native ",
-            "pv": "1.11.1",
+            "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-10-30T08:10:22+0000"
+            "updated": "2018-12-25T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -11684,10 +11684,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-crosssdk-x86_64-oesdk-linux",
             "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.11.1",
+            "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-12-17T17:12:05+0000"
+            "updated": "2018-12-25T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -11703,10 +11703,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-canadian-i586",
             "provides": "go-cross-canadian-i586 ",
-            "pv": "1.11.1",
+            "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-12-23T23:12:28+0000"
+            "updated": "2018-12-25T17:12:49+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11722,10 +11722,10 @@
             "license": "BSD-3-Clause",
             "pn": "go",
             "provides": "go ",
-            "pv": "1.11.1",
+            "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2018-11-27T18:11:12+0000"
+            "updated": "2018-12-25T17:12:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -12283,7 +12283,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
             "description": "",
-            "filename": "gsettings-desktop-schemas_3.28.0.bb",
+            "filename": "gsettings-desktop-schemas_3.28.1.bb",
             "filepath": "recipes-gnome/gsettings-desktop-schemas",
             "homepage": "http://live.gnome.org/gsettings-desktop-schemas",
             "id": 722938,
@@ -12292,10 +12292,10 @@
             "license": "LGPLv2.1",
             "pn": "gsettings-desktop-schemas",
             "provides": "gsettings-desktop-schemas ",
-            "pv": "3.28.0",
+            "pv": "3.28.1",
             "section": "base",
             "summary": "GNOME desktop-wide GSettings schemas",
-            "updated": "2018-12-11T01:12:12+0000"
+            "updated": "2018-12-25T17:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -12561,7 +12561,7 @@
             "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-12-17T17:12:56+0000"
+            "updated": "2018-12-25T17:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -12701,7 +12701,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "eudev_3.2.5.bb",
+            "filename": "eudev_3.2.7.bb",
             "filepath": "recipes-core/udev",
             "homepage": "https://wiki.gentoo.org/wiki/Eudev",
             "id": 722961,
@@ -12710,17 +12710,17 @@
             "license": "GPLv2.0+ & LGPL-2.1+",
             "pn": "eudev",
             "provides": "eudev udev",
-            "pv": "3.2.5",
+            "pv": "3.2.7",
             "section": "base",
             "summary": "eudev is a fork of systemd's udev",
-            "updated": "2018-11-27T18:11:20+0000"
+            "updated": "2018-12-25T17:12:42+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Forked code from glibc libary to extract only crypto part.",
-            "filename": "libxcrypt_4.1.1.bb",
+            "filename": "libxcrypt_4.4.1.bb",
             "filepath": "recipes-core/libxcrypt",
             "homepage": "https://github.com/besser82/libxcrypt",
             "id": 722962,
@@ -12729,10 +12729,10 @@
             "license": "LGPLv2.1",
             "pn": "libxcrypt",
             "provides": "libxcrypt virtual/crypt",
-            "pv": "4.1.1",
+            "pv": "4.4.1",
             "section": "libs",
             "summary": "Extended cryptographic library (from glibc)",
-            "updated": "2018-11-27T18:11:21+0000"
+            "updated": "2018-12-25T17:12:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12808,7 +12808,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:21+0000"
+            "updated": "2018-12-25T17:12:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13359,7 +13359,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-12-11T01:12:24+0000"
+            "updated": "2018-12-25T17:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -13378,7 +13378,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:24+0000"
+            "updated": "2018-12-25T17:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -13397,7 +13397,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-12-11T01:12:24+0000"
+            "updated": "2018-12-25T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -13416,7 +13416,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2018-12-11T01:12:24+0000"
+            "updated": "2018-12-25T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -13435,7 +13435,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2018-12-11T01:12:25+0000"
+            "updated": "2018-12-25T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -13454,7 +13454,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:25+0000"
+            "updated": "2018-12-25T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -13473,7 +13473,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-12-11T01:12:25+0000"
+            "updated": "2018-12-25T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -14632,7 +14632,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:34+0000"
+            "updated": "2018-12-25T17:12:52+0000"
         },
         {
             "bbclassextend": "",
@@ -14651,7 +14651,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:35+0000"
+            "updated": "2018-12-25T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -14670,7 +14670,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:35+0000"
+            "updated": "2018-12-25T17:12:53+0000"
         },
         {
             "bbclassextend": "",
@@ -14689,7 +14689,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-11T01:12:35+0000"
+            "updated": "2018-12-25T17:12:53+0000"
         },
         {
             "bbclassextend": "",

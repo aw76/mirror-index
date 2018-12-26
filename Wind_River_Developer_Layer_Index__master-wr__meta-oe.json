@@ -73,29 +73,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181217",
+            "actual_branch": "wr-10.19-20181225",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-23T23:12:52+0000",
-            "vcs_last_commit": "2018-12-23T23:12:52+0000",
-            "vcs_last_fetch": "2018-12-23T23:12:52+0000",
-            "vcs_last_rev": "19c616b705dacfe278781d3a6e77d08c910a660b",
+            "updated": "2018-12-25T18:12:25+0000",
+            "vcs_last_commit": "2018-12-25T18:12:25+0000",
+            "vcs_last_fetch": "2018-12-25T18:12:25+0000",
+            "vcs_last_rev": "02953768d8a40327eceda19458ad10adc5c02828",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20181217",
+            "actual_branch": "wr-10.19-20181225",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-12-16T17:12:44+0000",
-            "vcs_last_commit": "2018-12-16T17:12:44+0000",
-            "vcs_last_fetch": "2018-12-16T17:12:44+0000",
-            "vcs_last_rev": "dcda3aee8afe8ddefd9c999564476bb22b3dee4e",
+            "updated": "2018-12-24T18:12:20+0000",
+            "vcs_last_commit": "2018-12-24T18:12:20+0000",
+            "vcs_last_fetch": "2018-12-24T18:12:20+0000",
+            "vcs_last_rev": "38b5946431f216be023c83e0794cabca7e6ddc7e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -2623,7 +2623,7 @@
             "pv": "1.8.2",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2018-12-03T18:12:33+0000"
+            "updated": "2018-12-25T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4492,7 +4492,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Boehm-Demers-Weiser conservative garbage collector can be used as a garbage collecting replacement for C malloc or C++ new. It allows you to allocate memory basically as you normally would, without explicitly deallocating memory that is no longer useful. The collector automatically recycles memory when it determines that it can no longer be otherwise accessed.  The collector is also used by a number of programming language implementations that either use C as intermediate code, want to facilitate easier interoperation with C libraries, or just prefer the simple collector interface.  Alternatively, the garbage collector may be used as a leak detector for C or C++ programs, though that is not its primary goal.  Empirically, this collector works with most unmodified C programs, simply by replacing malloc with GC_malloc calls, replacing realloc with GC_realloc calls, and removing free calls.",
-            "filename": "bdwgc_7.6.8.bb",
+            "filename": "bdwgc_7.6.10.bb",
             "filepath": "recipes-support/bdwgc",
             "homepage": "http://www.hboehm.info/gc/",
             "id": 723318,
@@ -4501,10 +4501,10 @@
             "license": "MIT",
             "pn": "bdwgc",
             "provides": "bdwgc ",
-            "pv": "7.6.8",
+            "pv": "7.6.10",
             "section": "devel",
             "summary": "A garbage collector for C and C++",
-            "updated": "2018-12-03T18:12:36+0000"
+            "updated": "2018-12-25T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4587,7 +4587,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A collection of software subroutines which are designed to be usable on many operating systems. The goal of the project is to make it easy for free software authors to make their software run on many operating systems. Since source is designed to be copied from gnulib, it is not a library per-se, as much as a collection of portable idioms to be used in other projects.",
-            "filename": "gnulib_2017-08-20.18.bb",
+            "filename": "gnulib_2018-03-07.03.bb",
             "filepath": "recipes-support/gnulib",
             "homepage": "http://www.gnu.org/software/gnulib/",
             "id": 723323,
@@ -4596,10 +4596,10 @@
             "license": "LGPLv2+",
             "pn": "gnulib",
             "provides": "gnulib ",
-            "pv": "2017-08-20.18",
+            "pv": "2018-03-07.03",
             "section": "devel",
             "summary": "The GNU portability library",
-            "updated": "2018-10-23T03:10:05+0000"
+            "updated": "2018-12-25T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -5841,19 +5841,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenSC is a tool for accessing smart card devices. Basicfunctionality (e.g. SELECT FILE, READ BINARY) should work on any ISO7816-4 compatible smart card. Encryption and decryption using privatekeys on the smart card is possible with PKCSsuch as the FINEID (Finnish Electronic IDentity) card. Swedish PosteneID cards have also been confirmed to work.",
-            "filename": "opensc_0.18.0.bb",
+            "filename": "opensc_0.19.0.bb",
             "filepath": "recipes-support/opensc",
             "homepage": "http://www.opensc-project.org/opensc/",
             "id": 723389,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools bash-completion pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPLv2+",
             "pn": "opensc",
             "provides": "opensc ",
-            "pv": "0.18.0",
+            "pv": "0.19.0",
             "section": "System Environment/Libraries",
             "summary": "Smart card library and applications",
-            "updated": "2018-11-27T18:11:30+0000"
+            "updated": "2018-12-25T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6328,7 +6328,7 @@
             "pv": "2.03.01",
             "section": "utils",
             "summary": "",
-            "updated": "2018-12-03T18:12:38+0000"
+            "updated": "2018-12-25T17:12:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6347,7 +6347,7 @@
             "pv": "2.03.01",
             "section": "utils",
             "summary": "",
-            "updated": "2018-12-03T18:12:38+0000"
+            "updated": "2018-12-25T17:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6510,7 +6510,7 @@
             "filepath": "recipes-support/cpprest",
             "homepage": "https://github.com/Microsoft/cpprestsdk/",
             "id": 723424,
-            "inherits": "cmake",
+            "inherits": "cmake pkgconfig",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "cpprest",
@@ -6518,7 +6518,7 @@
             "pv": "2.10.8",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-12-03T18:12:36+0000"
+            "updated": "2018-12-25T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7712,10 +7712,10 @@
             "license": "(Apache-2.0 | GPL-2.0) & BSD-3-Clause",
             "pn": "rocksdb",
             "provides": "rocksdb ",
-            "pv": "5.13.1",
+            "pv": "5.17.2",
             "section": "base",
             "summary": "RocksDB an embeddable, persistent key-value store",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2018-12-25T17:12:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -7874,19 +7874,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Google's framework for writing C++ tests",
-            "filename": "gtest_1.8.0.bb",
+            "filename": "gtest_1.8.1.bb",
             "filepath": "recipes-test/gtest",
-            "homepage": "https://github.com/google/googletest",
+            "homepage": "https://github.com/abseil/googletest",
             "id": 723496,
             "inherits": "cmake",
             "layerbranch": 14965,
             "license": "BSD-3-Clause",
             "pn": "gtest",
             "provides": "gtest  gmock",
-            "pv": "1.8.0",
+            "pv": "1.8.1",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2018-12-25T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -8045,7 +8045,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Libraries providing API for reporting different problems in applications to different bug targets like Bugzilla, ftp, trac, etc...",
-            "filename": "libreport_2.9.6.bb",
+            "filename": "libreport_2.9.7.bb",
             "filepath": "recipes-extended/libreport",
             "homepage": "https://abrt.readthedocs.org/",
             "id": 723505,
@@ -8054,10 +8054,10 @@
             "license": "GPLv2+",
             "pn": "libreport",
             "provides": "libreport ",
-            "pv": "2.9.6",
+            "pv": "2.9.7",
             "section": "base",
             "summary": "Generic library for reporting various problems",
-            "updated": "2018-12-03T18:12:35+0000"
+            "updated": "2018-12-25T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -9660,7 +9660,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "collectd is a daemon which collects system performance statistics periodically and provides mechanisms to store the values in a variety of ways, for example in RRD files.",
-            "filename": "collectd_5.8.0.bb",
+            "filename": "collectd_5.8.1.bb",
             "filepath": "recipes-extended/collectd",
             "homepage": "",
             "id": 723590,
@@ -9669,10 +9669,10 @@
             "license": "GPLv2 & MIT",
             "pn": "collectd",
             "provides": "collectd ",
-            "pv": "5.8.0",
+            "pv": "5.8.1",
             "section": "base",
             "summary": "Collects and summarises system performance statistics",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2018-12-25T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -10249,7 +10249,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "efivar provides a simple command line interface to the UEFI variable facility",
-            "filename": "efivar_36.bb",
+            "filename": "efivar_37.bb",
             "filepath": "recipes-bsp/efivar",
             "homepage": "https://github.com/rhinstaller/efivar",
             "id": 723621,
@@ -10258,10 +10258,10 @@
             "license": "LGPLv2.1",
             "pn": "efivar",
             "provides": "efivar ",
-            "pv": "36",
+            "pv": "37",
             "section": "base",
             "summary": "Tools to manipulate UEFI variables",
-            "updated": "2018-12-03T18:12:27+0000"
+            "updated": "2018-12-25T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -10299,7 +10299,7 @@
             "pv": "17",
             "section": "base",
             "summary": "EFI Boot Manager",
-            "updated": "2018-12-03T18:12:33+0000"
+            "updated": "2018-12-25T17:12:03+0000"
         },
         {
             "bbclassextend": "",
@@ -11256,7 +11256,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "flatbuffers_1.9.0.bb",
+            "filename": "flatbuffers_1.10.0.bb",
             "filepath": "recipes-devtools/flatbuffers",
             "homepage": "https://github.com/google/flatbuffers",
             "id": 723674,
@@ -11265,10 +11265,10 @@
             "license": "Apache-2.0",
             "pn": "flatbuffers",
             "provides": "flatbuffers ",
-            "pv": "1.9.0",
+            "pv": "1.10.0",
             "section": "console/tools",
             "summary": "Memory Efficient Serialization Library",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2018-12-25T17:12:04+0000"
         },
         {
             "bbclassextend": "",
@@ -12624,7 +12624,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later.",
-            "filename": "catch2_2.4.1.bb",
+            "filename": "catch2_2.5.0.bb",
             "filepath": "recipes-test/catch2",
             "homepage": "https://github.com/catchorg/Catch2",
             "id": 793647,
@@ -12633,10 +12633,10 @@
             "license": "BSL-1.0",
             "pn": "catch2",
             "provides": "catch2 ",
-            "pv": "2.4.1",
+            "pv": "2.5.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T03:10:07+0000"
+            "updated": "2018-12-25T17:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -12655,7 +12655,7 @@
             "pv": "0.0+gitX",
             "section": "base",
             "summary": "Small collection of benchmarks for storage I/O",
-            "updated": "2018-10-31T18:10:54+0000"
+            "updated": "2018-12-25T17:12:03+0000"
         },
         {
             "bbclassextend": "",
