@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20181217",
+            "bitbake_branch": "wr-10.19-20190107",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-12-17T17:12:41+0000",
+            "updated": "2019-01-06T23:01:01+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181225",
+            "actual_branch": "wr-10.19-20190107",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-25T18:12:25+0000",
-            "vcs_last_commit": "2018-12-25T18:12:25+0000",
-            "vcs_last_fetch": "2018-12-25T18:12:25+0000",
-            "vcs_last_rev": "02953768d8a40327eceda19458ad10adc5c02828",
+            "updated": "2019-01-06T18:01:08+0000",
+            "vcs_last_commit": "2019-01-06T18:01:08+0000",
+            "vcs_last_fetch": "2019-01-06T18:01:08+0000",
+            "vcs_last_rev": "70b1d0ee6eaeb918adaea4738396f1508d0a25ba",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20181225",
+            "actual_branch": "wr-10.19-20190107",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-12-24T18:12:20+0000",
-            "vcs_last_commit": "2018-12-24T18:12:20+0000",
-            "vcs_last_fetch": "2018-12-24T18:12:20+0000",
-            "vcs_last_rev": "38b5946431f216be023c83e0794cabca7e6ddc7e",
+            "updated": "2019-01-06T18:01:05+0000",
+            "vcs_last_commit": "2019-01-06T18:01:05+0000",
+            "vcs_last_fetch": "2019-01-06T18:01:05+0000",
+            "vcs_last_rev": "b34296359ae5b3054dd0771395e4f85ef9a9c990",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -1160,7 +1160,7 @@
             "pv": "0.1+gitrX",
             "section": "fonts",
             "summary": "Droid fonts - TTF Edition",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2019-01-02T17:01:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1863,7 +1863,7 @@
             "pv": "2.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-08T07:10:48+0000"
+            "updated": "2019-01-02T17:01:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -2623,7 +2623,7 @@
             "pv": "1.8.2",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2018-12-25T17:12:03+0000"
+            "updated": "2019-01-02T17:01:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3434,13 +3434,13 @@
             "id": 723262,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 14965,
-            "license": "GPLv2",
+            "license": "GPLv3+ & LGPLv3+",
             "pn": "srecord",
             "provides": "srecord ",
             "pv": "1.64",
             "section": "devel",
             "summary": "A collection of powerful tools for manipulating EPROM load files.",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2019-01-02T17:01:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3903,7 +3903,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "open-vm-tools_10.3.0.bb",
+            "filename": "open-vm-tools_10.3.5.bb",
             "filepath": "recipes-support/open-vm-tools",
             "homepage": "https://github.com/vmware/open-vm-tools",
             "id": 723287,
@@ -3912,10 +3912,10 @@
             "license": "LGPL-2.0 & GPL-2.0 & BSD & CDDL-1.0",
             "pn": "open-vm-tools",
             "provides": "open-vm-tools ",
-            "pv": "10.3.0",
+            "pv": "10.3.5",
             "section": "vmware-tools",
             "summary": "Tools to enhance VMWare guest integration and performance",
-            "updated": "2018-12-17T17:12:17+0000"
+            "updated": "2019-01-02T17:01:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4295,7 +4295,7 @@
             "pv": "1.2",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2018-11-27T18:11:29+0000"
+            "updated": "2019-01-02T17:01:57+0000"
         },
         {
             "bbclassextend": "",
@@ -5271,19 +5271,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "start-stop-daemon_1.17.25.bb",
+            "filename": "start-stop-daemon_1.18.25.bb",
             "filepath": "recipes-support/start-stop-daemon",
             "homepage": "",
             "id": 723359,
-            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "inherits": "autotools gettext perl-version perlnative pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "PD",
             "pn": "start-stop-daemon",
             "provides": "start-stop-daemon ",
-            "pv": "1.17.25",
+            "pv": "1.18.25",
             "section": "base",
             "summary": "Debian's start-stop-daemon utility extracted from the dpkg package",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2019-01-06T23:01:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -5397,7 +5397,7 @@
             "pv": "4.1+gitX",
             "section": "base",
             "summary": "lio-utils",
-            "updated": "2018-10-05T09:10:11+0000"
+            "updated": "2019-01-02T17:01:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -6198,7 +6198,7 @@
             "updated": "2018-10-05T09:10:18+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -6214,7 +6214,7 @@
             "pv": "4.15.2",
             "section": "console/utils",
             "summary": "This is the set of GNU shar utilities.",
-            "updated": "2018-10-23T03:10:05+0000"
+            "updated": "2019-01-02T17:01:58+0000"
         },
         {
             "bbclassextend": "",
@@ -7437,7 +7437,7 @@
             "blacklisted": "",
             "bugtracker": "http://code.google.com/p/webm/issues/list",
             "description": "The BSD-licensed libvpx reference implementation provides en- and decoders for VP8 and VP9 bitstreams.",
-            "filename": "libvpx_1.6.1.bb",
+            "filename": "libvpx_1.7.0.bb",
             "filepath": "recipes-multimedia/webm",
             "homepage": "http://www.webmproject.org/code/",
             "id": 723473,
@@ -7446,10 +7446,10 @@
             "license": "BSD",
             "pn": "libvpx",
             "provides": "libvpx ",
-            "pv": "1.6.1",
+            "pv": "1.7.0",
             "section": "libs/multimedia",
             "summary": "VPX multi-format codec",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-01-02T17:01:57+0000"
         },
         {
             "bbclassextend": "",
@@ -7544,7 +7544,7 @@
             "pv": "0.26.0",
             "section": "multimedia",
             "summary": "Open Source multimedia player",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-01-06T23:01:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8589,7 +8589,7 @@
             "pv": "52.9.1",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2018-12-03T18:12:35+0000"
+            "updated": "2019-01-02T17:01:56+0000"
         },
         {
             "bbclassextend": "",
@@ -9223,7 +9223,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_4.0.8.bb",
+            "filename": "redis_4.0.12.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 723567,
@@ -9232,10 +9232,10 @@
             "license": "BSD",
             "pn": "redis",
             "provides": "redis ",
-            "pv": "4.0.8",
+            "pv": "4.0.12",
             "section": "libs",
             "summary": "Redis key-value store",
-            "updated": "2018-10-31T18:10:53+0000"
+            "updated": "2019-01-02T17:01:56+0000"
         },
         {
             "bbclassextend": "",
@@ -10166,7 +10166,7 @@
             "pv": "0.4.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:54+0000"
+            "updated": "2019-01-06T23:01:45+0000"
         },
         {
             "bbclassextend": "",
@@ -10679,7 +10679,7 @@
             "pv": "5.1.1.r37",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-10-08T07:10:47+0000"
+            "updated": "2019-01-02T17:01:55+0000"
         },
         {
             "bbclassextend": "",
@@ -10872,11 +10872,11 @@
             "updated": "2018-10-05T09:10:01+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Command line editor library providing generic line editing, history, and tokenization functions",
-            "filename": "libedit_20180525-3.1.bb",
+            "filename": "libedit_20181209-3.1.bb",
             "filepath": "recipes-devtools/libedit",
             "homepage": "http://www.thrysoee.dk/editline/",
             "id": 723654,
@@ -10885,10 +10885,10 @@
             "license": "BSD",
             "pn": "libedit",
             "provides": "libedit ",
-            "pv": "20180525-3.1",
+            "pv": "20181209-3.1",
             "section": "libs",
             "summary": "BSD replacement for libreadline",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2019-01-06T23:01:45+0000"
         },
         {
             "bbclassextend": "",
@@ -11097,7 +11097,7 @@
             "pv": "2.0.5+gitX",
             "section": "base",
             "summary": "Just-In-Time Compiler for Lua",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2019-01-06T23:01:46+0000"
         },
         {
             "bbclassextend": "",
@@ -11116,7 +11116,7 @@
             "pv": "7.91+gitX",
             "section": "base",
             "summary": "ltrace intercepts and records dynamic library calls",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2019-01-02T17:01:56+0000"
         },
         {
             "bbclassextend": "",
@@ -11667,7 +11667,7 @@
             "pv": "1.0+gitX",
             "section": "libs",
             "summary": "An open-source multi-platform crash reporting system",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2019-01-02T17:01:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12636,7 +12636,7 @@
             "pv": "2.5.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-25T17:12:05+0000"
+            "updated": "2019-01-06T23:01:46+0000"
         },
         {
             "bbclassextend": "",
@@ -12731,7 +12731,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2018-12-17T17:12:14+0000"
+            "updated": "2019-01-06T23:01:45+0000"
         },
         {
             "bbclassextend": "",
@@ -13017,6 +13017,63 @@
             "section": "base",
             "summary": "MCE test suite",
             "updated": "2018-12-17T17:12:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "spirv-shader-generator_git.bb",
+            "filepath": "recipes-graphics/spir",
+            "homepage": "",
+            "id": 897685,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "Apache-2.0",
+            "pn": "spirv-shader-generator",
+            "provides": "spirv-shader-generator ",
+            "pv": "git",
+            "section": "graphics",
+            "summary": "SPIRV-Cross is a tool designed for parsing and converting SPIR-V to other shader languages",
+            "updated": "2019-01-02T17:01:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Wi-Fi Test Suite is a software platform originally developed by Wi-Fi Alliance, the global non-profit industry association that brings you Wi-Fi, to support certification program development and device certification.",
+            "filename": "wifi-test-suite_git.bb",
+            "filepath": "recipes-connectivity/wifi-test-suite",
+            "homepage": "https://www.wi-fi.org/certification/wi-fi-test-suite",
+            "id": 897932,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "ISC",
+            "pn": "wifi-test-suite",
+            "provides": "wifi-test-suite ",
+            "pv": "git",
+            "section": "test",
+            "summary": "Wi-Fi Test Suite Linux Control Agent",
+            "updated": "2019-01-06T23:01:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The project includes an assembler, binary module parser, disassembler, validator, and optimizer for SPIR-V.",
+            "filename": "spirv-tools_git.bb",
+            "filepath": "recipes-graphics/spir",
+            "homepage": "",
+            "id": 897933,
+            "inherits": "cmake python3-dir python3native",
+            "layerbranch": 14965,
+            "license": "Apache-2.0",
+            "pn": "spirv-tools",
+            "provides": "spirv-tools ",
+            "pv": "git",
+            "section": "graphics",
+            "summary": "The SPIR-V Tools project provides an API and commands for processing SPIR-V modules",
+            "updated": "2019-01-06T23:01:46+0000"
         }
     ],
     "wrtemplates": []

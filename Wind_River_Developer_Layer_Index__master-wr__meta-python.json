@@ -59,57 +59,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20181217",
+            "bitbake_branch": "wr-10.19-20190107",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2018-12-17T17:12:41+0000",
+            "updated": "2019-01-06T23:01:01+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181225",
+            "actual_branch": "wr-10.19-20190107",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2018-12-25T18:12:25+0000",
-            "vcs_last_commit": "2018-12-25T18:12:25+0000",
-            "vcs_last_fetch": "2018-12-25T18:12:25+0000",
-            "vcs_last_rev": "02953768d8a40327eceda19458ad10adc5c02828",
+            "updated": "2019-01-06T18:01:08+0000",
+            "vcs_last_commit": "2019-01-06T18:01:08+0000",
+            "vcs_last_fetch": "2019-01-06T18:01:08+0000",
+            "vcs_last_rev": "70b1d0ee6eaeb918adaea4738396f1508d0a25ba",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20181225",
+            "actual_branch": "wr-10.19-20190107",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2018-12-24T18:12:20+0000",
-            "vcs_last_commit": "2018-12-24T18:12:20+0000",
-            "vcs_last_fetch": "2018-12-24T18:12:20+0000",
-            "vcs_last_rev": "38b5946431f216be023c83e0794cabca7e6ddc7e",
+            "updated": "2019-01-06T18:01:05+0000",
+            "vcs_last_commit": "2019-01-06T18:01:05+0000",
+            "vcs_last_fetch": "2019-01-06T18:01:05+0000",
+            "vcs_last_rev": "b34296359ae5b3054dd0771395e4f85ef9a9c990",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20181225",
+            "actual_branch": "wr-10.19-20190107",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2018-12-24T18:12:19+0000",
-            "vcs_last_commit": "2018-12-24T18:12:19+0000",
-            "vcs_last_fetch": "2018-12-24T18:12:19+0000",
-            "vcs_last_rev": "21db8b9b3634374ebe48c5078cfb26b82cea6601",
+            "updated": "2019-01-06T18:01:05+0000",
+            "vcs_last_commit": "2019-01-06T18:01:05+0000",
+            "vcs_last_fetch": "2019-01-06T18:01:05+0000",
+            "vcs_last_rev": "1767f49caf7eacd71cea71a9c60ac1dbc9f917d5",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -1547,7 +1547,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-msgpack_0.5.6.bb",
+            "filename": "python-msgpack_0.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723843,
@@ -1556,10 +1556,10 @@
             "license": "Apache-2.0",
             "pn": "python-msgpack",
             "provides": "python-msgpack ",
-            "pv": "0.5.6",
+            "pv": "0.6.0",
             "section": "devel/python",
             "summary": "MessagePack (de)serializer",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2019-01-02T17:01:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -2516,7 +2516,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Google gRPC",
-            "filename": "python3-grpcio_1.14.1.bb",
+            "filename": "python3-grpcio_1.17.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.grpc.io/",
             "id": 723894,
@@ -2525,10 +2525,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-grpcio",
             "provides": "python3-grpcio ",
-            "pv": "1.14.1",
+            "pv": "1.17.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2019-01-02T17:01:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3618,7 +3618,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-msgpack_0.5.6.bb",
+            "filename": "python3-msgpack_0.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723952,
@@ -3627,10 +3627,10 @@
             "license": "Apache-2.0",
             "pn": "python3-msgpack",
             "provides": "python3-msgpack ",
-            "pv": "0.5.6",
+            "pv": "0.6.0",
             "section": "devel/python",
             "summary": "MessagePack (de)serializer",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2019-01-02T17:01:06+0000"
         },
         {
             "bbclassextend": "",
@@ -7171,7 +7171,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyflame_1.6.6.bb",
+            "filename": "python-pyflame_1.6.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/uber/pyflame",
             "id": 724139,
@@ -7180,10 +7180,10 @@
             "license": "Apache-2.0",
             "pn": "python-pyflame",
             "provides": "python-pyflame ",
-            "pv": "1.6.6",
+            "pv": "1.6.7",
             "section": "devel/python",
             "summary": "Pyflame: A Ptracing Profiler For Python",
-            "updated": "2018-10-05T09:10:37+0000"
+            "updated": "2019-01-02T17:01:06+0000"
         },
         {
             "bbclassextend": "",
@@ -8292,7 +8292,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Google gRPC",
-            "filename": "python-grpcio_1.14.1.bb",
+            "filename": "python-grpcio_1.17.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.grpc.io/",
             "id": 724198,
@@ -8301,10 +8301,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-grpcio",
             "provides": "python-grpcio ",
-            "pv": "1.14.1",
+            "pv": "1.17.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:47+0000"
+            "updated": "2019-01-02T17:01:05+0000"
         },
         {
             "bbclassextend": "native",
