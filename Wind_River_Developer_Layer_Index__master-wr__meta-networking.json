@@ -59,71 +59,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190107",
+            "bitbake_branch": "wr-10.19-20190115",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-06T23:01:01+0000",
+            "updated": "2019-01-15T17:01:21+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190107",
+            "actual_branch": "wr-10.19-20190115",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-09T21:01:53+0000",
-            "vcs_last_commit": "2019-01-09T21:01:53+0000",
-            "vcs_last_fetch": "2019-01-09T21:01:53+0000",
-            "vcs_last_rev": "2996636eacb73642a411cd12dfa1f1666e8296e2",
+            "updated": "2019-01-16T00:01:43+0000",
+            "vcs_last_commit": "2019-01-16T00:01:43+0000",
+            "vcs_last_fetch": "2019-01-16T00:01:43+0000",
+            "vcs_last_rev": "2eae18ae76d29196a4478300a385c6ddc286ba07",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190107",
+            "actual_branch": "wr-10.19-20190115",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-01-06T18:01:05+0000",
-            "vcs_last_commit": "2019-01-06T18:01:05+0000",
-            "vcs_last_fetch": "2019-01-06T18:01:05+0000",
-            "vcs_last_rev": "6765e7712d00a062215853c61002a3eced446bfd",
+            "updated": "2019-01-14T18:01:02+0000",
+            "vcs_last_commit": "2019-01-14T18:01:02+0000",
+            "vcs_last_fetch": "2019-01-14T18:01:02+0000",
+            "vcs_last_rev": "33077d8dee81f1f73a9a0c45624059ea40e75e42",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190107",
+            "actual_branch": "wr-10.19-20190115",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-01-06T18:01:05+0000",
-            "vcs_last_commit": "2019-01-06T18:01:05+0000",
-            "vcs_last_fetch": "2019-01-06T18:01:05+0000",
-            "vcs_last_rev": "b34296359ae5b3054dd0771395e4f85ef9a9c990",
+            "updated": "2019-01-14T18:01:02+0000",
+            "vcs_last_commit": "2019-01-14T18:01:02+0000",
+            "vcs_last_fetch": "2019-01-14T18:01:02+0000",
+            "vcs_last_rev": "1af2ef99b402225b6cbbe3881ac34cf055d60d0f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190107",
+            "actual_branch": "wr-10.19-20190115",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-01-06T18:01:05+0000",
-            "vcs_last_commit": "2019-01-06T18:01:05+0000",
-            "vcs_last_fetch": "2019-01-06T18:01:05+0000",
-            "vcs_last_rev": "1767f49caf7eacd71cea71a9c60ac1dbc9f917d5",
+            "updated": "2019-01-14T18:01:01+0000",
+            "vcs_last_commit": "2019-01-14T18:01:01+0000",
+            "vcs_last_fetch": "2019-01-14T18:01:01+0000",
+            "vcs_last_rev": "0482baf0615d0ae202fba9dbdefc3923b53ce062",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -445,7 +445,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "dhcpcd runs on your machine and silently configures your computer to work on the attached networks without trouble and mostly without configuration.",
-            "filename": "dhcpcd_6.11.5.bb",
+            "filename": "dhcpcd_7.0.8.bb",
             "filepath": "recipes-connectivity/dhcpcd",
             "homepage": "http://roy.marples.name/projects/dhcpcd/",
             "id": 724911,
@@ -454,10 +454,10 @@
             "license": "BSD-2-Clause",
             "pn": "dhcpcd",
             "provides": "dhcpcd ",
-            "pv": "6.11.5",
+            "pv": "7.0.8",
             "section": "console/network",
             "summary": "dhcpcd - a DHCP client",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-01-15T17:01:54+0000"
         },
         {
             "bbclassextend": "",
@@ -666,7 +666,7 @@
             "pv": "4.8.4",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-12-25T17:12:25+0000"
+            "updated": "2019-01-15T17:01:55+0000"
         },
         {
             "bbclassextend": "",
@@ -685,7 +685,7 @@
             "pv": "1.5.4",
             "section": "console/network",
             "summary": "Open source MQTT v3.1/3.1.1 implemention",
-            "updated": "2018-12-17T17:12:32+0000"
+            "updated": "2019-01-15T17:01:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2174,7 +2174,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_2.6.5.bb",
+            "filename": "wireshark_2.6.6.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 725002,
@@ -2183,10 +2183,10 @@
             "license": "GPL-2.0",
             "pn": "wireshark",
             "provides": "wireshark ",
-            "pv": "2.6.5",
+            "pv": "2.6.6",
             "section": "net",
             "summary": "",
-            "updated": "2018-12-17T17:12:33+0000"
+            "updated": "2019-01-15T17:01:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2235,7 +2235,7 @@
             "filepath": "recipes-support/openipmi",
             "homepage": "http://openipmi.sourceforge.net",
             "id": 725005,
-            "inherits": "autotools autotools-brokensep perlnative pkgconfig python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
+            "inherits": "autotools autotools-brokensep cpan-base perl-version perlnative pkgconfig python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14964,
             "license": "GPLv2 & LGPLv2.1 & BSD",
             "pn": "openipmi",
@@ -2243,7 +2243,7 @@
             "pv": "2.0.25",
             "section": "base",
             "summary": "IPMI (Intelligent Platform Management Interface) library and tools",
-            "updated": "2018-10-23T06:10:23+0000"
+            "updated": "2019-01-15T17:01:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2357,7 +2357,7 @@
             "pv": "5.7.1",
             "section": "net",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2018-10-23T03:10:33+0000"
+            "updated": "2019-01-15T17:01:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2395,7 +2395,7 @@
             "pv": "2.14",
             "section": "net",
             "summary": "NIS client programs",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2019-01-15T17:01:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2414,7 +2414,7 @@
             "pv": "2.4",
             "section": "net",
             "summary": "",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2019-01-15T17:01:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2433,7 +2433,7 @@
             "pv": "4.2.3",
             "section": "net",
             "summary": "NIS client programs",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2019-01-15T17:01:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2646,10 +2646,10 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "implicit declaration of function 'setup_timer'; 4.15 head file issue?",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "DRBD is a block device which is designed to build high                availability clusters. This is done by mirroring a whole                block device via (a dedicated) network. You could see                it as a network raid-1.",
-            "filename": "drbd_9.0.8-1.bb",
+            "filename": "drbd_9.0.16-1.bb",
             "filepath": "recipes-support/drbd",
             "homepage": "http://oss.linbit.com/drbd/",
             "id": 725027,
@@ -2658,10 +2658,10 @@
             "license": "GPLv2",
             "pn": "drbd",
             "provides": "drbd ",
-            "pv": "9.0.8-1",
+            "pv": "9.0.16-1",
             "section": "base",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2019-01-15T17:01:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3650,6 +3650,63 @@
             "section": "net",
             "summary": "Babel is a loop-avoiding distance-vector routing protocol",
             "updated": "2018-10-15T19:10:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "meta-networking-image-base.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 898221,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 14964,
+            "license": "MIT",
+            "pn": "meta-networking-image-base",
+            "provides": "meta-networking-image-base ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "meta-networking build test image",
+            "updated": "2019-01-15T17:01:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "meta-networking-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 898222,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 14964,
+            "license": "MIT",
+            "pn": "meta-networking-image",
+            "provides": "meta-networking-image ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "meta-networking build test image",
+            "updated": "2019-01-15T17:01:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "packagegroup-meta-networking.bb",
+            "filepath": "recipes-core/packagegroups",
+            "homepage": "",
+            "id": 898223,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 14964,
+            "license": "",
+            "pn": "packagegroup-meta-networking",
+            "provides": "packagegroup-meta-networking packagegroup-meta-networking packagegroup-meta-networking-dbg packagegroup-meta-networking-dev packagegroup-meta-networking-connectivity packagegroup-meta-networking-connectivity-dbg packagegroup-meta-networking-connectivity-dev packagegroup-meta-networking-daemons packagegroup-meta-networking-daemons-dbg packagegroup-meta-networking-daemons-dev packagegroup-meta-networking-devtools packagegroup-meta-networking-devtools-dbg packagegroup-meta-networking-devtools-dev packagegroup-meta-networking-extended packagegroup-meta-networking-extended-dbg packagegroup-meta-networking-extended-dev packagegroup-meta-networking-filter packagegroup-meta-networking-filter-dbg packagegroup-meta-networking-filter-dev packagegroup-meta-networking-irc packagegroup-meta-networking-irc-dbg packagegroup-meta-networking-irc-dev packagegroup-meta-networking-kernel packagegroup-meta-networking-kernel-dbg packagegroup-meta-networking-kernel-dev packagegroup-meta-networking-netkit packagegroup-meta-networking-netkit-dbg packagegroup-meta-networking-netkit-dev packagegroup-meta-networking-protocols packagegroup-meta-networking-protocols-dbg packagegroup-meta-networking-protocols-dev packagegroup-meta-networking-support packagegroup-meta-networking-support-dbg packagegroup-meta-networking-support-dev",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Meta-networking packagegroups",
+            "updated": "2019-01-15T17:01:57+0000"
         }
     ],
     "wrtemplates": []

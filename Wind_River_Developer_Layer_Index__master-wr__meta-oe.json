@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190107",
+            "bitbake_branch": "wr-10.19-20190115",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-06T23:01:01+0000",
+            "updated": "2019-01-15T17:01:21+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190107",
+            "actual_branch": "wr-10.19-20190115",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-09T21:01:53+0000",
-            "vcs_last_commit": "2019-01-09T21:01:53+0000",
-            "vcs_last_fetch": "2019-01-09T21:01:53+0000",
-            "vcs_last_rev": "2996636eacb73642a411cd12dfa1f1666e8296e2",
+            "updated": "2019-01-16T00:01:43+0000",
+            "vcs_last_commit": "2019-01-16T00:01:43+0000",
+            "vcs_last_fetch": "2019-01-16T00:01:43+0000",
+            "vcs_last_rev": "2eae18ae76d29196a4478300a385c6ddc286ba07",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190107",
+            "actual_branch": "wr-10.19-20190115",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-01-06T18:01:05+0000",
-            "vcs_last_commit": "2019-01-06T18:01:05+0000",
-            "vcs_last_fetch": "2019-01-06T18:01:05+0000",
-            "vcs_last_rev": "b34296359ae5b3054dd0771395e4f85ef9a9c990",
+            "updated": "2019-01-14T18:01:02+0000",
+            "vcs_last_commit": "2019-01-14T18:01:02+0000",
+            "vcs_last_fetch": "2019-01-14T18:01:02+0000",
+            "vcs_last_rev": "1af2ef99b402225b6cbbe3881ac34cf055d60d0f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -1651,10 +1651,10 @@
             "license": "LGPLv2.1",
             "pn": "qrencode",
             "provides": "qrencode ",
-            "pv": "4.0.0+gitX",
+            "pv": "4.0.1+gitX",
             "section": "libs",
             "summary": "C library for encoding data in a QR Code symbol",
-            "updated": "2018-10-05T09:10:35+0000"
+            "updated": "2019-01-15T17:01:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2497,7 +2497,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Precision Time Protocol (PTP) according to IEEE standard 1588 for Linux",
-            "filename": "linuxptp_1.8.bb",
+            "filename": "linuxptp_2.0.bb",
             "filepath": "recipes-connectivity/linuxptp",
             "homepage": "",
             "id": 723212,
@@ -2506,10 +2506,10 @@
             "license": "GPLv2",
             "pn": "linuxptp",
             "provides": "linuxptp ",
-            "pv": "1.8",
+            "pv": "2.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2019-01-15T17:01:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2623,7 +2623,7 @@
             "pv": "1.8.2",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2019-01-02T17:01:55+0000"
+            "updated": "2019-01-15T17:01:21+0000"
         },
         {
             "bbclassextend": "",
@@ -3098,7 +3098,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Inspect and manipulate eBPF programs and maps",
-            "updated": "2018-12-17T17:12:16+0000"
+            "updated": "2019-01-15T17:01:22+0000"
         },
         {
             "bbclassextend": "",
@@ -3155,7 +3155,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Shows and sets processor power related values",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2019-01-15T17:01:22+0000"
         },
         {
             "bbclassextend": "",
@@ -3238,7 +3238,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "minicoredumper_2.0.0.bb",
+            "filename": "minicoredumper_2.0.1.bb",
             "filepath": "recipes-kernel/minicoredumper",
             "homepage": "",
             "id": 723252,
@@ -3247,10 +3247,10 @@
             "license": " LGPLv2.1 & BSD-2-Clause",
             "pn": "minicoredumper",
             "provides": "minicoredumper ",
-            "pv": "2.0.0",
+            "pv": "2.0.1",
             "section": "base",
             "summary": "minicoredumper provides an alternate core dump facility for Linux to allow minimal and customized crash dumps",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2019-01-15T17:01:22+0000"
         },
         {
             "bbclassextend": "",
@@ -3630,7 +3630,7 @@
             "pv": "3.4.3+gitX",
             "section": "libs",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2019-01-15T17:01:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3770,7 +3770,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libteam_1.27.bb",
+            "filename": "libteam_1.28.bb",
             "filepath": "recipes-support/libteam",
             "homepage": "http://www.libteam.org/",
             "id": 723280,
@@ -3779,10 +3779,10 @@
             "license": "LGPLv2.1",
             "pn": "libteam",
             "provides": "libteam ",
-            "pv": "1.27",
+            "pv": "1.28",
             "section": "libs/network",
             "summary": "Library for controlling team network device",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-01-15T17:01:22+0000"
         },
         {
             "bbclassextend": "",
@@ -4295,7 +4295,7 @@
             "pv": "1.2",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2019-01-02T17:01:57+0000"
+            "updated": "2019-01-15T17:01:22+0000"
         },
         {
             "bbclassextend": "",
@@ -4865,7 +4865,7 @@
             "pv": "1.0",
             "section": "libs",
             "summary": "A minimal iconv implementation w/ support for UTF-8, ASCII, ISO-8859-1",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2019-01-15T17:01:23+0000"
         },
         {
             "bbclassextend": "",
@@ -7631,7 +7631,7 @@
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 723483,
-            "inherits": "autotools gettext perlnative pkgconfig python-dir pythonnative siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "inherits": "autotools cpan-base gettext perl-version perlnative pkgconfig python-dir pythonnative siteconfig siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 14965,
             "license": "BSD",
             "pn": "postgresql",
@@ -7639,7 +7639,7 @@
             "pv": "11.1",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2018-12-03T18:12:40+0000"
+            "updated": "2019-01-15T17:01:24+0000"
         },
         {
             "bbclassextend": "",
@@ -10584,7 +10584,7 @@
             "pv": "5.6.38",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-12-11T01:12:15+0000"
+            "updated": "2019-01-15T17:01:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -10603,7 +10603,7 @@
             "pv": "7.2.10",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2018-12-11T01:12:15+0000"
+            "updated": "2019-01-15T17:01:24+0000"
         },
         {
             "bbclassextend": "",
@@ -11097,7 +11097,7 @@
             "pv": "2.0.5+gitX",
             "section": "base",
             "summary": "Just-In-Time Compiler for Lua",
-            "updated": "2019-01-06T23:01:46+0000"
+            "updated": "2019-01-15T17:01:21+0000"
         },
         {
             "bbclassextend": "",
@@ -11617,7 +11617,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "DBI is a database access Application Programming Interface (API) for the Perl Language. The DBI API Specification defines a set of functions, variables and conventions that provide a consistent database interface independent of the actual database being used. ",
-            "filename": "libdbi-perl_1.641.bb",
+            "filename": "libdbi-perl_1.642.bb",
             "filepath": "recipes-devtools/perl",
             "homepage": "http://search.cpan.org/dist/DBI/",
             "id": 723693,
@@ -11626,10 +11626,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "libdbi-perl",
             "provides": "libdbi-perl ",
-            "pv": "1.641",
+            "pv": "1.642",
             "section": "libs",
             "summary": "The Perl Database Interface",
-            "updated": "2018-10-05T09:10:09+0000"
+            "updated": "2019-01-15T17:01:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -11686,7 +11686,7 @@
             "pv": "0.8.3",
             "section": "devel",
             "summary": "Trace and analyze execution of a program written in C/C++",
-            "updated": "2018-11-27T18:11:28+0000"
+            "updated": "2019-01-15T17:01:21+0000"
         },
         {
             "bbclassextend": "",
@@ -12959,7 +12959,7 @@
             "pv": "56",
             "section": "base/shell",
             "summary": "",
-            "updated": "2018-12-17T17:12:18+0000"
+            "updated": "2019-01-15T17:01:22+0000"
         },
         {
             "bbclassextend": "",
@@ -13074,6 +13074,25 @@
             "section": "graphics",
             "summary": "The SPIR-V Tools project provides an API and commands for processing SPIR-V modules",
             "updated": "2019-01-06T23:01:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/iipeace/guider/issues",
+            "description": "",
+            "filename": "guider_3.9.4.bb",
+            "filepath": "recipes-devtools/guider",
+            "homepage": "https://github.com/iipeace/guider",
+            "id": 898202,
+            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
+            "layerbranch": 14965,
+            "license": "GPLv2+",
+            "pn": "guider",
+            "provides": "guider ",
+            "pv": "3.9.4+gitX",
+            "section": "base",
+            "summary": "runtime performance analyzer",
+            "updated": "2019-01-15T17:01:25+0000"
         }
     ],
     "wrtemplates": []
