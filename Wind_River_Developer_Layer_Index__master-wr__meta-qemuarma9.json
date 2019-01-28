@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190121",
+            "bitbake_branch": "wr-10.19-20190128",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-20T22:01:13+0000",
+            "updated": "2019-01-28T00:01:59+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-21T18:01:29+0000",
-            "vcs_last_commit": "2019-01-21T18:01:29+0000",
-            "vcs_last_fetch": "2019-01-21T18:01:29+0000",
-            "vcs_last_rev": "e0080882809ce83cc288e23bfe92340b9ca37d25",
+            "updated": "2019-01-28T01:01:00+0000",
+            "vcs_last_commit": "2019-01-28T01:01:00+0000",
+            "vcs_last_fetch": "2019-01-28T01:01:00+0000",
+            "vcs_last_rev": "cbd5f988c1c8a1c09ca0f0c47b28ea21994285fc",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20181126",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "qemuarma9",
             "id": 836422,
             "layer": 229,
-            "updated": "2018-12-24T23:12:41+0000",
-            "vcs_last_commit": "2018-12-24T23:12:41+0000",
-            "vcs_last_fetch": "2018-12-24T23:12:41+0000",
-            "vcs_last_rev": "107cd3f123ff45d9231cc7fb61fc031b5757498c",
+            "updated": "2019-01-27T17:01:29+0000",
+            "vcs_last_commit": "2019-01-27T17:01:29+0000",
+            "vcs_last_fetch": "2019-01-27T17:01:29+0000",
+            "vcs_last_rev": "7237e1b69e9ebdd465434fd9dcf3f3f79912d4f3",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 7
@@ -150,10 +150,10 @@
     "machines": [
         {
             "description": "a9 vexpress",
-            "id": 13212,
+            "id": 16098,
             "layerbranch": 836422,
             "name": "qemuarma9",
-            "updated": "2018-10-23T03:10:24+0000"
+            "updated": "2019-01-28T00:01:59+0000"
         }
     ],
     "recipes": [],

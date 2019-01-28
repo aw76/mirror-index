@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190121",
+            "bitbake_branch": "wr-10.19-20190128",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-20T22:01:13+0000",
+            "updated": "2019-01-28T00:01:59+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-21T18:01:29+0000",
-            "vcs_last_commit": "2019-01-21T18:01:29+0000",
-            "vcs_last_fetch": "2019-01-21T18:01:29+0000",
-            "vcs_last_rev": "e0080882809ce83cc288e23bfe92340b9ca37d25",
+            "updated": "2019-01-28T01:01:00+0000",
+            "vcs_last_commit": "2019-01-28T01:01:00+0000",
+            "vcs_last_fetch": "2019-01-28T01:01:00+0000",
+            "vcs_last_rev": "cbd5f988c1c8a1c09ca0f0c47b28ea21994285fc",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-01-20T18:01:47+0000",
-            "vcs_last_commit": "2019-01-20T18:01:47+0000",
-            "vcs_last_fetch": "2019-01-20T18:01:47+0000",
-            "vcs_last_rev": "639293976843ed0ba47b4408ff5020ef98d5383a",
+            "updated": "2019-01-27T17:01:33+0000",
+            "vcs_last_commit": "2019-01-27T17:01:33+0000",
+            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
+            "vcs_last_rev": "dd88b318a490daadba5759e61bd4c206de847384",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -2262,7 +2262,7 @@
             "pv": "git",
             "section": "libs",
             "summary": "",
-            "updated": "2018-12-17T17:12:18+0000"
+            "updated": "2019-01-28T00:01:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2623,7 +2623,7 @@
             "pv": "1.8.2",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2019-01-15T17:01:21+0000"
+            "updated": "2019-01-28T00:01:36+0000"
         },
         {
             "bbclassextend": "",
@@ -6430,7 +6430,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "usb-modeswitch-data_20170205.bb",
+            "filename": "usb-modeswitch-data_20170806.bb",
             "filepath": "recipes-support/usb-modeswitch",
             "homepage": "",
             "id": 723420,
@@ -6439,17 +6439,17 @@
             "license": "GPLv2",
             "pn": "usb-modeswitch-data",
             "provides": "usb-modeswitch-data ",
-            "pv": "20170205",
+            "pv": "20170806",
             "section": "base",
             "summary": "Data files for usbmodeswitch",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2019-01-28T00:01:38+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "usb-modeswitch_2.5.0.bb",
+            "filename": "usb-modeswitch_2.5.2.bb",
             "filepath": "recipes-support/usb-modeswitch",
             "homepage": "",
             "id": 723421,
@@ -6458,10 +6458,10 @@
             "license": "GPLv2",
             "pn": "usb-modeswitch",
             "provides": "usb-modeswitch ",
-            "pv": "2.5.0",
+            "pv": "2.5.2",
             "section": "base",
             "summary": "A mode switching tool for controlling 'flip flop' (multiple device) USB gear",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2019-01-28T00:01:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -6506,7 +6506,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cpprest_2.10.8.bb",
+            "filename": "cpprest_2.10.9.bb",
             "filepath": "recipes-support/cpprest",
             "homepage": "https://github.com/Microsoft/cpprestsdk/",
             "id": 723424,
@@ -6515,10 +6515,10 @@
             "license": "MIT",
             "pn": "cpprest",
             "provides": "cpprest ",
-            "pv": "2.10.8",
+            "pv": "2.10.9",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2018-12-25T17:12:04+0000"
+            "updated": "2019-01-28T00:01:38+0000"
         },
         {
             "bbclassextend": "",
@@ -7715,7 +7715,7 @@
             "pv": "5.17.2",
             "section": "base",
             "summary": "RocksDB an embeddable, persistent key-value store",
-            "updated": "2018-12-25T17:12:03+0000"
+            "updated": "2019-01-28T00:01:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -8855,7 +8855,7 @@
             "pv": "0.115",
             "section": "base",
             "summary": "PolicyKit Authorization Framework",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2019-01-28T00:01:38+0000"
         },
         {
             "bbclassextend": "",
@@ -9349,7 +9349,7 @@
             "pv": "7.4.3",
             "section": "devel",
             "summary": "A log file analysis program",
-            "updated": "2018-10-05T09:10:47+0000"
+            "updated": "2019-01-28T00:01:37+0000"
         },
         {
             "bbclassextend": "",
@@ -12016,7 +12016,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "atkmm_2.24.2.bb",
+            "filename": "atkmm_2.28.0.bb",
             "filepath": "recipes-gnome/atk",
             "homepage": "",
             "id": 723714,
@@ -12025,10 +12025,10 @@
             "license": "LGPLv2.1 & GPLv2",
             "pn": "atkmm",
             "provides": "atkmm ",
-            "pv": "2.24.2",
+            "pv": "2.28.0",
             "section": "libs",
             "summary": "C++ bindings for the atk",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2019-01-28T00:01:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12301,7 +12301,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "glibmm_2.56.0.bb",
+            "filename": "glibmm_2.58.0.bb",
             "filepath": "recipes-core/glib-2.0",
             "homepage": "http://www.gtkmm.org/",
             "id": 723729,
@@ -12310,17 +12310,17 @@
             "license": "LGPLv2.1 & GPLv2",
             "pn": "glibmm",
             "provides": "glibmm ",
-            "pv": "2.56.0",
+            "pv": "2.58.0",
             "section": "libs",
             "summary": "C++ bindings for the glib library",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2019-01-28T00:01:37+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libsigc++-2.0_2.10.0.bb",
+            "filename": "libsigc++-2.0_2.10.1.bb",
             "filepath": "recipes-core/libsigc++-2.0",
             "homepage": "",
             "id": 723730,
@@ -12329,10 +12329,10 @@
             "license": "LGPLv2.1",
             "pn": "libsigc++-2.0",
             "provides": "libsigc++-2.0 ",
-            "pv": "2.10.0",
+            "pv": "2.10.1",
             "section": "libs",
             "summary": "A library for loose coupling of C++ method calls",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2019-01-28T00:01:37+0000"
         },
         {
             "bbclassextend": "",
@@ -12731,7 +12731,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2019-01-06T23:01:45+0000"
+            "updated": "2019-01-28T00:01:37+0000"
         },
         {
             "bbclassextend": "",
@@ -13112,6 +13112,25 @@
             "section": "base",
             "summary": "C++11 command line parser",
             "updated": "2019-01-20T22:01:58+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "graphviz_2.40.1.bb",
+            "filepath": "recipes-graphics/graphviz",
+            "homepage": "http://www.graphviz.org",
+            "id": 904960,
+            "inherits": "autotools autotools-brokensep gettext gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "EPL-1.0",
+            "pn": "graphviz",
+            "provides": "graphviz ",
+            "pv": "2.40.1",
+            "section": "base",
+            "summary": "Graph Visualization Tools",
+            "updated": "2019-01-28T00:01:39+0000"
         }
     ],
     "wrtemplates": []

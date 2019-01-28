@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190121",
+            "bitbake_branch": "wr-10.19-20190128",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-20T22:01:13+0000",
+            "updated": "2019-01-28T00:01:59+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-21T18:01:29+0000",
-            "vcs_last_commit": "2019-01-21T18:01:29+0000",
-            "vcs_last_fetch": "2019-01-21T18:01:29+0000",
-            "vcs_last_rev": "e0080882809ce83cc288e23bfe92340b9ca37d25",
+            "updated": "2019-01-28T01:01:00+0000",
+            "vcs_last_commit": "2019-01-28T01:01:00+0000",
+            "vcs_last_fetch": "2019-01-28T01:01:00+0000",
+            "vcs_last_rev": "cbd5f988c1c8a1c09ca0f0c47b28ea21994285fc",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2019-01-20T18:01:44+0000",
-            "vcs_last_commit": "2019-01-20T18:01:44+0000",
-            "vcs_last_fetch": "2019-01-20T18:01:44+0000",
-            "vcs_last_rev": "2f9b0348da770856031b6312a10a105cda637fae",
+            "updated": "2019-01-27T17:01:30+0000",
+            "vcs_last_commit": "2019-01-27T17:01:30+0000",
+            "vcs_last_fetch": "2019-01-27T17:01:30+0000",
+            "vcs_last_rev": "d1714f3bd79dda9aed476805c97f734b2035704c",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 3
@@ -701,6 +701,25 @@
             "section": "lib",
             "summary": "Intel Metrics Discovery Application Programming Interface",
             "updated": "2019-01-15T17:01:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-intel-rt_4.19.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 904965,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 84751,
+            "license": "GPLv2",
+            "pn": "linux-intel-rt",
+            "provides": "linux-intel-rt  virtual/kernel",
+            "pv": "4.19.13+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2019-01-28T00:01:02+0000"
         }
     ],
     "wrtemplates": []

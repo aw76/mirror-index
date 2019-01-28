@@ -59,57 +59,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190121",
+            "bitbake_branch": "wr-10.19-20190128",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-20T22:01:13+0000",
+            "updated": "2019-01-28T00:01:59+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-21T18:01:29+0000",
-            "vcs_last_commit": "2019-01-21T18:01:29+0000",
-            "vcs_last_fetch": "2019-01-21T18:01:29+0000",
-            "vcs_last_rev": "e0080882809ce83cc288e23bfe92340b9ca37d25",
+            "updated": "2019-01-28T01:01:00+0000",
+            "vcs_last_commit": "2019-01-28T01:01:00+0000",
+            "vcs_last_fetch": "2019-01-28T01:01:00+0000",
+            "vcs_last_rev": "cbd5f988c1c8a1c09ca0f0c47b28ea21994285fc",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-01-20T18:01:47+0000",
-            "vcs_last_commit": "2019-01-20T18:01:47+0000",
-            "vcs_last_fetch": "2019-01-20T18:01:47+0000",
-            "vcs_last_rev": "639293976843ed0ba47b4408ff5020ef98d5383a",
+            "updated": "2019-01-27T17:01:33+0000",
+            "vcs_last_commit": "2019-01-27T17:01:33+0000",
+            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
+            "vcs_last_rev": "dd88b318a490daadba5759e61bd4c206de847384",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190128",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-01-20T18:01:47+0000",
-            "vcs_last_commit": "2019-01-20T18:01:47+0000",
-            "vcs_last_fetch": "2019-01-20T18:01:47+0000",
-            "vcs_last_rev": "d802ac293d25a620b2cccfaa372794c45626952e",
+            "updated": "2019-01-27T17:01:33+0000",
+            "vcs_last_commit": "2019-01-27T17:01:33+0000",
+            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
+            "vcs_last_rev": "919f7dad762fd1caabc4c282a3087c5838a0a430",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -837,7 +837,7 @@
             "pv": "0.9.6",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2019-01-28T00:01:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2132,7 +2132,7 @@
             "updated": "2018-10-05T09:10:47+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -2148,7 +2148,7 @@
             "pv": "1.0.1",
             "section": "devel/python",
             "summary": "HTML parser based on the WHATWG HTML specifcation",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2019-01-28T00:01:47+0000"
         },
         {
             "bbclassextend": "",
@@ -4241,7 +4241,7 @@
             "updated": "2018-10-05T09:10:07+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -4257,7 +4257,7 @@
             "pv": "1.0.1",
             "section": "devel/python",
             "summary": "HTML parser based on the WHATWG HTML specifcation",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2019-01-28T00:01:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4868,7 +4868,7 @@
             "updated": "2018-10-05T09:10:13+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -4884,7 +4884,7 @@
             "pv": "0.5.1",
             "section": "devel/python",
             "summary": "Character encoding aliases for legacy web content",
-            "updated": "2018-10-05T09:10:14+0000"
+            "updated": "2019-01-28T00:01:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5590,7 +5590,7 @@
             "updated": "2018-10-05T09:10:21+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -5606,7 +5606,7 @@
             "pv": "0.5.1",
             "section": "devel/python",
             "summary": "Character encoding aliases for legacy web content",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2019-01-28T00:01:49+0000"
         },
         {
             "bbclassextend": "",
@@ -6062,7 +6062,7 @@
             "pv": "0.9.6",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-01-28T00:01:48+0000"
         },
         {
             "bbclassextend": "",
@@ -8647,6 +8647,82 @@
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
             "updated": "2019-01-15T17:01:35+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python-isodate_0.6.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 904961,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "BSD",
+            "pn": "python-isodate",
+            "provides": "python-isodate ",
+            "pv": "0.6.0",
+            "section": "devel/python",
+            "summary": "Character encoding aliases for legacy web content",
+            "updated": "2019-01-28T00:01:49+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python-rdflib_4.2.2.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 904962,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "BSD",
+            "pn": "python-rdflib",
+            "provides": "python-rdflib ",
+            "pv": "4.2.2",
+            "section": "devel/python",
+            "summary": "Character encoding aliases for legacy web content",
+            "updated": "2019-01-28T00:01:49+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-isodate_0.6.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 904963,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "BSD",
+            "pn": "python3-isodate",
+            "provides": "python3-isodate ",
+            "pv": "0.6.0",
+            "section": "devel/python",
+            "summary": "Character encoding aliases for legacy web content",
+            "updated": "2019-01-28T00:01:50+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-rdflib_4.2.2.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 904964,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "BSD",
+            "pn": "python3-rdflib",
+            "provides": "python3-rdflib ",
+            "pv": "4.2.2",
+            "section": "devel/python",
+            "summary": "Character encoding aliases for legacy web content",
+            "updated": "2019-01-28T00:01:50+0000"
         }
     ],
     "wrtemplates": []
