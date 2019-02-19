@@ -59,71 +59,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190128",
+            "bitbake_branch": "wr-10.19-20190212",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-28T00:01:59+0000",
+            "updated": "2019-02-13T17:02:29+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-28T01:01:00+0000",
-            "vcs_last_commit": "2019-01-28T01:01:00+0000",
-            "vcs_last_fetch": "2019-01-28T01:01:00+0000",
-            "vcs_last_rev": "cbd5f988c1c8a1c09ca0f0c47b28ea21994285fc",
+            "updated": "2019-02-11T18:02:46+0000",
+            "vcs_last_commit": "2019-02-11T18:02:46+0000",
+            "vcs_last_fetch": "2019-02-11T18:02:46+0000",
+            "vcs_last_rev": "da86b20c8f06362d472437d96a9a6c78eb5e9708",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-01-27T17:01:33+0000",
-            "vcs_last_commit": "2019-01-27T17:01:33+0000",
-            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
-            "vcs_last_rev": "b836ef4d5e90d3c680ee6caba88b26ecdf6e4e06",
+            "updated": "2019-02-11T18:02:41+0000",
+            "vcs_last_commit": "2019-02-11T18:02:41+0000",
+            "vcs_last_fetch": "2019-02-11T18:02:41+0000",
+            "vcs_last_rev": "946d4259fb3851b6a2438d68114455bc83fe1fda",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-01-27T17:01:33+0000",
-            "vcs_last_commit": "2019-01-27T17:01:33+0000",
-            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
-            "vcs_last_rev": "dd88b318a490daadba5759e61bd4c206de847384",
+            "updated": "2019-02-15T00:02:23+0000",
+            "vcs_last_commit": "2019-02-15T00:02:23+0000",
+            "vcs_last_fetch": "2019-02-15T00:02:23+0000",
+            "vcs_last_rev": "937c987607ae4e6a4aa51643731d568fdf879f17",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-01-27T17:01:33+0000",
-            "vcs_last_commit": "2019-01-27T17:01:33+0000",
-            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
-            "vcs_last_rev": "919f7dad762fd1caabc4c282a3087c5838a0a430",
+            "updated": "2019-02-11T18:02:40+0000",
+            "vcs_last_commit": "2019-02-11T18:02:40+0000",
+            "vcs_last_fetch": "2019-02-11T18:02:40+0000",
+            "vcs_last_rev": "176e2fa2e8f02f3f83b003b1428841d2f4b4526e",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -397,10 +397,10 @@
             "license": "MIT",
             "pn": "civetweb",
             "provides": "civetweb ",
-            "pv": "1.10+gitX",
+            "pv": "1.11+gitX",
             "section": "base",
             "summary": "Civetweb embedded web server",
-            "updated": "2018-11-27T18:11:18+0000"
+            "updated": "2019-02-13T17:02:22+0000"
         },
         {
             "bbclassextend": "",
@@ -723,14 +723,14 @@
             "pv": "1.0.1+1.0.2RC1+gitc4b0ed52e751da7823dd9a36e91f93a6310e5525",
             "section": "base",
             "summary": "Dibbler DHCPv6 client",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2019-02-13T17:02:22+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "wireless-regdb_2018.05.31.bb",
+            "filename": "wireless-regdb_2018.10.24.bb",
             "filepath": "recipes-connectivity/wireless-regdb",
             "homepage": "http://wireless.kernel.org/en/developers/Regulatory/CRDA",
             "id": 724926,
@@ -739,10 +739,10 @@
             "license": "ISC",
             "pn": "wireless-regdb",
             "provides": "wireless-regdb ",
-            "pv": "2018.05.31",
+            "pv": "2018.10.24",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Database",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2019-02-13T17:02:23+0000"
         },
         {
             "bbclassextend": "",
@@ -761,7 +761,7 @@
             "pv": "1.14.4",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2019-01-28T00:01:07+0000"
+            "updated": "2019-02-13T17:02:22+0000"
         },
         {
             "bbclassextend": "",
@@ -806,7 +806,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "WireGuard is a secure network tunnel, operating at layer 3, implemented as a kernel virtual network interface for Linux, which aims to replace both IPsec for most use cases, as well as popular user space and/or TLS-based solutions like OpenVPN, while being more secure, more performant, and easier to use.",
-            "filename": "wireguard-module_0.0.20171221.bb",
+            "filename": "wireguard-module_0.0.20190123.bb",
             "filepath": "recipes-kernel/wireguard",
             "homepage": "https://www.wireguard.io/",
             "id": 724930,
@@ -815,17 +815,17 @@
             "license": "GPLv2",
             "pn": "wireguard-module",
             "provides": "wireguard-module ",
-            "pv": "0.0.20171221",
+            "pv": "0.0.20190123",
             "section": "networking",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-02-13T17:02:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "WireGuard is a secure network tunnel, operating at layer 3, implemented as a kernel virtual network interface for Linux, which aims to replace both IPsec for most use cases, as well as popular user space and/or TLS-based solutions like OpenVPN, while being more secure, more performant, and easier to use.",
-            "filename": "wireguard-tools_0.0.20171221.bb",
+            "filename": "wireguard-tools_0.0.20190123.bb",
             "filepath": "recipes-kernel/wireguard",
             "homepage": "https://www.wireguard.io/",
             "id": 724931,
@@ -834,10 +834,10 @@
             "license": "GPLv2",
             "pn": "wireguard-tools",
             "provides": "wireguard-tools ",
-            "pv": "0.0.20171221",
+            "pv": "0.0.20190123",
             "section": "networking",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-02-13T17:02:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1737,7 +1737,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtdb_1.3.16.bb",
+            "filename": "libtdb_1.3.17.bb",
             "filepath": "recipes-support/libtdb",
             "homepage": "http://tdb.samba.org/",
             "id": 724979,
@@ -1746,10 +1746,10 @@
             "license": "LGPL-3.0+ & GPL-3.0+",
             "pn": "libtdb",
             "provides": "libtdb ",
-            "pv": "1.3.16",
+            "pv": "1.3.17",
             "section": "libs",
             "summary": "The tdb library",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2019-02-13T17:02:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1939,7 +1939,7 @@
             "pv": "4.2.8p12",
             "section": "net",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2018-11-27T18:11:19+0000"
+            "updated": "2019-02-13T17:02:23+0000"
         },
         {
             "bbclassextend": "",

@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190128",
+            "bitbake_branch": "wr-10.19-20190212",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-28T00:01:59+0000",
+            "updated": "2019-02-13T17:02:29+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-28T01:01:00+0000",
-            "vcs_last_commit": "2019-01-28T01:01:00+0000",
-            "vcs_last_fetch": "2019-01-28T01:01:00+0000",
-            "vcs_last_rev": "cbd5f988c1c8a1c09ca0f0c47b28ea21994285fc",
+            "updated": "2019-02-11T18:02:46+0000",
+            "vcs_last_commit": "2019-02-11T18:02:46+0000",
+            "vcs_last_fetch": "2019-02-11T18:02:46+0000",
+            "vcs_last_rev": "da86b20c8f06362d472437d96a9a6c78eb5e9708",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2019-01-27T17:01:33+0000",
-            "vcs_last_commit": "2019-01-27T17:01:33+0000",
-            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
-            "vcs_last_rev": "c2b279b5978ff3e68c8d95d6c00afcc763659c51",
+            "updated": "2019-02-11T18:02:41+0000",
+            "vcs_last_commit": "2019-02-11T18:02:41+0000",
+            "vcs_last_fetch": "2019-02-11T18:02:41+0000",
+            "vcs_last_rev": "fe6cda3395e2fd968feb254959f4fbdf098a6ad0",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 3
@@ -280,13 +280,13 @@
             "id": 724272,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 14963,
-            "license": "BSD",
+            "license": "BSD-3-Clause",
             "pn": "libupnp",
             "provides": "libupnp ",
-            "pv": "1.8.2+gitX",
+            "pv": "1.8.4+gitX",
             "section": "base",
             "summary": "Portable SDK for UPnP* Devices",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2019-02-13T17:02:06+0000"
         },
         {
             "bbclassextend": "",
@@ -324,7 +324,7 @@
             "pv": "1.10+X",
             "section": "base",
             "summary": "OSCam: Open Source Conditional Access Module",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2019-02-13T17:02:06+0000"
         },
         {
             "bbclassextend": "",
@@ -932,7 +932,7 @@
             "pv": "2.4",
             "section": "base",
             "summary": "RTMP Dump",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2019-02-13T17:02:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1461,10 +1461,10 @@
             "license": "GPLv2",
             "pn": "gerbera",
             "provides": "gerbera ",
-            "pv": "1.0+gitX",
+            "pv": "1.3.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:14+0000"
+            "updated": "2019-02-13T17:02:07+0000"
         },
         {
             "bbclassextend": "",

@@ -59,29 +59,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190128",
+            "bitbake_branch": "wr-10.19-20190212",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-28T00:01:59+0000",
+            "updated": "2019-02-13T17:02:29+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-28T01:01:00+0000",
-            "vcs_last_commit": "2019-01-28T01:01:00+0000",
-            "vcs_last_fetch": "2019-01-28T01:01:00+0000",
-            "vcs_last_rev": "cbd5f988c1c8a1c09ca0f0c47b28ea21994285fc",
+            "updated": "2019-02-11T18:02:46+0000",
+            "vcs_last_commit": "2019-02-11T18:02:46+0000",
+            "vcs_last_fetch": "2019-02-11T18:02:46+0000",
+            "vcs_last_rev": "da86b20c8f06362d472437d96a9a6c78eb5e9708",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -106,10 +106,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-01-29T19:01:11+0000",
-            "vcs_last_commit": "2019-01-29T19:01:11+0000",
-            "vcs_last_fetch": "2019-01-29T19:01:11+0000",
-            "vcs_last_rev": "915a1ac0a658114e9124872aa6a60b37cd3a762e",
+            "updated": "2019-02-18T00:02:04+0000",
+            "vcs_last_commit": "2019-02-18T00:02:04+0000",
+            "vcs_last_fetch": "2019-02-18T00:02:04+0000",
+            "vcs_last_rev": "b5f9a8a2eca98c8b84dfb735cde7fd35cb2149a7",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -270,7 +270,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2019-01-28T00:01:22+0000"
+            "updated": "2019-02-18T00:02:27+0000"
         },
         {
             "bbclassextend": "",
@@ -289,7 +289,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2019-01-28T00:01:23+0000"
+            "updated": "2019-02-18T00:02:27+0000"
         },
         {
             "bbclassextend": "",
@@ -308,7 +308,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2019-01-28T00:01:23+0000"
+            "updated": "2019-02-18T00:02:27+0000"
         },
         {
             "bbclassextend": "",
@@ -327,7 +327,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2019-01-28T00:01:23+0000"
+            "updated": "2019-02-18T00:02:27+0000"
         },
         {
             "bbclassextend": "",
@@ -346,7 +346,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2019-01-28T00:01:23+0000"
+            "updated": "2019-02-18T00:02:27+0000"
         },
         {
             "bbclassextend": "",
@@ -365,7 +365,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2019-01-28T00:01:23+0000"
+            "updated": "2019-02-18T00:02:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -384,7 +384,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2019-01-28T00:01:21+0000"
+            "updated": "2019-02-18T00:02:25+0000"
         },
         {
             "bbclassextend": "",
@@ -403,7 +403,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-01-28T00:01:21+0000"
+            "updated": "2019-02-18T00:02:25+0000"
         },
         {
             "bbclassextend": "",
@@ -422,7 +422,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-01-28T00:01:21+0000"
+            "updated": "2019-02-18T00:02:25+0000"
         },
         {
             "bbclassextend": "",
@@ -441,7 +441,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-01-28T00:01:21+0000"
+            "updated": "2019-02-18T00:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -460,7 +460,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2019-01-28T00:01:21+0000"
+            "updated": "2019-02-18T00:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -479,7 +479,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-01-28T00:01:22+0000"
+            "updated": "2019-02-18T00:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -498,7 +498,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2019-01-28T00:01:22+0000"
+            "updated": "2019-02-18T00:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -517,7 +517,7 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-01-28T00:01:22+0000"
+            "updated": "2019-02-18T00:02:26+0000"
         },
         {
             "bbclassextend": "",

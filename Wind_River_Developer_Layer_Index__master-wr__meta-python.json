@@ -59,57 +59,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190128",
+            "bitbake_branch": "wr-10.19-20190212",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-01-28T00:01:59+0000",
+            "updated": "2019-02-13T17:02:29+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-01-28T01:01:00+0000",
-            "vcs_last_commit": "2019-01-28T01:01:00+0000",
-            "vcs_last_fetch": "2019-01-28T01:01:00+0000",
-            "vcs_last_rev": "cbd5f988c1c8a1c09ca0f0c47b28ea21994285fc",
+            "updated": "2019-02-11T18:02:46+0000",
+            "vcs_last_commit": "2019-02-11T18:02:46+0000",
+            "vcs_last_fetch": "2019-02-11T18:02:46+0000",
+            "vcs_last_rev": "da86b20c8f06362d472437d96a9a6c78eb5e9708",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-01-27T17:01:33+0000",
-            "vcs_last_commit": "2019-01-27T17:01:33+0000",
-            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
-            "vcs_last_rev": "dd88b318a490daadba5759e61bd4c206de847384",
+            "updated": "2019-02-15T00:02:23+0000",
+            "vcs_last_commit": "2019-02-15T00:02:23+0000",
+            "vcs_last_fetch": "2019-02-15T00:02:23+0000",
+            "vcs_last_rev": "937c987607ae4e6a4aa51643731d568fdf879f17",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190128",
+            "actual_branch": "wr-10.19-20190212",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-01-27T17:01:33+0000",
-            "vcs_last_commit": "2019-01-27T17:01:33+0000",
-            "vcs_last_fetch": "2019-01-27T17:01:33+0000",
-            "vcs_last_rev": "919f7dad762fd1caabc4c282a3087c5838a0a430",
+            "updated": "2019-02-11T18:02:40+0000",
+            "vcs_last_commit": "2019-02-11T18:02:40+0000",
+            "vcs_last_fetch": "2019-02-11T18:02:40+0000",
+            "vcs_last_rev": "176e2fa2e8f02f3f83b003b1428841d2f4b4526e",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -331,7 +331,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mprpc is a fast implementation of the messagepack rpc protocol for python. It is based on gevent for handling connections and enabling concurrent connections.",
-            "filename": "python-mprpc_0.1.16.bb",
+            "filename": "python-mprpc_0.1.17.bb",
             "filepath": "recipes-connectivity/python-mprpc",
             "homepage": "https://github.com/studio-ousia/mprpc",
             "id": 723779,
@@ -340,17 +340,17 @@
             "license": "Apache-2.0",
             "pn": "python-mprpc",
             "provides": "python-mprpc ",
-            "pv": "0.1.16",
+            "pv": "0.1.17",
             "section": "devel/python",
             "summary": "A gevent based messagpack rpc library",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2019-02-13T17:02:55+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "mprpc is a fast implementation of the messagepack rpc protocol for python. It is based on gevent for handling connections and enabling concurrent connections.",
-            "filename": "python3-mprpc_0.1.16.bb",
+            "filename": "python3-mprpc_0.1.17.bb",
             "filepath": "recipes-connectivity/python-mprpc",
             "homepage": "https://github.com/studio-ousia/mprpc",
             "id": 723780,
@@ -359,10 +359,10 @@
             "license": "Apache-2.0",
             "pn": "python3-mprpc",
             "provides": "python3-mprpc ",
-            "pv": "0.1.16",
+            "pv": "0.1.17",
             "section": "devel/python",
             "summary": "A gevent based messagpack rpc library",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2019-02-13T17:02:55+0000"
         },
         {
             "bbclassextend": "",
@@ -723,7 +723,7 @@
             "pv": "2.16.0.0",
             "section": "devel/python",
             "summary": "Python vcversioner, automagically update the project's version",
-            "updated": "2018-10-05T09:10:35+0000"
+            "updated": "2019-02-13T17:02:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1277,7 +1277,7 @@
             "updated": "2018-10-05T09:10:40+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Extract data from Excel spreadsheets (.xls and .xlsx, versions 2.0 onwards) on any platform. Pure Python (2.6, 2.7, 3.2+). Strong support for Excel dates. Unicode-aware.",
@@ -1293,7 +1293,7 @@
             "pv": "1.1.0",
             "section": "devel/python",
             "summary": "Library for developers to extract data from Microsoft Excel (tm) spreadsheet files",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2019-02-13T17:02:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1372,7 +1372,7 @@
             "updated": "2018-10-05T09:10:41+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Implements a XML/HTML/XHTML Markup safe string for Python",
@@ -1388,7 +1388,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2019-02-13T17:02:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1452,7 +1452,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "gevent is a coroutine-based Python networking library that uses greenlet to provide a high-level synchronous API on top of the libevent event loop.",
-            "filename": "python3-gevent_1.2.2.bb",
+            "filename": "python3-gevent_1.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.gevent.org",
             "id": 723838,
@@ -1461,10 +1461,10 @@
             "license": "MIT & Python-2.0 & BSD",
             "pn": "python3-gevent",
             "provides": "python3-gevent ",
-            "pv": "1.2.2",
+            "pv": "1.4.0",
             "section": "devel/python",
             "summary": "A coroutine-based Python networking library",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2019-02-13T17:02:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2053,7 +2053,7 @@
             "pv": "2.16.0.0",
             "section": "devel/python",
             "summary": "Python vcversioner, automagically update the project's version",
-            "updated": "2018-10-05T09:10:47+0000"
+            "updated": "2019-02-13T17:02:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3937,7 +3937,7 @@
             "updated": "2018-10-05T09:10:04+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python Jinja2: A small but fast and easy to use stand-alone template engine written in pure python.",
@@ -3953,7 +3953,7 @@
             "pv": "2.10",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2019-02-13T17:02:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4523,7 +4523,7 @@
             "pv": "18.4.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-11-27T18:11:40+0000"
+            "updated": "2019-02-13T17:02:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4754,7 +4754,7 @@
             "updated": "2018-10-05T09:10:13+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Python Jinja2: A small but fast and easy to use stand-alone template engine written in pure python.",
@@ -4770,7 +4770,7 @@
             "pv": "2.10",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2019-02-13T17:02:58+0000"
         },
         {
             "bbclassextend": "",
@@ -5492,7 +5492,7 @@
             "pv": "18.4.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-11-27T18:11:40+0000"
+            "updated": "2019-02-13T17:02:59+0000"
         },
         {
             "bbclassextend": "",
@@ -5875,7 +5875,7 @@
             "updated": "2018-10-05T09:10:24+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
@@ -5891,7 +5891,7 @@
             "pv": "3.6.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-02-13T17:02:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6236,7 +6236,7 @@
             "updated": "2018-10-05T09:10:27+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Extract data from Excel spreadsheets (.xls and .xlsx, versions 2.0 onwards) on any platform. Pure Python (2.6, 2.7, 3.2+). Strong support for Excel dates. Unicode-aware.",
@@ -6252,7 +6252,7 @@
             "pv": "1.1.0",
             "section": "devel/python",
             "summary": "Library for developers to extract data from Microsoft Excel (tm) spreadsheet files",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2019-02-13T17:02:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6430,7 +6430,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "gevent is a coroutine-based Python networking library that uses greenlet to provide a high-level synchronous API on top of the libevent event loop.",
-            "filename": "python-gevent_1.2.2.bb",
+            "filename": "python-gevent_1.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.gevent.org",
             "id": 724100,
@@ -6439,10 +6439,10 @@
             "license": "MIT & Python-2.0 & BSD",
             "pn": "python-gevent",
             "provides": "python-gevent ",
-            "pv": "1.2.2",
+            "pv": "1.4.0",
             "section": "devel/python",
             "summary": "A coroutine-based Python networking library",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-02-13T17:02:55+0000"
         },
         {
             "bbclassextend": "",
@@ -6635,7 +6635,7 @@
             "updated": "2018-10-05T09:10:31+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
@@ -6651,7 +6651,7 @@
             "pv": "3.6.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2019-02-13T17:02:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7513,19 +7513,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Simple Library for Python 2.x packages contain miscellaneous code for convenience, extension and workaround purposes. This package provides slip.dbus.service.Object, which is a dbus.service.Object derivative that ends itself after a certain time without being used and/or if there are no clients anymore on the message bus, as well as convenience functions and decorators for integrating a dbus service with PolicyKit.",
-            "filename": "python-slip-dbus_0.6.1.bb",
+            "filename": "python-slip-dbus_0.6.5.bb",
             "filepath": "recipes-devtools/python",
-            "homepage": "http://nphilipp.fedorapeople.org/python-slip/",
+            "homepage": "https://github.com/nphilipp/python-slip",
             "id": 724157,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 14967,
             "license": "GPLv2+",
             "pn": "python-slip-dbus",
             "provides": "python-slip-dbus ",
-            "pv": "0.6.1",
+            "pv": "0.6.5",
             "section": "devel/python",
             "summary": "Convenience functions for dbus services in Python 2.x",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2019-02-13T17:02:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8076,7 +8076,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2019-02-13T17:02:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8664,8 +8664,8 @@
             "provides": "python-isodate ",
             "pv": "0.6.0",
             "section": "devel/python",
-            "summary": "Character encoding aliases for legacy web content",
-            "updated": "2019-01-28T00:01:49+0000"
+            "summary": "ISO 8601 date/time parser",
+            "updated": "2019-02-13T17:02:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8683,8 +8683,8 @@
             "provides": "python-rdflib ",
             "pv": "4.2.2",
             "section": "devel/python",
-            "summary": "Character encoding aliases for legacy web content",
-            "updated": "2019-01-28T00:01:49+0000"
+            "summary": "RDFLib is a pure Python package for working with RDF",
+            "updated": "2019-02-13T17:02:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8702,8 +8702,8 @@
             "provides": "python3-isodate ",
             "pv": "0.6.0",
             "section": "devel/python",
-            "summary": "Character encoding aliases for legacy web content",
-            "updated": "2019-01-28T00:01:50+0000"
+            "summary": "ISO 8601 date/time parser",
+            "updated": "2019-02-13T17:02:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8721,8 +8721,103 @@
             "provides": "python3-rdflib ",
             "pv": "4.2.2",
             "section": "devel/python",
-            "summary": "Character encoding aliases for legacy web content",
-            "updated": "2019-01-28T00:01:50+0000"
+            "summary": "RDFLib is a pure Python package for working with RDF",
+            "updated": "2019-02-13T17:02:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python-requests-oauthlib_0.8.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 904975,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "ISC",
+            "pn": "python-requests-oauthlib",
+            "provides": "python-requests-oauthlib ",
+            "pv": "0.8.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-02-13T17:02:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Python module to support twitter API",
+            "filename": "python-twitter_3.7.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 904976,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python-twitter",
+            "provides": "python-twitter ",
+            "pv": "3.7.0",
+            "section": "devel/python",
+            "summary": "Twitter for Python",
+            "updated": "2019-02-13T17:02:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-requests-oauthlib_0.8.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 904977,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "ISC",
+            "pn": "python3-requests-oauthlib",
+            "provides": "python3-requests-oauthlib ",
+            "pv": "0.8.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-02-13T17:02:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The Simple Library for Python 2.x packages contain miscellaneous code for convenience, extension and workaround purposes. This package provides slip.dbus.service.Object, which is a dbus.service.Object derivative that ends itself after a certain time without being used and/or if there are no clients anymore on the message bus, as well as convenience functions and decorators for integrating a dbus service with PolicyKit.",
+            "filename": "python3-slip-dbus_0.6.5.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/nphilipp/python-slip",
+            "id": 904978,
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "GPLv2+",
+            "pn": "python3-slip-dbus",
+            "provides": "python3-slip-dbus ",
+            "pv": "0.6.5",
+            "section": "devel/python",
+            "summary": "Convenience functions for dbus services in Python 2.x",
+            "updated": "2019-02-13T17:02:01+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Python module to support twitter API",
+            "filename": "python3-twitter_3.7.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 904979,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python3-twitter",
+            "provides": "python3-twitter ",
+            "pv": "3.7.0",
+            "section": "devel/python",
+            "summary": "Twitter for Python",
+            "updated": "2019-02-13T17:02:01+0000"
         }
     ],
     "wrtemplates": []
