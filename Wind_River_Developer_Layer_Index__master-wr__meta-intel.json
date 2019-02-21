@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190212",
+            "bitbake_branch": "wr-10.19-20190220",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-02-13T17:02:29+0000",
+            "updated": "2019-02-20T22:02:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190212",
+            "actual_branch": "wr-10.19-20190220",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-02-11T18:02:46+0000",
-            "vcs_last_commit": "2019-02-11T18:02:46+0000",
-            "vcs_last_fetch": "2019-02-11T18:02:46+0000",
-            "vcs_last_rev": "da86b20c8f06362d472437d96a9a6c78eb5e9708",
+            "updated": "2019-02-19T22:02:33+0000",
+            "vcs_last_commit": "2019-02-19T22:02:33+0000",
+            "vcs_last_fetch": "2019-02-19T22:02:33+0000",
+            "vcs_last_rev": "28c2f2c5e5dd30b58c572cec985f6a49f7083e33",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190212",
+            "actual_branch": "wr-10.19-20190220",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2019-02-11T18:02:36+0000",
-            "vcs_last_commit": "2019-02-11T18:02:36+0000",
-            "vcs_last_fetch": "2019-02-11T18:02:36+0000",
-            "vcs_last_rev": "ca12893c0b3315e83337b10f30e0402dedc89be8",
+            "updated": "2019-02-19T22:02:19+0000",
+            "vcs_last_commit": "2019-02-19T22:02:19+0000",
+            "vcs_last_fetch": "2019-02-19T22:02:19+0000",
+            "vcs_last_rev": "fcb527de55696004728eb0229bdf44b129cbf059",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 3
@@ -244,7 +244,7 @@
             "pv": "5.5.2",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-12-11T01:12:33+0000"
+            "updated": "2019-02-20T22:02:14+0000"
         },
         {
             "bbclassextend": "",
@@ -263,7 +263,7 @@
             "pv": "4.3.6",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-12-03T18:12:03+0000"
+            "updated": "2019-02-20T22:02:14+0000"
         },
         {
             "bbclassextend": "",
@@ -612,7 +612,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Intel(R) Graphics Memory Management Library provides device specific and buffer management for the Intel(R) Graphics Compute Runtime for OpenCL(TM) and the Intel(R) Media Driver for VAAPI.",
-            "filename": "gmmlib_18.3.0.bb",
+            "filename": "gmmlib_18.4.1.bb",
             "filepath": "recipes-graphics/gmmlib",
             "homepage": "",
             "id": 876220,
@@ -621,17 +621,17 @@
             "license": "MIT",
             "pn": "gmmlib",
             "provides": "gmmlib ",
-            "pv": "18.3.0",
+            "pv": "18.4.1",
             "section": "base",
             "summary": "Intel(R) Graphics Memory Management Library",
-            "updated": "2019-02-13T17:02:13+0000"
+            "updated": "2019-02-20T22:02:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/media-driver/issues",
             "description": "Intel Media Driver for VAAPI is a new VA-API (Video Acceleration API) user mode driver supporting hardware accelerated decoding, encoding, and video post processing for GEN based graphics hardware.",
-            "filename": "intel-media-driver_18.3.0.bb",
+            "filename": "intel-media-driver_18.4.1.bb",
             "filepath": "recipes-multimedia/libva",
             "homepage": "https://github.com/intel/media-driver",
             "id": 876221,
@@ -640,17 +640,17 @@
             "license": "MIT & BSD-3-Clause",
             "pn": "intel-media-driver",
             "provides": "intel-media-driver ",
-            "pv": "18.3.0",
+            "pv": "18.4.1",
             "section": "base",
             "summary": "VA driver for Intel Gen based graphics hardware",
-            "updated": "2019-02-13T17:02:13+0000"
+            "updated": "2019-02-20T22:02:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/Intel-Media-SDK/MediaSDK/issues",
             "description": "Intel(R) Media SDK provides an API to access hardware-accelerated video decode, encode and filtering on Intel\u00ae platforms with integrated graphics.",
-            "filename": "intel-mediasdk_18.3.1.bb",
+            "filename": "intel-mediasdk_18.4.0.bb",
             "filepath": "recipes-multimedia/mediasdk",
             "homepage": "https://github.com/Intel-Media-SDK/MediaSDK",
             "id": 876222,
@@ -659,10 +659,10 @@
             "license": "MIT",
             "pn": "intel-mediasdk",
             "provides": "intel-mediasdk ",
-            "pv": "18.3.1",
+            "pv": "18.4.0",
             "section": "base",
             "summary": "Intel(R) Media SDK for hardware accelerated media processing",
-            "updated": "2019-02-13T17:02:13+0000"
+            "updated": "2019-02-20T22:02:14+0000"
         },
         {
             "bbclassextend": "",

@@ -59,57 +59,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190212",
+            "bitbake_branch": "wr-10.19-20190220",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-02-13T17:02:29+0000",
+            "updated": "2019-02-20T22:02:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20181126",
+            "actual_branch": "wr-10.19-20190220",
             "branch": 38,
             "collection": "selinux",
             "id": 14951,
             "layer": 20,
-            "updated": "2018-10-07T23:10:27+0000",
-            "vcs_last_commit": "2018-10-07T23:10:27+0000",
-            "vcs_last_fetch": "2018-10-07T23:10:27+0000",
-            "vcs_last_rev": "0c33e43ac5743c8c18cc78c84751a37f0137750b",
+            "updated": "2019-02-19T22:02:22+0000",
+            "vcs_last_commit": "2019-02-19T22:02:22+0000",
+            "vcs_last_fetch": "2019-02-19T22:02:22+0000",
+            "vcs_last_rev": "e2189c79a047d3c05d069ab214b7dfeb0f4a0ef7",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190212",
+            "actual_branch": "wr-10.19-20190220",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-02-11T18:02:46+0000",
-            "vcs_last_commit": "2019-02-11T18:02:46+0000",
-            "vcs_last_fetch": "2019-02-11T18:02:46+0000",
-            "vcs_last_rev": "da86b20c8f06362d472437d96a9a6c78eb5e9708",
+            "updated": "2019-02-19T22:02:33+0000",
+            "vcs_last_commit": "2019-02-19T22:02:33+0000",
+            "vcs_last_fetch": "2019-02-19T22:02:33+0000",
+            "vcs_last_rev": "28c2f2c5e5dd30b58c572cec985f6a49f7083e33",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190212",
+            "actual_branch": "wr-10.19-20190220",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-02-11T18:02:40+0000",
-            "vcs_last_commit": "2019-02-11T18:02:40+0000",
-            "vcs_last_fetch": "2019-02-11T18:02:40+0000",
-            "vcs_last_rev": "176e2fa2e8f02f3f83b003b1428841d2f4b4526e",
+            "updated": "2019-02-19T22:02:30+0000",
+            "vcs_last_commit": "2019-02-19T22:02:30+0000",
+            "vcs_last_fetch": "2019-02-19T22:02:30+0000",
+            "vcs_last_rev": "60b473be365dbe89bd23317cfa865e308d8a5275",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -229,7 +229,7 @@
             "pv": "4.1.1",
             "section": "base",
             "summary": "Policy analysis tools for SELinux",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2019-02-20T22:02:09+0000"
         },
         {
             "bbclassextend": "",
@@ -514,7 +514,7 @@
             "pv": "2.7+gitX",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2019-02-20T22:02:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -704,7 +704,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-02-20T22:02:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -777,10 +777,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-targeted",
             "provides": "refpolicy-targeted  virtual/refpolicy",
-            "pv": "2.20151208",
+            "pv": "2.20170805+gitX",
             "section": "base",
             "summary": "SELinux targeted policy",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-02-20T22:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -796,10 +796,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-minimum",
             "provides": "refpolicy-minimum  virtual/refpolicy",
-            "pv": "2.20151208",
+            "pv": "2.20170805+gitX",
             "section": "base",
             "summary": "SELinux minimum policy",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-02-20T22:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -872,10 +872,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-mls",
             "provides": "refpolicy-mls  virtual/refpolicy",
-            "pv": "2.20151208",
+            "pv": "2.20170805+gitX",
             "section": "base",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-02-20T22:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -891,10 +891,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-standard",
             "provides": "refpolicy-standard  virtual/refpolicy",
-            "pv": "2.20151208",
+            "pv": "2.20170805+gitX",
             "section": "base",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-02-20T22:02:11+0000"
         },
         {
             "bbclassextend": "",
@@ -910,10 +910,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-mcs",
             "provides": "refpolicy-mcs  virtual/refpolicy",
-            "pv": "2.20151208",
+            "pv": "2.20170805+gitX",
             "section": "base",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-02-20T22:02:11+0000"
         },
         {
             "bbclassextend": "native",
