@@ -81,15 +81,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190220",
+            "actual_branch": "wr-10.19-20190225",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-02-19T22:02:33+0000",
-            "vcs_last_commit": "2019-02-19T22:02:33+0000",
-            "vcs_last_fetch": "2019-02-19T22:02:33+0000",
-            "vcs_last_rev": "28c2f2c5e5dd30b58c572cec985f6a49f7083e33",
+            "updated": "2019-02-24T18:02:44+0000",
+            "vcs_last_commit": "2019-02-24T18:02:44+0000",
+            "vcs_last_fetch": "2019-02-24T18:02:44+0000",
+            "vcs_last_rev": "60813ee01adbfc5aa7533dde36d12adb1829d6e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -1586,7 +1586,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The runtime library for accessing the kernel DRM services.  DRM stands for \\\"Direct Rendering Manager\\\", which is the kernel portion of the \\\"Direct Rendering Infrastructure\\\" (DRI).  DRI is required for many hardware accelerated OpenGL drivers.",
-            "filename": "libdrm_2.4.96.bb",
+            "filename": "libdrm_2.4.97.bb",
             "filepath": "recipes-graphics/drm",
             "homepage": "http://dri.freedesktop.org",
             "id": 722361,
@@ -1595,10 +1595,10 @@
             "license": "MIT",
             "pn": "libdrm",
             "provides": "libdrm drm",
-            "pv": "2.4.96",
+            "pv": "2.4.97",
             "section": "x11/base",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2019-02-20T22:02:38+0000"
+            "updated": "2019-02-24T23:02:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2168,7 +2168,7 @@
             "pv": "1.1.0",
             "section": "x11/libs",
             "summary": "Library for caching application menus",
-            "updated": "2019-02-20T22:02:20+0000"
+            "updated": "2019-02-24T23:02:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2878,7 +2878,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libjpeg-turbo is a derivative of libjpeg that uses SIMD instructions (MMX, SSE2, NEON) to accelerate baseline JPEG compression and decompression",
-            "filename": "libjpeg-turbo_2.0.1.bb",
+            "filename": "libjpeg-turbo_2.0.2.bb",
             "filepath": "recipes-graphics/jpeg",
             "homepage": "http://libjpeg-turbo.org/",
             "id": 722429,
@@ -2887,10 +2887,10 @@
             "license": "BSD-3-Clause",
             "pn": "libjpeg-turbo",
             "provides": "libjpeg-turbo jpeg",
-            "pv": "2.0.1",
+            "pv": "2.0.2",
             "section": "base",
             "summary": "Hardware accelerated JPEG compression/decompression library",
-            "updated": "2019-02-13T17:02:20+0000"
+            "updated": "2019-02-24T23:02:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3571,10 +3571,10 @@
             "license": "GPL-2.0+ & LGPL-2.1+",
             "pn": "kmod",
             "provides": "kmod  module-init-tools-insmod-static module-init-tools-depmod module-init-tools",
-            "pv": "25+gitX",
+            "pv": "26",
             "section": "base",
             "summary": "Tools for managing Linux kernel modules",
-            "updated": "2019-02-13T17:02:35+0000"
+            "updated": "2019-02-24T23:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3590,10 +3590,10 @@
             "license": "GPL-2.0+ & LGPL-2.1+",
             "pn": "kmod-native",
             "provides": "kmod-native ",
-            "pv": "25+gitX",
+            "pv": "26",
             "section": "base",
             "summary": "Tools for managing Linux kernel modules",
-            "updated": "2019-02-20T22:02:26+0000"
+            "updated": "2019-02-24T23:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4664,7 +4664,7 @@
             "blacklisted": "",
             "bugtracker": "https://salsa.debian.org/iso-codes-team/iso-codes/issues",
             "description": "",
-            "filename": "iso-codes_4.1.bb",
+            "filename": "iso-codes_4.2.bb",
             "filepath": "recipes-support/iso-codes",
             "homepage": "https://salsa.debian.org/iso-codes-team/iso-codes",
             "id": 722523,
@@ -4673,10 +4673,10 @@
             "license": "LGPLv2.1",
             "pn": "iso-codes",
             "provides": "iso-codes ",
-            "pv": "4.1",
+            "pv": "4.2",
             "section": "base",
             "summary": "ISO language, territory, currency, script codes and their translations",
-            "updated": "2018-11-27T18:11:08+0000"
+            "updated": "2019-02-24T23:02:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4759,7 +4759,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This package includes PEM files of CA certificates to allow SSL-based applications to check for the authenticity of SSL connections. This derived from Debian's CA Certificates.",
-            "filename": "ca-certificates_20180409.bb",
+            "filename": "ca-certificates_20190110.bb",
             "filepath": "recipes-support/ca-certificates",
             "homepage": "http://packages.debian.org/sid/ca-certificates",
             "id": 722528,
@@ -4768,10 +4768,10 @@
             "license": "GPL-2.0+ & MPL-2.0",
             "pn": "ca-certificates",
             "provides": "ca-certificates ",
-            "pv": "20180409",
+            "pv": "20190110",
             "section": "misc",
             "summary": "Common CA certificates",
-            "updated": "2018-10-23T03:10:20+0000"
+            "updated": "2019-02-24T23:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -5177,7 +5177,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "p11-kit_0.23.14.bb",
+            "filename": "p11-kit_0.23.15.bb",
             "filepath": "recipes-support/p11-kit",
             "homepage": "",
             "id": 722550,
@@ -5186,10 +5186,10 @@
             "license": "BSD",
             "pn": "p11-kit",
             "provides": "p11-kit ",
-            "pv": "0.23.14",
+            "pv": "0.23.15",
             "section": "base",
             "summary": "Provides a way to load and enumerate PKCS#11 modules",
-            "updated": "2019-02-13T17:02:45+0000"
+            "updated": "2019-02-24T23:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -6165,7 +6165,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "WebP is a method of lossy and lossless compression that can be                used on a large variety of photographic, translucent and                graphical images found on the web. The degree of lossy                compression is adjustable so a user can choose the trade-off                between file size and image quality. WebP typically achieves                an average of 30% more compression than JPEG and JPEG 2000,                without loss of image quality.",
-            "filename": "libwebp_1.0.1.bb",
+            "filename": "libwebp_1.0.2.bb",
             "filepath": "recipes-multimedia/webp",
             "homepage": "https://developers.google.com/speed/webp/",
             "id": 722602,
@@ -6174,10 +6174,10 @@
             "license": "BSD",
             "pn": "libwebp",
             "provides": "libwebp ",
-            "pv": "1.0.1",
+            "pv": "1.0.2",
             "section": "libs",
             "summary": "WebP is an image format designed for the Web",
-            "updated": "2018-11-27T18:11:14+0000"
+            "updated": "2019-02-24T23:02:47+0000"
         },
         {
             "bbclassextend": "",
@@ -6203,7 +6203,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
-            "filename": "ffmpeg_4.0.2.bb",
+            "filename": "ffmpeg_4.1.1.bb",
             "filepath": "recipes-multimedia/ffmpeg",
             "homepage": "https://www.ffmpeg.org/",
             "id": 722604,
@@ -6212,10 +6212,10 @@
             "license": "BSD & GPLv2+ & LGPLv2.1+ & MIT",
             "pn": "ffmpeg",
             "provides": "ffmpeg libav libpostproc",
-            "pv": "4.0.2",
+            "pv": "4.1.1",
             "section": "libs",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2019-01-02T17:01:40+0000"
+            "updated": "2019-02-24T23:02:47+0000"
         },
         {
             "bbclassextend": "",
@@ -6412,7 +6412,7 @@
             "blacklisted": "",
             "bugtracker": "http://www.sudo.ws/bugs/",
             "description": "Sudo (superuser do) allows a system administrator to give certain users (or groups of users) the ability to run some (or all) commands as root while logging all commands and arguments.",
-            "filename": "sudo_1.8.26.bb",
+            "filename": "sudo_1.8.27.bb",
             "filepath": "recipes-extended/sudo",
             "homepage": "http://www.sudo.ws",
             "id": 722615,
@@ -6421,10 +6421,10 @@
             "license": "ISC & BSD & Zlib",
             "pn": "sudo",
             "provides": "sudo ",
-            "pv": "1.8.26",
+            "pv": "1.8.27",
             "section": "admin",
             "summary": "Provide limited super user privileges to specific users",
-            "updated": "2018-12-11T01:12:14+0000"
+            "updated": "2019-02-24T23:02:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -6469,7 +6469,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The sysstat utilities are a collection of performance monitoring tools for Linux.",
-            "filename": "sysstat_12.1.1.bb",
+            "filename": "sysstat_12.1.3.bb",
             "filepath": "recipes-extended/sysstat",
             "homepage": "http://sebastien.godard.pagesperso-orange.fr/",
             "id": 722618,
@@ -6478,10 +6478,10 @@
             "license": "GPLv2+",
             "pn": "sysstat",
             "provides": "sysstat ",
-            "pv": "12.1.1",
+            "pv": "12.1.3",
             "section": "console/utils",
             "summary": "System performance tools",
-            "updated": "2019-01-15T17:01:41+0000"
+            "updated": "2019-02-24T23:02:46+0000"
         },
         {
             "bbclassextend": "",
@@ -6507,7 +6507,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Diffutils contains the GNU diff, diff3, sdiff, and cmp utilities. These programs are usually used for creating patch files.",
-            "filename": "diffutils_3.6.bb",
+            "filename": "diffutils_3.7.bb",
             "filepath": "recipes-extended/diffutils",
             "homepage": "https://www.gnu.org/software/diffutils/diffutils.html",
             "id": 722620,
@@ -6516,10 +6516,10 @@
             "license": "GPLv3+",
             "pn": "diffutils",
             "provides": "diffutils ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
             "summary": "Diffutils contains tools used for finding differences between files",
-            "updated": "2019-02-13T17:02:52+0000"
+            "updated": "2019-02-24T23:02:45+0000"
         },
         {
             "bbclassextend": "",
@@ -6697,7 +6697,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cups_2.2.9.bb",
+            "filename": "cups_2.2.10.bb",
             "filepath": "recipes-extended/cups",
             "homepage": "https://www.cups.org/",
             "id": 722630,
@@ -6706,10 +6706,10 @@
             "license": "GPLv2 & LGPLv2",
             "pn": "cups",
             "provides": "cups ",
-            "pv": "2.2.9",
+            "pv": "2.2.10",
             "section": "console/utils",
             "summary": "An Internet printing system for Unix",
-            "updated": "2019-01-15T17:01:43+0000"
+            "updated": "2019-02-24T23:02:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6887,7 +6887,7 @@
             "blacklisted": "",
             "bugtracker": "http://redmine.lighttpd.net/projects/lighttpd/issues",
             "description": "",
-            "filename": "lighttpd_1.4.52.bb",
+            "filename": "lighttpd_1.4.53.bb",
             "filepath": "recipes-extended/lighttpd",
             "homepage": "http://www.lighttpd.net/",
             "id": 722640,
@@ -6896,10 +6896,10 @@
             "license": "BSD",
             "pn": "lighttpd",
             "provides": "lighttpd ",
-            "pv": "1.4.52",
+            "pv": "1.4.53",
             "section": "net",
             "summary": "Lightweight high-performance web server",
-            "updated": "2019-01-20T22:01:24+0000"
+            "updated": "2019-02-24T23:02:45+0000"
         },
         {
             "bbclassextend": "",
@@ -7153,7 +7153,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU tar saves many files together into a single tape or disk archive, and can restore individual files from the archive.",
-            "filename": "tar_1.30.bb",
+            "filename": "tar_1.31.bb",
             "filepath": "recipes-extended/tar",
             "homepage": "http://www.gnu.org/software/tar/",
             "id": 722654,
@@ -7162,10 +7162,10 @@
             "license": "GPLv3",
             "pn": "tar",
             "provides": "tar ",
-            "pv": "1.30",
+            "pv": "1.31",
             "section": "base",
             "summary": "GNU file archiving program",
-            "updated": "2019-02-13T17:02:55+0000"
+            "updated": "2019-02-24T23:02:46+0000"
         },
         {
             "bbclassextend": "nativesdk native",
@@ -7628,7 +7628,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is a C library for setting up and running pipelines of processes, without needing to involve shell command-line parsing which is often error-prone and insecure.",
-            "filename": "libpipeline_1.5.0.bb",
+            "filename": "libpipeline_1.5.1.bb",
             "filepath": "recipes-extended/libpipeline",
             "homepage": "http://libpipeline.nongnu.org/",
             "id": 722679,
@@ -7637,10 +7637,10 @@
             "license": "GPLv3",
             "pn": "libpipeline",
             "provides": "libpipeline ",
-            "pv": "1.5.0",
+            "pv": "1.5.1",
             "section": "base",
             "summary": "pipeline manipulation library",
-            "updated": "2018-11-27T18:11:36+0000"
+            "updated": "2019-02-24T23:02:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9179,7 +9179,7 @@
             "pv": "0.4.0",
             "section": "base",
             "summary": "Additional utilities for the opkg package manager",
-            "updated": "2019-01-02T17:01:39+0000"
+            "updated": "2019-02-24T23:02:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9357,7 +9357,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "librepo_1.9.3.bb",
+            "filename": "librepo_1.9.4.bb",
             "filepath": "recipes-devtools/librepo",
             "homepage": "",
             "id": 722784,
@@ -9366,10 +9366,10 @@
             "license": "LGPLv2.1",
             "pn": "librepo",
             "provides": "librepo ",
-            "pv": "1.9.3",
+            "pv": "1.9.4",
             "section": "base",
             "summary": " A library providing C and Python (libcURL like) API for downloading linux repository metadata and packages.",
-            "updated": "2019-02-13T17:02:05+0000"
+            "updated": "2019-02-24T23:02:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9452,7 +9452,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.",
-            "filename": "btrfs-tools_4.19.1.bb",
+            "filename": "btrfs-tools_4.20.1.bb",
             "filepath": "recipes-devtools/btrfs-tools",
             "homepage": "https://btrfs.wiki.kernel.org",
             "id": 722789,
@@ -9461,10 +9461,10 @@
             "license": "GPLv2",
             "pn": "btrfs-tools",
             "provides": "btrfs-tools ",
-            "pv": "4.19.1",
+            "pv": "4.20.1",
             "section": "base",
             "summary": "Checksumming Copy on Write Filesystem utilities",
-            "updated": "2019-02-13T17:02:05+0000"
+            "updated": "2019-02-24T23:02:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9547,7 +9547,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pip_18.0.bb",
+            "filename": "python3-pip_19.0.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pip",
             "id": 722794,
@@ -9556,10 +9556,10 @@
             "license": "MIT",
             "pn": "python3-pip",
             "provides": "python3-pip ",
-            "pv": "18.0",
+            "pv": "19.0.2",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2019-02-13T17:02:07+0000"
+            "updated": "2019-02-24T23:02:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9623,7 +9623,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
-            "filename": "python3-pbr_5.1.1.bb",
+            "filename": "python3-pbr_5.1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
             "id": 722798,
@@ -9632,17 +9632,17 @@
             "license": "Apache-2.0",
             "pn": "python3-pbr",
             "provides": "python3-pbr ",
-            "pv": "5.1.1",
+            "pv": "5.1.2",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2019-02-13T17:02:07+0000"
+            "updated": "2019-02-24T23:02:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-six_1.11.0.bb",
+            "filename": "python3-six_1.12.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/six/",
             "id": 722799,
@@ -9651,10 +9651,10 @@
             "license": "MIT",
             "pn": "python3-six",
             "provides": "python3-six ",
-            "pv": "1.11.0",
+            "pv": "1.12.0",
             "section": "devel/python",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2019-02-13T17:02:08+0000"
+            "updated": "2019-02-24T23:02:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9718,7 +9718,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-gitdb_2.0.4.bb",
+            "filename": "python3-gitdb_2.0.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/gitpython-developers/gitdb",
             "id": 722804,
@@ -9727,10 +9727,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-gitdb",
             "provides": "python3-gitdb ",
-            "pv": "2.0.4",
+            "pv": "2.0.5",
             "section": "devel/python",
             "summary": "A pure-Python git object database",
-            "updated": "2019-02-13T17:02:08+0000"
+            "updated": "2019-02-24T23:02:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9794,7 +9794,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-setuptools_40.0.0.bb",
+            "filename": "python-setuptools_40.8.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/setuptools",
             "id": 722808,
@@ -9803,10 +9803,10 @@
             "license": "MIT",
             "pn": "python-setuptools",
             "provides": "python-setuptools python-distribute",
-            "pv": "40.0.0",
+            "pv": "40.8.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2018-10-23T03:10:44+0000"
+            "updated": "2019-02-24T23:02:33+0000"
         },
         {
             "bbclassextend": "",
@@ -9870,7 +9870,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-setuptools_40.0.0.bb",
+            "filename": "python3-setuptools_40.8.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/setuptools",
             "id": 722812,
@@ -9879,10 +9879,10 @@
             "license": "MIT",
             "pn": "python3-setuptools",
             "provides": "python3-setuptools ",
-            "pv": "40.0.0",
+            "pv": "40.8.0",
             "section": "devel/python",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2019-02-13T17:02:10+0000"
+            "updated": "2019-02-24T23:02:34+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9977,14 +9977,14 @@
             "pv": "3.7.2",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2019-02-13T17:02:27+0000"
+            "updated": "2019-02-24T23:02:44+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Vala is a C#-like language dedicated to ease GObject programming. Vala compiles to plain C and has no runtime environment nor penalities whatsoever.",
-            "filename": "vala_0.42.4.bb",
+            "filename": "vala_0.42.5.bb",
             "filepath": "recipes-devtools/vala",
             "homepage": "http://vala-project.org",
             "id": 722818,
@@ -9993,10 +9993,10 @@
             "license": "LGPLv2.1",
             "pn": "vala",
             "provides": "vala ",
-            "pv": "0.42.4",
+            "pv": "0.42.5",
             "section": "devel",
             "summary": "C#-like programming language for easing GObject programming",
-            "updated": "2019-01-20T22:01:24+0000"
+            "updated": "2019-02-24T23:02:45+0000"
         },
         {
             "bbclassextend": "",
@@ -10468,10 +10468,10 @@
             "license": "GPLv2",
             "pn": "createrepo-c",
             "provides": "createrepo-c ",
-            "pv": "0.12.0",
+            "pv": "0.12.1",
             "section": "base",
             "summary": "",
-            "updated": "2019-02-13T17:02:12+0000"
+            "updated": "2019-02-24T23:02:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -10706,7 +10706,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dnf_4.0.10.bb",
+            "filename": "dnf_4.1.0.bb",
             "filepath": "recipes-devtools/dnf",
             "homepage": "",
             "id": 722856,
@@ -10715,17 +10715,17 @@
             "license": "GPLv2",
             "pn": "dnf",
             "provides": "dnf ",
-            "pv": "4.0.10",
+            "pv": "4.1.0",
             "section": "base",
             "summary": "Package manager forked from Yum, using libsolv as a dependency resolver",
-            "updated": "2019-02-13T17:02:13+0000"
+            "updated": "2019-02-24T23:02:41+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "nativesdk-meson_0.49.0.bb",
+            "filename": "nativesdk-meson_0.49.2.bb",
             "filepath": "recipes-devtools/meson",
             "homepage": "http://mesonbuild.com",
             "id": 722857,
@@ -10734,17 +10734,17 @@
             "license": "Apache-2.0",
             "pn": "nativesdk-meson",
             "provides": "nativesdk-meson",
-            "pv": "0.49.0",
+            "pv": "0.49.2",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2019-02-20T22:02:38+0000"
+            "updated": "2019-02-24T23:02:33+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "meson_0.49.0.bb",
+            "filename": "meson_0.49.2.bb",
             "filepath": "recipes-devtools/meson",
             "homepage": "http://mesonbuild.com",
             "id": 722858,
@@ -10753,10 +10753,10 @@
             "license": "Apache-2.0",
             "pn": "meson",
             "provides": "meson ",
-            "pv": "0.49.0",
+            "pv": "0.49.2",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2019-02-20T22:02:38+0000"
+            "updated": "2019-02-24T23:02:33+0000"
         },
         {
             "bbclassextend": "",
@@ -10991,7 +10991,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libdnf_0.24.1.bb",
+            "filename": "libdnf_0.26.0.bb",
             "filepath": "recipes-devtools/libdnf",
             "homepage": "",
             "id": 722872,
@@ -11000,10 +11000,10 @@
             "license": "LGPLv2.1",
             "pn": "libdnf",
             "provides": "libdnf ",
-            "pv": "0.24.1",
+            "pv": "0.26.0",
             "section": "base",
             "summary": "Library providing simplified C and Python API to libsolv",
-            "updated": "2019-02-13T17:02:13+0000"
+            "updated": "2019-02-24T23:02:42+0000"
         },
         {
             "bbclassextend": "",
@@ -11076,10 +11076,10 @@
             "license": "GPLv2",
             "pn": "libcomps",
             "provides": "libcomps ",
-            "pv": "0.1.9",
+            "pv": "0.1.10",
             "section": "base",
             "summary": "Libcomps is alternative for yum.comps library (which is for managing rpm package groups).",
-            "updated": "2019-02-13T17:02:15+0000"
+            "updated": "2019-02-24T23:02:42+0000"
         },
         {
             "bbclassextend": "",
@@ -11922,7 +11922,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "epiphany_3.30.2.bb",
+            "filename": "epiphany_3.30.3.bb",
             "filepath": "recipes-gnome/epiphany",
             "homepage": "",
             "id": 722921,
@@ -11931,17 +11931,17 @@
             "license": "GPLv3+",
             "pn": "epiphany",
             "provides": "epiphany ",
-            "pv": "3.30.2",
+            "pv": "3.30.3",
             "section": "base",
             "summary": "WebKit based web browser for GNOME",
-            "updated": "2019-02-20T22:02:41+0000"
+            "updated": "2019-02-24T23:02:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
             "description": "",
-            "filename": "gcr_3.28.0.bb",
+            "filename": "gcr_3.28.1.bb",
             "filepath": "recipes-gnome/gcr",
             "homepage": "http://www.gnome.org/",
             "id": 722922,
@@ -11950,10 +11950,10 @@
             "license": "GPLv2",
             "pn": "gcr",
             "provides": "gcr ",
-            "pv": "3.28.0",
+            "pv": "3.28.1",
             "section": "base",
             "summary": "A library for bits of crypto UI and parsing etc",
-            "updated": "2019-02-13T17:02:20+0000"
+            "updated": "2019-02-24T23:02:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -12276,7 +12276,7 @@
             "pv": "2.29",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-02-13T17:02:11+0000"
+            "updated": "2019-02-24T23:02:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12739,7 +12739,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\\"single instance\\\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
-            "filename": "dbus_1.12.10.bb",
+            "filename": "dbus_1.12.12.bb",
             "filepath": "recipes-core/dbus",
             "homepage": "http://dbus.freedesktop.org",
             "id": 722967,
@@ -12748,17 +12748,17 @@
             "license": "AFL-2 | GPLv2+",
             "pn": "dbus",
             "provides": "dbus ",
-            "pv": "1.12.10",
+            "pv": "1.12.12",
             "section": "base",
             "summary": "D-Bus message bus",
-            "updated": "2019-02-13T17:02:10+0000"
+            "updated": "2019-02-24T23:02:40+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dbus-test_1.12.10.bb",
+            "filename": "dbus-test_1.12.12.bb",
             "filepath": "recipes-core/dbus",
             "homepage": "http://dbus.freedesktop.org",
             "id": 722968,
@@ -12767,10 +12767,10 @@
             "license": "AFL-2 | GPLv2+",
             "pn": "dbus-test",
             "provides": "dbus-test ",
-            "pv": "1.12.10",
+            "pv": "1.12.12",
             "section": "base",
             "summary": "D-Bus test package (for D-bus functionality testing only)",
-            "updated": "2018-12-11T01:12:21+0000"
+            "updated": "2019-02-24T23:02:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -13917,19 +13917,19 @@
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org",
             "description": "glib-networking contains the implementations of certain GLib networking features that cannot be implemented directly in GLib itself because of their dependencies.",
-            "filename": "glib-networking_2.54.1.bb",
+            "filename": "glib-networking_2.58.0.bb",
             "filepath": "recipes-core/glib-networking",
             "homepage": "https://gitlab.gnome.org/GNOME/glib-networking/",
             "id": 723029,
-            "inherits": "autotools gettext gio-module-cache gnomebase pkgconfig qemu siteconfig siteinfo upstream-version-is-even",
+            "inherits": "gettext gio-module-cache gnomebase meson pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
             "layerbranch": 14953,
-            "license": "LGPLv2",
+            "license": "LGPLv2.1",
             "pn": "glib-networking",
             "provides": "glib-networking ",
-            "pv": "2.54.1",
+            "pv": "2.58.0",
             "section": "libs",
             "summary": "GLib networking extensions",
-            "updated": "2018-11-27T18:11:27+0000"
+            "updated": "2019-02-24T23:02:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14468,7 +14468,7 @@
             "blacklisted": "",
             "bugtracker": "http://bugs.webkit.org/",
             "description": "",
-            "filename": "webkitgtk_2.22.5.bb",
+            "filename": "webkitgtk_2.22.6.bb",
             "filepath": "recipes-sato/webkit",
             "homepage": "http://www.webkitgtk.org/",
             "id": 723058,
@@ -14477,10 +14477,10 @@
             "license": "BSD & LGPLv2+",
             "pn": "webkitgtk",
             "provides": "webkitgtk ",
-            "pv": "2.22.5",
+            "pv": "2.22.6",
             "section": "base",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2019-02-13T17:02:27+0000"
+            "updated": "2019-02-24T23:02:47+0000"
         },
         {
             "bbclassextend": "",
@@ -14795,15 +14795,15 @@
             "filepath": "recipes-devtools/libmodulemd",
             "homepage": "",
             "id": 863109,
-            "inherits": "meson python3-dir python3native siteinfo",
+            "inherits": "gobject-introspection gobject-introspection-data meson python3-dir python3native siteinfo",
             "layerbranch": 14953,
             "license": "MIT",
             "pn": "libmodulemd",
             "provides": "libmodulemd ",
-            "pv": "1.7.0",
+            "pv": "2.1.0",
             "section": "base",
             "summary": "C Library for manipulating module metadata files",
-            "updated": "2019-02-20T22:02:37+0000"
+            "updated": "2019-02-24T23:02:43+0000"
         },
         {
             "bbclassextend": "",
