@@ -86,10 +86,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-02-24T18:02:44+0000",
-            "vcs_last_commit": "2019-02-24T18:02:44+0000",
-            "vcs_last_fetch": "2019-02-24T18:02:44+0000",
-            "vcs_last_rev": "60813ee01adbfc5aa7533dde36d12adb1829d6e5",
+            "updated": "2019-02-26T00:02:56+0000",
+            "vcs_last_commit": "2019-02-26T00:02:56+0000",
+            "vcs_last_fetch": "2019-02-26T00:02:56+0000",
+            "vcs_last_rev": "f767d44f49b3e9f517afaf6cc5f0b7d4ad8f2f9a",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -14814,7 +14814,7 @@
             "filepath": "recipes-gnome/libdazzle",
             "homepage": "",
             "id": 863110,
-            "inherits": "gnomebase gobject-introspection gobject-introspection-data meson pkgconfig python3-dir python3native siteinfo upstream-version-is-even vala",
+            "inherits": "distro_features_check gnomebase gobject-introspection gobject-introspection-data meson pkgconfig python3-dir python3native siteinfo upstream-version-is-even vala",
             "layerbranch": 14953,
             "license": "GPLv3+",
             "pn": "libdazzle",
@@ -14822,7 +14822,7 @@
             "pv": "3.30.2",
             "section": "base",
             "summary": "The libdazzle library is a companion library to GObject and Gtk+.",
-            "updated": "2019-02-20T22:02:37+0000"
+            "updated": "2019-02-26T00:02:27+0000"
         },
         {
             "bbclassextend": "",
