@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190220",
+            "bitbake_branch": "wr-10.19-20190305",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-02-20T22:02:10+0000",
+            "updated": "2019-03-05T19:03:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190225",
+            "actual_branch": "wr-10.19-20190305",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-04T00:03:45+0000",
-            "vcs_last_commit": "2019-03-04T00:03:45+0000",
-            "vcs_last_fetch": "2019-03-04T00:03:45+0000",
-            "vcs_last_rev": "f2093216d8a7db1a5ba8f066d5593b3a130abbb3",
+            "updated": "2019-03-05T18:03:10+0000",
+            "vcs_last_commit": "2019-03-05T18:03:10+0000",
+            "vcs_last_fetch": "2019-03-05T18:03:10+0000",
+            "vcs_last_rev": "16fd15d042f383b9776081220d5881130aafa148",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190225",
+            "actual_branch": "wr-10.19-20190305",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2019-03-04T01:03:33+0000",
-            "vcs_last_commit": "2019-03-04T01:03:33+0000",
-            "vcs_last_fetch": "2019-03-04T01:03:33+0000",
-            "vcs_last_rev": "1561f7fc9dfd340543d7f171d6176613ca8402e4",
+            "updated": "2019-03-04T19:03:20+0000",
+            "vcs_last_commit": "2019-03-04T19:03:20+0000",
+            "vcs_last_fetch": "2019-03-04T19:03:20+0000",
+            "vcs_last_rev": "831409b9bc6edaf101e042ff40d39c8fbc58ed8d",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 3
@@ -1547,7 +1547,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Video player and streamer - davinci edition",
-            "filename": "vlc_2.2.2.bb",
+            "filename": "vlc_3.0.6.bb",
             "filepath": "recipes-multimedia/vlc",
             "homepage": "http://www.videolan.org",
             "id": 724339,
@@ -1556,10 +1556,10 @@
             "license": "GPL-2.0",
             "pn": "vlc",
             "provides": "vlc ",
-            "pv": "2.2.2",
+            "pv": "3.0.6",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2019-03-05T19:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1788,6 +1788,25 @@
             "section": "libs/multimedia",
             "summary": "Fluidsynth is a software synthesizer",
             "updated": "2019-01-20T22:01:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University\u2019s Flite (Festival-Lite) software. Mimic takes in text and reads it out loud to create a high quality voice.",
+            "filename": "mimic_1.2.0.2.bb",
+            "filepath": "recipes-multimedia/mimic",
+            "homepage": "https://mimic.mycroft.ai/",
+            "id": 917923,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 14963,
+            "license": "MIT-X &            PD &            CMU-Tex &            BSD &            BSD-2-Clause &            BSD-3-Clause &            flite &            (flite & Sun) &            BellBird &            Apache-2.0            ",
+            "pn": "mimic",
+            "provides": "mimic ",
+            "pv": "1.2.0.2",
+            "section": "multimedia",
+            "summary": "A fast lightweight Text-to-speech engine",
+            "updated": "2019-03-05T19:03:28+0000"
         }
     ],
     "wrtemplates": []

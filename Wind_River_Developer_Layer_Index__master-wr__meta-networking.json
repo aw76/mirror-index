@@ -59,71 +59,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190220",
+            "bitbake_branch": "wr-10.19-20190305",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-02-20T22:02:10+0000",
+            "updated": "2019-03-05T19:03:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190225",
+            "actual_branch": "wr-10.19-20190305",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-04T00:03:45+0000",
-            "vcs_last_commit": "2019-03-04T00:03:45+0000",
-            "vcs_last_fetch": "2019-03-04T00:03:45+0000",
-            "vcs_last_rev": "f2093216d8a7db1a5ba8f066d5593b3a130abbb3",
+            "updated": "2019-03-05T18:03:10+0000",
+            "vcs_last_commit": "2019-03-05T18:03:10+0000",
+            "vcs_last_fetch": "2019-03-05T18:03:10+0000",
+            "vcs_last_rev": "16fd15d042f383b9776081220d5881130aafa148",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190225",
+            "actual_branch": "wr-10.19-20190305",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-02-19T22:02:31+0000",
-            "vcs_last_commit": "2019-02-19T22:02:31+0000",
-            "vcs_last_fetch": "2019-02-19T22:02:31+0000",
-            "vcs_last_rev": "b60305c496d433099f784211a045dcabb09a0d6b",
+            "updated": "2019-03-04T19:03:52+0000",
+            "vcs_last_commit": "2019-03-04T19:03:52+0000",
+            "vcs_last_fetch": "2019-03-04T19:03:52+0000",
+            "vcs_last_rev": "a6ec50cc33906b57143324d253f712cf554bd560",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190225",
+            "actual_branch": "wr-10.19-20190305",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-02-22T01:02:45+0000",
-            "vcs_last_commit": "2019-02-22T01:02:45+0000",
-            "vcs_last_fetch": "2019-02-22T01:02:45+0000",
-            "vcs_last_rev": "fcbc5b668f0e352d54a7866e867222d07e1e7598",
+            "updated": "2019-03-04T19:03:52+0000",
+            "vcs_last_commit": "2019-03-04T19:03:52+0000",
+            "vcs_last_fetch": "2019-03-04T19:03:52+0000",
+            "vcs_last_rev": "20255268f8ebf26681a5132a1b2c2f70f939e23f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190225",
+            "actual_branch": "wr-10.19-20190305",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-02-19T22:02:30+0000",
-            "vcs_last_commit": "2019-02-19T22:02:30+0000",
-            "vcs_last_fetch": "2019-02-19T22:02:30+0000",
-            "vcs_last_rev": "60b473be365dbe89bd23317cfa865e308d8a5275",
+            "updated": "2019-03-04T19:03:20+0000",
+            "vcs_last_commit": "2019-03-04T19:03:20+0000",
+            "vcs_last_fetch": "2019-03-04T19:03:20+0000",
+            "vcs_last_rev": "831409b9bc6edaf101e042ff40d39c8fbc58ed8d",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -305,7 +305,7 @@
             "pv": "2.9.11.1",
             "section": "net",
             "summary": "",
-            "updated": "2018-10-24T00:10:22+0000"
+            "updated": "2019-03-05T19:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -495,7 +495,7 @@
             "pv": "3.0.17",
             "section": "System/Servers",
             "summary": "High-performance and highly configurable RADIUS server",
-            "updated": "2018-10-10T20:10:22+0000"
+            "updated": "2019-03-05T19:03:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -1110,7 +1110,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Dovecot is an open source IMAP and POP3 email server for Linux/UNIX-like systems, written with security primarily in mind. Dovecot is an excellent choice for both small and large installations. It's fast, simple to set up, requires no special administration and it uses very little memory.",
-            "filename": "dovecot_2.2.33.bb",
+            "filename": "dovecot_2.2.36.bb",
             "filepath": "recipes-support/dovecot",
             "homepage": "https://www.dovecot.org/",
             "id": 724946,
@@ -1119,10 +1119,10 @@
             "license": "LGPLv2.1 & MIT",
             "pn": "dovecot",
             "provides": "dovecot ",
-            "pv": "2.2.33",
+            "pv": "2.2.36",
             "section": "mail",
             "summary": "Dovecot is an open source IMAP and POP3 email server",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-03-05T19:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2984,7 +2984,7 @@
             "pv": "3.8.0",
             "section": "net",
             "summary": "Hardware Platform Interface Library and Tools",
-            "updated": "2018-10-05T09:10:52+0000"
+            "updated": "2019-03-05T19:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3079,7 +3079,7 @@
             "pv": "1.7.1",
             "section": "net",
             "summary": "ZNC, an advanced IRC bouncer",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2019-03-05T19:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3345,7 +3345,7 @@
             "pv": "5.8",
             "section": "net",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2018-12-25T17:12:26+0000"
+            "updated": "2019-03-05T19:03:00+0000"
         },
         {
             "bbclassextend": "",

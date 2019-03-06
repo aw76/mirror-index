@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190220",
+            "bitbake_branch": "wr-10.19-20190305",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-02-20T22:02:10+0000",
+            "updated": "2019-03-05T19:03:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190225",
+            "actual_branch": "wr-10.19-20190305",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-04T00:03:45+0000",
-            "vcs_last_commit": "2019-03-04T00:03:45+0000",
-            "vcs_last_fetch": "2019-03-04T00:03:45+0000",
-            "vcs_last_rev": "f2093216d8a7db1a5ba8f066d5593b3a130abbb3",
+            "updated": "2019-03-05T18:03:10+0000",
+            "vcs_last_commit": "2019-03-05T18:03:10+0000",
+            "vcs_last_fetch": "2019-03-05T18:03:10+0000",
+            "vcs_last_rev": "16fd15d042f383b9776081220d5881130aafa148",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190225",
+            "actual_branch": "wr-10.19-20190305",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-02-22T01:02:45+0000",
-            "vcs_last_commit": "2019-02-22T01:02:45+0000",
-            "vcs_last_fetch": "2019-02-22T01:02:45+0000",
-            "vcs_last_rev": "fcbc5b668f0e352d54a7866e867222d07e1e7598",
+            "updated": "2019-03-04T19:03:52+0000",
+            "vcs_last_commit": "2019-03-04T19:03:52+0000",
+            "vcs_last_fetch": "2019-03-04T19:03:52+0000",
+            "vcs_last_rev": "20255268f8ebf26681a5132a1b2c2f70f939e23f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -331,7 +331,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xwd_1.0.6.bb",
+            "filename": "xwd_1.0.7.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://cgit.freedesktop.org/xorg/app/xwd/",
             "id": 723097,
@@ -340,10 +340,10 @@
             "license": "MIT",
             "pn": "xwd",
             "provides": "xwd ",
-            "pv": "1.0.6",
+            "pv": "1.0.7",
             "section": "x11/app",
             "summary": "xwd is a tool to capture an X window or screen to file",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-03-05T19:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1376,7 +1376,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/g-truc/glm/issues",
             "description": "OpenGL Mathematics (GLM) is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language (GLSL) specifications.",
-            "filename": "glm_0.9.9-a2.bb",
+            "filename": "glm_0.9.9.3.bb",
             "filepath": "recipes-graphics/glm",
             "homepage": "https://glm.g-truc.net",
             "id": 723152,
@@ -1385,10 +1385,10 @@
             "license": "MIT",
             "pn": "glm",
             "provides": "glm ",
-            "pv": "0.9.9-a2",
+            "pv": "0.9.9.3",
             "section": "libs",
             "summary": "OpenGL Mathematics Library",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-03-05T19:03:03+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -1490,7 +1490,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "mga is an Xorg driver for Matrox video cards",
-            "filename": "xf86-video-mga_1.6.5.bb",
+            "filename": "xf86-video-mga_2.0.0.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
             "id": 723158,
@@ -1499,10 +1499,10 @@
             "license": "MIT-X",
             "pn": "xf86-video-mga",
             "provides": "xf86-video-mga ",
-            "pv": "1.6.5",
+            "pv": "2.0.0",
             "section": "x11/drivers",
             "summary": "X.Org X server -- Matrox MGA display driver",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2019-03-05T19:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2338,7 +2338,7 @@
             "pv": "20170731",
             "section": "base",
             "summary": "A font editor",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2019-03-05T19:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2680,7 +2680,7 @@
             "pv": "1.16.2",
             "section": "console/network",
             "summary": "A network authentication protocol",
-            "updated": "2018-12-03T18:12:33+0000"
+            "updated": "2019-03-05T19:03:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -3793,7 +3793,7 @@
             "filepath": "recipes-support/upower",
             "homepage": "",
             "id": 723281,
-            "inherits": "autotools gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo systemd",
+            "inherits": "autotools distro_features_check gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "GPLv2+",
             "pn": "upower",
@@ -3801,7 +3801,7 @@
             "pv": "0.99.7",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-03-05T19:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3922,7 +3922,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "pv_1.5.3.bb",
+            "filename": "pv_1.6.6.bb",
             "filepath": "recipes-support/pv",
             "homepage": "",
             "id": 723288,
@@ -3931,10 +3931,10 @@
             "license": "Artistic-2.0",
             "pn": "pv",
             "provides": "pv ",
-            "pv": "1.5.3",
+            "pv": "1.6.6",
             "section": "base",
             "summary": "Terminal-based tool for monitoring the progress of data through a pipeline",
-            "updated": "2018-10-05T09:10:58+0000"
+            "updated": "2019-03-05T19:03:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -4017,7 +4017,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux, Mac OSX, and UNIX.",
-            "filename": "unixodbc_2.3.6.bb",
+            "filename": "unixodbc_2.3.7.bb",
             "filepath": "recipes-support/unixodbc",
             "homepage": "http://www.unixodbc.org/",
             "id": 723293,
@@ -4026,10 +4026,10 @@
             "license": "GPLv2",
             "pn": "unixodbc",
             "provides": "unixodbc ",
-            "pv": "2.3.6",
+            "pv": "2.3.7",
             "section": "base",
             "summary": "An Open Source ODBC sub-system",
-            "updated": "2018-10-05T09:10:58+0000"
+            "updated": "2019-03-05T19:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4283,7 +4283,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgpiod_1.2.bb",
+            "filename": "libgpiod_1.2.1.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 723307,
@@ -4292,10 +4292,10 @@
             "license": "LGPLv2.1+",
             "pn": "libgpiod",
             "provides": "libgpiod ",
-            "pv": "1.2",
+            "pv": "1.2.1",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2019-01-15T17:01:22+0000"
+            "updated": "2019-03-05T19:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4454,7 +4454,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "syslog-ng, as the name shows, is a syslogd replacement, but with new functionality for the new generation. The original syslogd allows messages only to be sorted based on priority/facility pairs; syslog-ng adds the possibility to filter based on message contents using regular expressions. The new configuration scheme is intuitive and powerful. Forwarding logs over TCP and remembering all forwarding hops makes it ideal for firewalled environments. ",
-            "filename": "syslog-ng_3.16.1.bb",
+            "filename": "syslog-ng_3.19.1.bb",
             "filepath": "recipes-support/syslog-ng",
             "homepage": "http://www.balabit.com/network-security/syslog-ng/opensource-logging-system",
             "id": 723316,
@@ -4463,10 +4463,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "syslog-ng",
             "provides": "syslog-ng ",
-            "pv": "3.16.1",
+            "pv": "3.19.1",
             "section": "base",
             "summary": "Alternative system logger daemon",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2019-03-05T19:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4568,7 +4568,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": " uthash-dev provides a hash table implementation using C preprocessor macros.\\n This package also includes:\\n  * utlist.h provides linked list macros for C structures\\n  * utarray.h implements dynamic arrays using macros\\n  * utstring.h implements a basic dynamic string\\n",
-            "filename": "uthash_2.0.2.bb",
+            "filename": "uthash_2.1.0.bb",
             "filepath": "recipes-support/uthash",
             "homepage": "https://troydhanson.github.io/uthash/",
             "id": 723322,
@@ -4577,10 +4577,10 @@
             "license": "BSD-1-Clause",
             "pn": "uthash",
             "provides": "uthash ",
-            "pv": "2.0.2",
+            "pv": "2.1.0",
             "section": "base",
             "summary": "Hash table and linked list for C structures",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2019-03-05T19:03:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -5993,7 +5993,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "It provides tools to manage multipath devices by instructing the device-mapper kernel module what to do. These tools include: 1. multipath - Scan the system for multipath devices and assemble them.2. multipathd - Detects when paths fail and execs multipath to update things.3. mpathpersist - Persistent reservation management feature allows cluster management software to manage persistent reservation through mpath device. It processes management requests from callers and hides the management task details. It also handles persistent reservation management of data path life cycle and state changes.4. kpartx - This tool, derived from util-linux's partx, reads partition tables on specified device and create device maps over partitions segments detected. It is called from hotplug upon device maps creation and deletion",
-            "filename": "multipath-tools_0.7.9.bb",
+            "filename": "multipath-tools_0.8.0.bb",
             "filepath": "recipes-support/multipath-tools",
             "homepage": "http://christophe.varoqui.free.fr/",
             "id": 723398,
@@ -6002,10 +6002,10 @@
             "license": "GPLv2",
             "pn": "multipath-tools",
             "provides": "multipath-tools  device-mapper-multipath",
-            "pv": "0.7.9",
+            "pv": "0.8.0",
             "section": "base",
             "summary": "The upstream project used to drive the Device Mapper multipathing driver",
-            "updated": "2018-12-03T18:12:38+0000"
+            "updated": "2019-03-05T19:03:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -6035,7 +6035,7 @@
             "filepath": "recipes-support/udisks",
             "homepage": "",
             "id": 723400,
-            "inherits": "autotools autotools-brokensep gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd",
+            "inherits": "autotools autotools-brokensep distro_features_check gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "GPLv2+",
             "pn": "udisks",
@@ -6043,26 +6043,26 @@
             "pv": "1.0.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2019-03-05T19:03:05+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "udisks2_2.7.8.bb",
+            "filename": "udisks2_2.8.1.bb",
             "filepath": "recipes-support/udisks",
             "homepage": "",
             "id": 723401,
-            "inherits": "autotools gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd",
+            "inherits": "autotools distro_features_check gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd",
             "layerbranch": 14965,
             "license": "GPLv2+ & LGPLv2+",
             "pn": "udisks2",
             "provides": "udisks2 ",
-            "pv": "2.7.8",
+            "pv": "2.8.1",
             "section": "base",
             "summary": "udisks provides dbus interfaces for disks and storage devices",
-            "updated": "2018-10-23T03:10:06+0000"
+            "updated": "2019-03-05T19:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6309,7 +6309,7 @@
             "pv": "2.03.01",
             "section": "utils",
             "summary": "",
-            "updated": "2019-02-15T00:02:23+0000"
+            "updated": "2019-03-05T19:03:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6385,7 +6385,7 @@
             "pv": "8.1.0347",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2019-02-13T17:02:46+0000"
+            "updated": "2019-03-05T19:03:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -6404,7 +6404,7 @@
             "pv": "8.1.0347",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2019-02-13T17:02:46+0000"
+            "updated": "2019-03-05T19:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6677,7 +6677,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.",
-            "filename": "openldap_2.4.46.bb",
+            "filename": "openldap_2.4.47.bb",
             "filepath": "recipes-support/openldap",
             "homepage": "http://www.OpenLDAP.org/license.html",
             "id": 723434,
@@ -6686,10 +6686,10 @@
             "license": "OpenLDAP",
             "pn": "openldap",
             "provides": "openldap ",
-            "pv": "2.4.46",
+            "pv": "2.4.47",
             "section": "libs",
             "summary": "OpenLDAP Directory Service",
-            "updated": "2018-10-15T19:10:21+0000"
+            "updated": "2019-03-05T19:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6943,7 +6943,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dash_0.5.9.1.bb",
+            "filename": "dash_0.5.10.2.bb",
             "filepath": "recipes-shells/dash",
             "homepage": "http://gondor.apana.org.au/~herbert/dash/",
             "id": 723448,
@@ -6952,10 +6952,10 @@
             "license": "BSD & GPLv2+",
             "pn": "dash",
             "provides": "dash ",
-            "pv": "0.5.9.1",
+            "pv": "0.5.10.2",
             "section": "System Environment/Shells",
             "summary": "Small and fast POSIX-compliant shell",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-03-05T19:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7221,7 +7221,7 @@
             "pv": "1.9.12",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2019-02-13T17:02:44+0000"
+            "updated": "2019-03-05T19:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -7399,7 +7399,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LIVE555 Streaming Media libraries",
-            "filename": "live555_20170410.bb",
+            "filename": "live555_20190227.bb",
             "filepath": "recipes-multimedia/live555",
             "homepage": "http://live.com/",
             "id": 723472,
@@ -7408,10 +7408,10 @@
             "license": "LGPLv3",
             "pn": "live555",
             "provides": "live555 ",
-            "pv": "20170410",
+            "pv": "20190227",
             "section": "devel",
             "summary": "",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-03-05T19:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7608,7 +7608,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_11.1.bb",
+            "filename": "postgresql_11.2.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 723483,
@@ -7617,10 +7617,10 @@
             "license": "BSD",
             "pn": "postgresql",
             "provides": "postgresql ",
-            "pv": "11.1",
+            "pv": "11.2",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2019-01-15T17:01:24+0000"
+            "updated": "2019-03-05T19:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -8121,7 +8121,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The smartmontools package contains two utility programs (smartctl and smartd) to control and monitor storage systems using the Self-Monitoring, Analysis and Reporting Technology System (SMART) built into most modern ATA and SCSI hard disks. In many cases, these utilities will provide advanced warning of disk degradation and failure.",
-            "filename": "smartmontools_6.6.bb",
+            "filename": "smartmontools_7.0.bb",
             "filepath": "recipes-extended/smartmontools",
             "homepage": "http://smartmontools.sourceforge.net/",
             "id": 723510,
@@ -8130,10 +8130,10 @@
             "license": "GPLv2",
             "pn": "smartmontools",
             "provides": "smartmontools ",
-            "pv": "6.6",
+            "pv": "7.0",
             "section": "console/utils",
             "summary": "Control and monitor storage systems using S.M.A.R.T",
-            "updated": "2018-10-05T09:10:36+0000"
+            "updated": "2019-03-05T19:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -8551,7 +8551,7 @@
             "pv": "1.7.0",
             "section": "base",
             "summary": "High performance data logging and graphing system for time series data",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2019-03-05T19:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -8570,7 +8570,7 @@
             "pv": "52.9.1",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2019-02-13T17:02:42+0000"
+            "updated": "2019-03-05T19:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -8809,7 +8809,7 @@
             "filepath": "recipes-extended/polkit",
             "homepage": "",
             "id": 723546,
-            "inherits": "useradd useradd_base",
+            "inherits": "distro_features_check useradd useradd_base",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "polkit-group-rule-datetime",
@@ -8817,7 +8817,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2019-03-05T19:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -8847,7 +8847,7 @@
             "filepath": "recipes-extended/polkit",
             "homepage": "",
             "id": 723548,
-            "inherits": "useradd useradd_base",
+            "inherits": "distro_features_check useradd useradd_base",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "polkit-group-rule-network",
@@ -8855,7 +8855,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2019-03-05T19:03:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -9360,7 +9360,7 @@
             "filepath": "recipes-extended/upm",
             "homepage": "https://github.com/intel-iot-devkit/upm",
             "id": 723575,
-            "inherits": "cmake distutils-common-base distutils3-base python3-dir python3native",
+            "inherits": "cmake distutils-common-base distutils3-base pkgconfig python3-dir python3native",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "upm",
@@ -9368,7 +9368,7 @@
             "pv": "1.6.0-gitX",
             "section": "libs",
             "summary": "Sensor/Actuator repository for Mraa",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2019-03-05T19:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -9691,7 +9691,7 @@
             "pv": "0.5.9+gitX",
             "section": "utils",
             "summary": "Drivers for character-based LCD displays",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2019-03-05T19:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -10002,7 +10002,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Phoronix Test Suite is designed to carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.",
-            "filename": "phoronix-test-suite_8.2.0.bb",
+            "filename": "phoronix-test-suite_8.6.0.bb",
             "filepath": "recipes-benchmark/phoronix-test-suite",
             "homepage": "",
             "id": 723609,
@@ -10011,10 +10011,10 @@
             "license": "GPLv3",
             "pn": "phoronix-test-suite",
             "provides": "phoronix-test-suite ",
-            "pv": "8.2.0",
+            "pv": "8.6.0",
             "section": "console/tests",
             "summary": "Phoronix Test Suite",
-            "updated": "2018-12-03T18:12:33+0000"
+            "updated": "2019-03-05T19:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -10534,7 +10534,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_5.6.39.bb",
+            "filename": "php_5.6.40.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 723638,
@@ -10543,17 +10543,17 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "5.6.39",
+            "pv": "5.6.40",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2019-02-13T17:02:42+0000"
+            "updated": "2019-03-05T19:03:00+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_7.2.10.bb",
+            "filename": "php_7.3.2.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 723639,
@@ -10562,10 +10562,10 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "7.2.10",
+            "pv": "7.3.2",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2019-01-15T17:01:24+0000"
+            "updated": "2019-03-05T19:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -10709,7 +10709,7 @@
             "filepath": "recipes-devtools/tcltk",
             "homepage": "http://tcl.sourceforge.net",
             "id": 723647,
-            "inherits": "autotools distro_features_check siteconfig siteinfo",
+            "inherits": "autotools binconfig distro_features_check siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "tcl",
             "pn": "tk",
@@ -10717,7 +10717,7 @@
             "pv": "8.6.9",
             "section": "devel/tcltk",
             "summary": "Tool Command Language ToolKit Extension",
-            "updated": "2018-12-17T17:12:15+0000"
+            "updated": "2019-03-05T19:03:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10774,7 +10774,7 @@
             "pv": "3.22.1",
             "section": "base",
             "summary": "Glade - A User Interface Designer",
-            "updated": "2019-02-13T17:02:41+0000"
+            "updated": "2019-03-05T19:03:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -10990,7 +10990,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A fast and lightweight IDE",
-            "filename": "geany-plugins_1.31.bb",
+            "filename": "geany-plugins_1.34.bb",
             "filepath": "recipes-devtools/geany",
             "homepage": "http://plugins.geany.org/",
             "id": 723662,
@@ -10999,17 +10999,17 @@
             "license": "GPLv2 & BSD-2-Clause & GPLv3",
             "pn": "geany-plugins",
             "provides": "geany-plugins ",
-            "pv": "1.31",
+            "pv": "1.34",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2019-03-05T19:03:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "geany_1.31.bb",
+            "filename": "geany_1.34.1.bb",
             "filepath": "recipes-devtools/geany",
             "homepage": "http://www.geany.org/",
             "id": 723663,
@@ -11018,10 +11018,10 @@
             "license": "GPLv2",
             "pn": "geany",
             "provides": "geany ",
-            "pv": "1.31",
+            "pv": "1.34.1",
             "section": "base",
             "summary": "A fast and lightweight IDE",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2019-03-05T19:03:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -11032,7 +11032,7 @@
             "filepath": "recipes-devtools/xmlrpc-c",
             "homepage": "http://xmlrpc-c.sourceforge.net/",
             "id": 723664,
-            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep binconfig pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "BSD & MIT",
             "pn": "xmlrpc-c",
@@ -11040,7 +11040,7 @@
             "pv": "1.51.03",
             "section": "base",
             "summary": "",
-            "updated": "2019-02-13T17:02:47+0000"
+            "updated": "2019-03-05T19:03:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -11078,7 +11078,7 @@
             "pv": "7.91+gitX",
             "section": "base",
             "summary": "ltrace intercepts and records dynamic library calls",
-            "updated": "2019-02-13T17:02:41+0000"
+            "updated": "2019-03-05T19:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -11142,7 +11142,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_8.15.0.bb",
+            "filename": "nodejs_10.15.1.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 723670,
@@ -11151,10 +11151,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "8.15.0",
+            "pv": "10.15.1",
             "section": "base",
             "summary": "",
-            "updated": "2019-02-13T17:02:42+0000"
+            "updated": "2019-03-05T19:03:00+0000"
         },
         {
             "bbclassextend": "native",
@@ -11636,7 +11636,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/namhyung/uftrace/issues",
             "description": "",
-            "filename": "uftrace_0.8.3.bb",
+            "filename": "uftrace_0.9.2.bb",
             "filepath": "recipes-devtools/uftrace",
             "homepage": "https://github.com/namhyung/uftrace",
             "id": 723696,
@@ -11645,10 +11645,10 @@
             "license": "GPLv2",
             "pn": "uftrace",
             "provides": "uftrace ",
-            "pv": "0.8.3",
+            "pv": "0.9.2",
             "section": "devel",
             "summary": "Trace and analyze execution of a program written in C/C++",
-            "updated": "2019-01-15T17:01:21+0000"
+            "updated": "2019-03-05T19:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -12035,7 +12035,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cryptsetup is used to conveniently setup dm-crypt managed device-mapper mappings. These include plain dm-crypt volumes and LUKS volumes. The difference is that LUKS uses a metadata header and can hence offer more features than plain dm-crypt. On the other hand, the header is visible and vulnerable to damage.",
-            "filename": "cryptsetup_2.0.4.bb",
+            "filename": "cryptsetup_2.1.0.bb",
             "filepath": "recipes-crypto/cryptsetup",
             "homepage": "https://gitlab.com/cryptsetup/cryptsetup",
             "id": 723717,
@@ -12044,10 +12044,10 @@
             "license": "GPL-2.0-with-OpenSSL-exception",
             "pn": "cryptsetup",
             "provides": "cryptsetup ",
-            "pv": "2.0.4",
+            "pv": "2.1.0",
             "section": "console",
             "summary": "Manage plain dm-crypt and LUKS encrypted volumes",
-            "updated": "2018-10-05T09:10:14+0000"
+            "updated": "2019-03-05T19:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -12104,7 +12104,7 @@
             "pv": "v63",
             "section": "base",
             "summary": "libnvdimm utility library",
-            "updated": "2018-12-04T22:12:31+0000"
+            "updated": "2019-03-05T19:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -12187,7 +12187,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Plymouth is an application that runs very early in the boot process     (even before the root filesystem is mounted!) that provides a     graphical boot animation while the boot process happens in the background. ",
-            "filename": "plymouth_0.9.2.bb",
+            "filename": "plymouth_0.9.4.bb",
             "filepath": "recipes-core/plymouth",
             "homepage": "http://www.freedesktop.org/wiki/Software/Plymouth",
             "id": 723725,
@@ -12196,10 +12196,10 @@
             "license": "GPLv2+",
             "pn": "plymouth",
             "provides": "plymouth virtual/psplash",
-            "pv": "0.9.2",
+            "pv": "0.9.4",
             "section": "base",
             "summary": "Plymouth is a project from Fedora providing a flicker-free graphical boot process.",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2019-03-05T19:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -12693,7 +12693,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2019-02-13T17:02:39+0000"
+            "updated": "2019-03-05T19:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13131,6 +13131,177 @@
             "section": "base",
             "summary": "OpenGL frontend to Freetype 2",
             "updated": "2019-02-13T17:02:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "High-level language, primarily intended for numerical computations",
+            "filename": "octave_4.4.1.bb",
+            "filepath": "recipes-devtools/octave",
+            "homepage": "http://www.gnu.org/software/octave/",
+            "id": 917904,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo texinfo",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "octave",
+            "provides": "octave ",
+            "pv": "4.4.1",
+            "section": "math",
+            "summary": "",
+            "updated": "2019-03-05T19:03:07+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libpeas_1.22.0.bb",
+            "filepath": "recipes-gnome/libpeas",
+            "homepage": "https://wiki.gnome.org/Projects/Libpeas",
+            "id": 917905,
+            "inherits": "autotools gnomebase gobject-introspection gobject-introspection-data gtk-doc gtk-icon-cache pkgconfig python3-dir python3native qemu siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1+",
+            "pn": "libpeas",
+            "provides": "libpeas ",
+            "pv": "1.22.0",
+            "section": "base",
+            "summary": "libpeas is a gobject-based plugins engine",
+            "updated": "2019-03-05T19:03:07+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "gtkwave is a viewer for VCD (Value Change Dump) files which are usually created by digital circuit simulators. (These files have no connection to video CDs!) ",
+            "filename": "gtkwave_3.3.98.bb",
+            "filepath": "recipes-graphics/gtkwave",
+            "homepage": "http://gtkwave.sourceforge.net/",
+            "id": 917906,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo texinfo",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "gtkwave",
+            "provides": "gtkwave ",
+            "pv": "3.3.98",
+            "section": "base",
+            "summary": "VCD (Value Change Dump) file waveform viewer",
+            "updated": "2019-03-05T19:03:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The XForms graphical interface widget library\t",
+            "filename": "libforms_1.2.3.bb",
+            "filepath": "recipes-graphics/libforms",
+            "homepage": "http://savannah.nongnu.org/projects/xforms/",
+            "id": 917907,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1+",
+            "pn": "libforms",
+            "provides": "libforms ",
+            "pv": "1.2.3",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-03-05T19:03:08+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "hdf5_1.8.19.bb",
+            "filepath": "recipes-support/hdf5",
+            "homepage": "https://www.hdfgroup.org/",
+            "id": 917908,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "HDF5",
+            "pn": "hdf5",
+            "provides": "hdf5 ",
+            "pv": "1.8.19",
+            "section": "libs",
+            "summary": "Unique technology suite that makes possible the management of extremely large and complex data collections",
+            "updated": "2019-03-05T19:03:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "mscgen_0.20.bb",
+            "filepath": "recipes-support/mscgen",
+            "homepage": "http://www.mcternan.me.uk/mscgen/",
+            "id": 917909,
+            "inherits": "autotools gettext siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "mscgen",
+            "provides": "mscgen ",
+            "pv": "0.20",
+            "section": "base",
+            "summary": "Mscgen is a small program that parses Message Sequence Chart descriptions and produces PNG, SVG, EPS or server side image maps (ismaps) as the output.",
+            "updated": "2019-03-05T19:03:08+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libsass_git.bb",
+            "filepath": "recipes-support/sass",
+            "homepage": "http://sass-lang.com/libsass",
+            "id": 917910,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "libsass",
+            "provides": "libsass ",
+            "pv": "3.5.5",
+            "section": "base",
+            "summary": "C/C++ port of the Sass CSS precompiler",
+            "updated": "2019-03-05T19:03:09+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "sassc_git.bb",
+            "filepath": "recipes-support/sass",
+            "homepage": "",
+            "id": 917911,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "sassc",
+            "provides": "sassc ",
+            "pv": "3.5.0",
+            "section": "base",
+            "summary": "libsass command line driver ",
+            "updated": "2019-03-05T19:03:09+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Very fast, header only, C++ logging library.",
+            "filename": "spdlog_1.3.1.bb",
+            "filepath": "recipes-support/spdlog",
+            "homepage": "https://github.com/gabime/spdlog/wiki",
+            "id": 917912,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "spdlog",
+            "provides": "spdlog ",
+            "pv": "1.3.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-03-05T19:03:09+0000"
         }
     ],
     "wrtemplates": []
