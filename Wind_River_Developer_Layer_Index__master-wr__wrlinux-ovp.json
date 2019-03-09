@@ -76,7 +76,7 @@
             "id": 4201,
             "layerbranch": 109415,
             "name": "wrlinux-ovp",
-            "updated": "2018-12-09T18:12:31+0000"
+            "updated": "2019-03-08T16:03:41+0000"
         }
     ],
     "layerBranches": [
@@ -142,10 +142,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-03-05T19:03:37+0000",
-            "vcs_last_commit": "2019-03-05T19:03:37+0000",
-            "vcs_last_fetch": "2019-03-05T19:03:37+0000",
-            "vcs_last_rev": "8376351c849ab7e13c2c21b341415d686c36a4b9",
+            "updated": "2019-03-08T16:03:08+0000",
+            "vcs_last_commit": "2019-03-08T16:03:08+0000",
+            "vcs_last_fetch": "2019-03-08T16:03:08+0000",
+            "vcs_last_rev": "94f1daddeb44df3ce9c7a00b197820bb1f937a44",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -170,10 +170,10 @@
             "collection": "wrlinux-distro",
             "id": 73942,
             "layer": 164,
-            "updated": "2019-03-05T00:03:27+0000",
-            "vcs_last_commit": "2019-03-05T00:03:27+0000",
-            "vcs_last_fetch": "2019-03-05T00:03:27+0000",
-            "vcs_last_rev": "aa57a1d1f79407f7f824f5b90881c994cb8319aa",
+            "updated": "2019-03-08T14:03:25+0000",
+            "vcs_last_commit": "2019-03-08T14:03:25+0000",
+            "vcs_last_fetch": "2019-03-08T14:03:25+0000",
+            "vcs_last_rev": "a7439ec0142a982c2624976e418500d2c6f562d5",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 2
@@ -184,10 +184,10 @@
             "collection": "wrlinux-ovp",
             "id": 109415,
             "layer": 170,
-            "updated": "2019-02-21T22:02:51+0000",
-            "vcs_last_commit": "2019-02-21T22:02:51+0000",
-            "vcs_last_fetch": "2019-02-21T22:02:51+0000",
-            "vcs_last_rev": "69a5c6262662ba3dead000eb368ca819c03e3c3b",
+            "updated": "2019-03-08T14:03:25+0000",
+            "vcs_last_commit": "2019-03-08T14:03:25+0000",
+            "vcs_last_fetch": "2019-03-08T14:03:25+0000",
+            "vcs_last_rev": "a7439ec0142a982c2624976e418500d2c6f562d5",
             "vcs_subdir": "wrlinux-ovp",
             "version": "1",
             "yp_compatible_version": 2
@@ -446,7 +446,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:31+0000"
+            "updated": "2019-03-08T16:03:42+0000"
         },
         {
             "bbclassextend": " ",
@@ -465,7 +465,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:32+0000"
+            "updated": "2019-03-08T16:03:42+0000"
         },
         {
             "bbclassextend": " ",
@@ -484,7 +484,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:32+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": "",
@@ -522,11 +522,11 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:32+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
-            "blacklisted": "",
+            "blacklisted": "Depends on libvirt",
             "bugtracker": "",
             "description": "Debugging packages for VM's.",
             "filename": "packagegroup-ovp-debug.bb",
@@ -541,7 +541,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
@@ -560,7 +560,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
@@ -579,7 +579,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
@@ -598,7 +598,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
@@ -617,7 +617,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
@@ -636,7 +636,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
@@ -655,7 +655,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
@@ -674,7 +674,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:43+0000"
         },
         {
             "bbclassextend": " ",
@@ -693,7 +693,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:44+0000"
         },
         {
             "bbclassextend": " ",
@@ -712,7 +712,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-09T18:12:33+0000"
+            "updated": "2019-03-08T16:03:44+0000"
         },
         {
             "bbclassextend": " ",
@@ -731,11 +731,11 @@
             "pv": "1.0",
             "section": "console/utils",
             "summary": "Generate various system information report of this system",
-            "updated": "2018-12-09T18:12:34+0000"
+            "updated": "2019-03-08T16:03:44+0000"
         },
         {
             "bbclassextend": " ",
-            "blacklisted": "",
+            "blacklisted": "Depends on libvirt",
             "bugtracker": "",
             "description": "An introspection library, written in C, focused on reading                and writing memory from virtual machines (VM's).",
             "filename": "libvmi_git.bb",
@@ -750,7 +750,7 @@
             "pv": "0.10.1",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-12-09T18:12:34+0000"
+            "updated": "2019-03-08T16:03:44+0000"
         }
     ],
     "wrtemplates": [
