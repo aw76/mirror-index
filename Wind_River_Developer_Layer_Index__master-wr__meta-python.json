@@ -59,57 +59,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190305",
+            "bitbake_branch": "wr-10.19-20190311",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-05T19:03:08+0000",
+            "updated": "2019-03-12T20:03:46+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-12T03:03:59+0000",
-            "vcs_last_commit": "2019-03-12T03:03:59+0000",
-            "vcs_last_fetch": "2019-03-12T03:03:59+0000",
-            "vcs_last_rev": "981c43506e7fd5e444ed60cd6c1b310ad56fb2b5",
+            "updated": "2019-03-12T19:03:39+0000",
+            "vcs_last_commit": "2019-03-12T19:03:39+0000",
+            "vcs_last_fetch": "2019-03-12T19:03:39+0000",
+            "vcs_last_rev": "fd67053860b15f748dd0031330480b818817679b",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-03-04T19:03:52+0000",
-            "vcs_last_commit": "2019-03-04T19:03:52+0000",
-            "vcs_last_fetch": "2019-03-04T19:03:52+0000",
-            "vcs_last_rev": "20255268f8ebf26681a5132a1b2c2f70f939e23f",
+            "updated": "2019-03-11T01:03:50+0000",
+            "vcs_last_commit": "2019-03-11T01:03:50+0000",
+            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
+            "vcs_last_rev": "6af5098d19ee9ca3e2acbe083f149a94ab2ad998",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-03-04T19:03:20+0000",
-            "vcs_last_commit": "2019-03-04T19:03:20+0000",
-            "vcs_last_fetch": "2019-03-04T19:03:20+0000",
-            "vcs_last_rev": "831409b9bc6edaf101e042ff40d39c8fbc58ed8d",
+            "updated": "2019-03-11T01:03:50+0000",
+            "vcs_last_commit": "2019-03-11T01:03:50+0000",
+            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
+            "vcs_last_rev": "6af5098d19ee9ca3e2acbe083f149a94ab2ad998",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -1046,7 +1046,7 @@
             "pv": "18.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2019-03-12T20:03:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -1813,7 +1813,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-greenlet_0.4.14.bb",
+            "filename": "python3-greenlet_0.4.15.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723857,
@@ -1822,10 +1822,10 @@
             "license": "MIT & PSF",
             "pn": "python3-greenlet",
             "provides": "python3-greenlet ",
-            "pv": "0.4.14",
+            "pv": "0.4.15",
             "section": "devel/python",
             "summary": "Python lightweight in-process concurrent programming",
-            "updated": "2018-10-05T09:10:45+0000"
+            "updated": "2019-03-12T20:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2516,7 +2516,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Google gRPC",
-            "filename": "python3-grpcio_1.17.1.bb",
+            "filename": "python3-grpcio_1.19.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.grpc.io/",
             "id": 723894,
@@ -2525,10 +2525,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-grpcio",
             "provides": "python3-grpcio ",
-            "pv": "1.17.1",
+            "pv": "1.19.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-01-02T17:01:06+0000"
+            "updated": "2019-03-12T20:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2915,7 +2915,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-greenlet_0.4.14.bb",
+            "filename": "python-greenlet_0.4.15.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723915,
@@ -2924,10 +2924,10 @@
             "license": "MIT & PSF",
             "pn": "python-greenlet",
             "provides": "python-greenlet ",
-            "pv": "0.4.14",
+            "pv": "0.4.15",
             "section": "devel/python",
             "summary": "Python lightweight in-process concurrent programming",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2019-03-12T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4530,7 +4530,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-idna_2.7.bb",
+            "filename": "python3-idna_2.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/kjd/idna",
             "id": 724000,
@@ -4539,10 +4539,10 @@
             "license": "BSD-3-Clause & Python-2.0 & Unicode",
             "pn": "python3-idna",
             "provides": "python3-idna ",
-            "pv": "2.7",
+            "pv": "2.8",
             "section": "devel/python",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2018-12-03T18:12:49+0000"
+            "updated": "2019-03-12T20:03:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5993,7 +5993,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-idna_2.7.bb",
+            "filename": "python-idna_2.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/kjd/idna",
             "id": 724077,
@@ -6002,10 +6002,10 @@
             "license": "BSD-3-Clause & Python-2.0 & Unicode",
             "pn": "python-idna",
             "provides": "python-idna ",
-            "pv": "2.7",
+            "pv": "2.8",
             "section": "devel/python",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2018-12-03T18:12:49+0000"
+            "updated": "2019-03-12T20:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -7905,7 +7905,7 @@
             "pv": "18.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:44+0000"
+            "updated": "2019-03-12T20:03:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8292,7 +8292,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Google gRPC",
-            "filename": "python-grpcio_1.17.1.bb",
+            "filename": "python-grpcio_1.19.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.grpc.io/",
             "id": 724198,
@@ -8301,10 +8301,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-grpcio",
             "provides": "python-grpcio ",
-            "pv": "1.17.1",
+            "pv": "1.19.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-01-02T17:01:05+0000"
+            "updated": "2019-03-12T20:03:04+0000"
         },
         {
             "bbclassextend": "native",

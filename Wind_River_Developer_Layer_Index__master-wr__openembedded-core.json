@@ -59,14 +59,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190305",
+            "bitbake_branch": "wr-10.19-20190311",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-05T19:03:08+0000",
+            "updated": "2019-03-12T20:03:46+0000",
             "updates_enabled": true
         }
     ],
@@ -81,15 +81,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-12T03:03:59+0000",
-            "vcs_last_commit": "2019-03-12T03:03:59+0000",
-            "vcs_last_fetch": "2019-03-12T03:03:59+0000",
-            "vcs_last_rev": "981c43506e7fd5e444ed60cd6c1b310ad56fb2b5",
+            "updated": "2019-03-12T19:03:39+0000",
+            "vcs_last_commit": "2019-03-12T19:03:39+0000",
+            "vcs_last_fetch": "2019-03-12T19:03:39+0000",
+            "vcs_last_rev": "fd67053860b15f748dd0031330480b818817679b",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -164,7 +164,7 @@
             "id": 12636,
             "layerbranch": 14953,
             "name": "qemuarm64",
-            "updated": "2019-02-13T17:02:08+0000"
+            "updated": "2019-03-12T20:03:25+0000"
         },
         {
             "description": " a common x86",
@@ -1484,7 +1484,7 @@
             "pv": "1.16.0",
             "section": "libs",
             "summary": "The Cairo 2D vector graphics library",
-            "updated": "2019-03-05T19:03:39+0000"
+            "updated": "2019-03-12T20:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3023,7 +3023,7 @@
             "pv": "9.11.5",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2019-02-20T22:02:12+0000"
+            "updated": "2019-03-12T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3384,7 +3384,7 @@
             "pv": "2.7",
             "section": "network",
             "summary": "Client for Wi-Fi Protected Access (WPA)",
-            "updated": "2019-02-13T17:02:09+0000"
+            "updated": "2019-03-12T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3441,7 +3441,7 @@
             "pv": "2.10.8",
             "section": "devel",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2019-01-20T22:01:31+0000"
+            "updated": "2019-03-12T20:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3498,7 +3498,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2019-03-05T19:03:19+0000"
+            "updated": "2019-03-12T20:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3574,7 +3574,7 @@
             "pv": "26",
             "section": "base",
             "summary": "Tools for managing Linux kernel modules",
-            "updated": "2019-03-05T19:03:24+0000"
+            "updated": "2019-03-12T20:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3593,7 +3593,7 @@
             "pv": "26",
             "section": "base",
             "summary": "Tools for managing Linux kernel modules",
-            "updated": "2019-03-05T19:03:24+0000"
+            "updated": "2019-03-12T20:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3619,7 +3619,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "linux-libc-headers_4.19.bb",
+            "filename": "linux-libc-headers_5.0.bb",
             "filepath": "recipes-kernel/linux-libc-headers",
             "homepage": "",
             "id": 722468,
@@ -3628,10 +3628,10 @@
             "license": "GPLv2",
             "pn": "linux-libc-headers",
             "provides": "linux-libc-headers ",
-            "pv": "4.19",
+            "pv": "5.0",
             "section": "devel",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2019-01-15T17:01:50+0000"
+            "updated": "2019-03-12T20:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3802,7 +3802,7 @@
             "pv": "4.0",
             "section": "base",
             "summary": "UProbes kernel module for SystemTap",
-            "updated": "2018-10-23T03:10:34+0000"
+            "updated": "2019-03-12T20:03:36+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -3821,7 +3821,7 @@
             "pv": "4.0",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2019-02-20T22:02:26+0000"
+            "updated": "2019-03-12T20:03:36+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -3840,7 +3840,7 @@
             "pv": "4.0",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2019-02-13T17:02:36+0000"
+            "updated": "2019-03-12T20:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3859,7 +3859,7 @@
             "pv": "4.18.27+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-05T19:03:24+0000"
+            "updated": "2019-03-12T20:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3878,7 +3878,7 @@
             "pv": "1.0",
             "section": "kernel",
             "summary": "Linux kernel Development Source",
-            "updated": "2019-02-13T17:02:24+0000"
+            "updated": "2019-03-12T20:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3897,7 +3897,7 @@
             "pv": "4.19.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-05T19:03:18+0000"
+            "updated": "2019-03-12T20:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3935,7 +3935,7 @@
             "pv": "5.0-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-05T19:03:26+0000"
+            "updated": "2019-03-12T20:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3954,7 +3954,7 @@
             "pv": "4.19.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-05T19:03:18+0000"
+            "updated": "2019-03-12T20:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3973,7 +3973,7 @@
             "pv": "4.19.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-05T19:03:18+0000"
+            "updated": "2019-03-12T20:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3992,7 +3992,7 @@
             "pv": "4.18.27+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-05T19:03:26+0000"
+            "updated": "2019-03-12T20:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4011,7 +4011,7 @@
             "pv": "4.18.27+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-05T19:03:27+0000"
+            "updated": "2019-03-12T20:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4372,7 +4372,7 @@
             "pv": "63.1",
             "section": "base",
             "summary": "International Component for Unicode libraries",
-            "updated": "2019-02-13T17:02:40+0000"
+            "updated": "2019-03-12T20:03:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -4600,7 +4600,7 @@
             "pv": "6.6",
             "section": "base",
             "summary": "Random number generator daemon",
-            "updated": "2019-01-15T17:01:39+0000"
+            "updated": "2019-03-12T20:03:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4626,7 +4626,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "sqlite3_3.26.0.bb",
+            "filename": "sqlite3_3.27.2.bb",
             "filepath": "recipes-support/sqlite",
             "homepage": "http://www.sqlite.org",
             "id": 722521,
@@ -4635,10 +4635,10 @@
             "license": "PD",
             "pn": "sqlite3",
             "provides": "sqlite3 ",
-            "pv": "3.26.0",
+            "pv": "3.27.2",
             "section": "libs",
             "summary": "Embeddable SQL database engine",
-            "updated": "2019-01-06T23:01:28+0000"
+            "updated": "2019-03-12T20:03:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5873,7 +5873,7 @@
             "pv": "1.14.4",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2019-03-05T19:03:33+0000"
+            "updated": "2019-03-12T20:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -5911,7 +5911,7 @@
             "pv": "1.14.4",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2019-03-05T19:03:34+0000"
+            "updated": "2019-03-12T20:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -6044,7 +6044,7 @@
             "pv": "1.6.36",
             "section": "libs",
             "summary": "PNG image format decoding library",
-            "updated": "2019-01-06T23:01:31+0000"
+            "updated": "2019-03-12T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -6063,7 +6063,7 @@
             "pv": "0.15.1b",
             "section": "libs",
             "summary": "Library for interacting with ID3 tags in MP3 files",
-            "updated": "2018-11-27T18:11:21+0000"
+            "updated": "2019-03-12T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -6158,7 +6158,7 @@
             "pv": "1.0.28",
             "section": "libs/multimedia",
             "summary": "Audio format Conversion library",
-            "updated": "2019-03-05T19:03:20+0000"
+            "updated": "2019-03-12T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -6557,7 +6557,7 @@
             "pv": "3.3.3",
             "section": "devel",
             "summary": "Support for reading various archive formats",
-            "updated": "2019-02-13T17:02:52+0000"
+            "updated": "2019-03-12T20:03:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -6595,7 +6595,7 @@
             "pv": "0.1",
             "section": "examples",
             "summary": "",
-            "updated": "2019-01-15T17:01:43+0000"
+            "updated": "2019-03-12T20:03:38+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -7184,7 +7184,7 @@
             "pv": "1.3.0",
             "section": "base",
             "summary": "Linux-PAM (Pluggable Authentication Modules)",
-            "updated": "2019-01-20T22:01:25+0000"
+            "updated": "2019-03-12T20:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -7488,7 +7488,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-03-12T00:03:29+0000"
+            "updated": "2019-03-12T20:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -9464,7 +9464,7 @@
             "pv": "4.20.1",
             "section": "base",
             "summary": "Checksumming Copy on Write Filesystem utilities",
-            "updated": "2019-02-24T23:02:41+0000"
+            "updated": "2019-03-12T20:03:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9901,7 +9901,7 @@
             "pv": "2.7.15",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2019-02-13T17:02:15+0000"
+            "updated": "2019-03-12T20:03:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9977,7 +9977,7 @@
             "pv": "3.7.2",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2019-03-05T19:03:10+0000"
+            "updated": "2019-03-12T20:03:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -10794,7 +10794,7 @@
             "pv": "0.13.2",
             "section": "base",
             "summary": "Vendor Package Management for Golang",
-            "updated": "2019-01-15T17:01:01+0000"
+            "updated": "2019-03-12T20:03:36+0000"
         },
         {
             "bbclassextend": "",
@@ -11295,7 +11295,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gdb-cross-canadian_8.2.bb",
+            "filename": "gdb-cross-canadian_8.2.1.bb",
             "filepath": "recipes-devtools/gdb",
             "homepage": "http://www.gnu.org/software/gdb/",
             "id": 722888,
@@ -11304,17 +11304,17 @@
             "license": "GPLv2 & GPLv3 & LGPLv2 & LGPLv3",
             "pn": "gdb-cross-canadian-i586",
             "provides": "gdb-cross-canadian-i586 ",
-            "pv": "8.2",
+            "pv": "8.2.1",
             "section": "devel",
             "summary": "GNU debugger (cross-canadian gdb for i586 target)",
-            "updated": "2019-02-13T17:02:17+0000"
+            "updated": "2019-03-12T20:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gdb-cross_8.2.bb",
+            "filename": "gdb-cross_8.2.1.bb",
             "filepath": "recipes-devtools/gdb",
             "homepage": "http://www.gnu.org/software/gdb/",
             "id": 722889,
@@ -11323,17 +11323,17 @@
             "license": "GPLv2 & GPLv3 & LGPLv2 & LGPLv3",
             "pn": "gdb-cross-i586",
             "provides": "gdb-cross-i586 ",
-            "pv": "8.2",
+            "pv": "8.2.1",
             "section": "devel",
             "summary": "GNU debugger",
-            "updated": "2019-02-13T17:02:17+0000"
+            "updated": "2019-03-12T20:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gdb_8.2.bb",
+            "filename": "gdb_8.2.1.bb",
             "filepath": "recipes-devtools/gdb",
             "homepage": "http://www.gnu.org/software/gdb/",
             "id": 722890,
@@ -11342,10 +11342,10 @@
             "license": "GPLv2 & GPLv3 & LGPLv2 & LGPLv3",
             "pn": "gdb",
             "provides": "gdb ",
-            "pv": "8.2",
+            "pv": "8.2.1",
             "section": "devel",
             "summary": "GNU debugger",
-            "updated": "2019-02-13T17:02:17+0000"
+            "updated": "2019-03-12T20:03:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11409,7 +11409,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "File attempts to classify files depending on their contents and prints a description if a match is found.",
-            "filename": "file_5.35.bb",
+            "filename": "file_5.36.bb",
             "filepath": "recipes-devtools/file",
             "homepage": "http://www.darwinsys.com/file/",
             "id": 722894,
@@ -11418,10 +11418,10 @@
             "license": "BSD",
             "pn": "file",
             "provides": "file ",
-            "pv": "5.35",
+            "pv": "5.36",
             "section": "console/utils",
             "summary": "File classification tool",
-            "updated": "2019-02-13T17:02:18+0000"
+            "updated": "2019-03-12T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -11440,7 +11440,7 @@
             "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-01-28T00:01:26+0000"
+            "updated": "2019-03-12T20:03:38+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11459,33 +11459,14 @@
             "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-01-15T17:01:05+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-crosssdk_1.9.bb",
-            "filepath": "recipes-devtools/go",
-            "homepage": " http://golang.org/",
-            "id": 722897,
-            "inherits": "cross crosssdk goarch nopackages relocatable",
-            "layerbranch": 14953,
-            "license": "BSD-3-Clause",
-            "pn": "go-crosssdk-x86_64-oesdk-linux",
-            "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.9.7",
-            "section": "base",
-            "summary": "Go programming language compiler",
-            "updated": "2019-01-28T00:01:27+0000"
+            "updated": "2019-03-12T20:03:38+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-runtime_1.9.bb",
+            "filename": "go-runtime_1.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722898,
@@ -11494,10 +11475,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-runtime",
             "provides": "go-runtime virtual/i586-oe-linux-go-runtime",
-            "pv": "1.9.7",
+            "pv": "1.12",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-01-15T17:01:05+0000"
+            "updated": "2019-03-12T20:03:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11516,14 +11497,14 @@
             "pv": "0.5.0",
             "section": "base",
             "summary": "Dependency management tool for Golang",
-            "updated": "2019-01-15T17:01:06+0000"
+            "updated": "2019-03-12T20:03:39+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-native_1.9.bb",
+            "filename": "go-native_1.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722900,
@@ -11532,29 +11513,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-native",
             "provides": "go-native ",
-            "pv": "1.9.7",
+            "pv": "1.12",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-02-20T22:02:39+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross-canadian_1.9.bb",
-            "filepath": "recipes-devtools/go",
-            "homepage": " http://golang.org/",
-            "id": 722901,
-            "inherits": "cross-canadian goarch",
-            "layerbranch": 14953,
-            "license": "BSD-3-Clause",
-            "pn": "go-cross-canadian-i586",
-            "provides": "go-cross-canadian-i586 ",
-            "pv": "1.9.7",
-            "section": "base",
-            "summary": "Go programming language compiler",
-            "updated": "2019-02-20T22:02:39+0000"
+            "updated": "2019-03-12T20:03:40+0000"
         },
         {
             "bbclassextend": "",
@@ -11573,33 +11535,14 @@
             "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-02-20T22:02:39+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross_1.9.bb",
-            "filepath": "recipes-devtools/go",
-            "homepage": " http://golang.org/",
-            "id": 722903,
-            "inherits": "cross goarch nopackages relocatable",
-            "layerbranch": 14953,
-            "license": "BSD-3-Clause",
-            "pn": "go-cross-i586",
-            "provides": "go-cross-i586 virtual/i586-go",
-            "pv": "1.9.7",
-            "section": "base",
-            "summary": "Go programming language compiler",
-            "updated": "2019-01-28T00:01:27+0000"
+            "updated": "2019-03-12T20:03:39+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go_1.9.bb",
+            "filename": "go_1.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 722904,
@@ -11608,10 +11551,10 @@
             "license": "BSD-3-Clause",
             "pn": "go",
             "provides": "go ",
-            "pv": "1.9.7",
+            "pv": "1.12",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-01-15T17:01:07+0000"
+            "updated": "2019-03-12T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -11630,7 +11573,7 @@
             "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-01-28T00:01:27+0000"
+            "updated": "2019-03-12T20:03:39+0000"
         },
         {
             "bbclassextend": "",
@@ -11649,7 +11592,7 @@
             "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-02-20T22:02:40+0000"
+            "updated": "2019-03-12T20:03:39+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11668,7 +11611,7 @@
             "pv": "1.11.4",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-01-15T17:01:07+0000"
+            "updated": "2019-03-12T20:03:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -12276,7 +12219,7 @@
             "pv": "2.29",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-03-11T23:03:24+0000"
+            "updated": "2019-03-12T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -12865,7 +12808,7 @@
             "pv": "1.1.21+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2019-03-05T19:03:05+0000"
+            "updated": "2019-03-12T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -14689,7 +14632,7 @@
             "pv": "0.0+gitX",
             "section": "base",
             "summary": "Simon Tatham's Portable Puzzle Collection",
-            "updated": "2019-01-15T17:01:03+0000"
+            "updated": "2019-03-12T20:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -14937,6 +14880,196 @@
             "section": "base",
             "summary": "VirGL virtual OpenGL renderer",
             "updated": "2019-03-12T00:03:25+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The GNU inetutils are a collection of common networking utilities and servers including ftp, ftpd, rcp, rexec, rlogin, rlogind, rsh, rshd, syslog, syslogd, talk, talkd, telnet, telnetd, tftp, tftpd, and uucpd.",
+            "filename": "inetutils_1.9.4.bb",
+            "filepath": "recipes-connectivity/inetutils",
+            "homepage": "http://www.gnu.org/software/inetutils",
+            "id": 917940,
+            "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
+            "layerbranch": 14953,
+            "license": "GPLv3",
+            "pn": "inetutils",
+            "provides": "inetutils ",
+            "pv": "1.9.4",
+            "section": "net",
+            "summary": "",
+            "updated": "2019-03-12T20:03:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
+            "filename": "go-cross-canadian_1.12.bb",
+            "filepath": "recipes-devtools/go",
+            "homepage": " http://golang.org/",
+            "id": 917941,
+            "inherits": "cross-canadian goarch",
+            "layerbranch": 14953,
+            "license": "BSD-3-Clause",
+            "pn": "go-cross-canadian-i586",
+            "provides": "go-cross-canadian-i586 ",
+            "pv": "1.12",
+            "section": "base",
+            "summary": "Go programming language compiler",
+            "updated": "2019-03-12T20:03:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
+            "filename": "go-cross_1.12.bb",
+            "filepath": "recipes-devtools/go",
+            "homepage": " http://golang.org/",
+            "id": 917942,
+            "inherits": "cross goarch nopackages relocatable",
+            "layerbranch": 14953,
+            "license": "BSD-3-Clause",
+            "pn": "go-cross-i586",
+            "provides": "go-cross-i586 virtual/i586-go",
+            "pv": "1.12",
+            "section": "base",
+            "summary": "Go programming language compiler",
+            "updated": "2019-03-12T20:03:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
+            "filename": "go-crosssdk_1.12.bb",
+            "filepath": "recipes-devtools/go",
+            "homepage": " http://golang.org/",
+            "id": 917943,
+            "inherits": "cross crosssdk goarch nopackages relocatable",
+            "layerbranch": 14953,
+            "license": "BSD-3-Clause",
+            "pn": "go-crosssdk-x86_64-oesdk-linux",
+            "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
+            "pv": "1.12",
+            "section": "base",
+            "summary": "Go programming language compiler",
+            "updated": "2019-03-12T20:03:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Package group bringing in packages needed to provide much of the base utils type functionality found in busybox",
+            "filename": "packagegroup-core-base-utils.bb",
+            "filepath": "recipes-extended/packagegroups",
+            "homepage": "",
+            "id": 917944,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 14953,
+            "license": "",
+            "pn": "packagegroup-core-base-utils",
+            "provides": "packagegroup-core-base-utils ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Full-featured set of base utils",
+            "updated": "2019-03-12T20:03:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto-rt_5.0.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 917945,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto-rt",
+            "provides": "linux-yocto-rt  virtual/kernel",
+            "pv": "5.0+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2019-03-12T20:03:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto-tiny_5.0.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 917946,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto-tiny",
+            "provides": "linux-yocto-tiny  virtual/kernel",
+            "pv": "5.0+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2019-03-12T20:03:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto_5.0.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 917947,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto",
+            "provides": "linux-yocto  virtual/kernel",
+            "pv": "5.0+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2019-03-12T20:03:41+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "vim-tiny_8.1.0347.bb",
+            "filepath": "recipes-support/vim",
+            "homepage": "",
+            "id": 917948,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo update-alternatives",
+            "layerbranch": 14953,
+            "license": "vim",
+            "pn": "vim-tiny",
+            "provides": "vim-tiny ",
+            "pv": "8.1.0347",
+            "section": "console/utils",
+            "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
+            "updated": "2019-03-12T20:03:42+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "vim_8.1.0347.bb",
+            "filepath": "recipes-support/vim",
+            "homepage": "",
+            "id": 917949,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo update-alternatives",
+            "layerbranch": 14953,
+            "license": "vim",
+            "pn": "vim",
+            "provides": "vim xxd",
+            "pv": "8.1.0347",
+            "section": "console/utils",
+            "summary": "Vi IMproved - enhanced vi editor",
+            "updated": "2019-03-12T20:03:42+0000"
         }
     ],
     "wrtemplates": []

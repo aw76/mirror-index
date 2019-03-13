@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190305",
+            "bitbake_branch": "wr-10.19-20190311",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-05T19:03:08+0000",
+            "updated": "2019-03-12T20:03:46+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-12T03:03:59+0000",
-            "vcs_last_commit": "2019-03-12T03:03:59+0000",
-            "vcs_last_fetch": "2019-03-12T03:03:59+0000",
-            "vcs_last_rev": "981c43506e7fd5e444ed60cd6c1b310ad56fb2b5",
+            "updated": "2019-03-12T19:03:39+0000",
+            "vcs_last_commit": "2019-03-12T19:03:39+0000",
+            "vcs_last_fetch": "2019-03-12T19:03:39+0000",
+            "vcs_last_rev": "fd67053860b15f748dd0031330480b818817679b",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-03-04T19:03:52+0000",
-            "vcs_last_commit": "2019-03-04T19:03:52+0000",
-            "vcs_last_fetch": "2019-03-04T19:03:52+0000",
-            "vcs_last_rev": "20255268f8ebf26681a5132a1b2c2f70f939e23f",
+            "updated": "2019-03-11T01:03:50+0000",
+            "vcs_last_commit": "2019-03-11T01:03:50+0000",
+            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
+            "vcs_last_rev": "6af5098d19ee9ca3e2acbe083f149a94ab2ad998",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -350,7 +350,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "twm_1.0.9.bb",
+            "filename": "twm_1.0.10.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 723098,
@@ -359,10 +359,10 @@
             "license": "MIT",
             "pn": "twm",
             "provides": "twm ",
-            "pv": "1.0.9",
+            "pv": "1.0.10",
             "section": "x11/apps",
             "summary": "tiny window manager",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-03-12T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -818,7 +818,7 @@
             "pv": "20080216",
             "section": "fonts",
             "summary": "Unicode Mingti (printed) TrueType Font",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2019-03-12T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2820,19 +2820,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A C-language AMQP client library for use with v2.0+ of the RabbitMQ broker",
-            "filename": "rabbitmq-c_0.7.0.bb",
+            "filename": "rabbitmq-c_0.9.0.bb",
             "filepath": "recipes-connectivity/rabbitmq-c",
             "homepage": "https://github.com/alanxz/rabbitmq-c",
             "id": 723229,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "cmake pkgconfig",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "rabbitmq-c",
             "provides": "rabbitmq-c ",
-            "pv": "0.7.0",
+            "pv": "0.9.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:47+0000"
+            "updated": "2019-03-12T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2991,7 +2991,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libqmi is a glib-based library for talking to WWAN modems and devices which speak the Qualcomm MSM Interface (QMI) protocol",
-            "filename": "libqmi_1.22.0.bb",
+            "filename": "libqmi_1.22.2.bb",
             "filepath": "recipes-connectivity/libqmi",
             "homepage": "http://www.freedesktop.org/wiki/Software/libqmi",
             "id": 723239,
@@ -3000,10 +3000,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "libqmi",
             "provides": "libqmi ",
-            "pv": "1.22.0",
+            "pv": "1.22.2",
             "section": "base",
             "summary": "libqmi is a library for talking to WWAN devices by QMI protocol",
-            "updated": "2019-02-13T17:02:38+0000"
+            "updated": "2019-03-12T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3162,7 +3162,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    This program is used to extract a subset of the memory available either     via /dev/mem or /proc/vmcore (for crashdumps). It is used to get memory     images without extra uneeded information (zero pages, userspace programs,     etc). ",
-            "filename": "makedumpfile_1.6.4.bb",
+            "filename": "makedumpfile_1.6.5.bb",
             "filepath": "recipes-kernel/makedumpfile",
             "homepage": "http://makedumpfile.sourceforge.net",
             "id": 723248,
@@ -3171,10 +3171,10 @@
             "license": "GPLv2.0",
             "pn": "makedumpfile",
             "provides": "makedumpfile ",
-            "pv": "1.6.4",
+            "pv": "1.6.5",
             "section": "base",
             "summary": "VMcore extraction tool",
-            "updated": "2018-12-17T17:12:16+0000"
+            "updated": "2019-03-12T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4492,7 +4492,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Boehm-Demers-Weiser conservative garbage collector can be used as a garbage collecting replacement for C malloc or C++ new. It allows you to allocate memory basically as you normally would, without explicitly deallocating memory that is no longer useful. The collector automatically recycles memory when it determines that it can no longer be otherwise accessed.  The collector is also used by a number of programming language implementations that either use C as intermediate code, want to facilitate easier interoperation with C libraries, or just prefer the simple collector interface.  Alternatively, the garbage collector may be used as a leak detector for C or C++ programs, though that is not its primary goal.  Empirically, this collector works with most unmodified C programs, simply by replacing malloc with GC_malloc calls, replacing realloc with GC_realloc calls, and removing free calls.",
-            "filename": "bdwgc_7.6.10.bb",
+            "filename": "bdwgc_7.6.12.bb",
             "filepath": "recipes-support/bdwgc",
             "homepage": "http://www.hboehm.info/gc/",
             "id": 723318,
@@ -4501,10 +4501,10 @@
             "license": "MIT",
             "pn": "bdwgc",
             "provides": "bdwgc ",
-            "pv": "7.6.10",
+            "pv": "7.6.12",
             "section": "devel",
             "summary": "A garbage collector for C and C++",
-            "updated": "2018-12-25T17:12:04+0000"
+            "updated": "2019-03-12T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -5131,7 +5131,7 @@
             "pv": "1.9.0",
             "section": "libs",
             "summary": "Modern, powerful open source cross-platform C++ class libraries",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2019-03-12T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -5340,7 +5340,7 @@
             "pv": "1.12.2",
             "section": "libs",
             "summary": "",
-            "updated": "2019-02-13T17:02:44+0000"
+            "updated": "2019-03-12T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -5461,7 +5461,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.",
-            "filename": "nano_3.0.bb",
+            "filename": "nano_3.2.bb",
             "filepath": "recipes-support/nano",
             "homepage": "http://www.nano-editor.org/",
             "id": 723370,
@@ -5470,10 +5470,10 @@
             "license": "GPLv3",
             "pn": "nano",
             "provides": "nano ",
-            "pv": "3.0",
+            "pv": "3.2",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-10-08T07:10:48+0000"
+            "updated": "2019-03-12T20:03:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5961,13 +5961,13 @@
             "id": 723396,
             "inherits": "",
             "layerbranch": 14965,
-            "license": "Mini-XML-License",
+            "license": "Apache-2.0",
             "pn": "libmxml",
             "provides": "libmxml ",
-            "pv": "2.12+gitX",
+            "pv": "3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2019-03-12T20:03:55+0000"
         },
         {
             "bbclassextend": "native",
@@ -6297,7 +6297,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LVM2 is a set of utilities to manage logical volumes in Linux.",
-            "filename": "lvm2_2.03.01.bb",
+            "filename": "lvm2_2.03.02.bb",
             "filepath": "recipes-support/lvm2",
             "homepage": "https://www.sourceware.org/lvm2/",
             "id": 723414,
@@ -6306,17 +6306,17 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "lvm2",
             "provides": "lvm2 ",
-            "pv": "2.03.01",
+            "pv": "2.03.02",
             "section": "utils",
             "summary": "",
-            "updated": "2019-03-05T19:03:04+0000"
+            "updated": "2019-03-12T20:03:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "LVM2 is a set of utilities to manage logical volumes in Linux.",
-            "filename": "libdevmapper_2.03.01.bb",
+            "filename": "libdevmapper_2.03.02.bb",
             "filepath": "recipes-support/lvm2",
             "homepage": "https://www.sourceware.org/lvm2/",
             "id": 723415,
@@ -6325,10 +6325,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "libdevmapper",
             "provides": "libdevmapper ",
-            "pv": "2.03.01",
+            "pv": "2.03.02",
             "section": "utils",
             "summary": "",
-            "updated": "2019-02-15T00:02:24+0000"
+            "updated": "2019-03-12T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -6367,44 +6367,6 @@
             "section": "libs",
             "summary": "Library for interfacing with IIO devices",
             "updated": "2018-12-03T18:12:37+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "vim_8.1.0347.bb",
-            "filepath": "recipes-support/vim",
-            "homepage": "",
-            "id": 723418,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo update-alternatives",
-            "layerbranch": 14965,
-            "license": "vim",
-            "pn": "vim",
-            "provides": "vim xxd",
-            "pv": "8.1.0347",
-            "section": "console/utils",
-            "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2019-03-05T19:03:06+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "vim-tiny_8.1.0347.bb",
-            "filepath": "recipes-support/vim",
-            "homepage": "",
-            "id": 723419,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo update-alternatives",
-            "layerbranch": 14965,
-            "license": "vim",
-            "pn": "vim-tiny",
-            "provides": "vim-tiny ",
-            "pv": "8.1.0347",
-            "section": "console/utils",
-            "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2019-03-05T19:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6917,7 +6879,7 @@
             "pv": "7.70",
             "section": "security",
             "summary": "network auditing tool",
-            "updated": "2019-02-13T17:02:44+0000"
+            "updated": "2019-03-12T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -7627,7 +7589,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mariadb-native_5.5.62.bb",
+            "filename": "mariadb-native_10.3.13.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 723484,
@@ -7636,10 +7598,10 @@
             "license": "GPLv2",
             "pn": "mariadb-native",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "5.5.62",
+            "pv": "10.3.13",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2019-02-22T02:02:26+0000"
+            "updated": "2019-03-12T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -7658,14 +7620,14 @@
             "pv": "1.2.5",
             "section": "devel/python",
             "summary": "Python interface to MySQL",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2019-03-12T20:03:52+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mariadb_5.5.62.bb",
+            "filename": "mariadb_10.3.13.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 723486,
@@ -7674,10 +7636,10 @@
             "license": "GPLv2",
             "pn": "mariadb",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "5.5.62",
+            "pv": "10.3.13",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2019-02-22T02:02:26+0000"
+            "updated": "2019-03-12T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -7753,7 +7715,7 @@
             "pv": "1.20+gitX",
             "section": "base",
             "summary": "LevelDB is a fast key-value storage library",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-03-12T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -9831,19 +9793,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libc-bench is a set of time- and memory-efficiency tests to compare implementations of various C/POSIX standard library functions.",
-            "filename": "libc-bench_20110206.bb",
+            "filename": "libc-bench_git.bb",
             "filepath": "recipes-benchmark/libc-bench",
             "homepage": "http://www.etalabs.net/libc-bench.html",
             "id": 723600,
             "inherits": "",
             "layerbranch": 14965,
-            "license": "GPLv2",
+            "license": "MIT",
             "pn": "libc-bench",
             "provides": "libc-bench ",
-            "pv": "20110206",
+            "pv": "20110206+gitX",
             "section": "console/utils",
             "summary": "Tests to compare standard functions of different libc implementations",
-            "updated": "2018-10-05T09:10:52+0000"
+            "updated": "2019-03-12T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -10565,7 +10527,7 @@
             "pv": "7.3.2",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2019-03-05T19:03:00+0000"
+            "updated": "2019-03-12T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -10641,7 +10603,7 @@
             "pv": "5.1.1.r37",
             "section": "console/utils",
             "summary": "",
-            "updated": "2019-01-02T17:01:55+0000"
+            "updated": "2019-03-12T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -11256,7 +11218,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "MessagePack is an efficient binary serialization format. It's like JSON. but fast and small",
-            "filename": "msgpack-c_2.1.5.bb",
+            "filename": "msgpack-c_3.1.1.bb",
             "filepath": "recipes-devtools/msgpack",
             "homepage": "http://msgpack.org/index.html",
             "id": 723676,
@@ -11265,10 +11227,10 @@
             "license": "BSL-1.0",
             "pn": "msgpack-c",
             "provides": "msgpack-c ",
-            "pv": "2.1.5+gitX",
+            "pv": "3.1.1+gitX",
             "section": "base",
             "summary": "MessagePack implementation for C and C++",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2019-03-12T20:03:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -11553,7 +11515,7 @@
             "pv": "4.043",
             "section": "libs",
             "summary": "A Perl DBI driver for MySQL",
-            "updated": "2018-10-05T09:10:08+0000"
+            "updated": "2019-03-12T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11686,7 +11648,7 @@
             "pv": "0.10+gitrX",
             "section": "base",
             "summary": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing",
-            "updated": "2018-10-05T09:10:10+0000"
+            "updated": "2019-03-12T20:03:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -13149,7 +13111,7 @@
             "pv": "4.4.1",
             "section": "math",
             "summary": "",
-            "updated": "2019-03-05T19:03:07+0000"
+            "updated": "2019-03-12T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -13217,7 +13179,7 @@
             "filepath": "recipes-support/hdf5",
             "homepage": "https://www.hdfgroup.org/",
             "id": 917908,
-            "inherits": "cmake",
+            "inherits": "cmake siteinfo",
             "layerbranch": 14965,
             "license": "HDF5",
             "pn": "hdf5",
@@ -13225,7 +13187,7 @@
             "pv": "1.8.19",
             "section": "libs",
             "summary": "Unique technology suite that makes possible the management of extremely large and complex data collections",
-            "updated": "2019-03-05T19:03:08+0000"
+            "updated": "2019-03-12T20:03:55+0000"
         },
         {
             "bbclassextend": "",

@@ -59,71 +59,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190305",
+            "bitbake_branch": "wr-10.19-20190311",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-05T19:03:08+0000",
+            "updated": "2019-03-12T20:03:46+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-12T03:03:59+0000",
-            "vcs_last_commit": "2019-03-12T03:03:59+0000",
-            "vcs_last_fetch": "2019-03-12T03:03:59+0000",
-            "vcs_last_rev": "981c43506e7fd5e444ed60cd6c1b310ad56fb2b5",
+            "updated": "2019-03-12T19:03:39+0000",
+            "vcs_last_commit": "2019-03-12T19:03:39+0000",
+            "vcs_last_fetch": "2019-03-12T19:03:39+0000",
+            "vcs_last_rev": "fd67053860b15f748dd0031330480b818817679b",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-03-04T19:03:52+0000",
-            "vcs_last_commit": "2019-03-04T19:03:52+0000",
-            "vcs_last_fetch": "2019-03-04T19:03:52+0000",
-            "vcs_last_rev": "a6ec50cc33906b57143324d253f712cf554bd560",
+            "updated": "2019-03-11T01:03:50+0000",
+            "vcs_last_commit": "2019-03-11T01:03:50+0000",
+            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
+            "vcs_last_rev": "5700dd84742eff7e1976a34f955af0b252f58fd9",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-03-04T19:03:52+0000",
-            "vcs_last_commit": "2019-03-04T19:03:52+0000",
-            "vcs_last_fetch": "2019-03-04T19:03:52+0000",
-            "vcs_last_rev": "20255268f8ebf26681a5132a1b2c2f70f939e23f",
+            "updated": "2019-03-11T01:03:50+0000",
+            "vcs_last_commit": "2019-03-11T01:03:50+0000",
+            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
+            "vcs_last_rev": "6af5098d19ee9ca3e2acbe083f149a94ab2ad998",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190305",
+            "actual_branch": "wr-10.19-20190311",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-03-04T19:03:20+0000",
-            "vcs_last_commit": "2019-03-04T19:03:20+0000",
-            "vcs_last_fetch": "2019-03-04T19:03:20+0000",
-            "vcs_last_rev": "831409b9bc6edaf101e042ff40d39c8fbc58ed8d",
+            "updated": "2019-03-11T01:03:50+0000",
+            "vcs_last_commit": "2019-03-11T01:03:50+0000",
+            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
+            "vcs_last_rev": "6af5098d19ee9ca3e2acbe083f149a94ab2ad998",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -609,26 +609,7 @@
             "pv": "3.18",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Agent",
-            "updated": "2018-10-15T19:10:41+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "The GNU inetutils are a collection of common networking utilities and servers including ftp, ftpd, rcp, rexec, rlogin, rlogind, rsh, rshd, syslog, syslogd, talk, talkd, telnet, telnetd, tftp, tftpd, and uucpd.",
-            "filename": "inetutils_1.9.4.bb",
-            "filepath": "recipes-connectivity/inetutils",
-            "homepage": "http://www.gnu.org/software/inetutils",
-            "id": 724920,
-            "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
-            "layerbranch": 14964,
-            "license": "GPLv3",
-            "pn": "inetutils",
-            "provides": "inetutils ",
-            "pv": "1.9.4",
-            "section": "net",
-            "summary": "",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2019-03-12T20:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -730,7 +711,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "wireless-regdb_2018.10.24.bb",
+            "filename": "wireless-regdb_2019.03.01.bb",
             "filepath": "recipes-connectivity/wireless-regdb",
             "homepage": "http://wireless.kernel.org/en/developers/Regulatory/CRDA",
             "id": 724926,
@@ -739,10 +720,10 @@
             "license": "ISC",
             "pn": "wireless-regdb",
             "provides": "wireless-regdb ",
-            "pv": "2018.10.24",
+            "pv": "2019.03.01",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Database",
-            "updated": "2019-02-13T17:02:23+0000"
+            "updated": "2019-03-12T20:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -787,7 +768,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The miniUPnP daemon is an UPnP IGD (internet gateway device) which provide NAT traversal services to any UPnP enabled client on the network.",
-            "filename": "miniupnpd_2.1.20180706.bb",
+            "filename": "miniupnpd_2.1.20190210.bb",
             "filepath": "recipes-connectivity/miniupnpd",
             "homepage": "",
             "id": 724929,
@@ -796,10 +777,10 @@
             "license": "BSD-3-Clause",
             "pn": "miniupnpd",
             "provides": "miniupnpd ",
-            "pv": "2.1.20180706",
+            "pv": "2.1.20190210",
             "section": "networking",
             "summary": "Lightweight UPnP IGD daemon",
-            "updated": "2019-01-02T17:01:17+0000"
+            "updated": "2019-03-12T20:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1768,7 +1749,7 @@
             "pv": "2.5.2",
             "section": "libs",
             "summary": "Drivers and tools to support ATM networking under Linux",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2019-03-12T20:03:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1946,7 +1927,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "nghttp2_1.26.0.bb",
+            "filename": "nghttp2_1.36.0.bb",
             "filepath": "recipes-support/nghttp2",
             "homepage": "https://nghttp2.org/",
             "id": 724990,
@@ -1955,10 +1936,10 @@
             "license": "MIT",
             "pn": "nghttp2",
             "provides": "nghttp2 ",
-            "pv": "1.26.0",
+            "pv": "1.36.0",
             "section": "libs",
             "summary": "HTTP/2 C Library and tools",
-            "updated": "2018-10-05T09:10:41+0000"
+            "updated": "2019-03-12T20:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2174,19 +2155,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_2.6.6.bb",
+            "filename": "wireshark_3.0.0.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 725002,
-            "inherits": "cmake perlnative pkgconfig python-dir pythonnative upstream-version-is-even",
+            "inherits": "cmake perlnative pkgconfig python3-dir python3native upstream-version-is-even",
             "layerbranch": 14964,
             "license": "GPL-2.0",
             "pn": "wireshark",
             "provides": "wireshark ",
-            "pv": "2.6.6",
+            "pv": "3.0.0",
             "section": "net",
             "summary": "",
-            "updated": "2019-01-15T17:01:56+0000"
+            "updated": "2019-03-12T20:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2725,7 +2706,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Postfix is Wietse Venema's mail server that started life at IBM research as an alternative to the widely-used Sendmail program. Postfix attempts to be fast, easy to administer, and secure. The outsidei has a definite Sendmail-ish flavor, but the inside is completely different.",
-            "filename": "postfix_3.3.1.bb",
+            "filename": "postfix_3.4.1.bb",
             "filepath": "recipes-daemons/postfix",
             "homepage": "http://www.postfix.org",
             "id": 725031,
@@ -2734,10 +2715,10 @@
             "license": "IPL-1.0 | EPL-2.0",
             "pn": "postfix",
             "provides": "postfix ",
-            "pv": "3.3.1",
+            "pv": "3.4.1",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-10-15T19:10:42+0000"
+            "updated": "2019-03-12T20:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2915,7 +2896,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "radvd is the router advertisement daemon for IPv6. It listens to router solicitations and sends router advertisements as described in RFC 2461, Neighbor Discovery for IP Version 6 (IPv6). With these advertisements hosts can automatically configure their addresses and some other parameters. They also can choose a default router based on these advertisements.",
-            "filename": "radvd_2.17.bb",
+            "filename": "radvd_2.18.bb",
             "filepath": "recipes-daemons/radvd",
             "homepage": "http://www.litech.org/radvd/",
             "id": 725041,
@@ -2924,10 +2905,10 @@
             "license": "radvd",
             "pn": "radvd",
             "provides": "radvd ",
-            "pv": "2.17",
+            "pv": "2.18",
             "section": "net",
             "summary": "IPv6 router advertisement daemon",
-            "updated": "2018-10-23T03:10:34+0000"
+            "updated": "2019-03-12T20:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3339,13 +3320,13 @@
             "id": 725063,
             "inherits": "autotools autotools-brokensep perlnative pkgconfig ptest siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14964,
-            "license": "BSD",
+            "license": "BSD & MIT",
             "pn": "net-snmp",
             "provides": "net-snmp ",
             "pv": "5.8",
             "section": "net",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2019-03-05T19:03:00+0000"
+            "updated": "2019-03-12T20:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3707,6 +3688,25 @@
             "section": "base",
             "summary": "Meta-networking packagegroups",
             "updated": "2019-01-15T17:01:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/firewalld/firewalld/issues",
+            "description": "",
+            "filename": "firewalld_0.6.3.bb",
+            "filepath": "recipes-connectivity/firewalld",
+            "homepage": "https://firewalld.org/",
+            "id": 917951,
+            "inherits": "autotools bash-completion gettext gsettings python3-dir python3native siteconfig siteinfo systemd update-rc.d",
+            "layerbranch": 14964,
+            "license": "GPLv2+",
+            "pn": "firewalld",
+            "provides": "firewalld ",
+            "pv": "0.6.3",
+            "section": "base",
+            "summary": "Dynamic firewall daemon with a D-Bus interface",
+            "updated": "2019-03-12T20:03:32+0000"
         }
     ],
     "wrtemplates": []
