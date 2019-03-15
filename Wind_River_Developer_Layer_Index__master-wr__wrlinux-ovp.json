@@ -142,10 +142,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-03-14T01:03:20+0000",
-            "vcs_last_commit": "2019-03-14T01:03:20+0000",
-            "vcs_last_fetch": "2019-03-14T01:03:20+0000",
-            "vcs_last_rev": "6264b8c9e9835b4ab44690706006ad896b0637af",
+            "updated": "2019-03-15T01:03:24+0000",
+            "vcs_last_commit": "2019-03-15T01:03:24+0000",
+            "vcs_last_fetch": "2019-03-15T01:03:24+0000",
+            "vcs_last_rev": "a6f70cc8cec9c734fff7a4e8fb53f9f06c58f125",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -184,10 +184,10 @@
             "collection": "wrlinux-ovp",
             "id": 109415,
             "layer": 170,
-            "updated": "2019-03-13T01:03:32+0000",
-            "vcs_last_commit": "2019-03-13T01:03:32+0000",
-            "vcs_last_fetch": "2019-03-13T01:03:32+0000",
-            "vcs_last_rev": "2d9a01e968fa95abbb82b51819056e35ad72a639",
+            "updated": "2019-03-15T01:03:24+0000",
+            "vcs_last_commit": "2019-03-15T01:03:24+0000",
+            "vcs_last_fetch": "2019-03-15T01:03:24+0000",
+            "vcs_last_rev": "a6f70cc8cec9c734fff7a4e8fb53f9f06c58f125",
             "vcs_subdir": "wrlinux-ovp",
             "version": "1",
             "yp_compatible_version": 2
@@ -430,7 +430,7 @@
     "machines": [],
     "recipes": [
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packagegroup defining packages needed for lxc",
@@ -446,10 +446,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:42+0000"
+            "updated": "2019-03-15T02:03:37+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
@@ -457,7 +457,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 849508,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-guest",
@@ -465,10 +465,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:42+0000"
+            "updated": "2019-03-15T02:03:37+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image suitable for a minimal KVM guest or host.",
@@ -476,7 +476,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 849509,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-kvm-minimal",
@@ -484,7 +484,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -506,7 +506,7 @@
             "updated": "2019-01-29T20:01:32+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "criu packagegroup",
@@ -522,11 +522,11 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:38+0000"
         },
         {
-            "bbclassextend": " ",
-            "blacklisted": "Depends on libvirt",
+            "bbclassextend": "",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "Debugging packages for VM's.",
             "filename": "packagegroup-ovp-debug.bb",
@@ -541,10 +541,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:38+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Trace tools packagegroup extending glibc_std.",
@@ -560,10 +560,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:38+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "OVP LTTng Toolchain",
@@ -579,10 +579,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:38+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packagegroup for VM",
@@ -598,10 +598,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:38+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "docker packagegroup",
@@ -617,10 +617,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:38+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Packagegroup for glusterfs components",
@@ -636,10 +636,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:38+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Virtual/monitoring for zabbix packages",
@@ -655,10 +655,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:38+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "OVP Default Monitoring System",
@@ -674,10 +674,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:43+0000"
+            "updated": "2019-03-15T02:03:39+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Empty virtual/monitoring provider",
@@ -693,10 +693,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:44+0000"
+            "updated": "2019-03-15T02:03:39+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Virtual/monitoring for nagios packages",
@@ -712,10 +712,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-08T16:03:44+0000"
+            "updated": "2019-03-15T02:03:39+0000"
         },
         {
-            "bbclassextend": " ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "SystemReporter is a simple tool which gathers/crawls  various system files, uses various helper tools to obtain relevant  system information. The gathered information is grouped, and is shown  on the console.",
@@ -731,11 +731,11 @@
             "pv": "1.0",
             "section": "console/utils",
             "summary": "Generate various system information report of this system",
-            "updated": "2019-03-08T16:03:44+0000"
+            "updated": "2019-03-15T02:03:39+0000"
         },
         {
-            "bbclassextend": " ",
-            "blacklisted": "Depends on libvirt",
+            "bbclassextend": "",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "An introspection library, written in C, focused on reading                and writing memory from virtual machines (VM's).",
             "filename": "libvmi_git.bb",
@@ -750,7 +750,7 @@
             "pv": "0.10.1",
             "section": "console/tools",
             "summary": "",
-            "updated": "2019-03-08T16:03:44+0000"
+            "updated": "2019-03-15T02:03:39+0000"
         }
     ],
     "wrtemplates": [
