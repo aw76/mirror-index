@@ -73,57 +73,57 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-12T19:03:39+0000",
-            "vcs_last_commit": "2019-03-12T19:03:39+0000",
-            "vcs_last_fetch": "2019-03-12T19:03:39+0000",
-            "vcs_last_rev": "fd67053860b15f748dd0031330480b818817679b",
+            "updated": "2019-03-18T19:03:36+0000",
+            "vcs_last_commit": "2019-03-18T19:03:36+0000",
+            "vcs_last_fetch": "2019-03-18T19:03:36+0000",
+            "vcs_last_rev": "fecbb2d254c1a95a0312ac8fabd7667e930b03cf",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-03-11T01:03:50+0000",
-            "vcs_last_commit": "2019-03-11T01:03:50+0000",
-            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
-            "vcs_last_rev": "5700dd84742eff7e1976a34f955af0b252f58fd9",
+            "updated": "2019-03-18T19:03:46+0000",
+            "vcs_last_commit": "2019-03-18T19:03:46+0000",
+            "vcs_last_fetch": "2019-03-18T19:03:46+0000",
+            "vcs_last_rev": "504229d9383dbf73ce244f18eb19c9d211f6dcce",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-03-19T01:03:22+0000",
-            "vcs_last_commit": "2019-03-19T01:03:22+0000",
-            "vcs_last_fetch": "2019-03-19T01:03:22+0000",
-            "vcs_last_rev": "e4304acf28b7df245026536ff563f50352fbe57f",
+            "updated": "2019-03-19T19:03:22+0000",
+            "vcs_last_commit": "2019-03-19T19:03:22+0000",
+            "vcs_last_fetch": "2019-03-19T19:03:22+0000",
+            "vcs_last_rev": "6a91fc550e69065fe7aaba6c17589a8a312fa4b0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
         },
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-03-11T01:03:50+0000",
-            "vcs_last_commit": "2019-03-11T01:03:50+0000",
-            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
-            "vcs_last_rev": "6af5098d19ee9ca3e2acbe083f149a94ab2ad998",
+            "updated": "2019-03-18T19:03:46+0000",
+            "vcs_last_commit": "2019-03-18T19:03:46+0000",
+            "vcs_last_fetch": "2019-03-18T19:03:46+0000",
+            "vcs_last_rev": "5d67fef78b89a55e88198750f2f894111dea4984",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 3
@@ -578,7 +578,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-networkmanager_2.0.1.bb",
+            "filename": "python-networkmanager_2.1.bb",
             "filepath": "recipes-connectivity/python-networkmanager",
             "homepage": "https://github.com/seveas/python-networkmanager",
             "id": 724918,
@@ -587,10 +587,10 @@
             "license": "Zlib",
             "pn": "python-networkmanager",
             "provides": "python-networkmanager ",
-            "pv": "2.0.1",
+            "pv": "2.1",
             "section": "devel/python",
             "summary": "Easy communication with NetworkManager from Python",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2019-03-19T19:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -673,7 +673,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
-            "filename": "mbedtls_2.13.0.bb",
+            "filename": "mbedtls_2.16.0.bb",
             "filepath": "recipes-connectivity/mbedtls",
             "homepage": "https://tls.mbed.org/",
             "id": 724924,
@@ -682,10 +682,10 @@
             "license": "Apache-2.0",
             "pn": "mbedtls",
             "provides": "mbedtls  polarssl",
-            "pv": "2.13.0",
+            "pv": "2.16.0",
             "section": "libs",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2018-10-31T18:10:10+0000"
+            "updated": "2019-03-19T19:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1927,7 +1927,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "nghttp2_1.36.0.bb",
+            "filename": "nghttp2_1.37.0.bb",
             "filepath": "recipes-support/nghttp2",
             "homepage": "https://nghttp2.org/",
             "id": 724990,
@@ -1936,10 +1936,10 @@
             "license": "MIT",
             "pn": "nghttp2",
             "provides": "nghttp2 ",
-            "pv": "1.36.0",
+            "pv": "1.37.0",
             "section": "libs",
             "summary": "HTTP/2 C Library and tools",
-            "updated": "2019-03-12T20:03:31+0000"
+            "updated": "2019-03-19T19:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2281,7 +2281,7 @@
             "pv": "2.80",
             "section": "net",
             "summary": "Lightweight, easy to configure DNS forwarder and DHCP server",
-            "updated": "2018-12-03T18:12:24+0000"
+            "updated": "2019-03-19T19:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2782,7 +2782,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A fully-featured http proxy and web-cache daemon for Linux. Squid offers a rich access control, authorization and logging environment to develop web proxy and content serving applications. Squid offers a rich set of traffic optimization options, most of which are enabled by default for simpler installation and high performance. ",
-            "filename": "squid_3.5.27.bb",
+            "filename": "squid_3.5.28.bb",
             "filepath": "recipes-daemons/squid",
             "homepage": "http://www.squid-cache.org",
             "id": 725035,
@@ -2791,10 +2791,10 @@
             "license": "GPLv2+",
             "pn": "squid",
             "provides": "squid ",
-            "pv": "3.5.27",
+            "pv": "3.5.28",
             "section": "web",
             "summary": "A fully-featured http proxy and web-cache daemon for Linux",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2019-03-19T19:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -3554,7 +3554,7 @@
             "pv": "0.17",
             "section": "net",
             "summary": "",
-            "updated": "2018-10-05T09:10:57+0000"
+            "updated": "2019-03-19T19:03:22+0000"
         },
         {
             "bbclassextend": "",

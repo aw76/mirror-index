@@ -73,29 +73,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-12T19:03:39+0000",
-            "vcs_last_commit": "2019-03-12T19:03:39+0000",
-            "vcs_last_fetch": "2019-03-12T19:03:39+0000",
-            "vcs_last_rev": "fd67053860b15f748dd0031330480b818817679b",
+            "updated": "2019-03-18T19:03:36+0000",
+            "vcs_last_commit": "2019-03-18T19:03:36+0000",
+            "vcs_last_fetch": "2019-03-18T19:03:36+0000",
+            "vcs_last_rev": "fecbb2d254c1a95a0312ac8fabd7667e930b03cf",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2019-03-11T01:03:50+0000",
-            "vcs_last_commit": "2019-03-11T01:03:50+0000",
-            "vcs_last_fetch": "2019-03-11T01:03:50+0000",
-            "vcs_last_rev": "6af5098d19ee9ca3e2acbe083f149a94ab2ad998",
+            "updated": "2019-03-18T19:03:46+0000",
+            "vcs_last_commit": "2019-03-18T19:03:46+0000",
+            "vcs_last_fetch": "2019-03-18T19:03:46+0000",
+            "vcs_last_rev": "5d67fef78b89a55e88198750f2f894111dea4984",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": 3
@@ -172,7 +172,7 @@
             "pv": "2.0.18+gitX",
             "section": "kernel/userland",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2018-12-25T17:12:56+0000"
+            "updated": "2019-03-19T19:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -267,7 +267,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2019-01-02T17:01:48+0000"
+            "updated": "2019-03-19T19:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -312,7 +312,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
-            "filename": "klibc-utils_2.0.4.bb",
+            "filename": "klibc-utils_2.0.6.bb",
             "filepath": "recipes-devtools/klibc",
             "homepage": "",
             "id": 723081,
@@ -321,17 +321,17 @@
             "license": "BSD-3-Clause & GPL-2.0 & MIT & Zlib",
             "pn": "klibc-utils",
             "provides": "klibc-utils ",
-            "pv": "2.0.4",
+            "pv": "2.0.6",
             "section": "libs",
             "summary": "klibc utils for initramfs",
-            "updated": "2018-12-25T17:12:56+0000"
+            "updated": "2019-03-19T19:03:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
-            "filename": "klcc-cross_2.0.4.bb",
+            "filename": "klcc-cross_2.0.6.bb",
             "filepath": "recipes-devtools/klibc",
             "homepage": "",
             "id": 723082,
@@ -340,17 +340,17 @@
             "license": "BSD-3-Clause & GPL-2.0 & MIT & Zlib",
             "pn": "klcc-cross",
             "provides": "klcc-cross ",
-            "pv": "2.0.4",
+            "pv": "2.0.6",
             "section": "libs",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2019-01-15T17:01:16+0000"
+            "updated": "2019-03-19T19:03:35+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
-            "filename": "klibc-static-utils_2.0.4.bb",
+            "filename": "klibc-static-utils_2.0.6.bb",
             "filepath": "recipes-devtools/klibc",
             "homepage": "",
             "id": 723083,
@@ -359,17 +359,17 @@
             "license": "BSD-3-Clause & GPL-2.0 & MIT & Zlib",
             "pn": "klibc-static-utils",
             "provides": "klibc-static-utils ",
-            "pv": "2.0.4",
+            "pv": "2.0.6",
             "section": "libs",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2018-12-25T17:12:57+0000"
+            "updated": "2019-03-19T19:03:35+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
-            "filename": "klibc_2.0.4.bb",
+            "filename": "klibc_2.0.6.bb",
             "filepath": "recipes-devtools/klibc",
             "homepage": "",
             "id": 723084,
@@ -378,10 +378,10 @@
             "license": "BSD-3-Clause & GPL-2.0 & MIT & Zlib",
             "pn": "klibc",
             "provides": "klibc ",
-            "pv": "2.0.4",
+            "pv": "2.0.6",
             "section": "libs",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2018-12-25T17:12:57+0000"
+            "updated": "2019-03-19T19:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -400,7 +400,7 @@
             "pv": "2.0.2",
             "section": "base",
             "summary": "UBI utils statically compiled against klibc",
-            "updated": "2018-10-05T09:10:18+0000"
+            "updated": "2019-03-19T19:03:35+0000"
         },
         {
             "bbclassextend": "",

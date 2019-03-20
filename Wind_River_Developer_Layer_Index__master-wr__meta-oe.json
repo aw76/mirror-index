@@ -73,29 +73,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-12T19:03:39+0000",
-            "vcs_last_commit": "2019-03-12T19:03:39+0000",
-            "vcs_last_fetch": "2019-03-12T19:03:39+0000",
-            "vcs_last_rev": "fd67053860b15f748dd0031330480b818817679b",
+            "updated": "2019-03-18T19:03:36+0000",
+            "vcs_last_commit": "2019-03-18T19:03:36+0000",
+            "vcs_last_fetch": "2019-03-18T19:03:36+0000",
+            "vcs_last_rev": "fecbb2d254c1a95a0312ac8fabd7667e930b03cf",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
         },
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-03-19T01:03:22+0000",
-            "vcs_last_commit": "2019-03-19T01:03:22+0000",
-            "vcs_last_fetch": "2019-03-19T01:03:22+0000",
-            "vcs_last_rev": "e4304acf28b7df245026536ff563f50352fbe57f",
+            "updated": "2019-03-19T19:03:22+0000",
+            "vcs_last_commit": "2019-03-19T19:03:22+0000",
+            "vcs_last_fetch": "2019-03-19T19:03:22+0000",
+            "vcs_last_rev": "6a91fc550e69065fe7aaba6c17589a8a312fa4b0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 3
@@ -2668,7 +2668,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Kerberos is a system for authenticating users and services on a network.  Kerberos is a trusted third-party service.  That means that there is a  third party (the Kerberos server) that is trusted by all the entities on  the network (users and services, usually called \"principals\").  .  This is the MIT reference implementation of Kerberos V5.  .  This package contains the Kerberos key server (KDC).  The KDC manages all  authentication credentials for a Kerberos realm, holds the master keys  for the realm, and responds to authentication requests.  This package  should be installed on both master and slave KDCs.",
-            "filename": "krb5_1.16.2.bb",
+            "filename": "krb5_1.17.bb",
             "filepath": "recipes-connectivity/krb5",
             "homepage": "http://web.mit.edu/Kerberos/",
             "id": 723221,
@@ -2677,10 +2677,10 @@
             "license": "MIT",
             "pn": "krb5",
             "provides": "krb5 ",
-            "pv": "1.16.2",
+            "pv": "1.17",
             "section": "console/network",
             "summary": "A network authentication protocol",
-            "updated": "2019-03-05T19:03:58+0000"
+            "updated": "2019-03-19T19:03:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -3200,7 +3200,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The core analysis suite is a self-contained tool that can be used toinvestigate either live systems, kernel core dumps created from thenetdump, diskdump and kdump packages from Red Hat Linux, the mcore kernel patchoffered by Mission Critical Linux, or the LKCD kernel patch.",
-            "filename": "crash_7.2.4.bb",
+            "filename": "crash_7.2.5.bb",
             "filepath": "recipes-kernel/crash",
             "homepage": "http://people.redhat.com/anderson",
             "id": 723250,
@@ -3209,10 +3209,10 @@
             "license": "GPLv3",
             "pn": "crash",
             "provides": "crash ",
-            "pv": "7.2.4",
+            "pv": "7.2.5",
             "section": "devel",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2018-10-15T19:10:21+0000"
+            "updated": "2019-03-19T19:03:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3497,7 +3497,7 @@
             "pv": "0.1.14",
             "section": "base",
             "summary": "Interactive Connectivity Establishment library",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2019-03-19T19:03:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -3630,7 +3630,7 @@
             "pv": "3.4.5",
             "section": "libs",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2019-02-13T17:02:46+0000"
+            "updated": "2019-03-19T19:03:46+0000"
         },
         {
             "bbclassextend": "",
@@ -7361,7 +7361,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LIVE555 Streaming Media libraries",
-            "filename": "live555_20190227.bb",
+            "filename": "live555_20190306.bb",
             "filepath": "recipes-multimedia/live555",
             "homepage": "http://live.com/",
             "id": 723472,
@@ -7370,10 +7370,10 @@
             "license": "LGPLv3",
             "pn": "live555",
             "provides": "live555 ",
-            "pv": "20190227",
+            "pv": "20190306",
             "section": "devel",
             "summary": "",
-            "updated": "2019-03-05T19:03:04+0000"
+            "updated": "2019-03-19T19:03:45+0000"
         },
         {
             "bbclassextend": "",
@@ -7582,7 +7582,7 @@
             "pv": "11.2",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2019-03-05T19:03:07+0000"
+            "updated": "2019-03-19T19:03:44+0000"
         },
         {
             "bbclassextend": "",
@@ -9375,7 +9375,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "librelp_1.2.18.bb",
+            "filename": "librelp_1.4.0.bb",
             "filepath": "recipes-extended/rsyslog",
             "homepage": "https://github.com/rsyslog/librelp",
             "id": 723578,
@@ -9384,10 +9384,10 @@
             "license": "GPLv3",
             "pn": "librelp",
             "provides": "librelp ",
-            "pv": "1.2.18",
+            "pv": "1.4.0",
             "section": "base",
             "summary": "A reliable logging library",
-            "updated": "2018-12-03T18:12:35+0000"
+            "updated": "2019-03-19T19:03:44+0000"
         },
         {
             "bbclassextend": "",
@@ -11959,7 +11959,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/jedisct1/libsodium/issues",
             "description": "",
-            "filename": "libsodium_1.0.16.bb",
+            "filename": "libsodium_1.0.17.bb",
             "filepath": "recipes-crypto/libsodium",
             "homepage": "http://libsodium.org/",
             "id": 723715,
@@ -11968,10 +11968,10 @@
             "license": "ISC",
             "pn": "libsodium",
             "provides": "libsodium ",
-            "pv": "1.0.16",
+            "pv": "1.0.17",
             "section": "base",
             "summary": "The Sodium crypto library",
-            "updated": "2018-10-05T09:10:14+0000"
+            "updated": "2019-03-19T19:03:43+0000"
         },
         {
             "bbclassextend": "",
@@ -13187,7 +13187,7 @@
             "pv": "1.8.19",
             "section": "libs",
             "summary": "Unique technology suite that makes possible the management of extremely large and complex data collections",
-            "updated": "2019-03-12T20:03:55+0000"
+            "updated": "2019-03-19T19:03:46+0000"
         },
         {
             "bbclassextend": "",

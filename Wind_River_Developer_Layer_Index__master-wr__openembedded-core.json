@@ -81,15 +81,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190311",
+            "actual_branch": "wr-10.19-20190319",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-12T19:03:39+0000",
-            "vcs_last_commit": "2019-03-12T19:03:39+0000",
-            "vcs_last_fetch": "2019-03-12T19:03:39+0000",
-            "vcs_last_rev": "fd67053860b15f748dd0031330480b818817679b",
+            "updated": "2019-03-18T19:03:36+0000",
+            "vcs_last_commit": "2019-03-18T19:03:36+0000",
+            "vcs_last_fetch": "2019-03-18T19:03:36+0000",
+            "vcs_last_rev": "fecbb2d254c1a95a0312ac8fabd7667e930b03cf",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -125,11 +125,11 @@
     ],
     "machines": [
         {
-            "description": "arm_versatile_926ejs",
+            "description": " a generic armv7",
             "id": 12631,
             "layerbranch": 14953,
             "name": "qemuarm",
-            "updated": "2018-11-27T18:11:50+0000"
+            "updated": "2019-03-19T19:03:10+0000"
         },
         {
             "description": " PPC system under qemu emulation",
@@ -164,7 +164,7 @@
             "id": 12636,
             "layerbranch": 14953,
             "name": "qemuarm64",
-            "updated": "2019-03-12T20:03:25+0000"
+            "updated": "2019-03-19T19:03:10+0000"
         },
         {
             "description": " a common x86",
@@ -172,6 +172,13 @@
             "layerbranch": 14953,
             "name": "qemux86",
             "updated": "2018-10-23T03:10:53+0000"
+        },
+        {
+            "description": "arm_versatile_926ejs",
+            "id": 17704,
+            "layerbranch": 14953,
+            "name": "qemuarmv5",
+            "updated": "2019-03-19T19:03:10+0000"
         }
     ],
     "recipes": [
@@ -199,7 +206,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "The xinit program is used to start the X Window System server and a first client program on systems that cannot start X directly from /etc/init or in environments that use multiple window systems. When this first client exits, xinit will kill the X server and then terminate.",
-            "filename": "xinit_1.4.0.bb",
+            "filename": "xinit_1.4.1.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 722288,
@@ -208,17 +215,17 @@
             "license": "MIT-X",
             "pn": "xinit",
             "provides": "xinit ",
-            "pv": "1.4.0",
+            "pv": "1.4.1",
             "section": "x11/apps",
             "summary": "X Window System initializer",
-            "updated": "2019-01-15T17:01:04+0000"
+            "updated": "2019-03-19T19:03:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "The xmodmap program is used to edit and display the keyboard modifier map and keymap table that are used by client applications to convert event keycodes into keysyms. It is usually run from the user's session startup script to configure the keyboard according to personal tastes.",
-            "filename": "xmodmap_1.0.9.bb",
+            "filename": "xmodmap_1.0.10.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 722289,
@@ -227,10 +234,10 @@
             "license": "MIT",
             "pn": "xmodmap",
             "provides": "xmodmap ",
-            "pv": "1.0.9",
+            "pv": "1.0.10",
             "section": "x11/apps",
             "summary": "Utility for modifying keymaps and pointer button mappings in X",
-            "updated": "2019-01-15T17:01:04+0000"
+            "updated": "2019-03-19T19:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -370,7 +377,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "xvinfo prints out the capabilities of any video adaptors associated with the display that are accessible through the X-Video extension.",
-            "filename": "xvinfo_1.1.3.bb",
+            "filename": "xvinfo_1.1.4.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 722297,
@@ -379,10 +386,10 @@
             "license": "MIT-X",
             "pn": "xvinfo",
             "provides": "xvinfo ",
-            "pv": "1.1.3",
+            "pv": "1.1.4",
             "section": "x11/apps",
             "summary": "Print out X-Video extension adaptor information",
-            "updated": "2019-01-15T17:01:06+0000"
+            "updated": "2019-03-19T19:03:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -446,7 +453,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "The xhost program is used to add and delete host names or user names to the list allowed to make connections to the X server. In the case of hosts, this provides a rudimentary form of privacy control and security. Environments which require more sophisticated measures should implement the user-based mechanism or use the hooks in the protocol for passing other authentication data to the server.",
-            "filename": "xhost_1.0.7.bb",
+            "filename": "xhost_1.0.8.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 722301,
@@ -455,10 +462,10 @@
             "license": "MIT-X",
             "pn": "xhost",
             "provides": "xhost ",
-            "pv": "1.0.7",
+            "pv": "1.0.8",
             "section": "x11/apps",
             "summary": "Server access control program for X",
-            "updated": "2019-01-15T17:01:07+0000"
+            "updated": "2019-03-19T19:03:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -484,7 +491,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Xev creates a window and then asks the X server to send it events whenever anything happens to the window (such as it being moved, resized, typed in, clicked in, etc.). You can also attach it to an existing window.",
-            "filename": "xev_1.2.2.bb",
+            "filename": "xev_1.2.3.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 722303,
@@ -493,10 +500,10 @@
             "license": "MIT",
             "pn": "xev",
             "provides": "xev ",
-            "pv": "1.2.2",
+            "pv": "1.2.3",
             "section": "x11/apps",
             "summary": "X Event Viewer",
-            "updated": "2019-01-15T17:01:08+0000"
+            "updated": "2019-03-19T19:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -522,7 +529,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "The xprop utility is for displaying window and font properties in an X server. One window or font is selected using the command line arguments or possibly in the case of a window, by clicking on the desired window. A list of properties is then given, possibly with formatting information.",
-            "filename": "xprop_1.2.3.bb",
+            "filename": "xprop_1.2.4.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 722305,
@@ -531,10 +538,10 @@
             "license": "MIT-X",
             "pn": "xprop",
             "provides": "xprop ",
-            "pv": "1.2.3",
+            "pv": "1.2.4",
             "section": "x11/apps",
             "summary": "Utility to display window and font properties of an X server",
-            "updated": "2019-01-15T17:01:08+0000"
+            "updated": "2019-03-19T19:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -769,7 +776,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "Xcursor is a simple library designed to help locate and load cursors. Cursors can be loaded from files or memory. A library of common cursors exists which map to the standard X cursor names. Cursors can exist in several sizes and the library automatically picks the best size.",
-            "filename": "libxcursor_1.1.15.bb",
+            "filename": "libxcursor_1.2.0.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 722318,
@@ -778,10 +785,10 @@
             "license": "MIT-style",
             "pn": "libxcursor",
             "provides": "libxcursor ",
-            "pv": "1.1.15",
+            "pv": "1.2.0",
             "section": "x11/libs",
             "summary": "Xcursor: X Cursor management library",
-            "updated": "2019-01-15T17:01:12+0000"
+            "updated": "2019-03-19T19:03:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -902,7 +909,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libxkbcommon is a keymap compiler and support library which processes a reduced subset of keymaps as defined by the XKB specification.",
-            "filename": "libxkbcommon_0.8.3.bb",
+            "filename": "libxkbcommon_0.8.4.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.xkbcommon.org",
             "id": 722325,
@@ -911,10 +918,10 @@
             "license": "MIT & MIT-style",
             "pn": "libxkbcommon",
             "provides": "libxkbcommon ",
-            "pv": "0.8.3",
+            "pv": "0.8.4",
             "section": "base",
             "summary": "Generic XKB keymap library",
-            "updated": "2019-02-20T22:02:21+0000"
+            "updated": "2019-03-19T19:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -978,7 +985,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The composite extension provides three related mechanisms: per-hierarchy storage, automatic shadow update, and external parent.  In per-hierarchy storage, the rendering of an entire hierarchy of windows is redirected to off-screen storage.  In automatic shadow update, when a hierarchy is rendered off-screen, the X server provides an automatic mechanism for presenting those contents within the parent window.  In external parent, a mechanism for providing redirection of compositing transformations through a client.",
-            "filename": "libxcomposite_0.4.4.bb",
+            "filename": "libxcomposite_0.4.5.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 722329,
@@ -987,10 +994,10 @@
             "license": "MIT-style",
             "pn": "libxcomposite",
             "provides": "libxcomposite xcomposite",
-            "pv": "0.4.4",
+            "pv": "0.4.5",
             "section": "x11/libs",
             "summary": "Xcomposite: X Composite extension library",
-            "updated": "2019-02-13T17:02:22+0000"
+            "updated": "2019-03-19T19:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1130,7 +1137,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "libfontenc is a library which helps font libraries portably determine and deal with different encodings of fonts.",
-            "filename": "libfontenc_1.1.3.bb",
+            "filename": "libfontenc_1.1.4.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 722337,
@@ -1139,10 +1146,10 @@
             "license": "MIT",
             "pn": "libfontenc",
             "provides": "libfontenc ",
-            "pv": "1.1.3",
+            "pv": "1.1.4",
             "section": "x11/libs",
             "summary": "X font encoding library",
-            "updated": "2019-01-15T17:01:16+0000"
+            "updated": "2019-03-19T19:03:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1263,7 +1270,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "'Damage' is a term that describes changes make to pixel contents of windows and pixmaps.  Damage accumulates as drawing occurs in the drawable.  Each drawing operation 'damages' one or more rectangular areas within the drawable.  The rectangles are guaranteed to include the set of pixels modified by each operation, but may include significantly more than just those pixels.  The DAMAGE extension allows applications to either receive the raw rectangles as a stream of events, or to have them partially processed within the X server to reduce the amount of data transmitted as well as reduce the processing latency once the repaint operation has started.",
-            "filename": "libxdamage_1.1.4.bb",
+            "filename": "libxdamage_1.1.5.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 722344,
@@ -1272,10 +1279,10 @@
             "license": "MIT",
             "pn": "libxdamage",
             "provides": "libxdamage xdamage",
-            "pv": "1.1.4",
+            "pv": "1.1.5",
             "section": "x11/libs",
             "summary": "Xdamage: X Damage extension library",
-            "updated": "2019-02-13T17:02:23+0000"
+            "updated": "2019-03-19T19:03:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2111,7 +2118,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "cross-platform C library to defer selection of GL API and of window system",
-            "updated": "2019-01-15T17:01:27+0000"
+            "updated": "2019-03-19T19:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2643,7 +2650,7 @@
             "pv": "1.1.73.0",
             "section": "libs",
             "summary": "3D graphics and compute API common loader",
-            "updated": "2019-02-13T17:02:21+0000"
+            "updated": "2019-03-19T19:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2662,7 +2669,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2019-01-15T17:01:30+0000"
+            "updated": "2019-03-19T19:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2681,7 +2688,7 @@
             "pv": "4.1.0",
             "section": "devel",
             "summary": "",
-            "updated": "2019-01-15T17:01:30+0000"
+            "updated": "2019-03-19T19:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2700,7 +2707,7 @@
             "pv": "1.0+gitrX",
             "section": "base",
             "summary": "OpenGL driver testing framework",
-            "updated": "2019-02-13T17:02:22+0000"
+            "updated": "2019-03-19T19:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2890,7 +2897,7 @@
             "pv": "2.0.2",
             "section": "base",
             "summary": "Hardware accelerated JPEG compression/decompression library",
-            "updated": "2019-02-24T23:02:47+0000"
+            "updated": "2019-03-19T19:03:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3042,7 +3049,7 @@
             "pv": "4.19.0",
             "section": "base",
             "summary": "TCP / IP networking and traffic control utilities",
-            "updated": "2019-02-13T17:02:30+0000"
+            "updated": "2019-03-19T19:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -3403,7 +3410,7 @@
             "pv": "2.10.6",
             "section": "devel",
             "summary": "Linux Trace Toolkit Control",
-            "updated": "2019-03-05T19:03:19+0000"
+            "updated": "2019-03-19T19:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3414,7 +3421,7 @@
             "filepath": "recipes-kernel/lttng",
             "homepage": "http://lttng.org/ust",
             "id": 722457,
-            "inherits": "autotools lib_package manpages qemu siteconfig siteinfo",
+            "inherits": "autotools lib_package manpages python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "LGPLv2.1+ & MIT & GPLv2",
             "pn": "lttng-ust",
@@ -3422,7 +3429,7 @@
             "pv": "2.10.3",
             "section": "base",
             "summary": "Linux Trace Toolkit Userspace Tracer 2.x",
-            "updated": "2019-02-20T22:02:22+0000"
+            "updated": "2019-03-19T19:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3771,7 +3778,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Kexec is a fast reboot feature that lets you reboot to a new Linux kernel",
-            "filename": "kexec-tools_2.0.18.bb",
+            "filename": "kexec-tools_2.0.19.bb",
             "filepath": "recipes-kernel/kexec",
             "homepage": "http://kernel.org/pub/linux/utils/kernel/kexec/",
             "id": 722476,
@@ -3780,10 +3787,10 @@
             "license": "GPLv2",
             "pn": "kexec-tools",
             "provides": "kexec-tools ",
-            "pv": "2.0.18",
+            "pv": "2.0.19",
             "section": "kernel/userland",
             "summary": "Kexec fast reboot tools",
-            "updated": "2019-01-15T17:01:36+0000"
+            "updated": "2019-03-19T19:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3859,7 +3866,7 @@
             "pv": "4.18.27+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:37+0000"
+            "updated": "2019-03-19T19:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -3897,7 +3904,7 @@
             "pv": "4.19.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:37+0000"
+            "updated": "2019-03-19T19:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3935,7 +3942,7 @@
             "pv": "5.0-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:37+0000"
+            "updated": "2019-03-19T19:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3954,7 +3961,7 @@
             "pv": "4.19.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:37+0000"
+            "updated": "2019-03-19T19:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3973,7 +3980,7 @@
             "pv": "4.19.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:37+0000"
+            "updated": "2019-03-19T19:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3992,7 +3999,7 @@
             "pv": "4.18.27+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:38+0000"
+            "updated": "2019-03-19T19:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -4011,7 +4018,7 @@
             "pv": "4.18.27+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:38+0000"
+            "updated": "2019-03-19T19:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -4239,7 +4246,7 @@
             "pv": "2.0.0",
             "section": "libs",
             "summary": "iCal and scheduling (RFC 2445, 2446, 2447) library",
-            "updated": "2019-01-15T17:01:36+0000"
+            "updated": "2019-03-19T19:03:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4505,7 +4512,7 @@
             "pv": "1.11.1",
             "section": "libs/multimedia",
             "summary": "Library for reading and editing the meta-data of popular audio formats",
-            "updated": "2019-01-15T17:01:38+0000"
+            "updated": "2019-03-19T19:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -4645,7 +4652,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "nspr_4.20.bb",
+            "filename": "nspr_4.21.bb",
             "filepath": "recipes-support/nspr",
             "homepage": "http://www.mozilla.org/projects/nspr/",
             "id": 722522,
@@ -4654,10 +4661,10 @@
             "license": "GPL-2.0 | MPL-2.0 | LGPL-2.1",
             "pn": "nspr",
             "provides": "nspr ",
-            "pv": "4.20",
+            "pv": "4.21",
             "section": "libs/network",
             "summary": "Netscape Portable Runtime Library",
-            "updated": "2019-02-13T17:02:42+0000"
+            "updated": "2019-03-19T19:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -4740,7 +4747,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS 5, PKCS 7, PKCS 11, PKCS 12, S/MIME, X.509 v3 certificates, and other security standards.",
-            "filename": "nss_3.41.bb",
+            "filename": "nss_3.42.1.bb",
             "filepath": "recipes-support/nss",
             "homepage": "http://www.mozilla.org/projects/security/pki/nss/",
             "id": 722527,
@@ -4749,10 +4756,10 @@
             "license": "MPL-2.0 | (MPL-2.0 & GPL-2.0+) | (MPL-2.0 & LGPL-2.1+)",
             "pn": "nss",
             "provides": "nss ",
-            "pv": "3.41",
+            "pv": "3.42.1",
             "section": "libs",
             "summary": "Mozilla's SSL and TLS implementation",
-            "updated": "2019-01-06T23:01:22+0000"
+            "updated": "2019-03-19T19:03:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4790,7 +4797,7 @@
             "pv": "0.4.15",
             "section": "libs",
             "summary": "Library providing automatic proxy configuration management",
-            "updated": "2019-02-13T17:02:28+0000"
+            "updated": "2019-03-19T19:03:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5949,7 +5956,7 @@
             "pv": "0.0.1+gitX",
             "section": "base",
             "summary": "GStreamer examples (including gtk-play, gst-play)",
-            "updated": "2019-03-05T19:03:20+0000"
+            "updated": "2019-03-19T19:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -8058,7 +8065,7 @@
             "pv": "0.7.3",
             "section": "devel",
             "summary": "Library for solving packages and reading repositories",
-            "updated": "2019-02-13T17:02:16+0000"
+            "updated": "2019-03-19T19:03:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8343,7 +8350,7 @@
             "pv": "4.6",
             "section": "base/utils",
             "summary": "Tools to change and administer password and group data",
-            "updated": "2019-03-05T19:03:15+0000"
+            "updated": "2019-03-19T19:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -8571,7 +8578,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2019-02-20T22:02:36+0000"
+            "updated": "2019-03-19T19:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -8609,7 +8616,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2019-02-20T22:02:36+0000"
+            "updated": "2019-03-19T19:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -8856,7 +8863,7 @@
             "pv": "8.0",
             "section": "devel",
             "summary": "",
-            "updated": "2019-03-05T19:03:08+0000"
+            "updated": "2019-03-19T19:03:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9369,7 +9376,7 @@
             "pv": "1.9.4",
             "section": "base",
             "summary": " A library providing C and Python (libcURL like) API for downloading linux repository metadata and packages.",
-            "updated": "2019-02-24T23:02:43+0000"
+            "updated": "2019-03-19T19:03:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10471,7 +10478,7 @@
             "pv": "0.12.1",
             "section": "base",
             "summary": "",
-            "updated": "2019-02-24T23:02:41+0000"
+            "updated": "2019-03-19T19:03:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -10718,7 +10725,7 @@
             "pv": "4.1.0",
             "section": "base",
             "summary": "Package manager forked from Yum, using libsolv as a dependency resolver",
-            "updated": "2019-02-24T23:02:41+0000"
+            "updated": "2019-03-19T19:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -11003,7 +11010,7 @@
             "pv": "0.26.0",
             "section": "base",
             "summary": "Library providing simplified C and Python API to libsolv",
-            "updated": "2019-03-05T19:03:40+0000"
+            "updated": "2019-03-19T19:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -11079,7 +11086,7 @@
             "pv": "0.1.10",
             "section": "base",
             "summary": "Libcomps is alternative for yum.comps library (which is for managing rpm package groups).",
-            "updated": "2019-02-24T23:02:42+0000"
+            "updated": "2019-03-19T19:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -11744,7 +11751,7 @@
             "pv": "3.13.4",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2019-02-20T22:02:03+0000"
+            "updated": "2019-03-19T19:03:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -12428,7 +12435,7 @@
             "pv": "241",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2019-03-10T21:03:23+0000"
+            "updated": "2019-03-19T19:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13188,7 +13195,7 @@
             "pv": "2.58.3",
             "section": "libs",
             "summary": "A general-purpose utility library",
-            "updated": "2019-03-05T19:03:04+0000"
+            "updated": "2019-03-19T19:03:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14423,7 +14430,7 @@
             "pv": "2.22.6",
             "section": "base",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2019-03-05T19:03:29+0000"
+            "updated": "2019-03-19T19:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14898,7 +14905,7 @@
             "pv": "1.9.4",
             "section": "net",
             "summary": "",
-            "updated": "2019-03-12T20:03:40+0000"
+            "updated": "2019-03-19T19:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -14993,7 +15000,7 @@
             "pv": "5.0+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:41+0000"
+            "updated": "2019-03-19T19:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -15012,7 +15019,7 @@
             "pv": "5.0+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:41+0000"
+            "updated": "2019-03-19T19:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -15031,7 +15038,7 @@
             "pv": "5.0+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-03-12T20:03:41+0000"
+            "updated": "2019-03-19T19:03:17+0000"
         },
         {
             "bbclassextend": "native",
