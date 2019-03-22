@@ -59,43 +59,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190311",
+            "bitbake_branch": "wr-10.19-20190321",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-12T20:03:46+0000",
+            "updated": "2019-03-21T20:03:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190321",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2019-03-20T01:03:16+0000",
-            "vcs_last_commit": "2019-03-20T01:03:16+0000",
-            "vcs_last_fetch": "2019-03-20T01:03:16+0000",
-            "vcs_last_rev": "9430867954d00d596e2efabbe09af4e7ebc6e543",
+            "updated": "2019-03-20T20:03:35+0000",
+            "vcs_last_commit": "2019-03-20T20:03:35+0000",
+            "vcs_last_fetch": "2019-03-20T20:03:35+0000",
+            "vcs_last_rev": "5e4fac312da166ca4544500de4fe38d8eb3c2e9e",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 4
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190321",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-18T19:03:36+0000",
-            "vcs_last_commit": "2019-03-18T19:03:36+0000",
-            "vcs_last_fetch": "2019-03-18T19:03:36+0000",
-            "vcs_last_rev": "fecbb2d254c1a95a0312ac8fabd7667e930b03cf",
+            "updated": "2019-03-20T20:03:35+0000",
+            "vcs_last_commit": "2019-03-20T20:03:35+0000",
+            "vcs_last_fetch": "2019-03-20T20:03:35+0000",
+            "vcs_last_rev": "32aa042dbc41c5055734463b844839efc50c2ac1",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -818,7 +818,7 @@
             "pv": "0.4.0",
             "section": "base",
             "summary": "Runc hook for setting up default bridge networking.",
-            "updated": "2019-01-15T17:01:01+0000"
+            "updated": "2019-03-21T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -863,7 +863,7 @@
             "blacklisted": "",
             "bugtracker": "http://code.google.com/p/irqbalance/issues/list",
             "description": "A daemon to balance interrupts across multiple CPUs, which can lead to better performance and IO balance on SMP systems.",
-            "filename": "irqbalance_1.4.0.bb",
+            "filename": "irqbalance_1.5.0.bb",
             "filepath": "recipes-extended/irqbalance",
             "homepage": "http://code.google.com/p/irqbalance/",
             "id": 725223,
@@ -872,10 +872,10 @@
             "license": "GPLv2",
             "pn": "irqbalance",
             "provides": "irqbalance ",
-            "pv": "1.4.0",
+            "pv": "1.5.0",
             "section": "base",
             "summary": "IRQ allocation daemon",
-            "updated": "2018-10-31T18:10:18+0000"
+            "updated": "2019-03-21T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -894,7 +894,7 @@
             "pv": "4.9.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2019-03-20T01:03:32+0000"
+            "updated": "2019-03-21T20:03:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -1936,10 +1936,10 @@
             "license": "Apache-2.0",
             "pn": "notary",
             "provides": "notary ",
-            "pv": "0.4.2+gitX",
+            "pv": "0.6.1+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:27+0000"
+            "updated": "2019-03-21T20:03:27+0000"
         },
         {
             "bbclassextend": "",

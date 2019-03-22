@@ -59,14 +59,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190311",
+            "bitbake_branch": "wr-10.19-20190321",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-12T20:03:46+0000",
+            "updated": "2019-03-21T20:03:16+0000",
             "updates_enabled": true
         }
     ],
@@ -81,15 +81,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190321",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-18T19:03:36+0000",
-            "vcs_last_commit": "2019-03-18T19:03:36+0000",
-            "vcs_last_fetch": "2019-03-18T19:03:36+0000",
-            "vcs_last_rev": "fecbb2d254c1a95a0312ac8fabd7667e930b03cf",
+            "updated": "2019-03-20T20:03:35+0000",
+            "vcs_last_commit": "2019-03-20T20:03:35+0000",
+            "vcs_last_fetch": "2019-03-20T20:03:35+0000",
+            "vcs_last_rev": "32aa042dbc41c5055734463b844839efc50c2ac1",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -3322,7 +3322,7 @@
             "blacklisted": "",
             "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
             "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
-            "filename": "openssl10_1.0.2q.bb",
+            "filename": "openssl10_1.0.2r.bb",
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 722452,
@@ -3331,29 +3331,29 @@
             "license": "openssl",
             "pn": "openssl10",
             "provides": "openssl10 ",
-            "pv": "1.0.2q",
+            "pv": "1.0.2r",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2019-03-05T19:03:03+0000"
+            "updated": "2019-03-21T20:03:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
             "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
-            "filename": "openssl_1.1.1a.bb",
+            "filename": "openssl_1.1.1b.bb",
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 722453,
-            "inherits": "lib_package multilib_header multilib_script ptest siteinfo update-alternatives",
+            "inherits": "lib_package multilib_header ptest siteinfo",
             "layerbranch": 14953,
             "license": "openssl",
             "pn": "openssl",
             "provides": "openssl ",
-            "pv": "1.1.1a",
+            "pv": "1.1.1b",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2019-03-05T19:03:04+0000"
+            "updated": "2019-03-21T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3410,7 +3410,7 @@
             "pv": "2.10.6",
             "section": "devel",
             "summary": "Linux Trace Toolkit Control",
-            "updated": "2019-03-19T19:03:18+0000"
+            "updated": "2019-03-21T20:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3448,7 +3448,7 @@
             "pv": "2.10.8",
             "section": "devel",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2019-03-12T20:03:32+0000"
+            "updated": "2019-03-21T20:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3657,7 +3657,7 @@
             "pv": "0.0+gitX",
             "section": "kernel",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2019-02-20T22:02:21+0000"
+            "updated": "2019-03-21T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -4778,7 +4778,7 @@
             "pv": "20190110",
             "section": "misc",
             "summary": "Common CA certificates",
-            "updated": "2019-02-24T23:02:48+0000"
+            "updated": "2019-03-21T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -11162,7 +11162,7 @@
             "pv": "3.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-03-05T19:03:11+0000"
+            "updated": "2019-03-21T20:03:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11314,7 +11314,7 @@
             "pv": "8.2.1",
             "section": "devel",
             "summary": "GNU debugger (cross-canadian gdb for i586 target)",
-            "updated": "2019-03-12T20:03:24+0000"
+            "updated": "2019-03-21T20:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -11333,7 +11333,7 @@
             "pv": "8.2.1",
             "section": "devel",
             "summary": "GNU debugger",
-            "updated": "2019-03-12T20:03:24+0000"
+            "updated": "2019-03-21T20:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -11352,7 +11352,7 @@
             "pv": "8.2.1",
             "section": "devel",
             "summary": "GNU debugger",
-            "updated": "2019-03-12T20:03:24+0000"
+            "updated": "2019-03-21T20:03:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11482,10 +11482,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-runtime",
             "provides": "go-runtime virtual/i586-oe-linux-go-runtime",
-            "pv": "1.12",
+            "pv": "1.12.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-03-12T20:03:41+0000"
+            "updated": "2019-03-21T20:03:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11520,10 +11520,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-native",
             "provides": "go-native ",
-            "pv": "1.12",
+            "pv": "1.12.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-03-12T20:03:40+0000"
+            "updated": "2019-03-21T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -11558,10 +11558,10 @@
             "license": "BSD-3-Clause",
             "pn": "go",
             "provides": "go ",
-            "pv": "1.12",
+            "pv": "1.12.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-03-12T20:03:28+0000"
+            "updated": "2019-03-21T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -13214,7 +13214,7 @@
             "pv": "1.2.11",
             "section": "libs",
             "summary": "Zlib Compression Library",
-            "updated": "2018-12-11T01:12:53+0000"
+            "updated": "2019-03-21T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -13290,7 +13290,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2019-03-12T00:03:27+0000"
+            "updated": "2019-03-21T20:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -13594,7 +13594,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Profiling tools",
-            "updated": "2019-01-28T00:01:18+0000"
+            "updated": "2019-03-21T20:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -14639,7 +14639,7 @@
             "pv": "0.0+gitX",
             "section": "base",
             "summary": "Simon Tatham's Portable Puzzle Collection",
-            "updated": "2019-03-12T20:03:35+0000"
+            "updated": "2019-03-21T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -14848,7 +14848,7 @@
             "pv": "3.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-03-05T19:03:45+0000"
+            "updated": "2019-03-21T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -14867,7 +14867,7 @@
             "pv": "3.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-03-05T19:03:46+0000"
+            "updated": "2019-03-21T20:03:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14921,10 +14921,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-canadian-i586",
             "provides": "go-cross-canadian-i586 ",
-            "pv": "1.12",
+            "pv": "1.12.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-03-12T20:03:40+0000"
+            "updated": "2019-03-21T20:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14940,10 +14940,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-i586",
             "provides": "go-cross-i586 virtual/i586-go",
-            "pv": "1.12",
+            "pv": "1.12.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-03-12T20:03:40+0000"
+            "updated": "2019-03-21T20:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14959,10 +14959,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-crosssdk-x86_64-oesdk-linux",
             "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.12",
+            "pv": "1.12.1",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-03-12T20:03:40+0000"
+            "updated": "2019-03-21T20:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -15045,7 +15045,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vim-tiny_8.1.0347.bb",
+            "filename": "vim-tiny_8.1.1017.bb",
             "filepath": "recipes-support/vim",
             "homepage": "",
             "id": 917948,
@@ -15054,17 +15054,17 @@
             "license": "vim",
             "pn": "vim-tiny",
             "provides": "vim-tiny ",
-            "pv": "8.1.0347",
+            "pv": "8.1.1017",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2019-03-12T20:03:42+0000"
+            "updated": "2019-03-21T20:03:12+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "vim_8.1.0347.bb",
+            "filename": "vim_8.1.1017.bb",
             "filepath": "recipes-support/vim",
             "homepage": "",
             "id": 917949,
@@ -15073,10 +15073,10 @@
             "license": "vim",
             "pn": "vim",
             "provides": "vim xxd",
-            "pv": "8.1.0347",
+            "pv": "8.1.1017",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2019-03-12T20:03:42+0000"
+            "updated": "2019-03-21T20:03:17+0000"
         }
     ],
     "wrtemplates": []
