@@ -55,78 +55,113 @@
             "image_url": "",
             "link_url": "",
             "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190321",
+            "bitbake_branch": "wr-10.19-20190408",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-21T20:03:16+0000",
+            "updated": "2019-04-08T22:04:19+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190321",
+            "actual_branch": "wr-10.19-20190408",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-20T20:03:35+0000",
-            "vcs_last_commit": "2019-03-20T20:03:35+0000",
-            "vcs_last_fetch": "2019-03-20T20:03:35+0000",
-            "vcs_last_rev": "32aa042dbc41c5055734463b844839efc50c2ac1",
+            "updated": "2019-04-09T20:04:31+0000",
+            "vcs_last_commit": "2019-04-09T20:04:31+0000",
+            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
+            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 2
+            "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190409",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-03-18T19:03:46+0000",
-            "vcs_last_commit": "2019-03-18T19:03:46+0000",
-            "vcs_last_fetch": "2019-03-18T19:03:46+0000",
-            "vcs_last_rev": "504229d9383dbf73ce244f18eb19c9d211f6dcce",
+            "updated": "2019-04-09T00:04:43+0000",
+            "vcs_last_commit": "2019-04-09T00:04:43+0000",
+            "vcs_last_fetch": "2019-04-09T00:04:43+0000",
+            "vcs_last_rev": "01e90f014a3f789e1f1417278b27ae6dbf34a1ec",
             "vcs_subdir": "meta-networking",
             "version": "1",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190409",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-03-19T19:03:22+0000",
-            "vcs_last_commit": "2019-03-19T19:03:22+0000",
-            "vcs_last_fetch": "2019-03-19T19:03:22+0000",
-            "vcs_last_rev": "6a91fc550e69065fe7aaba6c17589a8a312fa4b0",
+            "updated": "2019-04-11T01:04:21+0000",
+            "vcs_last_commit": "2019-04-11T01:04:21+0000",
+            "vcs_last_fetch": "2019-04-11T01:04:21+0000",
+            "vcs_last_rev": "bc106dd6e5deec2898b74c2a23328fa039e6cad3",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190409",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-03-18T19:03:46+0000",
-            "vcs_last_commit": "2019-03-18T19:03:46+0000",
-            "vcs_last_fetch": "2019-03-18T19:03:46+0000",
-            "vcs_last_rev": "5d67fef78b89a55e88198750f2f894111dea4984",
+            "updated": "2019-04-06T08:04:22+0000",
+            "vcs_last_commit": "2019-04-06T08:04:22+0000",
+            "vcs_last_fetch": "2019-04-06T08:04:22+0000",
+            "vcs_last_rev": "e53f9faccf1b17afb7da1e51916e73d8c8144f24",
             "vcs_subdir": "meta-python",
             "version": "1",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 9
         }
     ],
     "layerDependencies": [
@@ -245,10 +280,10 @@
             "license": "LGPLv2.1",
             "pn": "openconnect",
             "provides": "openconnect ",
-            "pv": "7.08",
+            "pv": "8.02",
             "section": "base",
             "summary": "Open client for Cisco AnyConnect VPN",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-04-02T23:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -369,7 +404,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/wolfssl/wolfssl/issues",
             "description": "wolfSSL, formerly CyaSSL, is a lightweight SSL library written                in C and optimized for embedded and RTOS environments. It can                be up to 20 times smaller than OpenSSL while still supporting                a full TLS client and server, up to TLS 1.3",
-            "filename": "wolfssl_3.15.5.bb",
+            "filename": "wolfssl_3.15.8.bb",
             "filepath": "recipes-connectivity/wolfssl",
             "homepage": "https://www.wolfssl.com/products/wolfssl",
             "id": 724907,
@@ -378,10 +413,10 @@
             "license": "GPLv2",
             "pn": "wolfssl",
             "provides": "wolfssl  cyassl",
-            "pv": "3.15.5",
+            "pv": "3.15.8",
             "section": "libs",
             "summary": "wolfSSL Lightweight Embedded SSL/TLS Library",
-            "updated": "2018-12-17T17:12:34+0000"
+            "updated": "2019-04-09T19:04:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -654,7 +689,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1 and 3.1.1. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
-            "filename": "mosquitto_1.5.4.bb",
+            "filename": "mosquitto_1.5.8.bb",
             "filepath": "recipes-connectivity/mosquitto",
             "homepage": "http://mosquitto.org/",
             "id": 724923,
@@ -663,10 +698,10 @@
             "license": "EPL-1.0 | EDL-1.0",
             "pn": "mosquitto",
             "provides": "mosquitto ",
-            "pv": "1.5.4",
+            "pv": "1.5.8",
             "section": "console/network",
             "summary": "Open source MQTT v3.1/3.1.1 implemention",
-            "updated": "2019-01-15T17:01:55+0000"
+            "updated": "2019-04-02T23:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -730,7 +765,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "networkmanager_1.14.4.bb",
+            "filename": "networkmanager_1.16.0.bb",
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 724927,
@@ -739,10 +774,10 @@
             "license": "GPLv2+",
             "pn": "networkmanager",
             "provides": "networkmanager ",
-            "pv": "1.14.4",
+            "pv": "1.16.0",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2019-02-13T17:02:22+0000"
+            "updated": "2019-04-09T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1281,7 +1316,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "fping is a ping like program which uses the Internet Control Message Protocol (ICMP) echo request to determine if a target host is responding. fping differs from ping in that you can specify any number of targets on the command line, or specify a file containing the lists of targets to ping.  Instead of sending to one target until it times out or replies, fping will send out a ping packet and move on to the next target in a round-robin fashion.",
-            "filename": "fping_3.5.bb",
+            "filename": "fping_4.2.bb",
             "filepath": "recipes-support/fping",
             "homepage": "http://www.fping.org/",
             "id": 724956,
@@ -1290,10 +1325,10 @@
             "license": "BSD",
             "pn": "fping",
             "provides": "fping ",
-            "pv": "3.5",
+            "pv": "4.2",
             "section": "net",
             "summary": "sends ICMP ECHO_REQUEST packets to network hosts",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2019-04-09T19:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2022,7 +2057,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nuttcp is a network performance measurement tool intended for use by network and system managers. Its most basic usage is to determine the raw TCP (or UDP) network layer throughput by transferring memory buffers from a source system across an interconnecting network to a destination system, either transferring data for a specified time interval, or alternatively transferring a specified number of bytes.",
-            "filename": "nuttcp_7.2.1.bb",
+            "filename": "nuttcp_7.3.3.bb",
             "filepath": "recipes-support/nuttcp",
             "homepage": "http://www.nuttcp.net/Welcome%20Page.html",
             "id": 724995,
@@ -2031,10 +2066,10 @@
             "license": "GPL-2.0",
             "pn": "nuttcp",
             "provides": "nuttcp ",
-            "pv": "7.2.1",
+            "pv": "7.3.3",
             "section": "net",
             "summary": "network performance measurement tool",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2019-04-09T19:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2573,7 +2608,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tcpreplay_4.2.6.bb",
+            "filename": "tcpreplay_4.3.2.bb",
             "filepath": "recipes-support/tcpreplay",
             "homepage": "http://tcpreplay.synfin.net/",
             "id": 725024,
@@ -2582,10 +2617,10 @@
             "license": "GPLv3",
             "pn": "tcpreplay",
             "provides": "tcpreplay ",
-            "pv": "4.2.6",
+            "pv": "4.3.2",
             "section": "net",
             "summary": "Use previously captured traffic to test network devices",
-            "updated": "2018-10-05T09:10:47+0000"
+            "updated": "2019-04-09T19:04:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -2801,19 +2836,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "igmpproxy_0.1.bb",
+            "filename": "igmpproxy_0.2.1.bb",
             "filepath": "recipes-daemons/igmpproxy",
             "homepage": "http://sourceforge.net/projects/igmpproxy/",
             "id": 725036,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 14964,
-            "license": "GPLv2",
+            "license": "GPLv2+",
             "pn": "igmpproxy",
             "provides": "igmpproxy ",
-            "pv": "0.1",
+            "pv": "0.2.1",
             "section": "base",
             "summary": "simple dynamic multicast routing daemon that only uses IGMP signalling",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2019-04-02T23:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2889,7 +2924,7 @@
             "pv": "2.0.876+gitX",
             "section": "net",
             "summary": "iSCSI daemon and utility programs",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2019-04-02T23:04:45+0000"
         },
         {
             "bbclassextend": "",

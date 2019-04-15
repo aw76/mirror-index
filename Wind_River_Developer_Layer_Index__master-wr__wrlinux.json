@@ -55,36 +55,71 @@
             "image_url": "",
             "link_url": "",
             "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190321",
+            "bitbake_branch": "wr-10.19-20190408",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-21T20:03:16+0000",
+            "updated": "2019-04-08T22:04:19+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190321",
+            "actual_branch": "wr-10.19-20190408",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-20T20:03:35+0000",
-            "vcs_last_commit": "2019-03-20T20:03:35+0000",
-            "vcs_last_fetch": "2019-03-20T20:03:35+0000",
-            "vcs_last_rev": "32aa042dbc41c5055734463b844839efc50c2ac1",
+            "updated": "2019-04-09T20:04:31+0000",
+            "vcs_last_commit": "2019-04-09T20:04:31+0000",
+            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
+            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 2
+            "yp_compatible_version": 14
         },
         {
             "actual_branch": "",
@@ -92,13 +127,13 @@
             "collection": "wr-template",
             "id": 15008,
             "layer": 55,
-            "updated": "2018-10-17T18:10:14+0000",
-            "vcs_last_commit": "2018-10-17T18:10:14+0000",
-            "vcs_last_fetch": "2018-10-17T18:10:14+0000",
-            "vcs_last_rev": "b4c0d6962a7bca1bb5a77cd6232158e40f6b3283",
+            "updated": "2019-04-07T19:04:08+0000",
+            "vcs_last_commit": "2019-04-07T19:04:08+0000",
+            "vcs_last_fetch": "2019-04-07T19:04:08+0000",
+            "vcs_last_rev": "afa34fb20835fef5457b854eecda8ca7bc3f0a34",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": null
+            "yp_compatible_version": 11
         },
         {
             "actual_branch": "",
@@ -106,13 +141,13 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-03-21T23:03:19+0000",
-            "vcs_last_commit": "2019-03-21T23:03:19+0000",
-            "vcs_last_fetch": "2019-03-21T23:03:19+0000",
-            "vcs_last_rev": "e0e560f695101ccc2403f42b701956c92e7a49fb",
+            "updated": "2019-04-15T00:04:06+0000",
+            "vcs_last_commit": "2019-04-15T00:04:06+0000",
+            "vcs_last_fetch": "2019-04-15T00:04:06+0000",
+            "vcs_last_rev": "b6d6e0b3226259be867ac7f5eb6bac1364bf7bf9",
             "vcs_subdir": "",
             "version": "2",
-            "yp_compatible_version": 2
+            "yp_compatible_version": 11
         }
     ],
     "layerDependencies": [
@@ -270,7 +305,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2019-03-19T19:03:56+0000"
+            "updated": "2019-04-15T02:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -289,7 +324,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2019-03-19T19:03:56+0000"
+            "updated": "2019-04-15T02:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -308,7 +343,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2019-03-19T19:03:57+0000"
+            "updated": "2019-04-15T02:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -327,7 +362,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2019-03-19T19:03:57+0000"
+            "updated": "2019-04-15T02:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -346,7 +381,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2019-03-19T19:03:57+0000"
+            "updated": "2019-04-15T02:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -365,7 +400,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2019-03-19T19:03:57+0000"
+            "updated": "2019-04-15T02:04:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -384,7 +419,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2019-03-19T19:03:55+0000"
+            "updated": "2019-04-15T02:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -403,7 +438,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-19T19:03:55+0000"
+            "updated": "2019-04-15T02:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -422,7 +457,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-19T19:03:55+0000"
+            "updated": "2019-04-15T02:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -441,7 +476,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-19T19:03:55+0000"
+            "updated": "2019-04-15T02:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -460,7 +495,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2019-03-19T19:03:55+0000"
+            "updated": "2019-04-15T02:04:50+0000"
         },
         {
             "bbclassextend": "",
@@ -479,7 +514,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-19T19:03:55+0000"
+            "updated": "2019-04-15T02:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -498,7 +533,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2019-03-19T19:03:56+0000"
+            "updated": "2019-04-15T02:04:51+0000"
         },
         {
             "bbclassextend": "",
@@ -517,7 +552,7 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-03-19T19:03:56+0000"
+            "updated": "2019-04-15T02:04:52+0000"
         },
         {
             "bbclassextend": "",
@@ -730,11 +765,25 @@
             "updated": "2019-02-22T06:02:24+0000"
         },
         {
-            "description": "",
+            "description": "Enable alternative in-development linux-yocto",
             "id": 39858,
             "layerbranch": 15009,
             "name": "feature/linux-yocto-dev",
-            "updated": "2019-03-08T16:03:32+0000"
+            "updated": "2019-03-29T12:03:40+0000"
+        },
+        {
+            "description": "Enable alternative in-development (future) toolchain",
+            "id": 41828,
+            "layerbranch": 15009,
+            "name": "feature/toolchain-next",
+            "updated": "2019-03-29T12:03:40+0000"
+        },
+        {
+            "description": "Enable alternative in-development (future) userspace recipes",
+            "id": 41829,
+            "layerbranch": 15009,
+            "name": "feature/userspace-next",
+            "updated": "2019-03-29T12:03:40+0000"
         }
     ]
 }

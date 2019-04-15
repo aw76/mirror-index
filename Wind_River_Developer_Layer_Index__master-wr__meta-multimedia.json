@@ -55,50 +55,85 @@
             "image_url": "",
             "link_url": "",
             "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190321",
+            "bitbake_branch": "wr-10.19-20190408",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-21T20:03:16+0000",
+            "updated": "2019-04-08T22:04:19+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190321",
+            "actual_branch": "wr-10.19-20190408",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-20T20:03:35+0000",
-            "vcs_last_commit": "2019-03-20T20:03:35+0000",
-            "vcs_last_fetch": "2019-03-20T20:03:35+0000",
-            "vcs_last_rev": "32aa042dbc41c5055734463b844839efc50c2ac1",
+            "updated": "2019-04-09T20:04:31+0000",
+            "vcs_last_commit": "2019-04-09T20:04:31+0000",
+            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
+            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 2
+            "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190409",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2019-03-18T19:03:46+0000",
-            "vcs_last_commit": "2019-03-18T19:03:46+0000",
-            "vcs_last_fetch": "2019-03-18T19:03:46+0000",
-            "vcs_last_rev": "5d67fef78b89a55e88198750f2f894111dea4984",
+            "updated": "2019-04-06T08:04:48+0000",
+            "vcs_last_commit": "2019-04-06T08:04:48+0000",
+            "vcs_last_fetch": "2019-04-06T08:04:48+0000",
+            "vcs_last_rev": "235d5919715754a8b692dd0a6836373b2eea1ab3",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 9
         }
     ],
     "layerDependencies": [
@@ -796,10 +831,10 @@
             "license": "LGPL-2.1",
             "pn": "fluidsynth",
             "provides": "fluidsynth ",
-            "pv": "2.0.3",
+            "pv": "2.0.4",
             "section": "libs/multimedia",
             "summary": "Fluidsynth is a software synthesizer",
-            "updated": "2019-01-20T22:01:12+0000"
+            "updated": "2019-04-02T23:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1103,7 +1138,7 @@
             "pv": "0.33",
             "section": "base",
             "summary": "A curses client for the Music Player Daemon",
-            "updated": "2018-10-31T18:10:06+0000"
+            "updated": "2019-04-09T19:04:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1575,10 +1610,10 @@
             "license": "LGPL-2.1",
             "pn": "fluidsynth-native",
             "provides": "fluidsynth-native ",
-            "pv": "2.0.3",
+            "pv": "2.0.4",
             "section": "libs/multimedia",
             "summary": "Fluidsynth is a software synthesizer",
-            "updated": "2019-01-20T22:01:11+0000"
+            "updated": "2019-04-02T23:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1598,6 +1633,25 @@
             "section": "multimedia",
             "summary": "A fast lightweight Text-to-speech engine",
             "updated": "2019-03-05T19:03:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Mycroft is the world\u2019s first open source assistant. ",
+            "filename": "mycroft_19.2.2.bb",
+            "filepath": "recipes-multimedia/mycroft",
+            "homepage": "https://mycroft.ai/",
+            "id": 934729,
+            "inherits": "systemd",
+            "layerbranch": 14963,
+            "license": "Apache-2.0",
+            "pn": "mycroft",
+            "provides": "mycroft ",
+            "pv": "19.2.2",
+            "section": "multimedia",
+            "summary": "Mycroft is a hackable open source voice assistant.",
+            "updated": "2019-04-09T19:04:21+0000"
         }
     ],
     "wrtemplates": []

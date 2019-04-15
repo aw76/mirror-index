@@ -55,50 +55,85 @@
             "image_url": "",
             "link_url": "",
             "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190321",
+            "bitbake_branch": "wr-10.19-20190408",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-21T20:03:16+0000",
+            "updated": "2019-04-08T22:04:19+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190321",
+            "actual_branch": "wr-10.19-20190408",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-20T20:03:35+0000",
-            "vcs_last_commit": "2019-03-20T20:03:35+0000",
-            "vcs_last_fetch": "2019-03-20T20:03:35+0000",
-            "vcs_last_rev": "32aa042dbc41c5055734463b844839efc50c2ac1",
+            "updated": "2019-04-09T20:04:31+0000",
+            "vcs_last_commit": "2019-04-09T20:04:31+0000",
+            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
+            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 2
+            "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190409",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-03-19T19:03:22+0000",
-            "vcs_last_commit": "2019-03-19T19:03:22+0000",
-            "vcs_last_fetch": "2019-03-19T19:03:22+0000",
-            "vcs_last_rev": "6a91fc550e69065fe7aaba6c17589a8a312fa4b0",
+            "updated": "2019-04-11T01:04:21+0000",
+            "vcs_last_commit": "2019-04-11T01:04:21+0000",
+            "vcs_last_fetch": "2019-04-11T01:04:21+0000",
+            "vcs_last_rev": "bc106dd6e5deec2898b74c2a23328fa039e6cad3",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 9
         }
     ],
     "layerDependencies": [
@@ -2262,7 +2297,7 @@
             "pv": "git",
             "section": "libs",
             "summary": "",
-            "updated": "2019-02-13T17:02:44+0000"
+            "updated": "2019-04-09T19:04:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2364,19 +2399,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ZeroMQ looks like an embeddable networking library but acts like a concurrency framework",
-            "filename": "zeromq_4.2.5.bb",
+            "filename": "zeromq_4.3.1.bb",
             "filepath": "recipes-connectivity/zeromq",
             "homepage": "http://www.zeromq.org",
             "id": 723205,
-            "inherits": "autotools pkgconfig ptest siteconfig siteinfo",
+            "inherits": "cmake pkgconfig ptest",
             "layerbranch": 14965,
             "license": "LGPLv3+",
             "pn": "zeromq",
             "provides": "zeromq ",
-            "pv": "4.2.5",
+            "pv": "4.3.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2019-04-09T19:04:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2392,10 +2427,10 @@
             "license": "MIT",
             "pn": "cppzmq",
             "provides": "cppzmq ",
-            "pv": "4.2.3+gitX",
+            "pv": "4.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:42+0000"
+            "updated": "2019-04-09T19:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2440,7 +2475,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/libuv/libuv/issues",
             "description": "",
-            "filename": "libuv_1.20.3.bb",
+            "filename": "libuv_1.27.0.bb",
             "filepath": "recipes-connectivity/libuv",
             "homepage": "https://github.com/libuv/libuv",
             "id": 723209,
@@ -2449,10 +2484,10 @@
             "license": "MIT",
             "pn": "libuv",
             "provides": "libuv ",
-            "pv": "1.20.3",
+            "pv": "1.27.0",
             "section": "base",
             "summary": "A multi-platform support library with a focus on asynchronous I/O",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2019-04-02T23:04:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2680,7 +2715,7 @@
             "pv": "1.17",
             "section": "console/network",
             "summary": "A network authentication protocol",
-            "updated": "2019-03-19T19:03:43+0000"
+            "updated": "2019-04-08T23:04:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -2737,7 +2772,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Set of Bluetooth related tools for inclusion in images",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2019-04-02T23:04:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -2972,7 +3007,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libev_4.24.bb",
+            "filename": "libev_4.25.bb",
             "filepath": "recipes-connectivity/libev",
             "homepage": "http://software.schmorp.de/pkg/libev.html",
             "id": 723238,
@@ -2981,10 +3016,10 @@
             "license": "BSD-2-Clause | GPL-2.0+",
             "pn": "libev",
             "provides": "libev ",
-            "pv": "4.24",
+            "pv": "4.25",
             "section": "base",
             "summary": "A full-featured and high-performance event loop that is loosely modelled after libevent.",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2019-04-02T23:04:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4276,14 +4311,14 @@
             "pv": "0.3.3",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2019-04-08T23:04:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgpiod_1.2.1.bb",
+            "filename": "libgpiod_1.3.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 723307,
@@ -4292,10 +4327,10 @@
             "license": "LGPLv2.1+",
             "pn": "libgpiod",
             "provides": "libgpiod ",
-            "pv": "1.2.1",
+            "pv": "1.3",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2019-03-05T19:03:04+0000"
+            "updated": "2019-04-08T23:04:19+0000"
         },
         {
             "bbclassextend": "",
@@ -4314,7 +4349,7 @@
             "pv": "1.1.6-alt2+gitX",
             "section": "System Environment/Libraries",
             "summary": "A privileged helper for utmp/wtmp updates",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2019-04-02T23:04:08+0000"
         },
         {
             "bbclassextend": "",
@@ -4644,19 +4679,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "hunspell_1.6.2.bb",
+            "filename": "hunspell_1.7.0.bb",
             "filepath": "recipes-support/hunspell",
             "homepage": "http://hunspell.github.io/",
             "id": 723326,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
-            "license": "GPLv3 | LGPLv3",
+            "license": "GPLv2 | LGPLv2.1",
             "pn": "hunspell",
             "provides": "hunspell ",
-            "pv": "1.6.2",
+            "pv": "1.7.0",
             "section": "base",
             "summary": "A spell checker and morphological analyzer library",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2019-04-08T23:04:21+0000"
         },
         {
             "bbclassextend": "",
@@ -5385,7 +5420,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libssh2_1.8.0.bb",
+            "filename": "libssh2_1.8.2.bb",
             "filepath": "recipes-support/libssh2",
             "homepage": "http://www.libssh2.org/",
             "id": 723366,
@@ -5394,10 +5429,10 @@
             "license": "BSD",
             "pn": "libssh2",
             "provides": "libssh2 ",
-            "pv": "1.8.0",
+            "pv": "1.8.2",
             "section": "libs",
             "summary": "A client-side C library implementing the SSH2 protocol",
-            "updated": "2018-10-05T09:10:11+0000"
+            "updated": "2019-04-08T23:04:19+0000"
         },
         {
             "bbclassextend": "",
@@ -5461,7 +5496,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.",
-            "filename": "nano_3.2.bb",
+            "filename": "nano_4.0.bb",
             "filepath": "recipes-support/nano",
             "homepage": "http://www.nano-editor.org/",
             "id": 723370,
@@ -5470,10 +5505,10 @@
             "license": "GPLv3",
             "pn": "nano",
             "provides": "nano ",
-            "pv": "3.2",
+            "pv": "4.0",
             "section": "console/utils",
             "summary": "",
-            "updated": "2019-03-12T20:03:56+0000"
+            "updated": "2019-04-08T23:04:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5613,7 +5648,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ImageMagick is a collection of tools for displaying, converting, and editing raster and vector image files. It can read and write over 200 image file formats.",
-            "filename": "imagemagick_7.0.7.bb",
+            "filename": "imagemagick_7.0.8.bb",
             "filepath": "recipes-support/imagemagick",
             "homepage": "https://www.imagemagick.org/",
             "id": 723378,
@@ -5622,10 +5657,10 @@
             "license": "ImageMagick",
             "pn": "imagemagick",
             "provides": "imagemagick ",
-            "pv": "7.0.7_7",
+            "pv": "7.0.8_35",
             "section": "console/utils",
-            "summary": "ImageMagick is an image convertion toolkit",
-            "updated": "2019-02-20T22:02:49+0000"
+            "summary": "ImageMagick is an image conversion toolkit",
+            "updated": "2019-04-09T19:04:03+0000"
         },
         {
             "bbclassextend": "",
@@ -5784,7 +5819,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mcelog is required by both 32bit x86 Linux kernels (since 2.6.30) and 64bit Linux kernels (since early 2.6 kernel releases) to log machine checks and should run on all Linux systems that need error handling.",
-            "filename": "mcelog_161.bb",
+            "filename": "mcelog_162.bb",
             "filepath": "recipes-support/mcelog",
             "homepage": "http://mcelog.org/",
             "id": 723387,
@@ -5793,10 +5828,10 @@
             "license": "GPLv2",
             "pn": "mcelog",
             "provides": "mcelog ",
-            "pv": "161",
+            "pv": "162",
             "section": "System Environment/Base",
             "summary": "mcelog daemon accounts memory and some other errors in various ways.",
-            "updated": "2018-11-27T18:11:30+0000"
+            "updated": "2019-04-09T19:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -6449,7 +6484,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cpprest_2.10.10.bb",
+            "filename": "cpprest_2.10.12.bb",
             "filepath": "recipes-support/cpprest",
             "homepage": "https://github.com/Microsoft/cpprestsdk/",
             "id": 723424,
@@ -6458,10 +6493,10 @@
             "license": "MIT",
             "pn": "cpprest",
             "provides": "cpprest ",
-            "pv": "2.10.10",
+            "pv": "2.10.12",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2019-02-13T17:02:45+0000"
+            "updated": "2019-04-09T19:04:03+0000"
         },
         {
             "bbclassextend": "",
@@ -6544,7 +6579,7 @@
             "blacklisted": "",
             "bugtracker": "https://fedorahosted.org/augeas/report/1",
             "description": "",
-            "filename": "augeas_1.10.1.bb",
+            "filename": "augeas_1.11.0.bb",
             "filepath": "recipes-support/augeas",
             "homepage": "http://augeas.net/",
             "id": 723429,
@@ -6553,10 +6588,10 @@
             "license": "LGPLv2.1+",
             "pn": "augeas",
             "provides": "augeas ",
-            "pv": "1.10.1",
+            "pv": "1.11.0",
             "section": "base",
             "summary": "Augeas configuration API",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-04-09T19:04:04+0000"
         },
         {
             "bbclassextend": "",
@@ -6810,7 +6845,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "poppler_0.71.0.bb",
+            "filename": "poppler_0.75.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 723443,
@@ -6819,10 +6854,10 @@
             "license": "GPLv2",
             "pn": "poppler",
             "provides": "poppler ",
-            "pv": "0.71.0",
+            "pv": "0.75.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2018-12-03T18:12:38+0000"
+            "updated": "2019-04-02T23:04:08+0000"
         },
         {
             "bbclassextend": "",
@@ -7019,7 +7054,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "alsa-oss_1.1.6.bb",
+            "filename": "alsa-oss_1.1.8.bb",
             "filepath": "recipes-multimedia/alsa",
             "homepage": "",
             "id": 723454,
@@ -7028,10 +7063,10 @@
             "license": "GPLv2",
             "pn": "alsa-oss",
             "provides": "alsa-oss ",
-            "pv": "1.1.6",
+            "pv": "1.1.8",
             "section": "libs/multimedia",
             "summary": "Alsa OSS Compatibility Package",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-04-09T19:04:03+0000"
         },
         {
             "bbclassextend": "",
@@ -7760,7 +7795,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "CxxTest is a unit testing framework for C++ that is similar in spirit to JUnit, CppUnit, and xUnit.",
-            "filename": "cxxtest_4.3.bb",
+            "filename": "cxxtest_4.4.bb",
             "filepath": "recipes-test/cxxtest",
             "homepage": "http://cxxtest.com/",
             "id": 723493,
@@ -7769,17 +7804,17 @@
             "license": "LGPL-2.0",
             "pn": "cxxtest",
             "provides": "cxxtest ",
-            "pv": "4.3",
+            "pv": "4.4",
             "section": "devel",
             "summary": "",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-04-02T23:04:09+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "CppUnit is the C++ port of the famous JUnit framework for unit testing. Test output is in XML for automatic testing and GUI based for supervised tests. ",
-            "filename": "cppunit_1.13.2.bb",
+            "filename": "cppunit_1.14.0.bb",
             "filepath": "recipes-test/cppunit",
             "homepage": "http://www.freedesktop.org/wiki/Software/cppunit",
             "id": 723494,
@@ -7788,10 +7823,10 @@
             "license": "LGPL-2.1",
             "pn": "cppunit",
             "provides": "cppunit ",
-            "pv": "1.13.2",
+            "pv": "1.14.0",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2019-04-02T23:04:08+0000"
         },
         {
             "bbclassextend": "",
@@ -8368,7 +8403,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "lockfile-progs provide a method to lock and unlock mailboxes and files safely (via liblockfile).",
-            "filename": "lockfile-progs_0.1.17.bb",
+            "filename": "lockfile-progs_0.1.18.bb",
             "filepath": "recipes-extended/lockfile-progs",
             "homepage": "http://packages.qa.debian.org/l/lockfile-progs.html",
             "id": 723525,
@@ -8377,10 +8412,10 @@
             "license": "GPLv2",
             "pn": "lockfile-progs",
             "provides": "lockfile-progs ",
-            "pv": "0.1.17",
+            "pv": "0.1.18",
             "section": "Applications/System",
             "summary": "Command-line programs to safely lock and unlock files and mailboxes",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2019-04-09T19:04:00+0000"
         },
         {
             "bbclassextend": "native",
@@ -8437,7 +8472,7 @@
             "pv": "3.1.4",
             "section": "libs",
             "summary": "A Modbus library",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2019-04-09T19:04:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8513,7 +8548,7 @@
             "pv": "1.7.0",
             "section": "base",
             "summary": "High performance data logging and graphing system for time series data",
-            "updated": "2019-03-05T19:03:02+0000"
+            "updated": "2019-04-09T19:04:01+0000"
         },
         {
             "bbclassextend": "",
@@ -9178,7 +9213,7 @@
             "pv": "4.0.12",
             "section": "libs",
             "summary": "Redis key-value store",
-            "updated": "2019-01-02T17:01:56+0000"
+            "updated": "2019-04-09T19:04:01+0000"
         },
         {
             "bbclassextend": "",
@@ -9356,7 +9391,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Rsyslog is an enhanced syslogd supporting, among others, MySQL, PostgreSQL, failover log destinations, syslog/tcp, fine grain output format control, high precision timestamps, queued operations and the ability to filter on any message part. It is quite compatible to stock sysklogd and can be used as a drop-in replacement. Its advanced features make it suitable for enterprise-class, encryption protected syslog relay chains while at the same time being very easy to setup for the novice user.",
-            "filename": "rsyslog_8.37.0.bb",
+            "filename": "rsyslog_8.1903.0.bb",
             "filepath": "recipes-extended/rsyslog",
             "homepage": "http://www.rsyslog.com/",
             "id": 723577,
@@ -9365,10 +9400,10 @@
             "license": "GPLv3 & LGPLv3 & Apache-2.0",
             "pn": "rsyslog",
             "provides": "rsyslog ",
-            "pv": "8.37.0",
+            "pv": "8.1903.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2018-12-17T17:12:16+0000"
+            "updated": "2019-04-09T19:04:02+0000"
         },
         {
             "bbclassextend": "",
@@ -9653,7 +9688,7 @@
             "pv": "0.5.9+gitX",
             "section": "utils",
             "summary": "Drivers for character-based LCD displays",
-            "updated": "2019-03-05T19:03:01+0000"
+            "updated": "2019-04-09T19:04:00+0000"
         },
         {
             "bbclassextend": "",
@@ -9938,7 +9973,7 @@
             "pv": "2.2.3",
             "section": "console/utils",
             "summary": "A CPU benchmark utility",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2019-04-02T23:04:04+0000"
         },
         {
             "bbclassextend": "",
@@ -10071,7 +10106,7 @@
             "pv": "3.12",
             "section": "console/tests",
             "summary": "Filesystem and hardware benchmark and stress tool",
-            "updated": "2018-11-27T18:11:26+0000"
+            "updated": "2019-04-09T19:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -10743,7 +10778,7 @@
             "blacklisted": "",
             "bugtracker": "http://sourceforge.net/p/log4cplus/bugs/",
             "description": "",
-            "filename": "log4cplus_2.0.2.bb",
+            "filename": "log4cplus_2.0.3.bb",
             "filepath": "recipes-devtools/log4cplus",
             "homepage": "http://sourceforge.net/projects/log4cplus/",
             "id": 723651,
@@ -10752,10 +10787,10 @@
             "license": "Apache-2.0 & BSD-2-Clause",
             "pn": "log4cplus",
             "provides": "log4cplus ",
-            "pv": "2.0.2",
+            "pv": "2.0.3",
             "section": "libs",
             "summary": "log4cplus provides a simple C++ logging API for log management",
-            "updated": "2018-11-27T18:11:27+0000"
+            "updated": "2019-04-02T23:04:06+0000"
         },
         {
             "bbclassextend": "",
@@ -10800,7 +10835,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Command line editor library providing generic line editing, history, and tokenization functions",
-            "filename": "libedit_20181209-3.1.bb",
+            "filename": "libedit_20190324-3.1.bb",
             "filepath": "recipes-devtools/libedit",
             "homepage": "http://www.thrysoee.dk/editline/",
             "id": 723654,
@@ -10809,10 +10844,10 @@
             "license": "BSD",
             "pn": "libedit",
             "provides": "libedit ",
-            "pv": "20181209-3.1",
+            "pv": "20190324-3.1",
             "section": "libs",
             "summary": "BSD replacement for libreadline",
-            "updated": "2019-01-06T23:01:45+0000"
+            "updated": "2019-04-09T19:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -11104,7 +11139,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_10.15.1.bb",
+            "filename": "nodejs_10.15.3.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 723670,
@@ -11113,10 +11148,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "10.15.1",
+            "pv": "10.15.3",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-05T19:03:00+0000"
+            "updated": "2019-04-02T23:04:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -11902,7 +11937,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gtkmm3_3.22.2.bb",
+            "filename": "gtkmm3_3.24.1.bb",
             "filepath": "recipes-gnome/gtk+",
             "homepage": "http://www.gtkmm.org/",
             "id": 723712,
@@ -11911,10 +11946,10 @@
             "license": "LGPLv2.1 & GPLv2",
             "pn": "gtkmm3",
             "provides": "gtkmm3 ",
-            "pv": "3.22.2",
+            "pv": "3.24.1",
             "section": "libs",
             "summary": "C++ bindings for the GTK+ toolkit V3",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2019-04-02T23:04:07+0000"
         },
         {
             "bbclassextend": "",
@@ -12126,11 +12161,11 @@
             "updated": "2018-10-05T09:10:15+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Drop-in replacement for dbus-daemon.",
-            "filename": "dbus-broker_git.bb",
+            "filename": "dbus-broker_19.bb",
             "filepath": "recipes-core/dbus",
             "homepage": "",
             "id": 723724,
@@ -12139,10 +12174,10 @@
             "license": "Apache-2.0",
             "pn": "dbus-broker",
             "provides": "dbus-broker ",
-            "pv": "16+gitX",
+            "pv": "19",
             "section": "base",
             "summary": "dbus broker",
-            "updated": "2018-11-27T18:11:26+0000"
+            "updated": "2019-04-08T23:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -12225,7 +12260,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "glibmm_2.58.0.bb",
+            "filename": "glibmm_2.58.1.bb",
             "filepath": "recipes-core/glib-2.0",
             "homepage": "http://www.gtkmm.org/",
             "id": 723729,
@@ -12234,10 +12269,10 @@
             "license": "LGPLv2.1 & GPLv2",
             "pn": "glibmm",
             "provides": "glibmm ",
-            "pv": "2.58.0",
+            "pv": "2.58.1",
             "section": "libs",
             "summary": "C++ bindings for the glib library",
-            "updated": "2019-01-28T00:01:37+0000"
+            "updated": "2019-04-02T23:04:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -12579,7 +12614,7 @@
             "pv": "0.0+gitX",
             "section": "base",
             "summary": "Small collection of benchmarks for storage I/O",
-            "updated": "2018-12-25T17:12:03+0000"
+            "updated": "2019-04-08T23:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -12737,27 +12772,27 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "C bindings for ZeroMQ",
-            "filename": "czmq_4.1.1.bb",
+            "description": "High-level C binding for 0MQ",
+            "filename": "czmq_4.2.0.bb",
             "filepath": "recipes-connectivity/zeromq",
-            "homepage": "http://www.zeromq.org",
+            "homepage": "http://czmq.zeromq.org/",
             "id": 876208,
             "inherits": "cmake",
             "layerbranch": 14965,
             "license": "MPL-2.0",
             "pn": "czmq",
             "provides": "czmq ",
-            "pv": "4.1.1",
+            "pv": "4.2.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T18:12:39+0000"
+            "updated": "2019-04-09T19:04:59+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Doxygen is the de facto standard tool for generating documentation from annotated C++ sources.",
-            "filename": "doxygen_1.8.14.bb",
+            "filename": "doxygen_1.8.15.bb",
             "filepath": "recipes-devtools/doxygen",
             "homepage": "http://www.doxygen.org/",
             "id": 876209,
@@ -12766,10 +12801,10 @@
             "license": "GPL-2.0",
             "pn": "doxygen",
             "provides": "doxygen ",
-            "pv": "1.8.14",
+            "pv": "1.8.15",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-17T17:12:15+0000"
+            "updated": "2019-04-09T19:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -13073,7 +13108,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "A collection of cpuburn programs tuned for different ARM hardware",
-            "updated": "2019-02-13T17:02:46+0000"
+            "updated": "2019-04-02T23:04:04+0000"
         },
         {
             "bbclassextend": "",
@@ -13084,7 +13119,7 @@
             "filepath": "recipes-graphics/ftgl",
             "homepage": "https://sourceforge.net/projects/ftgl/",
             "id": 904974,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "ftgl",
@@ -13092,7 +13127,7 @@
             "pv": "2.1.3-rc5",
             "section": "base",
             "summary": "OpenGL frontend to Freetype 2",
-            "updated": "2019-02-13T17:02:47+0000"
+            "updated": "2019-04-08T23:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -13122,7 +13157,7 @@
             "filepath": "recipes-gnome/libpeas",
             "homepage": "https://wiki.gnome.org/Projects/Libpeas",
             "id": 917905,
-            "inherits": "autotools gnomebase gobject-introspection gobject-introspection-data gtk-doc gtk-icon-cache pkgconfig python3-dir python3native qemu siteconfig siteinfo",
+            "inherits": "autotools distro_features_check gnomebase gobject-introspection gobject-introspection-data gtk-doc gtk-icon-cache pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPLv2.1+",
             "pn": "libpeas",
@@ -13130,7 +13165,7 @@
             "pv": "1.22.0",
             "section": "base",
             "summary": "libpeas is a gobject-based plugins engine",
-            "updated": "2019-03-05T19:03:07+0000"
+            "updated": "2019-04-09T19:04:02+0000"
         },
         {
             "bbclassextend": "",
@@ -13160,7 +13195,7 @@
             "filepath": "recipes-graphics/libforms",
             "homepage": "http://savannah.nongnu.org/projects/xforms/",
             "id": 917907,
-            "inherits": "autotools siteconfig siteinfo",
+            "inherits": "autotools distro_features_check siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPLv2.1+",
             "pn": "libforms",
@@ -13168,7 +13203,7 @@
             "pv": "1.2.3",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-05T19:03:08+0000"
+            "updated": "2019-04-08T23:04:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -13264,6 +13299,101 @@
             "section": "base",
             "summary": "",
             "updated": "2019-03-05T19:03:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "triggerhappy_0.5.0.bb",
+            "filepath": "recipes-extended/triggerhappy",
+            "homepage": "https://github.com/wertarbyte/triggerhappy",
+            "id": 934712,
+            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd update-rc.d",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "triggerhappy",
+            "provides": "triggerhappy ",
+            "pv": "0.5.0",
+            "section": "base",
+            "summary": "A lightweight hotkey daemon",
+            "updated": "2019-04-08T23:04:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "enchant2_2.2.3.bb",
+            "filepath": "recipes-support/enchant",
+            "homepage": "https://abiword.github.io/enchant/",
+            "id": 934713,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1+",
+            "pn": "enchant2",
+            "provides": "enchant2 ",
+            "pv": "2.2.3",
+            "section": "libs",
+            "summary": "Enchant Spell checker API Library v2",
+            "updated": "2019-04-08T23:04:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Provides improved implementations of std::function.",
+            "filename": "function2_4.0.0.bb",
+            "filepath": "recipes-support/function2",
+            "homepage": "https://naios.github.io/function2",
+            "id": 934714,
+            "inherits": "cmake ptest",
+            "layerbranch": 14965,
+            "license": "BSL-1.0",
+            "pn": "function2",
+            "provides": "function2 ",
+            "pv": "4.0.0+gitX",
+            "section": "base",
+            "summary": "Improved drop-in replacement for std::function",
+            "updated": "2019-04-08T23:04:20+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "itstool_2.0.5.bb",
+            "filepath": "recipes-support/itstool",
+            "homepage": "http://itstool.org/",
+            "id": 934715,
+            "inherits": "autotools python3-dir python3native siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "itstool",
+            "provides": "itstool ",
+            "pv": "2.0.5",
+            "section": "base",
+            "summary": "ITS Tool allows you to translate your XML documents with PO files",
+            "updated": "2019-04-08T23:04:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Fast Artificial Neural Network (FANN) Library is a free open source neural network library, which implements multilayer artificial neural networks in C with support for both fully connected and sparsely connected networks.",
+            "filename": "libfann_git.bb",
+            "filepath": "recipes-support/libfann",
+            "homepage": "https://github.com/libfann/fann",
+            "id": 934724,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1",
+            "pn": "libfann",
+            "provides": "libfann ",
+            "pv": "2.2.0+gitX",
+            "section": "libs/devel",
+            "summary": "Fast Artificial Neural Network (FANN) Library",
+            "updated": "2019-04-09T19:04:04+0000"
         }
     ],
     "wrtemplates": []

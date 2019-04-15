@@ -55,78 +55,113 @@
             "image_url": "",
             "link_url": "",
             "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190321",
+            "bitbake_branch": "wr-10.19-20190408",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-03-21T20:03:16+0000",
+            "updated": "2019-04-08T22:04:19+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190321",
+            "actual_branch": "wr-10.19-20190408",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-03-20T20:03:35+0000",
-            "vcs_last_commit": "2019-03-20T20:03:35+0000",
-            "vcs_last_fetch": "2019-03-20T20:03:35+0000",
-            "vcs_last_rev": "32aa042dbc41c5055734463b844839efc50c2ac1",
+            "updated": "2019-04-09T20:04:31+0000",
+            "vcs_last_commit": "2019-04-09T20:04:31+0000",
+            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
+            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 2
+            "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190409",
             "branch": 38,
             "collection": "gnome-layer",
             "id": 14960,
             "layer": 15,
-            "updated": "2019-03-18T19:03:46+0000",
-            "vcs_last_commit": "2019-03-18T19:03:46+0000",
-            "vcs_last_fetch": "2019-03-18T19:03:46+0000",
-            "vcs_last_rev": "5d67fef78b89a55e88198750f2f894111dea4984",
+            "updated": "2019-04-15T00:04:50+0000",
+            "vcs_last_commit": "2019-04-15T00:04:50+0000",
+            "vcs_last_fetch": "2019-04-15T00:04:50+0000",
+            "vcs_last_rev": "1f6eeb405dcb862997d7655bf2cf056b6c325ca8",
             "vcs_subdir": "meta-gnome",
             "version": "1",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190409",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-03-18T19:03:46+0000",
-            "vcs_last_commit": "2019-03-18T19:03:46+0000",
-            "vcs_last_fetch": "2019-03-18T19:03:46+0000",
-            "vcs_last_rev": "504229d9383dbf73ce244f18eb19c9d211f6dcce",
+            "updated": "2019-04-09T00:04:43+0000",
+            "vcs_last_commit": "2019-04-09T00:04:43+0000",
+            "vcs_last_fetch": "2019-04-09T00:04:43+0000",
+            "vcs_last_rev": "01e90f014a3f789e1f1417278b27ae6dbf34a1ec",
             "vcs_subdir": "meta-networking",
             "version": "1",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190319",
+            "actual_branch": "wr-10.19-20190409",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-03-19T19:03:22+0000",
-            "vcs_last_commit": "2019-03-19T19:03:22+0000",
-            "vcs_last_fetch": "2019-03-19T19:03:22+0000",
-            "vcs_last_rev": "6a91fc550e69065fe7aaba6c17589a8a312fa4b0",
+            "updated": "2019-04-11T01:04:21+0000",
+            "vcs_last_commit": "2019-04-11T01:04:21+0000",
+            "vcs_last_fetch": "2019-04-11T01:04:21+0000",
+            "vcs_last_rev": "bc106dd6e5deec2898b74c2a23328fa039e6cad3",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 9
         }
     ],
     "layerDependencies": [
@@ -236,7 +271,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "network-manager-applet_1.8.18.bb",
+            "filename": "network-manager-applet_1.8.20.bb",
             "filepath": "recipes-connectivity/network-manager-applet",
             "homepage": "",
             "id": 725079,
@@ -245,10 +280,10 @@
             "license": "GPLv2",
             "pn": "network-manager-applet",
             "provides": "network-manager-applet ",
-            "pv": "1.8.18",
+            "pv": "1.8.20",
             "section": "base",
             "summary": "GTK+ applet for NetworkManager",
-            "updated": "2018-11-27T18:11:28+0000"
+            "updated": "2019-04-02T23:04:54+0000"
         },
         {
             "bbclassextend": "",
@@ -350,7 +385,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gparted_0.31.0.bb",
+            "filename": "gparted_0.33.0.bb",
             "filepath": "recipes-extended/gparted",
             "homepage": "http://gparted.org/index.php",
             "id": 725085,
@@ -359,10 +394,10 @@
             "license": "GPLv2",
             "pn": "gparted",
             "provides": "gparted ",
-            "pv": "0.31.0",
+            "pv": "0.33.0",
             "section": "base",
             "summary": "A partition editor to graphically manage disk partitions ",
-            "updated": "2018-10-05T09:10:01+0000"
+            "updated": "2019-04-08T23:04:08+0000"
         },
         {
             "bbclassextend": "",
@@ -388,7 +423,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgtop_2.38.0.bb",
+            "filename": "libgtop_2.40.0.bb",
             "filepath": "recipes-gnome/libgtop",
             "homepage": "",
             "id": 725087,
@@ -397,17 +432,17 @@
             "license": "GPLv2+",
             "pn": "libgtop",
             "provides": "libgtop ",
-            "pv": "2.38.0",
+            "pv": "2.40.0",
             "section": "base",
             "summary": "LibGTop2",
-            "updated": "2019-03-19T19:03:31+0000"
+            "updated": "2019-04-02T23:04:54+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "gvfs is a userspace virtual filesystem",
-            "filename": "gvfs_1.39.92.bb",
+            "filename": "gvfs_1.40.0.bb",
             "filepath": "recipes-gnome/gvfs",
             "homepage": "",
             "id": 725088,
@@ -416,10 +451,10 @@
             "license": "LGPLv2",
             "pn": "gvfs",
             "provides": "gvfs ",
-            "pv": "1.39.92",
+            "pv": "1.40.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-19T19:03:31+0000"
+            "updated": "2019-04-15T02:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -445,19 +480,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gnome-system-monitor_3.26.0.bb",
+            "filename": "gnome-system-monitor_3.32.0.bb",
             "filepath": "recipes-gnome/gnome-system-monitor",
             "homepage": "",
             "id": 725090,
-            "inherits": "autotools distro_features_check gnomebase pkgconfig siteconfig siteinfo",
+            "inherits": "distro_features_check gettext gnomebase gtk-icon-cache meson pkgconfig python3-dir python3native siteinfo",
             "layerbranch": 14960,
             "license": "GPLv2",
             "pn": "gnome-system-monitor",
             "provides": "gnome-system-monitor ",
-            "pv": "3.26.0",
+            "pv": "3.32.0",
             "section": "base",
             "summary": "Gnome system monitor",
-            "updated": "2018-10-05T09:10:02+0000"
+            "updated": "2019-04-08T23:04:10+0000"
         },
         {
             "bbclassextend": "",
@@ -540,7 +575,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gtksourceview3_3.24.8.bb",
+            "filename": "gtksourceview3_3.24.10.bb",
             "filepath": "recipes-gnome/gtksourceview",
             "homepage": "http://projects.gnome.org/gtksourceview/",
             "id": 725095,
@@ -549,10 +584,10 @@
             "license": "LGPLv2.1",
             "pn": "gtksourceview3",
             "provides": "gtksourceview3 ",
-            "pv": "3.24.8",
+            "pv": "3.24.10",
             "section": "base",
             "summary": "Portable C library for multiline text editing",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2019-04-08T23:04:09+0000"
         },
         {
             "bbclassextend": "",
@@ -578,19 +613,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gnome-desktop3_3.28.1.bb",
+            "filename": "gnome-desktop3_3.32.0.bb",
             "filepath": "recipes-gnome/gnome-desktop",
             "homepage": "",
             "id": 725097,
-            "inherits": "autotools distro_features_check gconf gnome gnomebase gobject-introspection gobject-introspection-data gtk-doc gtk-icon-cache mime pkgconfig python3-dir python3native qemu siteconfig siteinfo upstream-version-is-even",
+            "inherits": "distro_features_check gconf gnome gnomebase gobject-introspection gobject-introspection-data gtk-doc gtk-icon-cache meson mime pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
             "layerbranch": 14960,
             "license": "GPLv2 & LGPLv2",
             "pn": "gnome-desktop3",
             "provides": "gnome-desktop3 ",
-            "pv": "3.28.1",
+            "pv": "3.32.0",
             "section": "x11/gnome",
             "summary": "GNOME library for reading .desktop files",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2019-04-09T19:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -749,7 +784,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dconf_0.30.1.bb",
+            "filename": "dconf_0.32.0.bb",
             "filepath": "recipes-gnome/dconf",
             "homepage": "",
             "id": 725106,
@@ -758,17 +793,17 @@
             "license": "LGPLv2.1",
             "pn": "dconf",
             "provides": "dconf ",
-            "pv": "0.30.1",
+            "pv": "0.32.0",
             "section": "x11/gnome",
             "summary": "configuation database system",
-            "updated": "2018-12-17T17:12:39+0000"
+            "updated": "2019-04-08T23:04:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dconf-editor_3.28.0.bb",
+            "filename": "dconf-editor_3.32.0.bb",
             "filepath": "recipes-gnome/dconf",
             "homepage": "",
             "id": 725107,
@@ -777,17 +812,17 @@
             "license": "GPLv3",
             "pn": "dconf-editor",
             "provides": "dconf-editor ",
-            "pv": "3.28.0",
+            "pv": "3.32.0",
             "section": "base",
             "summary": "Configuration editor for dconf",
-            "updated": "2018-10-05T09:10:05+0000"
+            "updated": "2019-04-08T23:04:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgsf_1.14.29.bb",
+            "filename": "libgsf_1.14.45.bb",
             "filepath": "recipes-gnome/libgsf",
             "homepage": "",
             "id": 725108,
@@ -796,10 +831,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "libgsf",
             "provides": "libgsf ",
-            "pv": "1.14.29",
+            "pv": "1.14.45",
             "section": "libs",
             "summary": "GNOME Structured File Library",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2019-04-08T23:04:10+0000"
         },
         {
             "bbclassextend": "",
@@ -901,7 +936,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgnomekbd_3.26.0.bb",
+            "filename": "libgnomekbd_3.26.1.bb",
             "filepath": "recipes-gnome/libgnome",
             "homepage": "",
             "id": 725114,
@@ -910,10 +945,10 @@
             "license": "LGPLv2",
             "pn": "libgnomekbd",
             "provides": "libgnomekbd ",
-            "pv": "3.26.0",
+            "pv": "3.26.1",
             "section": "x11/gnome/libs",
             "summary": "GNOME keyboard library",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2019-04-08T23:04:09+0000"
         },
         {
             "bbclassextend": "",
@@ -971,6 +1006,25 @@
             "section": "base",
             "summary": "Programs for accessing Microsoft Word documents",
             "updated": "2019-01-15T17:01:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "gspell_1.8.1.bb",
+            "filepath": "recipes-gnome/gspell",
+            "homepage": "https://wiki.gnome.org/Projects/gspell",
+            "id": 934721,
+            "inherits": "autotools gettext gnomebase gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo",
+            "layerbranch": 14960,
+            "license": "LGPLv2.1",
+            "pn": "gspell",
+            "provides": "gspell ",
+            "pv": "1.8.1",
+            "section": "base",
+            "summary": "spell adds spell-checking to a GTK+ applications",
+            "updated": "2019-04-08T23:04:10+0000"
         }
     ],
     "wrtemplates": []
