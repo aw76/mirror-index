@@ -94,14 +94,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190408",
+            "bitbake_branch": "wr-10.19-20190613",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-04-08T22:04:19+0000",
+            "updated": "2019-06-13T20:06:36+0000",
             "updates_enabled": true
         }
     ],
@@ -111,65 +111,65 @@
             "id": 4192,
             "layerbranch": 833856,
             "name": "overc",
-            "updated": "2019-03-05T19:03:18+0000"
+            "updated": "2019-05-09T16:05:44+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190408",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-04-09T20:04:31+0000",
-            "vcs_last_commit": "2019-04-09T20:04:31+0000",
-            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
-            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
+            "updated": "2019-06-17T22:06:30+0000",
+            "vcs_last_commit": "2019-06-17T22:06:30+0000",
+            "vcs_last_fetch": "2019-06-17T22:06:30+0000",
+            "vcs_last_rev": "3ebfbb1417d073d842c037c68ea70e6a2f4a2903",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "xfce-layer",
             "id": 14983,
             "layer": 5,
-            "updated": "2019-04-06T08:04:22+0000",
-            "vcs_last_commit": "2019-04-06T08:04:22+0000",
-            "vcs_last_fetch": "2019-04-06T08:04:22+0000",
-            "vcs_last_rev": "efe10a896fb5a8095eda59a471022f07001f44a2",
+            "updated": "2019-06-17T00:06:58+0000",
+            "vcs_last_commit": "2019-06-17T00:06:58+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
+            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
             "vcs_subdir": "meta-xfce",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190520",
             "branch": 38,
             "collection": "overc",
             "id": 833856,
             "layer": 245,
-            "updated": "2019-04-07T20:04:11+0000",
-            "vcs_last_commit": "2019-04-07T20:04:11+0000",
-            "vcs_last_fetch": "2019-04-07T20:04:11+0000",
-            "vcs_last_rev": "d5e1a7965b4135beb9f92d5c4577bc0729743841",
+            "updated": "2019-05-19T19:05:10+0000",
+            "vcs_last_commit": "2019-05-19T19:05:10+0000",
+            "vcs_last_fetch": "2019-05-19T19:05:10+0000",
+            "vcs_last_rev": "4f7c0427acdf9ccab4e734840f1149840311a813",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 12
+            "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190121",
+            "actual_branch": "wr-10.19-20190520",
             "branch": 38,
             "collection": "cube",
             "id": 835461,
             "layer": 246,
-            "updated": "2019-04-07T20:04:11+0000",
-            "vcs_last_commit": "2019-04-07T20:04:11+0000",
-            "vcs_last_fetch": "2019-04-07T20:04:11+0000",
-            "vcs_last_rev": "d5e1a7965b4135beb9f92d5c4577bc0729743841",
+            "updated": "2019-05-19T19:05:42+0000",
+            "vcs_last_commit": "2019-05-19T19:05:42+0000",
+            "vcs_last_fetch": "2019-05-19T19:05:42+0000",
+            "vcs_last_rev": "ece197d9550aec5db6fc5d4da3ce9324a9c7df0a",
             "vcs_subdir": "meta-cube",
             "version": "1",
-            "yp_compatible_version": 12
+            "yp_compatible_version": 9
         }
     ],
     "layerDependencies": [
@@ -279,19 +279,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Launched from the essential image, this is a container image                which provides a headless install capable of being used as a kubernetes                worker and as a development platform.               ",
-            "filename": "cube-k8s-compute.bb",
+            "filename": "cube-k8s-node.bb",
             "filepath": "meta-cube/recipes-core/images",
             "homepage": "http://www.windriver.com",
             "id": 898240,
             "inherits": "builder-base core-image extrausers hosts image image-container image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo useradd_base",
             "layerbranch": 833856,
             "license": "MIT",
-            "pn": "cube-k8s-compute",
-            "provides": "cube-k8s-compute ",
+            "pn": "cube-k8s-node",
+            "provides": "cube-k8s-node ",
             "pv": "1.0",
             "section": "base",
             "summary": "A container image for kubernetes worker node.",
-            "updated": "2019-01-20T22:01:38+0000"
+            "updated": "2019-05-21T19:05:43+0000"
         },
         {
             "bbclassextend": "",

@@ -94,99 +94,113 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190408",
+            "bitbake_branch": "wr-10.19-20190613",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-04-08T22:04:19+0000",
+            "updated": "2019-06-13T20:06:36+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190408",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-04-09T20:04:31+0000",
-            "vcs_last_commit": "2019-04-09T20:04:31+0000",
-            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
-            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
+            "updated": "2019-06-17T22:06:30+0000",
+            "vcs_last_commit": "2019-06-17T22:06:30+0000",
+            "vcs_last_fetch": "2019-06-17T22:06:30+0000",
+            "vcs_last_rev": "3ebfbb1417d073d842c037c68ea70e6a2f4a2903",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "gnome-layer",
             "id": 14960,
             "layer": 15,
-            "updated": "2019-04-15T00:04:50+0000",
-            "vcs_last_commit": "2019-04-15T00:04:50+0000",
-            "vcs_last_fetch": "2019-04-15T00:04:50+0000",
-            "vcs_last_rev": "1f6eeb405dcb862997d7655bf2cf056b6c325ca8",
+            "updated": "2019-06-17T00:06:58+0000",
+            "vcs_last_commit": "2019-06-17T00:06:58+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
+            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2019-04-06T08:04:48+0000",
-            "vcs_last_commit": "2019-04-06T08:04:48+0000",
-            "vcs_last_fetch": "2019-04-06T08:04:48+0000",
-            "vcs_last_rev": "235d5919715754a8b692dd0a6836373b2eea1ab3",
+            "updated": "2019-06-17T00:06:58+0000",
+            "vcs_last_commit": "2019-06-17T00:06:58+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
+            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
+            "branch": 38,
+            "collection": "networking-layer",
+            "id": 14964,
+            "layer": 11,
+            "updated": "2019-06-17T00:06:01+0000",
+            "vcs_last_commit": "2019-06-17T00:06:01+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:01+0000",
+            "vcs_last_rev": "2808e4120be61fecd1a118253aa13a658d80a852",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": 9
+        },
+        {
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-04-11T01:04:21+0000",
-            "vcs_last_commit": "2019-04-11T01:04:21+0000",
-            "vcs_last_fetch": "2019-04-11T01:04:21+0000",
-            "vcs_last_rev": "bc106dd6e5deec2898b74c2a23328fa039e6cad3",
+            "updated": "2019-06-17T00:06:02+0000",
+            "vcs_last_commit": "2019-06-17T00:06:02+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:02+0000",
+            "vcs_last_rev": "c2366b390ec55a41c8181d63163a1ba750e05336",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-04-06T08:04:22+0000",
-            "vcs_last_commit": "2019-04-06T08:04:22+0000",
-            "vcs_last_fetch": "2019-04-06T08:04:22+0000",
-            "vcs_last_rev": "e53f9faccf1b17afb7da1e51916e73d8c8144f24",
+            "updated": "2019-06-17T00:06:58+0000",
+            "vcs_last_commit": "2019-06-17T00:06:58+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
+            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "xfce-layer",
             "id": 14983,
             "layer": 5,
-            "updated": "2019-04-06T08:04:22+0000",
-            "vcs_last_commit": "2019-04-06T08:04:22+0000",
-            "vcs_last_fetch": "2019-04-06T08:04:22+0000",
-            "vcs_last_rev": "efe10a896fb5a8095eda59a471022f07001f44a2",
+            "updated": "2019-06-17T00:06:58+0000",
+            "vcs_last_commit": "2019-06-17T00:06:58+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
+            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
             "vcs_subdir": "meta-xfce",
             "version": "1",
             "yp_compatible_version": 9
@@ -228,6 +242,12 @@
             "id": 44890,
             "layerbranch": 14983,
             "required": false
+        },
+        {
+            "dependency": 11,
+            "id": 50834,
+            "layerbranch": 14983,
+            "required": true
         }
     ],
     "layerItems": [
@@ -278,6 +298,24 @@
             "status": "P",
             "summary": "Additional shared OE metadata",
             "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -347,7 +385,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xfce4-panel_4.13.4.bb",
+            "filename": "xfce4-panel_4.13.5.bb",
             "filepath": "recipes-xfce/xfce4-panel",
             "homepage": "http://www.xfce.org",
             "id": 725297,
@@ -356,17 +394,17 @@
             "license": "GPLv2",
             "pn": "xfce4-panel",
             "provides": "xfce4-panel ",
-            "pv": "4.13.4",
+            "pv": "4.13.5",
             "section": "x11",
             "summary": "Xfce4 Panel",
-            "updated": "2019-01-06T23:01:13+0000"
+            "updated": "2019-06-17T20:06:01+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "thunar-volman_0.9.1.bb",
+            "filename": "thunar-volman_0.9.2.bb",
             "filepath": "recipes-xfce/thunar-volman",
             "homepage": "http://www.xfce.org",
             "id": 725298,
@@ -375,10 +413,10 @@
             "license": "GPLv2",
             "pn": "thunar-volman",
             "provides": "thunar-volman ",
-            "pv": "0.9.1",
+            "pv": "0.9.2",
             "section": "x11",
             "summary": "Automatic management of removable drives and media for thunar",
-            "updated": "2019-01-06T23:01:12+0000"
+            "updated": "2019-06-17T20:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -404,26 +442,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "machine-host.bb",
-            "filepath": "recipes-xfce/xfce4-session",
-            "homepage": "",
-            "id": 725300,
-            "inherits": "",
-            "layerbranch": 14983,
-            "license": "MIT",
-            "pn": "machine-host",
-            "provides": "machine-host ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "Meta package adding machine name to known hosts",
-            "updated": "2018-10-05T09:10:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "xfce4-session_4.13.1.bb",
+            "filename": "xfce4-session_4.13.2.bb",
             "filepath": "recipes-xfce/xfce4-session",
             "homepage": "http://www.xfce.org",
             "id": 725301,
@@ -432,17 +451,17 @@
             "license": "GPLv2",
             "pn": "xfce4-session",
             "provides": "xfce4-session ",
-            "pv": "4.13.1",
+            "pv": "4.13.2",
             "section": "x11",
             "summary": "xfce4-session is a session manager for Xfce 4 Desktop Environment",
-            "updated": "2018-10-05T09:10:52+0000"
+            "updated": "2019-06-17T20:06:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xfce4-power-manager_1.6.1.bb",
+            "filename": "xfce4-power-manager_1.6.2.bb",
             "filepath": "recipes-xfce/xfce4-power-manager",
             "homepage": "http://www.xfce.org",
             "id": 725302,
@@ -451,10 +470,10 @@
             "license": "GPLv2+",
             "pn": "xfce4-power-manager",
             "provides": "xfce4-power-manager ",
-            "pv": "1.6.1",
+            "pv": "1.6.2",
             "section": "x11",
             "summary": "Power manager for the Xfce desktop environment",
-            "updated": "2019-01-28T00:01:18+0000"
+            "updated": "2019-06-17T20:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -480,7 +499,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libxfce4ui_4.13.4.bb",
+            "filename": "libxfce4ui_4.13.5.bb",
             "filepath": "recipes-xfce/libxfce4ui",
             "homepage": "http://www.xfce.org",
             "id": 725304,
@@ -489,17 +508,17 @@
             "license": "GPLv2",
             "pn": "libxfce4ui",
             "provides": "libxfce4ui ",
-            "pv": "4.13.4",
+            "pv": "4.13.5",
             "section": "x11/libs",
             "summary": "Xfce4 Widget library and X Window System interaction",
-            "updated": "2018-10-05T09:10:52+0000"
+            "updated": "2019-06-17T20:06:00+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Xfce4 Application Finder",
-            "filename": "xfce4-appfinder_4.13.2.bb",
+            "filename": "xfce4-appfinder_4.13.3.bb",
             "filepath": "recipes-xfce/xfce4-appfinder",
             "homepage": "http://www.xfce.org",
             "id": 725305,
@@ -508,17 +527,17 @@
             "license": "GPLv2",
             "pn": "xfce4-appfinder",
             "provides": "xfce4-appfinder ",
-            "pv": "4.13.2",
+            "pv": "4.13.3",
             "section": "x11",
             "summary": "",
-            "updated": "2019-01-06T23:01:13+0000"
+            "updated": "2019-06-17T20:06:01+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "thunar_1.8.4.bb",
+            "filename": "thunar_1.8.6.bb",
             "filepath": "recipes-xfce/thunar",
             "homepage": "http://www.xfce.org",
             "id": 725306,
@@ -527,10 +546,10 @@
             "license": "GPLv2",
             "pn": "thunar",
             "provides": "thunar ",
-            "pv": "1.8.4",
+            "pv": "1.8.6",
             "section": "x11",
             "summary": "File manager for the Xfce Desktop Environment",
-            "updated": "2019-03-12T20:03:55+0000"
+            "updated": "2019-06-17T20:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -549,7 +568,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2019-03-19T19:03:49+0000"
+            "updated": "2019-05-28T23:05:06+0000"
         },
         {
             "bbclassextend": "",
@@ -594,7 +613,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Xfce4 Window Manager",
-            "filename": "xfwm4_4.13.1.bb",
+            "filename": "xfwm4_4.13.2.bb",
             "filepath": "recipes-xfce/xfwm4",
             "homepage": "http://www.xfce.org",
             "id": 725310,
@@ -603,10 +622,10 @@
             "license": "GPLv2",
             "pn": "xfwm4",
             "provides": "xfwm4 ",
-            "pv": "4.13.1",
+            "pv": "4.13.2",
             "section": "x11/wm",
             "summary": "",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2019-06-17T20:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -632,7 +651,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libxfce4util_4.13.2.bb",
+            "filename": "libxfce4util_4.13.3.bb",
             "filepath": "recipes-xfce/libxfce4util",
             "homepage": "http://www.xfce.org",
             "id": 725312,
@@ -641,17 +660,17 @@
             "license": "GPLv2",
             "pn": "libxfce4util",
             "provides": "libxfce4util ",
-            "pv": "4.13.2",
+            "pv": "4.13.3",
             "section": "x11/libs",
             "summary": "Basic utility library for Xfce4",
-            "updated": "2018-10-05T09:10:54+0000"
+            "updated": "2019-06-17T20:06:00+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Application library for the Xfce desktop environment",
-            "filename": "exo_0.12.4.bb",
+            "filename": "exo_0.12.5.bb",
             "filepath": "recipes-xfce/exo",
             "homepage": "http://www.xfce.org",
             "id": 725313,
@@ -660,10 +679,10 @@
             "license": "GPLv2",
             "pn": "exo",
             "provides": "exo ",
-            "pv": "0.12.4",
+            "pv": "0.12.5",
             "section": "x11",
             "summary": "",
-            "updated": "2019-02-13T17:02:56+0000"
+            "updated": "2019-05-08T22:05:59+0000"
         },
         {
             "bbclassextend": "",
@@ -689,7 +708,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xfdesktop_4.13.3.bb",
+            "filename": "xfdesktop_4.13.4.bb",
             "filepath": "recipes-xfce/xfdesktop",
             "homepage": "http://www.xfce.org",
             "id": 725315,
@@ -698,17 +717,17 @@
             "license": "GPLv2",
             "pn": "xfdesktop",
             "provides": "xfdesktop ",
-            "pv": "4.13.3",
+            "pv": "4.13.4",
             "section": "x11/base",
             "summary": "Xfce4 Desktop Manager",
-            "updated": "2019-04-02T23:04:10+0000"
+            "updated": "2019-06-17T20:06:03+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xfconf_4.13.6.bb",
+            "filename": "xfconf_4.13.7.bb",
             "filepath": "recipes-xfce/xfconf",
             "homepage": "http://www.xfce.org",
             "id": 725316,
@@ -717,10 +736,10 @@
             "license": "GPLv2",
             "pn": "xfconf",
             "provides": "xfconf ",
-            "pv": "4.13.6",
+            "pv": "4.13.7",
             "section": "x11/wm",
             "summary": "Xfce configuration daemon and utilities",
-            "updated": "2018-11-27T18:11:37+0000"
+            "updated": "2019-06-17T20:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -765,7 +784,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "ristretto_0.8.3.bb",
+            "filename": "ristretto_0.8.4.bb",
             "filepath": "recipes-apps/ristretto",
             "homepage": "http://www.xfce.org",
             "id": 725319,
@@ -774,17 +793,17 @@
             "license": "GPLv2",
             "pn": "ristretto",
             "provides": "ristretto ",
-            "pv": "0.8.3",
+            "pv": "0.8.4",
             "section": "x11/application",
             "summary": "Tiny image-viewer",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2019-04-15T19:04:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xfce4-notifyd_0.4.3.bb",
+            "filename": "xfce4-notifyd_0.4.4.bb",
             "filepath": "recipes-apps/xfce4-notifyd",
             "homepage": "http://www.xfce.org",
             "id": 725320,
@@ -793,10 +812,10 @@
             "license": "GPLv2",
             "pn": "xfce4-notifyd",
             "provides": "xfce4-notifyd ",
-            "pv": "0.4.3",
+            "pv": "0.4.4",
             "section": "base",
             "summary": "Easily themable notification daemon with transparency effects",
-            "updated": "2018-11-27T18:11:36+0000"
+            "updated": "2019-05-08T22:05:56+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +853,7 @@
             "pv": "0.8.7.4",
             "section": "base",
             "summary": "Terminal emulator for the Xfce desktop environment",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-05-08T22:05:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1005,7 +1024,7 @@
             "pv": "4.10.3",
             "section": "base",
             "summary": "Xfce4 Vala provides bindings for the Xfce framework",
-            "updated": "2018-10-05T09:10:58+0000"
+            "updated": "2019-05-08T22:05:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1107,7 +1126,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Parole is a modern simple media player based on the GStreamer framework",
-            "filename": "parole_1.0.1.bb",
+            "filename": "parole_1.0.2.bb",
             "filepath": "recipes-multimedia/parole",
             "homepage": "http://www.xfce.org",
             "id": 725338,
@@ -1116,10 +1135,10 @@
             "license": "GPLv2",
             "pn": "parole",
             "provides": "parole ",
-            "pv": "1.0.1",
+            "pv": "1.0.2",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:59+0000"
+            "updated": "2019-04-15T19:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1296,8 +1315,8 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Panel plugin displaying menu with quick access to folders, documents, and removable media",
-            "filename": "xfce4-places-plugin_1.7.0.bb",
+            "description": "Panel plugin displaying menu with quick access to folders, documents and removable media",
+            "filename": "xfce4-places-plugin_1.8.0.bb",
             "filepath": "recipes-panel-plugins/places",
             "homepage": "http://www.xfce.org",
             "id": 725348,
@@ -1306,10 +1325,10 @@
             "license": "GPLv2",
             "pn": "xfce4-places-plugin",
             "provides": "xfce4-places-plugin ",
-            "pv": "1.7.0",
+            "pv": "1.8.0",
             "section": "base",
-            "summary": "",
-            "updated": "2018-10-05T09:10:01+0000"
+            "summary": "Menu for quick access to folders, documents and removable media",
+            "updated": "2019-05-08T22:05:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1499,7 +1518,7 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "Panel plugin to display frequency of all cpus",
-            "updated": "2018-10-08T07:10:52+0000"
+            "updated": "2019-05-08T22:05:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1582,7 +1601,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xfce4-datetime-plugin_0.7.0.bb",
+            "filename": "xfce4-datetime-plugin_0.7.1.bb",
             "filepath": "recipes-panel-plugins/datetime",
             "homepage": "http://www.xfce.org",
             "id": 725363,
@@ -1591,10 +1610,10 @@
             "license": "GPLv2",
             "pn": "xfce4-datetime-plugin",
             "provides": "xfce4-datetime-plugin ",
-            "pv": "0.7.0",
+            "pv": "0.7.1",
             "section": "base",
             "summary": "Panel plugin displaying date and time and a calendar when left-clicked",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2019-05-08T22:05:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1842,6 +1861,25 @@
             "section": "x11/application",
             "summary": "Backup, restore, import, and export panel layouts",
             "updated": "2018-10-31T18:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Xfce screensaver is a screen saver and locker that aims to have simple, sane, secure defaults and be well integrated with the desktop.",
+            "filename": "xfce4-screensaver_0.1.4.bb",
+            "filepath": "recipes-apps/xfce4-screensaver",
+            "homepage": "http://www.xfce.org",
+            "id": 951530,
+            "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
+            "layerbranch": 14983,
+            "license": "GPLv2+ & LGPLv2+ ",
+            "pn": "xfce4-screensaver",
+            "provides": "xfce4-screensaver ",
+            "pv": "0.1.4",
+            "section": "x11/application",
+            "summary": "Xfce screensaver Application",
+            "updated": "2019-05-28T23:05:06+0000"
         }
     ],
     "wrtemplates": []

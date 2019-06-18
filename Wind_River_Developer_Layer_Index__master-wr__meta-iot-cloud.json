@@ -94,57 +94,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190408",
+            "bitbake_branch": "wr-10.19-20190613",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-04-08T22:04:19+0000",
+            "updated": "2019-06-13T20:06:36+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-04-11T01:04:21+0000",
-            "vcs_last_commit": "2019-04-11T01:04:21+0000",
-            "vcs_last_fetch": "2019-04-11T01:04:21+0000",
-            "vcs_last_rev": "bc106dd6e5deec2898b74c2a23328fa039e6cad3",
+            "updated": "2019-06-17T00:06:02+0000",
+            "vcs_last_commit": "2019-06-17T00:06:02+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:02+0000",
+            "vcs_last_rev": "c2366b390ec55a41c8181d63163a1ba750e05336",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-04-06T08:04:22+0000",
-            "vcs_last_commit": "2019-04-06T08:04:22+0000",
-            "vcs_last_fetch": "2019-04-06T08:04:22+0000",
-            "vcs_last_rev": "e53f9faccf1b17afb7da1e51916e73d8c8144f24",
+            "updated": "2019-06-17T00:06:58+0000",
+            "vcs_last_commit": "2019-06-17T00:06:58+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
+            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190408",
+            "actual_branch": "wr-10.19-20190415",
             "branch": 38,
             "collection": "iot-cloud",
             "id": 833858,
             "layer": 247,
-            "updated": "2019-04-07T18:04:59+0000",
-            "vcs_last_commit": "2019-04-07T18:04:59+0000",
-            "vcs_last_fetch": "2019-04-07T18:04:59+0000",
-            "vcs_last_rev": "1670ce3be18613894a04dc75252530179a625ac6",
+            "updated": "2019-04-14T19:04:12+0000",
+            "vcs_last_commit": "2019-04-14T19:04:12+0000",
+            "vcs_last_fetch": "2019-04-14T19:04:12+0000",
+            "vcs_last_rev": "6e522eb46e35173eee5f9dd920bd32638aa00a11",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 10
@@ -413,25 +413,6 @@
             "updated": "2018-12-25T17:12:50+0000"
         },
         {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Protocol Buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.",
-            "filename": "protobuf_3.3.0.bb",
-            "filepath": "recipes-support/protobuf",
-            "homepage": "https://developers.google.com/protocol-buffers/",
-            "id": 724516,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
-            "layerbranch": 833858,
-            "license": "BSD-3-Clause",
-            "pn": "protobuf",
-            "provides": "protobuf ",
-            "pv": "3.3.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-12-25T17:12:51+0000"
-        },
-        {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
@@ -600,7 +581,7 @@
             "pv": "1.16.57",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-17T17:12:47+0000"
+            "updated": "2019-04-15T19:04:13+0000"
         },
         {
             "bbclassextend": "",
@@ -638,7 +619,7 @@
             "pv": "1.16.57",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-17T17:12:47+0000"
+            "updated": "2019-04-15T19:04:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1390,7 +1371,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/kislyuk/argcomplete",
             "id": 724568,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "Apache-2.0",
             "pn": "python3-argcomplete",
@@ -1398,7 +1379,7 @@
             "pv": "1.9.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-12-25T17:12:54+0000"
+            "updated": "2019-04-15T19:04:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1428,7 +1409,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/websocket-client/websocket-client.git",
             "id": 724570,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "LGPL-2.1",
             "pn": "python-websocket-client",
@@ -1436,7 +1417,7 @@
             "pv": "0.48.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-12-25T17:12:48+0000"
+            "updated": "2019-04-15T19:04:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1979,7 +1960,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/jmespath/jmespath.py",
             "id": 724599,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python-jmespath",
@@ -1987,7 +1968,7 @@
             "pv": "0.9.3",
             "section": "devel/python",
             "summary": "JSON Matching Expressions",
-            "updated": "2018-12-25T17:12:46+0000"
+            "updated": "2019-04-15T19:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2169,7 +2150,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/kislyuk/argcomplete",
             "id": 724609,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools update-alternatives",
             "layerbranch": 833858,
             "license": "Apache-2.0",
             "pn": "python-argcomplete",
@@ -2177,7 +2158,7 @@
             "pv": "1.9.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-12-25T17:12:44+0000"
+            "updated": "2019-04-15T19:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2245,7 +2226,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/websocket-client/websocket-client.git",
             "id": 724613,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "LGPL-2.1",
             "pn": "python3-websocket-client",
@@ -2253,7 +2234,7 @@
             "pv": "0.48.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-12-25T17:12:56+0000"
+            "updated": "2019-04-15T19:04:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2416,7 +2397,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/jmespath/jmespath.py",
             "id": 724622,
-            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3 update-alternatives",
             "layerbranch": 833858,
             "license": "MIT",
             "pn": "python3-jmespath",
@@ -2424,7 +2405,7 @@
             "pv": "0.9.3",
             "section": "devel/python",
             "summary": "JSON Matching Expressions",
-            "updated": "2018-12-25T17:12:49+0000"
+            "updated": "2019-04-15T19:04:15+0000"
         },
         {
             "bbclassextend": "",

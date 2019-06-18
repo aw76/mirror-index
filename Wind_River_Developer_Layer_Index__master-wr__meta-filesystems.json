@@ -94,57 +94,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190408",
+            "bitbake_branch": "wr-10.19-20190613",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-04-08T22:04:19+0000",
+            "updated": "2019-06-13T20:06:36+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190408",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-04-09T20:04:31+0000",
-            "vcs_last_commit": "2019-04-09T20:04:31+0000",
-            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
-            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
+            "updated": "2019-06-17T22:06:30+0000",
+            "vcs_last_commit": "2019-06-17T22:06:30+0000",
+            "vcs_last_fetch": "2019-06-17T22:06:30+0000",
+            "vcs_last_rev": "3ebfbb1417d073d842c037c68ea70e6a2f4a2903",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2019-04-01T19:04:48+0000",
-            "vcs_last_commit": "2019-04-01T19:04:48+0000",
-            "vcs_last_fetch": "2019-04-01T19:04:48+0000",
-            "vcs_last_rev": "0435c9e193f53193a8f0043ddc287d061f72f250",
+            "updated": "2019-06-17T00:06:58+0000",
+            "vcs_last_commit": "2019-06-17T00:06:58+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
+            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-04-11T01:04:21+0000",
-            "vcs_last_commit": "2019-04-11T01:04:21+0000",
-            "vcs_last_fetch": "2019-04-11T01:04:21+0000",
-            "vcs_last_rev": "bc106dd6e5deec2898b74c2a23328fa039e6cad3",
+            "updated": "2019-06-17T00:06:02+0000",
+            "vcs_last_commit": "2019-06-17T00:06:02+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:02+0000",
+            "vcs_last_rev": "c2366b390ec55a41c8181d63163a1ba750e05336",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -233,7 +233,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "sshfs-fuse_2.8.bb",
+            "filename": "sshfs-fuse_2.10.bb",
             "filepath": "recipes-filesystems/sshfs-fuse",
             "homepage": "http://fuse.sourceforge.net/sshfs.html",
             "id": 723737,
@@ -242,10 +242,10 @@
             "license": "GPLv2",
             "pn": "sshfs-fuse",
             "provides": "sshfs-fuse ",
-            "pv": "2.8",
+            "pv": "2.10",
             "section": "console/network",
             "summary": "This is a filesystem client based on the SSH File Transfer Protocol using FUSE",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2019-05-13T19:05:57+0000"
         },
         {
             "bbclassextend": "",
@@ -340,7 +340,7 @@
             "pv": "0.0+gitX",
             "section": "base",
             "summary": "Yet Another Flash File System",
-            "updated": "2019-01-28T00:01:42+0000"
+            "updated": "2019-06-17T20:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -423,7 +423,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "FUSE (Filesystem in Userspace) is a simple interface for userspace                programs to export a virtual filesystem to the Linux kernel. FUSE                also aims to provide a secure method for non privileged users to                create and mount their own filesystem implementations.               ",
-            "filename": "fuse_2.9.8.bb",
+            "filename": "fuse_2.9.9.bb",
             "filepath": "recipes-support/fuse",
             "homepage": "https://github.com/libfuse/libfuse",
             "id": 723747,
@@ -432,10 +432,10 @@
             "license": "GPLv2 & LGPLv2",
             "pn": "fuse",
             "provides": "fuse ",
-            "pv": "2.9.8",
+            "pv": "2.9.9",
             "section": "libs",
             "summary": "Implementation of a fully functional filesystem in a userspace program",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2019-06-17T20:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -461,7 +461,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xfsprogs_4.18.0.bb",
+            "filename": "xfsprogs_5.0.0.bb",
             "filepath": "recipes-utils/xfsprogs",
             "homepage": "http://oss.sgi.com/projects/xfs",
             "id": 723749,
@@ -470,10 +470,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "xfsprogs",
             "provides": "xfsprogs ",
-            "pv": "4.18.0",
+            "pv": "5.0.0",
             "section": "base",
             "summary": "XFS Filesystem Utilities",
-            "updated": "2019-03-12T20:03:59+0000"
+            "updated": "2019-06-17T20:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -568,7 +568,7 @@
             "pv": "4.9+gitX",
             "section": "base",
             "summary": "Tools for managing AUFS mounts",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-05-16T00:05:39+0000"
         },
         {
             "bbclassextend": "",
@@ -645,6 +645,25 @@
             "section": "base",
             "summary": "Meta-filesystem packagegroups",
             "updated": "2019-01-15T17:01:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "fatresize_1.0.2.bb",
+            "filepath": "recipes-utils/fatresize",
+            "homepage": "",
+            "id": 940965,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14959,
+            "license": "GPLv2",
+            "pn": "fatresize",
+            "provides": "fatresize ",
+            "pv": "1.0.2-11",
+            "section": "console/tools",
+            "summary": "Resize FAT partitions using libparted",
+            "updated": "2019-04-15T19:04:45+0000"
         }
     ],
     "wrtemplates": []

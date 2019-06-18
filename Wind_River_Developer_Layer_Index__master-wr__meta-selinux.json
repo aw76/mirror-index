@@ -94,57 +94,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190408",
+            "bitbake_branch": "wr-10.19-20190613",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-04-08T22:04:19+0000",
+            "updated": "2019-06-13T20:06:36+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190401",
+            "actual_branch": "wr-10.19-20190424",
             "branch": 38,
             "collection": "selinux",
             "id": 14951,
             "layer": 20,
-            "updated": "2019-04-07T19:04:00+0000",
-            "vcs_last_commit": "2019-04-07T19:04:00+0000",
-            "vcs_last_fetch": "2019-04-07T19:04:00+0000",
-            "vcs_last_rev": "f0bcf9b61be24a0e22cb1a5557eb8c26ca39a0ae",
+            "updated": "2019-06-12T02:06:22+0000",
+            "vcs_last_commit": "2019-06-12T02:06:22+0000",
+            "vcs_last_fetch": "2019-06-12T02:06:22+0000",
+            "vcs_last_rev": "a8ed51181e5444c82f9702b6b5d12ca575472a58",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190408",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-04-09T20:04:31+0000",
-            "vcs_last_commit": "2019-04-09T20:04:31+0000",
-            "vcs_last_fetch": "2019-04-09T20:04:31+0000",
-            "vcs_last_rev": "63016b0b7f2ac499390f1871d2eb416018025859",
+            "updated": "2019-06-17T22:06:30+0000",
+            "vcs_last_commit": "2019-06-17T22:06:30+0000",
+            "vcs_last_fetch": "2019-06-17T22:06:30+0000",
+            "vcs_last_rev": "3ebfbb1417d073d842c037c68ea70e6a2f4a2903",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190409",
+            "actual_branch": "wr-10.19-20190617",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-04-06T08:04:22+0000",
-            "vcs_last_commit": "2019-04-06T08:04:22+0000",
-            "vcs_last_fetch": "2019-04-06T08:04:22+0000",
-            "vcs_last_rev": "e53f9faccf1b17afb7da1e51916e73d8c8144f24",
+            "updated": "2019-06-17T00:06:58+0000",
+            "vcs_last_commit": "2019-06-17T00:06:58+0000",
+            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
+            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -245,7 +245,7 @@
             "pv": "2.8.4",
             "section": "base",
             "summary": "User space tools for kernel auditing",
-            "updated": "2019-04-02T23:04:37+0000"
+            "updated": "2019-04-22T19:04:26+0000"
         },
         {
             "bbclassextend": "",
@@ -283,7 +283,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2019-04-22T19:04:26+0000"
         },
         {
             "bbclassextend": "",
@@ -302,7 +302,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2019-04-22T19:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -340,7 +340,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2019-04-22T19:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -359,25 +359,6 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:20+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "libsemanage provides an API for the manipulation of SELinux binary policies. It is used by checkpolicy (the policy compiler) and similar tools, as well as by programs like load_policy that need to perform specific transformations on binary policies such as customizing policy boolean settings.",
-            "filename": "libsemanage_git.bb",
-            "filepath": "recipes-security/selinux",
-            "homepage": "https://github.com/SELinuxProject",
-            "id": 724352,
-            "inherits": "lib_package python-dir",
-            "layerbranch": 14951,
-            "license": "LGPLv2.1+",
-            "pn": "libsemanage",
-            "provides": "libsemanage ",
-            "pv": "2.7+gitX",
-            "section": "base",
-            "summary": "SELinux binary policy manipulation library",
             "updated": "2018-10-05T09:10:20+0000"
         },
         {
@@ -476,44 +457,6 @@
             "updated": "2018-10-05T09:10:20+0000"
         },
         {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "This package contains checkpolicy, the SELinux policy compiler. Only required for building policies. It uses libsepol to generate the binary policy. checkpolicy uses the static libsepol since it deals with low level details of the policy that have not been encapsulated/abstracted by a proper shared library interface.",
-            "filename": "checkpolicy_git.bb",
-            "filepath": "recipes-security/selinux",
-            "homepage": "https://github.com/SELinuxProject",
-            "id": 724358,
-            "inherits": "",
-            "layerbranch": 14951,
-            "license": "GPLv2+",
-            "pn": "checkpolicy",
-            "provides": "checkpolicy ",
-            "pv": "2.7+gitX",
-            "section": "base",
-            "summary": "SELinux policy compiler",
-            "updated": "2018-10-05T09:10:21+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "policycoreutils contains the policy core utilities that are required for basic operation of a SELinux system.  These utilities include load_policy to load policies, setfiles to label filesystems, newrole to switch roles, and run_init to run /etc/init.d scripts in the proper context.",
-            "filename": "policycoreutils_git.bb",
-            "filepath": "recipes-security/selinux",
-            "homepage": "https://github.com/SELinuxProject",
-            "id": 724359,
-            "inherits": "python-dir pythonnative selinux",
-            "layerbranch": 14951,
-            "license": "GPLv2+",
-            "pn": "policycoreutils",
-            "provides": "policycoreutils ",
-            "pv": "2.7+gitX",
-            "section": "base",
-            "summary": "SELinux policy core utilities",
-            "updated": "2018-10-05T09:10:21+0000"
-        },
-        {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
@@ -531,25 +474,6 @@
             "section": "base",
             "summary": "Daemon to watch for file creation and set default file context",
             "updated": "2018-10-05T09:10:21+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "libselinux provides an API for SELinux applications to get and set process and file security contexts and to obtain security policy decisions.  Required for any applications that use the SELinux API.",
-            "filename": "libselinux_git.bb",
-            "filepath": "recipes-security/selinux",
-            "homepage": "https://github.com/SELinuxProject",
-            "id": 724361,
-            "inherits": "lib_package python-dir pythonnative",
-            "layerbranch": 14951,
-            "license": "PD",
-            "pn": "libselinux",
-            "provides": "libselinux ",
-            "pv": "2.7+gitX",
-            "section": "base",
-            "summary": "SELinux library and simple utilities",
-            "updated": "2019-02-20T22:02:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -587,25 +511,6 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux Common Intermediate Language (CIL) compiler",
-            "updated": "2018-10-05T09:10:22+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "libsepol provides an API for the manipulation of SELinux binary policies. It is used by checkpolicy (the policy compiler) and similar tools, as well as by programs like load_policy that need to perform specific transformations on binary policies such as customizing policy boolean settings.",
-            "filename": "libsepol_git.bb",
-            "filepath": "recipes-security/selinux",
-            "homepage": "https://github.com/SELinuxProject",
-            "id": 724364,
-            "inherits": "lib_package",
-            "layerbranch": 14951,
-            "license": "LGPLv2+",
-            "pn": "libsepol",
-            "provides": "libsepol ",
-            "pv": "2.7+gitX",
-            "section": "base",
-            "summary": "SELinux binary policy manipulation library",
             "updated": "2018-10-05T09:10:22+0000"
         },
         {
@@ -739,7 +644,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2019-02-20T22:02:10+0000"
+            "updated": "2019-04-22T19:04:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -765,7 +670,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is the reference policy for SE Linux built with MLS support. It allows giving data labels such as \\\"Top Secret\\\" and preventing such data from leaking to processes or files with lower classification. ",
-            "filename": "refpolicy-mls_2.20170204.bb",
+            "filename": "refpolicy-mls_2.20190201.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
             "id": 724373,
@@ -774,17 +679,17 @@
             "license": "GPLv2",
             "pn": "refpolicy-mls",
             "provides": "refpolicy-mls  virtual/refpolicy",
-            "pv": "2.20170204",
-            "section": "base",
+            "pv": "2.20190201",
+            "section": "admin",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-04-24T19:04:54+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is the reference policy for SE Linux built with MCS support. An MCS policy is the same as an MLS policy but with only one sensitivity level. This is useful on systems where a hierarchical policy (MLS) isn't needed (pretty much all systems) but the non-hierarchical categories are. ",
-            "filename": "refpolicy-mcs_2.20170204.bb",
+            "filename": "refpolicy-mcs_2.20190201.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
             "id": 724374,
@@ -793,10 +698,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-mcs",
             "provides": "refpolicy-mcs  virtual/refpolicy",
-            "pv": "2.20170204",
-            "section": "base",
+            "pv": "2.20190201",
+            "section": "admin",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-04-24T19:04:54+0000"
         },
         {
             "bbclassextend": "",
@@ -812,10 +717,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-targeted",
             "provides": "refpolicy-targeted  virtual/refpolicy",
-            "pv": "2.20170805+gitX",
-            "section": "base",
+            "pv": "2.20190201+gitX",
+            "section": "admin",
             "summary": "SELinux targeted policy",
-            "updated": "2019-03-21T23:03:41+0000"
+            "updated": "2019-04-15T19:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -831,17 +736,17 @@
             "license": "GPLv2",
             "pn": "refpolicy-minimum",
             "provides": "refpolicy-minimum  virtual/refpolicy",
-            "pv": "2.20170805+gitX",
-            "section": "base",
+            "pv": "2.20190201+gitX",
+            "section": "admin",
             "summary": "SELinux minimum policy",
-            "updated": "2019-03-21T23:03:39+0000"
+            "updated": "2019-04-15T19:04:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is the targeted variant of the SELinux reference policy.  Most service domains are locked down. Users and admins will login in with unconfined_t domain, so they have the same access to the system as if SELinux was not enabled. ",
-            "filename": "refpolicy-targeted_2.20170204.bb",
+            "filename": "refpolicy-targeted_2.20190201.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
             "id": 724377,
@@ -850,17 +755,17 @@
             "license": "GPLv2",
             "pn": "refpolicy-targeted",
             "provides": "refpolicy-targeted  virtual/refpolicy",
-            "pv": "2.20170204",
-            "section": "base",
+            "pv": "2.20190201",
+            "section": "admin",
             "summary": "SELinux targeted policy",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-04-24T19:04:53+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is the reference policy for SELinux built with type enforcement only.",
-            "filename": "refpolicy-standard_2.20170204.bb",
+            "filename": "refpolicy-standard_2.20190201.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
             "id": 724378,
@@ -869,17 +774,17 @@
             "license": "GPLv2",
             "pn": "refpolicy-standard",
             "provides": "refpolicy-standard  virtual/refpolicy",
-            "pv": "2.20170204",
-            "section": "base",
+            "pv": "2.20190201",
+            "section": "admin",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-04-24T19:04:54+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is a minimum reference policy with just core policy modules, and could be used as a base for customizing targeted policy. Pretty much everything runs as initrc_t or unconfined_t so all of the domains are unconfined. ",
-            "filename": "refpolicy-minimum_2.20170204.bb",
+            "filename": "refpolicy-minimum_2.20190201.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
             "id": 724379,
@@ -888,10 +793,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-minimum",
             "provides": "refpolicy-minimum  virtual/refpolicy",
-            "pv": "2.20170204",
-            "section": "base",
+            "pv": "2.20190201",
+            "section": "admin",
             "summary": "SELinux minimum policy",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-04-24T19:04:54+0000"
         },
         {
             "bbclassextend": "",
@@ -907,10 +812,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-mls",
             "provides": "refpolicy-mls  virtual/refpolicy",
-            "pv": "2.20170805+gitX",
-            "section": "base",
+            "pv": "2.20190201+gitX",
+            "section": "admin",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2019-03-21T23:03:40+0000"
+            "updated": "2019-04-15T19:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -926,10 +831,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-standard",
             "provides": "refpolicy-standard  virtual/refpolicy",
-            "pv": "2.20170805+gitX",
-            "section": "base",
+            "pv": "2.20190201+gitX",
+            "section": "admin",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2019-03-21T23:03:40+0000"
+            "updated": "2019-04-15T19:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -945,10 +850,10 @@
             "license": "GPLv2",
             "pn": "refpolicy-mcs",
             "provides": "refpolicy-mcs  virtual/refpolicy",
-            "pv": "2.20170805+gitX",
-            "section": "base",
+            "pv": "2.20190201+gitX",
+            "section": "admin",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2019-03-21T23:03:40+0000"
+            "updated": "2019-04-15T19:04:00+0000"
         },
         {
             "bbclassextend": "native",
