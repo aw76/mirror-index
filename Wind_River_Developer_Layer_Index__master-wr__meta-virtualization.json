@@ -94,43 +94,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190613",
+            "bitbake_branch": "wr-10.19-20190619",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-06-13T20:06:36+0000",
+            "updated": "2019-06-19T23:06:58+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190613",
+            "actual_branch": "wr-10.19-20190619",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2019-06-12T20:06:32+0000",
-            "vcs_last_commit": "2019-06-12T20:06:32+0000",
-            "vcs_last_fetch": "2019-06-12T20:06:32+0000",
-            "vcs_last_rev": "06b990be61ddfc2500baba7973568e6aabbffaf0",
+            "updated": "2019-06-18T19:06:47+0000",
+            "vcs_last_commit": "2019-06-18T19:06:47+0000",
+            "vcs_last_fetch": "2019-06-18T19:06:47+0000",
+            "vcs_last_rev": "a97e2c3044d3b34a7e3741abec3458373b329b35",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190617",
+            "actual_branch": "wr-10.19-20190619",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-19T02:06:10+0000",
-            "vcs_last_commit": "2019-06-19T02:06:10+0000",
-            "vcs_last_fetch": "2019-06-19T02:06:10+0000",
-            "vcs_last_rev": "31d6aa2ddbfa91e0d12ca1b50df61bb26a34a0b1",
+            "updated": "2019-06-19T23:06:13+0000",
+            "vcs_last_commit": "2019-06-19T23:06:13+0000",
+            "vcs_last_fetch": "2019-06-19T23:06:13+0000",
+            "vcs_last_rev": "f67966a308d621274e1f37cc3dbf2c839d427319",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -183,10 +183,10 @@
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-06-17T00:06:58+0000",
-            "vcs_last_commit": "2019-06-17T00:06:58+0000",
-            "vcs_last_fetch": "2019-06-17T00:06:58+0000",
-            "vcs_last_rev": "d2cbbd9d75b0636d573e9772cfab82e11c683413",
+            "updated": "2019-06-20T01:06:17+0000",
+            "vcs_last_commit": "2019-06-20T01:06:17+0000",
+            "vcs_last_fetch": "2019-06-20T01:06:17+0000",
+            "vcs_last_rev": "22408e4a6626061f0a3f7269a43cb5f602232696",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -359,7 +359,7 @@
             "pv": "0.18.0",
             "section": "base",
             "summary": "Minimal init for containers",
-            "updated": "2018-10-31T18:10:13+0000"
+            "updated": "2019-06-19T23:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -378,7 +378,7 @@
             "pv": "v2.7.1",
             "section": "base",
             "summary": "The Docker toolset to pack, ship, store, and deliver content",
-            "updated": "2019-03-12T20:03:35+0000"
+            "updated": "2019-06-19T23:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -397,7 +397,7 @@
             "pv": "1.0.0-rc6+gitX",
             "section": "base",
             "summary": "runc container cli tools",
-            "updated": "2019-02-20T22:02:22+0000"
+            "updated": "2019-06-19T23:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -416,7 +416,7 @@
             "pv": "1.0.0-rc6+gitX",
             "section": "base",
             "summary": "runc container cli tools",
-            "updated": "2019-04-02T23:04:49+0000"
+            "updated": "2019-06-19T23:06:47+0000"
         },
         {
             "bbclassextend": "",
@@ -435,7 +435,7 @@
             "pv": "0.2.0-dev+gitX",
             "section": "base",
             "summary": "A collection of tools for working with the OCI image format specification",
-            "updated": "2018-10-31T18:10:13+0000"
+            "updated": "2019-06-19T23:06:47+0000"
         },
         {
             "bbclassextend": "",
@@ -454,7 +454,7 @@
             "pv": "3.1.0",
             "section": "console/utils",
             "summary": "",
-            "updated": "2019-03-05T19:03:03+0000"
+            "updated": "2019-06-19T23:06:47+0000"
         },
         {
             "bbclassextend": "",
@@ -473,7 +473,7 @@
             "pv": "0.0.1+gitX",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2019-06-19T23:06:47+0000"
         },
         {
             "bbclassextend": "",
@@ -492,7 +492,7 @@
             "pv": "v1.0.0-rc4+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2019-06-19T23:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -511,7 +511,7 @@
             "pv": "v1.0.0-rc4+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2019-06-19T23:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -530,7 +530,7 @@
             "pv": "0.1.0+gitX",
             "section": "base",
             "summary": "oci-runtime-tool is a collection of tools for working with the OCI runtime specification",
-            "updated": "2018-10-31T18:10:14+0000"
+            "updated": "2019-06-19T23:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -549,7 +549,7 @@
             "pv": "1.16.1",
             "section": "devel/python",
             "summary": "Multi-container orchestration for Docker",
-            "updated": "2018-10-31T18:10:15+0000"
+            "updated": "2019-06-19T23:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -568,7 +568,7 @@
             "pv": "0.1.0+gitX",
             "section": "base",
             "summary": "Convert `docker inspect` to opencontainers (OCI compatible) runc spec.",
-            "updated": "2019-02-13T17:02:28+0000"
+            "updated": "2019-06-19T23:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -587,7 +587,7 @@
             "pv": "3.11+gitX",
             "section": "console/tools",
             "summary": "CRIU",
-            "updated": "2019-06-03T19:06:06+0000"
+            "updated": "2019-06-19T23:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -606,7 +606,7 @@
             "pv": "2.3.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:15+0000"
+            "updated": "2019-06-19T23:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -625,7 +625,7 @@
             "pv": "v1.2.4+gitX",
             "section": "base",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2019-04-02T23:04:49+0000"
+            "updated": "2019-06-19T23:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -644,7 +644,7 @@
             "pv": "v0.2.x+gitX",
             "section": "base",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2019-04-02T23:04:50+0000"
+            "updated": "2019-06-19T23:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -663,7 +663,7 @@
             "pv": "1.13.0+gitb986e6a8d2af34451363492479d2671a68fd20a3",
             "section": "base",
             "summary": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface",
-            "updated": "2019-04-15T19:04:40+0000"
+            "updated": "2019-06-19T23:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -682,7 +682,7 @@
             "pv": "v1.0.0-rc0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:16+0000"
+            "updated": "2019-06-19T23:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -701,7 +701,7 @@
             "pv": "v0.8.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:16+0000"
+            "updated": "2019-06-19T23:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -720,7 +720,7 @@
             "pv": "v1.0.0-rc6+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:16+0000"
+            "updated": "2019-06-19T23:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -739,7 +739,7 @@
             "pv": "v0.0.1+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:16+0000"
+            "updated": "2019-06-19T23:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -758,7 +758,7 @@
             "pv": "1.14.0-alpha.2+git3b3b79fe2c96d7f8bc72638c1a64c9498ee77d6f",
             "section": "base",
             "summary": "Production-Grade Container Scheduling and Management",
-            "updated": "2019-02-13T17:02:28+0000"
+            "updated": "2019-06-19T23:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -777,7 +777,7 @@
             "pv": "1.15",
             "section": "devel",
             "summary": "Light-weight package to set up cgroups at system boot.",
-            "updated": "2019-05-06T00:05:38+0000"
+            "updated": "2019-06-19T23:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -796,7 +796,7 @@
             "pv": "18.09.3+git667e800b2cf920c6d3d7c32fdbc5811934d99769",
             "section": "base",
             "summary": "Linux container runtime",
-            "updated": "2019-04-02T23:04:49+0000"
+            "updated": "2019-06-19T23:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -815,7 +815,7 @@
             "pv": "18.09.3-ce+gitf5e591e815841e04e910223fb63f1ef7689ae153",
             "section": "base",
             "summary": "Linux container runtime",
-            "updated": "2019-04-02T23:04:49+0000"
+            "updated": "2019-06-19T23:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +834,7 @@
             "pv": "2.11+X",
             "section": "networking",
             "summary": "OpenvSwitch",
-            "updated": "2019-02-13T17:02:29+0000"
+            "updated": "2019-06-19T23:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -853,7 +853,7 @@
             "pv": "0.5.3",
             "section": "base",
             "summary": "Runc hook for setting up default bridge networking.",
-            "updated": "2019-05-06T00:05:38+0000"
+            "updated": "2019-06-19T23:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -872,7 +872,7 @@
             "pv": "0.6.0+gitcc562d1b44b3d00b8c341250d49a8a0823a1c085",
             "section": "base",
             "summary": "Container Network Interface - networking for Linux containers",
-            "updated": "2018-11-27T18:11:24+0000"
+            "updated": "2019-06-19T23:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -891,7 +891,7 @@
             "pv": "1.0.24+gitX",
             "section": "console/network",
             "summary": "Diod is a user space server for the kernel v9fs client.",
-            "updated": "2018-10-31T18:10:17+0000"
+            "updated": "2019-06-19T23:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -910,7 +910,7 @@
             "pv": "1.5.0",
             "section": "base",
             "summary": "IRQ allocation daemon",
-            "updated": "2019-03-21T20:03:27+0000"
+            "updated": "2019-06-19T23:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -929,7 +929,7 @@
             "pv": "5.3.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2019-05-16T01:05:02+0000"
+            "updated": "2019-06-19T23:06:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -948,7 +948,7 @@
             "pv": "0.16.20",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-10-31T18:10:18+0000"
+            "updated": "2019-06-19T23:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -967,7 +967,7 @@
             "pv": "4.14.0+gitX",
             "section": "base",
             "summary": "Native Linux KVM tool",
-            "updated": "2019-01-20T22:01:23+0000"
+            "updated": "2019-06-19T23:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -986,7 +986,7 @@
             "pv": "gitrX",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-05T19:03:03+0000"
+            "updated": "2019-06-19T23:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1005,7 +1005,7 @@
             "pv": "2.9.2",
             "section": "console/network",
             "summary": "",
-            "updated": "2019-03-19T19:03:27+0000"
+            "updated": "2019-06-19T23:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1024,7 +1024,7 @@
             "pv": "2.2.1",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-10-31T18:10:19+0000"
+            "updated": "2019-06-19T23:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1043,7 +1043,7 @@
             "pv": "3.2.1",
             "section": "console/network",
             "summary": "",
-            "updated": "2019-06-13T20:06:21+0000"
+            "updated": "2019-06-19T23:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1062,7 +1062,7 @@
             "pv": "4.4.3",
             "section": "console/network",
             "summary": "",
-            "updated": "2019-05-13T19:05:36+0000"
+            "updated": "2019-06-19T23:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1081,7 +1081,7 @@
             "pv": "1.11.2",
             "section": "firmware",
             "summary": "",
-            "updated": "2018-10-31T18:10:20+0000"
+            "updated": "2019-06-19T23:06:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -1100,7 +1100,7 @@
             "pv": "0.7a",
             "section": "firmware",
             "summary": "",
-            "updated": "2018-10-31T18:10:20+0000"
+            "updated": "2019-06-19T23:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1119,7 +1119,7 @@
             "pv": "0.7a",
             "section": "firmware",
             "summary": "",
-            "updated": "2018-10-31T18:10:20+0000"
+            "updated": "2019-06-19T23:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1138,7 +1138,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:20+0000"
+            "updated": "2019-06-19T23:06:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1157,7 +1157,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:21+0000"
+            "updated": "2019-06-19T23:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1176,7 +1176,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:21+0000"
+            "updated": "2019-06-19T23:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1195,7 +1195,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:21+0000"
+            "updated": "2019-06-19T23:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1214,7 +1214,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:21+0000"
+            "updated": "2019-06-19T23:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1233,7 +1233,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:22+0000"
+            "updated": "2019-06-19T23:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1252,7 +1252,7 @@
             "pv": "v0.2+gitX",
             "section": "base",
             "summary": "The tiny Init service for HyperContainer",
-            "updated": "2019-01-20T22:01:23+0000"
+            "updated": "2019-06-19T23:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1271,7 +1271,7 @@
             "pv": "0.12.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-11-27T18:11:24+0000"
+            "updated": "2019-06-19T23:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1290,7 +1290,7 @@
             "pv": "4.13+gitX",
             "section": "console/tools",
             "summary": "",
-            "updated": "2019-05-26T19:05:47+0000"
+            "updated": "2019-06-19T23:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1309,7 +1309,7 @@
             "pv": "4.12.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2019-05-26T19:05:48+0000"
+            "updated": "2019-06-19T23:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1328,7 +1328,7 @@
             "pv": "0.0.3",
             "section": "devel/python",
             "summary": "  Backport of Python 3.3's 'lzma' module for XZ/LZMA compressed files.",
-            "updated": "2018-10-31T18:10:23+0000"
+            "updated": "2019-06-19T23:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1347,7 +1347,7 @@
             "pv": "1.0.1",
             "section": "devel/python",
             "summary": "A coroutine-based Python networking library",
-            "updated": "2018-10-31T18:10:23+0000"
+            "updated": "2019-06-19T23:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1366,7 +1366,7 @@
             "pv": "0.10.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:23+0000"
+            "updated": "2019-06-19T23:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1385,7 +1385,7 @@
             "pv": "1.8.5",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-02-13T17:02:29+0000"
+            "updated": "2019-06-19T23:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1404,7 +1404,7 @@
             "pv": "0.44.0",
             "section": "devel/python",
             "summary": "WebSocket client for python. hybi13 is supported.",
-            "updated": "2018-10-31T18:10:23+0000"
+            "updated": "2019-06-19T23:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1423,7 +1423,7 @@
             "pv": "2.22.0.19",
             "section": "devel/python",
             "summary": "New Relic Python Agent",
-            "updated": "2018-10-31T18:10:24+0000"
+            "updated": "2019-06-19T23:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1442,7 +1442,7 @@
             "pv": "1.3",
             "section": "devel/python",
             "summary": "Fast, simple object-to-object and broadcast signaling",
-            "updated": "2018-10-31T18:10:24+0000"
+            "updated": "2019-06-19T23:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1461,7 +1461,7 @@
             "pv": "0.4.1",
             "section": "devel/python",
             "summary": "Python library to use the pseudo-tty of a docker container",
-            "updated": "2018-10-31T18:10:24+0000"
+            "updated": "2019-06-19T23:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1480,7 +1480,7 @@
             "pv": "0.44.0",
             "section": "devel/python",
             "summary": "WebSocket client for python. hybi13 is supported.",
-            "updated": "2018-10-31T18:10:24+0000"
+            "updated": "2019-06-19T23:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1499,7 +1499,7 @@
             "pv": "1.1.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:24+0000"
+            "updated": "2019-06-19T23:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1518,7 +1518,7 @@
             "pv": "2.0.3",
             "section": "devel/python",
             "summary": "Docker registry core package",
-            "updated": "2018-10-31T18:10:24+0000"
+            "updated": "2019-06-19T23:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1537,7 +1537,7 @@
             "pv": "3.11",
             "section": "devel/python",
             "summary": "Python support for YAML",
-            "updated": "2018-10-31T18:10:24+0000"
+            "updated": "2019-06-19T23:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1556,7 +1556,7 @@
             "pv": "0.10.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2019-06-19T23:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1575,7 +1575,7 @@
             "pv": "0.9.1",
             "section": "devel/python",
             "summary": "module for creating simple ASCII tables",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2019-06-19T23:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1594,7 +1594,7 @@
             "pv": "1.7.8",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2019-06-19T23:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1613,7 +1613,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "A decorator for caching properties in classes.",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2019-06-19T23:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1632,7 +1632,7 @@
             "pv": "19.1.1",
             "section": "base",
             "summary": "WSGI HTTP Server for UNIX",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2019-06-19T23:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1651,7 +1651,7 @@
             "pv": "2.10.3",
             "section": "devel/python",
             "summary": "Python client for Redis key-value store",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2019-06-19T23:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1670,7 +1670,7 @@
             "pv": "0.6.2",
             "section": "devel/python",
             "summary": "Pythonic argument parser, that will make you smile",
-            "updated": "2018-10-31T18:10:25+0000"
+            "updated": "2019-06-19T23:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1689,7 +1689,7 @@
             "pv": "0.3.0",
             "section": "devel/python",
             "summary": "Python bindings for the docker credentials store API",
-            "updated": "2018-12-25T17:12:29+0000"
+            "updated": "2019-06-19T23:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1708,7 +1708,7 @@
             "pv": "0.22.3",
             "section": "devel/python",
             "summary": "A Python crypto and SSL toolkit",
-            "updated": "2018-10-31T18:10:26+0000"
+            "updated": "2019-06-19T23:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1727,7 +1727,7 @@
             "pv": "0.3.9",
             "section": "devel/python",
             "summary": "Cross-platform colored terminal text.",
-            "updated": "2018-10-31T18:10:26+0000"
+            "updated": "2019-06-19T23:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1746,7 +1746,7 @@
             "pv": "2.0.2",
             "section": "devel/python",
             "summary": "Automatic error monitoring for django, flask, etc.",
-            "updated": "2018-10-31T18:10:26+0000"
+            "updated": "2019-06-19T23:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1765,7 +1765,7 @@
             "pv": "2.34.0",
             "section": "devel/python",
             "summary": "Amazon Web Services API",
-            "updated": "2018-10-31T18:10:26+0000"
+            "updated": "2019-06-19T23:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1784,7 +1784,7 @@
             "pv": "3.4.0",
             "section": "devel/python",
             "summary": "A Python library for the Docker Engine API.",
-            "updated": "2019-03-12T20:03:35+0000"
+            "updated": "2019-06-19T23:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1803,7 +1803,7 @@
             "pv": "1.0.16",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:26+0000"
+            "updated": "2019-06-19T23:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1822,7 +1822,7 @@
             "pv": "1.10.3",
             "section": "devel/python",
             "summary": "A Flask extension adding a decorator for CORS support",
-            "updated": "2018-10-31T18:10:26+0000"
+            "updated": "2019-06-19T23:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1841,7 +1841,7 @@
             "pv": "0.6.1+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2019-03-21T20:03:27+0000"
+            "updated": "2019-06-19T23:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1860,7 +1860,7 @@
             "pv": "1.4.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:27+0000"
+            "updated": "2019-06-19T23:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1879,7 +1879,7 @@
             "pv": "4+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2019-01-20T22:01:22+0000"
+            "updated": "2019-06-19T23:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1898,7 +1898,7 @@
             "pv": "1.1.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2019-01-20T22:01:22+0000"
+            "updated": "2019-06-19T23:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1917,7 +1917,7 @@
             "pv": "0.11.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2019-01-20T22:01:22+0000"
+            "updated": "2019-06-19T23:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1936,7 +1936,7 @@
             "pv": "2.6.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:27+0000"
+            "updated": "2019-06-19T23:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1955,7 +1955,7 @@
             "pv": "git",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:27+0000"
+            "updated": "2019-06-19T23:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1974,7 +1974,7 @@
             "pv": "git",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:27+0000"
+            "updated": "2019-06-19T23:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1993,7 +1993,7 @@
             "pv": "3.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:27+0000"
+            "updated": "2019-06-19T23:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2012,7 +2012,7 @@
             "pv": "0.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:28+0000"
+            "updated": "2019-06-19T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2031,7 +2031,7 @@
             "pv": "4.0.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2019-01-20T22:01:22+0000"
+            "updated": "2019-06-19T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2050,7 +2050,7 @@
             "pv": "2.2.6+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:28+0000"
+            "updated": "2019-06-19T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2069,7 +2069,7 @@
             "pv": "0.2.1+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:28+0000"
+            "updated": "2019-06-19T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2088,7 +2088,7 @@
             "pv": "1.2.11+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2019-01-20T22:01:22+0000"
+            "updated": "2019-06-19T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2107,7 +2107,7 @@
             "pv": "git",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:28+0000"
+            "updated": "2019-06-19T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2126,7 +2126,7 @@
             "pv": "0.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-10-31T18:10:28+0000"
+            "updated": "2019-06-19T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2145,7 +2145,7 @@
             "pv": "0.4.0+gitb360a686abc6c6e896382990ef1b93ef07c7a677",
             "section": "base",
             "summary": "Hypervisor-based Runtime for OCI",
-            "updated": "2018-10-31T18:10:29+0000"
+            "updated": "2019-06-19T23:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2164,7 +2164,7 @@
             "pv": "3.0.3",
             "section": "base",
             "summary": "LXCFS is a userspace filesystem created to avoid kernel limitations",
-            "updated": "2018-12-11T01:12:38+0000"
+            "updated": "2019-06-19T23:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2183,7 +2183,7 @@
             "pv": "14.1.0",
             "section": "base",
             "summary": "User space components of the Ceph file system",
-            "updated": "2019-05-08T22:05:40+0000"
+            "updated": "2019-06-19T23:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2202,7 +2202,7 @@
             "pv": "2.6.2",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-31T18:10:29+0000"
+            "updated": "2019-06-19T23:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2221,7 +2221,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:25+0000"
+            "updated": "2019-06-19T23:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2240,7 +2240,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:25+0000"
+            "updated": "2019-06-19T23:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2259,7 +2259,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:26+0000"
+            "updated": "2019-06-19T23:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2278,7 +2278,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-11-27T18:11:26+0000"
+            "updated": "2019-06-19T23:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2297,7 +2297,7 @@
             "pv": "0.3.0",
             "section": "devel/python",
             "summary": "Python bindings for the docker credentials store API",
-            "updated": "2018-12-25T17:12:29+0000"
+            "updated": "2019-06-19T23:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2316,7 +2316,7 @@
             "pv": "3.4.0",
             "section": "devel/python",
             "summary": "A Python library for the Docker Engine API.",
-            "updated": "2019-03-12T20:03:35+0000"
+            "updated": "2019-06-19T23:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2335,7 +2335,7 @@
             "pv": "v0.1.0+gitX",
             "section": "base",
             "summary": "A simple CLI tool for packing rootfs into a single-layer OCI image",
-            "updated": "2019-03-05T19:03:04+0000"
+            "updated": "2019-06-19T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2354,7 +2354,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic container image",
-            "updated": "2019-04-09T19:04:36+0000"
+            "updated": "2019-06-19T23:06:13+0000"
         }
     ],
     "wrtemplates": []

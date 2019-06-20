@@ -94,14 +94,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190613",
+            "bitbake_branch": "wr-10.19-20190619",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-06-13T20:06:36+0000",
+            "updated": "2019-06-19T23:06:58+0000",
             "updates_enabled": true
         }
     ],
@@ -116,15 +116,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190617",
+            "actual_branch": "wr-10.19-20190619",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-19T02:06:10+0000",
-            "vcs_last_commit": "2019-06-19T02:06:10+0000",
-            "vcs_last_fetch": "2019-06-19T02:06:10+0000",
-            "vcs_last_rev": "31d6aa2ddbfa91e0d12ca1b50df61bb26a34a0b1",
+            "updated": "2019-06-19T23:06:13+0000",
+            "vcs_last_commit": "2019-06-19T23:06:13+0000",
+            "vcs_last_fetch": "2019-06-19T23:06:13+0000",
+            "vcs_last_rev": "f67966a308d621274e1f37cc3dbf2c839d427319",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -3426,7 +3426,7 @@
             "pv": "1.1.1c",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2019-06-17T20:06:39+0000"
+            "updated": "2019-06-19T23:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -3939,7 +3939,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-18T20:06:42+0000"
+            "updated": "2019-06-19T23:06:41+0000"
         },
         {
             "bbclassextend": "",
@@ -3996,7 +3996,7 @@
             "pv": "5.2-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-18T20:06:41+0000"
+            "updated": "2019-06-19T23:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4015,7 +4015,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-18T20:06:42+0000"
+            "updated": "2019-06-19T23:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -4034,7 +4034,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-18T20:06:41+0000"
+            "updated": "2019-06-19T23:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -4053,7 +4053,7 @@
             "pv": "4.19.44+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-18T20:06:42+0000"
+            "updated": "2019-06-19T23:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -4072,7 +4072,7 @@
             "pv": "4.19.44+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-18T20:06:42+0000"
+            "updated": "2019-06-19T23:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -4091,7 +4091,7 @@
             "pv": "4.19.44+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-18T20:06:41+0000"
+            "updated": "2019-06-19T23:06:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4664,7 +4664,7 @@
             "updated": "2019-06-17T20:06:07+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The libcap-ng library is intended to make programming with POSIX capabilities much easier than the traditional libcap library.",
@@ -4672,7 +4672,7 @@
             "filepath": "recipes-support/libcap-ng",
             "homepage": "http://freecode.com/projects/libcap-ng",
             "id": 973156,
-            "inherits": "autotools lib_package python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools lib_package siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "GPLv2+ & LGPLv2.1+",
             "pn": "libcap-ng",
@@ -4680,7 +4680,7 @@
             "pv": "0.7.9",
             "section": "base",
             "summary": "An alternate posix capabilities library",
-            "updated": "2019-06-17T20:06:08+0000"
+            "updated": "2019-06-19T23:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4832,7 +4832,7 @@
             "pv": "2.3.1+gitX",
             "section": "base",
             "summary": "A C program to run all installed ptests",
-            "updated": "2019-06-17T20:06:12+0000"
+            "updated": "2019-06-19T23:06:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5269,7 +5269,7 @@
             "pv": "1.3.9",
             "section": "base",
             "summary": "High-Performance Asynchronous HTTP Client Library",
-            "updated": "2019-06-19T00:06:43+0000"
+            "updated": "2019-06-19T23:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8385,7 +8385,7 @@
             "pv": "5.0",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2019-06-17T20:06:27+0000"
+            "updated": "2019-06-19T23:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9571,7 +9571,7 @@
             "bugtracker": "",
             "description": "",
             "filename": "perl_5.30.0.bb",
-            "filepath": "recipes-devtools/perl-sanity",
+            "filepath": "recipes-devtools/perl",
             "homepage": "http://www.perl.org/",
             "id": 973414,
             "inherits": "ptest upstream-version-is-even",
@@ -9582,7 +9582,7 @@
             "pv": "5.30.0",
             "section": "devel",
             "summary": "Perl scripting language",
-            "updated": "2019-06-17T20:06:30+0000"
+            "updated": "2019-06-19T23:06:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14750,7 +14750,7 @@
             "pv": "2.33.2",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2019-06-17T20:06:14+0000"
+            "updated": "2019-06-19T23:06:40+0000"
         },
         {
             "bbclassextend": "",
@@ -15207,6 +15207,25 @@
             "section": "base",
             "summary": "Tools to manipulate UEFI variables",
             "updated": "2019-06-17T20:06:20+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The libcap-ng library is intended to make programming with POSIX capabilities much easier than the traditional libcap library.",
+            "filename": "libcap-ng-python_0.7.9.bb",
+            "filepath": "recipes-support/libcap-ng",
+            "homepage": "http://freecode.com/projects/libcap-ng",
+            "id": 983017,
+            "inherits": "autotools lib_package python3-dir python3native siteconfig siteinfo",
+            "layerbranch": 14953,
+            "license": "GPLv2+ & LGPLv2.1+",
+            "pn": "libcap-ng-python",
+            "provides": "libcap-ng-python ",
+            "pv": "0.7.9",
+            "section": "base",
+            "summary": "An alternate posix capabilities library - python",
+            "updated": "2019-06-19T23:06:42+0000"
         }
     ],
     "wrtemplates": []

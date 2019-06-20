@@ -94,29 +94,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190613",
+            "bitbake_branch": "wr-10.19-20190619",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-06-13T20:06:36+0000",
+            "updated": "2019-06-19T23:06:58+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190617",
+            "actual_branch": "wr-10.19-20190619",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-19T02:06:10+0000",
-            "vcs_last_commit": "2019-06-19T02:06:10+0000",
-            "vcs_last_fetch": "2019-06-19T02:06:10+0000",
-            "vcs_last_rev": "31d6aa2ddbfa91e0d12ca1b50df61bb26a34a0b1",
+            "updated": "2019-06-19T23:06:13+0000",
+            "vcs_last_commit": "2019-06-19T23:06:13+0000",
+            "vcs_last_fetch": "2019-06-19T23:06:13+0000",
+            "vcs_last_rev": "f67966a308d621274e1f37cc3dbf2c839d427319",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -136,15 +136,15 @@
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190613",
+            "actual_branch": "wr-10.19-20190619",
             "branch": 38,
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2019-06-12T20:06:26+0000",
-            "vcs_last_commit": "2019-06-12T20:06:26+0000",
-            "vcs_last_fetch": "2019-06-12T20:06:26+0000",
-            "vcs_last_rev": "094bd2ae35c5c80535d44d9399e97a23a1af1d17",
+            "updated": "2019-06-18T19:06:47+0000",
+            "vcs_last_commit": "2019-06-18T19:06:47+0000",
+            "vcs_last_fetch": "2019-06-18T19:06:47+0000",
+            "vcs_last_rev": "23ac578723b16f4e054e2a562c7ec9c73f91af7b",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 9
@@ -765,7 +765,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A comprehensive HTTP client library",
-            "filename": "python-httplib2_0.12.3.bb",
+            "filename": "python-httplib2_0.13.0.bb",
             "filepath": "meta-openstack/recipes-devtools/python",
             "homepage": "https://code.google.com/p/httplib2/",
             "id": 954964,
@@ -774,10 +774,10 @@
             "license": "MIT",
             "pn": "python-httplib2",
             "provides": "python-httplib2 ",
-            "pv": "0.12.3",
+            "pv": "0.13.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-03T19:06:09+0000"
+            "updated": "2019-06-19T23:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1139,6 +1139,25 @@
             "section": "devel/python",
             "summary": "",
             "updated": "2019-06-13T20:06:26+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A comprehensive HTTP client library",
+            "filename": "python3-httplib2_0.13.0.bb",
+            "filepath": "meta-openstack/recipes-devtools/python",
+            "homepage": "https://code.google.com/p/httplib2/",
+            "id": 983019,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 52439,
+            "license": "MIT",
+            "pn": "python3-httplib2",
+            "provides": "python3-httplib2 ",
+            "pv": "0.13.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-06-19T23:06:21+0000"
         }
     ],
     "wrtemplates": []
