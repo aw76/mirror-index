@@ -352,10 +352,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-06-20T00:06:35+0000",
-            "vcs_last_commit": "2019-06-20T00:06:35+0000",
-            "vcs_last_fetch": "2019-06-20T00:06:35+0000",
-            "vcs_last_rev": "96313fc9ec0f980e044d8e8ca6cde7be5e1aea86",
+            "updated": "2019-06-20T13:06:32+0000",
+            "vcs_last_commit": "2019-06-20T13:06:32+0000",
+            "vcs_last_fetch": "2019-06-20T13:06:32+0000",
+            "vcs_last_rev": "9add2e0b8bad06e2b213dfb16bbd6f9f9636c0e8",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -366,10 +366,10 @@
             "collection": "wrlinux-distro",
             "id": 73942,
             "layer": 164,
-            "updated": "2019-06-04T18:06:56+0000",
-            "vcs_last_commit": "2019-06-04T18:06:56+0000",
-            "vcs_last_fetch": "2019-06-04T18:06:56+0000",
-            "vcs_last_rev": "8bb72077677a26983cf728173de5a507683c13a6",
+            "updated": "2019-06-20T09:06:11+0000",
+            "vcs_last_commit": "2019-06-20T09:06:11+0000",
+            "vcs_last_fetch": "2019-06-20T09:06:11+0000",
+            "vcs_last_rev": "49b1c933b2f0884d1051331f2f70591787bc7c4b",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 11
@@ -820,7 +820,7 @@
     "machines": [],
     "recipes": [
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This package provides a compressed cpio image used for an initial ram disk for the kernel boot. Additionally, a kernel bundled with initramfs is included as well whenever feature/initramfs-install configured. ",
@@ -836,18 +836,18 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2019-06-13T17:06:53+0000"
+            "updated": "2019-06-20T10:06:07+0000"
         },
         {
-            "bbclassextend": "      ",
-            "blacklisted": "not buildable with wrlinux-tiny",
+            "bbclassextend": "",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
             "filename": "wrlinux-image-glibc-std.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971125,
-            "inherits": "core-image deprecate image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-std",
@@ -855,18 +855,18 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:54+0000"
+            "updated": "2019-06-20T10:06:07+0000"
         },
         {
-            "bbclassextend": "      ",
-            "blacklisted": "not buildable with wrlinux-tiny",
+            "bbclassextend": "",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux GNU-based (non-busybox) core root filesystem",
             "filename": "wrlinux-image-glibc-core.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971126,
-            "inherits": "core-image deprecate image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-core",
@@ -874,10 +874,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:54+0000"
+            "updated": "2019-06-20T10:06:08+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
@@ -885,7 +885,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971127,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-std",
@@ -893,10 +893,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:55+0000"
+            "updated": "2019-06-20T10:06:08+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A foundational basic image that boots to a console.",
@@ -904,7 +904,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971128,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-small",
@@ -912,10 +912,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:55+0000"
+            "updated": "2019-06-20T10:06:09+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Small image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently.",
@@ -923,7 +923,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971129,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-minimal-initramfs",
@@ -931,18 +931,18 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:56+0000"
+            "updated": "2019-06-20T10:06:10+0000"
         },
         {
-            "bbclassextend": "      ",
-            "blacklisted": "not buildable with wrlinux-tiny",
+            "bbclassextend": "",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "A foundational basic image that boots to a console.",
             "filename": "wrlinux-image-glibc-small.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971130,
-            "inherits": "core-image deprecate image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-small",
@@ -950,18 +950,18 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:56+0000"
+            "updated": "2019-06-20T10:06:10+0000"
         },
         {
-            "bbclassextend": "      ",
-            "blacklisted": "not buildable with wrlinux-tiny",
+            "bbclassextend": "",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
             "filename": "wrlinux-image-glibc-std-sato.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971131,
-            "inherits": "core-image deprecate image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-std-sato",
@@ -969,10 +969,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:56+0000"
+            "updated": "2019-06-20T10:06:11+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Tiny image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently. core-image-tiny-initramfs doesn't actually generate an image but rather generates boot and rootfs artifacts that can subsequently be picked up by external image generation tools such as wic.",
@@ -980,7 +980,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971132,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-tiny-initramfs",
@@ -988,10 +988,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:57+0000"
+            "updated": "2019-06-20T10:06:11+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux GNU-based (non-busybox) core root filesystem",
@@ -999,7 +999,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971133,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-core",
@@ -1007,10 +1007,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:57+0000"
+            "updated": "2019-06-20T10:06:12+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
@@ -1018,7 +1018,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971134,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-std-sato",
@@ -1026,10 +1026,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:58+0000"
+            "updated": "2019-06-20T10:06:12+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: lsb-graphics-plus",
@@ -1045,10 +1045,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:58+0000"
+            "updated": "2019-06-20T10:06:12+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: net",
@@ -1064,10 +1064,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:59+0000"
+            "updated": "2019-06-20T10:06:02+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: sys-util",
@@ -1083,10 +1083,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:59+0000"
+            "updated": "2019-06-20T10:06:03+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: libs-extended",
@@ -1102,10 +1102,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:59+0000"
+            "updated": "2019-06-20T10:06:03+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: interactive",
@@ -1121,10 +1121,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:59+0000"
+            "updated": "2019-06-20T10:06:03+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: lsb-more",
@@ -1140,10 +1140,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:00+0000"
+            "updated": "2019-06-20T10:06:03+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: python",
@@ -1159,10 +1159,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:00+0000"
+            "updated": "2019-06-20T10:06:03+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Core packages for Linux/GNU (non-busybox) runtime images",
@@ -1178,10 +1178,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:00+0000"
+            "updated": "2019-06-20T10:06:03+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: mail",
@@ -1197,10 +1197,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:00+0000"
+            "updated": "2019-06-20T10:06:04+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: python",
@@ -1216,10 +1216,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:00+0000"
+            "updated": "2019-06-20T10:06:04+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: security",
@@ -1235,10 +1235,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-06-20T10:06:04+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: lsbtest",
@@ -1254,10 +1254,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-06-20T10:06:04+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: perl",
@@ -1273,10 +1273,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-06-20T10:06:04+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: util",
@@ -1292,10 +1292,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-06-20T10:06:04+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -1311,10 +1311,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required by bsp",
-            "updated": "2019-06-13T17:06:02+0000"
+            "updated": "2019-06-20T10:06:04+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: db",
@@ -1330,10 +1330,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:02+0000"
+            "updated": "2019-06-20T10:06:05+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Basic rc.local facility for wrlinux",
@@ -1349,10 +1349,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:02+0000"
+            "updated": "2019-06-20T10:06:05+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Basic init system for glibc-tiny",
@@ -1368,10 +1368,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "glibc-tiny init",
-            "updated": "2019-06-13T17:06:03+0000"
+            "updated": "2019-06-20T10:06:05+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A basic initramfs image that boots to a console.",
@@ -1379,7 +1379,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 971153,
-            "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-initramfs",
@@ -1387,10 +1387,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:03+0000"
+            "updated": "2019-06-20T10:06:06+0000"
         },
         {
-            "bbclassextend": "      ",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Package Group for wrlinux - minimal bootable image",
@@ -1406,7 +1406,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:03+0000"
+            "updated": "2019-06-20T10:06:06+0000"
         }
     ],
     "wrtemplates": [
