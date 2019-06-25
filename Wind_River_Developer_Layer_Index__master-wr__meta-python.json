@@ -94,57 +94,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190619",
+            "bitbake_branch": "wr-10.19-20190624",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-06-19T23:06:58+0000",
+            "updated": "2019-06-25T00:06:40+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190619",
+            "actual_branch": "wr-10.19-20190624",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-20T21:06:48+0000",
-            "vcs_last_commit": "2019-06-20T21:06:48+0000",
-            "vcs_last_fetch": "2019-06-20T21:06:48+0000",
-            "vcs_last_rev": "3e23e6616c6800e7fe120e4dfc7687b8f064d473",
+            "updated": "2019-06-25T00:06:48+0000",
+            "vcs_last_commit": "2019-06-25T00:06:48+0000",
+            "vcs_last_fetch": "2019-06-25T00:06:48+0000",
+            "vcs_last_rev": "4ee1076f04bc47d43e32c756077f2a8cb2a2645d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190617",
+            "actual_branch": "wr-10.19-20190624",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-06-19T03:06:32+0000",
-            "vcs_last_commit": "2019-06-19T03:06:32+0000",
-            "vcs_last_fetch": "2019-06-19T03:06:32+0000",
-            "vcs_last_rev": "a87e8f26d186e588321f2c8a50d9e0fb1eab8898",
+            "updated": "2019-06-23T20:06:39+0000",
+            "vcs_last_commit": "2019-06-23T20:06:39+0000",
+            "vcs_last_fetch": "2019-06-23T20:06:39+0000",
+            "vcs_last_rev": "0647814412532cf94772f63d83e511cd004b63ec",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190617",
+            "actual_branch": "wr-10.19-20190624",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-06-20T01:06:17+0000",
-            "vcs_last_commit": "2019-06-20T01:06:17+0000",
-            "vcs_last_fetch": "2019-06-20T01:06:17+0000",
-            "vcs_last_rev": "22408e4a6626061f0a3f7269a43cb5f602232696",
+            "updated": "2019-06-23T20:06:39+0000",
+            "vcs_last_commit": "2019-06-23T20:06:39+0000",
+            "vcs_last_fetch": "2019-06-23T20:06:39+0000",
+            "vcs_last_rev": "67e23f2275ed9c9e8390778cc67406755a4e8909",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -4375,7 +4375,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This installable Python package contains a CA Bundle that you can reference in your Python code. This is useful for verifying HTTP requests, for example.  This is the same CA Bundle which ships with the Requests codebase, and is derived from Mozilla Firefox's canonical set.",
-            "filename": "python3-certifi_2019.3.9.bb",
+            "filename": "python3-certifi_2019.6.16.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://certifi.io/",
             "id": 723990,
@@ -4384,10 +4384,10 @@
             "license": "ISC",
             "pn": "python3-certifi",
             "provides": "python3-certifi ",
-            "pv": "2019.3.9",
+            "pv": "2019.6.16",
             "section": "devel/python",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2019-04-22T19:04:14+0000"
+            "updated": "2019-06-25T00:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -4546,7 +4546,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Twisted is an event-driven networking framework written in Python and licensed under the LGPL. Twisted supports TCP, UDP, SSL/TLS, multicast, Unix sockets, a large number of protocols                   (including HTTP, NNTP, IMAP, SSH, IRC, FTP, and others), and much more.",
-            "filename": "python3-twisted_19.2.0.bb",
+            "filename": "python3-twisted_19.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.twistedmatrix.com",
             "id": 723999,
@@ -4555,10 +4555,10 @@
             "license": "MIT",
             "pn": "python3-twisted",
             "provides": "python3-twisted ",
-            "pv": "19.2.0",
+            "pv": "19.2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-06T00:05:55+0000"
+            "updated": "2019-06-25T00:06:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5515,7 +5515,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Twisted is an event-driven networking framework written in Python and licensed under the LGPL. Twisted supports TCP, UDP, SSL/TLS, multicast, Unix sockets, a large number of protocols                   (including HTTP, NNTP, IMAP, SSH, IRC, FTP, and others), and much more.",
-            "filename": "python-twisted_19.2.0.bb",
+            "filename": "python-twisted_19.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.twistedmatrix.com",
             "id": 724050,
@@ -5524,10 +5524,10 @@
             "license": "MIT",
             "pn": "python-twisted",
             "provides": "python-twisted ",
-            "pv": "19.2.0",
+            "pv": "19.2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-06T00:05:48+0000"
+            "updated": "2019-06-25T00:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -5914,7 +5914,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
-            "filename": "python-protobuf_3.6.1.bb",
+            "filename": "python-protobuf_3.8.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://developers.google.com/protocol-buffers/",
             "id": 724071,
@@ -5923,10 +5923,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-protobuf",
             "provides": "python-protobuf ",
-            "pv": "3.6.1",
+            "pv": "3.8.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-03-05T19:03:21+0000"
+            "updated": "2019-06-25T00:06:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6674,7 +6674,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
-            "filename": "python3-protobuf_3.6.1.bb",
+            "filename": "python3-protobuf_3.8.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://developers.google.com/protocol-buffers/",
             "id": 724111,
@@ -6683,10 +6683,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-protobuf",
             "provides": "python3-protobuf ",
-            "pv": "3.6.1",
+            "pv": "3.8.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-03-05T19:03:21+0000"
+            "updated": "2019-06-25T00:06:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7909,7 +7909,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This installable Python package contains a CA Bundle that you can reference in your Python code. This is useful for verifying HTTP requests, for example.  This is the same CA Bundle which ships with the Requests codebase, and is derived from Mozilla Firefox's canonical set.",
-            "filename": "python-certifi_2019.3.9.bb",
+            "filename": "python-certifi_2019.6.16.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://certifi.io/",
             "id": 724176,
@@ -7918,10 +7918,10 @@
             "license": "ISC",
             "pn": "python-certifi",
             "provides": "python-certifi ",
-            "pv": "2019.3.9",
+            "pv": "2019.6.16",
             "section": "devel/python",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2019-04-22T19:04:12+0000"
+            "updated": "2019-06-25T00:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -8004,7 +8004,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-wrapt_1.11.1.bb",
+            "filename": "python-wrapt_1.11.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://wrapt.readthedocs.org/",
             "id": 724181,
@@ -8013,10 +8013,10 @@
             "license": "BSD",
             "pn": "python-wrapt",
             "provides": "python-wrapt ",
-            "pv": "1.11.1",
+            "pv": "1.11.2",
             "section": "devel/python",
             "summary": "A Python module for decorators, wrappers and monkey patching.",
-            "updated": "2019-05-26T19:05:50+0000"
+            "updated": "2019-06-25T00:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -8308,7 +8308,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-wrapt_1.11.1.bb",
+            "filename": "python3-wrapt_1.11.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://wrapt.readthedocs.org/",
             "id": 724197,
@@ -8317,10 +8317,10 @@
             "license": "BSD",
             "pn": "python3-wrapt",
             "provides": "python3-wrapt ",
-            "pv": "1.11.1",
+            "pv": "1.11.2",
             "section": "devel/python",
             "summary": "A Python module for decorators, wrappers and monkey patching.",
-            "updated": "2019-05-26T19:05:52+0000"
+            "updated": "2019-06-25T00:06:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",

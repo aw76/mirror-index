@@ -94,43 +94,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190619",
+            "bitbake_branch": "wr-10.19-20190624",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-06-19T23:06:58+0000",
+            "updated": "2019-06-25T00:06:40+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190619",
+            "actual_branch": "wr-10.19-20190624",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-20T21:06:48+0000",
-            "vcs_last_commit": "2019-06-20T21:06:48+0000",
-            "vcs_last_fetch": "2019-06-20T21:06:48+0000",
-            "vcs_last_rev": "3e23e6616c6800e7fe120e4dfc7687b8f064d473",
+            "updated": "2019-06-25T00:06:48+0000",
+            "vcs_last_commit": "2019-06-25T00:06:48+0000",
+            "vcs_last_fetch": "2019-06-25T00:06:48+0000",
+            "vcs_last_rev": "4ee1076f04bc47d43e32c756077f2a8cb2a2645d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190617",
+            "actual_branch": "wr-10.19-20190624",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-06-19T03:06:32+0000",
-            "vcs_last_commit": "2019-06-19T03:06:32+0000",
-            "vcs_last_fetch": "2019-06-19T03:06:32+0000",
-            "vcs_last_rev": "a87e8f26d186e588321f2c8a50d9e0fb1eab8898",
+            "updated": "2019-06-23T20:06:39+0000",
+            "vcs_last_commit": "2019-06-23T20:06:39+0000",
+            "vcs_last_fetch": "2019-06-23T20:06:39+0000",
+            "vcs_last_rev": "0647814412532cf94772f63d83e511cd004b63ec",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -3456,7 +3456,7 @@
             "pv": "5.3",
             "section": "base",
             "summary": "Timing analysis tools for suspend/resume/boot",
-            "updated": "2019-06-13T17:06:21+0000"
+            "updated": "2019-06-25T00:06:59+0000"
         },
         {
             "bbclassextend": "native cross",
@@ -4463,7 +4463,7 @@
             "pv": "1.24.0",
             "section": "webos/services",
             "summary": "Protocol plugin for Office 365/Lync/OCS for Adium, Pidgin, Miranda and Telepathy IM Framework",
-            "updated": "2019-06-13T17:06:38+0000"
+            "updated": "2019-06-25T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4698,7 +4698,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgpiod_1.3.bb",
+            "filename": "libgpiod_1.4.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 973946,
@@ -4707,10 +4707,10 @@
             "license": "LGPLv2.1+",
             "pn": "libgpiod",
             "provides": "libgpiod ",
-            "pv": "1.3",
+            "pv": "1.4",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2019-06-17T20:06:49+0000"
+            "updated": "2019-06-25T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -5622,7 +5622,7 @@
             "pv": "0.4.10",
             "section": "Development/Libraries",
             "summary": "Library for using PKCS",
-            "updated": "2019-06-17T20:06:49+0000"
+            "updated": "2019-06-25T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8232,7 +8232,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mariadb_10.3.15.bb",
+            "filename": "mariadb_10.3.16.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 974132,
@@ -8241,17 +8241,17 @@
             "license": "GPLv2",
             "pn": "mariadb",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "10.3.15",
+            "pv": "10.3.16",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2019-06-13T17:06:42+0000"
+            "updated": "2019-06-25T00:06:57+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mariadb-native_10.3.15.bb",
+            "filename": "mariadb-native_10.3.16.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 974133,
@@ -8260,10 +8260,10 @@
             "license": "GPLv2",
             "pn": "mariadb-native",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "10.3.15",
+            "pv": "10.3.16",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2019-06-13T17:06:42+0000"
+            "updated": "2019-06-25T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -10372,7 +10372,7 @@
             "pv": "2.2.0+gitX",
             "section": "base",
             "summary": "Transparent Inter-Process Communication protocol",
-            "updated": "2019-06-13T17:06:18+0000"
+            "updated": "2019-06-25T00:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -10942,7 +10942,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "A collection of cpuburn programs tuned for different ARM hardware",
-            "updated": "2019-06-13T17:06:27+0000"
+            "updated": "2019-06-25T00:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -11002,25 +11002,6 @@
             "updated": "2019-06-13T17:06:28+0000"
         },
         {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "efivar provides a simple command line interface to the UEFI variable facility",
-            "filename": "efivar_37.bb",
-            "filepath": "recipes-bsp/efivar",
-            "homepage": "https://github.com/rhinstaller/efivar",
-            "id": 974278,
-            "inherits": "pkgconfig",
-            "layerbranch": 14965,
-            "license": "LGPLv2.1",
-            "pn": "efivar",
-            "provides": "efivar ",
-            "pv": "37",
-            "section": "base",
-            "summary": "Tools to manipulate UEFI variables",
-            "updated": "2019-06-13T17:06:28+0000"
-        },
-        {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
@@ -11056,25 +11037,6 @@
             "pv": "git",
             "section": "base",
             "summary": "Intel(R) Enclosure LED Utilities",
-            "updated": "2019-06-13T17:06:29+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Linux user-space application to modify the EFI Boot Manager.",
-            "filename": "efibootmgr_17.bb",
-            "filepath": "recipes-bsp/efibootmgr",
-            "homepage": "https://github.com/rhinstaller/efibootmgr",
-            "id": 974281,
-            "inherits": "pkgconfig",
-            "layerbranch": 14965,
-            "license": "GPLv2+",
-            "pn": "efibootmgr",
-            "provides": "efibootmgr ",
-            "pv": "17",
-            "section": "base",
-            "summary": "EFI Boot Manager",
             "updated": "2019-06-13T17:06:29+0000"
         },
         {
@@ -11238,7 +11200,7 @@
             "filepath": "recipes-navigation/gpsd",
             "homepage": "",
             "id": 974290,
-            "inherits": "bluetooth python-dir pythonnative scons systemd update-alternatives update-rc.d",
+            "inherits": "bluetooth python-dir python3-dir python3native pythonnative scons systemd update-alternatives update-rc.d",
             "layerbranch": 14965,
             "license": "BSD",
             "pn": "gpsd",
@@ -11246,7 +11208,7 @@
             "pv": "3.17",
             "section": "console/network",
             "summary": "A TCP/IP Daemon simplifying the communication with GPS devices",
-            "updated": "2019-06-13T17:06:32+0000"
+            "updated": "2019-06-25T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -11443,7 +11405,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.",
-            "filename": "protobuf_3.6.1.bb",
+            "filename": "protobuf_3.8.0.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/google/protobuf",
             "id": 974301,
@@ -11452,10 +11414,10 @@
             "license": "BSD-3-Clause",
             "pn": "protobuf",
             "provides": "protobuf ",
-            "pv": "3.6.1+gitX",
+            "pv": "3.8.0",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2019-06-13T17:06:36+0000"
+            "updated": "2019-06-25T00:06:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11474,7 +11436,7 @@
             "pv": "1.3.1+gitX",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2019-06-13T17:06:37+0000"
+            "updated": "2019-06-25T00:06:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13203,7 +13165,7 @@
             "pv": "v63",
             "section": "base",
             "summary": "libnvdimm utility library",
-            "updated": "2019-06-13T17:06:11+0000"
+            "updated": "2019-06-25T00:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13660,6 +13622,44 @@
             "section": "devel/python",
             "summary": "",
             "updated": "2019-06-17T20:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Stressful Application Test (or stressapptest, its unix name)  is a memory interface test. It tries to maximize randomized traffic to memory  from processor and I/O, with the intent of creating a realistic high load  situation in order to test the existing hardware devices in a computer. ",
+            "filename": "stressapptest_1.0.9.bb",
+            "filepath": "recipes-benchmark/stressapptest",
+            "homepage": "https://github.com/stressapptest/stressapptest",
+            "id": 983034,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "Apache-2.0",
+            "pn": "stressapptest",
+            "provides": "stressapptest ",
+            "pv": "1.0.9",
+            "section": "benchmark",
+            "summary": "Stressful Application Test",
+            "updated": "2019-06-25T00:06:01+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Runtime libraries for parsing and creating MIME mail",
+            "filename": "gmime_3.2.3.bb",
+            "filepath": "recipes-support/pidgin",
+            "homepage": "",
+            "id": 983035,
+            "inherits": "autotools gconf gnome gnomebase gobject-introspection gobject-introspection-data gtk-icon-cache mime pkgconfig python3-dir python3native siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPL-2.1",
+            "pn": "gmime",
+            "provides": "gmime ",
+            "pv": "3.2.3",
+            "section": "libs",
+            "summary": "",
+            "updated": "2019-06-25T00:06:01+0000"
         }
     ],
     "wrtemplates": []

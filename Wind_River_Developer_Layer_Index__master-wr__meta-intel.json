@@ -94,43 +94,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190619",
+            "bitbake_branch": "wr-10.19-20190624",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-06-19T23:06:58+0000",
+            "updated": "2019-06-25T00:06:40+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190619",
+            "actual_branch": "wr-10.19-20190624",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-20T21:06:48+0000",
-            "vcs_last_commit": "2019-06-20T21:06:48+0000",
-            "vcs_last_fetch": "2019-06-20T21:06:48+0000",
-            "vcs_last_rev": "3e23e6616c6800e7fe120e4dfc7687b8f064d473",
+            "updated": "2019-06-25T00:06:48+0000",
+            "vcs_last_commit": "2019-06-25T00:06:48+0000",
+            "vcs_last_fetch": "2019-06-25T00:06:48+0000",
+            "vcs_last_rev": "4ee1076f04bc47d43e32c756077f2a8cb2a2645d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190619",
+            "actual_branch": "wr-10.19-20190624",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2019-06-18T19:06:47+0000",
-            "vcs_last_commit": "2019-06-18T19:06:47+0000",
-            "vcs_last_fetch": "2019-06-18T19:06:47+0000",
-            "vcs_last_rev": "477c1bfa1c3c79318d308c26dd7e623ad6bfa01f",
+            "updated": "2019-06-23T20:06:39+0000",
+            "vcs_last_commit": "2019-06-23T20:06:39+0000",
+            "vcs_last_fetch": "2019-06-23T20:06:39+0000",
+            "vcs_last_rev": "7a9bedb1b967a88f5e54df3a4855288910aaae4b",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 9
@@ -314,10 +314,10 @@
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.14.110+gitX",
+            "pv": "4.14.123+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-05-13T19:05:38+0000"
+            "updated": "2019-06-25T00:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -333,10 +333,10 @@
             "license": "GPLv2",
             "pn": "linux-intel-rt",
             "provides": "linux-intel-rt  virtual/kernel",
-            "pv": "4.14.106+gitX",
+            "pv": "4.14.115+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-05-13T19:05:39+0000"
+            "updated": "2019-06-25T00:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -552,7 +552,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The microcode data file contains the latest microcode definitions for all Intel processors. Intel releases microcode updates to correct processor behavior as documented in the respective processor specification updates. While the regular approach to getting this microcode update is via a BIOS upgrade, Intel realizes that this can be an administrative hassle. The Linux operating system and VMware ESX products have a mechanism to update the microcode after booting. For example, this file will be used by the operating system mechanism if the file is placed in the /etc/firmware directory of the Linux system.",
-            "filename": "intel-microcode_20190514a.bb",
+            "filename": "intel-microcode_20190618.bb",
             "filepath": "recipes-core/microcode",
             "homepage": "http://www.intel.com/",
             "id": 724426,
@@ -561,10 +561,10 @@
             "license": "Intel-Microcode-License",
             "pn": "intel-microcode",
             "provides": "intel-microcode ",
-            "pv": "20190514a",
+            "pv": "20190618",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2019-05-26T19:05:13+0000"
+            "updated": "2019-06-25T00:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -850,6 +850,63 @@
             "section": "base",
             "summary": "Intel Dynamic Application Loader (DAL) Host Interface",
             "updated": "2019-06-19T23:06:17+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel Local Manageability Service allows applications to access the Intel Active Management Technology (AMT) firmware via the Intel Management Engine Interface (MEI).",
+            "filename": "lms_1921.0.0.0.bb",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-bsp/amt",
+            "homepage": "",
+            "id": 983036,
+            "inherits": "cmake systemd",
+            "layerbranch": 84751,
+            "license": "Apache-2.0",
+            "pn": "lms",
+            "provides": "lms ",
+            "pv": "1921.0.0.0",
+            "section": "base",
+            "summary": "Intel(R) Local Managability Service",
+            "updated": "2019-06-25T00:06:33+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "C++ network programming framework that implements many core patterns for concurrent communication software",
+            "filename": "ace_6.5.3.bb",
+            "filepath": "recipes-bsp/ace",
+            "homepage": "",
+            "id": 983037,
+            "inherits": "pkgconfig",
+            "layerbranch": 84751,
+            "license": "ACE-TAO-CIAO",
+            "pn": "ace",
+            "provides": "ace ",
+            "pv": "6.5.3",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-06-25T00:06:33+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "MEETEE library provides a cross-platform simple  programing interface for accessing Intel HECI interfaces on devices  found in BigCore and Atom based products.",
+            "filename": "metee_2.1.0.bb",
+            "filepath": "recipes-bsp/metee",
+            "homepage": "",
+            "id": 983038,
+            "inherits": "cmake",
+            "layerbranch": 84751,
+            "license": "Apache-2.0",
+            "pn": "metee",
+            "provides": "metee ",
+            "pv": "2.1.0",
+            "section": "base",
+            "summary": "Intel(R) METEE Library",
+            "updated": "2019-06-25T00:06:33+0000"
         }
     ],
     "wrtemplates": []
