@@ -108,15 +108,15 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190624",
+            "actual_branch": "wr-10.19-20190626",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-25T00:06:48+0000",
-            "vcs_last_commit": "2019-06-25T00:06:48+0000",
-            "vcs_last_fetch": "2019-06-25T00:06:48+0000",
-            "vcs_last_rev": "4ee1076f04bc47d43e32c756077f2a8cb2a2645d",
+            "updated": "2019-06-26T01:06:03+0000",
+            "vcs_last_commit": "2019-06-26T01:06:03+0000",
+            "vcs_last_fetch": "2019-06-26T01:06:03+0000",
+            "vcs_last_rev": "7bd7b400433bde67b602dcb66722689f29a585b1",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -141,10 +141,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-06-26T02:06:36+0000",
-            "vcs_last_commit": "2019-06-26T02:06:36+0000",
-            "vcs_last_fetch": "2019-06-26T02:06:36+0000",
-            "vcs_last_rev": "c5a34cfcc7c4d7cda1f826f7b268585fb88e41c5",
+            "updated": "2019-06-27T01:06:12+0000",
+            "vcs_last_commit": "2019-06-27T01:06:12+0000",
+            "vcs_last_fetch": "2019-06-27T01:06:12+0000",
+            "vcs_last_rev": "c40d7e6ffa82cf3a7c790940bf01e33a0f35e5dd",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -359,7 +359,7 @@
             "bugtracker": "",
             "description": "The MCE test suite is a collection of tools and test scripts for testing the Linux RAS related features, including CPU/Memory error containment and recovery, ACPI/APEI support etc.",
             "filename": "mce-test_git.bb",
-            "filepath": "recipes-kernel/mce-test",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-kernel/mce-test",
             "homepage": "",
             "id": 725725,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
@@ -370,7 +370,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2019-06-26T02:06:44+0000"
+            "updated": "2019-06-26T09:06:43+0000"
         },
         {
             "bbclassextend": "",
@@ -617,7 +617,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-26T02:06:43+0000"
+            "updated": "2019-06-26T09:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -636,7 +636,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-26T02:06:43+0000"
+            "updated": "2019-06-26T09:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -674,7 +674,45 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-26T02:06:42+0000"
+            "updated": "2019-06-26T09:06:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "An application container which will run                 ${WR_APP_CONTAINER_APP}.",
+            "filename": "wr-app-container_1.0.bb",
+            "filepath": "wrlinux-distro/recipes-core/images",
+            "homepage": "http://www.windriver.com",
+            "id": 983049,
+            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-app-container",
+            "layerbranch": 15009,
+            "license": "",
+            "pn": "wr-app-container",
+            "provides": "wr-app-container ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Application container for ${WR_APP_CONTAINER_APP}",
+            "updated": "2019-06-26T09:06:45+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A systemd system container which will run                 ${WR_SYSTEMD_CONTAINER_APP}.",
+            "filename": "wr-systemd-container_1.0.bb",
+            "filepath": "wrlinux-distro/recipes-core/images",
+            "homepage": "http://www.windriver.com",
+            "id": 983050,
+            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-systemd-container",
+            "layerbranch": 15009,
+            "license": "",
+            "pn": "wr-systemd-container",
+            "provides": "wr-systemd-container ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
+            "updated": "2019-06-26T09:06:46+0000"
         }
     ],
     "wrtemplates": [
@@ -781,7 +819,7 @@
             "id": 28493,
             "layerbranch": 15009,
             "name": "feature/dpdk",
-            "updated": "2018-11-05T08:11:18+0000"
+            "updated": "2019-06-27T01:06:52+0000"
         },
         {
             "description": "",
@@ -858,7 +896,7 @@
             "id": 29389,
             "layerbranch": 15009,
             "name": "feature/kernel-hardening",
-            "updated": "2018-10-11T01:10:23+0000"
+            "updated": "2019-06-26T20:06:05+0000"
         },
         {
             "description": "",
@@ -901,6 +939,13 @@
             "layerbranch": 15009,
             "name": "feature/dummy-kernel",
             "updated": "2019-06-20T13:06:44+0000"
+        },
+        {
+            "description": "Enable Xwayland image",
+            "id": 47415,
+            "layerbranch": 15009,
+            "name": "feature/weston-demo",
+            "updated": "2019-06-27T01:06:52+0000"
         }
     ]
 }
