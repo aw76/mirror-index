@@ -94,14 +94,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190624",
+            "bitbake_branch": "wr-10.19-20190701",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-06-25T00:06:40+0000",
+            "updated": "2019-07-01T23:07:23+0000",
             "updates_enabled": true
         }
     ],
@@ -116,15 +116,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190626",
+            "actual_branch": "wr-10.19-20190701",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-26T01:06:03+0000",
-            "vcs_last_commit": "2019-06-26T01:06:03+0000",
-            "vcs_last_fetch": "2019-06-26T01:06:03+0000",
-            "vcs_last_rev": "7bd7b400433bde67b602dcb66722689f29a585b1",
+            "updated": "2019-07-02T02:07:10+0000",
+            "vcs_last_commit": "2019-07-02T02:07:10+0000",
+            "vcs_last_fetch": "2019-07-02T02:07:10+0000",
+            "vcs_last_rev": "3a531b51c2cb87b9f5cba23baf3925a003fbcc42",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -704,7 +704,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The Intrinsics are a programming library tailored to the special requirements of user interface construction within a network window system, specifically the X Window System. The Intrinsics and a widget set make up an X Toolkit. The Intrinsics provide the base mechanism necessary to build a wide variety of interoperating widget sets and application environments. The Intrinsics are a layer on top of Xlib, the C Library X Interface. They extend the fundamental abstractions provided by the X Window System while still remaining independent of any particular user interface policy or style.",
-            "filename": "libxt_1.1.5.bb",
+            "filename": "libxt_1.2.0.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 972947,
@@ -713,10 +713,10 @@
             "license": "MIT & MIT-style",
             "pn": "libxt",
             "provides": "libxt xt",
-            "pv": "1.1.5",
+            "pv": "1.2.0",
             "section": "x11/libs",
             "summary": "Xt: X Toolkit Intrinsics library",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-07-01T23:07:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1331,7 +1331,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "libxi is an extension to the X11 protocol to support input devices other than the core X keyboard and pointer.  It allows client programs to select input from these devices independently from each other and independently from the core devices.",
-            "filename": "libxi_1.7.9.bb",
+            "filename": "libxi_1.7.10.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 972980,
@@ -1340,10 +1340,10 @@
             "license": "MIT & MIT-style",
             "pn": "libxi",
             "provides": "libxi ",
-            "pv": "1.7.9",
+            "pv": "1.7.10",
             "section": "x11/libs",
             "summary": "XI: X Input extension library",
-            "updated": "2019-06-17T20:06:02+0000"
+            "updated": "2019-07-01T23:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1533,7 +1533,7 @@
             "pv": "1.16.0",
             "section": "libs",
             "summary": "The Cairo 2D vector graphics library",
-            "updated": "2019-06-17T20:06:08+0000"
+            "updated": "2019-07-01T23:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1552,7 +1552,7 @@
             "pv": "0.1",
             "section": "x11",
             "summary": "Custom Matchbox session files",
-            "updated": "2019-06-17T20:06:08+0000"
+            "updated": "2019-07-01T23:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1787,7 +1787,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The encodings that map to specific characters for a number of Xorg and common fonts.",
-            "filename": "encodings_1.0.4.bb",
+            "filename": "encodings_1.0.5.bb",
             "filepath": "recipes-graphics/xorg-font",
             "homepage": "http://www.x.org",
             "id": 973004,
@@ -1796,10 +1796,10 @@
             "license": "PD",
             "pn": "encodings",
             "provides": "encodings ",
-            "pv": "1.0.4",
+            "pv": "1.0.5",
             "section": "x11/fonts",
             "summary": "The Xorg font encoding files",
-            "updated": "2019-06-17T20:06:12+0000"
+            "updated": "2019-07-01T23:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1875,7 +1875,7 @@
             "pv": "0.1",
             "section": "x11",
             "summary": "Very simple session manager for X",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-07-01T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2642,7 +2642,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libinput_1.13.2.bb",
+            "filename": "libinput_1.13.4.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://www.freedesktop.org/wiki/Software/libinput/",
             "id": 973049,
@@ -2651,10 +2651,10 @@
             "license": "MIT",
             "pn": "libinput",
             "provides": "libinput ",
-            "pv": "1.13.2",
+            "pv": "1.13.4",
             "section": "libs",
             "summary": "Library to handle input devices in Wayland compositors",
-            "updated": "2019-06-17T20:06:26+0000"
+            "updated": "2019-07-01T23:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2908,7 +2908,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
-            "filename": "mesa_19.1.0.bb",
+            "filename": "mesa_19.1.1.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
             "id": 973063,
@@ -2917,17 +2917,17 @@
             "license": "MIT",
             "pn": "mesa",
             "provides": "mesa                          virtual/mesa     ",
-            "pv": "19.1.0",
+            "pv": "19.1.1",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2019-06-17T20:06:33+0000"
+            "updated": "2019-07-01T23:07:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
-            "filename": "mesa-gl_19.1.0.bb",
+            "filename": "mesa-gl_19.1.1.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
             "id": 973064,
@@ -2936,10 +2936,10 @@
             "license": "MIT",
             "pn": "mesa-gl",
             "provides": "mesa-gl virtual/libgl virtual/mesa",
-            "pv": "19.1.0",
+            "pv": "19.1.1",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2019-06-17T20:06:25+0000"
+            "updated": "2019-07-01T23:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3091,7 +3091,7 @@
             "pv": "1.37",
             "section": "base",
             "summary": "A daemon for managing internet connections within embedded devices",
-            "updated": "2019-06-25T00:06:35+0000"
+            "updated": "2019-07-01T23:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -3110,7 +3110,7 @@
             "pv": "0.7",
             "section": "libs/network",
             "summary": "GTK+ frontend for the ConnMan network connection manager",
-            "updated": "2019-06-17T20:06:33+0000"
+            "updated": "2019-07-01T23:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -3129,7 +3129,7 @@
             "pv": "9.11.5-P4",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2019-06-25T00:06:36+0000"
+            "updated": "2019-07-01T23:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3148,7 +3148,7 @@
             "pv": "5.1.0",
             "section": "base",
             "summary": "TCP / IP networking and traffic control utilities",
-            "updated": "2019-06-17T20:06:34+0000"
+            "updated": "2019-07-01T23:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3164,10 +3164,10 @@
             "license": "PD",
             "pn": "mobile-broadband-provider-info",
             "provides": "mobile-broadband-provider-info ",
-            "pv": "20190116",
+            "pv": "20190618",
             "section": "network",
             "summary": "Mobile Broadband Service Provider Database",
-            "updated": "2019-06-17T20:06:34+0000"
+            "updated": "2019-07-01T23:07:44+0000"
         },
         {
             "bbclassextend": " nativesdk",
@@ -3186,7 +3186,7 @@
             "pv": "8.0p1",
             "section": "console/network",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2019-06-25T00:06:04+0000"
+            "updated": "2019-07-01T23:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3205,7 +3205,7 @@
             "pv": "5.50",
             "section": "libs",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2019-06-25T00:06:37+0000"
+            "updated": "2019-07-01T23:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3376,7 +3376,7 @@
             "pv": "1.9.4",
             "section": "net",
             "summary": "",
-            "updated": "2019-06-17T20:06:37+0000"
+            "updated": "2019-07-01T23:07:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -3497,7 +3497,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.lttng.org/projects/babeltrace",
             "description": "Babeltrace provides trace read and write libraries in host side, as well as a trace converter, which used to convert LTTng 2.0 traces into human-readable log.",
-            "filename": "babeltrace_1.5.6.bb",
+            "filename": "babeltrace_1.5.7.bb",
             "filepath": "recipes-kernel/lttng",
             "homepage": "http://www.efficios.com/babeltrace/",
             "id": 973094,
@@ -3506,10 +3506,10 @@
             "license": "MIT & GPLv2",
             "pn": "babeltrace",
             "provides": "babeltrace ",
-            "pv": "1.5.6",
+            "pv": "1.5.7",
             "section": "base",
             "summary": "Babeltrace - Trace Format Babel Tower",
-            "updated": "2019-06-17T20:06:41+0000"
+            "updated": "2019-07-01T23:07:54+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -3642,7 +3642,7 @@
             "pv": "2.10",
             "section": "base",
             "summary": "Power usage tool",
-            "updated": "2019-06-17T20:06:43+0000"
+            "updated": "2019-07-01T23:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3661,7 +3661,7 @@
             "pv": "26",
             "section": "base",
             "summary": "Tools for managing Linux kernel modules",
-            "updated": "2019-06-17T20:06:43+0000"
+            "updated": "2019-07-01T23:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3946,7 +3946,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-25T00:06:17+0000"
+            "updated": "2019-07-01T23:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4022,7 +4022,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-19T23:06:39+0000"
+            "updated": "2019-07-01T23:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4041,7 +4041,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-19T23:06:39+0000"
+            "updated": "2019-07-01T23:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -4440,7 +4440,7 @@
             "pv": "2.4.47",
             "section": "libs",
             "summary": "Utilities for manipulating filesystem extended attributes",
-            "updated": "2019-06-17T20:06:01+0000"
+            "updated": "2019-07-01T23:07:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4478,7 +4478,7 @@
             "pv": "64.2",
             "section": "base",
             "summary": "International Component for Unicode libraries",
-            "updated": "2019-06-25T00:06:43+0000"
+            "updated": "2019-07-01T23:07:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -4668,7 +4668,7 @@
             "pv": "7.65.1",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2019-06-25T00:06:18+0000"
+            "updated": "2019-07-01T23:07:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4763,7 +4763,7 @@
             "pv": "4.21",
             "section": "libs/network",
             "summary": "Netscape Portable Runtime Library",
-            "updated": "2019-06-17T20:06:10+0000"
+            "updated": "2019-07-01T23:07:21+0000"
         },
         {
             "bbclassextend": "",
@@ -4934,7 +4934,7 @@
             "pv": "4.8.6.1",
             "section": "base",
             "summary": "Miscellaneous utilities specific to Debian",
-            "updated": "2019-06-17T20:06:15+0000"
+            "updated": "2019-07-01T23:07:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -5447,7 +5447,7 @@
             "pv": "1.36",
             "section": "libs",
             "summary": "Small library that defines common error values for all GnuPG components",
-            "updated": "2019-06-17T20:06:29+0000"
+            "updated": "2019-07-01T23:07:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -5466,7 +5466,7 @@
             "pv": "8.1.1518",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2019-06-13T20:06:36+0000"
+            "updated": "2019-07-01T23:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -5485,7 +5485,7 @@
             "pv": "8.1.1518",
             "section": "console/utils",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2019-06-13T20:06:36+0000"
+            "updated": "2019-07-01T23:07:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6511,7 +6511,7 @@
             "pv": "1.1",
             "section": "tests",
             "summary": "Hardware latency detector",
-            "updated": "2019-06-17T20:06:50+0000"
+            "updated": "2019-07-01T23:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6530,7 +6530,7 @@
             "pv": "1.1",
             "section": "tests",
             "summary": "Real-Time preemption testcases",
-            "updated": "2019-06-17T20:06:50+0000"
+            "updated": "2019-07-01T23:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6587,7 +6587,7 @@
             "pv": "1.07.1",
             "section": "base",
             "summary": "Arbitrary precision calculator language",
-            "updated": "2019-06-17T20:06:51+0000"
+            "updated": "2019-07-01T23:07:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6663,7 +6663,7 @@
             "pv": "3.7",
             "section": "base",
             "summary": "Diffutils contains tools used for finding differences between files",
-            "updated": "2019-06-17T20:06:52+0000"
+            "updated": "2019-07-01T23:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -6701,7 +6701,7 @@
             "pv": "3.3.3",
             "section": "devel",
             "summary": "Support for reading various archive formats",
-            "updated": "2019-06-17T20:06:53+0000"
+            "updated": "2019-07-01T23:07:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -6720,7 +6720,7 @@
             "pv": "20190509",
             "section": "console/tools",
             "summary": "ACPICA tools for the development and debug of ACPI tables",
-            "updated": "2019-06-17T20:06:53+0000"
+            "updated": "2019-07-01T23:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -6777,7 +6777,7 @@
             "pv": "1.20.3",
             "section": "console/network",
             "summary": "Console URL download utility supporting HTTP, FTP, etc",
-            "updated": "2019-06-17T20:06:54+0000"
+            "updated": "2019-07-01T23:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -6834,7 +6834,7 @@
             "pv": "2.2.11",
             "section": "console/utils",
             "summary": "An Internet printing system for Unix",
-            "updated": "2019-06-25T00:06:45+0000"
+            "updated": "2019-07-01T23:07:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6910,7 +6910,7 @@
             "pv": "551",
             "section": "console/utils",
             "summary": "Text file viewer similar to more",
-            "updated": "2019-06-25T00:06:13+0000"
+            "updated": "2019-07-01T23:07:29+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -6948,7 +6948,7 @@
             "pv": "s20180629",
             "section": "console/network",
             "summary": "Network monitoring tools",
-            "updated": "2019-06-17T20:06:59+0000"
+            "updated": "2019-07-01T23:07:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -6967,7 +6967,7 @@
             "pv": "1.22.4",
             "section": "base",
             "summary": "GNU Troff software",
-            "updated": "2019-06-17T20:06:00+0000"
+            "updated": "2019-07-01T23:07:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7100,7 +7100,7 @@
             "pv": "2.4",
             "section": "console/utils",
             "summary": "A parallel implementation of gzip",
-            "updated": "2019-06-25T00:06:15+0000"
+            "updated": "2019-07-01T23:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7119,7 +7119,7 @@
             "pv": "1.5.1",
             "section": "base",
             "summary": "System Log Daemons",
-            "updated": "2019-06-25T00:06:46+0000"
+            "updated": "2019-07-01T23:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7138,7 +7138,7 @@
             "pv": "3.3.15",
             "section": "base",
             "summary": "System and process monitoring utilities",
-            "updated": "2019-06-17T20:06:03+0000"
+            "updated": "2019-07-01T23:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7157,7 +7157,7 @@
             "pv": "23.2",
             "section": "base",
             "summary": "Utilities for managing processes on your system",
-            "updated": "2019-06-17T20:06:03+0000"
+            "updated": "2019-07-01T23:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -7290,7 +7290,7 @@
             "pv": "1.32",
             "section": "base",
             "summary": "GNU file archiving program",
-            "updated": "2019-06-17T20:06:05+0000"
+            "updated": "2019-07-01T23:07:31+0000"
         },
         {
             "bbclassextend": "nativesdk native",
@@ -7328,7 +7328,7 @@
             "pv": "1.08",
             "section": "console/utils",
             "summary": "Compact getty terminal handler for virtual consoles only",
-            "updated": "2019-06-17T20:06:06+0000"
+            "updated": "2019-07-01T23:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -7354,7 +7354,7 @@
             "blacklisted": "",
             "bugtracker": "bug-gawk@gnu.org",
             "description": "The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.",
-            "filename": "gawk_5.0.0.bb",
+            "filename": "gawk_5.0.1.bb",
             "filepath": "recipes-extended/gawk",
             "homepage": "https://www.gnu.org/software/gawk/",
             "id": 973297,
@@ -7363,10 +7363,10 @@
             "license": "GPLv3",
             "pn": "gawk",
             "provides": "gawk ",
-            "pv": "5.0.0",
+            "pv": "5.0.1",
             "section": "console/utils",
             "summary": "GNU awk text processing utility",
-            "updated": "2019-06-17T20:06:07+0000"
+            "updated": "2019-07-01T23:07:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7385,7 +7385,7 @@
             "pv": "6.0",
             "section": "console/utils",
             "summary": "Utilities for extracting and viewing files in .zip archives",
-            "updated": "2019-06-17T20:06:07+0000"
+            "updated": "2019-07-01T23:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -7442,7 +7442,7 @@
             "pv": "20190115",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2019-06-17T20:06:08+0000"
+            "updated": "2019-07-02T02:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -7499,7 +7499,7 @@
             "pv": "3.2",
             "section": "console/tools",
             "summary": "Disk partition editing/resizing utility",
-            "updated": "2019-06-25T00:06:14+0000"
+            "updated": "2019-07-01T23:07:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -7518,7 +7518,7 @@
             "pv": "1.10",
             "section": "console/utils",
             "summary": "Standard GNU compressor",
-            "updated": "2019-06-17T20:06:10+0000"
+            "updated": "2019-07-01T23:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -7575,7 +7575,7 @@
             "pv": "4.2.2",
             "section": "console/utils",
             "summary": "Stream EDitor (text filtering utility)",
-            "updated": "2019-06-17T20:06:11+0000"
+            "updated": "2019-07-01T23:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -7594,7 +7594,7 @@
             "pv": "5.01",
             "section": "console/utils",
             "summary": "Linux man-pages",
-            "updated": "2019-06-17T20:06:12+0000"
+            "updated": "2019-07-01T23:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -7993,7 +7993,7 @@
             "pv": "1.9",
             "section": "utils",
             "summary": "Tool that measures CPU resources",
-            "updated": "2019-06-17T20:06:17+0000"
+            "updated": "2019-07-01T23:07:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8050,7 +8050,7 @@
             "pv": "2.21",
             "section": "libs",
             "summary": "Displays the full path of shell commands",
-            "updated": "2019-06-17T20:06:18+0000"
+            "updated": "2019-07-01T23:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8069,7 +8069,7 @@
             "pv": "3.3",
             "section": "console/utils",
             "summary": "GNU grep utility",
-            "updated": "2019-06-17T20:06:18+0000"
+            "updated": "2019-07-01T23:07:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8126,7 +8126,7 @@
             "pv": "2.12",
             "section": "base",
             "summary": "GNU cpio is a program to manage archives of files",
-            "updated": "2019-06-17T20:06:20+0000"
+            "updated": "2019-07-01T23:07:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8171,7 +8171,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "mc_4.8.22.bb",
+            "filename": "mc_4.8.23.bb",
             "filepath": "recipes-extended/mc",
             "homepage": "http://www.midnight-commander.org/",
             "id": 973341,
@@ -8180,17 +8180,17 @@
             "license": "GPLv3",
             "pn": "mc",
             "provides": "mc ",
-            "pv": "4.8.22",
+            "pv": "4.8.23",
             "section": "console/utils",
             "summary": "Midnight Commander is an ncurses based file manager",
-            "updated": "2019-06-17T20:06:22+0000"
+            "updated": "2019-07-01T23:07:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://github.com/openSUSE/libsolv/issues",
             "description": "",
-            "filename": "libsolv_0.7.4.bb",
+            "filename": "libsolv_0.7.5.bb",
             "filepath": "recipes-extended/libsolv",
             "homepage": "https://github.com/openSUSE/libsolv",
             "id": 973342,
@@ -8199,10 +8199,10 @@
             "license": "BSD-3-Clause",
             "pn": "libsolv",
             "provides": "libsolv ",
-            "pv": "0.7.4",
+            "pv": "0.7.5",
             "section": "devel",
             "summary": "Library for solving packages and reading repositories",
-            "updated": "2019-06-25T00:06:21+0000"
+            "updated": "2019-07-01T23:07:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8373,7 +8373,7 @@
             "pv": "5.0",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2019-06-26T20:06:00+0000"
+            "updated": "2019-07-01T23:07:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8392,7 +8392,7 @@
             "pv": "4.6.0",
             "section": "console/utils",
             "summary": "find, locate, and xargs binaries",
-            "updated": "2019-06-17T20:06:27+0000"
+            "updated": "2019-07-01T23:07:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -8487,7 +8487,7 @@
             "pv": "4.6",
             "section": "base/utils",
             "summary": "Tools to change and administer password and group data",
-            "updated": "2019-06-17T19:06:47+0000"
+            "updated": "2019-07-01T23:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -8506,7 +8506,7 @@
             "pv": "9.58",
             "section": "console/utils",
             "summary": "Utility for viewing/manipulating IDE disk drive/driver parameters",
-            "updated": "2019-06-17T20:06:28+0000"
+            "updated": "2019-07-01T23:07:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8525,7 +8525,7 @@
             "pv": "1.60-26",
             "section": "base",
             "summary": "Basic networking tools",
-            "updated": "2019-06-17T20:06:29+0000"
+            "updated": "2019-07-01T23:07:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8544,7 +8544,7 @@
             "pv": "5.2.4",
             "section": "base",
             "summary": "Utilities for managing LZMA compressed files",
-            "updated": "2019-06-17T20:06:29+0000"
+            "updated": "2019-07-01T23:07:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8563,7 +8563,7 @@
             "pv": "1.0.6",
             "section": "console/utils",
             "summary": "Very high-quality data compression program",
-            "updated": "2019-06-17T20:06:30+0000"
+            "updated": "2019-07-01T23:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8582,7 +8582,7 @@
             "pv": "1.8.4",
             "section": "console/network",
             "summary": "msmtp is an SMTP client",
-            "updated": "2019-06-17T20:06:30+0000"
+            "updated": "2019-07-01T23:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8905,7 +8905,7 @@
             "pv": "0.12.20",
             "section": "console/network",
             "summary": "Tools for zmodem/xmodem/ymodem file transfer",
-            "updated": "2019-06-17T20:06:35+0000"
+            "updated": "2019-07-01T23:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8962,7 +8962,7 @@
             "pv": "012",
             "section": "base",
             "summary": "Host side USB console utilities",
-            "updated": "2019-06-17T20:06:36+0000"
+            "updated": "2019-07-01T23:07:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9026,7 +9026,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "git_2.21.0.bb",
+            "filename": "git_2.22.0.bb",
             "filepath": "recipes-devtools/git",
             "homepage": "http://git-scm.com",
             "id": 973386,
@@ -9035,10 +9035,10 @@
             "license": "GPLv2",
             "pn": "git",
             "provides": "git ",
-            "pv": "2.21.0",
+            "pv": "2.22.0",
             "section": "console/utils",
             "summary": "Distributed version control system",
-            "updated": "2019-06-17T20:06:37+0000"
+            "updated": "2019-07-01T23:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -9437,7 +9437,7 @@
             "pv": "1.44.5",
             "section": "base",
             "summary": "Ext2 Filesystem Utilities",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-07-01T23:07:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -9532,7 +9532,7 @@
             "pv": "2.7.6",
             "section": "utils",
             "summary": "Tool for applying a patch file",
-            "updated": "2019-06-17T20:06:49+0000"
+            "updated": "2019-07-01T23:07:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9577,7 +9577,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "autoconf-archive_2018.03.13.bb",
+            "filename": "autoconf-archive_2019.01.06.bb",
             "filepath": "recipes-devtools/autoconf-archive",
             "homepage": "http://www.gnu.org/software/autoconf-archive/",
             "id": 973415,
@@ -9586,10 +9586,10 @@
             "license": "GPL-3.0-with-autoconf-exception",
             "pn": "autoconf-archive",
             "provides": "autoconf-archive ",
-            "pv": "2018.03.13",
+            "pv": "2019.01.06",
             "section": "devel",
             "summary": "a collection of freely re-usable Autoconf macros",
-            "updated": "2019-06-17T20:06:50+0000"
+            "updated": "2019-07-01T23:07:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9646,7 +9646,7 @@
             "pv": "4.1",
             "section": "base",
             "summary": "Set of i2c tools for linux",
-            "updated": "2019-06-17T20:06:51+0000"
+            "updated": "2019-07-01T23:07:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10052,7 +10052,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-mako_1.0.10.bb",
+            "filename": "python3-mako_1.0.12.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.makotemplates.org/",
             "id": 973440,
@@ -10061,10 +10061,10 @@
             "license": "MIT",
             "pn": "python3-mako",
             "provides": "python3-mako ",
-            "pv": "1.0.10",
+            "pv": "1.0.12",
             "section": "devel/python",
             "summary": "Templating library for Python",
-            "updated": "2019-06-17T20:06:00+0000"
+            "updated": "2019-07-01T23:07:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10235,7 +10235,7 @@
             "pv": "3.7.3",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2019-06-26T20:06:58+0000"
+            "updated": "2019-07-01T23:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -10254,7 +10254,7 @@
             "pv": "1.2.8",
             "section": "devel/python",
             "summary": "Python bindings for the DBus inter-process communication system",
-            "updated": "2019-06-17T20:06:02+0000"
+            "updated": "2019-07-01T23:07:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10356,7 +10356,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
-            "filename": "python3-pbr_5.2.0.bb",
+            "filename": "python3-pbr_5.3.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
             "id": 973456,
@@ -10365,17 +10365,17 @@
             "license": "Apache-2.0",
             "pn": "python3-pbr",
             "provides": "python3-pbr ",
-            "pv": "5.2.0",
+            "pv": "5.3.1",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2019-06-17T20:06:04+0000"
+            "updated": "2019-07-01T23:07:34+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pygobject_3.32.1.bb",
+            "filename": "python3-pygobject_3.32.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 973457,
@@ -10384,10 +10384,10 @@
             "license": "LGPLv2.1",
             "pn": "python3-pygobject",
             "provides": "python3-pygobject ",
-            "pv": "3.32.1",
+            "pv": "3.32.2",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2019-06-17T20:06:04+0000"
+            "updated": "2019-07-01T23:07:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -10622,7 +10622,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dpkg_1.19.4.bb",
+            "filename": "dpkg_1.19.7.bb",
             "filepath": "recipes-devtools/dpkg",
             "homepage": "",
             "id": 973470,
@@ -10631,10 +10631,10 @@
             "license": "GPLv2.0+",
             "pn": "dpkg",
             "provides": "dpkg  virtual/update-alternatives",
-            "pv": "1.19.4",
+            "pv": "1.19.7",
             "section": "base",
             "summary": "Package maintenance system from Debian",
-            "updated": "2019-06-25T00:06:08+0000"
+            "updated": "2019-07-01T23:07:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10964,7 +10964,7 @@
             "blacklisted": "",
             "bugtracker": "http://code.google.com/p/opkg/issues/list",
             "description": "",
-            "filename": "opkg_0.4.0.bb",
+            "filename": "opkg_0.4.1.bb",
             "filepath": "recipes-devtools/opkg",
             "homepage": "http://code.google.com/p/opkg/",
             "id": 973488,
@@ -10973,10 +10973,10 @@
             "license": "GPLv2+",
             "pn": "opkg",
             "provides": "opkg ",
-            "pv": "0.4.0",
+            "pv": "0.4.1",
             "section": "base",
             "summary": "Open Package Manager",
-            "updated": "2019-06-17T20:06:18+0000"
+            "updated": "2019-07-01T23:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -11014,7 +11014,7 @@
             "pv": "2.32.0",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2019-06-17T20:06:19+0000"
+            "updated": "2019-07-01T23:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -11033,7 +11033,7 @@
             "pv": "2.32.0",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2019-06-17T20:06:19+0000"
+            "updated": "2019-07-01T23:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -11052,7 +11052,7 @@
             "pv": "2.32.0",
             "section": "devel",
             "summary": "GNU binary utilities (cross-canadian for i686 target)",
-            "updated": "2019-06-17T20:06:19+0000"
+            "updated": "2019-07-01T23:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -11071,7 +11071,7 @@
             "pv": "2.32.0",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2019-06-17T20:06:20+0000"
+            "updated": "2019-07-01T23:07:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11204,7 +11204,7 @@
             "pv": "3.15.0",
             "section": "base",
             "summary": "Valgrind memory debugger and instrumentation framework",
-            "updated": "2019-06-17T20:06:22+0000"
+            "updated": "2019-07-01T23:07:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11622,7 +11622,7 @@
             "pv": "5.45.4",
             "section": "devel",
             "summary": "tool for automating interactive applications according to a script",
-            "updated": "2019-06-17T20:06:28+0000"
+            "updated": "2019-07-01T23:07:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11698,7 +11698,7 @@
             "pv": "2.4.6",
             "section": "devel",
             "summary": "Generic library support script",
-            "updated": "2019-06-17T20:06:29+0000"
+            "updated": "2019-07-01T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -11736,7 +11736,7 @@
             "pv": "2.1.0+X",
             "section": "base",
             "summary": "Tools for managing memory technology devices",
-            "updated": "2019-06-25T00:06:09+0000"
+            "updated": "2019-07-01T23:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -11869,7 +11869,7 @@
             "pv": "5.37",
             "section": "console/utils",
             "summary": "File classification tool",
-            "updated": "2019-06-17T20:06:34+0000"
+            "updated": "2019-07-01T23:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -12021,7 +12021,7 @@
             "pv": "0.14.8+gitX",
             "section": "base",
             "summary": "Booting sequence and CPU,I/O usage monitor",
-            "updated": "2019-06-25T00:06:32+0000"
+            "updated": "2019-07-01T23:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -12066,7 +12066,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "apt-native_1.2.24.bb",
+            "filename": "apt-native_1.2.31.bb",
             "filepath": "recipes-devtools/apt",
             "homepage": "",
             "id": 973546,
@@ -12075,17 +12075,17 @@
             "license": "GPLv2.0+",
             "pn": "apt-native",
             "provides": "apt-native ",
-            "pv": "1.2.24",
+            "pv": "1.2.31",
             "section": "base",
             "summary": "Advanced front-end for dpkg",
-            "updated": "2019-06-17T20:06:37+0000"
+            "updated": "2019-07-01T23:07:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "apt_1.2.24.bb",
+            "filename": "apt_1.2.31.bb",
             "filepath": "recipes-devtools/apt",
             "homepage": "",
             "id": 973547,
@@ -12094,17 +12094,17 @@
             "license": "GPLv2.0+",
             "pn": "apt",
             "provides": "apt ",
-            "pv": "1.2.24",
+            "pv": "1.2.31",
             "section": "base",
             "summary": "Advanced front-end for dpkg",
-            "updated": "2019-06-25T00:06:33+0000"
+            "updated": "2019-07-01T23:07:35+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "http://public.kitware.com/Bug/my_view_page.php",
             "description": "",
-            "filename": "cmake_3.14.1.bb",
+            "filename": "cmake_3.14.5.bb",
             "filepath": "recipes-devtools/cmake",
             "homepage": "http://www.cmake.org/",
             "id": 973548,
@@ -12113,17 +12113,17 @@
             "license": "BSD",
             "pn": "cmake",
             "provides": "cmake ",
-            "pv": "3.14.1",
+            "pv": "3.14.5",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2019-06-25T00:06:33+0000"
+            "updated": "2019-07-01T23:07:36+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://public.kitware.com/Bug/my_view_page.php",
             "description": "",
-            "filename": "cmake-native_3.14.1.bb",
+            "filename": "cmake-native_3.14.5.bb",
             "filepath": "recipes-devtools/cmake",
             "homepage": "http://www.cmake.org/",
             "id": 973549,
@@ -12132,10 +12132,10 @@
             "license": "BSD",
             "pn": "cmake-native",
             "provides": "cmake-native ",
-            "pv": "3.14.1",
+            "pv": "3.14.5",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2019-06-17T20:06:38+0000"
+            "updated": "2019-07-01T23:07:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -12287,7 +12287,7 @@
             "pv": "3.28.1",
             "section": "base",
             "summary": "A library for bits of crypto UI and parsing etc",
-            "updated": "2019-06-17T20:06:42+0000"
+            "updated": "2019-07-01T23:07:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -12306,7 +12306,7 @@
             "pv": "1.60.2",
             "section": "libs",
             "summary": "Middleware layer between GObject-using C libraries and language bindings",
-            "updated": "2019-06-25T00:06:15+0000"
+            "updated": "2019-07-01T23:07:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -12344,7 +12344,7 @@
             "pv": "3.22.3",
             "section": "x11/gnome",
             "summary": "GTK+2 standard themes",
-            "updated": "2019-06-17T20:06:43+0000"
+            "updated": "2019-07-01T23:07:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12363,7 +12363,7 @@
             "pv": "3.32.0",
             "section": "x11/gnome",
             "summary": "GTK+ icon theme",
-            "updated": "2019-06-17T20:06:43+0000"
+            "updated": "2019-07-01T23:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -12382,7 +12382,7 @@
             "pv": "0.7.8",
             "section": "libs",
             "summary": "Library for sending desktop notifications to a notification daemon",
-            "updated": "2019-06-17T20:06:44+0000"
+            "updated": "2019-07-01T23:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -12458,7 +12458,7 @@
             "pv": "1.30",
             "section": "base",
             "summary": "Documentation generator for glib-based software",
-            "updated": "2019-06-17T20:06:45+0000"
+            "updated": "2019-07-01T23:07:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12534,7 +12534,7 @@
             "pv": "2.24.32",
             "section": "libs",
             "summary": "Multi-platform toolkit for creating GUIs",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-07-01T23:07:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12553,7 +12553,7 @@
             "pv": "3.24.8",
             "section": "libs",
             "summary": "Multi-platform toolkit for creating GUIs",
-            "updated": "2019-06-13T20:06:43+0000"
+            "updated": "2019-07-01T23:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -12686,7 +12686,7 @@
             "pv": "2.29",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-06-17T20:06:49+0000"
+            "updated": "2019-07-01T23:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -12838,7 +12838,7 @@
             "pv": "242+X",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2019-06-25T00:06:36+0000"
+            "updated": "2019-07-01T23:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -12952,7 +12952,7 @@
             "pv": "8.31",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2019-06-17T20:06:52+0000"
+            "updated": "2019-07-01T23:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -12997,7 +12997,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "eudev_3.2.7.bb",
+            "filename": "eudev_3.2.8.bb",
             "filepath": "recipes-core/udev",
             "homepage": "https://wiki.gentoo.org/wiki/Eudev",
             "id": 973595,
@@ -13006,10 +13006,10 @@
             "license": "GPLv2.0+ & LGPL-2.1+",
             "pn": "eudev",
             "provides": "eudev udev",
-            "pv": "3.2.7",
+            "pv": "3.2.8",
             "section": "base",
             "summary": "eudev is a fork of systemd's udev",
-            "updated": "2019-06-25T00:06:38+0000"
+            "updated": "2019-07-01T23:07:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -13047,7 +13047,7 @@
             "pv": "6.1+20181013",
             "section": "libs",
             "summary": "The New Curses library",
-            "updated": "2019-06-17T20:06:56+0000"
+            "updated": "2019-07-01T23:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -13066,7 +13066,7 @@
             "pv": "2019.78",
             "section": "console/network",
             "summary": "A lightweight SSH and SCP implementation",
-            "updated": "2019-06-25T00:06:39+0000"
+            "updated": "2019-07-01T23:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -13313,7 +13313,7 @@
             "pv": "2.88dsf",
             "section": "base",
             "summary": "System-V like init",
-            "updated": "2019-06-17T20:06:00+0000"
+            "updated": "2019-07-01T23:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13332,7 +13332,7 @@
             "pv": "1.30.1",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2019-06-25T00:06:40+0000"
+            "updated": "2019-07-01T23:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13624,7 +13624,7 @@
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org",
             "description": "GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.",
-            "filename": "glib-2.0_2.60.3.bb",
+            "filename": "glib-2.0_2.60.4.bb",
             "filepath": "recipes-core/glib-2.0",
             "homepage": "https://developer.gnome.org/glib/",
             "id": 973628,
@@ -13633,10 +13633,10 @@
             "license": "LGPLv2.1+ & BSD & PD",
             "pn": "glib-2.0",
             "provides": "glib-2.0 ",
-            "pv": "2.60.3",
+            "pv": "2.60.4",
             "section": "libs",
             "summary": "A general-purpose utility library",
-            "updated": "2019-06-25T00:06:05+0000"
+            "updated": "2019-07-01T23:07:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14149,7 +14149,7 @@
             "pv": "0.1+gitX",
             "section": "base",
             "summary": "Userspace framebuffer boot logo based on usplash",
-            "updated": "2019-06-25T00:06:43+0000"
+            "updated": "2019-07-01T23:07:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14327,7 +14327,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
-            "filename": "expat_2.2.6.bb",
+            "filename": "expat_2.2.7.bb",
             "filepath": "recipes-core/expat",
             "homepage": "http://expat.sourceforge.net/",
             "id": 973665,
@@ -14336,10 +14336,10 @@
             "license": "MIT",
             "pn": "expat",
             "provides": "expat ",
-            "pv": "2.2.6",
+            "pv": "2.2.7",
             "section": "libs",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2019-06-17T20:06:10+0000"
+            "updated": "2019-07-01T23:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -14358,7 +14358,7 @@
             "pv": "0.3.2",
             "section": "base",
             "summary": "Allows you to set-up and manipulate the Linux console",
-            "updated": "2019-06-17T20:06:10+0000"
+            "updated": "2019-07-01T23:07:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14700,7 +14700,7 @@
             "pv": "0.8.16",
             "section": "base",
             "summary": "ifupdown: basic ifup and ifdown used by initscripts",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-07-01T23:07:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -14719,7 +14719,7 @@
             "pv": "2.0.4",
             "section": "base",
             "summary": "Keytable files and keyboard utilities",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-07-01T23:07:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14738,7 +14738,7 @@
             "pv": "2.33.2",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2019-06-19T23:06:40+0000"
+            "updated": "2019-07-01T23:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -15061,7 +15061,7 @@
             "pv": "9.22",
             "section": "x11/utils",
             "summary": "rxvt terminal clone supporting unicode",
-            "updated": "2019-06-17T20:06:18+0000"
+            "updated": "2019-07-01T23:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -15270,7 +15270,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Updates the NVD CVE database",
-            "updated": "2019-06-25T00:06:48+0000"
+            "updated": "2019-07-01T23:07:45+0000"
         },
         {
             "bbclassextend": "native",

@@ -94,46 +94,46 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190624",
+            "bitbake_branch": "wr-10.19-20190701",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-06-25T00:06:40+0000",
+            "updated": "2019-07-01T23:07:23+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190626",
+            "actual_branch": "wr-10.19-20190701",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-06-26T01:06:03+0000",
-            "vcs_last_commit": "2019-06-26T01:06:03+0000",
-            "vcs_last_fetch": "2019-06-26T01:06:03+0000",
-            "vcs_last_rev": "7bd7b400433bde67b602dcb66722689f29a585b1",
+            "updated": "2019-07-02T02:07:10+0000",
+            "vcs_last_commit": "2019-07-02T02:07:10+0000",
+            "vcs_last_fetch": "2019-07-02T02:07:10+0000",
+            "vcs_last_rev": "3a531b51c2cb87b9f5cba23baf3925a003fbcc42",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190613",
+            "actual_branch": "wr-10.19-20190701",
             "branch": 38,
             "collection": "security",
             "id": 14954,
             "layer": 18,
-            "updated": "2019-06-26T20:06:17+0000",
-            "vcs_last_commit": "2019-06-26T20:06:17+0000",
-            "vcs_last_fetch": "2019-06-26T20:06:17+0000",
-            "vcs_last_rev": "945bd6a4708e56a9da663679e1fd95d187cae332",
+            "updated": "2019-07-01T01:07:36+0000",
+            "vcs_last_commit": "2019-07-01T01:07:36+0000",
+            "vcs_last_fetch": "2019-07-01T01:07:36+0000",
+            "vcs_last_rev": "df5fc3224cfa32631f7044cbb36c1e2203e39361",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 9
+            "yp_compatible_version": 10
         },
         {
             "actual_branch": "wr-10.19-20190624",
@@ -606,7 +606,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-19T19:03:39+0000"
+            "updated": "2019-07-01T23:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -917,7 +917,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libmspack_0.10.1.bb",
+            "filename": "libmspack_1.9.1.bb",
             "filepath": "recipes-security/libmspack",
             "homepage": "http://www.cabextract.org.uk/libmspack/",
             "id": 725149,
@@ -926,10 +926,10 @@
             "license": "LGPL-2.1",
             "pn": "libmspack",
             "provides": "libmspack ",
-            "pv": "0.10.1",
+            "pv": "1.9.1",
             "section": "lib",
             "summary": "A library for Microsoft compression formats",
-            "updated": "2019-04-08T23:04:19+0000"
+            "updated": "2019-07-01T23:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1062,7 +1062,7 @@
             "pv": "0.99.4",
             "section": "security",
             "summary": "ClamAV anti-virus utility for Unix - command-line interface",
-            "updated": "2019-04-15T19:04:49+0000"
+            "updated": "2019-07-01T23:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1221,7 +1221,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "tpm2-tools",
-            "filename": "tpm2-tools_3.1.3.bb",
+            "filename": "tpm2-tools_3.2.0.bb",
             "filepath": "meta-tpm/recipes-tpm2/tpm2-tools",
             "homepage": "",
             "id": 917954,
@@ -1230,17 +1230,17 @@
             "license": "BSD",
             "pn": "tpm2-tools",
             "provides": "tpm2-tools ",
-            "pv": "3.1.3",
+            "pv": "3.2.0",
             "section": "tpm",
             "summary": "Tools for TPM2.",
-            "updated": "2019-04-02T23:04:59+0000"
+            "updated": "2019-07-01T23:07:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "OSS implementation of the TCG TPM2 Software Stack (TSS2) ",
-            "filename": "tpm2-tss_2.2.1.bb",
+            "filename": "tpm2-tss_2.2.3.bb",
             "filepath": "meta-tpm/recipes-tpm2/tpm2-tss",
             "homepage": "",
             "id": 917955,
@@ -1249,10 +1249,10 @@
             "license": "BSD-2-Clause",
             "pn": "tpm2-tss",
             "provides": "tpm2-tss      tpm2-tss     tpm2-tss-dbg     tpm2-tss-doc     libtss2-mu     libtss2-mu-dev     libtss2-mu-staticdev     libtss2-tcti-device     libtss2-tcti-device-dev     libtss2-tcti-device-staticdev     libtss2-tcti-mssim     libtss2-tcti-mssim-dev     libtss2-tcti-mssim-staticdev     libtss2     libtss2-dev     libtss2-staticdev ",
-            "pv": "2.2.1",
+            "pv": "2.2.3",
             "section": "tpm",
             "summary": "Software stack for TPM2.",
-            "updated": "2019-04-02T23:04:59+0000"
+            "updated": "2019-07-01T23:07:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1290,7 +1290,7 @@
             "pv": "0.9.9",
             "section": "security/tpm",
             "summary": "A PKCS#11 interface for TPM2 hardware",
-            "updated": "2019-04-02T23:04:59+0000"
+            "updated": "2019-07-01T23:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1309,33 +1309,33 @@
             "pv": "0.9.9",
             "section": "security/tpm",
             "summary": "TCTI module for use with TSS2 libraries in UEFI environment",
-            "updated": "2019-03-19T19:03:40+0000"
+            "updated": "2019-07-01T23:07:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "The tpm2-tss-engine project implements a cryptographic engine for OpenSSL for Trusted Platform Module (TPM 2.0) using the tpm2-tss software stack that follows the Trusted Computing Groups (TCG) TPM Software Stack (TSS 2.0). It uses the Enhanced System API (ESAPI) interface of the TSS 2.0 for downwards communication. It supports RSA decryption and signatures as well as ECDSA signatures.",
-            "filename": "tpm2-totp_0.9.9.bb",
+            "description": "",
+            "filename": "tpm2-totp_0.1.1.bb",
             "filepath": "meta-tpm/recipes-tpm2/tpm2-totp",
             "homepage": "",
             "id": 926632,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 14954,
-            "license": "BSD-2-Clause",
+            "license": "BSD-3-Clause",
             "pn": "tpm2-totp",
             "provides": "tpm2-totp ",
-            "pv": "0.9.9",
+            "pv": "0.1.1",
             "section": "security/tpm",
-            "summary": "The tpm2-tss-engine project implements a cryptographic engine for OpenSSL.",
-            "updated": "2019-03-19T19:03:41+0000"
+            "summary": "Attest the trustworthiness of a device against a human using time-based one-time passwords",
+            "updated": "2019-07-01T23:07:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The tpm2-tss-engine project implements a cryptographic engine for OpenSSL for Trusted Platform Module (TPM 2.0) using the tpm2-tss software stack that follows the Trusted Computing Groups (TCG) TPM Software Stack (TSS 2.0). It uses the Enhanced System API (ESAPI) interface of the TSS 2.0 for downwards communication. It supports RSA decryption and signatures as well as ECDSA signatures.",
-            "filename": "tpm2-tss-engine_0.9.9.bb",
+            "filename": "tpm2-tss-engine_1.0.0.bb",
             "filepath": "meta-tpm/recipes-tpm2/tpm2-tss-engine",
             "homepage": "",
             "id": 926633,
@@ -1344,10 +1344,10 @@
             "license": "BSD-2-Clause",
             "pn": "tpm2-tss-engine",
             "provides": "tpm2-tss-engine ",
-            "pv": "0.9.9",
+            "pv": "1.0.0",
             "section": "security/tpm",
             "summary": "The tpm2-tss-engine project implements a cryptographic engine for OpenSSL.",
-            "updated": "2019-03-19T19:03:41+0000"
+            "updated": "2019-07-01T23:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1537,7 +1537,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2019-05-29T20:05:36+0000"
+            "updated": "2019-07-01T23:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1595,6 +1595,63 @@
             "section": "base",
             "summary": "IMA sample simple policy",
             "updated": "2019-05-29T20:05:37+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A small image for building a tpm2 image for testing",
+            "filename": "security-tpm2-image.bb",
+            "filepath": "meta-tpm/recipes-core/images",
+            "homepage": "",
+            "id": 983087,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 14954,
+            "license": "MIT",
+            "pn": "security-tpm2-image",
+            "provides": "security-tpm2-image ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-01T23:07:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A small image for testing meta-security packages",
+            "filename": "security-test-image.bb",
+            "filepath": "recipes-security/images",
+            "homepage": "",
+            "id": 983088,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 14954,
+            "license": "MIT",
+            "pn": "security-test-image",
+            "provides": "security-test-image ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-01T23:07:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Security ptest packagegroup",
+            "filename": "packagegroup-core-security-ptest.bb",
+            "filepath": "recipes-security/packagegroup",
+            "homepage": "",
+            "id": 983089,
+            "inherits": "",
+            "layerbranch": 14954,
+            "license": "MIT",
+            "pn": "packagegroup-core-security-ptest",
+            "provides": "packagegroup-core-security-ptest ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-01T23:07:09+0000"
         }
     ],
     "wrtemplates": []
