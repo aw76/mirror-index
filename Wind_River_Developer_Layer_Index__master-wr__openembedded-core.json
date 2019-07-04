@@ -116,15 +116,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190701",
+            "actual_branch": "wr-10.19-20190703",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-03T01:07:31+0000",
-            "vcs_last_commit": "2019-07-03T01:07:31+0000",
-            "vcs_last_fetch": "2019-07-03T01:07:31+0000",
-            "vcs_last_rev": "21cd45e16a2db2d232556d946b0158c842e61b8e",
+            "updated": "2019-07-03T23:07:27+0000",
+            "vcs_last_commit": "2019-07-03T23:07:27+0000",
+            "vcs_last_fetch": "2019-07-03T23:07:27+0000",
+            "vcs_last_rev": "e0c9a37921ab83a01432d07633a4974e9ddbdcae",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -2369,7 +2369,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2019-06-13T20:06:03+0000"
+            "updated": "2019-07-03T19:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2388,7 +2388,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2019-06-13T20:06:03+0000"
+            "updated": "2019-07-03T19:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2407,7 +2407,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:04+0000"
+            "updated": "2019-07-03T19:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4846,7 +4846,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS 5, PKCS 7, PKCS 11, PKCS 12, S/MIME, X.509 v3 certificates, and other security standards.",
-            "filename": "nss_3.44.bb",
+            "filename": "nss_3.44.1.bb",
             "filepath": "recipes-support/nss",
             "homepage": "http://www.mozilla.org/projects/security/pki/nss/",
             "id": 973165,
@@ -4855,10 +4855,10 @@
             "license": "MPL-2.0 | (MPL-2.0 & GPL-2.0+) | (MPL-2.0 & LGPL-2.1+)",
             "pn": "nss",
             "provides": "nss ",
-            "pv": "3.44",
+            "pv": "3.44.1",
             "section": "libs",
             "summary": "Mozilla's SSL and TLS implementation",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-07-03T19:07:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6473,7 +6473,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-06-13T20:06:58+0000"
+            "updated": "2019-07-03T19:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6492,7 +6492,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-06-13T20:06:59+0000"
+            "updated": "2019-07-03T19:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -6587,7 +6587,7 @@
             "pv": "1.07.1",
             "section": "base",
             "summary": "Arbitrary precision calculator language",
-            "updated": "2019-07-01T23:07:26+0000"
+            "updated": "2019-07-03T19:07:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7442,7 +7442,7 @@
             "pv": "20190115",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2019-07-03T01:07:41+0000"
+            "updated": "2019-07-03T23:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -7632,7 +7632,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:44+0000"
+            "updated": "2019-07-03T19:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -7651,7 +7651,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-06-13T20:06:45+0000"
+            "updated": "2019-07-03T19:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -7670,7 +7670,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:45+0000"
+            "updated": "2019-07-03T19:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -7689,7 +7689,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:46+0000"
+            "updated": "2019-07-03T19:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -7708,7 +7708,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:46+0000"
+            "updated": "2019-07-03T19:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -7727,7 +7727,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:47+0000"
+            "updated": "2019-07-03T19:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -7746,7 +7746,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:47+0000"
+            "updated": "2019-07-03T19:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -8164,7 +8164,7 @@
             "pv": "4.1",
             "section": "base",
             "summary": "Tool for managing software RAID under Linux",
-            "updated": "2019-06-17T20:06:22+0000"
+            "updated": "2019-07-03T19:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -8551,7 +8551,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.",
-            "filename": "bzip2_1.0.6.bb",
+            "filename": "bzip2_1.0.7.bb",
             "filepath": "recipes-extended/bzip2",
             "homepage": "https://sourceware.org/bzip2/",
             "id": 973361,
@@ -8560,10 +8560,10 @@
             "license": "bzip2",
             "pn": "bzip2",
             "provides": "bzip2 ",
-            "pv": "1.0.6",
+            "pv": "1.0.7",
             "section": "console/utils",
             "summary": "Very high-quality data compression program",
-            "updated": "2019-07-01T23:07:00+0000"
+            "updated": "2019-07-03T19:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -9786,7 +9786,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "unfs3_0.9.22.r497.bb",
+            "filename": "unfs3_git.bb",
             "filepath": "recipes-devtools/unfs3",
             "homepage": "",
             "id": 973426,
@@ -9795,10 +9795,10 @@
             "license": "unfs3",
             "pn": "unfs3",
             "provides": "unfs3 ",
-            "pv": "0.9.22.r497",
+            "pv": "0.9.22+X",
             "section": "console/network",
             "summary": "Userspace NFS server v3 protocol",
-            "updated": "2019-06-17T20:06:53+0000"
+            "updated": "2019-07-03T19:07:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -9843,7 +9843,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Bison is a general-purpose parser generator that converts an annotated context-free grammar into an LALR(1) or GLR parser for that grammar.  Bison is upward compatible with Yacc: all properly-written Yacc grammars ought to work with Bison with no change. Anyone familiar with Yacc should be able to use Bison with little trouble.",
-            "filename": "bison_3.3.2.bb",
+            "filename": "bison_3.4.1.bb",
             "filepath": "recipes-devtools/bison",
             "homepage": "http://www.gnu.org/software/bison/",
             "id": 973429,
@@ -9852,10 +9852,10 @@
             "license": "GPLv3",
             "pn": "bison",
             "provides": "bison ",
-            "pv": "3.3.2",
+            "pv": "3.4.1",
             "section": "devel",
             "summary": "GNU Project parser generator (yacc replacement)",
-            "updated": "2019-06-17T20:06:55+0000"
+            "updated": "2019-07-03T19:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -10470,7 +10470,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "quilt_0.65.bb",
+            "filename": "quilt_0.66.bb",
             "filepath": "recipes-devtools/quilt",
             "homepage": "http://savannah.nongnu.org/projects/quilt/",
             "id": 973462,
@@ -10479,17 +10479,17 @@
             "license": "GPLv2",
             "pn": "quilt",
             "provides": "quilt ",
-            "pv": "0.65",
+            "pv": "0.66",
             "section": "devel",
             "summary": "Tool for working with series of patches",
-            "updated": "2019-06-17T20:06:06+0000"
+            "updated": "2019-07-03T19:07:52+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "quilt-native_0.65.bb",
+            "filename": "quilt-native_0.66.bb",
             "filepath": "recipes-devtools/quilt",
             "homepage": "http://savannah.nongnu.org/projects/quilt/",
             "id": 973463,
@@ -10498,10 +10498,10 @@
             "license": "GPLv2",
             "pn": "quilt-native",
             "provides": "quilt-native ",
-            "pv": "0.65",
+            "pv": "0.66",
             "section": "devel",
             "summary": "Tool for working with series of patches",
-            "updated": "2019-06-17T20:06:06+0000"
+            "updated": "2019-07-03T19:07:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -12199,7 +12199,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Ruby is an interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible. ",
-            "filename": "ruby_2.5.3.bb",
+            "filename": "ruby_2.5.5.bb",
             "filepath": "recipes-devtools/ruby",
             "homepage": "http://www.ruby-lang.org/",
             "id": 973553,
@@ -12208,10 +12208,10 @@
             "license": "Ruby | BSD | GPLv2",
             "pn": "ruby",
             "provides": "ruby ",
-            "pv": "2.5.3",
+            "pv": "2.5.5",
             "section": "devel/ruby",
             "summary": "An interpreter of object-oriented scripting language",
-            "updated": "2019-06-17T20:06:40+0000"
+            "updated": "2019-07-03T19:07:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -13123,7 +13123,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:52+0000"
+            "updated": "2019-07-03T19:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -13674,7 +13674,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-06-13T20:06:55+0000"
+            "updated": "2019-07-03T19:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -13693,7 +13693,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:56+0000"
+            "updated": "2019-07-03T19:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -13712,7 +13712,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-06-13T20:06:51+0000"
+            "updated": "2019-07-03T19:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -13731,7 +13731,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2019-06-13T20:06:38+0000"
+            "updated": "2019-07-03T19:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -13750,7 +13750,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2019-06-13T20:06:53+0000"
+            "updated": "2019-07-03T19:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -13769,7 +13769,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:00+0000"
+            "updated": "2019-07-03T19:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -13788,7 +13788,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-06-13T20:06:01+0000"
+            "updated": "2019-07-03T19:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -14947,7 +14947,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-26T20:06:59+0000"
+            "updated": "2019-07-03T19:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -14966,7 +14966,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:48+0000"
+            "updated": "2019-07-03T19:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -14985,7 +14985,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-26T20:06:59+0000"
+            "updated": "2019-07-03T19:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -15004,7 +15004,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:49+0000"
+            "updated": "2019-07-03T19:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -15023,7 +15023,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T20:06:50+0000"
+            "updated": "2019-07-03T19:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -15194,7 +15194,7 @@
             "pv": "37",
             "section": "base",
             "summary": "Tools to manipulate UEFI variables",
-            "updated": "2019-06-17T20:06:20+0000"
+            "updated": "2019-07-03T19:07:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
