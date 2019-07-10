@@ -94,29 +94,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190701",
+            "bitbake_branch": "wr-10.19-20190708",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-01T23:07:23+0000",
+            "updated": "2019-07-09T22:07:46+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190703",
+            "actual_branch": "wr-10.19-20190708",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-04T23:07:17+0000",
-            "vcs_last_commit": "2019-07-04T23:07:17+0000",
-            "vcs_last_fetch": "2019-07-04T23:07:17+0000",
-            "vcs_last_rev": "8351f9df36469ec846c225bd2f2dade598185015",
+            "updated": "2019-07-10T01:07:04+0000",
+            "vcs_last_commit": "2019-07-10T01:07:04+0000",
+            "vcs_last_fetch": "2019-07-10T01:07:04+0000",
+            "vcs_last_rev": "0174d00611885e4f9ab89afd87caadb913e40621",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -136,15 +136,29 @@
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190626",
+            "actual_branch": "wr-10.19-20190624",
+            "branch": 38,
+            "collection": "networking-layer",
+            "id": 14964,
+            "layer": 11,
+            "updated": "2019-06-28T11:06:11+0000",
+            "vcs_last_commit": "2019-06-28T11:06:11+0000",
+            "vcs_last_fetch": "2019-06-28T11:06:11+0000",
+            "vcs_last_rev": "1c6f7b8d5920cc5db7ce0a2d388667155dab18e5",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": 9
+        },
+        {
+            "actual_branch": "wr-10.19-20190708",
             "branch": 38,
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2019-06-26T01:06:03+0000",
-            "vcs_last_commit": "2019-06-26T01:06:03+0000",
-            "vcs_last_fetch": "2019-06-26T01:06:03+0000",
-            "vcs_last_rev": "16a34f2bb64112e6b770505210ce72c90e516c95",
+            "updated": "2019-07-07T19:07:08+0000",
+            "vcs_last_commit": "2019-07-07T19:07:08+0000",
+            "vcs_last_fetch": "2019-07-07T19:07:08+0000",
+            "vcs_last_rev": "26939a3524a876e5de4353e6b357548b01e4c7f6",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 9
@@ -166,6 +180,12 @@
         {
             "dependency": 8,
             "id": 50833,
+            "layerbranch": 52439,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 53287,
             "layerbranch": 52439,
             "required": true
         }
@@ -200,6 +220,24 @@
             "status": "P",
             "summary": "Filesystem related libraries and programs",
             "updated": "2018-05-30T22:05:59+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -370,7 +408,7 @@
             "filepath": "recipes-support/nss-pam-ldapd",
             "homepage": "http://arthurdejong.org/nss-pam-ldapd/",
             "id": 724450,
-            "inherits": "autotools siteconfig siteinfo systemd update-rc.d",
+            "inherits": "autotools distro_features_check siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 52439,
             "license": "LGPLv2.1",
             "pn": "nss-pam-ldapd",
@@ -378,7 +416,7 @@
             "pv": "0.9.8",
             "section": "base",
             "summary": "NSS and PAM module for using LDAP as a naming service",
-            "updated": "2018-11-05T18:11:25+0000"
+            "updated": "2019-07-09T22:07:56+0000"
         },
         {
             "bbclassextend": "",

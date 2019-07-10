@@ -94,43 +94,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190701",
+            "bitbake_branch": "wr-10.19-20190708",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-01T23:07:23+0000",
+            "updated": "2019-07-09T22:07:46+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190703",
+            "actual_branch": "wr-10.19-20190708",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-04T23:07:17+0000",
-            "vcs_last_commit": "2019-07-04T23:07:17+0000",
-            "vcs_last_fetch": "2019-07-04T23:07:17+0000",
-            "vcs_last_rev": "8351f9df36469ec846c225bd2f2dade598185015",
+            "updated": "2019-07-10T01:07:04+0000",
+            "vcs_last_commit": "2019-07-10T01:07:04+0000",
+            "vcs_last_fetch": "2019-07-10T01:07:04+0000",
+            "vcs_last_rev": "0174d00611885e4f9ab89afd87caadb913e40621",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190703",
+            "actual_branch": "wr-10.19-20190708",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2019-07-02T23:07:24+0000",
-            "vcs_last_commit": "2019-07-02T23:07:24+0000",
-            "vcs_last_fetch": "2019-07-02T23:07:24+0000",
-            "vcs_last_rev": "af1ebd87babba84ed202206c8fddac40936928bf",
+            "updated": "2019-07-07T19:07:40+0000",
+            "vcs_last_commit": "2019-07-07T19:07:40+0000",
+            "vcs_last_fetch": "2019-07-07T19:07:40+0000",
+            "vcs_last_rev": "35250aa410b3fe240b05378a0e5255333075ea5d",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 9
@@ -267,7 +267,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The ixgbe driver supports 82598- and 82599-based PCI Express* 10 Gigabit Network Connections.",
-            "filename": "ixgbe_5.5.5.bb",
+            "filename": "ixgbe_5.6.1.bb",
             "filepath": "recipes-kernel/intel-ethernet",
             "homepage": "https://sourceforge.net/projects/e1000/",
             "id": 724409,
@@ -276,17 +276,17 @@
             "license": "GPLv2",
             "pn": "ixgbe",
             "provides": "ixgbe ",
-            "pv": "5.5.5",
+            "pv": "5.6.1",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2019-05-13T19:05:38+0000"
+            "updated": "2019-07-09T22:07:44+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This virtual function driver supports kernel versions 2.6.x and newer This driver supports 82599, X540, X550, and X552-based virtual function devices that can only be activated on kernels that support SR-IOV. SR-IOV requires the correct platform and OS support. The guest OS loading this driver must support MSI-X interrupts.",
-            "filename": "ixgbevf_4.5.3.bb",
+            "filename": "ixgbevf_4.6.1.bb",
             "filepath": "recipes-kernel/intel-ethernet",
             "homepage": "https://sourceforge.net/projects/e1000/",
             "id": 724410,
@@ -295,10 +295,10 @@
             "license": "GPLv2",
             "pn": "ixgbevf",
             "provides": "ixgbevf ",
-            "pv": "4.5.3",
+            "pv": "4.6.1",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2019-05-13T19:05:38+0000"
+            "updated": "2019-07-09T22:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -564,7 +564,7 @@
             "pv": "20190618",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2019-06-25T00:06:33+0000"
+            "updated": "2019-07-09T22:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -713,10 +713,10 @@
             "license": "GPLv2",
             "pn": "linux-intel-rt",
             "provides": "linux-intel-rt  virtual/kernel",
-            "pv": "4.19.31+gitX",
+            "pv": "4.19.37+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-05-16T00:05:18+0000"
+            "updated": "2019-07-09T22:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -727,7 +727,7 @@
             "filepath": "recipes-core/mkl-dnn",
             "homepage": "",
             "id": 917950,
-            "inherits": "cmake pkgconfig",
+            "inherits": "cmake pkgconfig ptest",
             "layerbranch": 84751,
             "license": "Apache-2.0 & BSD-3-Clause",
             "pn": "mkl-dnn",
@@ -735,7 +735,7 @@
             "pv": "0.19+gitX",
             "section": "lib",
             "summary": "Intel Math Kernel Library for Deep Neural Networks",
-            "updated": "2019-07-01T23:07:38+0000"
+            "updated": "2019-07-09T22:07:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -792,7 +792,7 @@
             "pv": "5.1.0+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-05-21T19:05:10+0000"
+            "updated": "2019-07-09T22:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -907,6 +907,25 @@
             "section": "base",
             "summary": "Intel(R) METEE Library",
             "updated": "2019-06-25T00:06:33+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This is a user space implementation to prevent copying of digital audio & video content across digital display interfaces. It provides Linux user space implementation to enable the HDCP1.4 and HDCP2.2 protection for external digital display interface",
+            "filename": "hdcp_19.1.0.bb",
+            "filepath": "recipes-graphics/hdcp",
+            "homepage": "",
+            "id": 989847,
+            "inherits": "cmake distro_features_check pkgconfig systemd useradd useradd_base",
+            "layerbranch": 84751,
+            "license": "BSD-3-Clause",
+            "pn": "hdcp",
+            "provides": "hdcp ",
+            "pv": "19.1.0",
+            "section": "lib",
+            "summary": "Intel(R) unified HDCP SDK",
+            "updated": "2019-07-09T22:07:44+0000"
         }
     ],
     "wrtemplates": []

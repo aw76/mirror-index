@@ -94,14 +94,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190701",
+            "bitbake_branch": "wr-10.19-20190708",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-01T23:07:23+0000",
+            "updated": "2019-07-09T22:07:46+0000",
             "updates_enabled": true
         }
     ],
@@ -116,15 +116,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190703",
+            "actual_branch": "wr-10.19-20190708",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-04T23:07:17+0000",
-            "vcs_last_commit": "2019-07-04T23:07:17+0000",
-            "vcs_last_fetch": "2019-07-04T23:07:17+0000",
-            "vcs_last_rev": "8351f9df36469ec846c225bd2f2dade598185015",
+            "updated": "2019-07-10T01:07:04+0000",
+            "vcs_last_commit": "2019-07-10T01:07:04+0000",
+            "vcs_last_fetch": "2019-07-10T01:07:04+0000",
+            "vcs_last_rev": "0174d00611885e4f9ab89afd87caadb913e40621",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -214,15 +214,15 @@
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190701",
+            "actual_branch": "wr-10.19-20190708",
             "branch": 38,
             "collection": "meta-anaconda",
             "id": 493034,
             "layer": 235,
-            "updated": "2019-07-01T01:07:58+0000",
-            "vcs_last_commit": "2019-07-01T01:07:58+0000",
-            "vcs_last_fetch": "2019-07-01T01:07:58+0000",
-            "vcs_last_rev": "9a4b898d39fa82e4a7c59cfe50fe49af46872547",
+            "updated": "2019-07-07T19:07:40+0000",
+            "vcs_last_commit": "2019-07-07T19:07:40+0000",
+            "vcs_last_fetch": "2019-07-07T19:07:40+0000",
+            "vcs_last_rev": "711e9a2787ddce4e07fbec8c73c85352a0572b4a",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 9
@@ -469,7 +469,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The anaconda package",
-            "filename": "python3-anaconda_28.22.11.bb",
+            "filename": "python3-anaconda_30.25.6.bb",
             "filepath": "recipes-installer/anaconda",
             "homepage": "http://fedoraproject.org/wiki/Anaconda",
             "id": 776561,
@@ -478,10 +478,10 @@
             "license": "GPLv2",
             "pn": "python3-anaconda",
             "provides": "python3-anaconda ",
-            "pv": "28.22.11",
+            "pv": "30.25.6",
             "section": "devel",
             "summary": "The anaconda package",
-            "updated": "2019-07-01T23:07:43+0000"
+            "updated": "2019-07-09T22:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -500,7 +500,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-01T23:07:44+0000"
+            "updated": "2019-07-09T22:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -519,7 +519,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-01T23:07:44+0000"
+            "updated": "2019-07-09T22:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -577,6 +577,25 @@
             "section": "base",
             "summary": "",
             "updated": "2019-07-01T23:07:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Product, compose and installation media metadata library",
+            "filename": "python3-productmd_1.21.bb",
+            "filepath": "recipes-installer/python3-productmd",
+            "homepage": "http://productmd.readthedocs.io/en/latest/",
+            "id": 989848,
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "layerbranch": 493034,
+            "license": "LGPLv2.1",
+            "pn": "python3-productmd",
+            "provides": "python3-productmd ",
+            "pv": "1.21",
+            "section": "devel",
+            "summary": "ProductMD is a Python library providing parsers for metadatarelated to composes and installation media",
+            "updated": "2019-07-09T22:07:49+0000"
         }
     ],
     "wrtemplates": []

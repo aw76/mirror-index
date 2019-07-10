@@ -94,14 +94,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190701",
+            "bitbake_branch": "wr-10.19-20190708",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-01T23:07:23+0000",
+            "updated": "2019-07-09T22:07:46+0000",
             "updates_enabled": true
         }
     ],
@@ -116,15 +116,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190703",
+            "actual_branch": "wr-10.19-20190708",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-04T23:07:17+0000",
-            "vcs_last_commit": "2019-07-04T23:07:17+0000",
-            "vcs_last_fetch": "2019-07-04T23:07:17+0000",
-            "vcs_last_rev": "8351f9df36469ec846c225bd2f2dade598185015",
+            "updated": "2019-07-10T01:07:04+0000",
+            "vcs_last_commit": "2019-07-10T01:07:04+0000",
+            "vcs_last_fetch": "2019-07-10T01:07:04+0000",
+            "vcs_last_rev": "0174d00611885e4f9ab89afd87caadb913e40621",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -1533,7 +1533,7 @@
             "pv": "1.16.0",
             "section": "libs",
             "summary": "The Cairo 2D vector graphics library",
-            "updated": "2019-07-01T23:07:04+0000"
+            "updated": "2019-07-09T22:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -3129,7 +3129,7 @@
             "pv": "9.11.5-P4",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2019-07-01T23:07:12+0000"
+            "updated": "2019-07-09T22:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4478,7 +4478,7 @@
             "pv": "64.2",
             "section": "base",
             "summary": "International Component for Unicode libraries",
-            "updated": "2019-07-01T23:07:20+0000"
+            "updated": "2019-07-09T22:07:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -4668,7 +4668,7 @@
             "pv": "7.65.1",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2019-07-01T23:07:20+0000"
+            "updated": "2019-07-09T22:07:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4706,7 +4706,7 @@
             "pv": "6.7",
             "section": "base",
             "summary": "Random number generator daemon",
-            "updated": "2019-06-25T00:06:21+0000"
+            "updated": "2019-07-09T22:07:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4763,7 +4763,7 @@
             "pv": "4.21",
             "section": "libs/network",
             "summary": "Netscape Portable Runtime Library",
-            "updated": "2019-07-01T23:07:21+0000"
+            "updated": "2019-07-09T22:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -5447,7 +5447,7 @@
             "pv": "1.36",
             "section": "libs",
             "summary": "Small library that defines common error values for all GnuPG components",
-            "updated": "2019-07-01T23:07:24+0000"
+            "updated": "2019-07-09T22:07:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -6625,7 +6625,7 @@
             "pv": "12.1.3",
             "section": "console/utils",
             "summary": "System performance tools",
-            "updated": "2019-06-25T00:06:45+0000"
+            "updated": "2019-07-10T01:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -6967,7 +6967,7 @@
             "pv": "1.22.4",
             "section": "base",
             "summary": "GNU Troff software",
-            "updated": "2019-07-01T23:07:29+0000"
+            "updated": "2019-07-09T22:07:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7157,7 +7157,7 @@
             "pv": "23.2",
             "section": "base",
             "summary": "Utilities for managing processes on your system",
-            "updated": "2019-07-01T23:07:31+0000"
+            "updated": "2019-07-09T22:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -7442,7 +7442,7 @@
             "pv": "20190115",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2019-07-03T23:07:49+0000"
+            "updated": "2019-07-09T22:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -8715,7 +8715,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2019-06-17T20:06:32+0000"
+            "updated": "2019-07-09T22:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8753,7 +8753,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2019-06-17T20:06:33+0000"
+            "updated": "2019-07-09T22:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -10052,7 +10052,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-mako_1.0.12.bb",
+            "filename": "python3-mako_1.0.13.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.makotemplates.org/",
             "id": 973440,
@@ -10061,10 +10061,10 @@
             "license": "MIT",
             "pn": "python3-mako",
             "provides": "python3-mako ",
-            "pv": "1.0.12",
+            "pv": "1.0.13",
             "section": "devel/python",
             "summary": "Templating library for Python",
-            "updated": "2019-07-01T23:07:38+0000"
+            "updated": "2019-07-09T22:07:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11698,7 +11698,7 @@
             "pv": "2.4.6",
             "section": "devel",
             "summary": "Generic library support script",
-            "updated": "2019-07-01T23:07:05+0000"
+            "updated": "2019-07-09T22:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -12306,7 +12306,7 @@
             "pv": "1.60.2",
             "section": "libs",
             "summary": "Middleware layer between GObject-using C libraries and language bindings",
-            "updated": "2019-07-01T23:07:07+0000"
+            "updated": "2019-07-09T22:07:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -12667,7 +12667,7 @@
             "pv": "2.29",
             "section": "libs",
             "summary": "Locale data from glibc",
-            "updated": "2019-06-17T20:06:49+0000"
+            "updated": "2019-07-09T22:07:36+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12686,7 +12686,7 @@
             "pv": "2.29",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-07-01T23:07:11+0000"
+            "updated": "2019-07-09T22:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -13320,7 +13320,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.busybox.net/",
             "description": "BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.",
-            "filename": "busybox_1.30.1.bb",
+            "filename": "busybox_1.31.0.bb",
             "filepath": "recipes-core/busybox",
             "homepage": "http://www.busybox.net",
             "id": 973612,
@@ -13329,17 +13329,17 @@
             "license": "GPLv2 & bzip2",
             "pn": "busybox",
             "provides": "busybox ",
-            "pv": "1.30.1",
+            "pv": "1.31.0",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2019-07-01T23:07:17+0000"
+            "updated": "2019-07-09T22:07:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "busybox-inittab_1.30.1.bb",
+            "filename": "busybox-inittab_1.31.0.bb",
             "filepath": "recipes-core/busybox",
             "homepage": "",
             "id": 973613,
@@ -13348,10 +13348,10 @@
             "license": "GPLv2",
             "pn": "busybox-inittab",
             "provides": "busybox-inittab ",
-            "pv": "1.30.1",
+            "pv": "1.31.0",
             "section": "base",
             "summary": "inittab configuration for BusyBox",
-            "updated": "2019-06-17T20:06:01+0000"
+            "updated": "2019-07-09T22:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -14688,7 +14688,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "High level tools to configure network interfaces This package provides the tools ifup and ifdown which may be used to configure (or, respectively, deconfigure) network interfaces, based on the file /etc/network/interfaces.",
-            "filename": "ifupdown_0.8.16.bb",
+            "filename": "ifupdown_0.8.22.bb",
             "filepath": "recipes-core/ifupdown",
             "homepage": "",
             "id": 973684,
@@ -14697,10 +14697,10 @@
             "license": "GPLv2",
             "pn": "ifupdown",
             "provides": "ifupdown ",
-            "pv": "0.8.16",
+            "pv": "0.8.22",
             "section": "base",
             "summary": "ifupdown: basic ifup and ifdown used by initscripts",
-            "updated": "2019-07-01T23:07:22+0000"
+            "updated": "2019-07-09T22:07:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -15213,7 +15213,7 @@
             "pv": "0.7.9",
             "section": "base",
             "summary": "An alternate posix capabilities library - python",
-            "updated": "2019-06-19T23:06:42+0000"
+            "updated": "2019-07-09T22:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -15270,7 +15270,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Updates the NVD CVE database",
-            "updated": "2019-07-01T23:07:45+0000"
+            "updated": "2019-07-09T22:07:33+0000"
         },
         {
             "bbclassextend": "native",
