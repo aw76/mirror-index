@@ -108,57 +108,57 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190708",
+            "actual_branch": "wr-10.19-20190710",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-10T01:07:04+0000",
-            "vcs_last_commit": "2019-07-10T01:07:04+0000",
-            "vcs_last_fetch": "2019-07-10T01:07:04+0000",
-            "vcs_last_rev": "0174d00611885e4f9ab89afd87caadb913e40621",
+            "updated": "2019-07-10T20:07:46+0000",
+            "vcs_last_commit": "2019-07-10T20:07:46+0000",
+            "vcs_last_fetch": "2019-07-10T20:07:46+0000",
+            "vcs_last_rev": "2e97c9e63861e792f2d5c69e5be28fae24c684c6",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190624",
+            "actual_branch": "wr-10.19-20190710",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-06-28T11:06:11+0000",
-            "vcs_last_commit": "2019-06-28T11:06:11+0000",
-            "vcs_last_fetch": "2019-06-28T11:06:11+0000",
-            "vcs_last_rev": "1c6f7b8d5920cc5db7ce0a2d388667155dab18e5",
+            "updated": "2019-07-09T23:07:43+0000",
+            "vcs_last_commit": "2019-07-09T23:07:43+0000",
+            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
+            "vcs_last_rev": "ea3cbc6814f9b520d29d5c0e3db4c952672cf1fc",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190624",
+            "actual_branch": "wr-10.19-20190710",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-06-27T00:06:54+0000",
-            "vcs_last_commit": "2019-06-27T00:06:54+0000",
-            "vcs_last_fetch": "2019-06-27T00:06:54+0000",
-            "vcs_last_rev": "7b91980a25d3e19b0198a9b2765bfe43bf60776d",
+            "updated": "2019-07-09T23:07:43+0000",
+            "vcs_last_commit": "2019-07-09T23:07:43+0000",
+            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
+            "vcs_last_rev": "9b4fb174eeea6d6389f05db5652b0c779447166e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190624",
+            "actual_branch": "wr-10.19-20190710",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-06-23T20:06:39+0000",
-            "vcs_last_commit": "2019-06-23T20:06:39+0000",
-            "vcs_last_fetch": "2019-06-23T20:06:39+0000",
-            "vcs_last_rev": "67e23f2275ed9c9e8390778cc67406755a4e8909",
+            "updated": "2019-07-09T23:07:43+0000",
+            "vcs_last_commit": "2019-07-09T23:07:43+0000",
+            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
+            "vcs_last_rev": "da151a66258492af6251b248929af1995d2b2a49",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -480,7 +480,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "dhcpcd runs on your machine and silently configures your computer to work on the attached networks without trouble and mostly without configuration.",
-            "filename": "dhcpcd_7.0.8.bb",
+            "filename": "dhcpcd_7.2.2.bb",
             "filepath": "recipes-connectivity/dhcpcd",
             "homepage": "http://roy.marples.name/projects/dhcpcd/",
             "id": 724911,
@@ -489,10 +489,10 @@
             "license": "BSD-2-Clause",
             "pn": "dhcpcd",
             "provides": "dhcpcd ",
-            "pv": "7.0.8",
+            "pv": "7.2.2",
             "section": "console/network",
             "summary": "dhcpcd - a DHCP client",
-            "updated": "2019-01-15T17:01:54+0000"
+            "updated": "2019-07-10T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -708,7 +708,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
-            "filename": "mbedtls_2.16.0.bb",
+            "filename": "mbedtls_2.16.2.bb",
             "filepath": "recipes-connectivity/mbedtls",
             "homepage": "https://tls.mbed.org/",
             "id": 724924,
@@ -717,10 +717,10 @@
             "license": "Apache-2.0",
             "pn": "mbedtls",
             "provides": "mbedtls  polarssl",
-            "pv": "2.16.0",
+            "pv": "2.16.2",
             "section": "libs",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2019-03-19T19:03:21+0000"
+            "updated": "2019-07-10T20:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1924,7 +1924,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "nghttp2_1.38.0.bb",
+            "filename": "nghttp2_1.39.1.bb",
             "filepath": "recipes-support/nghttp2",
             "homepage": "https://nghttp2.org/",
             "id": 724990,
@@ -1933,10 +1933,10 @@
             "license": "MIT",
             "pn": "nghttp2",
             "provides": "nghttp2 ",
-            "pv": "1.38.0",
+            "pv": "1.39.1",
             "section": "libs",
             "summary": "HTTP/2 C Library and tools",
-            "updated": "2019-05-06T00:05:16+0000"
+            "updated": "2019-07-10T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2031,7 +2031,7 @@
             "pv": "8.2.2",
             "section": "net",
             "summary": "network performance measurement tool",
-            "updated": "2019-05-06T00:05:17+0000"
+            "updated": "2019-07-10T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2323,7 +2323,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "strongSwan is an OpenSource IPsec implementation for the Linux operating system.",
-            "filename": "strongswan_5.7.1.bb",
+            "filename": "strongswan_5.8.0.bb",
             "filepath": "recipes-support/strongswan",
             "homepage": "http://www.strongswan.org",
             "id": 725011,
@@ -2332,10 +2332,10 @@
             "license": "GPLv2",
             "pn": "strongswan",
             "provides": "strongswan ",
-            "pv": "5.7.1",
+            "pv": "5.8.0",
             "section": "net",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2019-01-15T17:01:56+0000"
+            "updated": "2019-07-10T20:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2608,7 +2608,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "DRBD mirrors a block device over the network to another machine.DRBD mirrors a block device over the network to another machine.Think of it as networked raid 1. It is a building block forsetting up high availability (HA) clusters.",
-            "filename": "drbd-utils_9.8.0.bb",
+            "filename": "drbd-utils_9.10.0.bb",
             "filepath": "recipes-support/drbd",
             "homepage": "http://www.drbd.org/",
             "id": 725026,
@@ -2617,17 +2617,17 @@
             "license": "GPLv2+",
             "pn": "drbd-utils",
             "provides": "drbd-utils ",
-            "pv": "9.8.0",
+            "pv": "9.10.0",
             "section": "admin",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2019-04-17T19:04:54+0000"
+            "updated": "2019-07-10T20:07:38+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "DRBD is a block device which is designed to build high                availability clusters. This is done by mirroring a whole                block device via (a dedicated) network. You could see                it as a network raid-1.",
-            "filename": "drbd_9.0.17-1.bb",
+            "filename": "drbd_9.0.18-1.bb",
             "filepath": "recipes-support/drbd",
             "homepage": "http://oss.linbit.com/drbd/",
             "id": 725027,
@@ -2636,10 +2636,10 @@
             "license": "GPLv2",
             "pn": "drbd",
             "provides": "drbd ",
-            "pv": "9.0.17-1",
+            "pv": "9.0.18-1",
             "section": "base",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2019-05-06T00:05:16+0000"
+            "updated": "2019-07-10T20:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2988,7 +2988,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Keepalived is a routing software written in C. The main goal of this project is to provide simple and robust facilities for loadbalancing and high-availability to Linux system and Linux based infrastructures. Loadbalancing framework relies on well-known and widely used Linux Virtual Server (IPVS) kernel module providing Layer4 loadbalancing ",
-            "filename": "keepalived_2.0.15.bb",
+            "filename": "keepalived_2.0.16.bb",
             "filepath": "recipes-daemons/keepalived",
             "homepage": "http://www.keepalived.org/",
             "id": 725046,
@@ -2997,10 +2997,10 @@
             "license": "GPLv2",
             "pn": "keepalived",
             "provides": "keepalived ",
-            "pv": "2.0.15",
+            "pv": "2.0.16",
             "section": "base",
             "summary": "High Availability monitor built upon LVS, VRRP and service pollers",
-            "updated": "2019-04-15T19:04:30+0000"
+            "updated": "2019-07-10T20:07:38+0000"
         },
         {
             "bbclassextend": "",

@@ -108,30 +108,44 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190708",
+            "actual_branch": "wr-10.19-20190710",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-10T01:07:04+0000",
-            "vcs_last_commit": "2019-07-10T01:07:04+0000",
-            "vcs_last_fetch": "2019-07-10T01:07:04+0000",
-            "vcs_last_rev": "0174d00611885e4f9ab89afd87caadb913e40621",
+            "updated": "2019-07-10T20:07:46+0000",
+            "vcs_last_commit": "2019-07-10T20:07:46+0000",
+            "vcs_last_fetch": "2019-07-10T20:07:46+0000",
+            "vcs_last_rev": "2e97c9e63861e792f2d5c69e5be28fae24c684c6",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190624",
+            "actual_branch": "wr-10.19-20190710",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2019-06-23T20:06:39+0000",
-            "vcs_last_commit": "2019-06-23T20:06:39+0000",
-            "vcs_last_fetch": "2019-06-23T20:06:39+0000",
-            "vcs_last_rev": "67e23f2275ed9c9e8390778cc67406755a4e8909",
+            "updated": "2019-07-09T23:07:43+0000",
+            "vcs_last_commit": "2019-07-09T23:07:43+0000",
+            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
+            "vcs_last_rev": "da151a66258492af6251b248929af1995d2b2a49",
             "vcs_subdir": "meta-multimedia",
+            "version": "1",
+            "yp_compatible_version": 9
+        },
+        {
+            "actual_branch": "wr-10.19-20190710",
+            "branch": 38,
+            "collection": "meta-python",
+            "id": 14967,
+            "layer": 12,
+            "updated": "2019-07-09T23:07:43+0000",
+            "vcs_last_commit": "2019-07-09T23:07:43+0000",
+            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
+            "vcs_last_rev": "da151a66258492af6251b248929af1995d2b2a49",
+            "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
         }
@@ -148,6 +162,12 @@
             "id": 44883,
             "layerbranch": 14963,
             "required": false
+        },
+        {
+            "dependency": 12,
+            "id": 53288,
+            "layerbranch": 14963,
+            "required": true
         }
     ],
     "layerItems": [
@@ -164,6 +184,24 @@
             "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",

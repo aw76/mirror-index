@@ -108,29 +108,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190708",
+            "actual_branch": "wr-10.19-20190710",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-10T01:07:04+0000",
-            "vcs_last_commit": "2019-07-10T01:07:04+0000",
-            "vcs_last_fetch": "2019-07-10T01:07:04+0000",
-            "vcs_last_rev": "0174d00611885e4f9ab89afd87caadb913e40621",
+            "updated": "2019-07-10T20:07:46+0000",
+            "vcs_last_commit": "2019-07-10T20:07:46+0000",
+            "vcs_last_fetch": "2019-07-10T20:07:46+0000",
+            "vcs_last_rev": "2e97c9e63861e792f2d5c69e5be28fae24c684c6",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190624",
+            "actual_branch": "wr-10.19-20190710",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-06-27T00:06:54+0000",
-            "vcs_last_commit": "2019-06-27T00:06:54+0000",
-            "vcs_last_fetch": "2019-06-27T00:06:54+0000",
-            "vcs_last_rev": "7b91980a25d3e19b0198a9b2765bfe43bf60776d",
+            "updated": "2019-07-09T23:07:43+0000",
+            "vcs_last_commit": "2019-07-09T23:07:43+0000",
+            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
+            "vcs_last_rev": "9b4fb174eeea6d6389f05db5652b0c779447166e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -2848,7 +2848,7 @@
             "pv": "1.10.0",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2019-06-13T17:06:10+0000"
+            "updated": "2019-07-10T20:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3649,7 +3649,7 @@
             "updated": "2019-06-17T20:06:53+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": " native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "libtar is a library for manipulating POSIX tar files",
@@ -3665,7 +3665,7 @@
             "pv": "1.2.20",
             "section": "libs",
             "summary": "libtar, tar manipulating library",
-            "updated": "2019-06-13T17:06:24+0000"
+            "updated": "2019-07-10T20:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4083,7 +4083,7 @@
             "pv": "0.99.7",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:32+0000"
+            "updated": "2019-07-10T20:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6009,7 +6009,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.",
-            "filename": "nano_4.2.bb",
+            "filename": "nano_4.3.bb",
             "filepath": "recipes-support/nano",
             "homepage": "http://www.nano-editor.org/",
             "id": 974015,
@@ -6018,10 +6018,10 @@
             "license": "GPLv3",
             "pn": "nano",
             "provides": "nano ",
-            "pv": "4.2",
+            "pv": "4.3",
             "section": "console/utils",
             "summary": "",
-            "updated": "2019-06-17T20:06:50+0000"
+            "updated": "2019-07-10T20:07:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6230,7 +6230,7 @@
             "pv": "2.0.5",
             "section": "base",
             "summary": "ITS Tool allows you to translate your XML documents with PO files",
-            "updated": "2019-06-13T17:06:08+0000"
+            "updated": "2019-07-10T20:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -8305,14 +8305,14 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Since bbclass scons convert to python3, build mongodb failed",
             "bugtracker": "",
             "description": "",
             "filename": "mongodb_git.bb",
             "filepath": "recipes-dbs/mongodb",
             "homepage": "",
             "id": 974136,
-            "inherits": "dos2unix python-dir pythonnative scons siteinfo",
+            "inherits": "dos2unix python-dir python3-dir python3native pythonnative scons siteinfo",
             "layerbranch": 14965,
             "license": "SSPL-1 & Apache-2.0 & Zlib",
             "pn": "mongodb",
@@ -8320,7 +8320,7 @@
             "pv": "4.0.6+gitX",
             "section": "base",
             "summary": "mongodb",
-            "updated": "2019-06-13T17:06:43+0000"
+            "updated": "2019-07-10T20:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -8441,19 +8441,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Google's framework for writing C++ tests",
-            "filename": "gtest_1.8.1.bb",
-            "filepath": "recipes-test/gtest",
-            "homepage": "https://github.com/abseil/googletest",
+            "filename": "googletest_1.8.1.bb",
+            "filepath": "recipes-test/googletest",
+            "homepage": "https://github.com/google/googletest",
             "id": 974143,
             "inherits": "cmake",
             "layerbranch": 14965,
             "license": "BSD-3-Clause",
-            "pn": "gtest",
-            "provides": "gtest  gmock",
+            "pn": "googletest",
+            "provides": "googletest  gmock gtest",
             "pv": "1.8.1",
             "section": "libs",
             "summary": "",
-            "updated": "2019-06-13T17:06:46+0000"
+            "updated": "2019-07-10T20:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -11196,7 +11196,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gpsd_3.17.bb",
+            "filename": "gpsd_3.18.1.bb",
             "filepath": "recipes-navigation/gpsd",
             "homepage": "",
             "id": 974290,
@@ -11205,10 +11205,10 @@
             "license": "BSD",
             "pn": "gpsd",
             "provides": "gpsd virtual/gpsd",
-            "pv": "3.17",
+            "pv": "3.18.1",
             "section": "console/network",
             "summary": "A TCP/IP Daemon simplifying the communication with GPS devices",
-            "updated": "2019-06-25T00:06:00+0000"
+            "updated": "2019-07-10T20:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -11778,7 +11778,7 @@
             "pv": "3.32.1",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2019-06-17T20:06:44+0000"
+            "updated": "2019-07-10T20:07:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13282,25 +13282,6 @@
             "updated": "2019-06-13T17:06:13+0000"
         },
         {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "An alternative to dbus-glib. It is designed specifically to make it comfortable to work with very large and potentially complex D-Bus services like e.g. DeviceKit-disks",
-            "filename": "eggdbus_0.6.bb",
-            "filepath": "recipes-core/eggdbus",
-            "homepage": "http://cgit.freedesktop.org/~david/eggdbus",
-            "id": 974400,
-            "inherits": "autotools gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "LGPLv2+",
-            "pn": "eggdbus",
-            "provides": "eggdbus ",
-            "pv": "0.6",
-            "section": "base",
-            "summary": "An alternative to dbug-glib.",
-            "updated": "2019-06-13T17:06:14+0000"
-        },
-        {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
@@ -13412,7 +13393,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2019-06-13T17:06:15+0000"
+            "updated": "2019-07-10T20:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -13545,7 +13526,7 @@
             "pv": "3.4",
             "section": "lib",
             "summary": "Safe C Library",
-            "updated": "2019-06-17T20:06:51+0000"
+            "updated": "2019-07-10T20:07:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
