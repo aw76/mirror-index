@@ -108,43 +108,43 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-14T23:07:34+0000",
-            "vcs_last_commit": "2019-07-14T23:07:34+0000",
-            "vcs_last_fetch": "2019-07-14T23:07:34+0000",
-            "vcs_last_rev": "ce6c440499578c2fd89b7733fbbeca2417f3f3b4",
+            "updated": "2019-07-15T19:07:22+0000",
+            "vcs_last_commit": "2019-07-15T19:07:22+0000",
+            "vcs_last_fetch": "2019-07-15T19:07:22+0000",
+            "vcs_last_rev": "f84475ec49971c89743c81593061653aee0c34b2",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "multimedia-layer",
             "id": 14963,
             "layer": 16,
-            "updated": "2019-07-09T23:07:43+0000",
-            "vcs_last_commit": "2019-07-09T23:07:43+0000",
-            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
-            "vcs_last_rev": "da151a66258492af6251b248929af1995d2b2a49",
+            "updated": "2019-07-14T23:07:22+0000",
+            "vcs_last_commit": "2019-07-14T23:07:22+0000",
+            "vcs_last_fetch": "2019-07-14T23:07:22+0000",
+            "vcs_last_rev": "3d348d9e8ee931bb445e80a79bd35b51bf568569",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-07-09T23:07:43+0000",
-            "vcs_last_commit": "2019-07-09T23:07:43+0000",
-            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
-            "vcs_last_rev": "da151a66258492af6251b248929af1995d2b2a49",
+            "updated": "2019-07-14T23:07:22+0000",
+            "vcs_last_commit": "2019-07-14T23:07:22+0000",
+            "vcs_last_fetch": "2019-07-14T23:07:22+0000",
+            "vcs_last_rev": "3d348d9e8ee931bb445e80a79bd35b51bf568569",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -245,7 +245,7 @@
             "pv": "1.0.2",
             "section": "base",
             "summary": "Resource discovery and announcement over SSDP",
-            "updated": "2018-10-05T09:10:03+0000"
+            "updated": "2019-07-15T19:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -613,7 +613,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "tremor is a fixed point implementation of the vorbis codec.",
-            "filename": "tremor_20150107.bb",
+            "filename": "tremor_20180319.bb",
             "filepath": "recipes-multimedia/tremor",
             "homepage": "",
             "id": 724287,
@@ -622,10 +622,10 @@
             "license": "BSD",
             "pn": "tremor",
             "provides": "tremor ",
-            "pv": "20150107",
+            "pv": "20180319",
             "section": "libs",
             "summary": "Fixed-point decoder",
-            "updated": "2018-10-05T09:10:07+0000"
+            "updated": "2019-07-15T19:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1385,7 +1385,7 @@
             "pv": "1.2.0",
             "section": "multimedia",
             "summary": "Cross-platform audio output library and plugins",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2019-07-15T19:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1404,7 +1404,7 @@
             "pv": "3.0.6",
             "section": "multimedia",
             "summary": "",
-            "updated": "2019-05-13T19:05:17+0000"
+            "updated": "2019-07-15T19:07:26+0000"
         },
         {
             "bbclassextend": "",

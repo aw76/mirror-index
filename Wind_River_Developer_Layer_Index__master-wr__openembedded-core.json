@@ -116,15 +116,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-14T23:07:34+0000",
-            "vcs_last_commit": "2019-07-14T23:07:34+0000",
-            "vcs_last_fetch": "2019-07-14T23:07:34+0000",
-            "vcs_last_rev": "ce6c440499578c2fd89b7733fbbeca2417f3f3b4",
+            "updated": "2019-07-15T19:07:22+0000",
+            "vcs_last_commit": "2019-07-15T19:07:22+0000",
+            "vcs_last_fetch": "2019-07-15T19:07:22+0000",
+            "vcs_last_rev": "f84475ec49971c89743c81593061653aee0c34b2",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -1825,7 +1825,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libva-utils/issues",
             "description": "libva-utils is a collection of utilities and examples to exercise VA-API in accordance with the libva project.VA-API is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor",
-            "filename": "libva-utils_2.4.0.bb",
+            "filename": "libva-utils_2.5.0.bb",
             "filepath": "recipes-graphics/libva",
             "homepage": "https://01.org/linuxmedia/vaapi",
             "id": 973006,
@@ -1834,17 +1834,17 @@
             "license": "MIT",
             "pn": "libva-utils",
             "provides": "libva-utils ",
-            "pv": "2.4.0",
+            "pv": "2.5.0",
             "section": "x11",
             "summary": "libva-utils is a collection of utilities from libva project",
-            "updated": "2019-06-17T20:06:12+0000"
+            "updated": "2019-07-15T19:07:58+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libva/issues",
             "description": "Video Acceleration API (VA API) is a library (libVA) and API specification which enables and provides access to graphics hardware (GPU) acceleration for video processing on Linux and UNIX based operating systems. Accelerated processing includes video decoding, video encoding, subpicture blending and rendering. The specification was originally designed by Intel for its GMA (Graphics Media Accelerator) series of GPU hardware, the API is however not limited to GPUs or Intel specific hardware, as other hardware and manufacturers can also freely use this API for hardware accelerated video decoding.",
-            "filename": "libva_2.4.1.bb",
+            "filename": "libva_2.5.0.bb",
             "filepath": "recipes-graphics/libva",
             "homepage": "https://01.org/linuxmedia/vaapi",
             "id": 973007,
@@ -1853,10 +1853,10 @@
             "license": "MIT",
             "pn": "libva",
             "provides": "libva ",
-            "pv": "2.4.1",
+            "pv": "2.5.0",
             "section": "x11",
             "summary": "Video Acceleration (VA) API for Linux",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-07-15T19:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2369,7 +2369,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2019-07-03T19:07:09+0000"
+            "updated": "2019-07-15T19:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2388,7 +2388,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2019-07-03T19:07:09+0000"
+            "updated": "2019-07-15T19:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2407,7 +2407,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:10+0000"
+            "updated": "2019-07-15T19:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2735,25 +2735,6 @@
         {
             "bbclassextend": "",
             "blacklisted": "",
-            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Loader",
-            "description": "Vulkan is a new generation graphics and compute API that provides efficient access to modern GPUs. These packages provide only the common vendor-agnostic library loader, headers and the vulkaninfo utility.",
-            "filename": "vulkan_1.1.73.0.bb",
-            "filepath": "recipes-graphics/vulkan",
-            "homepage": "https://www.khronos.org/vulkan/",
-            "id": 973054,
-            "inherits": "cmake distro_features_check lib_package python3-dir python3native",
-            "layerbranch": 14953,
-            "license": "Apache-2.0",
-            "pn": "vulkan",
-            "provides": "vulkan ",
-            "pv": "1.1.73.0",
-            "section": "libs",
-            "summary": "3D graphics and compute API common loader",
-            "updated": "2019-06-25T00:06:33+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
             "bugtracker": "",
             "description": "Collection of Vulkan examples",
             "filename": "vulkan-demos_git.bb",
@@ -2768,7 +2749,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-25T00:06:34+0000"
+            "updated": "2019-07-15T19:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3425,7 +3406,7 @@
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 973090,
-            "inherits": "lib_package multilib_header ptest siteinfo",
+            "inherits": "lib_package multilib_header multilib_script ptest siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "openssl",
             "pn": "openssl",
@@ -3433,7 +3414,7 @@
             "pv": "1.1.1c",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2019-06-25T00:06:04+0000"
+            "updated": "2019-07-15T19:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3725,7 +3706,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "linux-firmware_git.bb",
+            "filename": "linux-firmware_20190618.bb",
             "filepath": "recipes-kernel/linux-firmware",
             "homepage": "",
             "id": 973106,
@@ -3734,10 +3715,10 @@
             "license": "    Firmware-Abilis     & Firmware-adsp_sst     & Firmware-agere     & Firmware-amdgpu     & Firmware-amd-ucode     & Firmware-amlogic_vdec     & Firmware-atheros_firmware     & Firmware-atmel     & Firmware-broadcom_bcm43xx     & Firmware-ca0132     & Firmware-cavium     & Firmware-chelsio_firmware     & Firmware-cw1200     & Firmware-cypress     & Firmware-dib0700     & Firmware-e100     & Firmware-ene_firmware     & Firmware-fw_sst_0f28     & Firmware-go7007     & Firmware-GPLv2     & Firmware-hfi1_firmware     & Firmware-i2400m     & Firmware-i915     & Firmware-ibt_firmware     & Firmware-it913x     & Firmware-iwlwifi_firmware     & Firmware-IntcSST2     & Firmware-kaweth     & Firmware-Marvell     & Firmware-moxa     & Firmware-myri10ge_firmware     & Firmware-netronome     & Firmware-nvidia     & Firmware-OLPC     & Firmware-ath9k-htc     & Firmware-phanfw     & Firmware-qat     & Firmware-qcom     & Firmware-qla1280     & Firmware-qla2xxx     & Firmware-qualcommAthos_ar3k     & Firmware-qualcommAthos_ath10k     & Firmware-r8a779x_usb3     & Firmware-radeon     & Firmware-ralink_a_mediatek_company_firmware     & Firmware-ralink-firmware     & Firmware-rtlwifi_firmware     & Firmware-imx-sdma_firmware     & Firmware-siano     & Firmware-tda7706-firmware     & Firmware-ti-connectivity     & Firmware-ti-keystone     & Firmware-ueagle-atm4-firmware     & Firmware-via_vt6656     & Firmware-wl1251     & Firmware-xc4000     & Firmware-xc5000     & Firmware-xc5000c     & WHENCE ",
             "pn": "linux-firmware",
             "provides": "linux-firmware ",
-            "pv": "0.0+gitX",
+            "pv": "20190618",
             "section": "kernel",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2019-06-17T20:06:45+0000"
+            "updated": "2019-07-15T19:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3946,7 +3927,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-07-01T23:07:54+0000"
+            "updated": "2019-07-15T19:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4022,7 +4003,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-07-01T23:07:54+0000"
+            "updated": "2019-07-15T19:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4041,7 +4022,7 @@
             "pv": "5.0.19+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-07-01T23:07:53+0000"
+            "updated": "2019-07-15T19:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -4057,10 +4038,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.19.44+gitX",
+            "pv": "4.19.57+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-19T23:06:39+0000"
+            "updated": "2019-07-15T19:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -4076,10 +4057,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.19.44+gitX",
+            "pv": "4.19.57+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-19T23:06:39+0000"
+            "updated": "2019-07-15T19:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4095,10 +4076,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.19.44+gitX",
+            "pv": "4.19.57+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-19T23:06:39+0000"
+            "updated": "2019-07-15T19:07:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4504,7 +4485,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gnupg_2.2.16.bb",
+            "filename": "gnupg_2.2.17.bb",
             "filepath": "recipes-support/gnupg",
             "homepage": "http://www.gnupg.org/",
             "id": 973147,
@@ -4513,10 +4494,10 @@
             "license": "GPLv3 & LGPLv3",
             "pn": "gnupg",
             "provides": "gnupg ",
-            "pv": "2.2.16",
+            "pv": "2.2.17",
             "section": "base",
             "summary": "GNU Privacy Guard - encryption and signing tools (2.x)",
-            "updated": "2019-06-25T00:06:18+0000"
+            "updated": "2019-07-15T19:07:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4801,7 +4782,7 @@
             "pv": "1.1.33",
             "section": "libs",
             "summary": "GNOME XSLT library",
-            "updated": "2019-06-25T00:06:20+0000"
+            "updated": "2019-07-15T19:07:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5846,7 +5827,7 @@
             "pv": "1.1.7",
             "section": "console/utils",
             "summary": "Advanced tools for certain ALSA sound card drivers",
-            "updated": "2019-06-17T20:06:38+0000"
+            "updated": "2019-07-15T19:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -6093,7 +6074,7 @@
             "pv": "1.16.0",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2019-06-17T20:06:42+0000"
+            "updated": "2019-07-15T19:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -6302,7 +6283,7 @@
             "pv": "1.0.28",
             "section": "libs/multimedia",
             "summary": "Audio format Conversion library",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-07-15T19:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -6473,7 +6454,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-03T19:07:06+0000"
+            "updated": "2019-07-15T19:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -6492,7 +6473,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-03T19:07:07+0000"
+            "updated": "2019-07-15T19:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -7632,7 +7613,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:10+0000"
+            "updated": "2019-07-15T19:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -7651,7 +7632,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-03T19:07:00+0000"
+            "updated": "2019-07-15T19:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7670,7 +7651,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:01+0000"
+            "updated": "2019-07-15T19:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -7689,7 +7670,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:02+0000"
+            "updated": "2019-07-15T19:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -7708,7 +7689,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:02+0000"
+            "updated": "2019-07-15T19:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -7727,7 +7708,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:02+0000"
+            "updated": "2019-07-15T19:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -7746,7 +7727,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:02+0000"
+            "updated": "2019-07-15T19:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -7803,7 +7784,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Linux Standard Base (LSB)",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-07-15T19:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -8798,7 +8779,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot_2019.04.bb",
+            "filename": "u-boot_2019.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 973374,
@@ -8807,17 +8788,17 @@
             "license": "GPLv2+",
             "pn": "u-boot",
             "provides": "u-boot virtual/bootloader",
-            "pv": "2019.04",
+            "pv": "2019.07",
             "section": "bootloaders",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-06-13T20:06:50+0000"
+            "updated": "2019-07-15T19:07:53+0000"
         },
         {
             "bbclassextend": "cross",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot-fw-utils_2019.04.bb",
+            "filename": "u-boot-fw-utils_2019.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 973375,
@@ -8826,17 +8807,17 @@
             "license": "GPLv2+",
             "pn": "u-boot-fw-utils",
             "provides": "u-boot-fw-utils ",
-            "pv": "2019.04",
+            "pv": "2019.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2019-06-17T20:06:34+0000"
+            "updated": "2019-07-15T19:07:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "u-boot-tools_2019.04.bb",
+            "filename": "u-boot-tools_2019.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 973376,
@@ -8845,10 +8826,10 @@
             "license": "GPLv2+",
             "pn": "u-boot-tools",
             "provides": "u-boot-tools u-boot-mkimage u-boot-mkenvimage",
-            "pv": "2019.04",
+            "pv": "2019.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader tools",
-            "updated": "2019-06-17T20:06:34+0000"
+            "updated": "2019-07-15T19:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -9710,7 +9691,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "librepo_1.10.3.bb",
+            "filename": "librepo_1.10.4.bb",
             "filepath": "recipes-devtools/librepo",
             "homepage": "",
             "id": 973422,
@@ -9719,10 +9700,10 @@
             "license": "LGPLv2.1",
             "pn": "librepo",
             "provides": "librepo ",
-            "pv": "1.10.3",
+            "pv": "1.10.4",
             "section": "base",
             "summary": " A library providing C and Python (libcURL like) API for downloading linux repository metadata and packages.",
-            "updated": "2019-06-25T00:06:08+0000"
+            "updated": "2019-07-15T19:07:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10356,7 +10337,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
-            "filename": "python3-pbr_5.3.1.bb",
+            "filename": "python3-pbr_5.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
             "id": 973456,
@@ -10365,10 +10346,10 @@
             "license": "Apache-2.0",
             "pn": "python3-pbr",
             "provides": "python3-pbr ",
-            "pv": "5.3.1",
+            "pv": "5.4.0",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2019-07-01T23:07:34+0000"
+            "updated": "2019-07-15T19:07:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -10520,7 +10501,7 @@
             "pv": "4.5",
             "section": "base",
             "summary": "Document type definitions for verification of XML data files",
-            "updated": "2019-07-04T23:07:49+0000"
+            "updated": "2019-07-15T19:07:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -10539,7 +10520,7 @@
             "pv": "1.79.1",
             "section": "base",
             "summary": "XSL stylesheets for processing DocBook XML to various output formats",
-            "updated": "2019-07-04T23:07:49+0000"
+            "updated": "2019-07-15T19:07:57+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -11014,7 +10995,7 @@
             "pv": "2.32.0",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2019-07-01T23:07:03+0000"
+            "updated": "2019-07-15T19:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -11033,7 +11014,7 @@
             "pv": "2.32.0",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2019-07-01T23:07:03+0000"
+            "updated": "2019-07-15T19:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -11052,7 +11033,7 @@
             "pv": "2.32.0",
             "section": "devel",
             "summary": "GNU binary utilities (cross-canadian for i686 target)",
-            "updated": "2019-07-01T23:07:03+0000"
+            "updated": "2019-07-15T19:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -11071,7 +11052,7 @@
             "pv": "2.32.0",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2019-07-01T23:07:04+0000"
+            "updated": "2019-07-15T19:07:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12328,25 +12309,6 @@
             "updated": "2019-06-17T20:06:42+0000"
         },
         {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "https://bugzilla.gnome.org/",
-            "description": "",
-            "filename": "gnome-themes-standard_3.22.3.bb",
-            "filepath": "recipes-gnome/gnome",
-            "homepage": "http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/",
-            "id": 973560,
-            "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo upstream-version-is-even",
-            "layerbranch": 14953,
-            "license": "LGPL-2.1",
-            "pn": "gnome-themes-standard",
-            "provides": "gnome-themes-standard ",
-            "pv": "3.22.3",
-            "section": "x11/gnome",
-            "summary": "GTK+2 standard themes",
-            "updated": "2019-07-01T23:07:08+0000"
-        },
-        {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
@@ -12518,25 +12480,6 @@
             "updated": "2019-06-17T20:06:46+0000"
         },
         {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "https://bugzilla.gnome.org/",
-            "description": "GTK+ is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK+ is suitable for projects ranging from small one-off projects to complete application suites.",
-            "filename": "gtk+_2.24.32.bb",
-            "filepath": "recipes-gnome/gtk+",
-            "homepage": "http://www.gtk.org",
-            "id": 973570,
-            "inherits": "autotools distro_features_check gobject-introspection gobject-introspection-data gtk-doc gtk-immodules-cache manpages pkgconfig python3-dir python3native qemu siteconfig siteinfo update-alternatives",
-            "layerbranch": 14953,
-            "license": "LGPLv2 & LGPLv2+ & LGPLv2.1+",
-            "pn": "gtk+",
-            "provides": "gtk+ ",
-            "pv": "2.24.32",
-            "section": "libs",
-            "summary": "Multi-platform toolkit for creating GUIs",
-            "updated": "2019-07-01T23:07:09+0000"
-        },
-        {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
@@ -12686,7 +12629,7 @@
             "pv": "2.29",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-07-09T22:07:37+0000"
+            "updated": "2019-07-15T19:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -13123,7 +13066,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:04+0000"
+            "updated": "2019-07-15T19:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -13674,7 +13617,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-03T19:07:04+0000"
+            "updated": "2019-07-15T19:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13693,7 +13636,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:05+0000"
+            "updated": "2019-07-15T19:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -13712,7 +13655,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-03T19:07:06+0000"
+            "updated": "2019-07-15T19:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -13731,7 +13674,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2019-07-03T19:07:06+0000"
+            "updated": "2019-07-15T19:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13750,7 +13693,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2019-07-03T19:07:07+0000"
+            "updated": "2019-07-15T19:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -13769,7 +13712,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:08+0000"
+            "updated": "2019-07-15T19:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -13788,7 +13731,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-03T19:07:08+0000"
+            "updated": "2019-07-15T19:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -13864,7 +13807,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Software development tools",
-            "updated": "2019-06-17T20:06:05+0000"
+            "updated": "2019-07-15T19:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14947,7 +14890,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:02+0000"
+            "updated": "2019-07-15T19:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -14966,7 +14909,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:03+0000"
+            "updated": "2019-07-15T19:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -14985,7 +14928,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-10T20:07:50+0000"
+            "updated": "2019-07-15T19:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -15004,7 +14947,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:03+0000"
+            "updated": "2019-07-15T19:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -15023,7 +14966,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-03T19:07:04+0000"
+            "updated": "2019-07-15T19:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -15175,7 +15118,7 @@
             "pv": "17",
             "section": "base",
             "summary": "EFI Boot Manager",
-            "updated": "2019-06-17T20:06:19+0000"
+            "updated": "2019-07-15T19:07:55+0000"
         },
         {
             "bbclassextend": "native",
@@ -15220,7 +15163,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenSBI aims to provide an open-source and extensible implementation of the RISC-V SBI specification for a platform specific firmware (M-mode) and a general purpose OS, hypervisor or bootloader (S-mode or HS-mode). OpenSBI implementation can be easily extended by RISC-V platform or System-on-Chip vendors to fit a particular hadware configuration.",
-            "filename": "opensbi_0.3.bb",
+            "filename": "opensbi_0.4.bb",
             "filepath": "recipes-bsp/opensbi",
             "homepage": "",
             "id": 983029,
@@ -15229,10 +15172,10 @@
             "license": "BSD-2-Clause",
             "pn": "opensbi",
             "provides": "opensbi ",
-            "pv": "0.3",
+            "pv": "0.4",
             "section": "base",
             "summary": "RISC-V Open Source Supervisor Binary Interface (OpenSBI)",
-            "updated": "2019-06-26T20:06:00+0000"
+            "updated": "2019-07-15T19:07:55+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -15270,7 +15213,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Updates the NVD CVE database",
-            "updated": "2019-07-10T20:07:49+0000"
+            "updated": "2019-07-15T19:07:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -15309,6 +15252,63 @@
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Database",
             "updated": "2019-06-25T00:06:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Headers",
+            "description": "",
+            "filename": "vulkan-headers_1.1.108.bb",
+            "filepath": "recipes-graphics/vulkan",
+            "homepage": "https://www.khronos.org/vulkan/",
+            "id": 989874,
+            "inherits": "cmake",
+            "layerbranch": 14953,
+            "license": "Apache-2.0",
+            "pn": "vulkan-headers",
+            "provides": "vulkan-headers ",
+            "pv": "1.1.108",
+            "section": "libs",
+            "summary": "Vulkan Header files and API registry",
+            "updated": "2019-07-15T19:07:16+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Loader",
+            "description": "Vulkan is a new generation graphics and compute API that provides efficient access to modern GPUs. These packages provide only the common vendor-agnostic library loader, headers and the vulkaninfo utility.",
+            "filename": "vulkan-loader_1.1.108.bb",
+            "filepath": "recipes-graphics/vulkan",
+            "homepage": "https://www.khronos.org/vulkan/",
+            "id": 989875,
+            "inherits": "cmake distro_features_check",
+            "layerbranch": 14953,
+            "license": "Apache-2.0",
+            "pn": "vulkan-loader",
+            "provides": "vulkan-loader ",
+            "pv": "1.1.108",
+            "section": "libs",
+            "summary": "3D graphics and compute API common loader",
+            "updated": "2019-07-15T19:07:17+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Tools",
+            "description": "",
+            "filename": "vulkan-tools_1.1.108.bb",
+            "filepath": "recipes-graphics/vulkan",
+            "homepage": "https://www.khronos.org/vulkan/",
+            "id": 989876,
+            "inherits": "cmake distro_features_check",
+            "layerbranch": 14953,
+            "license": "Apache-2.0",
+            "pn": "vulkan-tools",
+            "provides": "vulkan-tools ",
+            "pv": "1.1.108",
+            "section": "libs",
+            "summary": "Vulkan Utilities and Tools",
+            "updated": "2019-07-15T19:07:17+0000"
         }
     ],
     "wrtemplates": []

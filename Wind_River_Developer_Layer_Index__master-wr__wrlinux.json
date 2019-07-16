@@ -108,15 +108,15 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-14T23:07:34+0000",
-            "vcs_last_commit": "2019-07-14T23:07:34+0000",
-            "vcs_last_fetch": "2019-07-14T23:07:34+0000",
-            "vcs_last_rev": "ce6c440499578c2fd89b7733fbbeca2417f3f3b4",
+            "updated": "2019-07-15T19:07:22+0000",
+            "vcs_last_commit": "2019-07-15T19:07:22+0000",
+            "vcs_last_fetch": "2019-07-15T19:07:22+0000",
+            "vcs_last_rev": "f84475ec49971c89743c81593061653aee0c34b2",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -141,10 +141,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-07-15T00:07:02+0000",
-            "vcs_last_commit": "2019-07-15T00:07:02+0000",
-            "vcs_last_fetch": "2019-07-15T00:07:02+0000",
-            "vcs_last_rev": "5a4ace09028c483f25e93d3dec39f63ba82e6f16",
+            "updated": "2019-07-15T19:07:13+0000",
+            "vcs_last_commit": "2019-07-15T19:07:13+0000",
+            "vcs_last_fetch": "2019-07-15T19:07:13+0000",
+            "vcs_last_rev": "205406eefbbffc60b5e6cafe09183901b7f47735",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -313,7 +313,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2019-07-15T00:07:06+0000"
+            "updated": "2019-07-15T19:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -332,7 +332,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2019-07-15T00:07:06+0000"
+            "updated": "2019-07-15T19:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -351,7 +351,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2019-07-15T00:07:07+0000"
+            "updated": "2019-07-15T19:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -370,7 +370,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2019-07-15T00:07:07+0000"
+            "updated": "2019-07-15T19:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -389,7 +389,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2019-07-15T00:07:07+0000"
+            "updated": "2019-07-15T19:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -408,7 +408,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2019-07-15T00:07:07+0000"
+            "updated": "2019-07-15T19:07:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -427,7 +427,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2019-07-15T00:07:01+0000"
+            "updated": "2019-07-15T19:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -446,7 +446,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T00:07:01+0000"
+            "updated": "2019-07-15T19:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -465,7 +465,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T00:07:02+0000"
+            "updated": "2019-07-15T19:07:23+0000"
         },
         {
             "bbclassextend": "",
@@ -484,7 +484,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T00:07:02+0000"
+            "updated": "2019-07-15T19:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -503,7 +503,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2019-07-15T00:07:02+0000"
+            "updated": "2019-07-15T19:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -522,7 +522,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T00:07:02+0000"
+            "updated": "2019-07-15T19:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -541,7 +541,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2019-07-15T00:07:03+0000"
+            "updated": "2019-07-15T19:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -560,7 +560,7 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-07-15T00:07:04+0000"
+            "updated": "2019-07-15T19:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -617,7 +617,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T00:07:06+0000"
+            "updated": "2019-07-15T19:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -636,7 +636,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T00:07:06+0000"
+            "updated": "2019-07-15T19:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -674,7 +674,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T00:07:05+0000"
+            "updated": "2019-07-15T19:07:26+0000"
         },
         {
             "bbclassextend": "",
@@ -693,7 +693,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Application container for ${WR_APP_CONTAINER_APP}",
-            "updated": "2019-07-15T00:07:04+0000"
+            "updated": "2019-07-15T19:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -712,7 +712,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
-            "updated": "2019-07-15T00:07:05+0000"
+            "updated": "2019-07-15T19:07:26+0000"
         }
     ],
     "wrtemplates": [

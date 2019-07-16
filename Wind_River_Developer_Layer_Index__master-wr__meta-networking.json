@@ -108,57 +108,57 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-14T23:07:34+0000",
-            "vcs_last_commit": "2019-07-14T23:07:34+0000",
-            "vcs_last_fetch": "2019-07-14T23:07:34+0000",
-            "vcs_last_rev": "ce6c440499578c2fd89b7733fbbeca2417f3f3b4",
+            "updated": "2019-07-15T19:07:22+0000",
+            "vcs_last_commit": "2019-07-15T19:07:22+0000",
+            "vcs_last_fetch": "2019-07-15T19:07:22+0000",
+            "vcs_last_rev": "f84475ec49971c89743c81593061653aee0c34b2",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-07-15T00:07:22+0000",
-            "vcs_last_commit": "2019-07-15T00:07:22+0000",
-            "vcs_last_fetch": "2019-07-15T00:07:22+0000",
-            "vcs_last_rev": "e1274ea6c33e469b4393058881d17496fc444375",
+            "updated": "2019-07-15T19:07:41+0000",
+            "vcs_last_commit": "2019-07-15T19:07:41+0000",
+            "vcs_last_fetch": "2019-07-15T19:07:41+0000",
+            "vcs_last_rev": "4d250e7a6953d04adb69df7c63f6e106798cc851",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-11T01:07:13+0000",
-            "vcs_last_commit": "2019-07-11T01:07:13+0000",
-            "vcs_last_fetch": "2019-07-11T01:07:13+0000",
-            "vcs_last_rev": "d4574dbc83b34f5ef57007611b8d2e8881d6a25f",
+            "updated": "2019-07-14T23:07:22+0000",
+            "vcs_last_commit": "2019-07-14T23:07:22+0000",
+            "vcs_last_fetch": "2019-07-14T23:07:22+0000",
+            "vcs_last_rev": "30ca7ce33234a07d631c97c31d74c478851b655e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-07-09T23:07:43+0000",
-            "vcs_last_commit": "2019-07-09T23:07:43+0000",
-            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
-            "vcs_last_rev": "da151a66258492af6251b248929af1995d2b2a49",
+            "updated": "2019-07-14T23:07:22+0000",
+            "vcs_last_commit": "2019-07-14T23:07:22+0000",
+            "vcs_last_fetch": "2019-07-14T23:07:22+0000",
+            "vcs_last_rev": "3d348d9e8ee931bb445e80a79bd35b51bf568569",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -484,7 +484,7 @@
             "filepath": "recipes-connectivity/dhcpcd",
             "homepage": "http://roy.marples.name/projects/dhcpcd/",
             "id": 724911,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 14964,
             "license": "BSD-2-Clause",
             "pn": "dhcpcd",
@@ -492,14 +492,14 @@
             "pv": "7.2.2",
             "section": "console/network",
             "summary": "dhcpcd - a DHCP client",
-            "updated": "2019-07-10T20:07:37+0000"
+            "updated": "2019-07-15T19:07:35+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "set Linux HDLC packet radio modem driver port information",
-            "filename": "sethdlc.bb",
+            "filename": "sethdlc_1.18.bb",
             "filepath": "recipes-connectivity/sethdlc",
             "homepage": "https://www.kernel.org/pub/linux/utils/net/hdlc",
             "id": 724912,
@@ -508,10 +508,10 @@
             "license": "GPLv2 & GPLv2+ ",
             "pn": "sethdlc",
             "provides": "sethdlc ",
-            "pv": "1.0",
+            "pv": "1.18",
             "section": "comm",
             "summary": "",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-07-15T19:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -670,19 +670,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "samba_4.8.12.bb",
+            "filename": "samba_4.10.5.bb",
             "filepath": "recipes-connectivity/samba",
             "homepage": "https://www.samba.org/",
             "id": 724922,
-            "inherits": "cpan-base distro_features_check perl-version perlnative python-dir pythonnative qemu systemd update-rc.d waf-samba",
+            "inherits": "cpan-base distro_features_check perl-version perlnative python3-dir python3native qemu systemd update-rc.d waf-samba",
             "layerbranch": 14964,
             "license": "GPL-3.0+ & LGPL-3.0+ & GPL-2.0+",
             "pn": "samba",
             "provides": "samba ",
-            "pv": "4.8.12",
+            "pv": "4.10.5",
             "section": "console/network",
             "summary": "",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-07-15T19:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -750,7 +750,7 @@
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 724927,
-            "inherits": "autotools bash-completion bluetooth gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd vala",
+            "inherits": "autotools bash-completion gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd vala",
             "layerbranch": 14964,
             "license": "GPLv2+",
             "pn": "networkmanager",
@@ -758,7 +758,7 @@
             "pv": "1.18.0",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2019-06-27T23:06:51+0000"
+            "updated": "2019-07-15T19:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -784,7 +784,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The miniUPnP daemon is an UPnP IGD (internet gateway device) which provide NAT traversal services to any UPnP enabled client on the network.",
-            "filename": "miniupnpd_2.1.20190210.bb",
+            "filename": "miniupnpd_2.1.20190630.bb",
             "filepath": "recipes-connectivity/miniupnpd",
             "homepage": "",
             "id": 724929,
@@ -793,10 +793,10 @@
             "license": "BSD-3-Clause",
             "pn": "miniupnpd",
             "provides": "miniupnpd ",
-            "pv": "2.1.20190210",
+            "pv": "2.1.20190630",
             "section": "networking",
             "summary": "Lightweight UPnP IGD daemon",
-            "updated": "2019-05-08T22:05:30+0000"
+            "updated": "2019-07-15T19:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1050,7 +1050,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libnftnl_1.1.1.bb",
+            "filename": "libnftnl_1.1.3.bb",
             "filepath": "recipes-filter/libnftnl",
             "homepage": "",
             "id": 724943,
@@ -1059,10 +1059,10 @@
             "license": "GPLv2",
             "pn": "libnftnl",
             "provides": "libnftnl ",
-            "pv": "1.1.1+gitX",
+            "pv": "1.1.3",
             "section": "libs",
             "summary": "Library for low-level interaction with nftables Netlink's API over libmnl",
-            "updated": "2018-11-27T18:11:19+0000"
+            "updated": "2019-07-15T19:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1164,19 +1164,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libldb_1.4.1.bb",
+            "filename": "libldb_1.5.4.bb",
             "filepath": "recipes-support/libldb",
             "homepage": "http://ldb.samba.org",
             "id": 724949,
-            "inherits": "distro_features_check python-dir pythonnative qemu waf-samba",
+            "inherits": "distro_features_check python3-dir python3native qemu waf-samba",
             "layerbranch": 14964,
             "license": "LGPL-3.0+ & LGPL-2.1+ & GPL-3.0+",
             "pn": "libldb",
             "provides": "libldb ",
-            "pv": "1.4.1",
+            "pv": "1.5.4",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-07-15T19:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1259,7 +1259,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Encrypted UDP based FTP with multicast",
-            "filename": "uftp_4.9.9.bb",
+            "filename": "uftp_4.9.11.bb",
             "filepath": "recipes-support/uftp",
             "homepage": "https://sourceforge.net/projects/uftp-multicast",
             "id": 724954,
@@ -1268,10 +1268,10 @@
             "license": "GPLv3",
             "pn": "uftp",
             "provides": "uftp ",
-            "pv": "4.9.9",
+            "pv": "4.9.11",
             "section": "libs/network",
             "summary": "",
-            "updated": "2019-05-06T00:05:17+0000"
+            "updated": "2019-07-15T19:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1696,7 +1696,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Ipvsadm  is  used  to set up, maintain or inspect the virtual server table in the Linux kernel. The Linux Virtual  Server  can  be  used  to build  scalable  network  services  based  on  a cluster of two or more nodes. The active node of the cluster redirects service requests  to  a collection  of  server  hosts  that will actually perform the services. Supported features include two protocols (TCP and UDP),  three  packet-forwarding methods (NAT, tunneling, and direct routing), and eight load balancing algorithms (round robin, weighted round robin,  least-connec-tion, weighted least-connection, locality-based  least-connection, locality-based least-connection with replication, destination-hashing, and source-hashing).",
-            "filename": "ipvsadm_1.29.bb",
+            "filename": "ipvsadm_1.30.bb",
             "filepath": "recipes-support/ipvsadm",
             "homepage": "http://www.linux-vs.org/software/index.html",
             "id": 724978,
@@ -1705,29 +1705,29 @@
             "license": "GPL-2.0",
             "pn": "ipvsadm",
             "provides": "ipvsadm ",
-            "pv": "1.29",
+            "pv": "1.30",
             "section": "net",
             "summary": "Linux Virtual Server administration Utility",
-            "updated": "2018-10-05T09:10:38+0000"
+            "updated": "2019-07-15T19:07:37+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtdb_1.3.17.bb",
+            "filename": "libtdb_1.4.0.bb",
             "filepath": "recipes-support/libtdb",
             "homepage": "http://tdb.samba.org/",
             "id": 724979,
-            "inherits": "python-dir pythonnative qemu waf-samba",
+            "inherits": "python3-dir python3native qemu waf-samba",
             "layerbranch": 14964,
             "license": "LGPL-3.0+ & GPL-3.0+",
             "pn": "libtdb",
             "provides": "libtdb ",
-            "pv": "1.3.17",
+            "pv": "1.4.0",
             "section": "libs",
             "summary": "The tdb library",
-            "updated": "2019-02-13T17:02:23+0000"
+            "updated": "2019-07-15T19:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1810,19 +1810,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtevent_0.9.37.bb",
+            "filename": "libtevent_0.10.0.bb",
             "filepath": "recipes-support/libtevent",
             "homepage": "http://tevent.samba.org",
             "id": 724984,
-            "inherits": "python-dir pythonnative qemu waf-samba",
+            "inherits": "python3-dir python3native qemu waf-samba",
             "layerbranch": 14964,
             "license": "LGPLv3+",
             "pn": "libtevent",
             "provides": "libtevent ",
-            "pv": "0.9.37",
+            "pv": "0.10.0",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2019-07-15T19:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2152,7 +2152,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_3.0.1.bb",
+            "filename": "wireshark_3.0.2.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 725002,
@@ -2161,10 +2161,10 @@
             "license": "GPL-2.0",
             "pn": "wireshark",
             "provides": "wireshark ",
-            "pv": "3.0.1",
+            "pv": "3.0.2",
             "section": "net",
             "summary": "",
-            "updated": "2019-04-15T19:04:35+0000"
+            "updated": "2019-07-15T19:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2437,26 +2437,26 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtalloc_2.1.14.bb",
+            "filename": "libtalloc_2.2.0.bb",
             "filepath": "recipes-support/libtalloc",
             "homepage": "http://talloc.samba.org",
             "id": 725017,
-            "inherits": "python-dir pythonnative qemu waf-samba",
+            "inherits": "python3-dir python3native qemu waf-samba",
             "layerbranch": 14964,
             "license": "LGPL-3.0+ & GPL-3.0+",
             "pn": "libtalloc",
             "provides": "libtalloc ",
-            "pv": "2.1.14",
+            "pv": "2.2.0",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2019-07-15T19:07:38+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "SSL encryption wrapper between remote client and local (inetd-startable) or remote server.",
-            "filename": "stunnel_5.51.bb",
+            "filename": "stunnel_5.55.bb",
             "filepath": "recipes-support/stunnel",
             "homepage": "https://www.stunnel.org/",
             "id": 725018,
@@ -2465,10 +2465,10 @@
             "license": "GPLv2",
             "pn": "stunnel",
             "provides": "stunnel ",
-            "pv": "5.51",
+            "pv": "5.55",
             "section": "net",
             "summary": "Program for providing universal TLS/SSL tunneling service",
-            "updated": "2019-04-15T19:04:34+0000"
+            "updated": "2019-07-15T19:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2620,7 +2620,7 @@
             "pv": "9.10.0",
             "section": "admin",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2019-07-14T23:07:52+0000"
+            "updated": "2019-07-15T19:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3311,7 +3311,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "freeDiameter is an open source Diameter protocol implementation (RFC3588). It provides an extensible platform for deploying a Diameter network for your Authentication, Authorization and Accounting needs.",
-            "filename": "freediameter_1.2.1.bb",
+            "filename": "freediameter_1.3.2.bb",
             "filepath": "recipes-protocols/freediameter",
             "homepage": "http://www.freediameter.net",
             "id": 725064,
@@ -3320,10 +3320,10 @@
             "license": "BSD",
             "pn": "freediameter",
             "provides": "freediameter ",
-            "pv": "1.2.1",
+            "pv": "1.3.2",
             "section": "base",
             "summary": "An open source implementation of the diameter protocol",
-            "updated": "2018-10-05T09:10:55+0000"
+            "updated": "2019-07-15T19:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3387,7 +3387,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "dlm control daemon and tool",
-            "filename": "dlm_4.0.7.bb",
+            "filename": "dlm_4.0.9.bb",
             "filepath": "recipes-extended/dlm",
             "homepage": "https://fedorahosted.org/cluster/wiki/HomePage",
             "id": 725068,
@@ -3396,10 +3396,10 @@
             "license": "LGPLv2+ & GPLv2 & GPLv2+",
             "pn": "dlm",
             "provides": "dlm ",
-            "pv": "4.0.7",
+            "pv": "4.0.9",
             "section": "utils",
             "summary": "",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-07-15T19:07:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3418,7 +3418,7 @@
             "pv": "1.14.1",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-15T19:10:42+0000"
+            "updated": "2019-07-15T19:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3646,7 +3646,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-networking packagegroups",
-            "updated": "2019-06-25T00:06:52+0000"
+            "updated": "2019-07-15T19:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -3666,6 +3666,25 @@
             "section": "base",
             "summary": "Dynamic firewall daemon with a D-Bus interface",
             "updated": "2019-03-12T20:03:32+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A helper library and tools for Active Directory client operations.",
+            "filename": "adcli_0.8.2.bb",
+            "filepath": "recipes-connectivity/adcli",
+            "homepage": "http://cgit.freedesktop.org/realmd/adcli",
+            "id": 989888,
+            "inherits": "autotools siteconfig siteinfo xmlcatalog",
+            "layerbranch": 14964,
+            "license": "LGPLv2+",
+            "pn": "adcli",
+            "provides": "adcli ",
+            "pv": "0.8.2",
+            "section": "net",
+            "summary": "Active Directory enrollment",
+            "updated": "2019-07-15T19:07:39+0000"
         }
     ],
     "wrtemplates": []

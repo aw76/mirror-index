@@ -108,29 +108,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-14T23:07:34+0000",
-            "vcs_last_commit": "2019-07-14T23:07:34+0000",
-            "vcs_last_fetch": "2019-07-14T23:07:34+0000",
-            "vcs_last_rev": "ce6c440499578c2fd89b7733fbbeca2417f3f3b4",
+            "updated": "2019-07-15T19:07:22+0000",
+            "vcs_last_commit": "2019-07-15T19:07:22+0000",
+            "vcs_last_fetch": "2019-07-15T19:07:22+0000",
+            "vcs_last_rev": "f84475ec49971c89743c81593061653aee0c34b2",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-11T01:07:13+0000",
-            "vcs_last_commit": "2019-07-11T01:07:13+0000",
-            "vcs_last_fetch": "2019-07-11T01:07:13+0000",
-            "vcs_last_rev": "d4574dbc83b34f5ef57007611b8d2e8881d6a25f",
+            "updated": "2019-07-14T23:07:22+0000",
+            "vcs_last_commit": "2019-07-14T23:07:22+0000",
+            "vcs_last_fetch": "2019-07-14T23:07:22+0000",
+            "vcs_last_rev": "30ca7ce33234a07d631c97c31d74c478851b655e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -442,7 +442,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "sessreg_1.1.1.bb",
+            "filename": "sessreg_1.1.2.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 973722,
@@ -451,10 +451,10 @@
             "license": "MIT",
             "pn": "sessreg",
             "provides": "sessreg ",
-            "pv": "1.1.1",
+            "pv": "1.1.2",
             "section": "x11/apps",
             "summary": "a simple program for managing utmp/wtmp entries",
-            "updated": "2019-06-13T17:06:33+0000"
+            "updated": "2019-07-15T19:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -613,7 +613,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xterm_330.bb",
+            "filename": "xterm_347.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 973731,
@@ -622,10 +622,10 @@
             "license": "MIT-X",
             "pn": "xterm",
             "provides": "xterm ",
-            "pv": "330",
+            "pv": "347",
             "section": "x11/apps",
             "summary": "xterm is the standard terminal emulator for the X Window System",
-            "updated": "2019-06-13T17:06:36+0000"
+            "updated": "2019-07-15T19:07:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -2437,7 +2437,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "library for easy implementation of a RDP/VNC server",
-            "filename": "libvncserver_git.bb",
+            "filename": "libvncserver_0.9.12.bb",
             "filepath": "recipes-graphics/libvncserver",
             "homepage": "https://libvnc.github.io",
             "id": 973827,
@@ -2449,7 +2449,7 @@
             "pv": "0.9.12+gitX",
             "section": "libs",
             "summary": "",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-07-15T19:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2532,7 +2532,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wireless daemon for Linux",
-            "filename": "iwd_0.14.bb",
+            "filename": "iwd_0.18.bb",
             "filepath": "recipes-connectivity/iwd",
             "homepage": "",
             "id": 973832,
@@ -2541,10 +2541,10 @@
             "license": "LGPL-2.1",
             "pn": "iwd",
             "provides": "iwd ",
-            "pv": "0.14",
+            "pv": "0.18",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:04+0000"
+            "updated": "2019-07-15T19:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2608,7 +2608,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ZeroMQ looks like an embeddable networking library but acts like a concurrency framework",
-            "filename": "zeromq_4.3.1.bb",
+            "filename": "zeromq_4.3.2.bb",
             "filepath": "recipes-connectivity/zeromq",
             "homepage": "http://www.zeromq.org",
             "id": 973836,
@@ -2617,10 +2617,10 @@
             "license": "LGPLv3+",
             "pn": "zeromq",
             "provides": "zeromq ",
-            "pv": "4.3.1",
+            "pv": "4.3.2",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:05+0000"
+            "updated": "2019-07-15T19:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2924,7 +2924,7 @@
             "pv": "1.7.2",
             "section": "libs",
             "summary": "",
-            "updated": "2019-06-13T17:06:12+0000"
+            "updated": "2019-07-15T19:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2943,18 +2943,18 @@
             "pv": "0.4.6",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:12+0000"
+            "updated": "2019-07-15T19:07:39+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Includes bluetooth specific tools for this version of BlueZ.These tools are used at runtime. Supports BlueZ4 and BlueZ5.",
+            "description": "Includes bluetooth specific tools for BlueZ.These tools are used at runtime.",
             "filename": "packagegroup-tools-bluetooth.bb",
             "filepath": "recipes-connectivity/packagegroups",
             "homepage": "",
             "id": 973854,
-            "inherits": "allarch bluetooth packagegroup",
+            "inherits": "allarch packagegroup",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "packagegroup-tools-bluetooth",
@@ -2962,7 +2962,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Set of Bluetooth related tools for inclusion in images",
-            "updated": "2019-06-13T17:06:12+0000"
+            "updated": "2019-07-15T19:07:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -3095,7 +3095,7 @@
             "pv": "1.61",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:15+0000"
+            "updated": "2019-07-15T19:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3190,7 +3190,7 @@
             "pv": "1.3.0",
             "section": "console/network",
             "summary": "Paho MQTT - C libraries for the MQTT and MQTT-SN protocols",
-            "updated": "2019-06-13T17:06:16+0000"
+            "updated": "2019-07-15T19:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3589,7 +3589,7 @@
             "pv": "3.4",
             "section": "base",
             "summary": "Frequency and Idle power monitoring tools for Linux",
-            "updated": "2019-06-13T17:06:23+0000"
+            "updated": "2019-07-15T19:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3786,7 +3786,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The goal of this project is to provide a tiny library that would facilitate the common operations with sizes in bytes.",
-            "filename": "libbytesize_1.4.bb",
+            "filename": "libbytesize_2.0.bb",
             "filepath": "recipes-support/libbytesize",
             "homepage": "https://github.com/rhinstaller/libbytesize",
             "id": 973898,
@@ -3795,10 +3795,10 @@
             "license": "LGPLv2+",
             "pn": "libbytesize",
             "provides": "libbytesize ",
-            "pv": "1.4",
+            "pv": "2.0",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2019-06-13T17:06:26+0000"
+            "updated": "2019-07-15T19:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -3881,7 +3881,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "opencv_3.4.5.bb",
+            "filename": "opencv_4.1.0.bb",
             "filepath": "recipes-support/opencv",
             "homepage": "http://opencv.org/",
             "id": 973903,
@@ -3890,10 +3890,10 @@
             "license": "BSD-3-Clause",
             "pn": "opencv",
             "provides": "opencv ",
-            "pv": "3.4.5",
+            "pv": "4.1.0",
             "section": "libs",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2019-06-13T17:06:29+0000"
+            "updated": "2019-07-15T19:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -4299,19 +4299,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "joe_3.1.bb",
+            "filename": "joe_4.6.bb",
             "filepath": "recipes-support/joe",
             "homepage": "http://joe-editor.sourceforge.net/",
             "id": 973925,
-            "inherits": "autotools siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 14965,
-            "license": "GPLv1",
+            "license": "GPLv2",
             "pn": "joe",
             "provides": "joe ",
-            "pv": "3.1",
+            "pv": "4.6",
             "section": "console/utils",
             "summary": "Console text editor with good functionality, good choice for vi-haters",
-            "updated": "2019-06-13T17:06:35+0000"
+            "updated": "2019-07-15T19:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4881,7 +4881,7 @@
             "pv": "0.27",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:44+0000"
+            "updated": "2019-07-15T19:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -5071,7 +5071,7 @@
             "pv": "2.1.0",
             "section": "base",
             "summary": "Hash table and linked list for C structures",
-            "updated": "2019-06-17T20:06:50+0000"
+            "updated": "2019-07-15T19:07:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -5306,7 +5306,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A suite of tools for manipulating the metadata of the dm-thin device-mapper target.",
-            "filename": "thin-provisioning-tools_0.7.6.bb",
+            "filename": "thin-provisioning-tools_0.8.5.bb",
             "filepath": "recipes-support/thin-provisioning-tools",
             "homepage": "https://github.com/jthornber/thin-provisioning-tools",
             "id": 973978,
@@ -5315,10 +5315,10 @@
             "license": "GPLv3",
             "pn": "thin-provisioning-tools",
             "provides": "thin-provisioning-tools ",
-            "pv": "0.7.6",
+            "pv": "0.8.5",
             "section": "devel",
             "summary": "Tools of dm-thin device-mapper",
-            "updated": "2019-06-13T17:06:52+0000"
+            "updated": "2019-07-15T19:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -5895,7 +5895,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface.",
-            "filename": "cli11_1.7.1.bb",
+            "filename": "cli11_1.8.0.bb",
             "filepath": "recipes-support/cli11",
             "homepage": "https://github.com/CLIUtils/CLI11",
             "id": 974009,
@@ -5904,10 +5904,10 @@
             "license": "BSD-3-Clause",
             "pn": "cli11",
             "provides": "cli11 ",
-            "pv": "1.7.1+gitX",
+            "pv": "1.8.0+gitX",
             "section": "base",
             "summary": "C++11 command line parser",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-07-15T19:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -6230,7 +6230,7 @@
             "pv": "2.0.5",
             "section": "base",
             "summary": "ITS Tool allows you to translate your XML documents with PO files",
-            "updated": "2019-07-10T20:07:04+0000"
+            "updated": "2019-07-15T19:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -7066,7 +7066,7 @@
             "pv": "2.10.13",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2019-06-17T20:06:48+0000"
+            "updated": "2019-07-15T19:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -7567,7 +7567,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "TENEX C Shell, an enhanced version of Berkeley csh     The TENEX C Shell is an enhanced version of the Berkeley Unix C shell.     It includes all features of 4.4BSD C shell, plus a command-line editor,     programmable word completion, spelling correction and more.",
-            "filename": "tcsh_6.20.00.bb",
+            "filename": "tcsh_6.21.00.bb",
             "filepath": "recipes-shells/tcsh",
             "homepage": "http://www.tcsh.org/",
             "id": 974097,
@@ -7576,10 +7576,10 @@
             "license": "BSD-3-Clause",
             "pn": "tcsh",
             "provides": "tcsh ",
-            "pv": "6.20.00",
+            "pv": "6.21.00",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:31+0000"
+            "updated": "2019-07-15T19:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -7928,25 +7928,6 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "esound_0.2.41.bb",
-            "filepath": "recipes-multimedia/esound",
-            "homepage": "",
-            "id": 974116,
-            "inherits": "autotools gconf gnome gnomebase gtk-icon-cache mime pkgconfig siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "LGPLv2",
-            "pn": "esound",
-            "provides": "esound ",
-            "pv": "0.2.41",
-            "section": "gpe/base",
-            "summary": "Enlightened Sound Daemon",
-            "updated": "2019-06-13T17:06:36+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
             "filename": "faad2_2.8.8.bb",
             "filepath": "recipes-multimedia/faad2",
             "homepage": "http://www.audiocoding.com/faad2.html",
@@ -8194,7 +8175,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_11.3.bb",
+            "filename": "postgresql_11.4.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 974130,
@@ -8203,10 +8184,10 @@
             "license": "BSD",
             "pn": "postgresql",
             "provides": "postgresql ",
-            "pv": "11.3",
+            "pv": "11.4",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2019-06-13T17:06:41+0000"
+            "updated": "2019-07-15T19:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -8624,7 +8605,7 @@
             "pv": "1.2.3",
             "section": "base",
             "summary": "Tools for taking the MD5 sum of ISO images",
-            "updated": "2019-06-13T17:06:48+0000"
+            "updated": "2019-07-15T19:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -8650,7 +8631,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Libraries providing API for reporting different problems in applications to different bug targets like Bugzilla, ftp, trac, etc...",
-            "filename": "libreport_2.9.7.bb",
+            "filename": "libreport_2.10.0.bb",
             "filepath": "recipes-extended/libreport",
             "homepage": "https://abrt.readthedocs.org/",
             "id": 974154,
@@ -8659,10 +8640,10 @@
             "license": "GPLv2+",
             "pn": "libreport",
             "provides": "libreport ",
-            "pv": "2.9.7",
+            "pv": "2.10.0",
             "section": "base",
             "summary": "Generic library for reporting various problems",
-            "updated": "2019-06-13T17:06:49+0000"
+            "updated": "2019-07-15T19:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8735,10 +8716,10 @@
             "license": "MIT",
             "pn": "mraa",
             "provides": "mraa ",
-            "pv": "1.9.0-gitX",
+            "pv": "2.0.0+gitX",
             "section": "libs",
             "summary": "Linux Library for low speed I/O Communication",
-            "updated": "2019-06-13T17:06:50+0000"
+            "updated": "2019-07-15T19:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -9239,7 +9220,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libblockdev is a C library supporting GObject introspection for manipulation of block devices. It has a plugin-based architecture where each technology (like LVM, Btrfs, MD RAID, Swap,...) is implemented in a separate plugin, possibly with multiple implementations (e.g. using LVM CLI or the new LVM DBus API).",
-            "filename": "libblockdev_2.20.bb",
+            "filename": "libblockdev_2.22.bb",
             "filepath": "recipes-extended/libblockdev",
             "homepage": "http://rhinstaller.github.io/libblockdev/",
             "id": 974185,
@@ -9248,10 +9229,10 @@
             "license": "LGPLv2+",
             "pn": "libblockdev",
             "provides": "libblockdev ",
-            "pv": "2.20",
+            "pv": "2.22",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2019-06-13T17:06:00+0000"
+            "updated": "2019-07-15T19:07:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -9410,7 +9391,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Dialog lets you to present a variety of questions or display messages using dialog boxes from a shell script (or any scripting language).",
-            "filename": "dialog_1.3-20180621.bb",
+            "filename": "dialog_1.3-20190211.bb",
             "filepath": "recipes-extended/dialog",
             "homepage": "http://invisible-island.net/dialog/",
             "id": 974194,
@@ -9419,10 +9400,10 @@
             "license": "LGPL-2.1",
             "pn": "dialog",
             "provides": "dialog ",
-            "pv": "1.3-20180621",
+            "pv": "1.3-20190211",
             "section": "console/utils",
             "summary": "display dialog boxes from shell scripts",
-            "updated": "2019-06-13T17:06:02+0000"
+            "updated": "2019-07-15T19:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -10056,7 +10037,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Logwatch is a customizable, pluggable log-monitoring system. It will go through your logs for a given period of time and make a report in the areas that you wish with the detail that you wish. Easy to use - works right out of the package on many systems.",
-            "filename": "logwatch_7.4.3.bb",
+            "filename": "logwatch_7.5.1.bb",
             "filepath": "recipes-extended/logwatch",
             "homepage": "http://www.logwatch.org/",
             "id": 974228,
@@ -10065,10 +10046,10 @@
             "license": "MIT",
             "pn": "logwatch",
             "provides": "logwatch ",
-            "pv": "7.4.3",
+            "pv": "7.5.1",
             "section": "devel",
             "summary": "A log file analysis program",
-            "updated": "2019-06-13T17:06:12+0000"
+            "updated": "2019-07-15T19:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -10103,10 +10084,10 @@
             "license": "MIT",
             "pn": "upm",
             "provides": "upm ",
-            "pv": "1.6.0-gitX",
+            "pv": "2.0.0+gitX",
             "section": "libs",
             "summary": "Sensor/Actuator repository for Mraa",
-            "updated": "2019-06-13T17:06:13+0000"
+            "updated": "2019-07-15T19:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -10201,7 +10182,7 @@
             "pv": "0.3.12",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2019-06-13T17:06:15+0000"
+            "updated": "2019-07-15T19:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -11200,7 +11181,7 @@
             "filepath": "recipes-navigation/gpsd",
             "homepage": "",
             "id": 974290,
-            "inherits": "bluetooth python-dir python3-dir python3native pythonnative scons systemd update-alternatives update-rc.d",
+            "inherits": "python-dir python3-dir python3native pythonnative scons systemd update-alternatives update-rc.d",
             "layerbranch": 14965,
             "license": "BSD",
             "pn": "gpsd",
@@ -11208,7 +11189,7 @@
             "pv": "3.18.1",
             "section": "console/network",
             "summary": "A TCP/IP Daemon simplifying the communication with GPS devices",
-            "updated": "2019-07-10T20:07:03+0000"
+            "updated": "2019-07-15T19:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -11348,7 +11329,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_7.3.6.bb",
+            "filename": "php_7.3.7.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 974298,
@@ -11357,10 +11338,10 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "7.3.6",
+            "pv": "7.3.7",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2019-06-17T20:06:43+0000"
+            "updated": "2019-07-15T19:07:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -11417,14 +11398,14 @@
             "pv": "3.8.0",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2019-06-25T00:06:59+0000"
+            "updated": "2019-07-15T19:07:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This is protobuf-c, a C implementation of the Google Protocol Buffers data serialization format. It includes libprotobuf-c, a pure C library that implements protobuf encoding and decoding, and protoc-c, a code generator that converts Protocol Buffer .proto files to C descriptor code, based on the original protoc. protobuf-c formerly included an RPC implementation; that code has been split out into the protobuf-c-rpc project.",
-            "filename": "protobuf-c_1.3.1.bb",
+            "filename": "protobuf-c_1.3.2.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/protobuf-c/protobuf-c",
             "id": 974302,
@@ -11433,10 +11414,10 @@
             "license": "BSD-2-Clause",
             "pn": "protobuf-c",
             "provides": "protobuf-c ",
-            "pv": "1.3.1+gitX",
+            "pv": "1.3.2",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2019-06-25T00:06:58+0000"
+            "updated": "2019-07-15T19:07:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11766,7 +11747,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pygobject_3.32.1.bb",
+            "filename": "python-pygobject_3.32.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.pygtk.org/",
             "id": 974320,
@@ -11775,10 +11756,10 @@
             "license": "LGPLv2.1",
             "pn": "python-pygobject",
             "provides": "python-pygobject ",
-            "pv": "3.32.1",
+            "pv": "3.32.2",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2019-07-10T20:07:03+0000"
+            "updated": "2019-07-15T19:07:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11994,7 +11975,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_10.15.3.bb",
+            "filename": "nodejs_10.16.0.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 974332,
@@ -12003,10 +11984,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "10.15.3",
+            "pv": "10.16.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:49+0000"
+            "updated": "2019-07-15T19:07:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -12481,7 +12462,7 @@
             "pv": "1.642",
             "section": "libs",
             "summary": "The Perl Database Interface",
-            "updated": "2019-06-13T17:06:58+0000"
+            "updated": "2019-07-15T19:07:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -13051,7 +13032,7 @@
             "pv": "2.1.0",
             "section": "console",
             "summary": "Manage plain dm-crypt and LUKS encrypted volumes",
-            "updated": "2019-07-11T19:07:50+0000"
+            "updated": "2019-07-15T19:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -13153,7 +13134,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel. The LIBNVDIMM subsystem provides support for three types of NVDIMMs, namely,PMEM, BLK, and NVDIMM devices that can simultaneously support both PMEM and BLK mode access.",
-            "filename": "ndctl_v63.bb",
+            "filename": "ndctl_v65.bb",
             "filepath": "recipes-core/ndctl",
             "homepage": "https://git.kernel.org/cgit/linux/kernel/git/nvdimm/nvdimm.git/tree/Documentation/nvdimm/nvdimm.txt?h=libnvdimm-for-next",
             "id": 974393,
@@ -13162,10 +13143,10 @@
             "license": "GPLv2+",
             "pn": "ndctl",
             "provides": "ndctl ",
-            "pv": "v63",
+            "pv": "v65",
             "section": "base",
             "summary": "libnvdimm utility library",
-            "updated": "2019-06-25T00:06:58+0000"
+            "updated": "2019-07-15T19:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -13393,7 +13374,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2019-07-10T20:07:02+0000"
+            "updated": "2019-07-15T19:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -13423,7 +13404,7 @@
             "filepath": "recipes-core/packagegroups",
             "homepage": "",
             "id": 974408,
-            "inherits": "bluetooth packagegroup",
+            "inherits": "packagegroup",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "packagegroup-basic",
@@ -13431,7 +13412,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic task to get a device online",
-            "updated": "2019-06-13T17:06:15+0000"
+            "updated": "2019-07-15T19:07:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -13641,6 +13622,101 @@
             "section": "libs",
             "summary": "",
             "updated": "2019-06-25T00:06:01+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://bugzilla.gnome.org/",
+            "description": "",
+            "filename": "gnome-themes-standard_3.22.3.bb",
+            "filepath": "recipes-gnome/gnome-themes",
+            "homepage": "http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/",
+            "id": 989877,
+            "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo upstream-version-is-even",
+            "layerbranch": 14965,
+            "license": "LGPL-2.1",
+            "pn": "gnome-themes-standard",
+            "provides": "gnome-themes-standard ",
+            "pv": "3.22.3",
+            "section": "x11/gnome",
+            "summary": "GTK+2 standard themes",
+            "updated": "2019-07-15T19:07:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://bugzilla.gnome.org/",
+            "description": "GTK+ is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK+ is suitable for projects ranging from small one-off projects to complete application suites.",
+            "filename": "gtk+_2.24.32.bb",
+            "filepath": "recipes-gnome/gtk+",
+            "homepage": "http://www.gtk.org",
+            "id": 989878,
+            "inherits": "autotools distro_features_check gobject-introspection gobject-introspection-data gtk-doc gtk-immodules-cache manpages pkgconfig python3-dir python3native qemu siteconfig siteinfo update-alternatives",
+            "layerbranch": 14965,
+            "license": "LGPLv2 & LGPLv2+ & LGPLv2.1+",
+            "pn": "gtk+",
+            "provides": "gtk+ ",
+            "pv": "2.24.32",
+            "section": "libs",
+            "summary": "Multi-platform toolkit for creating GUIs",
+            "updated": "2019-07-15T19:07:54+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "    Utilities to control the kernel key management facility and to provide     a mechanism by which the kernel call back to userspace to get a key     instantiated.     ",
+            "filename": "keyutils_1.6.bb",
+            "filepath": "recipes-security/keyutils",
+            "homepage": "http://people.redhat.com/dhowells/keyutils",
+            "id": 989879,
+            "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1+ & GPLv2.0+",
+            "pn": "keyutils",
+            "provides": "keyutils ",
+            "pv": "1.6",
+            "section": "base",
+            "summary": "Linux Key Management Utilities",
+            "updated": "2019-07-15T19:07:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "{fmt} is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.",
+            "filename": "fmt_5.3.0.bb",
+            "filepath": "recipes-support/fmt",
+            "homepage": "https://fmt.dev",
+            "id": 989880,
+            "inherits": "cmake ptest",
+            "layerbranch": 14965,
+            "license": "BSD-2-Clause",
+            "pn": "fmt",
+            "provides": "fmt ",
+            "pv": "5.3.0+gitX",
+            "section": "base",
+            "summary": "open-source formatting library for C++",
+            "updated": "2019-07-15T19:07:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "iniparser_4.1.bb",
+            "filepath": "recipes-support/iniparser",
+            "homepage": "https://github.com/ndevilla/iniparser",
+            "id": 989881,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "iniparser",
+            "provides": "iniparser ",
+            "pv": "4.1",
+            "section": "libs",
+            "summary": "The iniParser library is a simple C library offering INI file parsing services (both reading and writing).",
+            "updated": "2019-07-15T19:07:57+0000"
         }
     ],
     "wrtemplates": []

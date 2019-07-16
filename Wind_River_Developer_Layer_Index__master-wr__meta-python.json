@@ -108,43 +108,43 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-14T23:07:34+0000",
-            "vcs_last_commit": "2019-07-14T23:07:34+0000",
-            "vcs_last_fetch": "2019-07-14T23:07:34+0000",
-            "vcs_last_rev": "ce6c440499578c2fd89b7733fbbeca2417f3f3b4",
+            "updated": "2019-07-15T19:07:22+0000",
+            "vcs_last_commit": "2019-07-15T19:07:22+0000",
+            "vcs_last_fetch": "2019-07-15T19:07:22+0000",
+            "vcs_last_rev": "f84475ec49971c89743c81593061653aee0c34b2",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-11T01:07:13+0000",
-            "vcs_last_commit": "2019-07-11T01:07:13+0000",
-            "vcs_last_fetch": "2019-07-11T01:07:13+0000",
-            "vcs_last_rev": "d4574dbc83b34f5ef57007611b8d2e8881d6a25f",
+            "updated": "2019-07-14T23:07:22+0000",
+            "vcs_last_commit": "2019-07-14T23:07:22+0000",
+            "vcs_last_fetch": "2019-07-14T23:07:22+0000",
+            "vcs_last_rev": "30ca7ce33234a07d631c97c31d74c478851b655e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190710",
+            "actual_branch": "wr-10.19-20190715",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-07-09T23:07:43+0000",
-            "vcs_last_commit": "2019-07-09T23:07:43+0000",
-            "vcs_last_fetch": "2019-07-09T23:07:43+0000",
-            "vcs_last_rev": "da151a66258492af6251b248929af1995d2b2a49",
+            "updated": "2019-07-14T23:07:22+0000",
+            "vcs_last_commit": "2019-07-14T23:07:22+0000",
+            "vcs_last_fetch": "2019-07-14T23:07:22+0000",
+            "vcs_last_rev": "3d348d9e8ee931bb445e80a79bd35b51bf568569",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -556,7 +556,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "pyparted is a set of Python modules that provide Python programmers an interface to libparted, the GNU parted library for disk partitioning and filesystem manipulation.",
-            "filename": "python-pyparted_3.11.1.bb",
+            "filename": "python-pyparted_3.11.2.bb",
             "filepath": "recipes-extended/python-pyparted",
             "homepage": "https://github.com/rhinstaller/pyparted",
             "id": 723789,
@@ -565,17 +565,17 @@
             "license": "GPL-2.0+",
             "pn": "python-pyparted",
             "provides": "python-pyparted ",
-            "pv": "3.11.1",
+            "pv": "3.11.2",
             "section": "base",
             "summary": "Python bindings for libparted",
-            "updated": "2018-12-25T17:12:15+0000"
+            "updated": "2019-07-15T19:07:11+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "pyparted is a set of Python modules that provide Python programmers an interface to libparted, the GNU parted library for disk partitioning and filesystem manipulation.",
-            "filename": "python3-pyparted_3.11.1.bb",
+            "filename": "python3-pyparted_3.11.2.bb",
             "filepath": "recipes-extended/python-pyparted",
             "homepage": "https://github.com/rhinstaller/pyparted",
             "id": 723790,
@@ -584,17 +584,17 @@
             "license": "GPL-2.0+",
             "pn": "python3-pyparted",
             "provides": "python3-pyparted ",
-            "pv": "3.11.1",
+            "pv": "3.11.2",
             "section": "base",
             "summary": "Python bindings for libparted",
-            "updated": "2018-12-25T17:12:15+0000"
+            "updated": "2019-07-15T19:07:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A python module for system storage configuration",
-            "filename": "python3-blivet_3.1.2.bb",
+            "filename": "python3-blivet_3.1.4.bb",
             "filepath": "recipes-extended/python-blivet",
             "homepage": "http://fedoraproject.org/wiki/blivet",
             "id": 723791,
@@ -603,10 +603,10 @@
             "license": "LGPLv2+",
             "pn": "python3-blivet",
             "provides": "python3-blivet ",
-            "pv": "3.1.2",
+            "pv": "3.1.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-12-25T17:12:14+0000"
+            "updated": "2019-07-15T19:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -625,14 +625,14 @@
             "pv": "2.1.10",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-12-25T17:12:14+0000"
+            "updated": "2019-07-15T19:07:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A python library for manipulating kickstart files",
-            "filename": "python3-pykickstart_3.18.bb",
+            "filename": "python3-pykickstart_3.20.bb",
             "filepath": "recipes-extended/python-pykickstart",
             "homepage": "http://fedoraproject.org/wiki/pykickstart",
             "id": 723793,
@@ -641,10 +641,10 @@
             "license": "GPLv2+",
             "pn": "python3-pykickstart",
             "provides": "python3-pykickstart ",
-            "pv": "3.18",
+            "pv": "3.20",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T18:12:49+0000"
+            "updated": "2019-07-15T19:07:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -1658,7 +1658,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyflakes_1.6.0.bb",
+            "filename": "python-pyflakes_2.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/dreamhost/cliff",
             "id": 723847,
@@ -1667,10 +1667,10 @@
             "license": "Apache-2.0",
             "pn": "python-pyflakes",
             "provides": "python-pyflakes ",
-            "pv": "1.6.0",
+            "pv": "2.1.1",
             "section": "devel/python",
             "summary": "passive checker of Python programs",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2019-07-15T19:07:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1747,25 +1747,6 @@
             "section": "devel/python",
             "summary": "",
             "updated": "2019-05-06T00:05:51+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "python-six_1.12.0.bb",
-            "filepath": "recipes-devtools/python",
-            "homepage": "http://pypi.python.org/pypi/six/",
-            "id": 723852,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
-            "layerbranch": 14967,
-            "license": "MIT",
-            "pn": "python-six",
-            "provides": "python-six ",
-            "pv": "1.12.0",
-            "section": "devel/python",
-            "summary": "Python 2 and 3 compatibility library",
-            "updated": "2019-05-26T19:05:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2418,7 +2399,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-typing_3.6.6.bb",
+            "filename": "python-typing_3.7.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/python/typing",
             "id": 723887,
@@ -2427,10 +2408,10 @@
             "license": "PSF",
             "pn": "python-typing",
             "provides": "python-typing ",
-            "pv": "3.6.6",
+            "pv": "3.7.4",
             "section": "devel/python",
             "summary": "Simple Python module defined by PEP 484.",
-            "updated": "2019-05-26T19:05:49+0000"
+            "updated": "2019-07-15T19:07:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3064,7 +3045,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python-cython_0.29.10.bb",
+            "filename": "python-cython_0.29.12.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723921,
@@ -3073,10 +3054,10 @@
             "license": "Apache-2.0",
             "pn": "python-cython",
             "provides": "python-cython ",
-            "pv": "0.29.10",
+            "pv": "0.29.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-17T20:06:12+0000"
+            "updated": "2019-07-15T19:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -3102,7 +3083,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-mako_1.0.12.bb",
+            "filename": "python-mako_1.0.13.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.makotemplates.org/",
             "id": 723923,
@@ -3111,10 +3092,10 @@
             "license": "MIT",
             "pn": "python-mako",
             "provides": "python-mako ",
-            "pv": "1.0.12",
+            "pv": "1.0.13",
             "section": "devel/python",
             "summary": "A super-fast templating language that borrows the best ideas from the existing templating languages",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-07-15T19:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -3938,7 +3919,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A database migration tool for SQLAlchemy",
-            "filename": "python3-alembic_1.0.10.bb",
+            "filename": "python3-alembic_1.0.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723967,
@@ -3947,10 +3928,10 @@
             "license": "BSD",
             "pn": "python3-alembic",
             "provides": "python3-alembic ",
-            "pv": "1.0.10",
+            "pv": "1.0.11",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-13T19:05:04+0000"
+            "updated": "2019-07-15T19:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5211,7 +5192,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A database migration tool for SQLAlchemy",
-            "filename": "python-alembic_1.0.10.bb",
+            "filename": "python-alembic_1.0.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724034,
@@ -5220,10 +5201,10 @@
             "license": "BSD",
             "pn": "python-alembic",
             "provides": "python-alembic ",
-            "pv": "1.0.10",
+            "pv": "1.0.11",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-13T19:05:01+0000"
+            "updated": "2019-07-15T19:07:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6389,7 +6370,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python3-cython_0.29.10.bb",
+            "filename": "python3-cython_0.29.12.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724096,
@@ -6398,10 +6379,10 @@
             "license": "Apache-2.0",
             "pn": "python3-cython",
             "provides": "python3-cython ",
-            "pv": "0.29.10",
+            "pv": "0.29.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-17T20:06:17+0000"
+            "updated": "2019-07-15T19:07:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7130,7 +7111,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
-            "filename": "python-pbr_5.2.1.bb",
+            "filename": "python-pbr_5.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
             "id": 724135,
@@ -7139,10 +7120,10 @@
             "license": "Apache-2.0",
             "pn": "python-pbr",
             "provides": "python-pbr ",
-            "pv": "5.2.1",
+            "pv": "5.4.0",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2019-06-17T20:06:19+0000"
+            "updated": "2019-07-15T19:07:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9480,6 +9461,63 @@
             "section": "devel/python",
             "summary": "The module provides handy URL class for url parsing and changing",
             "updated": "2019-05-08T22:05:03+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Human friendly output for text interfaces using Python",
+            "filename": "python-humanfriendly_4.18.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://humanfriendly.readthedocs.io/",
+            "id": 989882,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python-humanfriendly",
+            "provides": "python-humanfriendly ",
+            "pv": "4.18",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-07-15T19:07:13+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Human friendly output for text interfaces using Python",
+            "filename": "python3-humanfriendly_4.18.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://humanfriendly.readthedocs.io/",
+            "id": 989883,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python3-humanfriendly",
+            "provides": "python3-humanfriendly ",
+            "pv": "4.18",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-07-15T19:07:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Matplotlib is a Python 2D plotting library which produces publication-quality figures in a variety of hardcopy formats and interactive environments across platforms.",
+            "filename": "python3-matplotlib_3.1.1.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/matplotlib/matplotlib",
+            "id": 989884,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "BSD-2-Clause",
+            "pn": "python3-matplotlib",
+            "provides": "python3-matplotlib ",
+            "pv": "3.1.1",
+            "section": "devel/python",
+            "summary": "matplotlib: plotting with Python",
+            "updated": "2019-07-15T19:07:14+0000"
         }
     ],
     "wrtemplates": []
