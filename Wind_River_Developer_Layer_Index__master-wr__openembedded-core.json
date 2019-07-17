@@ -121,10 +121,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-15T19:07:22+0000",
-            "vcs_last_commit": "2019-07-15T19:07:22+0000",
-            "vcs_last_fetch": "2019-07-15T19:07:22+0000",
-            "vcs_last_rev": "f84475ec49971c89743c81593061653aee0c34b2",
+            "updated": "2019-07-16T19:07:43+0000",
+            "vcs_last_commit": "2019-07-16T19:07:43+0000",
+            "vcs_last_fetch": "2019-07-16T19:07:43+0000",
+            "vcs_last_rev": "1aee4b115c3ec1a7b27e445b4e77207e2b69904c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -3493,7 +3493,7 @@
             "updated": "2019-07-01T23:07:54+0000"
         },
         {
-            "bbclassextend": "devupstream:target",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The lttng-modules 2.0 package contains the kernel tracer modules",
@@ -3509,7 +3509,7 @@
             "pv": "2.10.10",
             "section": "devel",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2019-06-17T23:06:47+0000"
+            "updated": "2019-07-16T19:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -15309,6 +15309,25 @@
             "section": "libs",
             "summary": "Vulkan Utilities and Tools",
             "updated": "2019-07-15T19:07:17+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The lttng-modules 2.0 package contains the kernel tracer modules",
+            "filename": "lttng-modules_git.bb",
+            "filepath": "recipes-kernel/lttng",
+            "homepage": "",
+            "id": 989894,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 14953,
+            "license": "LGPLv2.1 & GPLv2 & MIT",
+            "pn": "lttng-modules",
+            "provides": "lttng-modules ",
+            "pv": "2.10.10+gitX",
+            "section": "devel",
+            "summary": "Linux Trace Toolkit KERNEL MODULE",
+            "updated": "2019-07-16T19:07:45+0000"
         }
     ],
     "wrtemplates": []
