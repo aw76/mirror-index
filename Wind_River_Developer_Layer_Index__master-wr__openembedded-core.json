@@ -94,14 +94,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190708",
+            "bitbake_branch": "wr-10.19-20190717",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-09T22:07:46+0000",
+            "updated": "2019-07-17T23:07:15+0000",
             "updates_enabled": true
         }
     ],
@@ -116,15 +116,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190715",
+            "actual_branch": "wr-10.19-20190717",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-16T19:07:43+0000",
-            "vcs_last_commit": "2019-07-16T19:07:43+0000",
-            "vcs_last_fetch": "2019-07-16T19:07:43+0000",
-            "vcs_last_rev": "1aee4b115c3ec1a7b27e445b4e77207e2b69904c",
+            "updated": "2019-07-17T23:07:05+0000",
+            "vcs_last_commit": "2019-07-17T23:07:05+0000",
+            "vcs_last_fetch": "2019-07-17T23:07:05+0000",
+            "vcs_last_rev": "c6e37b18fa04e0b5d82451f0e813ea89fa3df212",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -3026,7 +3026,7 @@
             "filepath": "recipes-connectivity/ofono",
             "homepage": "http://www.ofono.org",
             "id": 973070,
-            "inherits": "autotools bluetooth gobject-introspection-data pkgconfig siteconfig siteinfo systemd update-rc.d",
+            "inherits": "autotools gobject-introspection-data pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "ofono",
@@ -3034,7 +3034,7 @@
             "pv": "1.29",
             "section": "base",
             "summary": "open source telephony",
-            "updated": "2019-06-25T00:06:35+0000"
+            "updated": "2019-07-17T23:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3064,7 +3064,7 @@
             "filepath": "recipes-connectivity/connman",
             "homepage": "http://connman.net/",
             "id": 973072,
-            "inherits": "autotools bluetooth pkgconfig siteconfig siteinfo systemd update-alternatives update-rc.d",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-alternatives update-rc.d",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "connman",
@@ -3072,7 +3072,7 @@
             "pv": "1.37",
             "section": "base",
             "summary": "A daemon for managing internet connections within embedded devices",
-            "updated": "2019-07-01T23:07:11+0000"
+            "updated": "2019-07-17T23:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3186,7 +3186,7 @@
             "pv": "5.50",
             "section": "libs",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2019-07-01T23:07:14+0000"
+            "updated": "2019-07-17T23:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3368,7 +3368,7 @@
             "filepath": "recipes-connectivity/libpcap",
             "homepage": "http://www.tcpdump.org/",
             "id": 973088,
-            "inherits": "autotools binconfig-disabled bluetooth pkgconfig siteconfig siteinfo",
+            "inherits": "autotools binconfig-disabled pkgconfig siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "BSD",
             "pn": "libpcap",
@@ -3376,7 +3376,7 @@
             "pv": "1.9.0",
             "section": "libs/network",
             "summary": "Interface for user-level network packet capture",
-            "updated": "2019-06-17T20:06:38+0000"
+            "updated": "2019-07-17T23:07:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3425,7 +3425,7 @@
             "filepath": "recipes-connectivity/neard",
             "homepage": "http://01.org/linux-nfc",
             "id": 973091,
-            "inherits": "autotools bluetooth pkgconfig siteconfig siteinfo systemd update-rc.d",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "neard",
@@ -3433,7 +3433,7 @@
             "pv": "0.16",
             "section": "base",
             "summary": "Linux NFC daemon",
-            "updated": "2019-06-25T00:06:39+0000"
+            "updated": "2019-07-17T23:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4713,7 +4713,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "sqlite3_3.28.0.bb",
+            "filename": "sqlite3_3.29.0.bb",
             "filepath": "recipes-support/sqlite",
             "homepage": "http://www.sqlite.org",
             "id": 973159,
@@ -4722,10 +4722,10 @@
             "license": "PD",
             "pn": "sqlite3",
             "provides": "sqlite3 ",
-            "pv": "3.28.0",
+            "pv": "3.29.0",
             "section": "libs",
             "summary": "Embeddable SQL database engine",
-            "updated": "2019-06-17T20:06:09+0000"
+            "updated": "2019-07-17T23:07:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4827,7 +4827,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS 5, PKCS 7, PKCS 11, PKCS 12, S/MIME, X.509 v3 certificates, and other security standards.",
-            "filename": "nss_3.44.1.bb",
+            "filename": "nss_3.45.bb",
             "filepath": "recipes-support/nss",
             "homepage": "http://www.mozilla.org/projects/security/pki/nss/",
             "id": 973165,
@@ -4836,10 +4836,10 @@
             "license": "MPL-2.0 | (MPL-2.0 & GPL-2.0+) | (MPL-2.0 & LGPL-2.1+)",
             "pn": "nss",
             "provides": "nss ",
-            "pv": "3.44.1",
+            "pv": "3.45",
             "section": "libs",
             "summary": "Mozilla's SSL and TLS implementation",
-            "updated": "2019-07-03T19:07:00+0000"
+            "updated": "2019-07-17T23:07:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6066,7 +6066,7 @@
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 973230,
-            "inherits": "autotools bluetooth gettext gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo upstream-version-is-even",
+            "inherits": "autotools gettext gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo upstream-version-is-even",
             "layerbranch": 14953,
             "license": "GPLv2+ & LGPLv2+ & LGPLv2.1+",
             "pn": "gstreamer1.0-plugins-bad",
@@ -6074,7 +6074,7 @@
             "pv": "1.16.0",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework 1.x",
-            "updated": "2019-07-15T19:07:02+0000"
+            "updated": "2019-07-17T23:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -6142,7 +6142,7 @@
             "filepath": "recipes-multimedia/pulseaudio",
             "homepage": "http://www.pulseaudio.org",
             "id": 973234,
-            "inherits": "autotools bash-completion bluetooth gettext gsettings manpages perlnative pkgconfig qemu siteconfig siteinfo systemd useradd useradd_base",
+            "inherits": "autotools bash-completion gettext gsettings manpages perlnative pkgconfig qemu siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 14953,
             "license": "LGPLv2.1+ & MIT & BSD-3-Clause",
             "pn": "pulseaudio",
@@ -6150,7 +6150,7 @@
             "pv": "12.2",
             "section": "libs/multimedia",
             "summary": "Sound server for Linux and Unix-like operating systems",
-            "updated": "2019-06-17T20:06:45+0000"
+            "updated": "2019-07-17T23:07:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6606,7 +6606,7 @@
             "pv": "12.1.3",
             "section": "console/utils",
             "summary": "System performance tools",
-            "updated": "2019-07-10T01:07:58+0000"
+            "updated": "2019-07-17T23:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -8696,7 +8696,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2019-07-09T22:07:39+0000"
+            "updated": "2019-07-17T23:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -8734,7 +8734,7 @@
             "pv": "2.02",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2019-07-09T22:07:40+0000"
+            "updated": "2019-07-17T23:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -9456,7 +9456,7 @@
             "pv": "1.9.0",
             "section": "base",
             "summary": "Ninja is a small build system with a focus on speed.",
-            "updated": "2019-06-17T20:06:48+0000"
+            "updated": "2019-07-17T23:07:55+0000"
         },
         {
             "bbclassextend": "native",
@@ -11500,7 +11500,7 @@
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
             "id": 973517,
-            "inherits": "bluetooth native nopackages pkgconfig ptest relocatable",
+            "inherits": "native nopackages pkgconfig ptest relocatable",
             "layerbranch": 14953,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "qemu-system-native",
@@ -11508,7 +11508,7 @@
             "pv": "4.0.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-06-17T20:06:31+0000"
+            "updated": "2019-07-17T23:07:59+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11557,7 +11557,7 @@
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
             "id": 973520,
-            "inherits": "bluetooth pkgconfig ptest",
+            "inherits": "pkgconfig ptest",
             "layerbranch": 14953,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "qemu",
@@ -11565,7 +11565,7 @@
             "pv": "4.0.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-06-25T00:06:12+0000"
+            "updated": "2019-07-17T23:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -11576,7 +11576,7 @@
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
             "id": 973521,
-            "inherits": "bluetooth native nopackages pkgconfig ptest relocatable",
+            "inherits": "native nopackages pkgconfig ptest relocatable",
             "layerbranch": 14953,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "qemu-native",
@@ -11584,7 +11584,7 @@
             "pv": "4.0.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-06-13T20:06:02+0000"
+            "updated": "2019-07-17T23:07:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12165,7 +12165,7 @@
             "filepath": "recipes-devtools/strace",
             "homepage": "http://strace.io",
             "id": 973552,
-            "inherits": "autotools bluetooth ptest siteconfig siteinfo",
+            "inherits": "autotools ptest siteconfig siteinfo",
             "layerbranch": 14953,
             "license": "LGPL-2.1+ & GPL-2+",
             "pn": "strace",
@@ -12173,7 +12173,7 @@
             "pv": "4.26",
             "section": "console/utils",
             "summary": "System call tracing tool",
-            "updated": "2019-06-17T20:06:40+0000"
+            "updated": "2019-07-17T23:07:55+0000"
         },
         {
             "bbclassextend": "native",
@@ -12629,7 +12629,7 @@
             "pv": "2.29",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-07-15T19:07:56+0000"
+            "updated": "2019-07-17T23:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13951,7 +13951,7 @@
             "filepath": "recipes-core/packagegroups",
             "homepage": "",
             "id": 973648,
-            "inherits": "bluetooth packagegroup",
+            "inherits": "packagegroup",
             "layerbranch": 14953,
             "license": "",
             "pn": "packagegroup-base",
@@ -13959,7 +13959,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Merge machine and distro options to create a basic machine task/package",
-            "updated": "2019-06-25T00:06:06+0000"
+            "updated": "2019-07-17T23:07:54+0000"
         },
         {
             "bbclassextend": "",
