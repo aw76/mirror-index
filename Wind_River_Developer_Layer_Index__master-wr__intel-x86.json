@@ -127,10 +127,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-07-18T18:07:37+0000",
-            "vcs_last_commit": "2019-07-18T18:07:37+0000",
-            "vcs_last_fetch": "2019-07-18T18:07:37+0000",
-            "vcs_last_rev": "10feac5a08941b10004e2771966022ce6db4fe1c",
+            "updated": "2019-07-22T00:07:02+0000",
+            "vcs_last_commit": "2019-07-22T00:07:02+0000",
+            "vcs_last_fetch": "2019-07-22T00:07:02+0000",
+            "vcs_last_rev": "72748fd819af96d16e94bce5eff7d1417ad147d2",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -155,10 +155,10 @@
             "collection": "intel-x86",
             "id": 190597,
             "layer": 32,
-            "updated": "2019-07-18T00:07:59+0000",
-            "vcs_last_commit": "2019-07-18T00:07:59+0000",
-            "vcs_last_fetch": "2019-07-18T00:07:59+0000",
-            "vcs_last_rev": "d20e54b160280266101181e4d3bbdd1d3e5c7afe",
+            "updated": "2019-07-21T23:07:12+0000",
+            "vcs_last_commit": "2019-07-21T23:07:12+0000",
+            "vcs_last_fetch": "2019-07-21T23:07:12+0000",
+            "vcs_last_rev": "24f7fb098fb9d7c76d93481af95106cbe57db471",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 11
@@ -342,6 +342,13 @@
             "layerbranch": 190597,
             "name": "default",
             "updated": "2019-07-10T19:07:50+0000"
+        },
+        {
+            "description": "",
+            "id": 48276,
+            "layerbranch": 190597,
+            "name": "feature/intel-persistent-memory",
+            "updated": "2019-07-21T23:07:46+0000"
         }
     ]
 }
