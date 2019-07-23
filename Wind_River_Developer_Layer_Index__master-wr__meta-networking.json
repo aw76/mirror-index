@@ -94,71 +94,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190717",
+            "bitbake_branch": "wr-10.19-20190722",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-17T23:07:15+0000",
+            "updated": "2019-07-22T20:07:18+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190717",
+            "actual_branch": "wr-10.19-20190722",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-17T23:07:05+0000",
-            "vcs_last_commit": "2019-07-17T23:07:05+0000",
-            "vcs_last_fetch": "2019-07-17T23:07:05+0000",
-            "vcs_last_rev": "c6e37b18fa04e0b5d82451f0e813ea89fa3df212",
+            "updated": "2019-07-23T02:07:50+0000",
+            "vcs_last_commit": "2019-07-23T02:07:50+0000",
+            "vcs_last_fetch": "2019-07-23T02:07:50+0000",
+            "vcs_last_rev": "af849e196320f7617022e5ad7a3580b8c5d0954e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190715",
+            "actual_branch": "wr-10.19-20190722",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-07-22T02:07:27+0000",
-            "vcs_last_commit": "2019-07-22T02:07:27+0000",
-            "vcs_last_fetch": "2019-07-22T02:07:27+0000",
-            "vcs_last_rev": "b748c727b3f2fd4acce52daf9ee773a453cba6d4",
+            "updated": "2019-07-22T20:07:52+0000",
+            "vcs_last_commit": "2019-07-22T20:07:52+0000",
+            "vcs_last_fetch": "2019-07-22T20:07:52+0000",
+            "vcs_last_rev": "eec0a23e0ff2e4b61afbd03abb32611fe1b5d97c",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190715",
+            "actual_branch": "wr-10.19-20190722",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-21T23:07:34+0000",
-            "vcs_last_commit": "2019-07-21T23:07:34+0000",
-            "vcs_last_fetch": "2019-07-21T23:07:34+0000",
-            "vcs_last_rev": "93748377f3fbc961ca596e12947f3842b0cda6d9",
+            "updated": "2019-07-22T20:07:52+0000",
+            "vcs_last_commit": "2019-07-22T20:07:52+0000",
+            "vcs_last_fetch": "2019-07-22T20:07:52+0000",
+            "vcs_last_rev": "bb3f02d5130cc558343efe885818659b6a6a0e7e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190715",
+            "actual_branch": "wr-10.19-20190722",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-07-14T23:07:22+0000",
-            "vcs_last_commit": "2019-07-14T23:07:22+0000",
-            "vcs_last_fetch": "2019-07-14T23:07:22+0000",
-            "vcs_last_rev": "3d348d9e8ee931bb445e80a79bd35b51bf568569",
+            "updated": "2019-07-21T18:07:13+0000",
+            "vcs_last_commit": "2019-07-21T18:07:13+0000",
+            "vcs_last_fetch": "2019-07-21T18:07:13+0000",
+            "vcs_last_rev": "a4c89f1c1ba28030e29a48d3b0187b843f2d9364",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -480,7 +480,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "dhcpcd runs on your machine and silently configures your computer to work on the attached networks without trouble and mostly without configuration.",
-            "filename": "dhcpcd_7.2.2.bb",
+            "filename": "dhcpcd_7.2.3.bb",
             "filepath": "recipes-connectivity/dhcpcd",
             "homepage": "http://roy.marples.name/projects/dhcpcd/",
             "id": 724911,
@@ -489,10 +489,10 @@
             "license": "BSD-2-Clause",
             "pn": "dhcpcd",
             "provides": "dhcpcd ",
-            "pv": "7.2.2",
+            "pv": "7.2.3",
             "section": "console/network",
             "summary": "dhcpcd - a DHCP client",
-            "updated": "2019-07-15T19:07:35+0000"
+            "updated": "2019-07-22T20:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -670,7 +670,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "samba_4.10.5.bb",
+            "filename": "samba_4.10.6.bb",
             "filepath": "recipes-connectivity/samba",
             "homepage": "https://www.samba.org/",
             "id": 724922,
@@ -679,10 +679,10 @@
             "license": "GPL-3.0+ & LGPL-3.0+ & GPL-2.0+",
             "pn": "samba",
             "provides": "samba ",
-            "pv": "4.10.5",
+            "pv": "4.10.6",
             "section": "console/network",
             "summary": "",
-            "updated": "2019-07-15T19:07:36+0000"
+            "updated": "2019-07-22T20:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -750,7 +750,7 @@
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 724927,
-            "inherits": "autotools bash-completion gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd vala",
+            "inherits": "autotools bash-completion gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd update-alternatives vala",
             "layerbranch": 14964,
             "license": "GPLv2+",
             "pn": "networkmanager",
@@ -758,7 +758,7 @@
             "pv": "1.18.0",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2019-07-15T19:07:36+0000"
+            "updated": "2019-07-22T20:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1164,7 +1164,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libldb_1.5.4.bb",
+            "filename": "libldb_1.5.5.bb",
             "filepath": "recipes-support/libldb",
             "homepage": "http://ldb.samba.org",
             "id": 724949,
@@ -1173,10 +1173,10 @@
             "license": "LGPL-3.0+ & LGPL-2.1+ & GPL-3.0+",
             "pn": "libldb",
             "provides": "libldb ",
-            "pv": "1.5.4",
+            "pv": "1.5.5",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2019-07-15T19:07:38+0000"
+            "updated": "2019-07-22T20:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2430,7 +2430,7 @@
             "pv": "1.2",
             "section": "net",
             "summary": "User configurable send-only Mail Transfer Agent",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2019-07-22T20:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2715,7 +2715,7 @@
             "pv": "3.4.5",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2019-07-15T00:07:56+0000"
+            "updated": "2019-07-22T20:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3685,6 +3685,25 @@
             "section": "net",
             "summary": "Active Directory enrollment",
             "updated": "2019-07-15T19:07:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Unbound's design is a set of modular components which incorporate \tfeatures including enhanced security (DNSSEC) validation, Internet Protocol \tVersion 6 (IPv6), and a client resolver library API as an integral part of the \tarchitecture",
+            "filename": "unbound_1.9.2.bb",
+            "filepath": "recipes-support/unbound",
+            "homepage": "https://www.unbound.net/",
+            "id": 989902,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
+            "layerbranch": 14964,
+            "license": "BSD-3-Clause",
+            "pn": "unbound",
+            "provides": "unbound ",
+            "pv": "1.9.2",
+            "section": "net",
+            "summary": "Unbound is a validating, recursive, and caching DNS resolver",
+            "updated": "2019-07-22T20:07:00+0000"
         }
     ],
     "wrtemplates": []
