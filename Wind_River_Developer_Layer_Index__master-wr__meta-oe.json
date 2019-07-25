@@ -108,29 +108,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190722",
+            "actual_branch": "wr-10.19-20190724",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-23T02:07:50+0000",
-            "vcs_last_commit": "2019-07-23T02:07:50+0000",
-            "vcs_last_fetch": "2019-07-23T02:07:50+0000",
-            "vcs_last_rev": "af849e196320f7617022e5ad7a3580b8c5d0954e",
+            "updated": "2019-07-25T01:07:43+0000",
+            "vcs_last_commit": "2019-07-25T01:07:43+0000",
+            "vcs_last_fetch": "2019-07-25T01:07:43+0000",
+            "vcs_last_rev": "52057934be5cff0c0035f00a8322cc340ec892b0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190722",
+            "actual_branch": "wr-10.19-20190724",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-22T20:07:52+0000",
-            "vcs_last_commit": "2019-07-22T20:07:52+0000",
-            "vcs_last_fetch": "2019-07-22T20:07:52+0000",
-            "vcs_last_rev": "bb3f02d5130cc558343efe885818659b6a6a0e7e",
+            "updated": "2019-07-25T02:07:22+0000",
+            "vcs_last_commit": "2019-07-25T02:07:22+0000",
+            "vcs_last_fetch": "2019-07-25T02:07:22+0000",
+            "vcs_last_rev": "d46bd29328a455386c901a6061e78ccb41416776",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -1689,7 +1689,7 @@
             "pv": "0.9.16",
             "section": "x11/utils",
             "summary": "Exports your X session or FrameBuffer(fbdev) on-the-fly via VNC",
-            "updated": "2019-06-13T17:06:50+0000"
+            "updated": "2019-07-24T19:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2373,7 +2373,7 @@
             "pv": "3.3.98",
             "section": "base",
             "summary": "VCD (Value Change Dump) file waveform viewer",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-07-24T19:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2677,7 +2677,7 @@
             "pv": "1.27.0",
             "section": "base",
             "summary": "A multi-platform support library with a focus on asynchronous I/O",
-            "updated": "2019-06-13T17:06:06+0000"
+            "updated": "2019-07-24T19:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -6477,7 +6477,7 @@
             "pv": "2.0.0",
             "section": "base",
             "summary": "USB hub per-port power control",
-            "updated": "2019-06-13T17:06:11+0000"
+            "updated": "2019-07-24T19:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -7408,7 +7408,7 @@
             "pv": "2.7",
             "section": "base",
             "summary": "Fast, multi-threaded malloc() and nifty performance analysis tools",
-            "updated": "2019-06-13T17:06:28+0000"
+            "updated": "2019-07-24T19:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -8092,7 +8092,7 @@
             "pv": "0.26.0",
             "section": "multimedia",
             "summary": "Open Source multimedia player",
-            "updated": "2019-06-13T17:06:38+0000"
+            "updated": "2019-07-24T19:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -9346,7 +9346,7 @@
             "pv": "1.3",
             "section": "libs",
             "summary": "PAM searchless LDAP authentication module",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-07-24T19:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -9783,7 +9783,7 @@
             "pv": "2.5",
             "section": "Development/Languages/C and C++",
             "summary": "Support for assertion checking and logging in GNU C/C++",
-            "updated": "2019-06-13T17:06:08+0000"
+            "updated": "2019-07-24T19:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -9878,7 +9878,7 @@
             "pv": "1.6",
             "section": "libs",
             "summary": "Persistent Memory Development Kit",
-            "updated": "2019-07-21T23:07:50+0000"
+            "updated": "2019-07-24T19:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -10018,7 +10018,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "dumb-init_1.2.0.bb",
+            "filename": "dumb-init_1.2.2.bb",
             "filepath": "recipes-extended/dumb-init",
             "homepage": "https://github.com/Yelp/dumb-init/",
             "id": 974227,
@@ -10027,10 +10027,10 @@
             "license": "MIT",
             "pn": "dumb-init",
             "provides": "dumb-init ",
-            "pv": "1.2.0",
+            "pv": "1.2.2",
             "section": "base",
             "summary": "Simple wrapper script which proxies signals to a child",
-            "updated": "2019-06-13T17:06:12+0000"
+            "updated": "2019-07-24T19:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -10961,7 +10961,7 @@
             "pv": "3.5.0",
             "section": "base",
             "summary": "Hardware health monitoring applications",
-            "updated": "2019-06-17T20:06:42+0000"
+            "updated": "2019-07-25T02:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -11835,7 +11835,7 @@
             "pv": "1.34",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:46+0000"
+            "updated": "2019-07-24T19:07:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -13241,7 +13241,7 @@
             "pv": "20100902",
             "section": "libs",
             "summary": "Proxy libintl",
-            "updated": "2019-06-13T17:06:13+0000"
+            "updated": "2019-07-24T19:07:46+0000"
         },
         {
             "bbclassextend": "",

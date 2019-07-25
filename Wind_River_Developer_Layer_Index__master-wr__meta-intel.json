@@ -108,29 +108,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190722",
+            "actual_branch": "wr-10.19-20190724",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-23T02:07:50+0000",
-            "vcs_last_commit": "2019-07-23T02:07:50+0000",
-            "vcs_last_fetch": "2019-07-23T02:07:50+0000",
-            "vcs_last_rev": "af849e196320f7617022e5ad7a3580b8c5d0954e",
+            "updated": "2019-07-25T01:07:43+0000",
+            "vcs_last_commit": "2019-07-25T01:07:43+0000",
+            "vcs_last_fetch": "2019-07-25T01:07:43+0000",
+            "vcs_last_rev": "52057934be5cff0c0035f00a8322cc340ec892b0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190715",
+            "actual_branch": "wr-10.19-20190724",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2019-07-14T23:07:23+0000",
-            "vcs_last_commit": "2019-07-14T23:07:23+0000",
-            "vcs_last_fetch": "2019-07-14T23:07:23+0000",
-            "vcs_last_rev": "c8d1761beada4c652aed6a0edbb346b67ea30e20",
+            "updated": "2019-07-25T02:07:22+0000",
+            "vcs_last_commit": "2019-07-25T02:07:22+0000",
+            "vcs_last_fetch": "2019-07-25T02:07:22+0000",
+            "vcs_last_rev": "e0e7692f5e7233b01c841db18bf2a4fd057e72d3",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 9
@@ -314,10 +314,10 @@
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.14.127+gitX",
+            "pv": "4.14.133+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-06-26T20:06:08+0000"
+            "updated": "2019-07-24T19:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -632,7 +632,7 @@
             "filepath": "recipes-multimedia/libva",
             "homepage": "https://github.com/intel/media-driver",
             "id": 876221,
-            "inherits": "cmake pkgconfig",
+            "inherits": "cmake distro_features_check pkgconfig",
             "layerbranch": 84751,
             "license": "MIT & BSD-3-Clause",
             "pn": "intel-media-driver",
@@ -640,18 +640,18 @@
             "pv": "19.2.0",
             "section": "base",
             "summary": "VA driver for Intel Gen based graphics hardware",
-            "updated": "2019-07-15T19:07:26+0000"
+            "updated": "2019-07-25T02:07:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/Intel-Media-SDK/MediaSDK/issues",
-            "description": "Intel(R) Media SDK provides an API to access hardware-accelerated video decode, encode and filtering on Intel\u00ae platforms with integrated graphics.",
+            "description": "Intel(R) Media SDK provides an API to access hardware-accelerated video decode, encode and filtering on Intel\u00c2\u00ae platforms with integrated graphics.",
             "filename": "intel-mediasdk_19.2.0.bb",
             "filepath": "recipes-multimedia/mediasdk",
             "homepage": "https://github.com/Intel-Media-SDK/MediaSDK",
             "id": 876222,
-            "inherits": "cmake pkgconfig",
+            "inherits": "cmake distro_features_check pkgconfig",
             "layerbranch": 84751,
             "license": "MIT",
             "pn": "intel-mediasdk",
@@ -659,7 +659,7 @@
             "pv": "19.2.0",
             "section": "base",
             "summary": "Intel(R) Media SDK for hardware accelerated media processing",
-            "updated": "2019-07-15T19:07:26+0000"
+            "updated": "2019-07-25T02:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -675,10 +675,10 @@
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.19.55+gitX",
+            "pv": "4.19.57+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-07-01T23:07:38+0000"
+            "updated": "2019-07-24T19:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -830,7 +830,7 @@
             "pv": "1.0.6",
             "section": "base",
             "summary": "The Intel(R) Graphics Compiler for OpenCL(TM)",
-            "updated": "2019-06-17T20:06:31+0000"
+            "updated": "2019-07-25T02:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -894,7 +894,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "MEETEE library provides a cross-platform simple  programing interface for accessing Intel HECI interfaces on devices  found in BigCore and Atom based products.",
-            "filename": "metee_2.1.0.bb",
+            "filename": "metee_2.1.1.bb",
             "filepath": "recipes-bsp/metee",
             "homepage": "",
             "id": 983038,
@@ -903,10 +903,10 @@
             "license": "Apache-2.0",
             "pn": "metee",
             "provides": "metee ",
-            "pv": "2.1.0",
+            "pv": "2.1.1",
             "section": "base",
             "summary": "Intel(R) METEE Library",
-            "updated": "2019-06-25T00:06:33+0000"
+            "updated": "2019-07-24T19:07:27+0000"
         },
         {
             "bbclassextend": "",

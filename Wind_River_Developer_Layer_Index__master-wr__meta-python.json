@@ -108,43 +108,43 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190722",
+            "actual_branch": "wr-10.19-20190724",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-23T02:07:50+0000",
-            "vcs_last_commit": "2019-07-23T02:07:50+0000",
-            "vcs_last_fetch": "2019-07-23T02:07:50+0000",
-            "vcs_last_rev": "af849e196320f7617022e5ad7a3580b8c5d0954e",
+            "updated": "2019-07-25T01:07:43+0000",
+            "vcs_last_commit": "2019-07-25T01:07:43+0000",
+            "vcs_last_fetch": "2019-07-25T01:07:43+0000",
+            "vcs_last_rev": "52057934be5cff0c0035f00a8322cc340ec892b0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190722",
+            "actual_branch": "wr-10.19-20190724",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-22T20:07:52+0000",
-            "vcs_last_commit": "2019-07-22T20:07:52+0000",
-            "vcs_last_fetch": "2019-07-22T20:07:52+0000",
-            "vcs_last_rev": "bb3f02d5130cc558343efe885818659b6a6a0e7e",
+            "updated": "2019-07-25T02:07:22+0000",
+            "vcs_last_commit": "2019-07-25T02:07:22+0000",
+            "vcs_last_fetch": "2019-07-25T02:07:22+0000",
+            "vcs_last_rev": "d46bd29328a455386c901a6061e78ccb41416776",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190722",
+            "actual_branch": "wr-10.19-20190724",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-07-21T18:07:13+0000",
-            "vcs_last_commit": "2019-07-21T18:07:13+0000",
-            "vcs_last_fetch": "2019-07-21T18:07:13+0000",
-            "vcs_last_rev": "a4c89f1c1ba28030e29a48d3b0187b843f2d9364",
+            "updated": "2019-07-23T20:07:47+0000",
+            "vcs_last_commit": "2019-07-23T20:07:47+0000",
+            "vcs_last_fetch": "2019-07-23T20:07:47+0000",
+            "vcs_last_rev": "569b6eb861564256bd20a2a08baab2434f41d3c1",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -2392,7 +2392,7 @@
             "pv": "2.0.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:50+0000"
+            "updated": "2019-07-24T19:07:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7111,7 +7111,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
-            "filename": "python-pbr_5.4.0.bb",
+            "filename": "python-pbr_5.4.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
             "id": 724135,
@@ -7120,10 +7120,10 @@
             "license": "Apache-2.0",
             "pn": "python-pbr",
             "provides": "python-pbr ",
-            "pv": "5.4.0",
+            "pv": "5.4.1",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2019-07-15T19:07:12+0000"
+            "updated": "2019-07-24T19:07:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9518,6 +9518,25 @@
             "section": "devel/python",
             "summary": "matplotlib: plotting with Python",
             "updated": "2019-07-15T19:07:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-term_2.3.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 989917,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "Python-2",
+            "pn": "python3-term",
+            "provides": "python3-term ",
+            "pv": "2.3",
+            "section": "devel/python",
+            "summary": "An enhanced version of the tty module",
+            "updated": "2019-07-24T19:07:02+0000"
         }
     ],
     "wrtemplates": []
