@@ -90,75 +90,82 @@
             "image_url": "",
             "link_url": "",
             "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190722",
+            "bitbake_branch": "wr-10.19-20190729",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-22T20:07:18+0000",
+            "updated": "2019-07-29T23:07:32+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-25T01:07:43+0000",
-            "vcs_last_commit": "2019-07-25T01:07:43+0000",
-            "vcs_last_fetch": "2019-07-25T01:07:43+0000",
-            "vcs_last_rev": "52057934be5cff0c0035f00a8322cc340ec892b0",
+            "updated": "2019-07-28T20:07:33+0000",
+            "vcs_last_commit": "2019-07-28T20:07:33+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:33+0000",
+            "vcs_last_rev": "ed08a3785599ebb6c7e46fc28230378afda29e48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "gnome-layer",
             "id": 14960,
             "layer": 15,
-            "updated": "2019-07-23T20:07:47+0000",
-            "vcs_last_commit": "2019-07-23T20:07:47+0000",
-            "vcs_last_fetch": "2019-07-23T20:07:47+0000",
-            "vcs_last_rev": "569b6eb861564256bd20a2a08baab2434f41d3c1",
+            "updated": "2019-07-28T20:07:34+0000",
+            "vcs_last_commit": "2019-07-28T20:07:34+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:34+0000",
+            "vcs_last_rev": "6497504e7e4d2d6991d6b578c5144d603716d495",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-07-23T20:07:47+0000",
-            "vcs_last_commit": "2019-07-23T20:07:47+0000",
-            "vcs_last_fetch": "2019-07-23T20:07:47+0000",
-            "vcs_last_rev": "eb185fbf8659bc82da46ff1668ecfc427c2f3bf0",
+            "updated": "2019-07-28T20:07:34+0000",
+            "vcs_last_commit": "2019-07-28T20:07:34+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:34+0000",
+            "vcs_last_rev": "2398945ef73ddd3d28a3577117439fa3e44bde8c",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-25T02:07:22+0000",
-            "vcs_last_commit": "2019-07-25T02:07:22+0000",
-            "vcs_last_fetch": "2019-07-25T02:07:22+0000",
-            "vcs_last_rev": "d46bd29328a455386c901a6061e78ccb41416776",
+            "updated": "2019-07-28T20:07:34+0000",
+            "vcs_last_commit": "2019-07-28T20:07:34+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:34+0000",
+            "vcs_last_rev": "c0b1ea3567b9062c661266e619ac2ae6d4cc572d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -606,7 +613,7 @@
             "pv": "3.32.0",
             "section": "x11/gnome",
             "summary": "GNOME library for reading .desktop files",
-            "updated": "2019-05-08T22:05:44+0000"
+            "updated": "2019-07-29T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -701,7 +708,7 @@
             "pv": "2.31.0",
             "section": "x11/libs",
             "summary": "Window navigation construction toolkit",
-            "updated": "2018-10-05T09:10:04+0000"
+            "updated": "2019-07-29T23:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -796,7 +803,7 @@
             "pv": "1.14.45",
             "section": "libs",
             "summary": "GNOME Structured File Library",
-            "updated": "2019-04-08T23:04:10+0000"
+            "updated": "2019-07-29T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -910,7 +917,7 @@
             "pv": "3.26.1",
             "section": "x11/gnome/libs",
             "summary": "GNOME keyboard library",
-            "updated": "2019-04-08T23:04:09+0000"
+            "updated": "2019-07-29T23:07:05+0000"
         },
         {
             "bbclassextend": "",

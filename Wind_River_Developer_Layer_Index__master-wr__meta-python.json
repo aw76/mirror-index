@@ -90,61 +90,68 @@
             "image_url": "",
             "link_url": "",
             "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190722",
+            "bitbake_branch": "wr-10.19-20190729",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-22T20:07:18+0000",
+            "updated": "2019-07-29T23:07:32+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-25T01:07:43+0000",
-            "vcs_last_commit": "2019-07-25T01:07:43+0000",
-            "vcs_last_fetch": "2019-07-25T01:07:43+0000",
-            "vcs_last_rev": "52057934be5cff0c0035f00a8322cc340ec892b0",
+            "updated": "2019-07-28T20:07:33+0000",
+            "vcs_last_commit": "2019-07-28T20:07:33+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:33+0000",
+            "vcs_last_rev": "ed08a3785599ebb6c7e46fc28230378afda29e48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-25T02:07:22+0000",
-            "vcs_last_commit": "2019-07-25T02:07:22+0000",
-            "vcs_last_fetch": "2019-07-25T02:07:22+0000",
-            "vcs_last_rev": "d46bd29328a455386c901a6061e78ccb41416776",
+            "updated": "2019-07-28T20:07:34+0000",
+            "vcs_last_commit": "2019-07-28T20:07:34+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:34+0000",
+            "vcs_last_rev": "c0b1ea3567b9062c661266e619ac2ae6d4cc572d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-07-23T20:07:47+0000",
-            "vcs_last_commit": "2019-07-23T20:07:47+0000",
-            "vcs_last_fetch": "2019-07-23T20:07:47+0000",
-            "vcs_last_rev": "569b6eb861564256bd20a2a08baab2434f41d3c1",
+            "updated": "2019-07-28T20:07:34+0000",
+            "vcs_last_commit": "2019-07-28T20:07:34+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:34+0000",
+            "vcs_last_rev": "6497504e7e4d2d6991d6b578c5144d603716d495",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -3083,7 +3090,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-mako_1.0.13.bb",
+            "filename": "python-mako_1.0.14.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.makotemplates.org/",
             "id": 723923,
@@ -3092,10 +3099,10 @@
             "license": "MIT",
             "pn": "python-mako",
             "provides": "python-mako ",
-            "pv": "1.0.13",
+            "pv": "1.0.14",
             "section": "devel/python",
             "summary": "A super-fast templating language that borrows the best ideas from the existing templating languages",
-            "updated": "2019-07-15T19:07:08+0000"
+            "updated": "2019-07-29T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4565,7 +4572,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-beautifulsoup4_4.7.1.bb",
+            "filename": "python-beautifulsoup4_4.8.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " https://www.crummy.com/software/BeautifulSoup/bs4",
             "id": 724001,
@@ -4574,10 +4581,10 @@
             "license": "MIT",
             "pn": "python-beautifulsoup4",
             "provides": "python-beautifulsoup4 ",
-            "pv": "4.7.1",
+            "pv": "4.8.0",
             "section": "devel/python",
             "summary": "Screen-scraping library",
-            "updated": "2019-04-22T19:04:11+0000"
+            "updated": "2019-07-29T23:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -5002,7 +5009,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-beautifulsoup4_4.7.1.bb",
+            "filename": "python3-beautifulsoup4_4.8.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " https://www.crummy.com/software/BeautifulSoup/bs4",
             "id": 724024,
@@ -5011,10 +5018,10 @@
             "license": "MIT",
             "pn": "python3-beautifulsoup4",
             "provides": "python3-beautifulsoup4 ",
-            "pv": "4.7.1",
+            "pv": "4.8.0",
             "section": "devel/python",
             "summary": "Screen-scraping library",
-            "updated": "2019-04-22T19:04:13+0000"
+            "updated": "2019-07-29T23:07:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9537,6 +9544,25 @@
             "section": "devel/python",
             "summary": "An enhanced version of the tty module",
             "updated": "2019-07-24T19:07:02+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python-jsonref_0.2.bb",
+            "filepath": "recipes-devtools/python-jsonref",
+            "homepage": "https://github.com/gazpachoking/jsonref",
+            "id": 989937,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python-jsonref",
+            "provides": "python-jsonref ",
+            "pv": "0.2",
+            "section": "devel/python",
+            "summary": "jsonref is a library for automatic dereferencing of JSON Reference objects for Python",
+            "updated": "2019-07-29T23:07:06+0000"
         }
     ],
     "wrtemplates": []

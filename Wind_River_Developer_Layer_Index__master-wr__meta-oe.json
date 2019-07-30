@@ -90,47 +90,54 @@
             "image_url": "",
             "link_url": "",
             "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190722",
+            "bitbake_branch": "wr-10.19-20190729",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-22T20:07:18+0000",
+            "updated": "2019-07-29T23:07:32+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-07-25T01:07:43+0000",
-            "vcs_last_commit": "2019-07-25T01:07:43+0000",
-            "vcs_last_fetch": "2019-07-25T01:07:43+0000",
-            "vcs_last_rev": "52057934be5cff0c0035f00a8322cc340ec892b0",
+            "updated": "2019-07-28T20:07:33+0000",
+            "vcs_last_commit": "2019-07-28T20:07:33+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:33+0000",
+            "vcs_last_rev": "ed08a3785599ebb6c7e46fc28230378afda29e48",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190724",
+            "actual_branch": "wr-10.19-20190729",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-25T02:07:22+0000",
-            "vcs_last_commit": "2019-07-25T02:07:22+0000",
-            "vcs_last_fetch": "2019-07-25T02:07:22+0000",
-            "vcs_last_rev": "d46bd29328a455386c901a6061e78ccb41416776",
+            "updated": "2019-07-28T20:07:34+0000",
+            "vcs_last_commit": "2019-07-28T20:07:34+0000",
+            "vcs_last_fetch": "2019-07-28T20:07:34+0000",
+            "vcs_last_rev": "c0b1ea3567b9062c661266e619ac2ae6d4cc572d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -2430,7 +2437,7 @@
             "pv": "1.900.1",
             "section": "base",
             "summary": "Jpeg 2000 implementation",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-07-29T23:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -4185,7 +4192,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Dstat is a versatile replacement for vmstat, iostat, netstat and ifstat. Dstat overcomes some of their limitations and adds some extra features, more counters and flexibility. Dstat is handy for monitoring systems during performance tuning tests, benchmarks or troubleshooting.",
-            "filename": "dstat_0.7.3.bb",
+            "filename": "dstat_0.7.4.bb",
             "filepath": "recipes-support/dstat",
             "homepage": "http://dag.wiee.rs/home-made/dstat",
             "id": 973919,
@@ -4194,10 +4201,10 @@
             "license": "GPLv2",
             "pn": "dstat",
             "provides": "dstat ",
-            "pv": "0.7.3",
+            "pv": "0.7.4",
             "section": "base",
             "summary": "versatile resource statics tool",
-            "updated": "2019-06-13T17:06:33+0000"
+            "updated": "2019-07-29T23:07:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -6635,25 +6642,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "A storage daemon that implements well-defined D-Bus interfaces that can be used to query and manipulate storage devices.",
-            "filename": "udisks_1.0.5.bb",
-            "filepath": "recipes-support/udisks",
-            "homepage": "",
-            "id": 974048,
-            "inherits": "autotools autotools-brokensep bash-completion distro_features_check gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd",
-            "layerbranch": 14965,
-            "license": "GPLv2+",
-            "pn": "udisks",
-            "provides": "udisks ",
-            "pv": "1.0.5",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-06-13T17:06:14+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "",
             "filename": "udisks2_git.bb",
             "filepath": "recipes-support/udisks",
@@ -7054,7 +7042,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "cpprest_2.10.13.bb",
+            "filename": "cpprest_2.10.14.bb",
             "filepath": "recipes-support/cpprest",
             "homepage": "https://github.com/Microsoft/cpprestsdk/",
             "id": 974070,
@@ -7063,10 +7051,10 @@
             "license": "MIT",
             "pn": "cpprest",
             "provides": "cpprest ",
-            "pv": "2.10.13",
+            "pv": "2.10.14",
             "section": "libs/network",
             "summary": "Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design.",
-            "updated": "2019-07-15T19:07:49+0000"
+            "updated": "2019-07-29T23:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -11595,7 +11583,7 @@
             "blacklisted": "",
             "bugtracker": "http://sourceforge.net/p/log4cplus/bugs/",
             "description": "",
-            "filename": "log4cplus_2.0.3.bb",
+            "filename": "log4cplus_2.0.4.bb",
             "filepath": "recipes-devtools/log4cplus",
             "homepage": "http://sourceforge.net/projects/log4cplus/",
             "id": 974313,
@@ -11604,10 +11592,10 @@
             "license": "Apache-2.0 & BSD-2-Clause",
             "pn": "log4cplus",
             "provides": "log4cplus ",
-            "pv": "2.0.3",
+            "pv": "2.0.4",
             "section": "libs",
             "summary": "log4cplus provides a simple C++ logging API for log management",
-            "updated": "2019-06-13T17:06:42+0000"
+            "updated": "2019-07-29T23:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -13355,7 +13343,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2019-07-15T19:07:41+0000"
+            "updated": "2019-07-29T23:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -13717,6 +13705,25 @@
             "section": "console/utils",
             "summary": "Zstandard - Fast real-time compression algorithm",
             "updated": "2019-07-22T20:07:16+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "http://bugzilla.libsdl.org/",
+            "description": "Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer.",
+            "filename": "libsdl_1.2.15.bb",
+            "filepath": "recipes-graphics/libsdl",
+            "homepage": "http://www.libsdl.org",
+            "id": 989936,
+            "inherits": "autotools binconfig-disabled lib_package pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1",
+            "pn": "libsdl",
+            "provides": "libsdl virtual/libsdl",
+            "pv": "1.2.15",
+            "section": "libs",
+            "summary": "Simple DirectMedia Layer",
+            "updated": "2019-07-29T23:07:51+0000"
         }
     ],
     "wrtemplates": []
