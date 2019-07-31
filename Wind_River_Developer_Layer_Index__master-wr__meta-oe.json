@@ -129,15 +129,15 @@
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190729",
+            "actual_branch": "wr-10.19-20190731",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-07-28T20:07:34+0000",
-            "vcs_last_commit": "2019-07-28T20:07:34+0000",
-            "vcs_last_fetch": "2019-07-28T20:07:34+0000",
-            "vcs_last_rev": "c0b1ea3567b9062c661266e619ac2ae6d4cc572d",
+            "updated": "2019-07-31T01:07:41+0000",
+            "vcs_last_commit": "2019-07-31T01:07:41+0000",
+            "vcs_last_fetch": "2019-07-31T01:07:41+0000",
+            "vcs_last_rev": "aec836f32b28a7aa6757d1df9f532c6075c40605",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -620,7 +620,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xterm_347.bb",
+            "filename": "xterm_348.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 973731,
@@ -629,10 +629,10 @@
             "license": "MIT-X",
             "pn": "xterm",
             "provides": "xterm ",
-            "pv": "347",
+            "pv": "348",
             "section": "x11/apps",
             "summary": "xterm is the standard terminal emulator for the X Window System",
-            "updated": "2019-07-15T19:07:48+0000"
+            "updated": "2019-07-31T01:07:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -681,7 +681,7 @@
             "filepath": "recipes-graphics/gimp",
             "homepage": "http://www.gimp.org",
             "id": 973734,
-            "inherits": "autotools distro_features_check gconf gnome gnomebase gtk-doc gtk-icon-cache mime pkgconfig python3-dir python3native qemu siteconfig siteinfo",
+            "inherits": "autotools distro_features_check gnomebase gtk-doc gtk-icon-cache pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv3",
             "pn": "gimp",
@@ -689,7 +689,7 @@
             "pv": "2.8.22",
             "section": "x11/graphics",
             "summary": "The GIMP is the GNU Image Manipulation Program",
-            "updated": "2019-06-13T17:06:38+0000"
+            "updated": "2019-07-31T01:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -7434,7 +7434,7 @@
             "pv": "0.75.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2019-06-13T17:06:29+0000"
+            "updated": "2019-07-31T01:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -7863,7 +7863,7 @@
             "filepath": "recipes-multimedia/pulseaudio",
             "homepage": "",
             "id": 974113,
-            "inherits": "autotools distro_features_check gconf gnome gnomebase gtk-icon-cache mime pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distro_features_check gnomebase pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "pavucontrol",
@@ -7871,7 +7871,7 @@
             "pv": "4.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-07-31T01:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -11177,7 +11177,7 @@
             "pv": "3.19",
             "section": "console/network",
             "summary": "A TCP/IP Daemon simplifying the communication with GPS devices",
-            "updated": "2019-07-22T20:07:15+0000"
+            "updated": "2019-07-31T01:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -12822,7 +12822,7 @@
             "filepath": "recipes-gnome/vte9",
             "homepage": "",
             "id": 974378,
-            "inherits": "autotools distro_features_check gconf gnome gnomebase gobject-introspection gobject-introspection-data gtk-doc gtk-icon-cache mime pkgconfig python3-dir python3native qemu siteconfig siteinfo upstream-version-is-even",
+            "inherits": "autotools distro_features_check gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo upstream-version-is-even",
             "layerbranch": 14965,
             "license": "LGPLv2.0",
             "pn": "vte9",
@@ -12830,7 +12830,7 @@
             "pv": "0.28.2",
             "section": "base",
             "summary": "Virtual terminal emulator GTK+ widget library",
-            "updated": "2019-06-13T17:06:05+0000"
+            "updated": "2019-07-31T01:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -12917,7 +12917,7 @@
             "filepath": "recipes-gnome/atk",
             "homepage": "",
             "id": 974383,
-            "inherits": "autotools distro_features_check gconf gnome gnomebase gtk-icon-cache mime pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distro_features_check gnomebase pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPLv2.1 & GPLv2",
             "pn": "atkmm",
@@ -12925,7 +12925,7 @@
             "pv": "2.28.0",
             "section": "libs",
             "summary": "C++ bindings for the atk",
-            "updated": "2019-06-13T17:06:06+0000"
+            "updated": "2019-07-31T01:07:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13582,7 +13582,7 @@
             "filepath": "recipes-support/pidgin",
             "homepage": "",
             "id": 983035,
-            "inherits": "autotools gconf gnome gnomebase gobject-introspection gobject-introspection-data gtk-icon-cache mime pkgconfig python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools gnomebase gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 14965,
             "license": "LGPL-2.1",
             "pn": "gmime",
@@ -13590,7 +13590,7 @@
             "pv": "3.2.3",
             "section": "libs",
             "summary": "",
-            "updated": "2019-06-25T00:06:01+0000"
+            "updated": "2019-07-31T01:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -13724,6 +13724,44 @@
             "section": "libs",
             "summary": "Simple DirectMedia Layer",
             "updated": "2019-07-29T23:07:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "header-only library for creating parsers according to Parsing Expression Grammar",
+            "filename": "pegtl_2.1.4.bb",
+            "filepath": "recipes-extended/pegtl",
+            "homepage": "https://github.com/taocpp/PEGTL",
+            "id": 989966,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "pegtl",
+            "provides": "pegtl ",
+            "pv": "2.1.4",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-31T01:07:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Bats is a TAP-compliant testing framework for Bash. It provides a simple way to verify that the UNIX programs you write behave as expected.",
+            "filename": "bats_1.1.0.bb",
+            "filepath": "recipes-test/bats",
+            "homepage": "https://github.com/bats-core/bats-core",
+            "id": 989967,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "bats",
+            "provides": "bats ",
+            "pv": "1.1.0",
+            "section": "base",
+            "summary": "Bash Automated Testing System",
+            "updated": "2019-07-31T01:07:46+0000"
         }
     ],
     "wrtemplates": []
