@@ -148,10 +148,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-08-07T02:08:42+0000",
-            "vcs_last_commit": "2019-08-07T02:08:42+0000",
-            "vcs_last_fetch": "2019-08-07T02:08:42+0000",
-            "vcs_last_rev": "46c637fe7b6bdd3be8d05f8bf285e14536aa0ca3",
+            "updated": "2019-08-08T02:08:37+0000",
+            "vcs_last_commit": "2019-08-08T02:08:37+0000",
+            "vcs_last_fetch": "2019-08-08T02:08:37+0000",
+            "vcs_last_rev": "ecc0067f903b34815bafaa7371d11e5b0935d020",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -701,6 +701,25 @@
             "section": "base",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
             "updated": "2019-08-05T00:08:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "UMIP is an open source implementation of Mobile IPv6 and NEMO Basic Support for Linux. It is released under the GPLv2 license. It supports the following IETF RFC: RFC6275 (Mobile IPv6), RFC3963 (NEMO), RFC3776 and RFC4877 (IPsec and IKEv2).",
+            "filename": "umip_1.0.bb",
+            "filepath": "wrlinux-cgl/recipes-cgl/umip",
+            "homepage": "http://umip.org/",
+            "id": 997160,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d",
+            "layerbranch": 15009,
+            "license": "GPLv2",
+            "pn": "umip",
+            "provides": "umip ",
+            "pv": "1.0",
+            "section": "System Environment/Base",
+            "summary": "Mobile IPv6 and NEMO for Linux",
+            "updated": "2019-08-08T01:08:49+0000"
         }
     ],
     "wrtemplates": [
