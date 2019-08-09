@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190729",
+            "bitbake_branch": "wr-10.19-20190808",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-29T23:07:32+0000",
+            "updated": "2019-08-08T19:08:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-07T00:08:21+0000",
-            "vcs_last_commit": "2019-08-07T00:08:21+0000",
-            "vcs_last_fetch": "2019-08-07T00:08:21+0000",
-            "vcs_last_rev": "c56ef9e17d00ada9ee12d3023a0e72a714042156",
+            "updated": "2019-08-08T23:08:27+0000",
+            "vcs_last_commit": "2019-08-08T23:08:27+0000",
+            "vcs_last_fetch": "2019-08-08T23:08:27+0000",
+            "vcs_last_rev": "e9d2536647797daa8b0aeb90bd11c7915eec242f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2019-08-04T19:08:39+0000",
-            "vcs_last_commit": "2019-08-04T19:08:39+0000",
-            "vcs_last_fetch": "2019-08-04T19:08:39+0000",
-            "vcs_last_rev": "586846b981bae4f293c8a067735239ff4d1fa70f",
+            "updated": "2019-08-07T23:08:49+0000",
+            "vcs_last_commit": "2019-08-07T23:08:49+0000",
+            "vcs_last_fetch": "2019-08-07T23:08:49+0000",
+            "vcs_last_rev": "6100c5071239cab4867ebe3728a3ce75a3967a51",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 9
@@ -730,7 +730,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This software is a user mode library that acceleratesdeep-learning applications and frameworks on Intel architecture.",
-            "filename": "mkl-dnn_git.bb",
+            "filename": "mkl-dnn_1.0.1.bb",
             "filepath": "recipes-core/mkl-dnn",
             "homepage": "",
             "id": 917950,
@@ -739,10 +739,10 @@
             "license": "Apache-2.0 & BSD-3-Clause",
             "pn": "mkl-dnn",
             "provides": "mkl-dnn ",
-            "pv": "0.19+gitX",
+            "pv": "1.0.1",
             "section": "lib",
             "summary": "Intel Math Kernel Library for Deep Neural Networks",
-            "updated": "2019-08-05T23:08:34+0000"
+            "updated": "2019-08-08T19:08:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -863,7 +863,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Intel Local Manageability Service allows applications to access the Intel Active Management Technology (AMT) firmware via the Intel Management Engine Interface (MEI).",
-            "filename": "lms_1921.0.0.0.bb",
+            "filename": "lms_1932.0.0.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-bsp/amt",
             "homepage": "",
             "id": 983036,
@@ -872,10 +872,10 @@
             "license": "Apache-2.0",
             "pn": "lms",
             "provides": "lms ",
-            "pv": "1921.0.0.0",
+            "pv": "1932.0.0.0",
             "section": "base",
             "summary": "Intel(R) Local Managability Service",
-            "updated": "2019-08-05T23:08:35+0000"
+            "updated": "2019-08-08T19:08:47+0000"
         },
         {
             "bbclassextend": "",

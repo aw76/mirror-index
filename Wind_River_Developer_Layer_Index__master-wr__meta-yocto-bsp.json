@@ -101,29 +101,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190729",
+            "bitbake_branch": "wr-10.19-20190808",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-29T23:07:32+0000",
+            "updated": "2019-08-08T19:08:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190722",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "yoctobsp",
             "id": 14956,
             "layer": 58,
-            "updated": "2019-07-21T18:07:12+0000",
-            "vcs_last_commit": "2019-07-21T18:07:12+0000",
-            "vcs_last_fetch": "2019-07-21T18:07:12+0000",
-            "vcs_last_rev": "addefc0232294c29f4c01203ee61c0fa0303180a",
+            "updated": "2019-08-07T23:08:55+0000",
+            "vcs_last_commit": "2019-08-07T23:08:55+0000",
+            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
+            "vcs_last_rev": "36f8ed4b2ae2ffe06492e0953051eb5a835e911f",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
             "yp_compatible_version": 14
@@ -170,7 +170,7 @@
             "id": 12628,
             "layerbranch": 14956,
             "name": "genericx86",
-            "updated": "2019-04-08T23:04:35+0000"
+            "updated": "2019-08-08T19:08:22+0000"
         },
         {
             "description": " a generic edgerouter",
@@ -184,7 +184,7 @@
             "id": 12630,
             "layerbranch": 14956,
             "name": "genericx86-64",
-            "updated": "2019-04-08T23:04:35+0000"
+            "updated": "2019-08-08T19:08:22+0000"
         }
     ],
     "recipes": [

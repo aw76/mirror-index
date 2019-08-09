@@ -101,57 +101,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190729",
+            "bitbake_branch": "wr-10.19-20190808",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-29T23:07:32+0000",
+            "updated": "2019-08-08T19:08:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-07T00:08:21+0000",
-            "vcs_last_commit": "2019-08-07T00:08:21+0000",
-            "vcs_last_fetch": "2019-08-07T00:08:21+0000",
-            "vcs_last_rev": "c56ef9e17d00ada9ee12d3023a0e72a714042156",
+            "updated": "2019-08-08T23:08:27+0000",
+            "vcs_last_commit": "2019-08-08T23:08:27+0000",
+            "vcs_last_fetch": "2019-08-08T23:08:27+0000",
+            "vcs_last_rev": "e9d2536647797daa8b0aeb90bd11c7915eec242f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-05T23:08:39+0000",
-            "vcs_last_commit": "2019-08-05T23:08:39+0000",
-            "vcs_last_fetch": "2019-08-05T23:08:39+0000",
-            "vcs_last_rev": "25d2c16ecc205e2607d9e3805235ba105aacb709",
+            "updated": "2019-08-07T23:08:55+0000",
+            "vcs_last_commit": "2019-08-07T23:08:55+0000",
+            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
+            "vcs_last_rev": "4abef8cb48e5d0d5451898d578d6ee55bbca00e6",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-08-04T19:08:24+0000",
-            "vcs_last_commit": "2019-08-04T19:08:24+0000",
-            "vcs_last_fetch": "2019-08-04T19:08:24+0000",
-            "vcs_last_rev": "8cb8fce3e540ccdf5c47b55ff3cf67a6af5e0845",
+            "updated": "2019-08-07T23:08:55+0000",
+            "vcs_last_commit": "2019-08-07T23:08:55+0000",
+            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
+            "vcs_last_rev": "347a7307b05a1be93377a70b08f653909cfe6847",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -1019,7 +1019,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pyparsing_2.4.0.bb",
+            "filename": "python3-pyparsing_2.4.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyparsing.wikispaces.com/",
             "id": 723813,
@@ -1028,10 +1028,10 @@
             "license": "MIT",
             "pn": "python3-pyparsing",
             "provides": "python3-pyparsing ",
-            "pv": "2.4.0",
+            "pv": "2.4.2",
             "section": "devel/python",
             "summary": "Python parsing module",
-            "updated": "2019-05-26T19:05:51+0000"
+            "updated": "2019-08-08T19:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1703,7 +1703,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A collection of ASN.1 modules expressed in form of pyasn1 classes. Includes protocols PDUs definition (SNMP, LDAP etc.) and various data structures (X.509, PKCS etc.).",
-            "filename": "python3-pyasn1-modules_0.2.2.bb",
+            "filename": "python3-pyasn1-modules_0.2.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/etingof/pyasn1-modules",
             "id": 723849,
@@ -1712,10 +1712,10 @@
             "license": "BSD-2-Clause",
             "pn": "python3-pyasn1-modules",
             "provides": "python3-pyasn1-modules ",
-            "pv": "0.2.2",
+            "pv": "0.2.6",
             "section": "devel/python",
             "summary": "A collection of ASN.1-based protocols modules.",
-            "updated": "2018-10-05T09:10:43+0000"
+            "updated": "2019-08-08T19:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2501,7 +2501,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pytest-runner_4.2.bb",
+            "filename": "python3-pytest-runner_5.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723892,
@@ -2510,10 +2510,10 @@
             "license": "MIT",
             "pn": "python3-pytest-runner",
             "provides": "python3-pytest-runner ",
-            "pv": "4.2",
+            "pv": "5.1",
             "section": "devel/python",
             "summary": "Invoke py.test as distutils command with dependency resolution",
-            "updated": "2018-10-05T09:10:51+0000"
+            "updated": "2019-08-08T19:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2672,7 +2672,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-jsonpatch_1.23.bb",
+            "filename": "python-jsonpatch_1.24.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/stefankoegl/python-json-patch",
             "id": 723901,
@@ -2681,10 +2681,10 @@
             "license": "BSD",
             "pn": "python-jsonpatch",
             "provides": "python-jsonpatch ",
-            "pv": "1.23",
+            "pv": "1.24",
             "section": "devel/python",
             "summary": "Appling JSON patches in Python 2.6+ and 3.x",
-            "updated": "2018-10-05T09:10:53+0000"
+            "updated": "2019-08-08T19:08:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -3033,7 +3033,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyparsing_2.4.0.bb",
+            "filename": "python-pyparsing_2.4.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyparsing.wikispaces.com/",
             "id": 723920,
@@ -3042,17 +3042,17 @@
             "license": "MIT",
             "pn": "python-pyparsing",
             "provides": "python-pyparsing ",
-            "pv": "2.4.0",
+            "pv": "2.4.2",
             "section": "devel/python",
             "summary": "Python parsing module",
-            "updated": "2019-05-26T19:05:47+0000"
+            "updated": "2019-08-08T19:08:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python-cython_0.29.12.bb",
+            "filename": "python-cython_0.29.13.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723921,
@@ -3061,10 +3061,10 @@
             "license": "Apache-2.0",
             "pn": "python-cython",
             "provides": "python-cython ",
-            "pv": "0.29.12",
+            "pv": "0.29.13",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-07-15T19:07:08+0000"
+            "updated": "2019-08-08T19:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3090,7 +3090,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-mako_1.0.14.bb",
+            "filename": "python-mako_1.1.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.makotemplates.org/",
             "id": 723923,
@@ -3099,10 +3099,10 @@
             "license": "MIT",
             "pn": "python-mako",
             "provides": "python-mako ",
-            "pv": "1.0.14",
+            "pv": "1.1.0",
             "section": "devel/python",
             "summary": "A super-fast templating language that borrows the best ideas from the existing templating languages",
-            "updated": "2019-07-29T23:07:05+0000"
+            "updated": "2019-08-08T19:08:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3451,7 +3451,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-jsonpatch_1.23.bb",
+            "filename": "python3-jsonpatch_1.24.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/stefankoegl/python-json-patch",
             "id": 723942,
@@ -3460,17 +3460,17 @@
             "license": "BSD",
             "pn": "python3-jsonpatch",
             "provides": "python3-jsonpatch ",
-            "pv": "1.23",
+            "pv": "1.24",
             "section": "devel/python",
             "summary": "Appling JSON patches in Python 2.6+ and 3.x",
-            "updated": "2018-10-05T09:10:00+0000"
+            "updated": "2019-08-08T19:08:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python3-lxml_4.3.4.bb",
+            "filename": "python3-lxml_4.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
             "id": 723943,
@@ -3479,10 +3479,10 @@
             "license": "BSD & GPLv2 & MIT & PSF",
             "pn": "python3-lxml",
             "provides": "python3-lxml ",
-            "pv": "4.3.4",
+            "pv": "4.4.0",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2019-06-20T02:06:43+0000"
+            "updated": "2019-08-08T19:08:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -3622,19 +3622,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-configparser_3.5.0.bb",
+            "filename": "python-configparser_3.7.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://docs.python.org/3/library/configparser.html",
             "id": 723951,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 14967,
-            "license": "MIT",
+            "license": "unknown",
             "pn": "python-configparser",
             "provides": "python-configparser ",
-            "pv": "3.5.0",
+            "pv": "3.7.4",
             "section": "devel/python",
             "summary": "This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what's found in Microsoft Windows INI files.",
-            "updated": "2018-11-27T18:11:40+0000"
+            "updated": "2019-08-08T19:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -4325,7 +4325,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pycodestyle_2.4.0.bb",
+            "filename": "python-pycodestyle_2.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.org/project/pycodestyle",
             "id": 723988,
@@ -4334,10 +4334,10 @@
             "license": "MIT",
             "pn": "python-pycodestyle",
             "provides": "python-pycodestyle ",
-            "pv": "2.4.0",
+            "pv": "2.5.0",
             "section": "devel/python",
             "summary": "Python style guide checker (formly called pep8)",
-            "updated": "2019-04-22T19:04:15+0000"
+            "updated": "2019-08-08T19:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -4458,7 +4458,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyasn1_0.4.5.bb",
+            "filename": "python-pyasn1_0.4.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyasn1.sourceforge.net/",
             "id": 723995,
@@ -4467,10 +4467,10 @@
             "license": "BSD-2-Clause",
             "pn": "python-pyasn1",
             "provides": "python-pyasn1 ",
-            "pv": "0.4.5",
+            "pv": "0.4.6",
             "section": "devel/python",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2019-05-08T22:05:58+0000"
+            "updated": "2019-08-08T19:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -5066,7 +5066,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pytz_2019.1.bb",
+            "filename": "python-pytz_2019.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonhosted.org/pytz",
             "id": 724027,
@@ -5075,10 +5075,10 @@
             "license": "MIT",
             "pn": "python-pytz",
             "provides": "python-pytz ",
-            "pv": "2019.1",
+            "pv": "2019.2",
             "section": "devel/python",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2019-05-06T00:05:48+0000"
+            "updated": "2019-08-08T19:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -5218,7 +5218,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python-lxml_4.3.4.bb",
+            "filename": "python-lxml_4.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
             "id": 724035,
@@ -5227,10 +5227,10 @@
             "license": "BSD & GPLv2 & MIT & PSF",
             "pn": "python-lxml",
             "provides": "python-lxml ",
-            "pv": "4.3.4",
+            "pv": "4.4.0",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2019-06-20T02:06:43+0000"
+            "updated": "2019-08-08T19:08:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6225,7 +6225,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pyasn1_0.4.5.bb",
+            "filename": "python3-pyasn1_0.4.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyasn1.sourceforge.net/",
             "id": 724088,
@@ -6234,10 +6234,10 @@
             "license": "BSD-2-Clause",
             "pn": "python3-pyasn1",
             "provides": "python3-pyasn1 ",
-            "pv": "0.4.5",
+            "pv": "0.4.6",
             "section": "devel/python",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2019-05-08T22:05:59+0000"
+            "updated": "2019-08-08T19:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -6301,7 +6301,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pytz_2019.1.bb",
+            "filename": "python3-pytz_2019.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonhosted.org/pytz",
             "id": 724092,
@@ -6310,10 +6310,10 @@
             "license": "MIT",
             "pn": "python3-pytz",
             "provides": "python3-pytz ",
-            "pv": "2019.1",
+            "pv": "2019.2",
             "section": "devel/python",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2019-05-06T00:05:54+0000"
+            "updated": "2019-08-08T19:08:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6377,7 +6377,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cython is a language specially designed for writing Python extension modules. It's designed to bridge the gap between the nice, high-level, easy-to-use world of Python and the messy, low-level world of C.",
-            "filename": "python3-cython_0.29.12.bb",
+            "filename": "python3-cython_0.29.13.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724096,
@@ -6386,10 +6386,10 @@
             "license": "Apache-2.0",
             "pn": "python3-cython",
             "provides": "python3-cython ",
-            "pv": "0.29.12",
+            "pv": "0.29.13",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-07-15T19:07:10+0000"
+            "updated": "2019-08-08T19:08:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6814,7 +6814,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pytest-runner_4.2.bb",
+            "filename": "python-pytest-runner_5.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724119,
@@ -6823,10 +6823,10 @@
             "license": "MIT",
             "pn": "python-pytest-runner",
             "provides": "python-pytest-runner ",
-            "pv": "4.2",
+            "pv": "5.1",
             "section": "devel/python",
             "summary": "Invoke py.test as distutils command with dependency resolution",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-08-08T19:08:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7118,7 +7118,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
-            "filename": "python-pbr_5.4.1.bb",
+            "filename": "python-pbr_5.4.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
             "id": 724135,
@@ -7127,10 +7127,10 @@
             "license": "Apache-2.0",
             "pn": "python-pbr",
             "provides": "python-pbr ",
-            "pv": "5.4.1",
+            "pv": "5.4.2",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2019-07-24T19:07:02+0000"
+            "updated": "2019-08-08T19:08:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7555,7 +7555,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pycodestyle_2.4.0.bb",
+            "filename": "python3-pycodestyle_2.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.org/project/pycodestyle",
             "id": 724158,
@@ -7564,10 +7564,10 @@
             "license": "MIT",
             "pn": "python3-pycodestyle",
             "provides": "python3-pycodestyle ",
-            "pv": "2.4.0",
+            "pv": "2.5.0",
             "section": "devel/python",
             "summary": "Python style guide checker (formly called pep8)",
-            "updated": "2018-10-05T09:10:40+0000"
+            "updated": "2019-08-08T19:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -7593,19 +7593,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-configparser_3.5.0.bb",
+            "filename": "python3-configparser_3.7.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://docs.python.org/3/library/configparser.html",
             "id": 724160,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 14967,
-            "license": "MIT",
+            "license": "unknown",
             "pn": "python3-configparser",
             "provides": "python3-configparser ",
-            "pv": "3.5.0",
+            "pv": "3.7.4",
             "section": "devel/python",
             "summary": "This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what's found in Microsoft Windows INI files.",
-            "updated": "2018-11-27T18:11:40+0000"
+            "updated": "2019-08-08T19:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -8353,7 +8353,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A collection of ASN.1 modules expressed in form of pyasn1 classes. Includes protocols PDUs definition (SNMP, LDAP etc.) and various data structures (X.509, PKCS etc.).",
-            "filename": "python-pyasn1-modules_0.2.2.bb",
+            "filename": "python-pyasn1-modules_0.2.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/etingof/pyasn1-modules",
             "id": 724200,
@@ -8362,10 +8362,10 @@
             "license": "BSD-2-Clause",
             "pn": "python-pyasn1-modules",
             "provides": "python-pyasn1-modules ",
-            "pv": "0.2.2",
+            "pv": "0.2.6",
             "section": "devel/python",
             "summary": "A collection of ASN.1-based protocols modules.",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2019-08-08T19:08:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",

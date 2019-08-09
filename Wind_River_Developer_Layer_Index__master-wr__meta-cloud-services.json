@@ -101,71 +101,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190729",
+            "bitbake_branch": "wr-10.19-20190808",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-07-29T23:07:32+0000",
+            "updated": "2019-08-08T19:08:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-07T00:08:21+0000",
-            "vcs_last_commit": "2019-08-07T00:08:21+0000",
-            "vcs_last_fetch": "2019-08-07T00:08:21+0000",
-            "vcs_last_rev": "c56ef9e17d00ada9ee12d3023a0e72a714042156",
+            "updated": "2019-08-08T23:08:27+0000",
+            "vcs_last_commit": "2019-08-08T23:08:27+0000",
+            "vcs_last_fetch": "2019-08-08T23:08:27+0000",
+            "vcs_last_rev": "e9d2536647797daa8b0aeb90bd11c7915eec242f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2019-08-04T19:08:24+0000",
-            "vcs_last_commit": "2019-08-04T19:08:24+0000",
-            "vcs_last_fetch": "2019-08-04T19:08:24+0000",
-            "vcs_last_rev": "8cb8fce3e540ccdf5c47b55ff3cf67a6af5e0845",
+            "updated": "2019-08-07T23:08:55+0000",
+            "vcs_last_commit": "2019-08-07T23:08:55+0000",
+            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
+            "vcs_last_rev": "347a7307b05a1be93377a70b08f653909cfe6847",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-08-04T19:08:24+0000",
-            "vcs_last_commit": "2019-08-04T19:08:24+0000",
-            "vcs_last_fetch": "2019-08-04T19:08:24+0000",
-            "vcs_last_rev": "a8ec02e62f74e3b75d233aa8220f784ccc49fb51",
+            "updated": "2019-08-07T23:08:55+0000",
+            "vcs_last_commit": "2019-08-07T23:08:55+0000",
+            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
+            "vcs_last_rev": "20436dceb1f14fd82652e905c037aa242be402cc",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190805",
+            "actual_branch": "wr-10.19-20190808",
             "branch": 38,
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2019-08-04T19:08:24+0000",
-            "vcs_last_commit": "2019-08-04T19:08:24+0000",
-            "vcs_last_fetch": "2019-08-04T19:08:24+0000",
-            "vcs_last_rev": "b57e6e4019d4013cb4f0f2d64166227795a537b1",
+            "updated": "2019-08-07T23:08:55+0000",
+            "vcs_last_commit": "2019-08-07T23:08:55+0000",
+            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
+            "vcs_last_rev": "51e5687ef134af3d5378cdf51add508f77dc5974",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 9
@@ -651,7 +651,7 @@
             "pv": "4.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-13T20:06:25+0000"
+            "updated": "2019-08-08T19:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -715,7 +715,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Command Line Interface Formulation Framework",
-            "filename": "python-cliff_2.14.1.bb",
+            "filename": "python-cliff_2.15.0.bb",
             "filepath": "meta-openstack/recipes-devtools/python",
             "homepage": "https://github.com/dreamhost/cliff",
             "id": 926627,
@@ -724,10 +724,10 @@
             "license": "Apache-2.0",
             "pn": "python-cliff",
             "provides": "python-cliff ",
-            "pv": "2.14.1",
+            "pv": "2.15.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-03-19T19:03:09+0000"
+            "updated": "2019-08-08T19:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -810,7 +810,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A comprehensive HTTP client library",
-            "filename": "python-httplib2_0.13.0.bb",
+            "filename": "python-httplib2_0.13.1.bb",
             "filepath": "meta-openstack/recipes-devtools/python",
             "homepage": "https://code.google.com/p/httplib2/",
             "id": 954964,
@@ -819,10 +819,10 @@
             "license": "MIT",
             "pn": "python-httplib2",
             "provides": "python-httplib2 ",
-            "pv": "0.13.0",
+            "pv": "0.13.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-19T23:06:21+0000"
+            "updated": "2019-08-08T19:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -848,7 +848,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Authentication Library for OpenStack Identity",
-            "filename": "python-keystoneauth1_3.14.0.bb",
+            "filename": "python-keystoneauth1_3.15.0.bb",
             "filepath": "meta-openstack/recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/keystoneauth1",
             "id": 954966,
@@ -857,10 +857,10 @@
             "license": "Apache-2.0",
             "pn": "python-keystoneauth1",
             "provides": "python-keystoneauth1 ",
-            "pv": "3.14.0",
+            "pv": "3.15.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-03T19:06:10+0000"
+            "updated": "2019-08-08T19:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1095,7 +1095,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenStackClient Library",
-            "filename": "python-osc-lib_1.12.1.bb",
+            "filename": "python-osc-lib_1.13.0.bb",
             "filepath": "meta-openstack/recipes-devtools/python",
             "homepage": "http://opensource.perlig.de/rcssmin/",
             "id": 982975,
@@ -1104,10 +1104,10 @@
             "license": "Apache-2.0",
             "pn": "python-osc-lib",
             "provides": "python-osc-lib ",
-            "pv": "1.12.1",
+            "pv": "1.13.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-13T20:06:25+0000"
+            "updated": "2019-08-08T19:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1190,7 +1190,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A comprehensive HTTP client library",
-            "filename": "python3-httplib2_0.13.0.bb",
+            "filename": "python3-httplib2_0.13.1.bb",
             "filepath": "meta-openstack/recipes-devtools/python",
             "homepage": "https://code.google.com/p/httplib2/",
             "id": 983019,
@@ -1199,10 +1199,29 @@
             "license": "MIT",
             "pn": "python3-httplib2",
             "provides": "python3-httplib2 ",
-            "pv": "0.13.0",
+            "pv": "0.13.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-19T23:06:21+0000"
+            "updated": "2019-08-08T19:08:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A messaging framework for Python",
+            "filename": "python3-kombu_4.6.0.bb",
+            "filepath": "meta-openstack/recipes-devtools/python",
+            "homepage": "http://kombu.readthedocs.org",
+            "id": 997170,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 52439,
+            "license": "BSD",
+            "pn": "python3-kombu",
+            "provides": "python3-kombu ",
+            "pv": "4.6.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-08-08T19:08:10+0000"
         }
     ],
     "wrtemplates": []
