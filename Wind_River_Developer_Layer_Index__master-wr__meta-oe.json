@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190808",
+            "bitbake_branch": "wr-10.19-20190812",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-08T19:08:51+0000",
+            "updated": "2019-08-12T19:08:36+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190808",
+            "actual_branch": "wr-10.19-20190812",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-08T23:08:27+0000",
-            "vcs_last_commit": "2019-08-08T23:08:27+0000",
-            "vcs_last_fetch": "2019-08-08T23:08:27+0000",
-            "vcs_last_rev": "e9d2536647797daa8b0aeb90bd11c7915eec242f",
+            "updated": "2019-08-12T19:08:08+0000",
+            "vcs_last_commit": "2019-08-12T19:08:08+0000",
+            "vcs_last_fetch": "2019-08-12T19:08:08+0000",
+            "vcs_last_rev": "5104ce83d85831d92e35d1d74f747bf2feae3da4",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190808",
+            "actual_branch": "wr-10.19-20190812",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-07T23:08:55+0000",
-            "vcs_last_commit": "2019-08-07T23:08:55+0000",
-            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
-            "vcs_last_rev": "4abef8cb48e5d0d5451898d578d6ee55bbca00e6",
+            "updated": "2019-08-11T18:08:09+0000",
+            "vcs_last_commit": "2019-08-11T18:08:09+0000",
+            "vcs_last_fetch": "2019-08-11T18:08:09+0000",
+            "vcs_last_rev": "061e4274140663f6c4a5ae22e78bf0ba72c700a9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -2304,7 +2304,7 @@
             "pv": "2.40.1",
             "section": "base",
             "summary": "Graph Visualization Tools",
-            "updated": "2019-06-13T17:06:00+0000"
+            "updated": "2019-08-12T19:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2539,7 +2539,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wireless daemon for Linux",
-            "filename": "iwd_0.18.bb",
+            "filename": "iwd_0.19.bb",
             "filepath": "recipes-connectivity/iwd",
             "homepage": "",
             "id": 973832,
@@ -2548,10 +2548,10 @@
             "license": "LGPL-2.1",
             "pn": "iwd",
             "provides": "iwd ",
-            "pv": "0.18",
+            "pv": "0.19",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T19:07:38+0000"
+            "updated": "2019-08-12T19:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2855,7 +2855,7 @@
             "pv": "1.10.0",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2019-07-10T20:07:01+0000"
+            "updated": "2019-08-12T19:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3166,7 +3166,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "hostapd_2.8.bb",
+            "filename": "hostapd_2.9.bb",
             "filepath": "recipes-connectivity/hostapd",
             "homepage": "http://w1.fi/hostapd/",
             "id": 973865,
@@ -3175,10 +3175,10 @@
             "license": "BSD-3-Clause",
             "pn": "hostapd",
             "provides": "hostapd ",
-            "pv": "2.8",
+            "pv": "2.9",
             "section": "kernel/userland",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2019-06-13T17:06:16+0000"
+            "updated": "2019-08-12T19:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3501,7 +3501,7 @@
             "pv": "0.6.1+gitX",
             "section": "base",
             "summary": "Linux dynamic kernel patching infrastructure",
-            "updated": "2019-06-13T17:06:22+0000"
+            "updated": "2019-08-12T19:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -4356,7 +4356,7 @@
             "pv": "2.3.7",
             "section": "base",
             "summary": "An Open Source ODBC sub-system",
-            "updated": "2019-06-13T17:06:35+0000"
+            "updated": "2019-08-12T19:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -4705,7 +4705,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgpiod_1.4.bb",
+            "filename": "libgpiod_1.4.1.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 973946,
@@ -4714,10 +4714,10 @@
             "license": "LGPLv2.1+",
             "pn": "libgpiod",
             "provides": "libgpiod ",
-            "pv": "1.4",
+            "pv": "1.4.1",
             "section": "base",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2019-06-25T00:06:00+0000"
+            "updated": "2019-08-12T19:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -5465,7 +5465,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "gradm is the userspace RBAC parsing and authentication program for grsecurity grsecurity aims to be a complete security system. gradm performs several tasks for the RBAC system including authenticated via a password to the kernel and parsing rules to be passed to the kernel",
-            "filename": "gradm_3.1.bb",
+            "filename": "gradm_3.1-201903191516.bb",
             "filepath": "recipes-support/gradm",
             "homepage": "http://grsecurity.net/index.php",
             "id": 973986,
@@ -5474,10 +5474,10 @@
             "license": "GPL-2.0",
             "pn": "gradm",
             "provides": "gradm ",
-            "pv": "3.1",
+            "pv": "3.1-201903191516",
             "section": "admin",
             "summary": "Administration program for the grsecurity RBAC syste",
-            "updated": "2019-06-13T17:06:54+0000"
+            "updated": "2019-08-12T19:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -6396,7 +6396,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "mcelog is required by both 32bit x86 Linux kernels (since 2.6.30) and 64bit Linux kernels (since early 2.6 kernel releases) to log machine checks and should run on all Linux systems that need error handling.",
-            "filename": "mcelog_162.bb",
+            "filename": "mcelog_164.bb",
             "filepath": "recipes-support/mcelog",
             "homepage": "http://mcelog.org/",
             "id": 974035,
@@ -6405,10 +6405,10 @@
             "license": "GPLv2",
             "pn": "mcelog",
             "provides": "mcelog ",
-            "pv": "162",
+            "pv": "164",
             "section": "System Environment/Base",
             "summary": "mcelog daemon accounts memory and some other errors in various ways.",
-            "updated": "2019-06-17T20:06:50+0000"
+            "updated": "2019-08-12T19:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -6712,7 +6712,7 @@
             "pv": "0.1+svnrX",
             "section": "devel",
             "summary": "JTAG utility to interface w/ a S3C2410 device",
-            "updated": "2019-06-13T17:06:15+0000"
+            "updated": "2019-08-12T19:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -9182,7 +9182,7 @@
             "pv": "60.5.2",
             "section": "base",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2019-06-27T01:06:47+0000"
+            "updated": "2019-08-12T19:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -9866,7 +9866,7 @@
             "pv": "1.6",
             "section": "libs",
             "summary": "Persistent Memory Development Kit",
-            "updated": "2019-07-24T19:07:48+0000"
+            "updated": "2019-08-12T19:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -10709,7 +10709,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Iperf is a tool to measure maximum TCP bandwidth, allowing the tuning of various parameters and UDP characteristics",
-            "filename": "iperf2_2.0.10.bb",
+            "filename": "iperf2_2.0.13.bb",
             "filepath": "recipes-benchmark/iperf2",
             "homepage": "https://sourceforge.net/projects/iperf2/",
             "id": 974264,
@@ -10718,10 +10718,10 @@
             "license": "BSD-2-Clause",
             "pn": "iperf2",
             "provides": "iperf2 ",
-            "pv": "2.0.10",
+            "pv": "2.0.13",
             "section": "console/network",
             "summary": "",
-            "updated": "2019-06-13T17:06:24+0000"
+            "updated": "2019-08-12T19:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -11317,7 +11317,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_7.3.7.bb",
+            "filename": "php_7.3.8.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 974298,
@@ -11326,10 +11326,10 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "7.3.7",
+            "pv": "7.3.8",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2019-08-04T23:08:47+0000"
+            "updated": "2019-08-12T19:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -11355,7 +11355,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.",
-            "filename": "protobuf_3.9.0.bb",
+            "filename": "protobuf_3.9.1.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/google/protobuf",
             "id": 974301,
@@ -11364,10 +11364,10 @@
             "license": "BSD-3-Clause",
             "pn": "protobuf",
             "provides": "protobuf ",
-            "pv": "3.9.0",
+            "pv": "3.9.1",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2019-07-22T20:07:13+0000"
+            "updated": "2019-08-12T19:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11424,7 +11424,7 @@
             "pv": "5.1.1.r37",
             "section": "console/utils",
             "summary": "",
-            "updated": "2019-06-13T17:06:37+0000"
+            "updated": "2019-08-12T19:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -13781,6 +13781,44 @@
             "section": "base",
             "summary": "A cross-platform, lightweight Modbus RTU library",
             "updated": "2019-08-08T19:08:17+0000"
+        },
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "dnf-plugin-tui_git.bb",
+            "filepath": "recipes-devtools/dnf-plugin-tui",
+            "homepage": "",
+            "id": 997214,
+            "inherits": "distutils-common-base distutils3-base python3-dir python3native",
+            "layerbranch": 14965,
+            "license": "GPLv2",
+            "pn": "dnf-plugin-tui",
+            "provides": "dnf-plugin-tui ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "A text-based user interface plugin of dnf for user to manage packages. ",
+            "updated": "2019-08-12T19:08:23+0000"
+        },
+        {
+            "bbclassextend": " native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This package contains the NSS NIS+ plugin for glibc.This code was formerly part of glibc, but is now standalone tobe able to link against TI-RPC for IPv6 support.",
+            "filename": "libnss-nisplus.bb",
+            "filepath": "recipes-extended/libnss-nisplus",
+            "homepage": "https://github.com/thkukuk/libnss_nisplus",
+            "id": 997215,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "LGPL-2.1",
+            "pn": "libnss-nisplus",
+            "provides": "libnss-nisplus ",
+            "pv": "1.3+gitX",
+            "section": "libs",
+            "summary": "NSS module for glibc, to provide NIS+ support for glibc",
+            "updated": "2019-08-12T19:08:24+0000"
         }
     ],
     "wrtemplates": []

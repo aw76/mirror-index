@@ -101,57 +101,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190808",
+            "bitbake_branch": "wr-10.19-20190812",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-08T19:08:51+0000",
+            "updated": "2019-08-12T19:08:36+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190808",
+            "actual_branch": "wr-10.19-20190812",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-08T23:08:27+0000",
-            "vcs_last_commit": "2019-08-08T23:08:27+0000",
-            "vcs_last_fetch": "2019-08-08T23:08:27+0000",
-            "vcs_last_rev": "e9d2536647797daa8b0aeb90bd11c7915eec242f",
+            "updated": "2019-08-12T19:08:08+0000",
+            "vcs_last_commit": "2019-08-12T19:08:08+0000",
+            "vcs_last_fetch": "2019-08-12T19:08:08+0000",
+            "vcs_last_rev": "5104ce83d85831d92e35d1d74f747bf2feae3da4",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190808",
+            "actual_branch": "wr-10.19-20190812",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-07T23:08:55+0000",
-            "vcs_last_commit": "2019-08-07T23:08:55+0000",
-            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
-            "vcs_last_rev": "4abef8cb48e5d0d5451898d578d6ee55bbca00e6",
+            "updated": "2019-08-11T18:08:09+0000",
+            "vcs_last_commit": "2019-08-11T18:08:09+0000",
+            "vcs_last_fetch": "2019-08-11T18:08:09+0000",
+            "vcs_last_rev": "061e4274140663f6c4a5ae22e78bf0ba72c700a9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190808",
+            "actual_branch": "wr-10.19-20190812",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-08-07T23:08:55+0000",
-            "vcs_last_commit": "2019-08-07T23:08:55+0000",
-            "vcs_last_fetch": "2019-08-07T23:08:55+0000",
-            "vcs_last_rev": "347a7307b05a1be93377a70b08f653909cfe6847",
+            "updated": "2019-08-11T18:08:09+0000",
+            "vcs_last_commit": "2019-08-11T18:08:09+0000",
+            "vcs_last_fetch": "2019-08-11T18:08:09+0000",
+            "vcs_last_rev": "a6d8e8481d989868aea4538f04fa659498c5af34",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -1418,7 +1418,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Implements a XML/HTML/XHTML Markup safe string for Python",
-            "filename": "python3-markupsafe_1.0.bb",
+            "filename": "python3-markupsafe_1.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mitsuhiko/markupsafe",
             "id": 723834,
@@ -1427,10 +1427,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-markupsafe",
             "provides": "python3-markupsafe ",
-            "pv": "1.0",
+            "pv": "1.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-02-13T17:02:59+0000"
+            "updated": "2019-08-12T19:08:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2383,25 +2383,6 @@
             "updated": "2018-10-05T09:10:49+0000"
         },
         {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "matplotlib is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats",
-            "filename": "python-matplotlib_2.0.2.bb",
-            "filepath": "recipes-devtools/python",
-            "homepage": "",
-            "id": 723886,
-            "inherits": "distutils distutils-base distutils-common-base pkgconfig python-dir pythonnative setuptools",
-            "layerbranch": 14967,
-            "license": "PSF",
-            "pn": "python-matplotlib",
-            "provides": "python-matplotlib ",
-            "pv": "2.0.2",
-            "section": "devel/python",
-            "summary": "",
-            "updated": "2019-07-24T19:07:01+0000"
-        },
-        {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
@@ -2551,7 +2532,7 @@
             "pv": "1.19.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-03-12T20:03:05+0000"
+            "updated": "2019-08-12T19:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -4945,25 +4926,6 @@
             "pv": "2.2.1",
             "section": "devel/python",
             "summary": "Controller Area Network (CAN) interface module for Python",
-            "updated": "2018-10-05T09:10:14+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "python-oauthlib_2.0.6.bb",
-            "filepath": "recipes-devtools/python",
-            "homepage": "https://github.com/idan/oauthlib",
-            "id": 724021,
-            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
-            "layerbranch": 14967,
-            "license": "BSD",
-            "pn": "python-oauthlib",
-            "provides": "python-oauthlib ",
-            "pv": "2.0.6",
-            "section": "base",
-            "summary": "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic",
             "updated": "2018-10-05T09:10:14+0000"
         },
         {
@@ -8087,7 +8049,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Implements a XML/HTML/XHTML Markup safe string for Python",
-            "filename": "python-markupsafe_1.0.bb",
+            "filename": "python-markupsafe_1.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mitsuhiko/markupsafe",
             "id": 724186,
@@ -8096,10 +8058,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-markupsafe",
             "provides": "python-markupsafe ",
-            "pv": "1.0",
+            "pv": "1.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-02-13T17:02:00+0000"
+            "updated": "2019-08-12T19:08:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8327,7 +8289,7 @@
             "pv": "1.19.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-03-12T20:03:04+0000"
+            "updated": "2019-08-12T19:08:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -8669,7 +8631,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2019-01-15T17:01:35+0000"
+            "updated": "2019-08-12T19:08:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",

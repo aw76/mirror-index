@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190808",
+            "bitbake_branch": "wr-10.19-20190812",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-08T19:08:51+0000",
+            "updated": "2019-08-12T19:08:36+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190808",
+            "actual_branch": "wr-10.19-20190812",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-08T23:08:27+0000",
-            "vcs_last_commit": "2019-08-08T23:08:27+0000",
-            "vcs_last_fetch": "2019-08-08T23:08:27+0000",
-            "vcs_last_rev": "e9d2536647797daa8b0aeb90bd11c7915eec242f",
+            "updated": "2019-08-12T19:08:08+0000",
+            "vcs_last_commit": "2019-08-12T19:08:08+0000",
+            "vcs_last_fetch": "2019-08-12T19:08:08+0000",
+            "vcs_last_rev": "5104ce83d85831d92e35d1d74f747bf2feae3da4",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190808",
+            "actual_branch": "wr-10.19-20190812",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2019-08-07T23:08:49+0000",
-            "vcs_last_commit": "2019-08-07T23:08:49+0000",
-            "vcs_last_fetch": "2019-08-07T23:08:49+0000",
-            "vcs_last_rev": "6100c5071239cab4867ebe3728a3ce75a3967a51",
+            "updated": "2019-08-11T18:08:09+0000",
+            "vcs_last_commit": "2019-08-11T18:08:09+0000",
+            "vcs_last_fetch": "2019-08-11T18:08:09+0000",
+            "vcs_last_rev": "18740c71650172f96260482a9855cbd43c15a736",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 9
@@ -208,7 +208,7 @@
             "id": 19792,
             "layerbranch": 84751,
             "name": "intel-corei7-64",
-            "updated": "2019-07-29T23:07:29+0000"
+            "updated": "2019-08-12T19:08:05+0000"
         }
     ],
     "recipes": [
@@ -388,7 +388,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libyami/issues/new",
             "description": "Yet Another Media Infrastructure light weight hardware codec library base on VA-API ",
-            "filename": "libyami_1.3.1.bb",
+            "filename": "libyami_1.3.2.bb",
             "filepath": "recipes-multimedia/libyami",
             "homepage": "https://github.com/intel/libyami",
             "id": 724417,
@@ -397,17 +397,17 @@
             "license": "Apache-2.0",
             "pn": "libyami",
             "provides": "libyami ",
-            "pv": "1.3.1",
+            "pv": "1.3.2",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2019-08-05T23:08:31+0000"
+            "updated": "2019-08-12T19:08:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/intel/libyami-utils/issues/new",
             "description": "Applications and Scripts for libyami.",
-            "filename": "libyami-utils_1.3.1.bb",
+            "filename": "libyami-utils_1.3.2.bb",
             "filepath": "recipes-multimedia/libyami",
             "homepage": "https://github.com/intel/libyami-utils",
             "id": 724418,
@@ -416,10 +416,10 @@
             "license": "Apache-2.0",
             "pn": "libyami-utils",
             "provides": "libyami-utils ",
-            "pv": "1.3.1",
+            "pv": "1.3.2",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2019-08-05T23:08:32+0000"
+            "updated": "2019-08-12T19:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -628,7 +628,7 @@
             "pv": "19.2.3",
             "section": "base",
             "summary": "Intel(R) Graphics Memory Management Library",
-            "updated": "2019-08-05T23:08:31+0000"
+            "updated": "2019-08-12T19:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -647,7 +647,7 @@
             "pv": "19.2.0",
             "section": "base",
             "summary": "VA driver for Intel Gen based graphics hardware",
-            "updated": "2019-08-05T23:08:29+0000"
+            "updated": "2019-08-12T19:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -666,7 +666,7 @@
             "pv": "19.2.0",
             "section": "base",
             "summary": "Intel(R) Media SDK for hardware accelerated media processing",
-            "updated": "2019-08-05T23:08:29+0000"
+            "updated": "2019-08-12T19:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -682,10 +682,10 @@
             "license": "GPLv2",
             "pn": "linux-intel",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "4.19.57+gitX",
+            "pv": "4.19.62+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-08-05T23:08:35+0000"
+            "updated": "2019-08-12T19:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -720,10 +720,10 @@
             "license": "GPLv2",
             "pn": "linux-intel-rt",
             "provides": "linux-intel-rt  virtual/kernel",
-            "pv": "4.19.50+gitX",
+            "pv": "4.19.59+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-08-05T23:08:29+0000"
+            "updated": "2019-08-12T19:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -749,7 +749,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.",
-            "filename": "zlib-intel_1.2.11.1_jtkv6.3.bb",
+            "filename": "zlib-intel_1.2.11.1.jtkv6.3.bb",
             "filepath": "recipes-core/zlib",
             "homepage": "http://zlib.net/",
             "id": 951437,
@@ -758,10 +758,10 @@
             "license": "Zlib",
             "pn": "zlib-intel",
             "provides": "zlib-intel zlib",
-            "pv": "1.2.11.1",
+            "pv": "1.2.11.1.jtkv6.3",
             "section": "libs",
             "summary": "Zlib Compression Library (Intel-tuned)",
-            "updated": "2019-08-05T23:08:29+0000"
+            "updated": "2019-08-12T19:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -818,7 +818,7 @@
             "pv": "17.01.28",
             "section": "base",
             "summary": "Intel\u00ae Single Event API",
-            "updated": "2019-08-05T23:08:28+0000"
+            "updated": "2019-08-12T19:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -837,7 +837,7 @@
             "pv": "1.0.6",
             "section": "base",
             "summary": "The Intel(R) Graphics Compiler for OpenCL(TM)",
-            "updated": "2019-08-05T23:08:26+0000"
+            "updated": "2019-08-12T19:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -884,7 +884,7 @@
             "description": "C++ network programming framework that implements many core patterns for concurrent communication software",
             "filename": "ace_6.5.3.bb",
             "filepath": "recipes-bsp/ace",
-            "homepage": "",
+            "homepage": "http://www.dre.vanderbilt.edu/~schmidt/ACE.html",
             "id": 983037,
             "inherits": "pkgconfig",
             "layerbranch": 84751,
@@ -893,8 +893,8 @@
             "provides": "ace ",
             "pv": "6.5.3",
             "section": "base",
-            "summary": "",
-            "updated": "2019-08-05T23:08:36+0000"
+            "summary": "C++ framework for implementing distributed and networked applications",
+            "updated": "2019-08-12T19:08:06+0000"
         },
         {
             "bbclassextend": "",
