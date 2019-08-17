@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190812",
+            "bitbake_branch": "wr-10.19-20190814",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-12T19:08:36+0000",
+            "updated": "2019-08-14T23:08:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190812",
+            "actual_branch": "wr-10.19-20190814",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-12T19:08:08+0000",
-            "vcs_last_commit": "2019-08-12T19:08:08+0000",
-            "vcs_last_fetch": "2019-08-12T19:08:08+0000",
-            "vcs_last_rev": "5104ce83d85831d92e35d1d74f747bf2feae3da4",
+            "updated": "2019-08-14T03:08:40+0000",
+            "vcs_last_commit": "2019-08-14T03:08:40+0000",
+            "vcs_last_fetch": "2019-08-14T03:08:40+0000",
+            "vcs_last_rev": "49826a80f987b6d31664a29b7c115266e03d34ca",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190812",
+            "actual_branch": "wr-10.19-20190814",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-11T18:08:09+0000",
-            "vcs_last_commit": "2019-08-11T18:08:09+0000",
-            "vcs_last_fetch": "2019-08-11T18:08:09+0000",
-            "vcs_last_rev": "061e4274140663f6c4a5ae22e78bf0ba72c700a9",
+            "updated": "2019-08-14T03:08:41+0000",
+            "vcs_last_commit": "2019-08-14T03:08:41+0000",
+            "vcs_last_fetch": "2019-08-14T03:08:41+0000",
+            "vcs_last_rev": "b7ae16dc01071e1ac91b77da13b46fd984c85c9b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -3498,10 +3498,10 @@
             "license": "GPLv2 & LGPLv2",
             "pn": "kpatch",
             "provides": "kpatch  kpatch-build",
-            "pv": "0.6.1+gitX",
+            "pv": "0.7.1+gitX",
             "section": "base",
             "summary": "Linux dynamic kernel patching infrastructure",
-            "updated": "2019-08-12T19:08:23+0000"
+            "updated": "2019-08-14T23:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -8289,7 +8289,7 @@
             "pv": "4.0.6+gitX",
             "section": "base",
             "summary": "mongodb",
-            "updated": "2019-07-10T20:07:02+0000"
+            "updated": "2019-08-14T23:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -10683,7 +10683,7 @@
             "pv": "20190205+X",
             "section": "base",
             "summary": "OpenGL (ES) 2.0 benchmark",
-            "updated": "2019-06-13T17:06:24+0000"
+            "updated": "2019-08-14T23:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -11925,7 +11925,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_10.16.0.bb",
+            "filename": "nodejs_10.16.2.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 974332,
@@ -11934,10 +11934,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "10.16.0",
+            "pv": "10.16.2",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T19:07:42+0000"
+            "updated": "2019-08-14T23:08:33+0000"
         },
         {
             "bbclassextend": "native",
