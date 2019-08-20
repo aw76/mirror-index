@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190814",
+            "bitbake_branch": "wr-10.19-20190819",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-14T23:08:16+0000",
+            "updated": "2019-08-19T20:08:51+0000",
             "updates_enabled": true
         }
     ],
@@ -123,15 +123,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190814",
+            "actual_branch": "wr-10.19-20190819",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-14T03:08:40+0000",
-            "vcs_last_commit": "2019-08-14T03:08:40+0000",
-            "vcs_last_fetch": "2019-08-14T03:08:40+0000",
-            "vcs_last_rev": "49826a80f987b6d31664a29b7c115266e03d34ca",
+            "updated": "2019-08-20T02:08:17+0000",
+            "vcs_last_commit": "2019-08-20T02:08:17+0000",
+            "vcs_last_fetch": "2019-08-20T02:08:17+0000",
+            "vcs_last_rev": "d5627cf01f02b846654713dfcc66c491bc6ab77d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -255,7 +255,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Xrandr is used to set the size, orientation and/or reflection of the outputs for a screen. It can also set the screen size.",
-            "filename": "xrandr_1.5.0.bb",
+            "filename": "xrandr_1.5.1.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 972923,
@@ -264,10 +264,10 @@
             "license": "MIT",
             "pn": "xrandr",
             "provides": "xrandr ",
-            "pv": "1.5.0",
+            "pv": "1.5.1",
             "section": "x11/apps",
             "summary": "XRandR: X Resize, Rotate and Reflect extension command",
-            "updated": "2019-06-17T20:06:38+0000"
+            "updated": "2019-08-19T20:08:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1984,7 +1984,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xf86-input-libinput_0.28.2.bb",
+            "filename": "xf86-input-libinput_0.29.0.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
             "id": 973017,
@@ -1993,10 +1993,10 @@
             "license": "MIT-X",
             "pn": "xf86-input-libinput",
             "provides": "xf86-input-libinput ",
-            "pv": "0.28.2",
+            "pv": "0.29.0",
             "section": "x11/drivers",
             "summary": "Generic input driver for the X.Org server based on libinput",
-            "updated": "2019-06-17T20:06:16+0000"
+            "updated": "2019-08-19T20:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3649,7 +3649,7 @@
             "pv": "20190618",
             "section": "kernel",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2019-07-15T19:07:59+0000"
+            "updated": "2019-08-19T20:08:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4891,7 +4891,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/libevent/libevent/issues",
             "description": "",
-            "filename": "libevent_2.1.10.bb",
+            "filename": "libevent_2.1.11.bb",
             "filepath": "recipes-support/libevent",
             "homepage": "http://libevent.org/",
             "id": 973172,
@@ -4900,10 +4900,10 @@
             "license": "BSD & MIT",
             "pn": "libevent",
             "provides": "libevent ",
-            "pv": "2.1.10",
+            "pv": "2.1.11",
             "section": "libs",
             "summary": "An asynchronous event notification library",
-            "updated": "2019-06-25T00:06:19+0000"
+            "updated": "2019-08-19T20:08:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6480,7 +6480,7 @@
             "pv": "1.8.27",
             "section": "admin",
             "summary": "Provide limited super user privileges to specific users",
-            "updated": "2019-07-29T23:07:21+0000"
+            "updated": "2019-08-19T20:08:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -8703,7 +8703,7 @@
             "pv": "2019.07",
             "section": "bootloaders",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-07-24T19:07:50+0000"
+            "updated": "2019-08-19T20:08:53+0000"
         },
         {
             "bbclassextend": "cross",
@@ -8919,7 +8919,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "git_2.22.0.bb",
+            "filename": "git_2.22.1.bb",
             "filepath": "recipes-devtools/git",
             "homepage": "http://git-scm.com",
             "id": 973386,
@@ -8928,10 +8928,10 @@
             "license": "GPLv2",
             "pn": "git",
             "provides": "git ",
-            "pv": "2.22.0",
+            "pv": "2.22.1",
             "section": "console/utils",
             "summary": "Distributed version control system",
-            "updated": "2019-07-24T19:07:51+0000"
+            "updated": "2019-08-19T20:08:54+0000"
         },
         {
             "bbclassextend": "",
@@ -9026,7 +9026,7 @@
             "pv": "8.3.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2019-06-25T00:06:23+0000"
+            "updated": "2019-08-19T20:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -9121,7 +9121,7 @@
             "pv": "9.1.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2019-06-25T00:06:24+0000"
+            "updated": "2019-08-19T20:08:46+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9273,7 +9273,7 @@
             "pv": "9.1.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
-            "updated": "2019-06-17T20:06:46+0000"
+            "updated": "2019-08-19T20:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -9292,7 +9292,7 @@
             "pv": "8.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
-            "updated": "2019-06-17T20:06:46+0000"
+            "updated": "2019-08-19T20:08:52+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9603,7 +9603,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "librepo_1.10.4.bb",
+            "filename": "librepo_1.10.5.bb",
             "filepath": "recipes-devtools/librepo",
             "homepage": "",
             "id": 973422,
@@ -9612,10 +9612,10 @@
             "license": "LGPLv2.1",
             "pn": "librepo",
             "provides": "librepo ",
-            "pv": "1.10.4",
+            "pv": "1.10.5",
             "section": "base",
-            "summary": " A library providing C and Python (libcURL like) API for downloading linux repository metadata and packages.",
-            "updated": "2019-07-15T19:07:58+0000"
+            "summary": "A library providing C and Python (libcURL like) API            for downloading linux repository metadata and packages.",
+            "updated": "2019-08-19T20:08:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9793,7 +9793,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GitPython provides object model read and write access to a git repository. Access repository information conveniently, alter the index directly, handle remotes, or go down to low-level object database access with big-files support.",
-            "filename": "python3-git_2.1.13.bb",
+            "filename": "python3-git_3.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/gitpython-developers/GitPython",
             "id": 973433,
@@ -9802,10 +9802,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-git",
             "provides": "python3-git ",
-            "pv": "2.1.13",
+            "pv": "3.0.0",
             "section": "devel/python",
             "summary": "Python library used to interact with Git repositories",
-            "updated": "2019-08-05T23:08:14+0000"
+            "updated": "2019-08-19T20:08:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10964,7 +10964,7 @@
             "pv": "0.51.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2019-08-05T23:08:04+0000"
+            "updated": "2019-08-19T20:08:52+0000"
         },
         {
             "bbclassextend": "",
@@ -10983,7 +10983,7 @@
             "pv": "0.51.1",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2019-08-05T23:08:04+0000"
+            "updated": "2019-08-19T20:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -11591,7 +11591,7 @@
             "pv": "8.3",
             "section": "devel",
             "summary": "GNU debugger",
-            "updated": "2019-08-05T23:08:36+0000"
+            "updated": "2019-08-19T20:08:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11800,7 +11800,7 @@
             "pv": "1.12.6",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-06-25T00:06:31+0000"
+            "updated": "2019-08-19T20:08:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -12446,7 +12446,7 @@
             "pv": "2.30",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-08-08T19:08:43+0000"
+            "updated": "2019-08-19T20:08:51+0000"
         },
         {
             "bbclassextend": "",
@@ -12864,7 +12864,7 @@
             "pv": "edk2-stable201905",
             "section": "base",
             "summary": "OVMF - UEFI firmware for Qemu and KVM",
-            "updated": "2019-08-14T23:08:03+0000"
+            "updated": "2019-08-19T20:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -13016,7 +13016,7 @@
             "pv": "1.1.23+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2019-08-14T23:08:02+0000"
+            "updated": "2019-08-19T20:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -14498,7 +14498,7 @@
             "pv": "2.34",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2019-07-10T20:07:49+0000"
+            "updated": "2019-08-20T02:08:50+0000"
         },
         {
             "bbclassextend": "",

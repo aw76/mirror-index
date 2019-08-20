@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190814",
+            "bitbake_branch": "wr-10.19-20190819",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-14T23:08:16+0000",
+            "updated": "2019-08-19T20:08:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190814",
+            "actual_branch": "wr-10.19-20190819",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-14T03:08:40+0000",
-            "vcs_last_commit": "2019-08-14T03:08:40+0000",
-            "vcs_last_fetch": "2019-08-14T03:08:40+0000",
-            "vcs_last_rev": "49826a80f987b6d31664a29b7c115266e03d34ca",
+            "updated": "2019-08-20T02:08:17+0000",
+            "vcs_last_commit": "2019-08-20T02:08:17+0000",
+            "vcs_last_fetch": "2019-08-20T02:08:17+0000",
+            "vcs_last_rev": "d5627cf01f02b846654713dfcc66c491bc6ab77d",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190814",
+            "actual_branch": "wr-10.19-20190819",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-14T03:08:41+0000",
-            "vcs_last_commit": "2019-08-14T03:08:41+0000",
-            "vcs_last_fetch": "2019-08-14T03:08:41+0000",
-            "vcs_last_rev": "b7ae16dc01071e1ac91b77da13b46fd984c85c9b",
+            "updated": "2019-08-20T02:08:00+0000",
+            "vcs_last_commit": "2019-08-20T02:08:00+0000",
+            "vcs_last_fetch": "2019-08-20T02:08:00+0000",
+            "vcs_last_rev": "914bcddf521e257410bc74000c8bc87112308e1e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -3444,7 +3444,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel selftest for Linux",
-            "updated": "2019-06-13T17:06:21+0000"
+            "updated": "2019-08-19T20:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -6902,7 +6902,7 @@
             "pv": "2.03.02",
             "section": "utils",
             "summary": "",
-            "updated": "2019-08-08T19:08:15+0000"
+            "updated": "2019-08-19T20:08:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7434,7 +7434,7 @@
             "pv": "0.79.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2019-08-05T23:08:54+0000"
+            "updated": "2019-08-20T03:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -8466,25 +8466,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
-            "filename": "stress-ng_0.09.45.bb",
-            "filepath": "recipes-test/stress-ng",
-            "homepage": "http://kernel.ubuntu.com/~cking/stress-ng/",
-            "id": 974146,
-            "inherits": "",
-            "layerbranch": 14965,
-            "license": "GPLv2",
-            "pn": "stress-ng",
-            "provides": "stress-ng ",
-            "pv": "0.09.45",
-            "section": "base",
-            "summary": "A tool to load and stress a computer system",
-            "updated": "2019-06-13T17:06:47+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "Utilities for testing Power Management",
             "filename": "pm-qa_git.bb",
             "filepath": "recipes-test/pm-qa",
@@ -8941,25 +8922,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
-            "filename": "gtkmathview_0.8.0.bb",
-            "filepath": "recipes-extended/mml-widget",
-            "homepage": "http://helm.cs.unibo.it/mml-widget/",
-            "id": 974171,
-            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "LGPLv3",
-            "pn": "gtkmathview",
-            "provides": "gtkmathview ",
-            "pv": "0.8.0+gitX",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-06-13T17:06:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "Libdivecomputer is a cross-platform and open source library for communication with dive computers from various manufacturers.",
             "filename": "libdivecomputer_git.bb",
             "filepath": "recipes-extended/libdivecomputer",
@@ -9087,25 +9049,6 @@
             "pv": "3.1.4",
             "section": "libs",
             "summary": "A Modbus library",
-            "updated": "2019-06-13T17:06:57+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "t1lib_5.1.2.bb",
-            "filepath": "recipes-extended/t1lib",
-            "homepage": "",
-            "id": 974179,
-            "inherits": "autotools autotools-brokensep distro_features_check siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "LGPLv2 & GPLv2",
-            "pn": "t1lib",
-            "provides": "t1lib ",
-            "pv": "5.1.2",
-            "section": "libs",
-            "summary": "A Type1 Font Rastering Library",
             "updated": "2019-06-13T17:06:57+0000"
         },
         {
@@ -9923,7 +9866,7 @@
             "pv": "4.0.14",
             "section": "libs",
             "summary": "Redis key-value store",
-            "updated": "2019-06-13T17:06:11+0000"
+            "updated": "2019-08-19T20:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -11709,7 +11652,7 @@
             "pv": "3.32.2",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2019-08-08T19:08:11+0000"
+            "updated": "2019-08-19T20:08:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13324,7 +13267,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2019-07-29T23:07:49+0000"
+            "updated": "2019-08-19T20:08:00+0000"
         },
         {
             "bbclassextend": "",
