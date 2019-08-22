@@ -120,24 +120,24 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-20T02:08:17+0000",
-            "vcs_last_commit": "2019-08-20T02:08:17+0000",
-            "vcs_last_fetch": "2019-08-20T02:08:17+0000",
-            "vcs_last_rev": "d5627cf01f02b846654713dfcc66c491bc6ab77d",
+            "updated": "2019-08-22T02:08:27+0000",
+            "vcs_last_commit": "2019-08-22T02:08:27+0000",
+            "vcs_last_fetch": "2019-08-22T02:08:27+0000",
+            "vcs_last_rev": "8c3c8e61112559cb74ce0f89b5a09f9ad086374f",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190819",
+            "actual_branch": "wr-10.19-20190821",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-20T02:08:00+0000",
-            "vcs_last_commit": "2019-08-20T02:08:00+0000",
-            "vcs_last_fetch": "2019-08-20T02:08:00+0000",
-            "vcs_last_rev": "914bcddf521e257410bc74000c8bc87112308e1e",
+            "updated": "2019-08-20T23:08:03+0000",
+            "vcs_last_commit": "2019-08-20T23:08:03+0000",
+            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
+            "vcs_last_rev": "1df7e42439958ce3538e9be155d572e6efdaa9f7",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -2634,19 +2634,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Telepathy Framework: GLib-based helper library for connection managers",
-            "filename": "telepathy-glib_0.24.0.bb",
+            "filename": "telepathy-glib_0.24.1.bb",
             "filepath": "recipes-connectivity/telepathy",
             "homepage": "http://telepathy.freedesktop.org/wiki/",
             "id": 973837,
-            "inherits": "autotools gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo vala",
             "layerbranch": 14965,
             "license": "LGPLv2.1+",
             "pn": "telepathy-glib",
             "provides": "telepathy-glib ",
-            "pv": "0.24.0",
+            "pv": "0.24.1",
             "section": "base",
             "summary": "Telepathy Framework glib-base helper library",
-            "updated": "2019-06-13T17:06:06+0000"
+            "updated": "2019-08-21T19:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2969,7 +2969,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Set of Bluetooth related tools for inclusion in images",
-            "updated": "2019-07-15T19:07:39+0000"
+            "updated": "2019-08-21T19:08:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -5914,7 +5914,7 @@
             "pv": "1.8.0+gitX",
             "section": "base",
             "summary": "C++11 command line parser",
-            "updated": "2019-07-15T19:07:49+0000"
+            "updated": "2019-08-21T19:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -8118,7 +8118,7 @@
             "pv": "1.1.3",
             "section": "libs/multimedia",
             "summary": "Opus Audio Codec",
-            "updated": "2019-06-13T17:06:40+0000"
+            "updated": "2019-08-21T19:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -9201,7 +9201,7 @@
             "pv": "3.12.6",
             "section": "base",
             "summary": "HP Linux Imaging and Printing",
-            "updated": "2019-06-13T17:06:00+0000"
+            "updated": "2019-08-21T19:08:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -9315,7 +9315,7 @@
             "pv": "4.0.4",
             "section": "base",
             "summary": "USB CEC Adaptor communication Library",
-            "updated": "2019-06-13T17:06:02+0000"
+            "updated": "2019-08-21T19:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -10132,7 +10132,7 @@
             "pv": "1.6.6",
             "section": "base",
             "summary": "Linux SCSi tools to service maintain disk storage devices",
-            "updated": "2019-06-13T17:06:15+0000"
+            "updated": "2019-08-21T19:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -10246,7 +10246,7 @@
             "pv": "0.6",
             "section": "base",
             "summary": "Simple top-like I/O monitor",
-            "updated": "2019-06-13T17:06:17+0000"
+            "updated": "2019-08-21T19:08:29+0000"
         },
         {
             "bbclassextend": "",
@@ -10892,7 +10892,7 @@
             "pv": "3.5.0",
             "section": "base",
             "summary": "Hardware health monitoring applications",
-            "updated": "2019-07-25T02:07:03+0000"
+            "updated": "2019-08-21T19:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -11025,7 +11025,7 @@
             "pv": "0.18+gitX",
             "section": "Applications/System",
             "summary": "Userspace helper for Linux kernel EDAC drivers",
-            "updated": "2019-06-13T17:06:31+0000"
+            "updated": "2019-08-21T19:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -11272,7 +11272,7 @@
             "pv": "7.3.8",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2019-08-12T19:08:19+0000"
+            "updated": "2019-08-21T19:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -11880,7 +11880,7 @@
             "pv": "10.16.2",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:33+0000"
+            "updated": "2019-08-21T19:08:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -12355,7 +12355,7 @@
             "pv": "1.642",
             "section": "libs",
             "summary": "The Perl Database Interface",
-            "updated": "2019-08-05T23:08:52+0000"
+            "updated": "2019-08-21T19:08:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -13521,19 +13521,19 @@
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
             "description": "",
-            "filename": "gnome-themes-standard_3.22.3.bb",
+            "filename": "gnome-themes-standard_3.28.bb",
             "filepath": "recipes-gnome/gnome-themes",
             "homepage": "http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/",
             "id": 989877,
-            "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo upstream-version-is-even",
+            "inherits": "autotools distro_features_check gettext gnomebase gtk-icon-cache pkgconfig siteconfig siteinfo upstream-version-is-even",
             "layerbranch": 14965,
             "license": "LGPL-2.1",
             "pn": "gnome-themes-standard",
             "provides": "gnome-themes-standard ",
-            "pv": "3.22.3",
+            "pv": "3.28",
             "section": "x11/gnome",
             "summary": "GTK+2 standard themes",
-            "updated": "2019-07-15T19:07:53+0000"
+            "updated": "2019-08-21T19:08:30+0000"
         },
         {
             "bbclassextend": "",
@@ -13742,7 +13742,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A text-based user interface plugin of dnf for user to manage packages. ",
-            "updated": "2019-08-12T19:08:23+0000"
+            "updated": "2019-08-21T19:08:28+0000"
         },
         {
             "bbclassextend": " native nativesdk",
