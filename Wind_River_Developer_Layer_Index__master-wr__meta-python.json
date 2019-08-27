@@ -101,57 +101,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190819",
+            "bitbake_branch": "wr-10.19-20190826",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-19T20:08:51+0000",
+            "updated": "2019-08-26T20:08:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190819",
+            "actual_branch": "wr-10.19-20190826",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-22T18:08:43+0000",
-            "vcs_last_commit": "2019-08-22T18:08:43+0000",
-            "vcs_last_fetch": "2019-08-22T18:08:43+0000",
-            "vcs_last_rev": "55c417da1a13e3dc4692ba23af10251fbabda410",
+            "updated": "2019-08-25T18:08:22+0000",
+            "vcs_last_commit": "2019-08-25T18:08:22+0000",
+            "vcs_last_fetch": "2019-08-25T18:08:22+0000",
+            "vcs_last_rev": "38c94917d933d37f70b9747345ab9568e14503cc",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190826",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "1df7e42439958ce3538e9be155d572e6efdaa9f7",
+            "updated": "2019-08-25T18:08:24+0000",
+            "vcs_last_commit": "2019-08-25T18:08:24+0000",
+            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
+            "vcs_last_rev": "8186d7afc25b293092c5edfe671de13b3aee7531",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190826",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "817998993ff08ab304c27e84b374e0cb0940b202",
+            "updated": "2019-08-25T18:08:24+0000",
+            "vcs_last_commit": "2019-08-25T18:08:24+0000",
+            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
+            "vcs_last_rev": "24b6a42dfbc1c90c9b218e18c4c43704ba9529aa",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -4838,7 +4838,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PyMongo support for Flask applications.",
-            "filename": "python-flask-pymongo_0.5.1.bb",
+            "filename": "python-flask-pymongo_2.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/mitsuhiko/flask/",
             "id": 724017,
@@ -4847,10 +4847,10 @@
             "license": "BSD",
             "pn": "python-flask-pymongo",
             "provides": "python-flask-pymongo ",
-            "pv": "0.5.1",
+            "pv": "2.3.0",
             "section": "devel/python",
             "summary": "PyMongo support for Flask applications",
-            "updated": "2018-10-05T09:10:13+0000"
+            "updated": "2019-08-26T20:08:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5845,7 +5845,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
-            "filename": "python-protobuf_3.9.0.bb",
+            "filename": "python-protobuf_3.9.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://developers.google.com/protocol-buffers/",
             "id": 724071,
@@ -5854,10 +5854,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-protobuf",
             "provides": "python-protobuf ",
-            "pv": "3.9.0",
+            "pv": "3.9.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-07-22T20:07:30+0000"
+            "updated": "2019-08-26T20:08:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6605,7 +6605,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
-            "filename": "python3-protobuf_3.9.0.bb",
+            "filename": "python3-protobuf_3.9.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://developers.google.com/protocol-buffers/",
             "id": 724111,
@@ -6614,10 +6614,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-protobuf",
             "provides": "python3-protobuf ",
-            "pv": "3.9.0",
+            "pv": "3.9.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-07-22T20:07:31+0000"
+            "updated": "2019-08-26T20:08:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8144,7 +8144,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PyMongo support for Flask applications.",
-            "filename": "python3-flask-pymongo_0.5.1.bb",
+            "filename": "python3-flask-pymongo_2.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/mitsuhiko/flask/",
             "id": 724192,
@@ -8153,10 +8153,10 @@
             "license": "BSD",
             "pn": "python3-flask-pymongo",
             "provides": "python3-flask-pymongo ",
-            "pv": "0.5.1",
+            "pv": "2.3.0",
             "section": "devel/python",
             "summary": "PyMongo support for Flask applications",
-            "updated": "2018-10-05T09:10:46+0000"
+            "updated": "2019-08-26T20:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -9581,7 +9581,7 @@
             "pv": "4.3.1",
             "section": "devel/python",
             "summary": "Socket.IO server",
-            "updated": "2019-08-14T23:08:49+0000"
+            "updated": "2019-08-26T20:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -9619,7 +9619,7 @@
             "pv": "4.3.1",
             "section": "devel/python",
             "summary": "Socket.IO server",
-            "updated": "2019-08-14T23:08:49+0000"
+            "updated": "2019-08-26T20:08:38+0000"
         },
         {
             "bbclassextend": "",

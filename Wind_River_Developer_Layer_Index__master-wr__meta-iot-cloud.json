@@ -101,57 +101,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190819",
+            "bitbake_branch": "wr-10.19-20190826",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-19T20:08:51+0000",
+            "updated": "2019-08-26T20:08:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190826",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "1df7e42439958ce3538e9be155d572e6efdaa9f7",
+            "updated": "2019-08-25T18:08:24+0000",
+            "vcs_last_commit": "2019-08-25T18:08:24+0000",
+            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
+            "vcs_last_rev": "8186d7afc25b293092c5edfe671de13b3aee7531",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190826",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "817998993ff08ab304c27e84b374e0cb0940b202",
+            "updated": "2019-08-25T18:08:24+0000",
+            "vcs_last_commit": "2019-08-25T18:08:24+0000",
+            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
+            "vcs_last_rev": "24b6a42dfbc1c90c9b218e18c4c43704ba9529aa",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190731",
+            "actual_branch": "wr-10.19-20190826",
             "branch": 38,
             "collection": "iot-cloud",
             "id": 833858,
             "layer": 247,
-            "updated": "2019-07-30T19:07:11+0000",
-            "vcs_last_commit": "2019-07-30T19:07:11+0000",
-            "vcs_last_fetch": "2019-07-30T19:07:11+0000",
-            "vcs_last_rev": "8a7b9cd3466ee36eb5b022ee74b9a546a9a85607",
+            "updated": "2019-08-25T18:08:24+0000",
+            "vcs_last_commit": "2019-08-25T18:08:24+0000",
+            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
+            "vcs_last_rev": "671b898b3f647ceec22951a38ac314746c1f3b69",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 10
@@ -398,7 +398,7 @@
             "pv": "0.20.5",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-26T20:06:36+0000"
+            "updated": "2019-08-26T20:08:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",

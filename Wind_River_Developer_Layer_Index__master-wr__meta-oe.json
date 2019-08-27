@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190819",
+            "bitbake_branch": "wr-10.19-20190826",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-19T20:08:51+0000",
+            "updated": "2019-08-26T20:08:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190819",
+            "actual_branch": "wr-10.19-20190826",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-22T18:08:43+0000",
-            "vcs_last_commit": "2019-08-22T18:08:43+0000",
-            "vcs_last_fetch": "2019-08-22T18:08:43+0000",
-            "vcs_last_rev": "55c417da1a13e3dc4692ba23af10251fbabda410",
+            "updated": "2019-08-25T18:08:22+0000",
+            "vcs_last_commit": "2019-08-25T18:08:22+0000",
+            "vcs_last_fetch": "2019-08-25T18:08:22+0000",
+            "vcs_last_rev": "38c94917d933d37f70b9747345ab9568e14503cc",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190826",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "1df7e42439958ce3538e9be155d572e6efdaa9f7",
+            "updated": "2019-08-25T18:08:24+0000",
+            "vcs_last_commit": "2019-08-25T18:08:24+0000",
+            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
+            "vcs_last_rev": "8186d7afc25b293092c5edfe671de13b3aee7531",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -3983,7 +3983,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libgit2_0.27.8.bb",
+            "filename": "libgit2_0.27.9.bb",
             "filepath": "recipes-support/libgit2",
             "homepage": "http://libgit2.github.com/",
             "id": 973908,
@@ -3992,10 +3992,10 @@
             "license": "GPL-2.0-with-GCC-exception & MIT",
             "pn": "libgit2",
             "provides": "libgit2 ",
-            "pv": "0.27.8",
+            "pv": "0.27.9",
             "section": "base",
             "summary": "the Git linkable library",
-            "updated": "2019-06-13T17:06:31+0000"
+            "updated": "2019-08-26T20:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -5047,7 +5047,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtinyxml2_7.0.1.bb",
+            "filename": "libtinyxml2_7.1.0.bb",
             "filepath": "recipes-support/libtinyxml2",
             "homepage": "http://www.grinninglizard.com/tinyxml2/",
             "id": 973964,
@@ -5056,10 +5056,10 @@
             "license": "Zlib",
             "pn": "libtinyxml2",
             "provides": "libtinyxml2 ",
-            "pv": "7.0.1",
+            "pv": "7.1.0",
             "section": "libs",
             "summary": "TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs",
-            "updated": "2019-06-13T17:06:48+0000"
+            "updated": "2019-08-26T20:08:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -6902,7 +6902,7 @@
             "pv": "2.03.02",
             "section": "utils",
             "summary": "",
-            "updated": "2019-08-19T20:08:02+0000"
+            "updated": "2019-08-26T20:08:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6921,7 +6921,7 @@
             "pv": "2.03.02",
             "section": "utils",
             "summary": "",
-            "updated": "2019-08-08T19:08:16+0000"
+            "updated": "2019-08-26T20:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -7434,7 +7434,7 @@
             "pv": "0.79.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2019-08-20T03:08:47+0000"
+            "updated": "2019-08-26T20:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -11887,19 +11887,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libgee is a collection library providing GObject-based interfaces and classes for commonly used data structures.",
-            "filename": "libgee_0.20.1.bb",
+            "filename": "libgee_0.20.2.bb",
             "filepath": "recipes-devtools/libgee",
             "homepage": "http://live.gnome.org/Libgee",
             "id": 974333,
-            "inherits": "autotools gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo vala",
+            "inherits": "autotools gnomebase gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo vala",
             "layerbranch": 14965,
             "license": "LGPLv2.1",
             "pn": "libgee",
             "provides": "libgee ",
-            "pv": "0.20.1",
+            "pv": "0.20.2",
             "section": "libs",
             "summary": "",
-            "updated": "2019-06-13T17:06:50+0000"
+            "updated": "2019-08-26T20:08:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12913,7 +12913,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cryptsetup is used to conveniently setup dm-crypt managed device-mapper mappings. These include plain dm-crypt volumes and LUKS volumes. The difference is that LUKS uses a metadata header and can hence offer more features than plain dm-crypt. On the other hand, the header is visible and vulnerable to damage.",
-            "filename": "cryptsetup_2.1.0.bb",
+            "filename": "cryptsetup_2.2.0.bb",
             "filepath": "recipes-crypto/cryptsetup",
             "homepage": "https://gitlab.com/cryptsetup/cryptsetup",
             "id": 974387,
@@ -12922,10 +12922,10 @@
             "license": "GPL-2.0-with-OpenSSL-exception",
             "pn": "cryptsetup",
             "provides": "cryptsetup ",
-            "pv": "2.1.0",
+            "pv": "2.2.0",
             "section": "console",
             "summary": "Manage plain dm-crypt and LUKS encrypted volumes",
-            "updated": "2019-07-15T19:07:41+0000"
+            "updated": "2019-08-26T20:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -13762,6 +13762,44 @@
             "section": "libs",
             "summary": "NSS module for glibc, to provide NIS+ support for glibc",
             "updated": "2019-08-12T19:08:24+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "clinfo is a simple command-line application that enumerates all possible (known) properties of the OpenCL platform and devices available on the system.",
+            "filename": "clinfo_2.2.18.04.06.bb",
+            "filepath": "recipes-support/opencl",
+            "homepage": "https://github.com/Oblomov/clinfo",
+            "id": 997577,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "CC0-1.0",
+            "pn": "clinfo",
+            "provides": "clinfo ",
+            "pv": "2.2.18.04.06",
+            "section": "base",
+            "summary": "Enumerate all known properties of OpenCL platform and devices.",
+            "updated": "2019-08-26T20:08:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "ADE Framework is a graph construction, manipulation, and processing framework. ADE Framework is suitable for organizing data flow processing and execution.",
+            "filename": "ade_0.1.1f.bb",
+            "filepath": "recipes-support/opencv",
+            "homepage": "https://github.com/opencv/ade",
+            "id": 997578,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "Apache-2.0",
+            "pn": "ade",
+            "provides": "ade ",
+            "pv": "0.1.1f",
+            "section": "base",
+            "summary": "A graph construction, manipulation, and processing framework",
+            "updated": "2019-08-26T20:08:23+0000"
         }
     ],
     "wrtemplates": []
