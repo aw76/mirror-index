@@ -129,15 +129,15 @@
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190828",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "9aaf5a6df2cfdfb3fb4f94b2461f69294f20b25b",
+            "updated": "2019-08-27T19:08:01+0000",
+            "vcs_last_commit": "2019-08-27T19:08:01+0000",
+            "vcs_last_fetch": "2019-08-27T19:08:01+0000",
+            "vcs_last_rev": "ff56fd45d4fa1e5e8982ccec472862decb9c5252",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 9
@@ -1570,7 +1570,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "  YAML is a data serialization format designed for human readability   and interaction with scripting languages.  PyYAML is a YAML parser   and emitter for Python.   .         PyYAML features a complete YAML 1.1 parser, Unicode support, pickle   support, capable extension API, and sensible error messages.  PyYAML   supports standard YAML tags and provides Python-specific tags that   allow to represent an arbitrary Python object.   .         PyYAML is applicable for a broad range of tasks from complex   configuration files to object serialization and persistance.   ",
-            "filename": "python-pyyaml_3.11.bb",
+            "filename": "python-pyyaml_5.1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.pyyaml.org",
             "id": 725264,
@@ -1579,10 +1579,10 @@
             "license": "MIT",
             "pn": "python-pyyaml",
             "provides": "python-pyyaml ",
-            "pv": "3.11",
+            "pv": "5.1.2",
             "section": "devel/python",
             "summary": "Python support for YAML",
-            "updated": "2019-08-21T19:08:50+0000"
+            "updated": "2019-08-28T18:08:08+0000"
         },
         {
             "bbclassextend": "",

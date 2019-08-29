@@ -115,15 +115,15 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190828",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "9aaf5a6df2cfdfb3fb4f94b2461f69294f20b25b",
+            "updated": "2019-08-27T19:08:01+0000",
+            "vcs_last_commit": "2019-08-27T19:08:01+0000",
+            "vcs_last_fetch": "2019-08-27T19:08:01+0000",
+            "vcs_last_rev": "ff56fd45d4fa1e5e8982ccec472862decb9c5252",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 9
@@ -213,29 +213,29 @@
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190828",
             "branch": 38,
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "b254b4ed778b5837f66d0952282cd1a175684e2d",
+            "updated": "2019-08-27T19:08:01+0000",
+            "vcs_last_commit": "2019-08-27T19:08:01+0000",
+            "vcs_last_fetch": "2019-08-27T19:08:01+0000",
+            "vcs_last_rev": "070ef790a707fb8eb861f628641565fd234b15ad",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190828",
             "branch": 38,
             "collection": "openstack-layer",
             "id": 57006,
             "layer": 155,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "b254b4ed778b5837f66d0952282cd1a175684e2d",
+            "updated": "2019-08-27T19:08:01+0000",
+            "vcs_last_commit": "2019-08-27T19:08:01+0000",
+            "vcs_last_fetch": "2019-08-27T19:08:01+0000",
+            "vcs_last_rev": "070ef790a707fb8eb861f628641565fd234b15ad",
             "vcs_subdir": "meta-openstack",
             "version": null,
             "yp_compatible_version": 9
@@ -1351,10 +1351,10 @@
             "license": "Apache-2.0",
             "pn": "python-manilaclient",
             "provides": "python-manilaclient ",
-            "pv": "1.27.0+gitX",
+            "pv": "1.28.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-08-14T23:08:08+0000"
+            "updated": "2019-08-28T18:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3394,7 +3394,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Highly concurrent networking library",
-            "filename": "python-eventlet_0.24.0.bb",
+            "filename": "python-eventlet_0.25.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pypi.python.org/pypi/eventlet",
             "id": 725529,
@@ -3403,10 +3403,10 @@
             "license": "MIT",
             "pn": "python-eventlet",
             "provides": "python-eventlet ",
-            "pv": "0.24.0",
+            "pv": "0.25.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-11T00:10:17+0000"
+            "updated": "2019-08-28T18:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -4337,7 +4337,7 @@
             "pv": "2.4.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-02-20T22:02:31+0000"
+            "updated": "2019-08-28T18:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -5180,7 +5180,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Authentication Library for OpenStack Identity",
-            "filename": "python-keystoneauth1_3.16.0.bb",
+            "filename": "python-keystoneauth1_3.17.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/keystoneauth1",
             "id": 725624,
@@ -5189,10 +5189,10 @@
             "license": "Apache-2.0",
             "pn": "python-keystoneauth1",
             "provides": "python-keystoneauth1 ",
-            "pv": "3.16.0",
+            "pv": "3.17.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-08-21T19:08:06+0000"
+            "updated": "2019-08-28T18:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -5493,10 +5493,10 @@
             "license": "Apache-2.0",
             "pn": "python-barbicanclient",
             "provides": "python-barbicanclient ",
-            "pv": "4.5.2+gitX",
+            "pv": "4.8.1+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-11T00:10:33+0000"
+            "updated": "2019-08-28T18:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -5648,7 +5648,7 @@
             "pv": "3.17.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-11T00:10:34+0000"
+            "updated": "2019-08-28T18:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -6349,25 +6349,6 @@
             "pn": "python-testrepository",
             "provides": "python-testrepository ",
             "pv": "0.0.20",
-            "section": "devel/python",
-            "summary": "",
-            "updated": "2018-10-11T00:10:39+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Highly concurrent networking library",
-            "filename": "python-eventlet_0.20.0.bb",
-            "filepath": "recipes-devtools/python",
-            "homepage": "http://pypi.python.org/pypi/eventlet",
-            "id": 725686,
-            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
-            "layerbranch": 57006,
-            "license": "MIT",
-            "pn": "python-eventlet",
-            "provides": "python-eventlet ",
-            "pv": "0.20.0",
             "section": "devel/python",
             "summary": "",
             "updated": "2018-10-11T00:10:39+0000"
@@ -7169,6 +7150,44 @@
             "section": "devel/python",
             "summary": "",
             "updated": "2019-08-21T19:08:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Low-level AMQP client for Python",
+            "filename": "python3-amqp_2.4.1.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.python.org/pypi/amqp/",
+            "id": 997592,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 57006,
+            "license": "BSD-3-Clause",
+            "pn": "python3-amqp",
+            "provides": "python3-amqp ",
+            "pv": "2.4.1",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-08-28T18:08:27+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "oslo.i18n library",
+            "filename": "python3-oslo.i18n_git.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://launchpad.net/oslo",
+            "id": 997593,
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "layerbranch": 57006,
+            "license": "Apache-2",
+            "pn": "python3-oslo.i18n",
+            "provides": "python3-oslo.i18n ",
+            "pv": "3.17.0+gitX",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-08-28T18:08:27+0000"
         }
     ],
     "wrtemplates": []
