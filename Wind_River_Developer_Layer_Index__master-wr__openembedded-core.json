@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190826",
+            "bitbake_branch": "wr-10.19-20190902",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-26T20:08:30+0000",
+            "updated": "2019-09-03T00:09:46+0000",
             "updates_enabled": true
         }
     ],
@@ -118,20 +118,20 @@
             "id": 5784,
             "layerbranch": 14953,
             "name": "nodistro",
-            "updated": "2019-07-22T20:07:06+0000"
+            "updated": "2019-09-03T00:09:54+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-25T18:08:22+0000",
-            "vcs_last_commit": "2019-08-25T18:08:22+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:22+0000",
-            "vcs_last_rev": "38c94917d933d37f70b9747345ab9568e14503cc",
+            "updated": "2019-09-03T23:09:07+0000",
+            "vcs_last_commit": "2019-09-03T23:09:07+0000",
+            "vcs_last_fetch": "2019-09-03T23:09:07+0000",
+            "vcs_last_rev": "c8b93fae53e063c8c6689e8b1b60fb4b2e671ae1",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -171,7 +171,7 @@
             "id": 20571,
             "layerbranch": 14953,
             "name": "qemuarm",
-            "updated": "2019-06-13T17:06:51+0000"
+            "updated": "2019-09-03T00:09:54+0000"
         },
         {
             "description": " a PPC system on QEMU",
@@ -185,7 +185,7 @@
             "id": 20573,
             "layerbranch": 14953,
             "name": "qemuarmv5",
-            "updated": "2019-06-13T17:06:51+0000"
+            "updated": "2019-09-03T00:09:54+0000"
         },
         {
             "description": " a MIPS64 system on QEMU",
@@ -206,21 +206,21 @@
             "id": 20576,
             "layerbranch": 14953,
             "name": "qemux86-64",
-            "updated": "2019-08-08T19:08:43+0000"
+            "updated": "2019-09-03T00:09:54+0000"
         },
         {
             "description": " ARMv8 system on QEMU",
             "id": 20577,
             "layerbranch": 14953,
             "name": "qemuarm64",
-            "updated": "2019-06-13T17:06:51+0000"
+            "updated": "2019-09-03T00:09:54+0000"
         },
         {
             "description": " x86 system on QEMU",
             "id": 20578,
             "layerbranch": 14953,
             "name": "qemux86",
-            "updated": "2019-08-08T19:08:43+0000"
+            "updated": "2019-09-03T00:09:54+0000"
         },
         {
             "description": " a generic riscv64",
@@ -2174,7 +2174,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "virglrenderer_0.7.0.bb",
+            "filename": "virglrenderer_0.8.0.bb",
             "filepath": "recipes-graphics/virglrenderer",
             "homepage": "https://virgil3d.github.io/",
             "id": 973027,
@@ -2183,10 +2183,10 @@
             "license": "MIT",
             "pn": "virglrenderer",
             "provides": "virglrenderer ",
-            "pv": "0.7.0",
+            "pv": "0.8.0",
             "section": "base",
             "summary": "VirGL virtual OpenGL renderer",
-            "updated": "2019-08-08T19:08:47+0000"
+            "updated": "2019-09-03T00:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2300,7 +2300,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2019-08-14T23:08:21+0000"
+            "updated": "2019-09-03T00:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2319,7 +2319,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2019-08-14T23:08:21+0000"
+            "updated": "2019-09-03T00:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2338,7 +2338,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:22+0000"
+            "updated": "2019-09-03T00:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2832,7 +2832,7 @@
             "pv": "19.1.1",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2019-08-26T20:08:36+0000"
+            "updated": "2019-09-03T00:09:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2851,7 +2851,7 @@
             "pv": "19.1.1",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2019-08-26T20:08:52+0000"
+            "updated": "2019-09-03T00:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3041,7 +3041,7 @@
             "pv": "9.11.5-P4",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2019-08-26T20:08:54+0000"
+            "updated": "2019-09-03T00:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3117,7 +3117,7 @@
             "pv": "5.50",
             "section": "libs",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2019-08-26T20:08:55+0000"
+            "updated": "2019-09-03T00:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3212,7 +3212,7 @@
             "pv": "0.7",
             "section": "network",
             "summary": "Avahi IPv4LL network address configuration daemon",
-            "updated": "2019-06-17T20:06:36+0000"
+            "updated": "2019-09-03T00:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3257,7 +3257,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The nfs-utils package provides a daemon for the kernel NFS server and related tools.",
-            "filename": "nfs-utils_2.3.3.bb",
+            "filename": "nfs-utils_2.4.1.bb",
             "filepath": "recipes-connectivity/nfs-utils",
             "homepage": "http://nfs.sourceforge.net/",
             "id": 973086,
@@ -3266,10 +3266,10 @@
             "license": "MIT & GPLv2+ & BSD",
             "pn": "nfs-utils",
             "provides": "nfs-utils ",
-            "pv": "2.3.3",
+            "pv": "2.4.1",
             "section": "console/network",
             "summary": "userspace utilities for kernel nfs",
-            "updated": "2019-08-26T20:08:25+0000"
+            "updated": "2019-09-03T00:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3489,7 +3489,7 @@
             "filepath": "recipes-kernel/perf",
             "homepage": "https://perf.wiki.kernel.org/index.php/Main_Page",
             "id": 973098,
-            "inherits": "cpan-base kernel-arch kernelsrc linux-kernel-base manpages perl-version perlnative python-dir pythonnative qemu",
+            "inherits": "cpan-base kernel-arch kernelsrc linux-kernel-base manpages perl-version perlnative python3-dir python3native qemu",
             "layerbranch": 14953,
             "license": "GPLv2",
             "pn": "perf",
@@ -3497,7 +3497,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2019-06-17T20:06:42+0000"
+            "updated": "2019-09-03T00:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3618,7 +3618,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "linux-libc-headers_5.0.bb",
+            "filename": "linux-libc-headers_5.2.bb",
             "filepath": "recipes-kernel/linux-libc-headers",
             "homepage": "",
             "id": 973105,
@@ -3627,10 +3627,10 @@
             "license": "GPLv2",
             "pn": "linux-libc-headers",
             "provides": "linux-libc-headers ",
-            "pv": "5.0",
+            "pv": "5.2",
             "section": "devel",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2019-07-29T23:07:24+0000"
+            "updated": "2019-09-03T00:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -3877,7 +3877,7 @@
             "pv": "1.0",
             "section": "kernel",
             "summary": "Linux kernel Development Source",
-            "updated": "2019-08-22T03:08:45+0000"
+            "updated": "2019-09-03T00:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -3915,7 +3915,7 @@
             "pv": "5.3-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-08-26T20:08:37+0000"
+            "updated": "2019-09-03T00:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -4029,7 +4029,7 @@
             "pv": "0.21.0",
             "section": "base",
             "summary": "Public Suffix List library",
-            "updated": "2019-06-17T20:06:51+0000"
+            "updated": "2019-09-03T00:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -4055,7 +4055,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "boost_1.69.0.bb",
+            "filename": "boost_1.71.0.bb",
             "filepath": "recipes-support/boost",
             "homepage": "http://www.boost.org/",
             "id": 973128,
@@ -4064,17 +4064,17 @@
             "license": "BSL-1.0 & MIT & Python-2.0",
             "pn": "boost",
             "provides": "boost ",
-            "pv": "1.69.0",
+            "pv": "1.71.0",
             "section": "libs",
             "summary": "Free peer-reviewed portable C++ source libraries",
-            "updated": "2019-08-14T23:08:21+0000"
+            "updated": "2019-09-03T00:09:53+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "bjam-native_1.69.0.bb",
+            "filename": "bjam-native_1.71.0.bb",
             "filepath": "recipes-support/boost",
             "homepage": "http://www.boost.org/",
             "id": 973129,
@@ -4083,10 +4083,10 @@
             "license": "BSL-1.0 & MIT & Python-2.0",
             "pn": "bjam-native",
             "provides": "bjam-native ",
-            "pv": "1.69.0",
+            "pv": "1.71.0",
             "section": "devel",
             "summary": "Portable Boost.Jam build tool for boost",
-            "updated": "2019-06-17T20:06:52+0000"
+            "updated": "2019-09-03T00:09:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4371,7 +4371,7 @@
             "pv": "3.3~rc0",
             "section": "base",
             "summary": "A portable foreign function interface library",
-            "updated": "2019-08-26T20:08:41+0000"
+            "updated": "2019-09-03T00:09:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4656,7 +4656,7 @@
             "pv": "3.29.0",
             "section": "libs",
             "summary": "Embeddable SQL database engine",
-            "updated": "2019-08-08T19:08:57+0000"
+            "updated": "2019-09-03T00:09:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4789,7 +4789,7 @@
             "pv": "20190110",
             "section": "misc",
             "summary": "Common CA certificates",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-09-03T00:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -5043,7 +5043,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This library provides useful functions commonly found on BSD systems,                and lacking on others like GNU systems, thus making it easier to port                projects with strong BSD origins, without needing to embed the same                code over and over again on each project.",
-            "filename": "libbsd_0.9.1.bb",
+            "filename": "libbsd_0.10.0.bb",
             "filepath": "recipes-support/libbsd",
             "homepage": "http://libbsd.freedesktop.org/wiki/",
             "id": 973180,
@@ -5052,10 +5052,10 @@
             "license": "BSD-4-Clause & ISC & PD",
             "pn": "libbsd",
             "provides": "libbsd ",
-            "pv": "0.9.1",
+            "pv": "0.10.0",
             "section": "libs",
             "summary": "Library of utility functions from BSD systems",
-            "updated": "2019-06-17T20:06:22+0000"
+            "updated": "2019-09-03T00:09:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5100,7 +5100,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libevdev_1.7.0.bb",
+            "filename": "libevdev_1.8.0.bb",
             "filepath": "recipes-support/libevdev",
             "homepage": "http://www.freedesktop.org/wiki/Software/libevdev/",
             "id": 973183,
@@ -5109,10 +5109,10 @@
             "license": "MIT-X",
             "pn": "libevdev",
             "provides": "libevdev ",
-            "pv": "1.7.0",
+            "pv": "1.8.0",
             "section": "libs",
             "summary": "Wrapper library for evdev devices",
-            "updated": "2019-06-25T00:06:19+0000"
+            "updated": "2019-09-03T00:09:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6278,7 +6278,7 @@
             "blacklisted": "",
             "bugtracker": "http://sourceforge.net/p/flac/bugs/",
             "description": "FLAC stands for Free Lossless Audio Codec, a lossless audio compression format.",
-            "filename": "flac_1.3.2.bb",
+            "filename": "flac_1.3.3.bb",
             "filepath": "recipes-multimedia/flac",
             "homepage": "https://xiph.org/flac/",
             "id": 973245,
@@ -6287,10 +6287,10 @@
             "license": "GFDL-1.2 & GPLv2+ & LGPLv2.1+ & BSD",
             "pn": "flac",
             "provides": "flac ",
-            "pv": "1.3.2",
+            "pv": "1.3.3",
             "section": "libs",
             "summary": "Free Lossless Audio Codec",
-            "updated": "2019-06-17T20:06:48+0000"
+            "updated": "2019-09-03T00:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -6385,7 +6385,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-08-14T23:08:19+0000"
+            "updated": "2019-09-03T00:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -6404,7 +6404,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-08-14T23:08:19+0000"
+            "updated": "2019-09-03T00:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -6442,7 +6442,7 @@
             "pv": "1.1",
             "section": "tests",
             "summary": "Real-Time preemption testcases",
-            "updated": "2019-08-26T20:08:05+0000"
+            "updated": "2019-09-03T00:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -6601,7 +6601,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "C library and command-line tools for reading and writing tar, cpio, zip, ISO, and other archive formats",
-            "filename": "libarchive_3.3.3.bb",
+            "filename": "libarchive_3.4.0.bb",
             "filepath": "recipes-extended/libarchive",
             "homepage": "http://www.libarchive.org/",
             "id": 973262,
@@ -6610,10 +6610,10 @@
             "license": "BSD",
             "pn": "libarchive",
             "provides": "libarchive ",
-            "pv": "3.3.3",
+            "pv": "3.4.0",
             "section": "devel",
             "summary": "Support for reading various archive formats",
-            "updated": "2019-07-01T23:07:27+0000"
+            "updated": "2019-09-03T00:09:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -6829,19 +6829,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Utilities for the IP protocol, including traceroute6, tracepath, tracepath6, ping, ping6 and arping.",
-            "filename": "iputils_s20180629.bb",
+            "filename": "iputils_s20190709.bb",
             "filepath": "recipes-extended/iputils",
             "homepage": "https://github.com/iputils/iputils",
             "id": 973275,
-            "inherits": "update-alternatives",
+            "inherits": "meson python3-dir python3native siteinfo update-alternatives",
             "layerbranch": 14953,
             "license": "BSD & GPLv2+",
             "pn": "iputils",
             "provides": "iputils ",
-            "pv": "s20180629",
+            "pv": "s20190709",
             "section": "console/network",
             "summary": "Network monitoring tools",
-            "updated": "2019-07-01T23:07:29+0000"
+            "updated": "2019-09-03T00:09:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -6917,7 +6917,7 @@
             "pv": "1.4.54",
             "section": "net",
             "summary": "Lightweight high-performance web server",
-            "updated": "2019-08-26T20:08:06+0000"
+            "updated": "2019-09-03T00:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -7088,7 +7088,7 @@
             "pv": "5.0",
             "section": "console/utils",
             "summary": "LSB support for OpenEmbedded",
-            "updated": "2019-06-17T20:06:04+0000"
+            "updated": "2019-09-04T00:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -7114,7 +7114,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "man-db_2.8.6.1.bb",
+            "filename": "man-db_2.8.7.bb",
             "filepath": "recipes-extended/man-db",
             "homepage": "http://man-db.nongnu.org/",
             "id": 973290,
@@ -7123,10 +7123,10 @@
             "license": "LGPLv2.1 & GPLv2",
             "pn": "man-db",
             "provides": "man-db ",
-            "pv": "2.8.6.1",
+            "pv": "2.8.7",
             "section": "base",
             "summary": "An implementation of the standard Unix documentation system accessed using the man command",
-            "updated": "2019-08-26T20:08:07+0000"
+            "updated": "2019-09-03T00:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -7335,7 +7335,7 @@
             "pv": "20190517",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2019-08-26T20:08:33+0000"
+            "updated": "2019-09-03T00:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -7525,7 +7525,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:23+0000"
+            "updated": "2019-09-03T00:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -7544,7 +7544,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-08-14T23:08:09+0000"
+            "updated": "2019-09-03T00:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -7563,7 +7563,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:10+0000"
+            "updated": "2019-09-03T00:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -7582,7 +7582,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:10+0000"
+            "updated": "2019-09-03T00:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -7601,7 +7601,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:10+0000"
+            "updated": "2019-09-03T00:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -7620,7 +7620,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:11+0000"
+            "updated": "2019-09-03T00:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -7639,7 +7639,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:11+0000"
+            "updated": "2019-09-03T00:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -8083,7 +8083,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/openSUSE/libsolv/issues",
             "description": "",
-            "filename": "libsolv_0.7.5.bb",
+            "filename": "libsolv_0.7.6.bb",
             "filepath": "recipes-extended/libsolv",
             "homepage": "https://github.com/openSUSE/libsolv",
             "id": 973342,
@@ -8092,10 +8092,10 @@
             "license": "BSD-3-Clause",
             "pn": "libsolv",
             "provides": "libsolv ",
-            "pv": "0.7.5",
+            "pv": "0.7.6",
             "section": "devel",
             "summary": "Library for solving packages and reading repositories",
-            "updated": "2019-07-01T23:07:49+0000"
+            "updated": "2019-09-03T00:09:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8893,7 +8893,7 @@
             "pv": "8.0.1",
             "section": "devel",
             "summary": "",
-            "updated": "2019-08-12T19:08:34+0000"
+            "updated": "2019-09-03T00:09:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8950,7 +8950,7 @@
             "pv": "8.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2019-06-17T20:06:38+0000"
+            "updated": "2019-09-03T00:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -8969,7 +8969,7 @@
             "pv": "9.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2019-08-26T20:08:11+0000"
+            "updated": "2019-09-03T00:09:20+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9045,7 +9045,7 @@
             "pv": "9.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2019-08-26T20:08:12+0000"
+            "updated": "2019-09-03T00:09:20+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9254,7 +9254,7 @@
             "pv": "8.3.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2019-06-17T20:06:46+0000"
+            "updated": "2019-09-03T00:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -9349,7 +9349,7 @@
             "pv": "1.0+gitX",
             "section": "devel",
             "summary": "An ELF prelinking utility",
-            "updated": "2019-06-17T20:06:47+0000"
+            "updated": "2019-09-03T00:09:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9558,7 +9558,7 @@
             "pv": "4.14.2.1",
             "section": "base",
             "summary": "The RPM package management system",
-            "updated": "2019-06-17T20:06:52+0000"
+            "updated": "2019-09-03T00:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -9710,7 +9710,7 @@
             "pv": "5.2.1",
             "section": "base",
             "summary": "Checksumming Copy on Write Filesystem utilities",
-            "updated": "2019-08-26T20:08:27+0000"
+            "updated": "2019-09-03T00:09:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9862,7 +9862,7 @@
             "pv": "2.7.16",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2019-08-05T23:08:39+0000"
+            "updated": "2019-09-03T00:09:22+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9995,7 +9995,7 @@
             "pv": "2.7.16",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2019-08-05T23:08:25+0000"
+            "updated": "2019-09-03T00:09:22+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10116,7 +10116,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pip_19.2.2.bb",
+            "filename": "python3-pip_19.2.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pip",
             "id": 973452,
@@ -10125,10 +10125,10 @@
             "license": "MIT",
             "pn": "python3-pip",
             "provides": "python3-pip ",
-            "pv": "19.2.2",
+            "pv": "19.2.3",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2019-08-26T20:08:30+0000"
+            "updated": "2019-09-03T00:09:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10401,19 +10401,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-numpy_1.16.3.bb",
+            "filename": "python3-numpy_1.17.0.bb",
             "filepath": "recipes-devtools/python-numpy",
             "homepage": "",
             "id": 973468,
             "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
             "layerbranch": 14953,
-            "license": "BSD-3-Clause & BSD-2-Clause & PSF & Apache-2.0 & BSD",
+            "license": "BSD-3-Clause & BSD-2-Clause & PSF & Apache-2.0 & BSD & MIT",
             "pn": "python3-numpy",
             "provides": "python3-numpy ",
-            "pv": "1.16.3",
+            "pv": "1.17.0",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2019-06-17T20:06:08+0000"
+            "updated": "2019-09-03T00:09:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -10508,7 +10508,7 @@
             "pv": "233+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-26T20:08:45+0000"
+            "updated": "2019-09-03T00:09:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10686,7 +10686,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "subversion_1.12.0.bb",
+            "filename": "subversion_1.12.2.bb",
             "filepath": "recipes-devtools/subversion",
             "homepage": "http://subversion.apache.org",
             "id": 973483,
@@ -10695,10 +10695,10 @@
             "license": "Apache-2 & MIT",
             "pn": "subversion",
             "provides": "subversion ",
-            "pv": "1.12.0",
+            "pv": "1.12.2",
             "section": "console/network",
             "summary": "Subversion (svn) version control system client",
-            "updated": "2019-07-29T23:07:19+0000"
+            "updated": "2019-09-03T00:09:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11237,7 +11237,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "help2man-native_1.47.10.bb",
+            "filename": "help2man-native_1.47.11.bb",
             "filepath": "recipes-devtools/help2man",
             "homepage": "",
             "id": 973513,
@@ -11246,10 +11246,10 @@
             "license": "GPLv3",
             "pn": "help2man-native",
             "provides": "help2man-native ",
-            "pv": "1.47.10",
+            "pv": "1.47.11",
             "section": "devel",
             "summary": "Program for creating simple man pages",
-            "updated": "2019-06-17T20:06:26+0000"
+            "updated": "2019-09-03T00:09:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11268,7 +11268,7 @@
             "pv": "1.9.0+gitX",
             "section": "base",
             "summary": "Pseudo gives fake root capabilities to a normal user",
-            "updated": "2019-08-09T00:08:47+0000"
+            "updated": "2019-09-03T00:09:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11382,7 +11382,7 @@
             "pv": "4.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-08-26T20:08:19+0000"
+            "updated": "2019-09-03T00:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -11683,10 +11683,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-core2-32",
             "provides": "go-cross-core2-32 virtual/core2-32-go",
-            "pv": "1.12.6",
+            "pv": "1.12.9",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-06-25T00:06:29+0000"
+            "updated": "2019-09-03T00:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -11702,10 +11702,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-cross-canadian-i686",
             "provides": "go-cross-canadian-i686 ",
-            "pv": "1.12.6",
+            "pv": "1.12.9",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-06-25T00:06:29+0000"
+            "updated": "2019-09-03T00:09:23+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11721,10 +11721,10 @@
             "license": "BSD-3-Clause",
             "pn": "go",
             "provides": "go ",
-            "pv": "1.12.6",
+            "pv": "1.12.9",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-06-25T00:06:29+0000"
+            "updated": "2019-09-03T00:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -11740,17 +11740,17 @@
             "license": "BSD-3-Clause",
             "pn": "go-native",
             "provides": "go-native ",
-            "pv": "1.12.6",
+            "pv": "1.12.9",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-06-25T00:06:30+0000"
+            "updated": "2019-09-03T00:09:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "go-dep_0.5.0.bb",
+            "filename": "go-dep_0.5.4.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/golang/dep",
             "id": 973540,
@@ -11759,10 +11759,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-dep",
             "provides": "go-dep ",
-            "pv": "0.5.0",
+            "pv": "0.5.4",
             "section": "base",
             "summary": "Dependency management tool for Golang",
-            "updated": "2019-08-08T19:08:57+0000"
+            "updated": "2019-09-03T00:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -11778,10 +11778,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-crosssdk-x86_64-oesdk-linux",
             "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.12.6",
+            "pv": "1.12.9",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-06-25T00:06:30+0000"
+            "updated": "2019-09-03T00:09:23+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11797,10 +11797,10 @@
             "license": "BSD-3-Clause",
             "pn": "go-runtime",
             "provides": "go-runtime virtual/i686-oe-linux-go-runtime",
-            "pv": "1.12.6",
+            "pv": "1.12.9",
             "section": "base",
             "summary": "Go programming language compiler",
-            "updated": "2019-08-19T20:08:50+0000"
+            "updated": "2019-09-03T00:09:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -11819,7 +11819,7 @@
             "pv": "0.14.8+gitX",
             "section": "base",
             "summary": "Booting sequence and CPU,I/O usage monitor",
-            "updated": "2019-08-26T20:08:49+0000"
+            "updated": "2019-09-03T00:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -12016,7 +12016,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ccache is a compiler cache. It speeds up recompilation by caching the result of previous compilations and detecting when the same compilation is being done again. Supported languages are C, C\\+\\+, Objective-C and Objective-C++.",
-            "filename": "ccache_3.7.1.bb",
+            "filename": "ccache_3.7.3.bb",
             "filepath": "recipes-devtools/ccache",
             "homepage": "http://ccache.samba.org",
             "id": 973554,
@@ -12025,10 +12025,10 @@
             "license": "GPLv3+",
             "pn": "ccache",
             "provides": "ccache ",
-            "pv": "3.7.1",
+            "pv": "3.7.3",
             "section": "devel",
             "summary": "a fast C/C++ compiler cache",
-            "updated": "2019-06-17T20:06:41+0000"
+            "updated": "2019-09-03T00:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -12598,7 +12598,7 @@
             "pv": "242+X",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2019-08-26T20:08:27+0000"
+            "updated": "2019-09-03T00:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -12636,7 +12636,7 @@
             "pv": "242+X",
             "section": "base",
             "summary": "A System and service manager",
-            "updated": "2019-08-12T19:08:42+0000"
+            "updated": "2019-09-03T00:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -12788,7 +12788,7 @@
             "pv": "4.4.6",
             "section": "libs",
             "summary": "Extended cryptographic library (from glibc)",
-            "updated": "2019-06-25T00:06:06+0000"
+            "updated": "2019-09-03T00:09:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12833,7 +12833,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Embedded Linux Library (ELL) provides core, low-level functionality for system daemons. It typically has no dependencies other than the Linux kernel, C standard library, and libdl (for dynamic linking). While ELL is designed to be efficient and compact enough for use on embedded Linux platforms, it is not limited to resource-constrained systems.",
-            "filename": "ell_0.21.bb",
+            "filename": "ell_0.22.bb",
             "filepath": "recipes-core/ell",
             "homepage": "",
             "id": 973599,
@@ -12842,10 +12842,10 @@
             "license": "LGPLv2.1",
             "pn": "ell",
             "provides": "ell ",
-            "pv": "0.21",
+            "pv": "0.22",
             "section": "libs",
             "summary": "Embedded Linux Library",
-            "updated": "2019-08-08T19:08:43+0000"
+            "updated": "2019-09-03T00:09:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -12883,7 +12883,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:16+0000"
+            "updated": "2019-09-03T00:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -13434,7 +13434,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-08-14T23:08:17+0000"
+            "updated": "2019-09-03T00:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -13453,7 +13453,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:17+0000"
+            "updated": "2019-09-03T00:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -13472,7 +13472,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-08-14T23:08:18+0000"
+            "updated": "2019-09-03T00:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -13491,7 +13491,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2019-08-14T23:08:18+0000"
+            "updated": "2019-09-03T00:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13510,7 +13510,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2019-08-14T23:08:19+0000"
+            "updated": "2019-09-03T00:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13529,7 +13529,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:19+0000"
+            "updated": "2019-09-03T00:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13548,7 +13548,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-08-14T23:08:20+0000"
+            "updated": "2019-09-03T00:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13605,7 +13605,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Minimal boot requirements",
-            "updated": "2019-07-24T19:07:23+0000"
+            "updated": "2019-09-03T00:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13985,7 +13985,7 @@
             "pv": "3.0.14",
             "section": "base",
             "summary": "Miscellaneous files for the base system",
-            "updated": "2019-06-17T20:06:07+0000"
+            "updated": "2019-09-03T00:09:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14068,7 +14068,7 @@
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org",
             "description": "glib-networking contains the implementations of certain GLib networking features that cannot be implemented directly in GLib itself because of their dependencies.",
-            "filename": "glib-networking_2.60.2.bb",
+            "filename": "glib-networking_2.60.3.bb",
             "filepath": "recipes-core/glib-networking",
             "homepage": "https://gitlab.gnome.org/GNOME/glib-networking/",
             "id": 973664,
@@ -14077,10 +14077,10 @@
             "license": "LGPLv2.1",
             "pn": "glib-networking",
             "provides": "glib-networking ",
-            "pv": "2.60.2",
+            "pv": "2.60.3",
             "section": "libs",
             "summary": "GLib networking extensions",
-            "updated": "2019-08-12T19:08:49+0000"
+            "updated": "2019-09-03T00:09:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14619,7 +14619,7 @@
             "blacklisted": "",
             "bugtracker": "http://bugs.webkit.org/",
             "description": "",
-            "filename": "webkitgtk_2.24.3.bb",
+            "filename": "webkitgtk_2.24.4.bb",
             "filepath": "recipes-sato/webkit",
             "homepage": "http://www.webkitgtk.org/",
             "id": 973693,
@@ -14628,10 +14628,10 @@
             "license": "BSD & LGPLv2+",
             "pn": "webkitgtk",
             "provides": "webkitgtk ",
-            "pv": "2.24.3",
+            "pv": "2.24.4",
             "section": "base",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2019-08-22T19:08:53+0000"
+            "updated": "2019-09-03T00:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -14707,7 +14707,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:11+0000"
+            "updated": "2019-09-03T00:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14726,7 +14726,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:11+0000"
+            "updated": "2019-09-03T00:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14745,7 +14745,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:12+0000"
+            "updated": "2019-09-03T00:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14764,7 +14764,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:13+0000"
+            "updated": "2019-09-03T00:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14783,7 +14783,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-14T23:08:13+0000"
+            "updated": "2019-09-03T00:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -15011,7 +15011,7 @@
             "pv": "4.4.6",
             "section": "libs",
             "summary": "Extended cryptographic library (from glibc)",
-            "updated": "2019-06-25T00:06:48+0000"
+            "updated": "2019-09-03T00:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -15201,7 +15201,7 @@
             "pv": "20190324-3.1",
             "section": "libs",
             "summary": "BSD replacement for libreadline",
-            "updated": "2019-08-08T19:08:44+0000"
+            "updated": "2019-09-03T00:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -15221,6 +15221,63 @@
             "section": "base",
             "summary": "System load testing utility",
             "updated": "2019-08-26T20:08:34+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto-rt_5.2.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 1003779,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto-rt",
+            "provides": "linux-yocto-rt  virtual/kernel",
+            "pv": "5.2.10+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2019-09-03T00:09:31+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto-tiny_5.2.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 1003780,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto-tiny",
+            "provides": "linux-yocto-tiny  virtual/kernel",
+            "pv": "5.2.10+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2019-09-03T00:09:32+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto_5.2.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 1003781,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 14953,
+            "license": "GPLv2",
+            "pn": "linux-yocto",
+            "provides": "linux-yocto  virtual/kernel",
+            "pv": "5.2.10+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2019-09-03T00:09:32+0000"
         }
     ],
     "wrtemplates": []

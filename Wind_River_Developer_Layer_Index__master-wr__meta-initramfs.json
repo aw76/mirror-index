@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190826",
+            "bitbake_branch": "wr-10.19-20190902",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-26T20:08:30+0000",
+            "updated": "2019-09-03T00:09:46+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-25T18:08:22+0000",
-            "vcs_last_commit": "2019-08-25T18:08:22+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:22+0000",
-            "vcs_last_rev": "38c94917d933d37f70b9747345ab9568e14503cc",
+            "updated": "2019-09-03T23:09:07+0000",
+            "vcs_last_commit": "2019-09-03T23:09:07+0000",
+            "vcs_last_fetch": "2019-09-03T23:09:07+0000",
+            "vcs_last_rev": "c8b93fae53e063c8c6689e8b1b60fb4b2e671ae1",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2019-08-25T18:08:24+0000",
-            "vcs_last_commit": "2019-08-25T18:08:24+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
-            "vcs_last_rev": "24b6a42dfbc1c90c9b218e18c4c43704ba9529aa",
+            "updated": "2019-09-01T18:09:49+0000",
+            "vcs_last_commit": "2019-09-01T18:09:49+0000",
+            "vcs_last_fetch": "2019-09-01T18:09:49+0000",
+            "vcs_last_rev": "97aa270f00850d2c7da58694bb73e6d093aacf4c",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": 9
@@ -246,13 +246,13 @@
             "id": 723075,
             "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14962,
-            "license": "MIT",
+            "license": "",
             "pn": "initramfs-kexecboot-image",
             "provides": "initramfs-kexecboot-image ",
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2019-09-03T00:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -265,13 +265,13 @@
             "id": 723076,
             "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 14962,
-            "license": "MIT",
+            "license": "",
             "pn": "initramfs-kexecboot-klibc-image",
             "provides": "initramfs-kexecboot-klibc-image ",
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2019-09-03T00:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -480,7 +480,7 @@
             "pv": "git",
             "section": "base",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2019-08-21T19:08:20+0000"
+            "updated": "2019-09-03T00:09:37+0000"
         },
         {
             "bbclassextend": "",

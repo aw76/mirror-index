@@ -101,29 +101,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190826",
+            "bitbake_branch": "wr-10.19-20190902",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-26T20:08:30+0000",
+            "updated": "2019-09-03T00:09:46+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "yoctobsp",
             "id": 14956,
             "layer": 58,
-            "updated": "2019-08-25T18:08:23+0000",
-            "vcs_last_commit": "2019-08-25T18:08:23+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:23+0000",
-            "vcs_last_rev": "1e93740467f5a572117246947295cd04a06b1bff",
+            "updated": "2019-09-01T18:09:48+0000",
+            "vcs_last_commit": "2019-09-01T18:09:48+0000",
+            "vcs_last_fetch": "2019-09-01T18:09:48+0000",
+            "vcs_last_rev": "0cf91a2159fbf108184e7a33b37635a879d3cc60",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
             "yp_compatible_version": 14
@@ -163,7 +163,7 @@
             "id": 12627,
             "layerbranch": 14956,
             "name": "beaglebone-yocto",
-            "updated": "2019-07-22T20:07:29+0000"
+            "updated": "2019-09-03T00:09:14+0000"
         },
         {
             "description": " generic x86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",

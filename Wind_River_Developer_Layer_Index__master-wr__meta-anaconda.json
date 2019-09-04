@@ -101,135 +101,135 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190826",
+            "bitbake_branch": "wr-10.19-20190902",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-08-26T20:08:30+0000",
+            "updated": "2019-09-03T00:09:46+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 5942,
+            "id": 6247,
             "layerbranch": 493034,
             "name": "anaconda",
-            "updated": "2019-07-29T23:07:17+0000"
+            "updated": "2019-09-03T00:09:34+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-08-25T18:08:22+0000",
-            "vcs_last_commit": "2019-08-25T18:08:22+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:22+0000",
-            "vcs_last_rev": "38c94917d933d37f70b9747345ab9568e14503cc",
+            "updated": "2019-09-03T23:09:07+0000",
+            "vcs_last_commit": "2019-09-03T23:09:07+0000",
+            "vcs_last_fetch": "2019-09-03T23:09:07+0000",
+            "vcs_last_rev": "c8b93fae53e063c8c6689e8b1b60fb4b2e671ae1",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2019-08-25T18:08:24+0000",
-            "vcs_last_commit": "2019-08-25T18:08:24+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
-            "vcs_last_rev": "24b6a42dfbc1c90c9b218e18c4c43704ba9529aa",
+            "updated": "2019-09-01T18:09:49+0000",
+            "vcs_last_commit": "2019-09-01T18:09:49+0000",
+            "vcs_last_fetch": "2019-09-01T18:09:49+0000",
+            "vcs_last_rev": "97aa270f00850d2c7da58694bb73e6d093aacf4c",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "gnome-layer",
             "id": 14960,
             "layer": 15,
-            "updated": "2019-08-25T18:08:24+0000",
-            "vcs_last_commit": "2019-08-25T18:08:24+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
-            "vcs_last_rev": "24b6a42dfbc1c90c9b218e18c4c43704ba9529aa",
+            "updated": "2019-09-01T18:09:49+0000",
+            "vcs_last_commit": "2019-09-01T18:09:49+0000",
+            "vcs_last_fetch": "2019-09-01T18:09:49+0000",
+            "vcs_last_rev": "97aa270f00850d2c7da58694bb73e6d093aacf4c",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2019-08-25T18:08:24+0000",
-            "vcs_last_commit": "2019-08-25T18:08:24+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
-            "vcs_last_rev": "24b6a42dfbc1c90c9b218e18c4c43704ba9529aa",
+            "updated": "2019-09-01T18:09:49+0000",
+            "vcs_last_commit": "2019-09-01T18:09:49+0000",
+            "vcs_last_fetch": "2019-09-01T18:09:49+0000",
+            "vcs_last_rev": "97aa270f00850d2c7da58694bb73e6d093aacf4c",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-08-25T18:08:24+0000",
-            "vcs_last_commit": "2019-08-25T18:08:24+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
-            "vcs_last_rev": "95b986ed447754565b61e0c6ba598d38e2a0c1bf",
+            "updated": "2019-09-04T01:09:12+0000",
+            "vcs_last_commit": "2019-09-04T01:09:12+0000",
+            "vcs_last_fetch": "2019-09-04T01:09:12+0000",
+            "vcs_last_rev": "72d50f4206694c22a242b43f79ebba4c46f09efb",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-08-25T18:08:24+0000",
-            "vcs_last_commit": "2019-08-25T18:08:24+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
-            "vcs_last_rev": "8186d7afc25b293092c5edfe671de13b3aee7531",
+            "updated": "2019-09-03T00:09:19+0000",
+            "vcs_last_commit": "2019-09-03T00:09:19+0000",
+            "vcs_last_fetch": "2019-09-03T00:09:19+0000",
+            "vcs_last_rev": "16811688538417e54321b173ed45410ec4dcd3c1",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190826",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-08-25T18:08:24+0000",
-            "vcs_last_commit": "2019-08-25T18:08:24+0000",
-            "vcs_last_fetch": "2019-08-25T18:08:24+0000",
-            "vcs_last_rev": "24b6a42dfbc1c90c9b218e18c4c43704ba9529aa",
+            "updated": "2019-09-01T18:09:49+0000",
+            "vcs_last_commit": "2019-09-01T18:09:49+0000",
+            "vcs_last_fetch": "2019-09-01T18:09:49+0000",
+            "vcs_last_rev": "97aa270f00850d2c7da58694bb73e6d093aacf4c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190821",
+            "actual_branch": "wr-10.19-20190902",
             "branch": 38,
             "collection": "meta-anaconda",
             "id": 493034,
             "layer": 235,
-            "updated": "2019-08-20T23:08:03+0000",
-            "vcs_last_commit": "2019-08-20T23:08:03+0000",
-            "vcs_last_fetch": "2019-08-20T23:08:03+0000",
-            "vcs_last_rev": "8ea7787f11cc26d0bd750b91b5c437136b4cd846",
+            "updated": "2019-09-01T18:09:48+0000",
+            "vcs_last_commit": "2019-09-01T18:09:48+0000",
+            "vcs_last_fetch": "2019-09-01T18:09:48+0000",
+            "vcs_last_rev": "8dff47801f8d5efeddd483c33d38ae4c7ffa5df0",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 9
@@ -450,7 +450,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-29T23:07:15+0000"
+            "updated": "2019-09-03T00:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -469,7 +469,7 @@
             "pv": "1.3",
             "section": "devel",
             "summary": "A text UI framework",
-            "updated": "2019-07-29T23:07:16+0000"
+            "updated": "2019-09-03T00:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -488,7 +488,7 @@
             "pv": "30.25.6",
             "section": "devel",
             "summary": "The anaconda package",
-            "updated": "2019-08-19T20:08:51+0000"
+            "updated": "2019-09-03T00:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -507,7 +507,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-19T20:08:51+0000"
+            "updated": "2019-09-03T00:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -526,7 +526,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-19T20:08:51+0000"
+            "updated": "2019-09-03T00:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -545,7 +545,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-21T19:08:19+0000"
+            "updated": "2019-09-03T00:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -564,7 +564,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-29T23:07:17+0000"
+            "updated": "2019-09-03T00:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -583,7 +583,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-29T23:07:17+0000"
+            "updated": "2019-09-03T00:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -602,7 +602,7 @@
             "pv": "1.21",
             "section": "devel",
             "summary": "ProductMD is a Python library providing parsers for metadatarelated to composes and installation media",
-            "updated": "2019-07-29T23:07:17+0000"
+            "updated": "2019-09-03T00:09:34+0000"
         }
     ],
     "wrtemplates": []
