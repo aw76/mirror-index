@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190902",
+            "bitbake_branch": "wr-10.19-20190904",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-03T00:09:46+0000",
+            "updated": "2019-09-05T01:09:29+0000",
             "updates_enabled": true
         }
     ],
@@ -137,15 +137,15 @@
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190904",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-03T23:09:07+0000",
-            "vcs_last_commit": "2019-09-03T23:09:07+0000",
-            "vcs_last_fetch": "2019-09-03T23:09:07+0000",
-            "vcs_last_rev": "c8b93fae53e063c8c6689e8b1b60fb4b2e671ae1",
+            "updated": "2019-09-05T01:09:51+0000",
+            "vcs_last_commit": "2019-09-05T01:09:51+0000",
+            "vcs_last_fetch": "2019-09-05T01:09:51+0000",
+            "vcs_last_rev": "8f5b100205259bceff3c4a7d55bf01eb7a6cbae6",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -221,15 +221,15 @@
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190904",
             "branch": 38,
             "collection": "cgl-common",
             "id": 113181,
             "layer": 172,
-            "updated": "2019-09-01T19:09:19+0000",
-            "vcs_last_commit": "2019-09-01T19:09:19+0000",
-            "vcs_last_fetch": "2019-09-01T19:09:19+0000",
-            "vcs_last_rev": "68a2b9770028091e996398d18217237f882e62c3",
+            "updated": "2019-09-03T20:09:06+0000",
+            "vcs_last_commit": "2019-09-03T20:09:06+0000",
+            "vcs_last_fetch": "2019-09-03T20:09:06+0000",
+            "vcs_last_rev": "332905ea0d449b7d406a94f071bf2cdcc7bfde1c",
             "vcs_subdir": "meta-cgl-common",
             "version": null,
             "yp_compatible_version": 10
@@ -476,7 +476,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Monit is a free open source utility for managing and monitoring,   processes, programs, files, directories and filesystems on a UNIX system.   Monit conducts automatic maintenance and repair and can execute meaningful   causal actions in error situations.   ",
-            "filename": "monit_5.25.2.bb",
+            "filename": "monit_5.26.0.bb",
             "filepath": "recipes-cgl/monit",
             "homepage": "http://mmonit.com/monit/",
             "id": 725172,
@@ -485,10 +485,10 @@
             "license": "AGPLv3",
             "pn": "monit",
             "provides": "monit ",
-            "pv": "5.25.2",
+            "pv": "5.26.0",
             "section": "base",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-10-23T03:10:37+0000"
+            "updated": "2019-09-05T01:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -609,7 +609,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Pacemaker is an advanced, scalable High-Availability cluster resource manager for Linux-HA (Heartbeat) and/or OpenAIS. It supports n-node clusters with significant capabilities for managing resources and dependencies. It will run scripts at initialization, when machines go up or down, when related resources fail and can be configured to periodically check resource health.",
-            "filename": "pacemaker_1.1.19.bb",
+            "filename": "pacemaker_1.1.21.bb",
             "filepath": "recipes-cgl/pacemaker",
             "homepage": "http://www.clusterlabs.org",
             "id": 725180,
@@ -618,10 +618,10 @@
             "license": "GPLv2+ & LGPLv2.1+",
             "pn": "pacemaker",
             "provides": "pacemaker ",
-            "pv": "1.1.19",
+            "pv": "1.1.21",
             "section": "base",
             "summary": "Scalable High-Availability cluster resource manager",
-            "updated": "2019-06-13T20:06:16+0000"
+            "updated": "2019-09-05T01:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -761,7 +761,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libwww-perl provides a simple and consistent API to the World Wide Web",
-            "filename": "libwww-perl_6.35.bb",
+            "filename": "libwww-perl_6.36.bb",
             "filepath": "recipes-perl/perl",
             "homepage": "https://metacpan.org/release/libwww-perl",
             "id": 725190,
@@ -770,10 +770,10 @@
             "license": "Artistic-1.0 | GPL-1.0+",
             "pn": "libwww-perl",
             "provides": "libwww-perl ",
-            "pv": "6.35",
+            "pv": "6.36",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-23T03:10:39+0000"
+            "updated": "2019-09-05T01:09:23+0000"
         },
         {
             "bbclassextend": "native",

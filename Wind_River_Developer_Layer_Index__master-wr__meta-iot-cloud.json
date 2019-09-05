@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190902",
+            "bitbake_branch": "wr-10.19-20190904",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-03T00:09:46+0000",
+            "updated": "2019-09-05T01:09:29+0000",
             "updates_enabled": true
         }
     ],
@@ -143,15 +143,15 @@
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190904",
             "branch": 38,
             "collection": "iot-cloud",
             "id": 833858,
             "layer": 247,
-            "updated": "2019-09-01T18:09:57+0000",
-            "vcs_last_commit": "2019-09-01T18:09:57+0000",
-            "vcs_last_fetch": "2019-09-01T18:09:57+0000",
-            "vcs_last_rev": "3a79031554c62adb9e3ae9463884910374a9ed43",
+            "updated": "2019-09-03T20:09:12+0000",
+            "vcs_last_commit": "2019-09-03T20:09:12+0000",
+            "vcs_last_fetch": "2019-09-03T20:09:12+0000",
+            "vcs_last_rev": "65c6be248fde72eccd3d98d58d4b8ef6abb9bb6d",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 10
@@ -3021,6 +3021,25 @@
             "section": "base",
             "summary": "restic is a backup program that is fast, efficient and secure.",
             "updated": "2019-09-03T00:09:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Sync files to and from many cloud storage providers like AWS S3, Google Cloud, Azure and many more",
+            "filename": "rclone_1.49.0.bb",
+            "filepath": "recipes-connectivity/rclone",
+            "homepage": "https://rclone.org/",
+            "id": 1012402,
+            "inherits": "go goarch",
+            "layerbranch": 833858,
+            "license": "MIT",
+            "pn": "rclone",
+            "provides": "rclone ",
+            "pv": "1.49.0",
+            "section": "base",
+            "summary": "Rclone - rsync for cloud storage. ",
+            "updated": "2019-09-05T01:09:46+0000"
         }
     ],
     "wrtemplates": []
