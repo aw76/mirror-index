@@ -101,57 +101,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190904",
+            "bitbake_branch": "wr-10.19-20190908",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-05T01:09:29+0000",
+            "updated": "2019-09-08T19:09:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190904",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-05T01:09:51+0000",
-            "vcs_last_commit": "2019-09-05T01:09:51+0000",
-            "vcs_last_fetch": "2019-09-05T01:09:51+0000",
-            "vcs_last_rev": "8f5b100205259bceff3c4a7d55bf01eb7a6cbae6",
+            "updated": "2019-09-08T19:09:40+0000",
+            "vcs_last_commit": "2019-09-08T19:09:40+0000",
+            "vcs_last_fetch": "2019-09-08T19:09:40+0000",
+            "vcs_last_rev": "ee9cb7cb6a045bfc56b7ab2ca8aa0cb0f67f1dac",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-03T00:09:19+0000",
-            "vcs_last_commit": "2019-09-03T00:09:19+0000",
-            "vcs_last_fetch": "2019-09-03T00:09:19+0000",
-            "vcs_last_rev": "16811688538417e54321b173ed45410ec4dcd3c1",
+            "updated": "2019-09-08T05:09:15+0000",
+            "vcs_last_commit": "2019-09-08T05:09:15+0000",
+            "vcs_last_fetch": "2019-09-08T05:09:15+0000",
+            "vcs_last_rev": "381e8d6615deaa65ee588bcce9d85d1d5fb1f7c9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-01T18:09:49+0000",
-            "vcs_last_commit": "2019-09-01T18:09:49+0000",
-            "vcs_last_fetch": "2019-09-01T18:09:49+0000",
-            "vcs_last_rev": "97aa270f00850d2c7da58694bb73e6d093aacf4c",
+            "updated": "2019-09-08T05:09:15+0000",
+            "vcs_last_commit": "2019-09-08T05:09:15+0000",
+            "vcs_last_fetch": "2019-09-08T05:09:15+0000",
+            "vcs_last_rev": "7af81f9bc5f33696db62520cd0bdd3c1e88039d2",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -1753,7 +1753,7 @@
             "pv": "19.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-06T00:05:51+0000"
+            "updated": "2019-09-08T19:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3375,7 +3375,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Manage dynamic plugins for Python applications",
-            "filename": "python-stevedore_1.30.1.bb",
+            "filename": "python-stevedore_1.31.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/dreamhost/stevedore",
             "id": 723939,
@@ -3384,10 +3384,10 @@
             "license": "Apache-2.0",
             "pn": "python-stevedore",
             "provides": "python-stevedore ",
-            "pv": "1.30.1",
+            "pv": "1.31.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-06T00:05:48+0000"
+            "updated": "2019-09-08T19:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -3812,7 +3812,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Manage dynamic plugins for Python applications",
-            "filename": "python3-stevedore_1.30.1.bb",
+            "filename": "python3-stevedore_1.31.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/dreamhost/stevedore",
             "id": 723962,
@@ -3821,10 +3821,10 @@
             "license": "Apache-2.0",
             "pn": "python3-stevedore",
             "provides": "python3-stevedore ",
-            "pv": "1.30.1",
+            "pv": "1.31.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-06T00:05:55+0000"
+            "updated": "2019-09-08T19:09:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -3957,7 +3957,7 @@
             "pv": "2.10.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-06T00:05:51+0000"
+            "updated": "2019-09-08T19:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -4109,7 +4109,7 @@
             "pv": "19.0.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-06T00:05:43+0000"
+            "updated": "2019-09-08T19:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -4439,7 +4439,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pyasn1_0.4.6.bb",
+            "filename": "python-pyasn1_0.4.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyasn1.sourceforge.net/",
             "id": 723995,
@@ -4448,10 +4448,10 @@
             "license": "BSD-2-Clause",
             "pn": "python-pyasn1",
             "provides": "python-pyasn1 ",
-            "pv": "0.4.6",
+            "pv": "0.4.7",
             "section": "devel/python",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2019-08-08T19:08:30+0000"
+            "updated": "2019-09-08T19:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -4755,7 +4755,7 @@
             "pv": "2.10.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-06T00:05:43+0000"
+            "updated": "2019-09-08T19:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -4781,7 +4781,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pytest_5.1.1.bb",
+            "filename": "python-pytest_5.1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pytest.org",
             "id": 724014,
@@ -4790,10 +4790,10 @@
             "license": "MIT",
             "pn": "python-pytest",
             "provides": "python-pytest ",
-            "pv": "5.1.1",
+            "pv": "5.1.2",
             "section": "devel/python",
             "summary": "Simple powerful teting with python",
-            "updated": "2019-09-03T00:09:08+0000"
+            "updated": "2019-09-08T19:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -5192,7 +5192,7 @@
             "pv": "0.9.16",
             "section": "devel/python",
             "summary": "Extra features for standard library's cmd module",
-            "updated": "2019-09-03T00:09:13+0000"
+            "updated": "2019-09-08T19:09:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6168,7 +6168,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pyasn1_0.4.6.bb",
+            "filename": "python3-pyasn1_0.4.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyasn1.sourceforge.net/",
             "id": 724088,
@@ -6177,10 +6177,10 @@
             "license": "BSD-2-Clause",
             "pn": "python3-pyasn1",
             "provides": "python3-pyasn1 ",
-            "pv": "0.4.6",
+            "pv": "0.4.7",
             "section": "devel/python",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2019-08-08T19:08:33+0000"
+            "updated": "2019-09-08T19:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -6415,7 +6415,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-dbus_1.2.8.bb",
+            "filename": "python-dbus_1.2.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.freedesktop.org/Software/dbus",
             "id": 724101,
@@ -6424,10 +6424,10 @@
             "license": "MIT & AFL-2.1 | GPLv2",
             "pn": "python-dbus",
             "provides": "python-dbus ",
-            "pv": "1.2.8",
+            "pv": "1.2.10",
             "section": "devel/python",
             "summary": "Python bindings for the DBus inter-process communication system",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-09-08T19:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -7061,7 +7061,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "PBR is a library that injects some useful and sensible default behaviors into your setuptools run",
-            "filename": "python-pbr_5.4.2.bb",
+            "filename": "python-pbr_5.4.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
             "id": 724135,
@@ -7070,10 +7070,10 @@
             "license": "Apache-2.0",
             "pn": "python-pbr",
             "provides": "python-pbr ",
-            "pv": "5.4.2",
+            "pv": "5.4.3",
             "section": "devel/python",
             "summary": "Python Build Reasonableness",
-            "updated": "2019-08-08T19:08:35+0000"
+            "updated": "2019-09-08T19:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7175,7 +7175,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pytest_5.1.1.bb",
+            "filename": "python3-pytest_5.1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pytest.org",
             "id": 724141,
@@ -7184,10 +7184,10 @@
             "license": "MIT",
             "pn": "python3-pytest",
             "provides": "python3-pytest ",
-            "pv": "5.1.1",
+            "pv": "5.1.2",
             "section": "devel/python",
             "summary": "Simple powerful teting with python",
-            "updated": "2019-09-03T00:09:12+0000"
+            "updated": "2019-09-08T19:09:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9649,7 +9649,7 @@
             "filepath": "recipes-devtools/python",
             "homepage": "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/",
             "id": 1003786,
-            "inherits": "autotools pkgconfig python3-dir python3native siteconfig siteinfo",
+            "inherits": "autotools distro_features_check pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 14967,
             "license": "GPLv2",
             "pn": "python3-pyatspi",
@@ -9657,7 +9657,7 @@
             "pv": "2.32.1",
             "section": "devel/python",
             "summary": "Python bindings for DBus AT-SPI2 accessibility",
-            "updated": "2019-09-03T00:09:18+0000"
+            "updated": "2019-09-08T19:09:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -9677,6 +9677,25 @@
             "section": "devel/python",
             "summary": "Python bindings for interacting with systemd over DBus",
             "updated": "2019-09-03T00:09:18+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-cmd2_0.9.16.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://packages.python.org/cmd2/",
+            "id": 1012493,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python3-cmd2",
+            "provides": "python3-cmd2 ",
+            "pv": "0.9.16",
+            "section": "devel/python",
+            "summary": "Extra features for standard library's cmd module",
+            "updated": "2019-09-08T19:09:14+0000"
         }
     ],
     "wrtemplates": []

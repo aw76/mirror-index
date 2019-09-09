@@ -101,57 +101,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190904",
+            "bitbake_branch": "wr-10.19-20190908",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-05T01:09:29+0000",
+            "updated": "2019-09-08T19:09:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "selinux",
             "id": 14951,
             "layer": 20,
-            "updated": "2019-09-03T19:09:44+0000",
-            "vcs_last_commit": "2019-09-03T19:09:44+0000",
-            "vcs_last_fetch": "2019-09-03T19:09:44+0000",
-            "vcs_last_rev": "e073070a89ced68d42ee3dbff52dace97bd08a91",
+            "updated": "2019-09-08T19:09:37+0000",
+            "vcs_last_commit": "2019-09-08T19:09:37+0000",
+            "vcs_last_fetch": "2019-09-08T19:09:37+0000",
+            "vcs_last_rev": "44ed08594826dfcea2696f7865925ddb575c8340",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190904",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-05T01:09:51+0000",
-            "vcs_last_commit": "2019-09-05T01:09:51+0000",
-            "vcs_last_fetch": "2019-09-05T01:09:51+0000",
-            "vcs_last_rev": "8f5b100205259bceff3c4a7d55bf01eb7a6cbae6",
+            "updated": "2019-09-08T19:09:40+0000",
+            "vcs_last_commit": "2019-09-08T19:09:40+0000",
+            "vcs_last_fetch": "2019-09-08T19:09:40+0000",
+            "vcs_last_rev": "ee9cb7cb6a045bfc56b7ab2ca8aa0cb0f67f1dac",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-01T18:09:49+0000",
-            "vcs_last_commit": "2019-09-01T18:09:49+0000",
-            "vcs_last_fetch": "2019-09-01T18:09:49+0000",
-            "vcs_last_rev": "97aa270f00850d2c7da58694bb73e6d093aacf4c",
+            "updated": "2019-09-08T05:09:15+0000",
+            "vcs_last_commit": "2019-09-08T05:09:15+0000",
+            "vcs_last_fetch": "2019-09-08T05:09:15+0000",
+            "vcs_last_rev": "7af81f9bc5f33696db62520cd0bdd3c1e88039d2",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -252,7 +252,7 @@
             "pv": "2.8.5",
             "section": "base",
             "summary": "User space tools for kernel auditing",
-            "updated": "2019-09-03T00:09:34+0000"
+            "updated": "2019-09-08T19:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -271,7 +271,7 @@
             "pv": "4.1.1",
             "section": "base",
             "summary": "Policy analysis tools for SELinux",
-            "updated": "2019-08-22T01:08:06+0000"
+            "updated": "2019-09-08T19:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -290,7 +290,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-04-22T19:04:26+0000"
+            "updated": "2019-09-08T19:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -309,7 +309,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-04-22T19:04:27+0000"
+            "updated": "2019-09-08T19:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -328,7 +328,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:19+0000"
+            "updated": "2019-09-08T19:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -347,7 +347,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-04-22T19:04:27+0000"
+            "updated": "2019-09-08T19:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -366,7 +366,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2019-09-08T19:09:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -385,7 +385,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux policy compiler",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2019-09-08T19:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -404,7 +404,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux dbus service files",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2019-09-08T19:09:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -423,7 +423,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2019-09-08T19:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -442,7 +442,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Python modules and various SELinux utilities.",
-            "updated": "2019-09-03T00:09:35+0000"
+            "updated": "2019-09-08T19:09:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -461,7 +461,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Utilities to manipulate SELinux policy module package",
-            "updated": "2018-10-05T09:10:20+0000"
+            "updated": "2019-09-08T19:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -480,7 +480,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Daemon to watch for file creation and set default file context",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2019-09-08T19:09:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -499,7 +499,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux policy core utilities",
-            "updated": "2018-10-05T09:10:21+0000"
+            "updated": "2019-09-08T19:09:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -518,7 +518,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux Common Intermediate Language (CIL) compiler",
-            "updated": "2018-10-05T09:10:22+0000"
+            "updated": "2019-09-08T19:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -537,7 +537,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Daemon to translate SELinux MCS/MLS sensitivity labels",
-            "updated": "2019-09-03T19:09:57+0000"
+            "updated": "2019-09-08T19:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -556,7 +556,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux GUI tools",
-            "updated": "2018-10-05T09:10:22+0000"
+            "updated": "2019-09-08T19:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -575,7 +575,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux init script",
-            "updated": "2019-09-03T00:09:34+0000"
+            "updated": "2019-09-08T19:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -594,7 +594,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Run cmd under an SELinux sandbox",
-            "updated": "2019-08-22T23:08:44+0000"
+            "updated": "2019-09-08T19:09:34+0000"
         },
         {
             "bbclassextend": "",
@@ -613,7 +613,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux autorelabel script",
-            "updated": "2019-09-03T00:09:35+0000"
+            "updated": "2019-09-08T19:09:35+0000"
         },
         {
             "bbclassextend": "",
@@ -632,7 +632,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux init script",
-            "updated": "2019-09-03T00:09:36+0000"
+            "updated": "2019-09-08T19:09:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -651,7 +651,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2019-08-09T03:08:44+0000"
+            "updated": "2019-09-08T19:09:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -670,7 +670,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-09-08T19:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -689,7 +689,7 @@
             "pv": "2.20190201",
             "section": "admin",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2019-04-24T19:04:54+0000"
+            "updated": "2019-09-08T19:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -708,7 +708,7 @@
             "pv": "2.20190201",
             "section": "admin",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2019-04-24T19:04:54+0000"
+            "updated": "2019-09-08T19:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -727,7 +727,7 @@
             "pv": "2.20190201+gitX",
             "section": "admin",
             "summary": "SELinux targeted policy",
-            "updated": "2019-04-15T19:04:59+0000"
+            "updated": "2019-09-08T19:09:36+0000"
         },
         {
             "bbclassextend": "",
@@ -746,7 +746,7 @@
             "pv": "2.20190201+gitX",
             "section": "admin",
             "summary": "SELinux minimum policy",
-            "updated": "2019-04-15T19:04:59+0000"
+            "updated": "2019-09-08T19:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -765,7 +765,7 @@
             "pv": "2.20190201",
             "section": "admin",
             "summary": "SELinux targeted policy",
-            "updated": "2019-04-24T19:04:53+0000"
+            "updated": "2019-09-08T19:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -784,7 +784,7 @@
             "pv": "2.20190201",
             "section": "admin",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2019-04-24T19:04:54+0000"
+            "updated": "2019-09-08T19:09:37+0000"
         },
         {
             "bbclassextend": "",
@@ -803,7 +803,7 @@
             "pv": "2.20190201",
             "section": "admin",
             "summary": "SELinux minimum policy",
-            "updated": "2019-04-24T19:04:54+0000"
+            "updated": "2019-09-08T19:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -822,7 +822,7 @@
             "pv": "2.20190201+gitX",
             "section": "admin",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2019-04-15T19:04:59+0000"
+            "updated": "2019-09-08T19:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -841,7 +841,7 @@
             "pv": "2.20190201+gitX",
             "section": "admin",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2019-04-15T19:04:59+0000"
+            "updated": "2019-09-08T19:09:38+0000"
         },
         {
             "bbclassextend": "",
@@ -860,7 +860,7 @@
             "pv": "2.20190201+gitX",
             "section": "admin",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2019-04-15T19:04:00+0000"
+            "updated": "2019-09-08T19:09:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -879,7 +879,7 @@
             "pv": "0.83",
             "section": "devel/python",
             "summary": "Python module for handling IPv4 and IPv6 Addresses and Networks",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-09-08T19:09:39+0000"
         }
     ],
     "wrtemplates": []

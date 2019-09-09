@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190904",
+            "bitbake_branch": "wr-10.19-20190908",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-05T01:09:29+0000",
+            "updated": "2019-09-08T19:09:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190904",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-05T01:09:51+0000",
-            "vcs_last_commit": "2019-09-05T01:09:51+0000",
-            "vcs_last_fetch": "2019-09-05T01:09:51+0000",
-            "vcs_last_rev": "8f5b100205259bceff3c4a7d55bf01eb7a6cbae6",
+            "updated": "2019-09-08T19:09:40+0000",
+            "vcs_last_commit": "2019-09-08T19:09:40+0000",
+            "vcs_last_fetch": "2019-09-08T19:09:40+0000",
+            "vcs_last_rev": "ee9cb7cb6a045bfc56b7ab2ca8aa0cb0f67f1dac",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-03T00:09:19+0000",
-            "vcs_last_commit": "2019-09-03T00:09:19+0000",
-            "vcs_last_fetch": "2019-09-03T00:09:19+0000",
-            "vcs_last_rev": "16811688538417e54321b173ed45410ec4dcd3c1",
+            "updated": "2019-09-08T05:09:15+0000",
+            "vcs_last_commit": "2019-09-08T05:09:15+0000",
+            "vcs_last_fetch": "2019-09-08T05:09:15+0000",
+            "vcs_last_rev": "381e8d6615deaa65ee588bcce9d85d1d5fb1f7c9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -4391,10 +4391,10 @@
             "license": "GPL-2.0 & LGPL-2.1",
             "pn": "numactl",
             "provides": "numactl ",
-            "pv": "2.0.12+gitX",
+            "pv": "2.0.13+gitX",
             "section": "apps",
             "summary": "Development package for building Applications that use numa",
-            "updated": "2019-06-13T17:06:36+0000"
+            "updated": "2019-09-08T19:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4876,7 +4876,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Satyr is a collection of low-level algorithms for program failure processing, analysis, and reporting supporting kernel space, user space, Python, and Java programs",
-            "filename": "satyr_0.27.bb",
+            "filename": "satyr_0.28.bb",
             "filepath": "recipes-support/satyr",
             "homepage": "https://github.com/abrt/satyr",
             "id": 973955,
@@ -4885,10 +4885,10 @@
             "license": "GPLv2",
             "pn": "satyr",
             "provides": "satyr ",
-            "pv": "0.27",
+            "pv": "0.28",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-15T19:07:50+0000"
+            "updated": "2019-09-08T19:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -6016,7 +6016,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.",
-            "filename": "nano_4.3.bb",
+            "filename": "nano_4.4.bb",
             "filepath": "recipes-support/nano",
             "homepage": "http://www.nano-editor.org/",
             "id": 974015,
@@ -6025,10 +6025,10 @@
             "license": "GPLv3",
             "pn": "nano",
             "provides": "nano ",
-            "pv": "4.3",
+            "pv": "4.4",
             "section": "console/utils",
             "summary": "",
-            "updated": "2019-07-10T20:07:05+0000"
+            "updated": "2019-09-08T19:09:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6472,7 +6472,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/mvp/uhubctl/issues",
             "description": "",
-            "filename": "uhubctl_2.0.0.bb",
+            "filename": "uhubctl_2.1.0.bb",
             "filepath": "recipes-support/uhubctl",
             "homepage": "https://github.com/mvp/uhubctl",
             "id": 974039,
@@ -6481,10 +6481,10 @@
             "license": "GPLv2",
             "pn": "uhubctl",
             "provides": "uhubctl ",
-            "pv": "2.0.0",
+            "pv": "2.1.0",
             "section": "base",
             "summary": "USB hub per-port power control",
-            "updated": "2019-07-24T19:07:49+0000"
+            "updated": "2019-09-08T19:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -8163,7 +8163,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_11.4.bb",
+            "filename": "postgresql_11.5.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 974130,
@@ -8172,10 +8172,10 @@
             "license": "BSD",
             "pn": "postgresql",
             "provides": "postgresql ",
-            "pv": "11.4",
+            "pv": "11.5",
             "section": "base",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2019-07-15T19:07:42+0000"
+            "updated": "2019-09-08T19:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8205,7 +8205,7 @@
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 974132,
-            "inherits": "binconfig cmake gettext systemd update-rc.d useradd useradd_base",
+            "inherits": "binconfig cmake gettext multilib_script systemd update-alternatives update-rc.d useradd useradd_base",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "mariadb",
@@ -8213,7 +8213,7 @@
             "pv": "10.3.16",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2019-06-25T00:06:57+0000"
+            "updated": "2019-09-08T19:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -8224,7 +8224,7 @@
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 974133,
-            "inherits": "binconfig cmake gettext native nopackages relocatable systemd update-rc.d useradd useradd_base",
+            "inherits": "binconfig cmake gettext multilib_script native nopackages relocatable systemd update-alternatives update-rc.d useradd useradd_base",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "mariadb-native",
@@ -8232,7 +8232,7 @@
             "pv": "10.3.16",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2019-06-25T00:06:56+0000"
+            "updated": "2019-09-08T19:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -10284,7 +10284,7 @@
             "pv": "2.2.0+gitX",
             "section": "base",
             "summary": "Transparent Inter-Process Communication protocol",
-            "updated": "2019-06-25T00:06:59+0000"
+            "updated": "2019-09-08T19:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -10493,7 +10493,7 @@
             "pv": "3.0-a9",
             "section": "console/utils",
             "summary": "Tools for performance analysis",
-            "updated": "2019-06-13T17:06:22+0000"
+            "updated": "2019-09-08T19:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -10664,7 +10664,7 @@
             "pv": "2.0.13",
             "section": "console/network",
             "summary": "",
-            "updated": "2019-08-12T19:08:17+0000"
+            "updated": "2019-09-08T19:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -11120,7 +11120,7 @@
             "pv": "3.19",
             "section": "console/network",
             "summary": "A TCP/IP Daemon simplifying the communication with GPS devices",
-            "updated": "2019-07-31T01:07:44+0000"
+            "updated": "2019-09-08T19:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -11260,7 +11260,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "php_7.3.8.bb",
+            "filename": "php_7.3.9.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 974298,
@@ -11269,10 +11269,10 @@
             "license": "PHP-3.0",
             "pn": "php",
             "provides": "php ",
-            "pv": "7.3.8",
+            "pv": "7.3.9",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2019-08-21T19:08:32+0000"
+            "updated": "2019-09-08T19:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -11614,7 +11614,7 @@
             "pv": "1.0.12",
             "section": "base",
             "summary": "Yet Another JSON Library.",
-            "updated": "2019-06-13T17:06:43+0000"
+            "updated": "2019-09-08T19:09:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -11868,7 +11868,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_10.16.2.bb",
+            "filename": "nodejs_10.16.3.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 974332,
@@ -11877,10 +11877,10 @@
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
             "provides": "nodejs ",
-            "pv": "10.16.2",
+            "pv": "10.16.3",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-21T19:08:28+0000"
+            "updated": "2019-09-08T19:09:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -13616,7 +13616,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Zstandard is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios. It's backed by a very fast entropy stage, provided by Huff0 and FSE library.",
-            "filename": "zstd_1.4.2.bb",
+            "filename": "zstd_1.4.3.bb",
             "filepath": "recipes-extended/zstd",
             "homepage": "http://www.zstd.net/",
             "id": 989901,
@@ -13625,10 +13625,10 @@
             "license": "BSD-3-Clause & GPLv2",
             "pn": "zstd",
             "provides": "zstd ",
-            "pv": "1.4.2",
+            "pv": "1.4.3",
             "section": "console/utils",
             "summary": "Zstandard - Fast real-time compression algorithm",
-            "updated": "2019-08-08T19:08:12+0000"
+            "updated": "2019-09-08T19:09:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",

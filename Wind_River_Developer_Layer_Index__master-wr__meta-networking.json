@@ -101,71 +101,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190904",
+            "bitbake_branch": "wr-10.19-20190908",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-05T01:09:29+0000",
+            "updated": "2019-09-08T19:09:51+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190904",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-05T01:09:51+0000",
-            "vcs_last_commit": "2019-09-05T01:09:51+0000",
-            "vcs_last_fetch": "2019-09-05T01:09:51+0000",
-            "vcs_last_rev": "8f5b100205259bceff3c4a7d55bf01eb7a6cbae6",
+            "updated": "2019-09-08T19:09:40+0000",
+            "vcs_last_commit": "2019-09-08T19:09:40+0000",
+            "vcs_last_fetch": "2019-09-08T19:09:40+0000",
+            "vcs_last_rev": "ee9cb7cb6a045bfc56b7ab2ca8aa0cb0f67f1dac",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-09-04T01:09:12+0000",
-            "vcs_last_commit": "2019-09-04T01:09:12+0000",
-            "vcs_last_fetch": "2019-09-04T01:09:12+0000",
-            "vcs_last_rev": "72d50f4206694c22a242b43f79ebba4c46f09efb",
+            "updated": "2019-09-08T19:09:00+0000",
+            "vcs_last_commit": "2019-09-08T19:09:00+0000",
+            "vcs_last_fetch": "2019-09-08T19:09:00+0000",
+            "vcs_last_rev": "d943d8592684f67aaf3f0c3c60c4f3628f83d070",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-03T00:09:19+0000",
-            "vcs_last_commit": "2019-09-03T00:09:19+0000",
-            "vcs_last_fetch": "2019-09-03T00:09:19+0000",
-            "vcs_last_rev": "16811688538417e54321b173ed45410ec4dcd3c1",
+            "updated": "2019-09-08T05:09:15+0000",
+            "vcs_last_commit": "2019-09-08T05:09:15+0000",
+            "vcs_last_fetch": "2019-09-08T05:09:15+0000",
+            "vcs_last_rev": "381e8d6615deaa65ee588bcce9d85d1d5fb1f7c9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190902",
+            "actual_branch": "wr-10.19-20190908",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-01T18:09:49+0000",
-            "vcs_last_commit": "2019-09-01T18:09:49+0000",
-            "vcs_last_fetch": "2019-09-01T18:09:49+0000",
-            "vcs_last_rev": "97aa270f00850d2c7da58694bb73e6d093aacf4c",
+            "updated": "2019-09-08T05:09:15+0000",
+            "vcs_last_commit": "2019-09-08T05:09:15+0000",
+            "vcs_last_fetch": "2019-09-08T05:09:15+0000",
+            "vcs_last_rev": "7af81f9bc5f33696db62520cd0bdd3c1e88039d2",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -525,7 +525,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "FreeRADIUS is an Internet authentication daemon, which implements the RADIUS protocol, as defined in RFC 2865 (and others). It allows Network Access Servers (NAS boxes) to perform authentication for dial-up users. There are also RADIUS clients available for Web servers, firewalls, Unix logins, and more.  Using RADIUS allows authentication and authorization for a network to be centralized, and minimizes the amount of re-configuration which has to be done when adding or deleting new users.",
-            "filename": "freeradius_3.0.17.bb",
+            "filename": "freeradius_3.0.19.bb",
             "filepath": "recipes-connectivity/freeradius",
             "homepage": "http://www.freeradius.org/",
             "id": 724913,
@@ -534,10 +534,10 @@
             "license": "GPLv2 & LGPLv2+",
             "pn": "freeradius",
             "provides": "freeradius ",
-            "pv": "3.0.17",
+            "pv": "3.0.19",
             "section": "System/Servers",
             "summary": "High-performance and highly configurable RADIUS server",
-            "updated": "2019-08-21T19:08:18+0000"
+            "updated": "2019-09-08T19:09:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -757,7 +757,7 @@
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 724927,
-            "inherits": "autotools bash-completion gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd update-alternatives vala",
+            "inherits": "autotools bash-completion gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd vala",
             "layerbranch": 14964,
             "license": "GPLv2+",
             "pn": "networkmanager",
@@ -765,7 +765,7 @@
             "pv": "1.18.2",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2019-08-26T20:08:18+0000"
+            "updated": "2019-09-08T19:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2330,7 +2330,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "strongSwan is an OpenSource IPsec implementation for the Linux operating system.",
-            "filename": "strongswan_5.8.0.bb",
+            "filename": "strongswan_5.8.1.bb",
             "filepath": "recipes-support/strongswan",
             "homepage": "http://www.strongswan.org",
             "id": 725011,
@@ -2339,10 +2339,10 @@
             "license": "GPLv2",
             "pn": "strongswan",
             "provides": "strongswan ",
-            "pv": "5.8.0",
+            "pv": "5.8.1",
             "section": "net",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2019-07-10T20:07:39+0000"
+            "updated": "2019-09-08T19:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2444,7 +2444,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtalloc_2.2.0.bb",
+            "filename": "libtalloc_2.3.0.bb",
             "filepath": "recipes-support/libtalloc",
             "homepage": "http://talloc.samba.org",
             "id": 725017,
@@ -2453,10 +2453,10 @@
             "license": "LGPL-3.0+ & GPL-3.0+",
             "pn": "libtalloc",
             "provides": "libtalloc ",
-            "pv": "2.2.0",
+            "pv": "2.3.0",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2019-07-15T19:07:38+0000"
+            "updated": "2019-09-08T19:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2627,7 +2627,7 @@
             "pv": "9.10.0",
             "section": "admin",
             "summary": "Distributed block device driver for Linux",
-            "updated": "2019-07-15T19:07:37+0000"
+            "updated": "2019-09-08T19:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2881,19 +2881,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Open-iSCSI project is a high performance, transport independent, multi-platform implementation of RFC3720. The iscsi package provides the server daemon for the iSCSI protocol, as well as the utility programs used to manage it. iSCSI is a protocol for distributed disk access using SCSI commands sent over Internet Protocol networks.",
-            "filename": "iscsi-initiator-utils_2.0.876.bb",
+            "filename": "iscsi-initiator-utils_2.0.877.bb",
             "filepath": "recipes-daemons/iscsi-initiator-utils",
             "homepage": "http://www.open-iscsi.com/",
             "id": 725040,
-            "inherits": "autotools siteconfig siteinfo systemd update-rc.d",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 14964,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "iscsi-initiator-utils",
             "provides": "iscsi-initiator-utils ",
-            "pv": "2.0.876+gitX",
+            "pv": "2.0.877+gitX",
             "section": "net",
             "summary": "iSCSI daemon and utility programs",
-            "updated": "2019-04-02T23:04:45+0000"
+            "updated": "2019-09-08T19:09:31+0000"
         },
         {
             "bbclassextend": "",
