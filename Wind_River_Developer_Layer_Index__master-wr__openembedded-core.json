@@ -128,10 +128,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-09T23:09:21+0000",
-            "vcs_last_commit": "2019-09-09T23:09:21+0000",
-            "vcs_last_fetch": "2019-09-09T23:09:21+0000",
-            "vcs_last_rev": "5993f28718238d2d38c4973b3671d42d8f6572bc",
+            "updated": "2019-09-11T02:09:01+0000",
+            "vcs_last_commit": "2019-09-11T02:09:01+0000",
+            "vcs_last_fetch": "2019-09-11T02:09:01+0000",
+            "vcs_last_rev": "0f8ab9766831258e0a2311bf110f186b5079deb6",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -2243,7 +2243,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2019-09-05T01:09:49+0000"
+            "updated": "2019-09-11T02:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2262,7 +2262,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2019-09-05T01:09:49+0000"
+            "updated": "2019-09-11T02:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2281,7 +2281,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-05T01:09:50+0000"
+            "updated": "2019-09-11T02:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6271,7 +6271,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-05T01:09:08+0000"
+            "updated": "2019-09-11T02:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -6290,7 +6290,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-05T01:09:08+0000"
+            "updated": "2019-09-11T02:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -6943,63 +6943,6 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "lsbtest_1.0.bb",
-            "filepath": "recipes-extended/lsb",
-            "homepage": "https://wiki.debian.org/LSBInitScripts",
-            "id": 973287,
-            "inherits": "",
-            "layerbranch": 14953,
-            "license": "GPLv2",
-            "pn": "lsbtest",
-            "provides": "lsbtest ",
-            "pv": "1.0",
-            "section": "console/utils",
-            "summary": "Automates Linux Standard Base (LSB) tests",
-            "updated": "2019-06-17T20:06:04+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "lsb_5.0.bb",
-            "filepath": "recipes-extended/lsb",
-            "homepage": "http://prdownloads.sourceforge.net/lsb",
-            "id": 973288,
-            "inherits": "",
-            "layerbranch": 14953,
-            "license": "GPLv2+",
-            "pn": "lsb",
-            "provides": "lsb ",
-            "pv": "5.0",
-            "section": "console/utils",
-            "summary": "LSB support for OpenEmbedded",
-            "updated": "2019-09-04T00:09:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "lsbinitscripts_9.79.bb",
-            "filepath": "recipes-extended/lsb",
-            "homepage": "https://wiki.debian.org/LSBInitScripts",
-            "id": 973289,
-            "inherits": "",
-            "layerbranch": 14953,
-            "license": "GPLv2",
-            "pn": "lsbinitscripts",
-            "provides": "lsbinitscripts ",
-            "pv": "9.79",
-            "section": "base",
-            "summary": "SysV init scripts which are only used in an LSB image",
-            "updated": "2019-06-17T20:06:04+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
             "filename": "man-db_2.8.7.bb",
             "filepath": "recipes-extended/man-db",
             "homepage": "http://man-db.nongnu.org/",
@@ -7398,25 +7341,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Basic image without X support suitable for Linux Standard Base (LSB) implementations. It includes the full meta-toolchain, plus development headers and libraries to form a standalone SDK.",
-            "filename": "core-image-lsb-sdk.bb",
-            "filepath": "recipes-extended/images",
-            "homepage": "",
-            "id": 973311,
-            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
-            "layerbranch": 14953,
-            "license": "",
-            "pn": "core-image-lsb-sdk",
-            "provides": "core-image-lsb-sdk ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-09-05T01:09:11+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "A development image that builds the kernel and packages that are sensitive to kernel updates and version changes",
             "filename": "core-image-kernel-dev.bb",
             "filepath": "recipes-extended/images",
@@ -7430,7 +7354,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-05T01:09:29+0000"
+            "updated": "2019-09-11T02:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -7449,7 +7373,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-05T01:09:29+0000"
+            "updated": "2019-09-11T02:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -7468,26 +7392,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-05T01:09:30+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Basic image without X support suitable for development work. It can be used for customization and implementations that conform to Linux Standard Base (LSB).",
-            "filename": "core-image-lsb-dev.bb",
-            "filepath": "recipes-extended/images",
-            "homepage": "",
-            "id": 973315,
-            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
-            "layerbranch": 14953,
-            "license": "",
-            "pn": "core-image-lsb-dev",
-            "provides": "core-image-lsb-dev ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-09-05T01:09:30+0000"
+            "updated": "2019-09-11T02:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -7506,26 +7411,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-05T01:09:30+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "An image containing packages that are required to conform to the Linux Standard Base (LSB) specification.",
-            "filename": "core-image-lsb.bb",
-            "filepath": "recipes-extended/images",
-            "homepage": "",
-            "id": 973317,
-            "inherits": "core-image distro_features_check image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
-            "layerbranch": 14953,
-            "license": "",
-            "pn": "core-image-lsb",
-            "provides": "core-image-lsb ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-09-05T01:09:31+0000"
+            "updated": "2019-09-11T02:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -7564,25 +7450,6 @@
             "section": "base",
             "summary": "Full-featured set of base utils",
             "updated": "2019-08-26T20:08:33+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Packages required to satisfy the Linux Standard Base (LSB) specification",
-            "filename": "packagegroup-core-lsb.bb",
-            "filepath": "recipes-extended/packagegroups",
-            "homepage": "",
-            "id": 973320,
-            "inherits": "allarch distro_features_check packagegroup",
-            "layerbranch": 14953,
-            "license": "",
-            "pn": "packagegroup-core-lsb",
-            "provides": "packagegroup-core-lsb ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "Linux Standard Base (LSB)",
-            "updated": "2019-07-15T19:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -11515,7 +11382,7 @@
             "pv": "0.14.8+gitX",
             "section": "base",
             "summary": "Booting sequence and CPU,I/O usage monitor",
-            "updated": "2019-09-08T19:09:22+0000"
+            "updated": "2019-09-10T23:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -12579,7 +12446,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-05T01:09:55+0000"
+            "updated": "2019-09-11T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -13130,7 +12997,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-05T01:09:57+0000"
+            "updated": "2019-09-11T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -13149,7 +13016,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-05T01:09:58+0000"
+            "updated": "2019-09-11T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -13168,7 +13035,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-05T01:09:00+0000"
+            "updated": "2019-09-11T02:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13187,7 +13054,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2019-09-08T19:09:20+0000"
+            "updated": "2019-09-11T02:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13206,7 +13073,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2019-09-05T01:09:01+0000"
+            "updated": "2019-09-11T02:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -13225,7 +13092,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-05T01:09:59+0000"
+            "updated": "2019-09-11T02:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -13244,7 +13111,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-05T01:09:59+0000"
+            "updated": "2019-09-11T02:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -13567,7 +13434,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Self-hosting",
-            "updated": "2019-06-17T20:06:06+0000"
+            "updated": "2019-09-10T23:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -13928,7 +13795,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2019-07-24T19:07:25+0000"
+            "updated": "2019-09-11T02:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -13947,7 +13814,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "libc and patchelf tarball for use with uninative.bbclass",
-            "updated": "2019-07-24T19:07:26+0000"
+            "updated": "2019-09-11T02:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -14023,7 +13890,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2019-07-24T19:07:26+0000"
+            "updated": "2019-09-11T02:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -14080,7 +13947,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for test systems with missing software",
-            "updated": "2019-07-24T19:07:27+0000"
+            "updated": "2019-09-11T02:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -14099,7 +13966,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable Go toolchain",
-            "updated": "2019-07-24T19:07:28+0000"
+            "updated": "2019-09-11T02:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -14403,7 +14270,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-08T19:09:26+0000"
+            "updated": "2019-09-11T02:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -14422,7 +14289,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-08T19:09:26+0000"
+            "updated": "2019-09-11T02:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14441,7 +14308,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-08T19:09:26+0000"
+            "updated": "2019-09-11T02:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14460,7 +14327,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-08T19:09:27+0000"
+            "updated": "2019-09-11T02:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -14479,7 +14346,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-08T19:09:34+0000"
+            "updated": "2019-09-11T02:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -15031,6 +14898,25 @@
             "section": "devel",
             "summary": "GNU unit testing framework, written in Expect and Tcl",
             "updated": "2019-09-08T19:09:31+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "lsb-release_1.4.bb",
+            "filepath": "recipes-extended/lsb",
+            "homepage": "http://prdownloads.sourceforge.net/lsb",
+            "id": 1019289,
+            "inherits": "",
+            "layerbranch": 14953,
+            "license": "GPLv2+",
+            "pn": "lsb-release",
+            "provides": "lsb-release ",
+            "pv": "1.4",
+            "section": "console/utils",
+            "summary": "lsb_release support for OpenEmbedded",
+            "updated": "2019-09-10T23:09:05+0000"
         }
     ],
     "wrtemplates": []

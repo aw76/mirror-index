@@ -118,7 +118,7 @@
             "id": 5772,
             "layerbranch": 73942,
             "name": "wrlinux-tiny",
-            "updated": "2019-06-13T17:06:52+0000"
+            "updated": "2019-09-10T23:09:25+0000"
         },
         {
             "description": "Wind River Linux (Full Featured Distribution with Graphic Support)",
@@ -170,10 +170,10 @@
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2019-09-08T05:09:15+0000",
-            "vcs_last_commit": "2019-09-08T05:09:15+0000",
-            "vcs_last_fetch": "2019-09-08T05:09:15+0000",
-            "vcs_last_rev": "899836e08589a80839a187d4205fd9ba5ee744a0",
+            "updated": "2019-09-10T03:09:03+0000",
+            "vcs_last_commit": "2019-09-10T03:09:03+0000",
+            "vcs_last_fetch": "2019-09-10T03:09:03+0000",
+            "vcs_last_rev": "5e1e92dbf1037aa1abd5fc88f4993269f3aca7e4",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 9
@@ -184,10 +184,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-09T23:09:21+0000",
-            "vcs_last_commit": "2019-09-09T23:09:21+0000",
-            "vcs_last_fetch": "2019-09-09T23:09:21+0000",
-            "vcs_last_rev": "5993f28718238d2d38c4973b3671d42d8f6572bc",
+            "updated": "2019-09-11T02:09:01+0000",
+            "vcs_last_commit": "2019-09-11T02:09:01+0000",
+            "vcs_last_fetch": "2019-09-11T02:09:01+0000",
+            "vcs_last_rev": "0f8ab9766831258e0a2311bf110f186b5079deb6",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -352,13 +352,27 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-09-09T00:09:03+0000",
-            "vcs_last_commit": "2019-09-09T00:09:03+0000",
-            "vcs_last_fetch": "2019-09-09T00:09:03+0000",
-            "vcs_last_rev": "b8e9119f1c38d8828fd910d695727e5889be8720",
+            "updated": "2019-09-11T02:09:11+0000",
+            "vcs_last_commit": "2019-09-11T02:09:11+0000",
+            "vcs_last_fetch": "2019-09-11T02:09:11+0000",
+            "vcs_last_rev": "aafcb457b39a33f70cd723258625d8d2def21e1b",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
+        },
+        {
+            "actual_branch": "wr-10.19-20190908",
+            "branch": 38,
+            "collection": "cloud-services-layer",
+            "id": 52439,
+            "layer": 141,
+            "updated": "2019-09-08T05:09:14+0000",
+            "vcs_last_commit": "2019-09-08T05:09:14+0000",
+            "vcs_last_fetch": "2019-09-08T05:09:14+0000",
+            "vcs_last_rev": "9405132e8af747bc2cb4d82400e47d3ad19bf7b1",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 9
         },
         {
             "actual_branch": "",
@@ -366,10 +380,10 @@
             "collection": "wrlinux-distro",
             "id": 73942,
             "layer": 164,
-            "updated": "2019-09-08T19:09:41+0000",
-            "vcs_last_commit": "2019-09-08T19:09:41+0000",
-            "vcs_last_fetch": "2019-09-08T19:09:41+0000",
-            "vcs_last_rev": "75b9353ed263d7ef63504e04242223a53ae0f17c",
+            "updated": "2019-09-11T02:09:11+0000",
+            "vcs_last_commit": "2019-09-11T02:09:11+0000",
+            "vcs_last_fetch": "2019-09-11T02:09:11+0000",
+            "vcs_last_rev": "aafcb457b39a33f70cd723258625d8d2def21e1b",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 11
@@ -525,6 +539,12 @@
             "id": 12965,
             "layerbranch": 73942,
             "required": false
+        },
+        {
+            "dependency": 141,
+            "id": 55593,
+            "layerbranch": 73942,
+            "required": true
         }
     ],
     "layerItems": [
@@ -800,6 +820,24 @@
         },
         {
             "comparison": false,
+            "description": "meta cloud services",
+            "id": 141,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-cloud-services",
+            "status": "P",
+            "summary": "meta cloud services",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
             "description": "The base distribution settings for wrlinux and related DISTRO items.",
             "id": 164,
             "index_preference": 0,
@@ -969,7 +1007,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:11+0000"
+            "updated": "2019-09-11T00:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1026,26 +1064,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:12+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Wind River Linux core package group: lsb-graphics-plus",
-            "filename": "packagegroup-wr-core-lsb-graphics-plus.bb",
-            "filepath": "recipes-base/packagegroups",
-            "homepage": "",
-            "id": 971135,
-            "inherits": "distro_features_check",
-            "layerbranch": 73942,
-            "license": "MIT",
-            "pn": "packagegroup-wr-core-lsb-graphics-plus",
-            "provides": "packagegroup-wr-core-lsb-graphics-plus ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-06-20T10:06:12+0000"
+            "updated": "2019-09-11T00:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1118,25 +1137,6 @@
             "license": "MIT",
             "pn": "packagegroup-wr-core-interactive",
             "provides": "packagegroup-wr-core-interactive ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-06-20T10:06:03+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Wind River Linux core package group: lsb-more",
-            "filename": "packagegroup-wr-core-lsb-more.bb",
-            "filepath": "recipes-base/packagegroups",
-            "homepage": "",
-            "id": 971140,
-            "inherits": "distro_features_check",
-            "layerbranch": 73942,
-            "license": "MIT",
-            "pn": "packagegroup-wr-core-lsb-more",
-            "provides": "packagegroup-wr-core-lsb-more ",
             "pv": "1.0",
             "section": "base",
             "summary": "",
@@ -1232,25 +1232,6 @@
             "license": "MIT",
             "pn": "packagegroup-wr-core-security",
             "provides": "packagegroup-wr-core-security ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-06-20T10:06:04+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Wind River Linux core package group: lsbtest",
-            "filename": "packagegroup-wr-lsbtest.bb",
-            "filepath": "recipes-base/packagegroups",
-            "homepage": "",
-            "id": 971146,
-            "inherits": "",
-            "layerbranch": 73942,
-            "license": "MIT",
-            "pn": "packagegroup-wr-lsbtest",
-            "provides": "packagegroup-wr-lsbtest ",
             "pv": "1.0",
             "section": "base",
             "summary": "",
@@ -1524,13 +1505,6 @@
             "layerbranch": 73942,
             "name": "feature/syslog-ng",
             "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46964,
-            "layerbranch": 73942,
-            "name": "feature/lsbtesting",
-            "updated": "2019-07-08T03:07:53+0000"
         },
         {
             "description": "",
@@ -1846,6 +1820,13 @@
             "layerbranch": 73942,
             "name": "feature/stig",
             "updated": "2019-08-14T00:08:04+0000"
+        },
+        {
+            "description": "",
+            "id": 52868,
+            "layerbranch": 73942,
+            "name": "feature/consul",
+            "updated": "2019-09-11T02:09:16+0000"
         }
     ]
 }
