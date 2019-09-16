@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190908",
+            "bitbake_branch": "wr-10.19-20190911",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-08T19:09:51+0000",
+            "updated": "2019-09-11T23:09:32+0000",
             "updates_enabled": true
         }
     ],
@@ -128,10 +128,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-11T02:09:01+0000",
-            "vcs_last_commit": "2019-09-11T02:09:01+0000",
-            "vcs_last_fetch": "2019-09-11T02:09:01+0000",
-            "vcs_last_rev": "0f8ab9766831258e0a2311bf110f186b5079deb6",
+            "updated": "2019-09-16T02:09:26+0000",
+            "vcs_last_commit": "2019-09-16T02:09:26+0000",
+            "vcs_last_fetch": "2019-09-16T02:09:26+0000",
+            "vcs_last_rev": "9fe21d1db885072303367ab3fbc12dbee8c37634",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -3212,7 +3212,7 @@
             "pv": "2.4.1",
             "section": "console/network",
             "summary": "userspace utilities for kernel nfs",
-            "updated": "2019-09-08T19:09:36+0000"
+            "updated": "2019-09-11T20:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -4314,7 +4314,7 @@
             "pv": "2.2.17",
             "section": "base",
             "summary": "GNU Privacy Guard - encryption and signing tools (2.x)",
-            "updated": "2019-09-08T19:09:55+0000"
+            "updated": "2019-09-11T19:09:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4811,7 +4811,7 @@
             "updated": "2019-09-08T19:09:07+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
             "description": "",
@@ -4827,7 +4827,7 @@
             "pv": "2.66.2",
             "section": "x11/gnome/libs",
             "summary": "An HTTP library implementation in C",
-            "updated": "2019-09-08T19:09:08+0000"
+            "updated": "2019-09-15T20:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -8361,7 +8361,7 @@
             "pv": "2.04",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2019-09-08T19:09:11+0000"
+            "updated": "2019-09-16T02:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -8399,7 +8399,7 @@
             "pv": "2.04",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2019-09-08T19:09:11+0000"
+            "updated": "2019-09-16T02:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -13627,7 +13627,7 @@
             "updated": "2019-06-25T00:06:06+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org",
             "description": "glib-networking contains the implementations of certain GLib networking features that cannot be implemented directly in GLib itself because of their dependencies.",
@@ -13643,7 +13643,7 @@
             "pv": "2.60.3",
             "section": "libs",
             "summary": "GLib networking extensions",
-            "updated": "2019-09-08T19:09:21+0000"
+            "updated": "2019-09-15T20:09:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",

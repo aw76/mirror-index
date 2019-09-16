@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190908",
+            "bitbake_branch": "wr-10.19-20190911",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-08T19:09:51+0000",
+            "updated": "2019-09-11T23:09:32+0000",
             "updates_enabled": true
         }
     ],
@@ -120,38 +120,38 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-11T02:09:01+0000",
-            "vcs_last_commit": "2019-09-11T02:09:01+0000",
-            "vcs_last_fetch": "2019-09-11T02:09:01+0000",
-            "vcs_last_rev": "0f8ab9766831258e0a2311bf110f186b5079deb6",
+            "updated": "2019-09-16T02:09:26+0000",
+            "vcs_last_commit": "2019-09-16T02:09:26+0000",
+            "vcs_last_fetch": "2019-09-16T02:09:26+0000",
+            "vcs_last_rev": "9fe21d1db885072303367ab3fbc12dbee8c37634",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190908",
+            "actual_branch": "wr-10.19-20190911",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-10T02:09:19+0000",
-            "vcs_last_commit": "2019-09-10T02:09:19+0000",
-            "vcs_last_fetch": "2019-09-10T02:09:19+0000",
-            "vcs_last_rev": "a6413d7aa2b1dfbd189d6b2fc0332ce3adf5a5b0",
+            "updated": "2019-09-10T23:09:08+0000",
+            "vcs_last_commit": "2019-09-10T23:09:08+0000",
+            "vcs_last_fetch": "2019-09-10T23:09:08+0000",
+            "vcs_last_rev": "79812df27708e8f4badd050655defb724d2d66c8",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190908",
+            "actual_branch": "wr-10.19-20190911",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-08T05:09:15+0000",
-            "vcs_last_commit": "2019-09-08T05:09:15+0000",
-            "vcs_last_fetch": "2019-09-08T05:09:15+0000",
-            "vcs_last_rev": "7af81f9bc5f33696db62520cd0bdd3c1e88039d2",
+            "updated": "2019-09-10T23:09:08+0000",
+            "vcs_last_commit": "2019-09-10T23:09:08+0000",
+            "vcs_last_fetch": "2019-09-10T23:09:08+0000",
+            "vcs_last_rev": "4babbcdb3d626b5ebf19b91a831f20cebbb23903",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -1240,7 +1240,7 @@
             "pv": "0.7.2",
             "section": "base",
             "summary": "Python library for displaying tabular data in a ASCII table format",
-            "updated": "2018-10-05T09:10:39+0000"
+            "updated": "2019-09-11T23:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3957,7 +3957,7 @@
             "pv": "2.10.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-08T19:09:12+0000"
+            "updated": "2019-09-11T23:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -4755,7 +4755,7 @@
             "pv": "2.10.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-08T19:09:13+0000"
+            "updated": "2019-09-11T23:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -5978,7 +5978,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-paste_3.1.1.bb",
+            "filename": "python-paste_3.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonpaste.org/",
             "id": 724078,
@@ -5987,10 +5987,10 @@
             "license": "MIT",
             "pn": "python-paste",
             "provides": "python-paste ",
-            "pv": "3.1.1",
+            "pv": "3.2.0",
             "section": "devel/python",
             "summary": "Tools for using a Web Server Gateway Interface stack",
-            "updated": "2019-09-03T00:09:13+0000"
+            "updated": "2019-09-11T23:09:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9680,7 +9680,7 @@
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Nothing RPROVIDES 'python3-colorama' (but python3-cmd2_0.9.16.bb RDEPENDS on or otherwise requires it)",
             "bugtracker": "",
             "description": "",
             "filename": "python3-cmd2_0.9.16.bb",
@@ -9695,7 +9695,83 @@
             "pv": "0.9.16",
             "section": "devel/python",
             "summary": "Extra features for standard library's cmd module",
-            "updated": "2019-09-08T19:09:14+0000"
+            "updated": "2019-09-11T23:09:24+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-colorama_0.4.1.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/tartley/colorama",
+            "id": 1019300,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "BSD-2-Clause",
+            "pn": "python3-colorama",
+            "provides": "python3-colorama ",
+            "pv": "0.4.1",
+            "section": "devel/python",
+            "summary": "Cross-platform colored terminal text.",
+            "updated": "2019-09-11T23:09:25+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-prettytable_0.7.2.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://code.google.com/p/prettytable",
+            "id": 1019301,
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "BSD",
+            "pn": "python3-prettytable",
+            "provides": "python3-prettytable ",
+            "pv": "0.7.2",
+            "section": "base",
+            "summary": "Python library for displaying tabular data in a ASCII table format",
+            "updated": "2019-09-11T23:09:25+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "pytest-asyncio is an Apache2 licensed library, written in Python, for testing asyncio code with pytest",
+            "filename": "python3-pytest-asyncio_0.10.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/pytest-dev/pytest-asyncio",
+            "id": 1019302,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "Apache-2.0",
+            "pn": "python3-pytest-asyncio",
+            "provides": "python3-pytest-asyncio ",
+            "pv": "0.10.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-09-11T23:09:25+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Six is a Python 2 and 3 compatibility library",
+            "filename": "python3-twine_1.13.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/benjaminp/six",
+            "id": 1019303,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python3-twine",
+            "provides": "python3-twine ",
+            "pv": "1.13.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-09-11T23:09:26+0000"
         }
     ],
     "wrtemplates": []

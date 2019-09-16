@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190908",
+            "bitbake_branch": "wr-10.19-20190911",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-08T19:09:51+0000",
+            "updated": "2019-09-11T23:09:32+0000",
             "updates_enabled": true
         }
     ],
@@ -120,24 +120,24 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-11T02:09:01+0000",
-            "vcs_last_commit": "2019-09-11T02:09:01+0000",
-            "vcs_last_fetch": "2019-09-11T02:09:01+0000",
-            "vcs_last_rev": "0f8ab9766831258e0a2311bf110f186b5079deb6",
+            "updated": "2019-09-16T02:09:26+0000",
+            "vcs_last_commit": "2019-09-16T02:09:26+0000",
+            "vcs_last_fetch": "2019-09-16T02:09:26+0000",
+            "vcs_last_rev": "9fe21d1db885072303367ab3fbc12dbee8c37634",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190908",
+            "actual_branch": "wr-10.19-20190911",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-10T02:09:19+0000",
-            "vcs_last_commit": "2019-09-10T02:09:19+0000",
-            "vcs_last_fetch": "2019-09-10T02:09:19+0000",
-            "vcs_last_rev": "a6413d7aa2b1dfbd189d6b2fc0332ce3adf5a5b0",
+            "updated": "2019-09-10T23:09:08+0000",
+            "vcs_last_commit": "2019-09-10T23:09:08+0000",
+            "vcs_last_fetch": "2019-09-10T23:09:08+0000",
+            "vcs_last_rev": "79812df27708e8f4badd050655defb724d2d66c8",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -3334,7 +3334,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Needs forward porting to kernel 5.2+",
             "bugtracker": "",
             "description": "bpftool is a kernel tool for inspection and simple manipulation of eBPF programs and maps.",
             "filename": "bpftool.bb",
@@ -3349,7 +3349,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Inspect and manipulate eBPF programs and maps",
-            "updated": "2019-09-03T00:09:48+0000"
+            "updated": "2019-09-11T23:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3444,7 +3444,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel selftest for Linux",
-            "updated": "2019-09-03T00:09:48+0000"
+            "updated": "2019-09-11T23:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5018,10 +5018,10 @@
             "license": "GPL-2.0+",
             "pn": "hwdata",
             "provides": "hwdata ",
-            "pv": "0.326",
+            "pv": "0.327",
             "section": "System/Base",
             "summary": "",
-            "updated": "2019-08-08T19:08:13+0000"
+            "updated": "2019-09-11T23:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -7362,7 +7362,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Needs forward porting to kernel 5.2+",
             "bugtracker": "",
             "description": "",
             "filename": "vboxguestdrivers_5.2.22.bb",
@@ -7377,7 +7377,7 @@
             "pv": "5.2.22",
             "section": "core",
             "summary": "VirtualBox Linux Guest Drivers",
-            "updated": "2019-06-13T17:06:28+0000"
+            "updated": "2019-09-11T23:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -10421,7 +10421,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Kernel module Needs forward porting to kernel 5.2+",
             "bugtracker": "",
             "description": "",
             "filename": "can-isotp_git.bb",
@@ -10436,7 +10436,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-03T00:09:47+0000"
+            "updated": "2019-09-11T23:09:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -11804,7 +11804,7 @@
             "pv": "7.91+gitX",
             "section": "base",
             "summary": "ltrace intercepts and records dynamic library calls",
-            "updated": "2019-06-13T17:06:47+0000"
+            "updated": "2019-09-11T23:09:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -11880,7 +11880,7 @@
             "pv": "10.16.3",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-08T19:09:46+0000"
+            "updated": "2019-09-11T23:09:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -12014,25 +12014,6 @@
             "section": "base",
             "summary": "MessagePack implementation for C and C++",
             "updated": "2019-06-13T17:06:51+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "dejagnu_1.4.4.bb",
-            "filepath": "recipes-devtools/dejagnu",
-            "homepage": "",
-            "id": 974340,
-            "inherits": "autotools siteconfig siteinfo",
-            "layerbranch": 14965,
-            "license": "GPLv2",
-            "pn": "dejagnu",
-            "provides": "dejagnu ",
-            "pv": "1.4.4",
-            "section": "devel",
-            "summary": "GNU unit testing framework, written in Expect and Tcl",
-            "updated": "2019-06-13T17:06:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -12488,7 +12469,7 @@
             "pv": "0.10+gitrX",
             "section": "base",
             "summary": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing",
-            "updated": "2019-08-05T23:08:52+0000"
+            "updated": "2019-09-11T23:09:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -12507,25 +12488,6 @@
             "pv": "5.1.4",
             "section": "libs",
             "summary": "shared library for GIF images",
-            "updated": "2019-06-13T17:06:01+0000"
-        },
-        {
-            "bbclassextend": "nativesdk",
-            "blacklisted": " error: invalid use of incomplete type 'RCF::AsioIoService {aka class boost::asio::io_service}; among others?",
-            "bugtracker": "",
-            "description": "Unlike other communication frameworks, RCF doesn't use a separate IDL (Interface Definition Language). RCF interfaces are defined directly in C++, and serialization for user-defined data types likewise is implemented in C++. Instead of a separate IDL compiler tool, RCF uses the C++ compiler to generate client and server stubs.",
-            "filename": "librcf_2.2.0.0.bb",
-            "filepath": "recipes-devtools/librcf",
-            "homepage": "http://www.deltavsoft.com/",
-            "id": 974366,
-            "inherits": "cmake dos2unix",
-            "layerbranch": 14965,
-            "license": "GPLv2",
-            "pn": "librcf",
-            "provides": "librcf ",
-            "pv": "2.2.0.0",
-            "section": "libs",
-            "summary": "RCF (Remote Call Framework) is a cross-platform interprocess communication framework for C++",
             "updated": "2019-06-13T17:06:01+0000"
         },
         {
@@ -13267,7 +13229,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2019-08-19T20:08:00+0000"
+            "updated": "2019-09-11T23:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -13876,6 +13838,25 @@
             "section": "libs",
             "summary": "XML Security Library is a C library based on LibXML2",
             "updated": "2019-09-03T00:09:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A feature rich Remote Desktop Application written in GTK+",
+            "filename": "remmina_1.3.6.bb",
+            "filepath": "recipes-support/remmina",
+            "homepage": "https://remmina.org",
+            "id": 1019299,
+            "inherits": "cmake",
+            "layerbranch": 14965,
+            "license": "GPLv2 & openssl",
+            "pn": "remmina",
+            "provides": "remmina ",
+            "pv": "1.3.6",
+            "section": "Support",
+            "summary": "",
+            "updated": "2019-09-11T23:09:11+0000"
         }
     ],
     "wrtemplates": []
