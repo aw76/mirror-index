@@ -115,29 +115,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190908",
+            "actual_branch": "wr-10.19-20190916",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-16T02:09:26+0000",
-            "vcs_last_commit": "2019-09-16T02:09:26+0000",
-            "vcs_last_fetch": "2019-09-16T02:09:26+0000",
-            "vcs_last_rev": "9fe21d1db885072303367ab3fbc12dbee8c37634",
+            "updated": "2019-09-16T20:09:00+0000",
+            "vcs_last_commit": "2019-09-16T20:09:00+0000",
+            "vcs_last_fetch": "2019-09-16T20:09:00+0000",
+            "vcs_last_rev": "efedfcfe8fd50895ab1d4610e4a37c753d905c21",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190911",
+            "actual_branch": "wr-10.19-20190916",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-10T23:09:08+0000",
-            "vcs_last_commit": "2019-09-10T23:09:08+0000",
-            "vcs_last_fetch": "2019-09-10T23:09:08+0000",
-            "vcs_last_rev": "79812df27708e8f4badd050655defb724d2d66c8",
+            "updated": "2019-09-15T19:09:34+0000",
+            "vcs_last_commit": "2019-09-15T19:09:34+0000",
+            "vcs_last_fetch": "2019-09-15T19:09:34+0000",
+            "vcs_last_rev": "9310818b2acff3e47870459559a942bb4ca9cc55",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -278,7 +278,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xmessage_1.0.4.bb",
+            "filename": "xmessage_1.0.5.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 973713,
@@ -287,10 +287,10 @@
             "license": "MIT",
             "pn": "xmessage",
             "provides": "xmessage ",
-            "pv": "1.0.4",
+            "pv": "1.0.5",
             "section": "x11/apps",
             "summary": "Display a message or query in a window",
-            "updated": "2019-06-13T17:06:29+0000"
+            "updated": "2019-09-16T20:09:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -430,7 +430,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xfontsel_1.0.5.bb",
+            "filename": "xfontsel_1.0.6.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://cgit.freedesktop.org/xorg/app/xfontsel/",
             "id": 973721,
@@ -439,10 +439,10 @@
             "license": "MIT",
             "pn": "xfontsel",
             "provides": "xfontsel ",
-            "pv": "1.0.5",
+            "pv": "1.0.6",
             "section": "x11/app",
             "summary": "xfontsel provides point and click selection of X11 font names",
-            "updated": "2019-06-13T17:06:32+0000"
+            "updated": "2019-09-16T20:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -601,7 +601,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xmag_1.0.5.bb",
+            "filename": "xmag_1.0.6.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://cgit.freedesktop.org/xorg/app/xmag/",
             "id": 973730,
@@ -610,10 +610,10 @@
             "license": "MIT",
             "pn": "xmag",
             "provides": "xmag ",
-            "pv": "1.0.5",
+            "pv": "1.0.6",
             "section": "x11/app",
             "summary": "xmag is a tool to magnify parts of the screen",
-            "updated": "2019-06-13T17:06:36+0000"
+            "updated": "2019-09-16T20:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -658,7 +658,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xclock_1.0.5.bb",
+            "filename": "xclock_1.0.9.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 973733,
@@ -667,10 +667,10 @@
             "license": "MIT",
             "pn": "xclock",
             "provides": "xclock ",
-            "pv": "1.0.5",
+            "pv": "1.0.9",
             "section": "x11/apps",
             "summary": "analog / digital clock for X",
-            "updated": "2019-06-13T17:06:37+0000"
+            "updated": "2019-09-16T20:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1988,7 +1988,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xcursorgen_1.0.5.bb",
+            "filename": "xcursorgen_1.0.7.bb",
             "filepath": "recipes-graphics/xcursorgen",
             "homepage": "",
             "id": 973803,
@@ -1997,10 +1997,10 @@
             "license": "ManishSingh",
             "pn": "xcursorgen",
             "provides": "xcursorgen ",
-            "pv": "1.0.5",
+            "pv": "1.0.7",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:55+0000"
+            "updated": "2019-09-16T20:09:04+0000"
         },
         {
             "bbclassextend": "native",
@@ -2235,7 +2235,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "X documentation",
-            "filename": "xorg-sgml-doctools_1.7.bb",
+            "filename": "xorg-sgml-doctools_1.11.bb",
             "filepath": "recipes-graphics/xorg-doc",
             "homepage": "http://www.x.org",
             "id": 973816,
@@ -2244,10 +2244,10 @@
             "license": "MIT-X",
             "pn": "xorg-sgml-doctools",
             "provides": "xorg-sgml-doctools ",
-            "pv": "1.7",
+            "pv": "1.11",
             "section": "x11/docs",
             "summary": "",
-            "updated": "2019-06-13T17:06:59+0000"
+            "updated": "2019-09-16T20:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2672,7 +2672,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/libuv/libuv/issues",
             "description": "",
-            "filename": "libuv_1.27.0.bb",
+            "filename": "libuv_1.32.0.bb",
             "filepath": "recipes-connectivity/libuv",
             "homepage": "https://github.com/libuv/libuv",
             "id": 973839,
@@ -2681,10 +2681,10 @@
             "license": "MIT",
             "pn": "libuv",
             "provides": "libuv ",
-            "pv": "1.27.0",
+            "pv": "1.32.0",
             "section": "base",
             "summary": "A multi-platform support library with a focus on asynchronous I/O",
-            "updated": "2019-07-24T19:07:46+0000"
+            "updated": "2019-09-16T20:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3223,7 +3223,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libev_4.25.bb",
+            "filename": "libev_4.27.bb",
             "filepath": "recipes-connectivity/libev",
             "homepage": "http://software.schmorp.de/pkg/libev.html",
             "id": 973868,
@@ -3232,10 +3232,10 @@
             "license": "BSD-2-Clause | GPL-2.0+",
             "pn": "libev",
             "provides": "libev ",
-            "pv": "4.25",
+            "pv": "4.27",
             "section": "base",
             "summary": "A full-featured and high-performance event loop that is loosely modelled after libevent.",
-            "updated": "2019-06-13T17:06:17+0000"
+            "updated": "2019-09-16T20:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3254,7 +3254,7 @@
             "pv": "1.22.2",
             "section": "base",
             "summary": "libqmi is a library for talking to WWAN devices by QMI protocol",
-            "updated": "2019-06-13T17:06:17+0000"
+            "updated": "2019-09-16T20:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3451,7 +3451,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "This tool suite is designed to assist kernel and OS developers in optimizing their linux stack's suspend/resume & boot time.",
-            "filename": "pm-graph_5.3.bb",
+            "filename": "pm-graph_5.5.bb",
             "filepath": "recipes-kernel/pm-graph",
             "homepage": "https://01.org/pm-graph",
             "id": 973880,
@@ -3460,10 +3460,10 @@
             "license": "GPL-2",
             "pn": "pm-graph",
             "provides": "pm-graph ",
-            "pv": "5.3",
+            "pv": "5.5",
             "section": "base",
             "summary": "Timing analysis tools for suspend/resume/boot",
-            "updated": "2019-08-01T19:08:01+0000"
+            "updated": "2019-09-16T20:09:05+0000"
         },
         {
             "bbclassextend": "native cross",
@@ -3755,7 +3755,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Libnice is an implementation of the IETF's draft Interactive Connectivity Establishment standard (ICE).",
-            "filename": "libnice_0.1.14.bb",
+            "filename": "libnice_0.1.16.bb",
             "filepath": "recipes-support/farsight",
             "homepage": "http://nice.freedesktop.org/wiki/",
             "id": 973896,
@@ -3764,10 +3764,10 @@
             "license": "LGPLv2.1 & MPLv1.1",
             "pn": "libnice",
             "provides": "libnice ",
-            "pv": "0.1.14",
+            "pv": "0.1.16",
             "section": "base",
             "summary": "Interactive Connectivity Establishment library",
-            "updated": "2019-06-13T17:06:26+0000"
+            "updated": "2019-09-16T20:09:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -4933,7 +4933,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tree_1.7.0.bb",
+            "filename": "tree_1.8.0.bb",
             "filepath": "recipes-support/tree",
             "homepage": "http://mama.indstate.edu/users/ice/tree/",
             "id": 973958,
@@ -4942,10 +4942,10 @@
             "license": "GPLv2",
             "pn": "tree",
             "provides": "tree ",
-            "pv": "1.7.0",
+            "pv": "1.8.0",
             "section": "console/utils",
             "summary": "A recursive directory listing command",
-            "updated": "2019-08-08T19:08:14+0000"
+            "updated": "2019-09-16T20:09:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4971,7 +4971,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libsass_git.bb",
+            "filename": "libsass_3.6.1.bb",
             "filepath": "recipes-support/sass",
             "homepage": "http://sass-lang.com/libsass",
             "id": 973960,
@@ -4980,10 +4980,10 @@
             "license": "MIT",
             "pn": "libsass",
             "provides": "libsass ",
-            "pv": "3.5.5",
+            "pv": "3.6.1",
             "section": "base",
             "summary": "C/C++ port of the Sass CSS precompiler",
-            "updated": "2019-06-13T17:06:47+0000"
+            "updated": "2019-09-16T20:09:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -5515,7 +5515,7 @@
             "pv": "1.14",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:55+0000"
+            "updated": "2019-09-16T20:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -6902,7 +6902,7 @@
             "pv": "2.03.02",
             "section": "utils",
             "summary": "",
-            "updated": "2019-09-03T00:09:29+0000"
+            "updated": "2019-09-16T20:09:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6921,7 +6921,7 @@
             "pv": "2.03.02",
             "section": "utils",
             "summary": "",
-            "updated": "2019-09-01T19:09:11+0000"
+            "updated": "2019-09-16T20:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -7422,7 +7422,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "poppler_0.79.0.bb",
+            "filename": "poppler_0.80.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "",
             "id": 974090,
@@ -7431,10 +7431,10 @@
             "license": "GPLv2",
             "pn": "poppler",
             "provides": "poppler ",
-            "pv": "0.79.0",
+            "pv": "0.80.0",
             "section": "base",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2019-08-26T20:08:21+0000"
+            "updated": "2019-09-16T20:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -7593,7 +7593,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libmodplug_0.8.8.5.bb",
+            "filename": "libmodplug_0.8.9.0.bb",
             "filepath": "recipes-multimedia/libmodplug",
             "homepage": "http://modplug-xmms.sf.net",
             "id": 974099,
@@ -7602,17 +7602,17 @@
             "license": "PD",
             "pn": "libmodplug",
             "provides": "libmodplug ",
-            "pv": "0.8.8.5",
+            "pv": "0.8.9.0",
             "section": "base",
             "summary": "Library for reading mod-like audio files",
-            "updated": "2019-06-13T17:06:31+0000"
+            "updated": "2019-09-16T20:09:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libdvdread_5.0.3.bb",
+            "filename": "libdvdread_6.0.1.bb",
             "filepath": "recipes-multimedia/libdvdread",
             "homepage": "",
             "id": 974100,
@@ -7621,10 +7621,10 @@
             "license": "GPLv2+",
             "pn": "libdvdread",
             "provides": "libdvdread ",
-            "pv": "5.0.3",
+            "pv": "6.0.1",
             "section": "libs/multimedia",
             "summary": "DVD access multimeda library",
-            "updated": "2019-06-13T17:06:31+0000"
+            "updated": "2019-09-16T20:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -7707,7 +7707,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libburn_1.4.0.bb",
+            "filename": "libburn_1.5.0.bb",
             "filepath": "recipes-multimedia/libburn",
             "homepage": "http://libburnia-project.org/",
             "id": 974105,
@@ -7716,10 +7716,10 @@
             "license": "GPLv2",
             "pn": "libburn",
             "provides": "libburn ",
-            "pv": "1.4.0",
+            "pv": "1.5.0",
             "section": "base",
             "summary": "Library for reading, mastering and writing optical discs",
-            "updated": "2019-06-13T17:06:32+0000"
+            "updated": "2019-09-16T20:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -8106,7 +8106,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Opus codec is designed for interactive speech and audio transmission over the Internet. It is designed by the IETF Codec Working Group and incorporates technology from Skype's SILK codec and Xiph.Org's CELT codec.",
-            "filename": "libopus_1.1.3.bb",
+            "filename": "libopus_1.3.1.bb",
             "filepath": "recipes-multimedia/libopus",
             "homepage": "http://www.opus-codec.org/",
             "id": 974127,
@@ -8115,10 +8115,10 @@
             "license": "BSD",
             "pn": "libopus",
             "provides": "libopus ",
-            "pv": "1.1.3",
+            "pv": "1.3.1",
             "section": "libs/multimedia",
             "summary": "Opus Audio Codec",
-            "updated": "2019-08-21T19:08:31+0000"
+            "updated": "2019-09-16T20:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -8448,7 +8448,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "evtest_git.bb",
+            "filename": "evtest_1.34.bb",
             "filepath": "recipes-test/evtest",
             "homepage": "http://people.freedesktop.org/~whot/evtest/",
             "id": 974145,
@@ -8457,10 +8457,10 @@
             "license": "GPLv2",
             "pn": "evtest",
             "provides": "evtest ",
-            "pv": "1.33+X",
+            "pv": "1.34",
             "section": "console/utils",
             "summary": "Simple tool for input event debugging",
-            "updated": "2019-06-13T17:06:46+0000"
+            "updated": "2019-09-16T20:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -8619,7 +8619,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU ddrescue is a data recovery tool. It copies data     from one file or block device (hard disc, cdrom, etc) to another,     trying hard to rescue data in case of read errors.",
-            "filename": "ddrescue_1.22.bb",
+            "filename": "ddrescue_1.24.bb",
             "filepath": "recipes-extended/ddrescue",
             "homepage": "http://www.gnu.org/software/ddrescue/ddrescue.html",
             "id": 974155,
@@ -8628,10 +8628,10 @@
             "license": "GPLv2+",
             "pn": "ddrescue",
             "provides": "ddrescue ",
-            "pv": "1.22",
+            "pv": "1.24",
             "section": "console",
             "summary": "Data recovery tool",
-            "updated": "2019-06-13T17:06:49+0000"
+            "updated": "2019-09-16T20:09:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -9866,7 +9866,7 @@
             "pv": "4.0.14",
             "section": "libs",
             "summary": "Redis key-value store",
-            "updated": "2019-08-19T20:08:01+0000"
+            "updated": "2019-09-16T20:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -10367,7 +10367,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libsocketcan_0.0.10.bb",
+            "filename": "libsocketcan_0.0.11.bb",
             "filepath": "recipes-extended/socketcan",
             "homepage": "http://www.pengutronix.de",
             "id": 974249,
@@ -10376,10 +10376,10 @@
             "license": "LGPLv2.1",
             "pn": "libsocketcan",
             "provides": "libsocketcan ",
-            "pv": "0.0.10",
+            "pv": "0.0.11",
             "section": "libs/network",
             "summary": "Control basic functions in socketcan from userspace",
-            "updated": "2019-06-13T17:06:20+0000"
+            "updated": "2019-09-16T20:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -10557,7 +10557,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "analyze-suspend is a tool for system developers to visualize the activity between suspend and resume, allowing them to identify inefficiencies and bottlenecks.",
-            "filename": "analyze-suspend_5.3.bb",
+            "filename": "analyze-suspend_5.5.bb",
             "filepath": "recipes-benchmark/analyze-suspend",
             "homepage": "https://01.org/suspendresume",
             "id": 974259,
@@ -10566,10 +10566,10 @@
             "license": "GPLv2",
             "pn": "analyze-suspend",
             "provides": "analyze-suspend ",
-            "pv": "5.3",
+            "pv": "5.5",
             "section": "base",
             "summary": "Analyze Suspend",
-            "updated": "2019-06-13T17:06:23+0000"
+            "updated": "2019-09-16T20:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -11272,7 +11272,7 @@
             "pv": "7.3.9",
             "section": "console/network",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2019-09-10T02:09:51+0000"
+            "updated": "2019-09-16T20:09:03+0000"
         },
         {
             "bbclassextend": "",
@@ -11367,7 +11367,7 @@
             "pv": "5.1.1.r37",
             "section": "console/utils",
             "summary": "",
-            "updated": "2019-09-03T00:09:45+0000"
+            "updated": "2019-09-16T20:09:02+0000"
         },
         {
             "bbclassextend": "",
@@ -11925,7 +11925,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "JsonRpc-Cpp is an OpenSource implementation of JSON-RPC                protocol in C++. JSON-RPC is a lightweight remote procedure                call protocol similar to XML-RPC.",
-            "filename": "jsonrpc_git.bb",
+            "filename": "jsonrpc_1.2.0.bb",
             "filepath": "recipes-devtools/jsonrpc",
             "homepage": "https://github.com/cinemast/libjson-rpc-cpp",
             "id": 974335,
@@ -11934,10 +11934,10 @@
             "license": "MIT",
             "pn": "jsonrpc",
             "provides": "jsonrpc ",
-            "pv": "1.1.1+gitX",
+            "pv": "1.2.0",
             "section": "libs",
             "summary": "C++ framework for json-rpc 1.0 and 2.0",
-            "updated": "2019-06-13T17:06:50+0000"
+            "updated": "2019-09-16T20:09:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -12469,7 +12469,7 @@
             "pv": "0.10+gitrX",
             "section": "base",
             "summary": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing",
-            "updated": "2019-09-11T23:09:10+0000"
+            "updated": "2019-09-16T20:09:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -12590,7 +12590,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cap\u2019n Proto is an insanely fast data interchange format and capability-based RPC system. ",
-            "filename": "capnproto_0.6.1.bb",
+            "filename": "capnproto_0.7.0.bb",
             "filepath": "recipes-devtools/capnproto",
             "homepage": "https://github.com/sandstorm-io/capnproto",
             "id": 974372,
@@ -12599,10 +12599,10 @@
             "license": "MIT",
             "pn": "capnproto",
             "provides": "capnproto ",
-            "pv": "0.6.1",
+            "pv": "0.7.0",
             "section": "console/tools",
             "summary": "Cap'n Proto serialization/RPC system",
-            "updated": "2019-06-13T17:06:03+0000"
+            "updated": "2019-09-16T20:09:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -13350,7 +13350,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "safec_3.4.bb",
+            "filename": "safec_3.5.bb",
             "filepath": "recipes-core/safec",
             "homepage": "",
             "id": 982991,
@@ -13359,10 +13359,10 @@
             "license": "safec",
             "pn": "safec",
             "provides": "safec ",
-            "pv": "3.4",
+            "pv": "3.5",
             "section": "lib",
             "summary": "Safe C Library",
-            "updated": "2019-07-10T20:07:02+0000"
+            "updated": "2019-09-16T20:09:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13540,19 +13540,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "{fmt} is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.",
-            "filename": "fmt_5.3.0.bb",
+            "filename": "fmt_6.0.0.bb",
             "filepath": "recipes-support/fmt",
             "homepage": "https://fmt.dev",
             "id": 989880,
             "inherits": "cmake ptest",
             "layerbranch": 14965,
-            "license": "BSD-2-Clause",
+            "license": "MIT",
             "pn": "fmt",
             "provides": "fmt ",
-            "pv": "5.3.0+gitX",
+            "pv": "6.0.0",
             "section": "base",
             "summary": "open-source formatting library for C++",
-            "updated": "2019-07-15T19:07:57+0000"
+            "updated": "2019-09-16T20:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -13848,7 +13848,7 @@
             "filepath": "recipes-support/remmina",
             "homepage": "https://remmina.org",
             "id": 1019299,
-            "inherits": "cmake",
+            "inherits": "cmake distro_features_check",
             "layerbranch": 14965,
             "license": "GPLv2 & openssl",
             "pn": "remmina",
@@ -13856,7 +13856,45 @@
             "pv": "1.3.6",
             "section": "Support",
             "summary": "",
-            "updated": "2019-09-11T23:09:11+0000"
+            "updated": "2019-09-16T20:09:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This is a rewrite of the popular tool unclutter, but using the x11-xfixes extension.",
+            "filename": "unclutter-xfixes_1.5.bb",
+            "filepath": "recipes-graphics/unclutter-xfixes",
+            "homepage": "",
+            "id": 1027927,
+            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "MIT",
+            "pn": "unclutter-xfixes",
+            "provides": "unclutter-xfixes ",
+            "pv": "1.5",
+            "section": "base",
+            "summary": "Remove idle cursor image from screen.",
+            "updated": "2019-09-16T20:09:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Program allowing you to display GTK+ dialog boxes from command line or shell scripts.",
+            "filename": "yad_4.1.bb",
+            "filepath": "recipes-graphics/yad",
+            "homepage": "",
+            "id": 1027928,
+            "inherits": "autotools gsettings siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPLv3",
+            "pn": "yad",
+            "provides": "yad ",
+            "pv": "4.1",
+            "section": "base",
+            "summary": "Yet Another Dialog",
+            "updated": "2019-09-16T20:09:12+0000"
         }
     ],
     "wrtemplates": []

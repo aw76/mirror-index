@@ -115,29 +115,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190908",
+            "actual_branch": "wr-10.19-20190916",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-16T02:09:26+0000",
-            "vcs_last_commit": "2019-09-16T02:09:26+0000",
-            "vcs_last_fetch": "2019-09-16T02:09:26+0000",
-            "vcs_last_rev": "9fe21d1db885072303367ab3fbc12dbee8c37634",
+            "updated": "2019-09-16T20:09:00+0000",
+            "vcs_last_commit": "2019-09-16T20:09:00+0000",
+            "vcs_last_fetch": "2019-09-16T20:09:00+0000",
+            "vcs_last_rev": "efedfcfe8fd50895ab1d4610e4a37c753d905c21",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190911",
+            "actual_branch": "wr-10.19-20190916",
             "branch": 38,
             "collection": "intel",
             "id": 84751,
             "layer": 166,
-            "updated": "2019-09-10T23:09:18+0000",
-            "vcs_last_commit": "2019-09-10T23:09:18+0000",
-            "vcs_last_fetch": "2019-09-10T23:09:18+0000",
-            "vcs_last_rev": "41fda1ce3311685fa9aef70b4eed694de64897d9",
+            "updated": "2019-09-15T19:09:41+0000",
+            "vcs_last_commit": "2019-09-15T19:09:41+0000",
+            "vcs_last_fetch": "2019-09-15T19:09:41+0000",
+            "vcs_last_rev": "a1f74e55db9b28d4b1df609bd3af5b8f11f2fb35",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 9
@@ -813,7 +813,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Intel(R) Graphics Compiler for OpenCL(TM) is an llvm based compiler for OpenCL(TM) targeting Intel Gen graphics hardware architecture.",
-            "filename": "intel-graphics-compiler_1.0.6.bb",
+            "filename": "intel-graphics-compiler_1.0.11.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/igc",
             "homepage": "",
             "id": 951498,
@@ -822,10 +822,10 @@
             "license": "MIT & BSD-3-Clause",
             "pn": "intel-graphics-compiler",
             "provides": "intel-graphics-compiler ",
-            "pv": "1.0.6",
+            "pv": "1.0.11",
             "section": "base",
             "summary": "The Intel(R) Graphics Compiler for OpenCL(TM)",
-            "updated": "2019-09-03T00:09:40+0000"
+            "updated": "2019-09-16T20:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -965,7 +965,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The Intel(R) Graphics Compute Runtime for OpenCL(TM) is an open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture.",
-            "filename": "intel-compute-runtime_19.21.13045.bb",
+            "filename": "intel-compute-runtime_19.35.13977.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/compute-runtime",
             "homepage": "",
             "id": 997579,
@@ -974,17 +974,17 @@
             "license": "MIT",
             "pn": "intel-compute-runtime",
             "provides": "intel-compute-runtime ",
-            "pv": "19.21.13045",
+            "pv": "19.35.13977",
             "section": "base",
             "summary": "The Intel(R) Graphics Compute Runtime for OpenCL(TM)",
-            "updated": "2019-09-03T00:09:40+0000"
+            "updated": "2019-09-16T20:09:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Common clang has OpenCL-oriented API and is capable  to compile OpenCL C kernels to SPIR-V modules.",
-            "filename": "opencl-clang_8.0.1.bb",
+            "filename": "opencl-clang_9.0.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/opencl-clang",
             "homepage": "",
             "id": 997580,
@@ -993,10 +993,10 @@
             "license": "NCSA",
             "pn": "opencl-clang",
             "provides": "opencl-clang ",
-            "pv": "8.0.1",
+            "pv": "9.0.0",
             "section": "base",
             "summary": "Common clang is a thin wrapper library around clang",
-            "updated": "2019-08-26T20:08:01+0000"
+            "updated": "2019-09-16T20:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1016,6 +1016,25 @@
             "section": "base",
             "summary": "Intel(R) Processor Trace Decoder Library",
             "updated": "2019-08-26T20:08:01+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "nGraph Compiler aims to accelerate developing AI workloads using any deep learning framework and deploying to a variety of hardware targets.",
+            "filename": "ngraph_0.22.1.bb",
+            "filepath": "recipes-devtools/ngraph",
+            "homepage": "https://www.ngraph.ai",
+            "id": 1027938,
+            "inherits": "cmake",
+            "layerbranch": 84751,
+            "license": "Apache-2.0",
+            "pn": "ngraph",
+            "provides": "ngraph ",
+            "pv": "0.22.1",
+            "section": "base",
+            "summary": "nGraph Compiler Stack",
+            "updated": "2019-09-16T20:09:54+0000"
         }
     ],
     "wrtemplates": []
