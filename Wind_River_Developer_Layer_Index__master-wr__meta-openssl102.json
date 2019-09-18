@@ -129,31 +129,37 @@
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190904",
+            "actual_branch": "",
             "branch": 38,
-            "collection": "dpdk",
-            "id": 168977,
-            "layer": 192,
-            "updated": "2019-09-18T00:09:15+0000",
-            "vcs_last_commit": "2019-09-18T00:09:15+0000",
-            "vcs_last_fetch": "2019-09-18T00:09:15+0000",
-            "vcs_last_rev": "d47ec402e149efab56de38516a47b01f7e3b98d6",
+            "collection": "meta-openssl-one-zero-two",
+            "id": 845702,
+            "layer": 300,
+            "updated": "2019-09-15T22:09:10+0000",
+            "vcs_last_commit": "2019-09-15T22:09:10+0000",
+            "vcs_last_fetch": "2019-09-15T22:09:10+0000",
+            "vcs_last_rev": "cb8f6c3097dd95a1ffb1dad8ec82772d65343e35",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 12
+            "yp_compatible_version": 11
         }
     ],
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 20052,
-            "layerbranch": 168977,
+            "id": 52729,
+            "layerbranch": 845702,
             "required": true
         },
         {
-            "dependency": 194,
-            "id": 20053,
-            "layerbranch": 168977,
+            "dependency": 55,
+            "id": 52730,
+            "layerbranch": 845702,
+            "required": false
+        },
+        {
+            "dependency": 306,
+            "id": 56098,
+            "layerbranch": 845702,
             "required": false
         }
     ],
@@ -178,18 +184,18 @@
         },
         {
             "comparison": false,
-            "description": "DPDK is a set of libraries and drivers for fast packet processing.",
-            "id": 192,
+            "description": "This layer provides the older OpenSSL 1.0.2.  This alternative version  can be used as the default OpenSSL if the older version is required for  some reason.\r\n\r\nThis alternative version is derived from openembedded-core prior to it's removal.",
+            "id": 300,
             "index_preference": 0,
-            "layer_type": "A",
+            "layer_type": "S",
             "mailing_list_url": "",
-            "name": "meta-dpdk",
+            "name": "meta-openssl102",
             "status": "P",
-            "summary": "dpdk layer",
-            "updated": "2018-05-30T22:05:19+0000",
+            "summary": "Provides OpenSSL 1.0.2 and support infrastructure",
+            "updated": "2019-06-26T10:06:42+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-dpdk",
-            "vcs_web_commit_url": "",
+            "vcs_url": "#BASE_URL#/meta-openssl102",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-openssl102.git/commit/id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -198,43 +204,32 @@
     "machines": [],
     "recipes": [
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
-            "bugtracker": "",
-            "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_17.11.6.bb",
-            "filepath": "recipes-extended/dpdk",
-            "homepage": "http://dpdk.org",
-            "id": 724442,
-            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
-            "layerbranch": 168977,
-            "license": "LGPLv2 & GPLv2",
-            "pn": "dpdk",
-            "provides": "dpdk ",
-            "pv": "17.11.6",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-09-18T00:09:48+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_18.11.2.bb",
-            "filepath": "recipes-extended/dpdk",
-            "homepage": "http://dpdk.org",
-            "id": 951529,
-            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
-            "layerbranch": 168977,
-            "license": "BSD-3-Clause & LGPLv2.1 & GPLv2",
-            "pn": "dpdk",
-            "provides": "dpdk ",
-            "pv": "18.11.2",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-09-18T00:09:48+0000"
+            "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
+            "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+            "filename": "openssl_1.0.2s.bb",
+            "filepath": "recipes-connectivity/openssl",
+            "homepage": "http://www.openssl.org/",
+            "id": 983054,
+            "inherits": "lib_package manpages multilib_header pkgconfig ptest qemu siteinfo",
+            "layerbranch": 845702,
+            "license": "openssl",
+            "pn": "openssl",
+            "provides": "openssl ",
+            "pv": "1.0.2s",
+            "section": "libs/network",
+            "summary": "Secure Socket Layer",
+            "updated": "2019-09-15T23:09:45+0000"
         }
     ],
-    "wrtemplates": []
+    "wrtemplates": [
+        {
+            "description": "Enable OpenSSL 1.0.2 as the system OpenSSL version.",
+            "id": 53214,
+            "layerbranch": 845702,
+            "name": "feature/openssl102",
+            "updated": "2019-09-15T23:09:45+0000"
+        }
+    ]
 }

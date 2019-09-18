@@ -1,0 +1,280 @@
+{
+    "CFG": {
+        "BRANCH": "master-wr",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.19-20190911",
+            "comparison": false,
+            "id": 38,
+            "name": "master-wr",
+            "short_description": "Wind River Linux Development",
+            "sort_priority": 1,
+            "update_environment": null,
+            "updated": "2019-09-11T23:09:32+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 38,
+            "collection": "wr-template",
+            "id": 15008,
+            "layer": 55,
+            "updated": "2019-06-02T20:06:16+0000",
+            "vcs_last_commit": "2019-06-02T20:06:16+0000",
+            "vcs_last_fetch": "2019-06-02T20:06:16+0000",
+            "vcs_last_rev": "4f4e06413262e09e9eadbad427860218485bb3c3",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 11
+        },
+        {
+            "actual_branch": "",
+            "branch": 38,
+            "collection": "meta-openssl-one-zero-two",
+            "id": 845702,
+            "layer": 300,
+            "updated": "2019-09-15T22:09:10+0000",
+            "vcs_last_commit": "2019-09-15T22:09:10+0000",
+            "vcs_last_fetch": "2019-09-15T22:09:10+0000",
+            "vcs_last_rev": "cb8f6c3097dd95a1ffb1dad8ec82772d65343e35",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 11
+        },
+        {
+            "actual_branch": "",
+            "branch": 38,
+            "collection": "meta-openssl-one-zero-two-fips",
+            "id": 845704,
+            "layer": 301,
+            "updated": "2019-09-17T08:09:12+0000",
+            "vcs_last_commit": "2019-09-17T08:09:12+0000",
+            "vcs_last_fetch": "2019-09-17T08:09:12+0000",
+            "vcs_last_rev": "bc8bded7c1af0ae0f4379deb2ce5986f584430a9",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 11
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 300,
+            "id": 52731,
+            "layerbranch": 845704,
+            "required": true
+        },
+        {
+            "dependency": 55,
+            "id": 52732,
+            "layerbranch": 845704,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
+            "id": 55,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-template",
+            "status": "P",
+            "summary": "Wind River Template Support",
+            "updated": "2018-05-30T22:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the older OpenSSL 1.0.2.  This alternative version  can be used as the default OpenSSL if the older version is required for  some reason.\r\n\r\nThis alternative version is derived from openembedded-core prior to it's removal.",
+            "id": 300,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-openssl102",
+            "status": "P",
+            "summary": "Provides OpenSSL 1.0.2 and support infrastructure",
+            "updated": "2019-06-26T10:06:42+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-openssl102",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-openssl102.git/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides a reference implementation of OpenSSL with the OpenSSL\r\nFIPS Object Module.  The user is responsible for precompiling the necessary\r\nopenssl-fips binary objects using the steps described in the \r\nrecipes-connectivity/openssl/openssl-fips/README file.\r\n\r\nThe items must be constructed according to the requirements of the security\r\npolicy and associated user guide.  See:\r\n\r\n    https://www.openssl.org/docs/fips/SecurityPolicy-2.0.16.pdf\r\n    https://www.openssl.org/docs/fips/UserGuide-2.0.pdf",
+            "id": 301,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-openssl102-fips",
+            "status": "P",
+            "summary": "Provides OpenSSL FIPS Object Module enhancements to OpenSSL 1.0.2",
+            "updated": "2019-06-27T10:06:45+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-openssl102-fips",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-openssl102-fips.git/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
+            "description": "OpenSSL FIPS Object Module v2.0",
+            "filename": "openssl-fips_2.0.16.bb",
+            "filepath": "recipes-connectivity/openssl",
+            "homepage": "http://www.openssl.org",
+            "id": 983070,
+            "inherits": "",
+            "layerbranch": 845704,
+            "license": "openssl",
+            "pn": "openssl-fips",
+            "provides": "openssl-fips ",
+            "pv": "2.0.16",
+            "section": "libs/network",
+            "summary": "OpenSSL FIPS Object Module v2.0",
+            "updated": "2019-09-15T22:09:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Integrate Appendix C Example OpenSSL Based Application in https://www.openssl.org/docs/fips/UserGuide-2.0.pdf",
+            "filename": "openssl-fips-example_2.0.16.bb",
+            "filepath": "recipes-connectivity/openssl",
+            "homepage": "http://www.openssl.org",
+            "id": 1027891,
+            "inherits": "",
+            "layerbranch": 845704,
+            "license": "openssl",
+            "pn": "openssl-fips-example",
+            "provides": "openssl-fips-example ",
+            "pv": "2.0.16",
+            "section": "libs/network",
+            "summary": "OpenSSL FIPS Object Module v2.0 Example",
+            "updated": "2019-09-15T22:09:51+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 47419,
+            "layerbranch": 845704,
+            "name": "feature/openssl-fips",
+            "updated": "2019-09-15T22:09:50+0000"
+        }
+    ]
+}
