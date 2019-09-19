@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190911",
+            "bitbake_branch": "wr-10.19-20190918",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-11T23:09:32+0000",
+            "updated": "2019-09-18T19:09:28+0000",
             "updates_enabled": true
         }
     ],
@@ -123,15 +123,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190918",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-16T20:09:00+0000",
-            "vcs_last_commit": "2019-09-16T20:09:00+0000",
-            "vcs_last_fetch": "2019-09-16T20:09:00+0000",
-            "vcs_last_rev": "efedfcfe8fd50895ab1d4610e4a37c753d905c21",
+            "updated": "2019-09-19T01:09:09+0000",
+            "vcs_last_commit": "2019-09-19T01:09:09+0000",
+            "vcs_last_fetch": "2019-09-19T01:09:09+0000",
+            "vcs_last_rev": "a683bcfde8970203ec491f1a9b705013ccdea555",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -1642,7 +1642,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "",
-            "filename": "font-util_1.3.1.bb",
+            "filename": "font-util_1.3.2.bb",
             "filepath": "recipes-graphics/xorg-font",
             "homepage": "http://www.x.org",
             "id": 973002,
@@ -1651,10 +1651,10 @@
             "license": "BSD & MIT",
             "pn": "font-util",
             "provides": "font-util ",
-            "pv": "1.3.1",
+            "pv": "1.3.2",
             "section": "x11/fonts",
             "summary": "X.Org font package creation/installation utilities",
-            "updated": "2019-09-08T19:09:12+0000"
+            "updated": "2019-09-18T19:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2243,7 +2243,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2019-09-11T02:09:00+0000"
+            "updated": "2019-09-18T19:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2262,7 +2262,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2019-09-11T02:09:00+0000"
+            "updated": "2019-09-18T19:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2281,7 +2281,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:00+0000"
+            "updated": "2019-09-18T19:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2763,7 +2763,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
-            "filename": "mesa_19.1.1.bb",
+            "filename": "mesa_19.1.6.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
             "id": 973063,
@@ -2772,17 +2772,17 @@
             "license": "MIT",
             "pn": "mesa",
             "provides": "mesa                          virtual/mesa     ",
-            "pv": "19.1.1",
+            "pv": "19.1.6",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2019-09-08T19:09:28+0000"
+            "updated": "2019-09-18T19:09:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
-            "filename": "mesa-gl_19.1.1.bb",
+            "filename": "mesa-gl_19.1.6.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
             "id": 973064,
@@ -2791,10 +2791,10 @@
             "license": "MIT",
             "pn": "mesa-gl",
             "provides": "mesa-gl virtual/libgl virtual/mesa",
-            "pv": "19.1.1",
+            "pv": "19.1.6",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2019-09-08T19:09:30+0000"
+            "updated": "2019-09-18T19:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2813,7 +2813,7 @@
             "pv": "1.22.4",
             "section": "base",
             "summary": "Modern 3D graphics API with associated utility APIs",
-            "updated": "2019-09-08T19:09:28+0000"
+            "updated": "2019-09-18T19:09:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3067,7 +3067,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "iw is a new nl80211 based CLI configuration utility for wireless devices. It supports almost all new drivers that have been added to the kernel recently. ",
-            "filename": "iw_5.0.1.bb",
+            "filename": "iw_5.3.bb",
             "filepath": "recipes-connectivity/iw",
             "homepage": "http://wireless.kernel.org/en/users/Documentation/iw",
             "id": 973079,
@@ -3076,10 +3076,10 @@
             "license": "BSD-2-Clause",
             "pn": "iw",
             "provides": "iw ",
-            "pv": "5.0.1",
+            "pv": "5.3",
             "section": "base",
             "summary": "nl80211 based CLI configuration utility for wireless devices",
-            "updated": "2019-08-26T20:08:24+0000"
+            "updated": "2019-09-18T19:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -3276,7 +3276,7 @@
             "blacklisted": "",
             "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
             "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
-            "filename": "openssl_1.1.1c.bb",
+            "filename": "openssl_1.1.1d.bb",
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 973090,
@@ -3285,10 +3285,10 @@
             "license": "openssl",
             "pn": "openssl",
             "provides": "openssl ",
-            "pv": "1.1.1c",
+            "pv": "1.1.1d",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2019-07-24T19:07:40+0000"
+            "updated": "2019-09-18T19:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -3383,7 +3383,7 @@
             "pv": "2.10.10",
             "section": "devel",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2019-07-16T19:07:45+0000"
+            "updated": "2019-09-18T19:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3440,7 +3440,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2019-09-08T19:09:39+0000"
+            "updated": "2019-09-18T19:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -4454,7 +4454,7 @@
             "blacklisted": "",
             "bugtracker": "http://curl.haxx.se/mail/list.cgi?list=curl-tracker",
             "description": "",
-            "filename": "curl_7.65.3.bb",
+            "filename": "curl_7.66.0.bb",
             "filepath": "recipes-support/curl",
             "homepage": "http://curl.haxx.se/",
             "id": 973155,
@@ -4463,10 +4463,10 @@
             "license": "MIT",
             "pn": "curl",
             "provides": "curl ",
-            "pv": "7.65.3",
+            "pv": "7.66.0",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2019-09-08T19:09:00+0000"
+            "updated": "2019-09-18T19:09:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4751,7 +4751,7 @@
             "pv": "4.14",
             "section": "base",
             "summary": "Library for ASN.1 and DER manipulation",
-            "updated": "2019-09-08T19:09:06+0000"
+            "updated": "2019-09-18T19:09:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5720,7 +5720,7 @@
             "pv": "1.16.0",
             "section": "multimedia",
             "summary": "Libav-based GStreamer 1.x plugin",
-            "updated": "2019-09-08T19:09:29+0000"
+            "updated": "2019-09-18T19:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -6271,7 +6271,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-11T02:09:58+0000"
+            "updated": "2019-09-18T19:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6290,7 +6290,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-11T02:09:58+0000"
+            "updated": "2019-09-18T19:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6776,7 +6776,7 @@
             "filepath": "recipes-extended/iptables",
             "homepage": "http://www.netfilter.org/",
             "id": 973278,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 14953,
             "license": "GPLv2+",
             "pn": "iptables",
@@ -6784,7 +6784,7 @@
             "pv": "1.8.3",
             "section": "base",
             "summary": "Tools for managing kernel packet filtering capabilities",
-            "updated": "2019-09-08T19:09:49+0000"
+            "updated": "2019-09-18T19:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -7180,10 +7180,10 @@
             "license": "PD & BSD & BSD-3-Clause",
             "pn": "tzcode-native",
             "provides": "tzcode-native ",
-            "pv": "2019b",
+            "pv": "2019c",
             "section": "base",
             "summary": "tzcode, timezone zoneinfo utils -- zic, zdump, tzselect",
-            "updated": "2019-07-24T19:07:36+0000"
+            "updated": "2019-09-18T19:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -7199,10 +7199,10 @@
             "license": "PD & BSD & BSD-3-Clause",
             "pn": "tzdata",
             "provides": "tzdata ",
-            "pv": "2019b",
+            "pv": "2019c",
             "section": "base",
             "summary": "Timezone data",
-            "updated": "2019-07-24T19:07:36+0000"
+            "updated": "2019-09-18T19:09:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -7354,7 +7354,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-11T02:09:54+0000"
+            "updated": "2019-09-18T19:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -7373,7 +7373,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:54+0000"
+            "updated": "2019-09-18T19:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -7392,7 +7392,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:55+0000"
+            "updated": "2019-09-18T19:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -7411,7 +7411,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:55+0000"
+            "updated": "2019-09-18T19:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -7753,7 +7753,7 @@
             "pv": "4.6.2",
             "section": "console/utils",
             "summary": "Multiplexing terminal manager",
-            "updated": "2019-09-08T19:09:02+0000"
+            "updated": "2019-09-18T19:09:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -7981,7 +7981,7 @@
             "pv": "9.27",
             "section": "console/utils",
             "summary": "The GPL Ghostscript PostScript/PDF interpreter",
-            "updated": "2019-09-08T19:09:04+0000"
+            "updated": "2019-09-18T19:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -8253,10 +8253,10 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "This module allows ethernet emulation over USB, allowing for all sorts of nifty things like SSH and NFS in one go plus charging over the same wire, at higher speeds than most Wifi connections.",
             "filename": "usbinit.bb",
             "filepath": "recipes-bsp/usbinit",
-            "homepage": "",
+            "homepage": "http://linux-sunxi.org/USB_Gadget/Ethernet",
             "id": 973364,
             "inherits": "allarch update-rc.d",
             "layerbranch": 14953,
@@ -8266,7 +8266,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initscript for enabling USB gadget Ethernet",
-            "updated": "2019-06-25T00:06:22+0000"
+            "updated": "2019-09-18T19:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -8367,10 +8367,10 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Grub might require different configuration file for different machines.",
             "filename": "grub-bootconf_1.00.bb",
             "filepath": "recipes-bsp/grub",
-            "homepage": "",
+            "homepage": "https://www.gnu.org/software/grub/manual/grub/grub.html#Configuration",
             "id": 973370,
             "inherits": "fs-uuid grub-efi-cfg",
             "layerbranch": 14953,
@@ -8380,7 +8380,7 @@
             "pv": "1.00",
             "section": "base",
             "summary": "Basic grub.cfg for use in EFI systems",
-            "updated": "2019-06-17T20:06:33+0000"
+            "updated": "2019-09-18T19:09:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -8443,7 +8443,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
             "filename": "u-boot_2019.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
@@ -8456,13 +8456,13 @@
             "pv": "2019.07",
             "section": "bootloaders",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-08-19T20:08:53+0000"
+            "updated": "2019-09-18T19:09:21+0000"
         },
         {
             "bbclassextend": "cross",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
             "filename": "u-boot-fw-utils_2019.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
@@ -8475,13 +8475,13 @@
             "pv": "2019.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2019-07-15T19:07:52+0000"
+            "updated": "2019-09-18T19:09:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
             "filename": "u-boot-tools_2019.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
@@ -8494,7 +8494,7 @@
             "pv": "2019.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader tools",
-            "updated": "2019-07-15T19:07:52+0000"
+            "updated": "2019-09-18T19:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -8519,7 +8519,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "A formfactor configuration file provides information about the target hardware for which the image is being built and information that the build system cannot obtain from other sources such as the kernel.",
             "filename": "formfactor_0.0.bb",
             "filepath": "recipes-bsp/formfactor",
             "homepage": "",
@@ -8532,7 +8532,7 @@
             "pv": "0.0",
             "section": "base",
             "summary": "Device formfactor information",
-            "updated": "2019-06-17T20:06:35+0000"
+            "updated": "2019-09-18T19:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -8557,7 +8557,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceforge.net/p/acpid2/tickets/?source=navbar",
-            "description": "",
+            "description": "ACPID is a completely flexible, totally extensible daemon for delivering ACPI events. It listens on netlink interface (or on the deprecated file /proc/acpi/event), and when an event occurs, executes programs to handle the event. The programs it executes are configured through a set of configuration files, which can be dropped into place by packages or by the admin.",
             "filename": "acpid_2.0.32.bb",
             "filepath": "recipes-bsp/acpid",
             "homepage": "http://sourceforge.net/projects/acpid2",
@@ -8570,7 +8570,7 @@
             "pv": "2.0.32",
             "section": "base",
             "summary": "A daemon for delivering ACPI events",
-            "updated": "2019-09-08T19:09:13+0000"
+            "updated": "2019-09-18T19:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -8703,7 +8703,7 @@
             "pv": "9.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2019-09-08T19:09:15+0000"
+            "updated": "2019-09-18T19:09:28+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -8741,7 +8741,7 @@
             "pv": "9.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2019-09-08T19:09:17+0000"
+            "updated": "2019-09-18T19:09:29+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9235,7 +9235,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Generates Icecream toolchain for SDK",
-            "updated": "2019-06-17T20:06:53+0000"
+            "updated": "2019-09-18T19:09:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9261,7 +9261,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.",
-            "filename": "btrfs-tools_5.2.1.bb",
+            "filename": "btrfs-tools_5.2.2.bb",
             "filepath": "recipes-devtools/btrfs-tools",
             "homepage": "https://btrfs.wiki.kernel.org",
             "id": 973427,
@@ -9270,10 +9270,10 @@
             "license": "GPLv2",
             "pn": "btrfs-tools",
             "provides": "btrfs-tools ",
-            "pv": "5.2.1",
+            "pv": "5.2.2",
             "section": "base",
             "summary": "Checksumming Copy on Write Filesystem utilities",
-            "updated": "2019-09-08T19:09:28+0000"
+            "updated": "2019-09-18T19:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9425,7 +9425,7 @@
             "pv": "2.7.16",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2019-09-08T19:09:32+0000"
+            "updated": "2019-09-19T01:09:07+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -9634,7 +9634,7 @@
             "pv": "3.7.4",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2019-09-08T19:09:26+0000"
+            "updated": "2019-09-19T01:09:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9774,7 +9774,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pygobject_3.32.2.bb",
+            "filename": "python3-pygobject_3.34.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 973457,
@@ -9783,10 +9783,10 @@
             "license": "LGPLv2.1",
             "pn": "python3-pygobject",
             "provides": "python3-pygobject ",
-            "pv": "3.32.2",
+            "pv": "3.34.0",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2019-09-08T19:09:39+0000"
+            "updated": "2019-09-18T19:09:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -10546,7 +10546,7 @@
             "pv": "0.51.2",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2019-09-08T19:09:13+0000"
+            "updated": "2019-09-18T19:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -10565,7 +10565,7 @@
             "pv": "3.15.0",
             "section": "base",
             "summary": "Valgrind memory debugger and instrumentation framework",
-            "updated": "2019-09-08T19:09:52+0000"
+            "updated": "2019-09-18T19:09:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10888,7 +10888,7 @@
             "pv": "4.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-09-08T19:09:53+0000"
+            "updated": "2019-09-18T19:09:28+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10926,7 +10926,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Qemu helper scripts",
-            "updated": "2019-06-17T20:06:28+0000"
+            "updated": "2019-09-18T19:09:29+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10945,7 +10945,7 @@
             "pv": "4.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-09-08T19:09:54+0000"
+            "updated": "2019-09-18T19:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -10964,7 +10964,7 @@
             "pv": "4.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-09-08T19:09:55+0000"
+            "updated": "2019-09-18T19:09:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10990,7 +10990,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "elfutils_0.176.bb",
+            "filename": "elfutils_0.177.bb",
             "filepath": "recipes-devtools/elfutils",
             "homepage": "https://sourceware.org/elfutils",
             "id": 973523,
@@ -10999,10 +10999,10 @@
             "license": "GPLv2 & LGPLv3+ & GPLv3+",
             "pn": "elfutils",
             "provides": "elfutils ",
-            "pv": "0.176",
+            "pv": "0.177",
             "section": "base",
             "summary": "Utilities and libraries for handling compiled object files",
-            "updated": "2019-09-08T19:09:56+0000"
+            "updated": "2019-09-18T19:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -11021,7 +11021,7 @@
             "pv": "2.4.6",
             "section": "devel",
             "summary": "Generic library support script",
-            "updated": "2019-09-08T19:09:57+0000"
+            "updated": "2019-09-18T19:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -11154,7 +11154,7 @@
             "pv": "8.3",
             "section": "devel",
             "summary": "GNU debugger",
-            "updated": "2019-09-08T19:09:00+0000"
+            "updated": "2019-09-18T19:09:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11553,7 +11553,7 @@
             "pv": "5.2",
             "section": "console/utils",
             "summary": "System call tracing tool",
-            "updated": "2019-09-08T19:09:03+0000"
+            "updated": "2019-09-18T19:09:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -12009,7 +12009,7 @@
             "pv": "2.30",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-09-08T19:09:12+0000"
+            "updated": "2019-09-18T19:09:22+0000"
         },
         {
             "bbclassextend": "",
@@ -12149,7 +12149,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "systemd is a system and service manager for Linux, compatible with SysV and LSB init scripts. systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux cgroups, supports snapshotting and restoring of the system state, maintains mount and automount points and implements an elaborate transactional dependency-based service control logic. It can work as a drop-in replacement for sysvinit.",
-            "filename": "systemd_242.bb",
+            "filename": "systemd_243.bb",
             "filepath": "recipes-core/systemd",
             "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
             "id": 973586,
@@ -12158,10 +12158,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "systemd",
             "provides": "systemd udev",
-            "pv": "242+X",
+            "pv": "243+X",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2019-09-10T01:09:14+0000"
+            "updated": "2019-09-18T19:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -12187,7 +12187,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "systemd is a system and service manager for Linux, compatible with SysV and LSB init scripts. systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux cgroups, supports snapshotting and restoring of the system state, maintains mount and automount points and implements an elaborate transactional dependency-based service control logic. It can work as a drop-in replacement for sysvinit.",
-            "filename": "systemd-boot_242.bb",
+            "filename": "systemd-boot_243.bb",
             "filepath": "recipes-core/systemd",
             "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
             "id": 973588,
@@ -12196,17 +12196,17 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "systemd-boot",
             "provides": "systemd-boot ",
-            "pv": "242+X",
+            "pv": "243+X",
             "section": "base",
             "summary": "A System and service manager",
-            "updated": "2019-09-08T19:09:13+0000"
+            "updated": "2019-09-18T19:09:01+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Systemd may require slightly different configuration for different machines.  For example, qemu machines require a longer DefaultTimeoutStartSec setting.",
-            "filename": "systemd-conf_242.bb",
+            "filename": "systemd-conf_243.bb",
             "filepath": "recipes-core/systemd",
             "homepage": "",
             "id": 973589,
@@ -12215,10 +12215,10 @@
             "license": "MIT",
             "pn": "systemd-conf",
             "provides": "systemd-conf ",
-            "pv": "242",
+            "pv": "243",
             "section": "base",
             "summary": "Systemd system configuration",
-            "updated": "2019-06-18T20:06:41+0000"
+            "updated": "2019-09-18T19:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -12446,7 +12446,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:57+0000"
+            "updated": "2019-09-18T19:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -12579,7 +12579,7 @@
             "pv": "1.1.23+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2019-09-08T19:09:21+0000"
+            "updated": "2019-09-18T19:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -12655,7 +12655,7 @@
             "pv": "1.31.0",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2019-08-26T20:08:58+0000"
+            "updated": "2019-09-18T19:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -12674,7 +12674,7 @@
             "pv": "1.31.0",
             "section": "base",
             "summary": "inittab configuration for BusyBox",
-            "updated": "2019-07-09T22:07:31+0000"
+            "updated": "2019-09-18T19:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -12997,7 +12997,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-11T02:09:57+0000"
+            "updated": "2019-09-18T19:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -13016,7 +13016,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:57+0000"
+            "updated": "2019-09-18T19:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -13035,7 +13035,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-11T02:09:58+0000"
+            "updated": "2019-09-18T19:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -13054,7 +13054,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2019-09-11T02:09:58+0000"
+            "updated": "2019-09-18T19:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -13073,7 +13073,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2019-09-11T02:09:59+0000"
+            "updated": "2019-09-18T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -13092,7 +13092,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:59+0000"
+            "updated": "2019-09-18T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -13111,7 +13111,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-09-11T02:09:59+0000"
+            "updated": "2019-09-18T19:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13244,7 +13244,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Host packages for the standalone SDK or external toolchain",
-            "updated": "2019-06-17T20:06:05+0000"
+            "updated": "2019-09-18T19:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13650,7 +13650,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
-            "filename": "expat_2.2.7.bb",
+            "filename": "expat_2.2.8.bb",
             "filepath": "recipes-core/expat",
             "homepage": "http://expat.sourceforge.net/",
             "id": 973665,
@@ -13659,10 +13659,10 @@
             "license": "MIT",
             "pn": "expat",
             "provides": "expat ",
-            "pv": "2.2.7",
+            "pv": "2.2.8",
             "section": "libs",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2019-09-08T19:09:22+0000"
+            "updated": "2019-09-18T19:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -13795,7 +13795,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2019-09-11T02:09:59+0000"
+            "updated": "2019-09-18T19:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -13814,7 +13814,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "libc and patchelf tarball for use with uninative.bbclass",
-            "updated": "2019-09-11T02:09:59+0000"
+            "updated": "2019-09-18T19:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -13852,7 +13852,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2019-06-17T20:06:12+0000"
+            "updated": "2019-09-18T19:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -13890,7 +13890,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2019-09-11T02:09:01+0000"
+            "updated": "2019-09-18T19:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -13947,7 +13947,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Standalone tarball for test systems with missing software",
-            "updated": "2019-09-11T02:09:01+0000"
+            "updated": "2019-09-18T19:09:32+0000"
         },
         {
             "bbclassextend": "",
@@ -13966,7 +13966,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package for building a installable Go toolchain",
-            "updated": "2019-09-11T02:09:01+0000"
+            "updated": "2019-09-18T19:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -13985,7 +13985,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2019-06-17T20:06:13+0000"
+            "updated": "2019-09-18T19:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -14270,7 +14270,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:55+0000"
+            "updated": "2019-09-18T19:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14289,7 +14289,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:56+0000"
+            "updated": "2019-09-18T19:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -14308,7 +14308,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:56+0000"
+            "updated": "2019-09-18T19:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14327,7 +14327,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:56+0000"
+            "updated": "2019-09-18T19:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -14346,7 +14346,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-11T02:09:57+0000"
+            "updated": "2019-09-18T19:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -14707,7 +14707,7 @@
             "pv": "2.10.10+gitX",
             "section": "devel",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2019-07-16T19:07:45+0000"
+            "updated": "2019-09-18T19:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14859,7 +14859,7 @@
             "pv": "2.30",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-09-08T19:09:30+0000"
+            "updated": "2019-09-18T19:09:10+0000"
         },
         {
             "bbclassextend": "",
