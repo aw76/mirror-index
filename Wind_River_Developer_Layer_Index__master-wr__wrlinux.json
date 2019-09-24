@@ -101,29 +101,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190918",
+            "bitbake_branch": "wr-10.19-20190923",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-18T19:09:28+0000",
+            "updated": "2019-09-23T23:09:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190918",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-23T02:09:15+0000",
-            "vcs_last_commit": "2019-09-23T02:09:15+0000",
-            "vcs_last_fetch": "2019-09-23T02:09:15+0000",
-            "vcs_last_rev": "c10e1c212de365e2b9c1b66f000efc491e240ea3",
+            "updated": "2019-09-23T23:09:10+0000",
+            "vcs_last_commit": "2019-09-23T23:09:10+0000",
+            "vcs_last_fetch": "2019-09-23T23:09:10+0000",
+            "vcs_last_rev": "35456d538d0138daab9f5346bd852eb9ad84a348",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -148,10 +148,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-09-23T00:09:02+0000",
-            "vcs_last_commit": "2019-09-23T00:09:02+0000",
-            "vcs_last_fetch": "2019-09-23T00:09:02+0000",
-            "vcs_last_rev": "8c3f280d53d844608e085598eea3b811845e100f",
+            "updated": "2019-09-24T01:09:42+0000",
+            "vcs_last_commit": "2019-09-24T01:09:42+0000",
+            "vcs_last_fetch": "2019-09-24T01:09:42+0000",
+            "vcs_last_rev": "894fdf64c50d962b6830a28473da004cacdba536",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -320,7 +320,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2019-09-23T00:09:54+0000"
+            "updated": "2019-09-23T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -339,7 +339,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2019-09-23T00:09:54+0000"
+            "updated": "2019-09-23T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -358,7 +358,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2019-09-23T00:09:55+0000"
+            "updated": "2019-09-23T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -377,7 +377,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2019-09-23T00:09:55+0000"
+            "updated": "2019-09-23T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -396,7 +396,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2019-09-23T00:09:55+0000"
+            "updated": "2019-09-23T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -415,7 +415,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2019-09-23T00:09:55+0000"
+            "updated": "2019-09-23T23:09:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -434,7 +434,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2019-09-23T00:09:49+0000"
+            "updated": "2019-09-23T23:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -453,7 +453,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-23T00:09:50+0000"
+            "updated": "2019-09-23T23:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -472,7 +472,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-23T00:09:50+0000"
+            "updated": "2019-09-23T23:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -491,7 +491,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-23T00:09:50+0000"
+            "updated": "2019-09-23T23:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -510,7 +510,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-23T00:09:50+0000"
+            "updated": "2019-09-23T23:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -529,7 +529,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2019-09-23T00:09:51+0000"
+            "updated": "2019-09-23T23:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -548,7 +548,7 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-09-23T00:09:52+0000"
+            "updated": "2019-09-23T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -605,7 +605,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-23T00:09:54+0000"
+            "updated": "2019-09-23T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -624,7 +624,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-23T00:09:54+0000"
+            "updated": "2019-09-23T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -662,7 +662,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-23T00:09:53+0000"
+            "updated": "2019-09-23T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -681,7 +681,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Application container for ${WR_APP_CONTAINER_APP}",
-            "updated": "2019-09-23T00:09:53+0000"
+            "updated": "2019-09-23T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -700,7 +700,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
-            "updated": "2019-09-23T00:09:54+0000"
+            "updated": "2019-09-23T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -719,7 +719,7 @@
             "pv": "1.0",
             "section": "System Environment/Base",
             "summary": "Mobile IPv6 and NEMO for Linux",
-            "updated": "2019-09-23T00:09:52+0000"
+            "updated": "2019-09-23T23:09:43+0000"
         }
     ],
     "wrtemplates": [
@@ -822,11 +822,11 @@
             "updated": "2019-06-27T01:06:52+0000"
         },
         {
-            "description": "",
+            "description": "Makes all qa issues as errors",
             "id": 28494,
             "layerbranch": 15009,
             "name": "feature/strict-qa",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2019-09-24T01:09:47+0000"
         },
         {
             "description": "Add sftp-server to the image",

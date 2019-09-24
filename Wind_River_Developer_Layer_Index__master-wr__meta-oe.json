@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190918",
+            "bitbake_branch": "wr-10.19-20190923",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-18T19:09:28+0000",
+            "updated": "2019-09-23T23:09:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190918",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-23T02:09:15+0000",
-            "vcs_last_commit": "2019-09-23T02:09:15+0000",
-            "vcs_last_fetch": "2019-09-23T02:09:15+0000",
-            "vcs_last_rev": "c10e1c212de365e2b9c1b66f000efc491e240ea3",
+            "updated": "2019-09-23T23:09:10+0000",
+            "vcs_last_commit": "2019-09-23T23:09:10+0000",
+            "vcs_last_fetch": "2019-09-23T23:09:10+0000",
+            "vcs_last_rev": "35456d538d0138daab9f5346bd852eb9ad84a348",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-15T19:09:34+0000",
-            "vcs_last_commit": "2019-09-15T19:09:34+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:34+0000",
-            "vcs_last_rev": "9310818b2acff3e47870459559a942bb4ca9cc55",
+            "updated": "2019-09-23T05:09:23+0000",
+            "vcs_last_commit": "2019-09-23T05:09:23+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:23+0000",
+            "vcs_last_rev": "32b535f6d8850643bd23f8e1a19ec0286327a085",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -1646,7 +1646,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "Open-source X.org graphics driver for NVIDIA graphics",
-            "filename": "xf86-video-nouveau_1.0.15.bb",
+            "filename": "xf86-video-nouveau_1.0.16.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
             "id": 973785,
@@ -1655,10 +1655,10 @@
             "license": "MIT-X",
             "pn": "xf86-video-nouveau",
             "provides": "xf86-video-nouveau ",
-            "pv": "1.0.15",
+            "pv": "1.0.16",
             "section": "x11/drivers",
             "summary": "X.Org X server -- nouveau video driver",
-            "updated": "2019-06-13T17:06:49+0000"
+            "updated": "2019-09-23T23:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1779,7 +1779,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "babl_0.1.28.bb",
+            "filename": "babl_0.1.62.bb",
             "filepath": "recipes-graphics/babl",
             "homepage": "",
             "id": 973792,
@@ -1788,10 +1788,10 @@
             "license": "LGPL-3.0",
             "pn": "babl",
             "provides": "babl ",
-            "pv": "0.1.28",
+            "pv": "0.1.62",
             "section": "base",
             "summary": "Babl is a dynamic, any to any, pixel format conversion library",
-            "updated": "2019-06-13T17:06:51+0000"
+            "updated": "2019-09-23T23:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1969,7 +1969,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenJPEG library is an open-source JPEG 2000 codec",
-            "filename": "openjpeg_2.3.0.bb",
+            "filename": "openjpeg_2.3.1.bb",
             "filepath": "recipes-graphics/openjpeg",
             "homepage": "http://www.openjpeg.org",
             "id": 973802,
@@ -1978,10 +1978,10 @@
             "license": "BSD",
             "pn": "openjpeg",
             "provides": "openjpeg ",
-            "pv": "2.3.0",
+            "pv": "2.3.1",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:54+0000"
+            "updated": "2019-09-23T23:09:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -2501,19 +2501,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libvdpau_git.bb",
+            "filename": "libvdpau_1.3.bb",
             "filepath": "recipes-graphics/vdpau",
             "homepage": "",
             "id": 973830,
-            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
+            "inherits": "distro_features_check meson python3-dir python3native siteinfo",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "libvdpau",
             "provides": "libvdpau ",
-            "pv": "1.1.1+gitX",
+            "pv": "1.3",
             "section": "base",
             "summary": "Video Decode and Presentation API for UNIX",
-            "updated": "2019-06-13T17:06:03+0000"
+            "updated": "2019-09-23T23:09:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -2539,7 +2539,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wireless daemon for Linux",
-            "filename": "iwd_0.19.bb",
+            "filename": "iwd_0.20.bb",
             "filepath": "recipes-connectivity/iwd",
             "homepage": "",
             "id": 973832,
@@ -2548,10 +2548,10 @@
             "license": "LGPL-2.1",
             "pn": "iwd",
             "provides": "iwd ",
-            "pv": "0.19",
+            "pv": "0.20",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-12T19:08:18+0000"
+            "updated": "2019-09-23T23:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3204,7 +3204,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libwebsockets_3.1.0.bb",
+            "filename": "libwebsockets_3.2.0.bb",
             "filepath": "recipes-connectivity/libwebsockets",
             "homepage": "https://libwebsockets.org/",
             "id": 973867,
@@ -3213,10 +3213,10 @@
             "license": "LGPL-2.1",
             "pn": "libwebsockets",
             "provides": "libwebsockets ",
-            "pv": "3.1.0",
+            "pv": "3.2.0",
             "section": "base",
             "summary": "Canonical libwebsockets.org websocket library",
-            "updated": "2019-09-03T00:09:43+0000"
+            "updated": "2019-09-23T23:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3444,7 +3444,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Kernel selftest for Linux",
-            "updated": "2019-09-11T23:09:10+0000"
+            "updated": "2019-09-23T23:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3546,7 +3546,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The agent-proxy will forward tcp or udp connections as well as allow for script multiplexing of terminal sessions.",
-            "filename": "agent-proxy_git.bb",
+            "filename": "agent-proxy_1.97.bb",
             "filepath": "recipes-kernel/agent-proxy",
             "homepage": "http://kgdb.wiki.kernel.org/",
             "id": 973885,
@@ -3555,10 +3555,10 @@
             "license": "GPLv2",
             "pn": "agent-proxy",
             "provides": "agent-proxy ",
-            "pv": "1.96+gitX",
+            "pv": "1.97",
             "section": "devel",
             "summary": "Proxy for UDP/TCP debug connections",
-            "updated": "2019-06-13T17:06:23+0000"
+            "updated": "2019-09-23T23:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3641,7 +3641,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "GNU Scientific Library",
-            "filename": "gsl_2.5.bb",
+            "filename": "gsl_2.6.bb",
             "filepath": "recipes-support/gsl",
             "homepage": "http://www.gnu.org/software/gsl/",
             "id": 973890,
@@ -3650,10 +3650,10 @@
             "license": "GPLv3",
             "pn": "gsl",
             "provides": "gsl ",
-            "pv": "2.5",
+            "pv": "2.6",
             "section": "libs",
             "summary": "",
-            "updated": "2019-06-17T20:06:53+0000"
+            "updated": "2019-09-23T23:09:21+0000"
         },
         {
             "bbclassextend": " native",
@@ -3774,7 +3774,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "lcms_2.7.bb",
+            "filename": "lcms_2.9.bb",
             "filepath": "recipes-support/lcms",
             "homepage": "",
             "id": 973897,
@@ -3783,17 +3783,17 @@
             "license": "MIT",
             "pn": "lcms",
             "provides": "lcms ",
-            "pv": "2.7",
+            "pv": "2.9",
             "section": "libs",
             "summary": "Little cms is a small-footprint, speed optimized color management engine",
-            "updated": "2019-06-13T17:06:26+0000"
+            "updated": "2019-09-23T23:09:18+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The goal of this project is to provide a tiny library that would facilitate the common operations with sizes in bytes.",
-            "filename": "libbytesize_2.0.bb",
+            "filename": "libbytesize_2.1.bb",
             "filepath": "recipes-support/libbytesize",
             "homepage": "https://github.com/rhinstaller/libbytesize",
             "id": 973898,
@@ -3802,10 +3802,10 @@
             "license": "LGPLv2+",
             "pn": "libbytesize",
             "provides": "libbytesize ",
-            "pv": "2.0",
+            "pv": "2.1",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2019-07-15T19:07:50+0000"
+            "updated": "2019-09-23T23:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -4078,7 +4078,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "UPower is an abstraction for enumerating power devices, listening to device events and querying history and statistics. ",
-            "filename": "upower_0.99.7.bb",
+            "filename": "upower_0.99.11.bb",
             "filepath": "recipes-support/upower",
             "homepage": "",
             "id": 973913,
@@ -4087,10 +4087,10 @@
             "license": "GPLv2+",
             "pn": "upower",
             "provides": "upower ",
-            "pv": "0.99.7",
+            "pv": "0.99.11",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-10T20:07:05+0000"
+            "updated": "2019-09-23T23:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -4629,7 +4629,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used",
-            "filename": "gflags_2.2.0.bb",
+            "filename": "gflags_2.2.2.bb",
             "filepath": "recipes-support/gflags",
             "homepage": "https://github.com/gflags/gflags",
             "id": 973942,
@@ -4638,10 +4638,10 @@
             "license": "BSD-3-Clause",
             "pn": "gflags",
             "provides": "gflags ",
-            "pv": "2.2.0",
+            "pv": "2.2.2",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:40+0000"
+            "updated": "2019-09-23T23:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4857,7 +4857,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A small C library that is supposed to make it easy to run an HTTP server as part of another application",
-            "filename": "libmicrohttpd_0.9.59.bb",
+            "filename": "libmicrohttpd_0.9.66.bb",
             "filepath": "recipes-support/libmicrohttpd",
             "homepage": "http://www.gnu.org/software/libmicrohttpd/",
             "id": 973954,
@@ -4866,10 +4866,10 @@
             "license": "LGPL-2.1+",
             "pn": "libmicrohttpd",
             "provides": "libmicrohttpd ",
-            "pv": "0.9.59",
+            "pv": "0.9.66",
             "section": "net",
             "summary": "",
-            "updated": "2019-08-08T19:08:14+0000"
+            "updated": "2019-09-23T23:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -5503,7 +5503,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Ceres Solver is an open source C++ library for modeling and solving large, complicated optimization problems.",
-            "filename": "ceres-solver_1.14.bb",
+            "filename": "ceres-solver_1.14.0.bb",
             "filepath": "recipes-support/ceres-solver",
             "homepage": "http://ceres-solver.org/",
             "id": 973988,
@@ -5512,10 +5512,10 @@
             "license": "BSD-3-Clause",
             "pn": "ceres-solver",
             "provides": "ceres-solver ",
-            "pv": "1.14",
+            "pv": "1.14.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-16T20:09:07+0000"
+            "updated": "2019-09-23T23:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -5845,7 +5845,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A multilingual user input method library",
-            "filename": "uim_1.8.6.bb",
+            "filename": "uim_1.8.8.bb",
             "filepath": "recipes-support/uim",
             "homepage": "http://uim.freedesktop.org/",
             "id": 974006,
@@ -5854,10 +5854,10 @@
             "license": "BSD-3-Clause & LGPLv2+",
             "pn": "uim",
             "provides": "uim ",
-            "pv": "1.8.6",
+            "pv": "1.8.8",
             "section": "inputmethods",
             "summary": "",
-            "updated": "2019-06-13T17:06:02+0000"
+            "updated": "2019-09-23T23:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -6085,7 +6085,7 @@
             "pv": "0.9",
             "section": "devel",
             "summary": "",
-            "updated": "2019-06-13T17:06:06+0000"
+            "updated": "2019-09-23T23:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6104,7 +6104,7 @@
             "pv": "0.9",
             "section": "devel",
             "summary": "",
-            "updated": "2019-06-13T17:06:06+0000"
+            "updated": "2019-09-23T23:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -6244,7 +6244,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "xrdp_0.9.4.bb",
+            "filename": "xrdp_0.9.11.bb",
             "filepath": "recipes-support/xrdp",
             "homepage": "",
             "id": 974027,
@@ -6253,10 +6253,10 @@
             "license": "Apache-2.0",
             "pn": "xrdp",
             "provides": "xrdp ",
-            "pv": "0.9.4+gitX",
+            "pv": "0.9.11",
             "section": "base",
             "summary": "An open source remote desktop protocol(rdp) server.",
-            "updated": "2019-06-13T17:06:09+0000"
+            "updated": "2019-09-23T23:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7023,7 +7023,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "pcsc-lite_1.8.22.bb",
+            "filename": "pcsc-lite_1.8.25.bb",
             "filepath": "recipes-support/pcsc-lite",
             "homepage": "http://pcsclite.alioth.debian.org/",
             "id": 974069,
@@ -7032,10 +7032,10 @@
             "license": "BSD & GPLv3+",
             "pn": "pcsc-lite",
             "provides": "pcsc-lite ",
-            "pv": "1.8.22",
+            "pv": "1.8.25",
             "section": "base",
             "summary": "PC/SC Lite smart card framework and applications",
-            "updated": "2019-06-13T17:06:21+0000"
+            "updated": "2019-09-23T23:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -7323,7 +7323,7 @@
             "updated": "2019-06-13T17:06:27+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.",
@@ -7339,14 +7339,14 @@
             "pv": "3.3.7",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:27+0000"
+            "updated": "2019-09-23T23:09:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "digitemp_git.bb",
+            "filename": "digitemp_3.7.2.bb",
             "filepath": "recipes-support/digitemp",
             "homepage": "",
             "id": 974086,
@@ -7355,10 +7355,10 @@
             "license": "GPLv2",
             "pn": "digitemp",
             "provides": "digitemp ",
-            "pv": "3.7.1+gitX",
+            "pv": "3.7.2",
             "section": "util",
             "summary": "read temperature sensors in a 1-Wire net",
-            "updated": "2019-06-13T17:06:27+0000"
+            "updated": "2019-09-23T23:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -7954,7 +7954,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "LIVE555 Streaming Media libraries",
-            "filename": "live555_20190306.bb",
+            "filename": "live555_20190828.bb",
             "filepath": "recipes-multimedia/live555",
             "homepage": "http://live.com/",
             "id": 974119,
@@ -7963,17 +7963,17 @@
             "license": "LGPLv3",
             "pn": "live555",
             "provides": "live555 ",
-            "pv": "20190306",
+            "pv": "20190828",
             "section": "devel",
             "summary": "",
-            "updated": "2019-06-13T17:06:36+0000"
+            "updated": "2019-09-23T23:09:21+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://code.google.com/p/webm/issues/list",
             "description": "The BSD-licensed libvpx reference implementation provides en- and decoders for VP8 and VP9 bitstreams.",
-            "filename": "libvpx_1.7.0.bb",
+            "filename": "libvpx_1.8.1.bb",
             "filepath": "recipes-multimedia/webm",
             "homepage": "http://www.webmproject.org/code/",
             "id": 974120,
@@ -7982,10 +7982,10 @@
             "license": "BSD",
             "pn": "libvpx",
             "provides": "libvpx ",
-            "pv": "1.7.0",
+            "pv": "1.8.1",
             "section": "libs/multimedia",
             "summary": "VPX multi-format codec",
-            "updated": "2019-06-13T17:06:37+0000"
+            "updated": "2019-09-23T23:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -8429,7 +8429,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later.",
-            "filename": "catch2_2.7.2.bb",
+            "filename": "catch2_2.9.2.bb",
             "filepath": "recipes-test/catch2",
             "homepage": "https://github.com/catchorg/Catch2",
             "id": 974144,
@@ -8438,10 +8438,10 @@
             "license": "BSL-1.0",
             "pn": "catch2",
             "provides": "catch2 ",
-            "pv": "2.7.2",
+            "pv": "2.9.2",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:46+0000"
+            "updated": "2019-09-23T23:09:21+0000"
         },
         {
             "bbclassextend": "",
@@ -9151,7 +9151,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libblockdev is a C library supporting GObject introspection for manipulation of block devices. It has a plugin-based architecture where each technology (like LVM, Btrfs, MD RAID, Swap,...) is implemented in a separate plugin, possibly with multiple implementations (e.g. using LVM CLI or the new LVM DBus API).",
-            "filename": "libblockdev_2.22.bb",
+            "filename": "libblockdev_2.23.bb",
             "filepath": "recipes-extended/libblockdev",
             "homepage": "http://rhinstaller.github.io/libblockdev/",
             "id": 974185,
@@ -9160,10 +9160,10 @@
             "license": "LGPLv2+",
             "pn": "libblockdev",
             "provides": "libblockdev ",
-            "pv": "2.22",
+            "pv": "2.23",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2019-09-03T00:09:46+0000"
+            "updated": "2019-09-23T23:09:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -9474,7 +9474,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Zlog is a pure C logging library",
-            "filename": "zlog_git.bb",
+            "filename": "zlog_1.2.14.bb",
             "filepath": "recipes-extended/zlog",
             "homepage": "https://github.com/HardySimpson/zlog",
             "id": 974202,
@@ -9483,10 +9483,10 @@
             "license": "LGPLv2.1",
             "pn": "zlog",
             "provides": "zlog ",
-            "pv": "1.2.12+gitX",
+            "pv": "1.2.14",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-13T17:06:04+0000"
+            "updated": "2019-09-23T23:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -9683,7 +9683,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wipe is a little command for securely erasing files from magnetic media. It compiles under various unix platforms, including Linux 2. * , (Open, Net, Free)BSD, aix 4.1, SunOS 5.5.1, Solaris 2.6. wipe is released under the GPL. Pre-compiled packages are available on most Linux distributions. Under Debian, the package name is wipe",
-            "filename": "wipe_git.bb",
+            "filename": "wipe_0.24.bb",
             "filepath": "recipes-extended/wipe",
             "homepage": "http://lambda-diode.com/software/wipe/",
             "id": 974213,
@@ -9692,10 +9692,10 @@
             "license": "GPLv2",
             "pn": "wipe",
             "provides": "wipe ",
-            "pv": "0.23+gitX",
+            "pv": "0.24",
             "section": "base",
             "summary": "A UNIX tool for secure deletion",
-            "updated": "2019-06-13T17:06:07+0000"
+            "updated": "2019-09-23T23:09:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10892,7 +10892,7 @@
             "pv": "3.5.0",
             "section": "base",
             "summary": "Hardware health monitoring applications",
-            "updated": "2019-08-21T19:08:27+0000"
+            "updated": "2019-09-23T23:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -10911,7 +10911,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "lm_sensors configuration files",
-            "updated": "2019-06-13T17:06:28+0000"
+            "updated": "2019-09-23T23:09:14+0000"
         },
         {
             "bbclassextend": "",
@@ -11640,7 +11640,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pygobject_3.32.2.bb",
+            "filename": "python-pygobject_3.34.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.pygtk.org/",
             "id": 974320,
@@ -11649,10 +11649,10 @@
             "license": "LGPLv2.1",
             "pn": "python-pygobject",
             "provides": "python-pygobject ",
-            "pv": "3.32.2",
+            "pv": "3.34.0",
             "section": "devel/python",
             "summary": "Python GObject bindings",
-            "updated": "2019-08-19T20:08:01+0000"
+            "updated": "2019-09-23T23:09:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11697,7 +11697,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-cpuset_1.5.7.bb",
+            "filename": "python-cpuset_1.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 974323,
@@ -11706,10 +11706,10 @@
             "license": "GPLv2",
             "pn": "python-cpuset",
             "provides": "python-cpuset ",
-            "pv": "1.5.7",
+            "pv": "1.6",
             "section": "devel/python",
             "summary": "Cpuset is a Python application to make using the cpusets facilities in the Linux kernel easier",
-            "updated": "2019-06-13T17:06:45+0000"
+            "updated": "2019-09-23T23:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -12855,8 +12855,8 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Crypto and TLS for C++11",
-            "filename": "botan_2.9.0.bb",
+            "description": "",
+            "filename": "botan_2.11.0.bb",
             "filepath": "recipes-crypto/botan",
             "homepage": "https://botan.randombit.net",
             "id": 974386,
@@ -12865,17 +12865,17 @@
             "license": "BSD-2-Clause",
             "pn": "botan",
             "provides": "botan ",
-            "pv": "2.9.0",
+            "pv": "2.11.0",
             "section": "libs",
-            "summary": "",
-            "updated": "2019-06-13T17:06:08+0000"
+            "summary": "Crypto and TLS for C++11",
+            "updated": "2019-09-23T23:09:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Cryptsetup is used to conveniently setup dm-crypt managed device-mapper mappings. These include plain dm-crypt volumes and LUKS volumes. The difference is that LUKS uses a metadata header and can hence offer more features than plain dm-crypt. On the other hand, the header is visible and vulnerable to damage.",
-            "filename": "cryptsetup_2.2.0.bb",
+            "filename": "cryptsetup_2.2.1.bb",
             "filepath": "recipes-crypto/cryptsetup",
             "homepage": "https://gitlab.com/cryptsetup/cryptsetup",
             "id": 974387,
@@ -12884,10 +12884,10 @@
             "license": "GPL-2.0-with-OpenSSL-exception",
             "pn": "cryptsetup",
             "provides": "cryptsetup ",
-            "pv": "2.2.0",
+            "pv": "2.2.1",
             "section": "console",
             "summary": "Manage plain dm-crypt and LUKS encrypted volumes",
-            "updated": "2019-09-01T19:09:10+0000"
+            "updated": "2019-09-23T23:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -13388,7 +13388,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pytoml_0.1.20.bb",
+            "filename": "python-pytoml_0.1.21.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pytoml/",
             "id": 982993,
@@ -13397,10 +13397,10 @@
             "license": "MIT",
             "pn": "python-pytoml",
             "provides": "python-pytoml ",
-            "pv": "0.1.20",
+            "pv": "0.1.21",
             "section": "devel/python",
             "summary": "A TOML-0.4.0 parser/writer for Python",
-            "updated": "2019-06-17T20:06:52+0000"
+            "updated": "2019-09-23T23:09:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13895,6 +13895,25 @@
             "section": "base",
             "summary": "Yet Another Dialog",
             "updated": "2019-09-16T20:09:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "dhex_0.69.bb",
+            "filepath": "recipes-support/dhex",
+            "homepage": "",
+            "id": 1028017,
+            "inherits": "",
+            "layerbranch": 14965,
+            "license": "GPLv2+",
+            "pn": "dhex",
+            "provides": "dhex ",
+            "pv": "0.69",
+            "section": "console/utils",
+            "summary": "dhex is a hex editor that includes a diff mode",
+            "updated": "2019-09-23T23:09:21+0000"
         }
     ],
     "wrtemplates": []

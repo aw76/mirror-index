@@ -101,141 +101,141 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190918",
+            "bitbake_branch": "wr-10.19-20190923",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-18T19:09:28+0000",
+            "updated": "2019-09-23T23:09:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190918",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "virtualization-layer",
             "id": 14952,
             "layer": 45,
-            "updated": "2019-09-18T19:09:24+0000",
-            "vcs_last_commit": "2019-09-18T19:09:24+0000",
-            "vcs_last_fetch": "2019-09-18T19:09:24+0000",
-            "vcs_last_rev": "2f40d4ec06c77aad1cadc9d12c4eb62e0e506b9d",
+            "updated": "2019-09-23T05:09:27+0000",
+            "vcs_last_commit": "2019-09-23T05:09:27+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:27+0000",
+            "vcs_last_rev": "6dddcc96ed1d9fcffa169d34e2b48a9804bf570e",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190918",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-23T02:09:15+0000",
-            "vcs_last_commit": "2019-09-23T02:09:15+0000",
-            "vcs_last_fetch": "2019-09-23T02:09:15+0000",
-            "vcs_last_rev": "c10e1c212de365e2b9c1b66f000efc491e240ea3",
+            "updated": "2019-09-23T23:09:10+0000",
+            "vcs_last_commit": "2019-09-23T23:09:10+0000",
+            "vcs_last_fetch": "2019-09-23T23:09:10+0000",
+            "vcs_last_rev": "35456d538d0138daab9f5346bd852eb9ad84a348",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2019-09-15T19:09:33+0000",
-            "vcs_last_commit": "2019-09-15T19:09:33+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:33+0000",
-            "vcs_last_rev": "a223e3d7be828b52021c14b6f6ed44e2fc5b9b31",
+            "updated": "2019-09-23T05:09:21+0000",
+            "vcs_last_commit": "2019-09-23T05:09:21+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:21+0000",
+            "vcs_last_rev": "f6406266474a652ae35b91a9b62f70351968114c",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-09-16T20:09:51+0000",
-            "vcs_last_commit": "2019-09-16T20:09:51+0000",
-            "vcs_last_fetch": "2019-09-16T20:09:51+0000",
-            "vcs_last_rev": "0456f3d92f0b5d836ce0372ce6d47b31ceb61ac8",
+            "updated": "2019-09-23T06:09:47+0000",
+            "vcs_last_commit": "2019-09-23T06:09:47+0000",
+            "vcs_last_fetch": "2019-09-23T06:09:47+0000",
+            "vcs_last_rev": "4f4a23c4656a297f69ac9b6013f629ceadbbfa4b",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-15T19:09:34+0000",
-            "vcs_last_commit": "2019-09-15T19:09:34+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:34+0000",
-            "vcs_last_rev": "9310818b2acff3e47870459559a942bb4ca9cc55",
+            "updated": "2019-09-23T05:09:23+0000",
+            "vcs_last_commit": "2019-09-23T05:09:23+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:23+0000",
+            "vcs_last_rev": "32b535f6d8850643bd23f8e1a19ec0286327a085",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-15T19:09:33+0000",
-            "vcs_last_commit": "2019-09-15T19:09:33+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:33+0000",
-            "vcs_last_rev": "a223e3d7be828b52021c14b6f6ed44e2fc5b9b31",
+            "updated": "2019-09-23T05:09:21+0000",
+            "vcs_last_commit": "2019-09-23T05:09:21+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:21+0000",
+            "vcs_last_rev": "f6406266474a652ae35b91a9b62f70351968114c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "webserver",
             "id": 14976,
             "layer": 10,
-            "updated": "2019-09-15T19:09:33+0000",
-            "vcs_last_commit": "2019-09-15T19:09:33+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:33+0000",
-            "vcs_last_rev": "a223e3d7be828b52021c14b6f6ed44e2fc5b9b31",
+            "updated": "2019-09-23T05:09:21+0000",
+            "vcs_last_commit": "2019-09-23T05:09:21+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:21+0000",
+            "vcs_last_rev": "f6406266474a652ae35b91a9b62f70351968114c",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2019-09-15T19:09:33+0000",
-            "vcs_last_commit": "2019-09-15T19:09:33+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:33+0000",
-            "vcs_last_rev": "70fdc61b13bbdd5fcab04d36a2acdbd8698a1e36",
+            "updated": "2019-09-23T05:09:20+0000",
+            "vcs_last_commit": "2019-09-23T05:09:20+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:20+0000",
+            "vcs_last_rev": "05c9ac42856f377879156c5a6981c2b77d8585df",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "openstack-layer",
             "id": 57006,
             "layer": 155,
-            "updated": "2019-09-15T19:09:33+0000",
-            "vcs_last_commit": "2019-09-15T19:09:33+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:33+0000",
-            "vcs_last_rev": "70fdc61b13bbdd5fcab04d36a2acdbd8698a1e36",
+            "updated": "2019-09-23T05:09:20+0000",
+            "vcs_last_commit": "2019-09-23T05:09:20+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:20+0000",
+            "vcs_last_rev": "05c9ac42856f377879156c5a6981c2b77d8585df",
             "vcs_subdir": "meta-openstack",
             "version": null,
             "yp_compatible_version": 9
@@ -1164,7 +1164,7 @@
             "pv": "2.4.1+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-11T00:10:02+0000"
+            "updated": "2019-09-23T23:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1351,10 +1351,10 @@
             "license": "Apache-2.0",
             "pn": "python-manilaclient",
             "provides": "python-manilaclient ",
-            "pv": "1.28.0+gitX",
+            "pv": "1.29.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-08-28T18:08:26+0000"
+            "updated": "2019-09-23T23:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1579,10 +1579,10 @@
             "license": "Apache-2.0",
             "pn": "python-glanceclient",
             "provides": "python-glanceclient ",
-            "pv": "2.16.0+gitX",
+            "pv": "2.17.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-05T01:09:51+0000"
+            "updated": "2019-09-23T23:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1912,7 +1912,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenStack Profiler Library",
-            "filename": "python-osprofiler_2.8.1.bb",
+            "filename": "python-osprofiler_2.8.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.openstack.org/",
             "id": 725451,
@@ -1921,10 +1921,10 @@
             "license": "Apache-2.0",
             "pn": "python-osprofiler",
             "provides": "python-osprofiler ",
-            "pv": "2.8.1",
+            "pv": "2.8.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-07-29T23:07:37+0000"
+            "updated": "2019-09-23T23:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2187,10 +2187,10 @@
             "license": "Apache-2.0",
             "pn": "python-pycadf",
             "provides": "python-pycadf ",
-            "pv": "2.9.0+gitX",
+            "pv": "2.10.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-07-22T20:07:47+0000"
+            "updated": "2019-09-23T23:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2741,7 +2741,7 @@
             "pv": "1.0.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-11T00:10:13+0000"
+            "updated": "2019-09-23T23:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3672,7 +3672,7 @@
             "pv": "1.3.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-06-03T19:06:20+0000"
+            "updated": "2019-09-23T23:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4410,10 +4410,10 @@
             "license": "Apache-2.0",
             "pn": "python-swiftclient",
             "provides": "python-swiftclient ",
-            "pv": "3.8.0+gitX",
+            "pv": "3.8.1+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-07-29T23:07:38+0000"
+            "updated": "2019-09-23T23:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4667,7 +4667,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "OpenStackClient Library",
-            "filename": "python-osc-lib_1.13.0.bb",
+            "filename": "python-osc-lib_1.14.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://opensource.perlig.de/rcssmin/",
             "id": 725597,
@@ -4676,10 +4676,10 @@
             "license": "Apache-2.0",
             "pn": "python-osc-lib",
             "provides": "python-osc-lib ",
-            "pv": "1.13.0",
+            "pv": "1.14.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-08-14T23:08:09+0000"
+            "updated": "2019-09-23T23:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -5436,10 +5436,10 @@
             "license": "Apache-2.0",
             "pn": "python-troveclient",
             "provides": "python-troveclient       troveclient     troveclient-tests     ",
-            "pv": "2.19.0+gitX",
+            "pv": "3.0.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-05T01:09:55+0000"
+            "updated": "2019-09-23T23:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -5493,10 +5493,10 @@
             "license": "Apache-2.0",
             "pn": "python-barbicanclient",
             "provides": "python-barbicanclient ",
-            "pv": "4.8.1+gitX",
+            "pv": "4.9.0+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-08-28T18:08:26+0000"
+            "updated": "2019-09-23T23:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -7073,7 +7073,7 @@
             "pv": "1.13.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-08-14T23:08:10+0000"
+            "updated": "2019-09-23T23:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -7739,6 +7739,63 @@
             "section": "devel/python",
             "summary": "",
             "updated": "2019-09-16T20:09:01+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Python client for the Advanced Message Queuing Procotol (AMQP)",
+            "filename": "python3-amqplib_1.0.2.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://code.google.com/p/py-amqplib/",
+            "id": 1028041,
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "layerbranch": 57006,
+            "license": "LGPL-3.0",
+            "pn": "python3-amqplib",
+            "provides": "python3-amqplib ",
+            "pv": "1.0.2",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-09-23T23:09:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "WSGI object-dispatching web framework",
+            "filename": "python3-pecan_1.3.3.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.python.org/pypi/pecan/",
+            "id": 1028042,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 57006,
+            "license": "BSD",
+            "pn": "python3-pecan",
+            "provides": "python3-pecan ",
+            "pv": "1.3.3",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-09-23T23:09:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A Python re-implementation of the Rails routes system.",
+            "filename": "python3-routes_git.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://routes.groovie.org",
+            "id": 1028043,
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "layerbranch": 57006,
+            "license": "MIT",
+            "pn": "python3-routes",
+            "provides": "python3-routes ",
+            "pv": "2.4.1+gitX",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-09-23T23:09:59+0000"
         }
     ],
     "wrtemplates": []

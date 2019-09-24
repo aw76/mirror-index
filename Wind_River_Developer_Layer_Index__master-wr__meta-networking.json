@@ -101,71 +101,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190918",
+            "bitbake_branch": "wr-10.19-20190923",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-18T19:09:28+0000",
+            "updated": "2019-09-23T23:09:16+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190918",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-23T02:09:15+0000",
-            "vcs_last_commit": "2019-09-23T02:09:15+0000",
-            "vcs_last_fetch": "2019-09-23T02:09:15+0000",
-            "vcs_last_rev": "c10e1c212de365e2b9c1b66f000efc491e240ea3",
+            "updated": "2019-09-23T23:09:10+0000",
+            "vcs_last_commit": "2019-09-23T23:09:10+0000",
+            "vcs_last_fetch": "2019-09-23T23:09:10+0000",
+            "vcs_last_rev": "35456d538d0138daab9f5346bd852eb9ad84a348",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-09-16T20:09:51+0000",
-            "vcs_last_commit": "2019-09-16T20:09:51+0000",
-            "vcs_last_fetch": "2019-09-16T20:09:51+0000",
-            "vcs_last_rev": "0456f3d92f0b5d836ce0372ce6d47b31ceb61ac8",
+            "updated": "2019-09-23T06:09:47+0000",
+            "vcs_last_commit": "2019-09-23T06:09:47+0000",
+            "vcs_last_fetch": "2019-09-23T06:09:47+0000",
+            "vcs_last_rev": "4f4a23c4656a297f69ac9b6013f629ceadbbfa4b",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-15T19:09:34+0000",
-            "vcs_last_commit": "2019-09-15T19:09:34+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:34+0000",
-            "vcs_last_rev": "9310818b2acff3e47870459559a942bb4ca9cc55",
+            "updated": "2019-09-23T05:09:23+0000",
+            "vcs_last_commit": "2019-09-23T05:09:23+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:23+0000",
+            "vcs_last_rev": "32b535f6d8850643bd23f8e1a19ec0286327a085",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190916",
+            "actual_branch": "wr-10.19-20190923",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-15T19:09:33+0000",
-            "vcs_last_commit": "2019-09-15T19:09:33+0000",
-            "vcs_last_fetch": "2019-09-15T19:09:33+0000",
-            "vcs_last_rev": "a223e3d7be828b52021c14b6f6ed44e2fc5b9b31",
+            "updated": "2019-09-23T05:09:21+0000",
+            "vcs_last_commit": "2019-09-23T05:09:21+0000",
+            "vcs_last_fetch": "2019-09-23T05:09:21+0000",
+            "vcs_last_rev": "f6406266474a652ae35b91a9b62f70351968114c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -677,7 +677,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "samba_4.10.7.bb",
+            "filename": "samba_4.10.8.bb",
             "filepath": "recipes-connectivity/samba",
             "homepage": "https://www.samba.org/",
             "id": 724922,
@@ -686,17 +686,17 @@
             "license": "GPL-3.0+ & LGPL-3.0+ & GPL-2.0+",
             "pn": "samba",
             "provides": "samba ",
-            "pv": "4.10.7",
+            "pv": "4.10.8",
             "section": "console/network",
             "summary": "",
-            "updated": "2019-09-11T23:09:42+0000"
+            "updated": "2019-09-23T23:09:09+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1 and 3.1.1. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
-            "filename": "mosquitto_1.5.8.bb",
+            "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1, 3.1.1 and 5, providing both an MQTT broker and several command-line clients. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
+            "filename": "mosquitto_1.6.5.bb",
             "filepath": "recipes-connectivity/mosquitto",
             "homepage": "http://mosquitto.org/",
             "id": 724923,
@@ -705,10 +705,10 @@
             "license": "EPL-1.0 | EDL-1.0",
             "pn": "mosquitto",
             "provides": "mosquitto ",
-            "pv": "1.5.8",
+            "pv": "1.6.5",
             "section": "console/network",
-            "summary": "Open source MQTT v3.1/3.1.1 implemention",
-            "updated": "2019-04-02T23:04:44+0000"
+            "summary": "Open source MQTT implementation",
+            "updated": "2019-09-23T23:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -810,7 +810,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "WireGuard is a secure network tunnel, operating at layer 3, implemented as a kernel virtual network interface for Linux, which aims to replace both IPsec for most use cases, as well as popular user space and/or TLS-based solutions like OpenVPN, while being more secure, more performant, and easier to use.",
-            "filename": "wireguard-module_0.0.20190905.bb",
+            "filename": "wireguard-module_0.0.20190913.bb",
             "filepath": "recipes-kernel/wireguard",
             "homepage": "https://www.wireguard.io/",
             "id": 724930,
@@ -819,17 +819,17 @@
             "license": "GPLv2",
             "pn": "wireguard-module",
             "provides": "wireguard-module ",
-            "pv": "0.0.20190905",
+            "pv": "0.0.20190913",
             "section": "networking",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2019-09-11T23:09:42+0000"
+            "updated": "2019-09-23T23:09:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "WireGuard is a secure network tunnel, operating at layer 3, implemented as a kernel virtual network interface for Linux, which aims to replace both IPsec for most use cases, as well as popular user space and/or TLS-based solutions like OpenVPN, while being more secure, more performant, and easier to use.",
-            "filename": "wireguard-tools_0.0.20190905.bb",
+            "filename": "wireguard-tools_0.0.20190913.bb",
             "filepath": "recipes-kernel/wireguard",
             "homepage": "https://www.wireguard.io/",
             "id": 724931,
@@ -838,10 +838,10 @@
             "license": "GPLv2",
             "pn": "wireguard-tools",
             "provides": "wireguard-tools ",
-            "pv": "0.0.20190905",
+            "pv": "0.0.20190913",
             "section": "networking",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2019-09-11T23:09:42+0000"
+            "updated": "2019-09-23T23:09:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1817,7 +1817,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libtevent_0.10.0.bb",
+            "filename": "libtevent_0.10.1.bb",
             "filepath": "recipes-support/libtevent",
             "homepage": "http://tevent.samba.org",
             "id": 724984,
@@ -1826,10 +1826,10 @@
             "license": "LGPLv3+",
             "pn": "libtevent",
             "provides": "libtevent ",
-            "pv": "0.10.0",
+            "pv": "0.10.1",
             "section": "libs",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2019-07-19T07:07:51+0000"
+            "updated": "2019-09-23T23:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1924,7 +1924,7 @@
             "pv": "4.2.8p13",
             "section": "net",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2019-09-16T03:09:45+0000"
+            "updated": "2019-09-23T23:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2171,7 +2171,7 @@
             "pv": "3.0.3",
             "section": "net",
             "summary": "",
-            "updated": "2019-08-08T19:08:57+0000"
+            "updated": "2019-09-23T23:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3052,7 +3052,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "znc_1.7.3.bb",
+            "filename": "znc_1.7.4.bb",
             "filepath": "recipes-irc/znc",
             "homepage": "",
             "id": 725049,
@@ -3061,10 +3061,10 @@
             "license": "GPLv2",
             "pn": "znc",
             "provides": "znc ",
-            "pv": "1.7.3",
+            "pv": "1.7.4",
             "section": "net",
             "summary": "ZNC, an advanced IRC bouncer",
-            "updated": "2019-05-26T19:05:42+0000"
+            "updated": "2019-09-23T23:09:09+0000"
         },
         {
             "bbclassextend": "",
