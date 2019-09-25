@@ -120,38 +120,38 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-23T23:09:10+0000",
-            "vcs_last_commit": "2019-09-23T23:09:10+0000",
-            "vcs_last_fetch": "2019-09-23T23:09:10+0000",
-            "vcs_last_rev": "35456d538d0138daab9f5346bd852eb9ad84a348",
+            "updated": "2019-09-25T01:09:31+0000",
+            "vcs_last_commit": "2019-09-25T01:09:31+0000",
+            "vcs_last_fetch": "2019-09-25T01:09:31+0000",
+            "vcs_last_rev": "f0cd7dfc47644d960e7a700193503f4b404337f3",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "wr-10.19-20190925",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-23T05:09:23+0000",
-            "vcs_last_commit": "2019-09-23T05:09:23+0000",
-            "vcs_last_fetch": "2019-09-23T05:09:23+0000",
-            "vcs_last_rev": "32b535f6d8850643bd23f8e1a19ec0286327a085",
+            "updated": "2019-09-24T18:09:08+0000",
+            "vcs_last_commit": "2019-09-24T18:09:08+0000",
+            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
+            "vcs_last_rev": "5789caf8366503cb3950046b314bca0f5e9d5193",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "wr-10.19-20190925",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-23T05:09:21+0000",
-            "vcs_last_commit": "2019-09-23T05:09:21+0000",
-            "vcs_last_fetch": "2019-09-23T05:09:21+0000",
-            "vcs_last_rev": "f6406266474a652ae35b91a9b62f70351968114c",
+            "updated": "2019-09-24T18:09:08+0000",
+            "vcs_last_commit": "2019-09-24T18:09:08+0000",
+            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
+            "vcs_last_rev": "ab203c1baada0454a6f2d5c75700bc888a59a553",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -1361,7 +1361,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A Python SOCKS client module",
-            "filename": "python3-pysocks_1.7.0.bb",
+            "filename": "python3-pysocks_1.7.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
             "id": 723831,
@@ -1370,10 +1370,10 @@
             "license": "BSD",
             "pn": "python3-pysocks",
             "provides": "python3-pysocks ",
-            "pv": "1.7.0",
+            "pv": "1.7.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-26T19:05:51+0000"
+            "updated": "2019-09-24T23:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1589,7 +1589,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-msgpack_0.6.1.bb",
+            "filename": "python-msgpack_0.6.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723843,
@@ -1598,10 +1598,10 @@
             "license": "Apache-2.0",
             "pn": "python-msgpack",
             "provides": "python-msgpack ",
-            "pv": "0.6.1",
+            "pv": "0.6.2",
             "section": "devel/python",
             "summary": "MessagePack (de)serializer",
-            "updated": "2019-05-06T00:05:44+0000"
+            "updated": "2019-09-24T23:09:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -3299,7 +3299,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-urllib3_1.25.3.bb",
+            "filename": "python3-urllib3_1.25.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/shazow/urllib3",
             "id": 723935,
@@ -3308,10 +3308,10 @@
             "license": "MIT",
             "pn": "python3-urllib3",
             "provides": "python3-urllib3 ",
-            "pv": "1.25.3",
+            "pv": "1.25.5",
             "section": "devel/python",
             "summary": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
-            "updated": "2019-06-17T20:06:18+0000"
+            "updated": "2019-09-24T23:09:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3622,7 +3622,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-msgpack_0.6.1.bb",
+            "filename": "python3-msgpack_0.6.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723952,
@@ -3631,10 +3631,10 @@
             "license": "Apache-2.0",
             "pn": "python3-msgpack",
             "provides": "python3-msgpack ",
-            "pv": "0.6.1",
+            "pv": "0.6.2",
             "section": "devel/python",
             "summary": "MessagePack (de)serializer",
-            "updated": "2019-05-06T00:05:52+0000"
+            "updated": "2019-09-24T23:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3907,7 +3907,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A database migration tool for SQLAlchemy",
-            "filename": "python3-alembic_1.1.0.bb",
+            "filename": "python3-alembic_1.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723967,
@@ -3916,10 +3916,10 @@
             "license": "BSD",
             "pn": "python3-alembic",
             "provides": "python3-alembic ",
-            "pv": "1.1.0",
+            "pv": "1.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-03T00:09:10+0000"
+            "updated": "2019-09-24T23:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -4781,7 +4781,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-pytest_5.1.2.bb",
+            "filename": "python-pytest_5.1.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pytest.org",
             "id": 724014,
@@ -4790,10 +4790,10 @@
             "license": "MIT",
             "pn": "python-pytest",
             "provides": "python-pytest ",
-            "pv": "5.1.2",
+            "pv": "5.1.3",
             "section": "devel/python",
             "summary": "Simple powerful teting with python",
-            "updated": "2019-09-23T23:09:36+0000"
+            "updated": "2019-09-24T23:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -5142,7 +5142,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A database migration tool for SQLAlchemy",
-            "filename": "python-alembic_1.1.0.bb",
+            "filename": "python-alembic_1.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724034,
@@ -5151,10 +5151,10 @@
             "license": "BSD",
             "pn": "python-alembic",
             "provides": "python-alembic ",
-            "pv": "1.1.0",
+            "pv": "1.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-03T00:09:06+0000"
+            "updated": "2019-09-24T23:09:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5427,7 +5427,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-urllib3_1.25.3.bb",
+            "filename": "python-urllib3_1.25.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/shazow/urllib3",
             "id": 724049,
@@ -5436,10 +5436,10 @@
             "license": "MIT",
             "pn": "python-urllib3",
             "provides": "python-urllib3 ",
-            "pv": "1.25.3",
+            "pv": "1.25.5",
             "section": "devel/python",
             "summary": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
-            "updated": "2019-06-17T20:06:15+0000"
+            "updated": "2019-09-24T23:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -5864,7 +5864,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A Python SOCKS client module",
-            "filename": "python-pysocks_1.7.0.bb",
+            "filename": "python-pysocks_1.7.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
             "id": 724072,
@@ -5873,10 +5873,10 @@
             "license": "BSD",
             "pn": "python-pysocks",
             "provides": "python-pysocks ",
-            "pv": "1.7.0",
+            "pv": "1.7.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-05-26T19:05:48+0000"
+            "updated": "2019-09-24T23:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -7175,7 +7175,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-pytest_5.1.2.bb",
+            "filename": "python3-pytest_5.1.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pytest.org",
             "id": 724141,
@@ -7184,10 +7184,10 @@
             "license": "MIT",
             "pn": "python3-pytest",
             "provides": "python3-pytest ",
-            "pv": "5.1.2",
+            "pv": "5.1.3",
             "section": "devel/python",
             "summary": "Simple powerful teting with python",
-            "updated": "2019-09-23T23:09:35+0000"
+            "updated": "2019-09-24T23:09:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10304,6 +10304,44 @@
             "section": "devel/python",
             "summary": "",
             "updated": "2019-09-23T23:09:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-dt-schema_git.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 1028050,
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "BSD-2-Clause",
+            "pn": "python3-dt-schema",
+            "provides": "python3-dt-schema ",
+            "pv": "0.1+gitX",
+            "section": "base",
+            "summary": "Tooling for devicetree validation using YAML and jsonschema",
+            "updated": "2019-09-24T23:09:17+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-ruamel-yaml_0.16.5.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 1028051,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "MIT",
+            "pn": "python3-ruamel-yaml",
+            "provides": "python3-ruamel-yaml ",
+            "pv": "0.16.5",
+            "section": "devel/python",
+            "summary": "YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order.",
+            "updated": "2019-09-24T23:09:17+0000"
         }
     ],
     "wrtemplates": []

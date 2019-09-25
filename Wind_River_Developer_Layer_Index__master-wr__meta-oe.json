@@ -120,24 +120,24 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-23T23:09:10+0000",
-            "vcs_last_commit": "2019-09-23T23:09:10+0000",
-            "vcs_last_fetch": "2019-09-23T23:09:10+0000",
-            "vcs_last_rev": "35456d538d0138daab9f5346bd852eb9ad84a348",
+            "updated": "2019-09-25T01:09:31+0000",
+            "vcs_last_commit": "2019-09-25T01:09:31+0000",
+            "vcs_last_fetch": "2019-09-25T01:09:31+0000",
+            "vcs_last_rev": "f0cd7dfc47644d960e7a700193503f4b404337f3",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "wr-10.19-20190925",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-23T05:09:23+0000",
-            "vcs_last_commit": "2019-09-23T05:09:23+0000",
-            "vcs_last_fetch": "2019-09-23T05:09:23+0000",
-            "vcs_last_rev": "32b535f6d8850643bd23f8e1a19ec0286327a085",
+            "updated": "2019-09-24T18:09:08+0000",
+            "vcs_last_commit": "2019-09-24T18:09:08+0000",
+            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
+            "vcs_last_rev": "5789caf8366503cb3950046b314bca0f5e9d5193",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -2425,19 +2425,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "jasper_1.900.1.bb",
+            "filename": "jasper_2.0.16.bb",
             "filepath": "recipes-graphics/jasper",
-            "homepage": "",
+            "homepage": "https://github.com/mdadams/jasper",
             "id": 973826,
-            "inherits": "autotools lib_package siteconfig siteinfo",
+            "inherits": "cmake",
             "layerbranch": 14965,
             "license": "MIT",
             "pn": "jasper",
             "provides": "jasper ",
-            "pv": "1.900.1",
+            "pv": "2.0.16",
             "section": "base",
             "summary": "Jpeg 2000 implementation",
-            "updated": "2019-07-29T23:07:50+0000"
+            "updated": "2019-09-24T23:09:03+0000"
         },
         {
             "bbclassextend": "",
@@ -4394,7 +4394,7 @@
             "pv": "2.0.13+gitX",
             "section": "apps",
             "summary": "Development package for building Applications that use numa",
-            "updated": "2019-09-08T19:09:48+0000"
+            "updated": "2019-09-24T23:09:02+0000"
         },
         {
             "bbclassextend": "",
@@ -7460,7 +7460,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Nmap (\"Network Mapper\") is a free and open source (license) utility for network discovery and security auditing.\\nGui support via appending to IMAGE_FEATURES x11-base in local.conf",
-            "filename": "nmap_7.70.bb",
+            "filename": "nmap_7.80.bb",
             "filepath": "recipes-security/nmap",
             "homepage": "",
             "id": 974092,
@@ -7469,10 +7469,10 @@
             "license": "GPL-2.0",
             "pn": "nmap",
             "provides": "nmap ",
-            "pv": "7.70",
+            "pv": "7.80",
             "section": "security",
             "summary": "network auditing tool",
-            "updated": "2019-06-13T17:06:29+0000"
+            "updated": "2019-09-24T23:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -8274,22 +8274,22 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Since bbclass scons convert to python3, build mongodb failed",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "",
             "filename": "mongodb_git.bb",
             "filepath": "recipes-dbs/mongodb",
             "homepage": "",
             "id": 974136,
-            "inherits": "dos2unix python-dir python3-dir python3native pythonnative scons siteinfo",
+            "inherits": "dos2unix python3-dir python3native scons siteinfo",
             "layerbranch": 14965,
             "license": "SSPL-1 & Apache-2.0 & Zlib",
             "pn": "mongodb",
             "provides": "mongodb ",
-            "pv": "4.0.6+gitX",
+            "pv": "4.2.0+gitX",
             "section": "base",
             "summary": "mongodb",
-            "updated": "2019-08-14T23:08:33+0000"
+            "updated": "2019-09-24T23:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -9106,7 +9106,7 @@
             "pv": "1.7.2",
             "section": "base",
             "summary": "High performance data logging and graphing system for time series data",
-            "updated": "2019-06-17T20:06:46+0000"
+            "updated": "2019-09-24T23:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -10063,7 +10063,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Rsyslog is an enhanced syslogd supporting, among others, MySQL, PostgreSQL, failover log destinations, syslog/tcp, fine grain output format control, high precision timestamps, queued operations and the ability to filter on any message part. It is quite compatible to stock sysklogd and can be used as a drop-in replacement. Its advanced features make it suitable for enterprise-class, encryption protected syslog relay chains while at the same time being very easy to setup for the novice user.",
-            "filename": "rsyslog_8.1907.0.bb",
+            "filename": "rsyslog_8.1908.0.bb",
             "filepath": "recipes-extended/rsyslog",
             "homepage": "http://www.rsyslog.com/",
             "id": 974233,
@@ -10072,10 +10072,10 @@
             "license": "GPLv3 & LGPLv3 & Apache-2.0",
             "pn": "rsyslog",
             "provides": "rsyslog ",
-            "pv": "8.1907.0",
+            "pv": "8.1908.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2019-08-08T19:08:12+0000"
+            "updated": "2019-09-24T23:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -13914,6 +13914,44 @@
             "section": "console/utils",
             "summary": "dhex is a hex editor that includes a diff mode",
             "updated": "2019-09-23T23:09:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Utilities to collect and visualise system statistics",
+            "filename": "libstatgrab_0.92.bb",
+            "filepath": "recipes-extended/libstatgrab",
+            "homepage": "http://www.i-scream.org/libstatgrab/",
+            "id": 1028048,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 14965,
+            "license": "GPL-2.0+",
+            "pn": "libstatgrab",
+            "provides": "libstatgrab ",
+            "pv": "0.92",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-09-24T23:09:02+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "libostree is both a shared library and suite of command line tools that combines a \\\"git-like\\\" model for committing and downloading bootable filesystem trees, along with a layer for deploying them and managing the bootloader configuration.",
+            "filename": "ostree_2019.3.bb",
+            "filepath": "recipes-extended/ostree",
+            "homepage": "https://ostree.readthedocs.io",
+            "id": 1028049,
+            "inherits": "autotools bash-completion gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd",
+            "layerbranch": 14965,
+            "license": "LGPLv2.1",
+            "pn": "ostree",
+            "provides": "ostree ",
+            "pv": "2019.3",
+            "section": "base",
+            "summary": "Versioned Operating System Repository.",
+            "updated": "2019-09-24T23:09:03+0000"
         }
     ],
     "wrtemplates": []
