@@ -148,10 +148,10 @@
             "collection": "meta-openssl-one-zero-two-fips",
             "id": 845704,
             "layer": 301,
-            "updated": "2019-09-17T08:09:12+0000",
-            "vcs_last_commit": "2019-09-17T08:09:12+0000",
-            "vcs_last_fetch": "2019-09-17T08:09:12+0000",
-            "vcs_last_rev": "bc8bded7c1af0ae0f4379deb2ce5986f584430a9",
+            "updated": "2019-09-25T20:09:40+0000",
+            "vcs_last_commit": "2019-09-25T20:09:40+0000",
+            "vcs_last_fetch": "2019-09-25T20:09:40+0000",
+            "vcs_last_rev": "d33113e10588383b690e8a751763499f61d4fadb",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 11
@@ -169,6 +169,12 @@
             "id": 52732,
             "layerbranch": 845704,
             "required": true
+        },
+        {
+            "dependency": 307,
+            "id": 56109,
+            "layerbranch": 845704,
+            "required": false
         }
     ],
     "layerItems": [
@@ -266,6 +272,25 @@
             "section": "libs/network",
             "summary": "OpenSSL FIPS Object Module v2.0 Example",
             "updated": "2019-09-15T22:09:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "FIPSCheck is a library for integrity verification of FIPS validated modules. The package also provides helper binaries for creation and verification of the HMAC-SHA256 checksum files.",
+            "filename": "fipscheck_1.5.0.bb",
+            "filepath": "recipes-support/fipscheck",
+            "homepage": "https://pagure.io/fipscheck",
+            "id": 1028060,
+            "inherits": "autotools pkgconfig qemu siteconfig siteinfo",
+            "layerbranch": 845704,
+            "license": "MIT",
+            "pn": "fipscheck",
+            "provides": "fipscheck ",
+            "pv": "1.5.0",
+            "section": "libs/network",
+            "summary": "A library for integrity verification of FIPS validated modules",
+            "updated": "2019-09-25T23:09:50+0000"
         }
     ],
     "wrtemplates": [
@@ -274,7 +299,7 @@
             "id": 47419,
             "layerbranch": 845704,
             "name": "feature/openssl-fips",
-            "updated": "2019-09-15T22:09:50+0000"
+            "updated": "2019-09-25T23:09:50+0000"
         }
     ]
 }

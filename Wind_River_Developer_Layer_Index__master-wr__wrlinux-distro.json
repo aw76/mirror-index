@@ -352,10 +352,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-09-25T02:09:53+0000",
-            "vcs_last_commit": "2019-09-25T02:09:53+0000",
-            "vcs_last_fetch": "2019-09-25T02:09:53+0000",
-            "vcs_last_rev": "ba915d38dbe1a60d41d5d8c9825a734746dfcdc1",
+            "updated": "2019-09-25T23:09:07+0000",
+            "vcs_last_commit": "2019-09-25T23:09:07+0000",
+            "vcs_last_fetch": "2019-09-25T23:09:07+0000",
+            "vcs_last_rev": "b20c117ac14b409e8a594e0bafb7feaf2b12f1c4",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -380,10 +380,10 @@
             "collection": "wrlinux-distro",
             "id": 73942,
             "layer": 164,
-            "updated": "2019-09-25T02:09:53+0000",
-            "vcs_last_commit": "2019-09-25T02:09:53+0000",
-            "vcs_last_fetch": "2019-09-25T02:09:53+0000",
-            "vcs_last_rev": "ba915d38dbe1a60d41d5d8c9825a734746dfcdc1",
+            "updated": "2019-09-25T23:09:07+0000",
+            "vcs_last_commit": "2019-09-25T23:09:07+0000",
+            "vcs_last_fetch": "2019-09-25T23:09:07+0000",
+            "vcs_last_rev": "b20c117ac14b409e8a594e0bafb7feaf2b12f1c4",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 11
@@ -1426,6 +1426,25 @@
             "section": "base",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
             "updated": "2019-06-26T09:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Imports container images listed in containers_to_run.txt into Docker and instructs Docker to run them.",
+            "filename": "run-container_0.1.bb",
+            "filepath": "recipes-extended/run-container",
+            "homepage": "",
+            "id": 1028059,
+            "inherits": "allarch systemd",
+            "layerbranch": 73942,
+            "license": "MIT",
+            "pn": "run-container",
+            "provides": "run-container ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "Imports container images into Docker",
+            "updated": "2019-09-25T23:09:51+0000"
         }
     ],
     "wrtemplates": [
@@ -1820,6 +1839,13 @@
             "layerbranch": 73942,
             "name": "feature/consul",
             "updated": "2019-09-25T02:09:52+0000"
+        },
+        {
+            "description": "build and include container images in rootfs images",
+            "id": 53218,
+            "layerbranch": 73942,
+            "name": "feature/run-container",
+            "updated": "2019-09-25T20:09:04+0000"
         }
     ]
 }

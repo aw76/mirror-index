@@ -148,10 +148,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-09-25T02:09:53+0000",
-            "vcs_last_commit": "2019-09-25T02:09:53+0000",
-            "vcs_last_fetch": "2019-09-25T02:09:53+0000",
-            "vcs_last_rev": "ba915d38dbe1a60d41d5d8c9825a734746dfcdc1",
+            "updated": "2019-09-25T23:09:07+0000",
+            "vcs_last_commit": "2019-09-25T23:09:07+0000",
+            "vcs_last_fetch": "2019-09-25T23:09:07+0000",
+            "vcs_last_rev": "b20c117ac14b409e8a594e0bafb7feaf2b12f1c4",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -720,6 +720,25 @@
             "section": "System Environment/Base",
             "summary": "Mobile IPv6 and NEMO for Linux",
             "updated": "2019-09-23T23:09:43+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Imports container images listed in containers_to_run.txt into Docker and instructs Docker to run them.",
+            "filename": "run-container_0.1.bb",
+            "filepath": "wrlinux-distro/recipes-extended/run-container",
+            "homepage": "",
+            "id": 1028058,
+            "inherits": "allarch systemd",
+            "layerbranch": 15009,
+            "license": "MIT",
+            "pn": "run-container",
+            "provides": "run-container ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "Imports container images into Docker",
+            "updated": "2019-09-25T23:09:46+0000"
         }
     ],
     "wrtemplates": [
