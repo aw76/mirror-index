@@ -101,57 +101,57 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190923",
+            "bitbake_branch": "wr-10.19-20190929",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-23T23:09:16+0000",
+            "updated": "2019-09-29T06:09:33+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-26T20:09:51+0000",
-            "vcs_last_commit": "2019-09-26T20:09:51+0000",
-            "vcs_last_fetch": "2019-09-26T20:09:51+0000",
-            "vcs_last_rev": "b6469e19efa2bd69bb620d7a638c3f89f4e915ac",
+            "updated": "2019-09-28T22:09:58+0000",
+            "vcs_last_commit": "2019-09-28T22:09:58+0000",
+            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
+            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190925",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-24T18:09:08+0000",
-            "vcs_last_commit": "2019-09-24T18:09:08+0000",
-            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
-            "vcs_last_rev": "5789caf8366503cb3950046b314bca0f5e9d5193",
+            "updated": "2019-09-29T06:09:41+0000",
+            "vcs_last_commit": "2019-09-29T06:09:41+0000",
+            "vcs_last_fetch": "2019-09-29T06:09:41+0000",
+            "vcs_last_rev": "2d2bbd8d7dad9b0779c45117aff83845abc6b615",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190925",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-24T18:09:08+0000",
-            "vcs_last_commit": "2019-09-24T18:09:08+0000",
-            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
-            "vcs_last_rev": "ab203c1baada0454a6f2d5c75700bc888a59a553",
+            "updated": "2019-09-28T22:09:09+0000",
+            "vcs_last_commit": "2019-09-28T22:09:09+0000",
+            "vcs_last_fetch": "2019-09-28T22:09:09+0000",
+            "vcs_last_rev": "ce132f7b554803df0bd2608639ad270d17844c6b",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -2231,7 +2231,7 @@
             "updated": "2018-10-05T09:10:48+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A fast, pure Python library for parsing and serializing ASN.1 structures",
@@ -2247,7 +2247,7 @@
             "pv": "0.24.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:48+0000"
+            "updated": "2019-09-29T06:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3907,7 +3907,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A database migration tool for SQLAlchemy",
-            "filename": "python3-alembic_1.2.0.bb",
+            "filename": "python3-alembic_1.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 723967,
@@ -3916,10 +3916,10 @@
             "license": "BSD",
             "pn": "python3-alembic",
             "provides": "python3-alembic ",
-            "pv": "1.2.0",
+            "pv": "1.2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-24T23:09:16+0000"
+            "updated": "2019-09-29T06:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4150,7 +4150,7 @@
             "updated": "2018-10-05T09:10:06+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "A fast, pure Python library for parsing and serializing ASN.1 structures",
@@ -4166,7 +4166,7 @@
             "pv": "0.24.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:06+0000"
+            "updated": "2019-09-29T06:09:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4986,7 +4986,7 @@
             "updated": "2018-10-05T09:10:15+0000"
         },
         {
-            "bbclassextend": "native nativesdk",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Incremental is a small library that versions your Python projects",
@@ -5002,7 +5002,7 @@
             "pv": "17.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:15+0000"
+            "updated": "2019-09-29T06:09:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5142,7 +5142,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A database migration tool for SQLAlchemy",
-            "filename": "python-alembic_1.2.0.bb",
+            "filename": "python-alembic_1.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 724034,
@@ -5151,10 +5151,10 @@
             "license": "BSD",
             "pn": "python-alembic",
             "provides": "python-alembic ",
-            "pv": "1.2.0",
+            "pv": "1.2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-24T23:09:14+0000"
+            "updated": "2019-09-29T06:09:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5180,7 +5180,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-cmd2_0.9.16.bb",
+            "filename": "python-cmd2_0.9.17.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://packages.python.org/cmd2/",
             "id": 724036,
@@ -5189,10 +5189,10 @@
             "license": "MIT",
             "pn": "python-cmd2",
             "provides": "python-cmd2 ",
-            "pv": "0.9.16",
+            "pv": "0.9.17",
             "section": "devel/python",
             "summary": "Extra features for standard library's cmd module",
-            "updated": "2019-09-08T19:09:10+0000"
+            "updated": "2019-09-29T06:09:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5845,7 +5845,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
-            "filename": "python-protobuf_3.9.1.bb",
+            "filename": "python-protobuf_3.9.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://developers.google.com/protocol-buffers/",
             "id": 724071,
@@ -5854,10 +5854,10 @@
             "license": "BSD-3-Clause",
             "pn": "python-protobuf",
             "provides": "python-protobuf ",
-            "pv": "3.9.1",
+            "pv": "3.9.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-03T00:09:18+0000"
+            "updated": "2019-09-29T06:09:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5978,7 +5978,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python-paste_3.2.0.bb",
+            "filename": "python-paste_3.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonpaste.org/",
             "id": 724078,
@@ -5987,10 +5987,10 @@
             "license": "MIT",
             "pn": "python-paste",
             "provides": "python-paste ",
-            "pv": "3.2.0",
+            "pv": "3.2.1",
             "section": "devel/python",
             "summary": "Tools for using a Web Server Gateway Interface stack",
-            "updated": "2019-09-11T23:09:23+0000"
+            "updated": "2019-09-29T06:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6449,7 +6449,7 @@
             "updated": "2018-10-05T09:10:30+0000"
         },
         {
-            "bbclassextend": "native nativesdk",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Incremental is a small library that versions your Python projects",
@@ -6465,7 +6465,7 @@
             "pv": "17.5.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-09-29T06:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6605,7 +6605,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers",
-            "filename": "python3-protobuf_3.9.1.bb",
+            "filename": "python3-protobuf_3.9.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://developers.google.com/protocol-buffers/",
             "id": 724111,
@@ -6614,10 +6614,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-protobuf",
             "provides": "python3-protobuf ",
-            "pv": "3.9.1",
+            "pv": "3.9.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2019-09-03T00:09:15+0000"
+            "updated": "2019-09-29T06:09:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9683,7 +9683,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-cmd2_0.9.16.bb",
+            "filename": "python3-cmd2_0.9.17.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://packages.python.org/cmd2/",
             "id": 1012493,
@@ -9692,10 +9692,10 @@
             "license": "MIT",
             "pn": "python3-cmd2",
             "provides": "python3-cmd2 ",
-            "pv": "0.9.16",
+            "pv": "0.9.17",
             "section": "devel/python",
             "summary": "Extra features for standard library's cmd module",
-            "updated": "2019-09-16T20:09:24+0000"
+            "updated": "2019-09-29T06:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -10342,6 +10342,63 @@
             "section": "devel/python",
             "summary": "YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order.",
             "updated": "2019-09-24T23:09:17+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "https://sourceforge.net/p/lrparsing/tickets/",
+            "description": "",
+            "filename": "python-lrparsing_1.0.16.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://lrparsing.sourceforge.net/",
+            "id": 1028110,
+            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
+            "layerbranch": 14967,
+            "license": "AGPL-3.0",
+            "pn": "python-lrparsing",
+            "provides": "python-lrparsing ",
+            "pv": "1.0.16",
+            "section": "devel/python",
+            "summary": "Python LR parsing library",
+            "updated": "2019-09-29T06:09:12+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "https://sourceforge.net/p/lrparsing/tickets/",
+            "description": "",
+            "filename": "python3-lrparsing_1.0.16.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://lrparsing.sourceforge.net/",
+            "id": 1028111,
+            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "AGPL-3.0",
+            "pn": "python3-lrparsing",
+            "provides": "python3-lrparsing ",
+            "pv": "1.0.16",
+            "section": "devel/python",
+            "summary": "Python LR parsing library",
+            "updated": "2019-09-29T06:09:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Python package with modified subclasses of all stdlib XML parsers that prevent any potentially malicious operation.",
+            "filename": "python3-test-generator_0.1.2.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "",
+            "id": 1028112,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 14967,
+            "license": "ISC",
+            "pn": "python3-test-generator",
+            "provides": "python3-test-generator ",
+            "pv": "0.1.2",
+            "section": "devel/python",
+            "summary": "Generator is a helper for generating test methods for nose while still using unittest.",
+            "updated": "2019-09-29T06:09:13+0000"
         }
     ],
     "wrtemplates": []

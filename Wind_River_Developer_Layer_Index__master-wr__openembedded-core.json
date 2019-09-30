@@ -101,14 +101,14 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190923",
+            "bitbake_branch": "wr-10.19-20190929",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-23T23:09:16+0000",
+            "updated": "2019-09-29T06:09:33+0000",
             "updates_enabled": true
         }
     ],
@@ -123,15 +123,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-26T20:09:51+0000",
-            "vcs_last_commit": "2019-09-26T20:09:51+0000",
-            "vcs_last_fetch": "2019-09-26T20:09:51+0000",
-            "vcs_last_rev": "b6469e19efa2bd69bb620d7a638c3f89f4e915ac",
+            "updated": "2019-09-28T22:09:58+0000",
+            "vcs_last_commit": "2019-09-28T22:09:58+0000",
+            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
+            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -3706,7 +3706,7 @@
             "pv": "2.0.19",
             "section": "kernel/userland",
             "summary": "Kexec fast reboot tools",
-            "updated": "2019-09-08T19:09:42+0000"
+            "updated": "2019-09-29T06:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3836,10 +3836,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.19.61+gitX",
+            "pv": "4.19.72+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-09-08T19:09:44+0000"
+            "updated": "2019-09-29T06:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3855,10 +3855,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.19.61+gitX",
+            "pv": "4.19.72+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-09-08T19:09:45+0000"
+            "updated": "2019-09-29T06:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3874,10 +3874,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.19.61+gitX",
+            "pv": "4.19.72+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-09-08T19:09:45+0000"
+            "updated": "2019-09-29T06:09:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6126,7 +6126,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
-            "filename": "ffmpeg_4.2.bb",
+            "filename": "ffmpeg_4.2.1.bb",
             "filepath": "recipes-multimedia/ffmpeg",
             "homepage": "https://www.ffmpeg.org/",
             "id": 973244,
@@ -6135,10 +6135,10 @@
             "license": "BSD & GPLv2+ & LGPLv2.1+ & MIT",
             "pn": "ffmpeg",
             "provides": "ffmpeg libav libpostproc",
-            "pv": "4.2",
+            "pv": "4.2.1",
             "section": "libs",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2019-09-23T23:09:32+0000"
+            "updated": "2019-09-29T06:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -8152,7 +8152,7 @@
             "pv": "1.60-26",
             "section": "base",
             "summary": "Basic networking tools",
-            "updated": "2019-07-01T23:07:58+0000"
+            "updated": "2019-09-29T06:09:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8437,7 +8437,7 @@
             "pv": "2019.07",
             "section": "bootloaders",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-09-18T19:09:21+0000"
+            "updated": "2019-09-29T06:09:27+0000"
         },
         {
             "bbclassextend": "cross",
@@ -8456,7 +8456,7 @@
             "pv": "2019.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2019-09-18T19:09:22+0000"
+            "updated": "2019-09-29T06:09:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8475,7 +8475,7 @@
             "pv": "2019.07",
             "section": "bootloaders",
             "summary": "U-Boot bootloader tools",
-            "updated": "2019-09-18T19:09:27+0000"
+            "updated": "2019-09-29T06:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -8646,7 +8646,7 @@
             "pv": "0.13.1",
             "section": "base",
             "summary": "C bindings for apps which will manipulate JSON data",
-            "updated": "2019-09-08T19:09:14+0000"
+            "updated": "2019-09-29T06:09:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9121,7 +9121,7 @@
             "pv": "3.3.3",
             "section": "devel",
             "summary": "A parallel build system",
-            "updated": "2019-09-08T19:09:26+0000"
+            "updated": "2019-09-29T06:09:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9558,7 +9558,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "Python implementation of subunit test streaming protocol",
-            "updated": "2019-09-08T19:09:35+0000"
+            "updated": "2019-09-29T06:09:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -9672,7 +9672,7 @@
             "pv": "19.2.3",
             "section": "devel/python",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2019-09-08T19:09:37+0000"
+            "updated": "2019-09-29T06:09:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10964,7 +10964,7 @@
             "pv": "5.45.4",
             "section": "devel",
             "summary": "tool for automating interactive applications according to a script",
-            "updated": "2019-09-24T18:09:46+0000"
+            "updated": "2019-09-29T06:09:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12142,7 +12142,7 @@
             "pv": "242+X",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2019-09-23T23:09:28+0000"
+            "updated": "2019-09-29T06:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -12560,7 +12560,7 @@
             "pv": "1.1.23+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2019-09-18T19:09:10+0000"
+            "updated": "2019-09-29T06:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -13890,7 +13890,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Extensible SDK toolchain meta-recipe",
-            "updated": "2019-09-23T23:09:28+0000"
+            "updated": "2019-09-29T06:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14780,10 +14780,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "5.2.10+gitX",
+            "pv": "5.2.17+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-09-08T19:09:32+0000"
+            "updated": "2019-09-29T06:09:23+0000"
         },
         {
             "bbclassextend": "",
@@ -14799,10 +14799,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "5.2.10+gitX",
+            "pv": "5.2.17+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-09-08T19:09:32+0000"
+            "updated": "2019-09-29T06:09:24+0000"
         },
         {
             "bbclassextend": "",
@@ -14818,10 +14818,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "5.2.10+gitX",
+            "pv": "5.2.17+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-09-08T19:09:33+0000"
+            "updated": "2019-09-29T06:09:26+0000"
         },
         {
             "bbclassextend": "nativesdk",

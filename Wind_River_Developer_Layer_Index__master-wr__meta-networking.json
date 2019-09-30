@@ -101,71 +101,71 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190923",
+            "bitbake_branch": "wr-10.19-20190929",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-23T23:09:16+0000",
+            "updated": "2019-09-29T06:09:33+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-26T20:09:51+0000",
-            "vcs_last_commit": "2019-09-26T20:09:51+0000",
-            "vcs_last_fetch": "2019-09-26T20:09:51+0000",
-            "vcs_last_rev": "b6469e19efa2bd69bb620d7a638c3f89f4e915ac",
+            "updated": "2019-09-28T22:09:58+0000",
+            "vcs_last_commit": "2019-09-28T22:09:58+0000",
+            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
+            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190925",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-09-24T18:09:08+0000",
-            "vcs_last_commit": "2019-09-24T18:09:08+0000",
-            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
-            "vcs_last_rev": "ca1e22eb0ac1bff833565ccba3df1b669e29d377",
+            "updated": "2019-09-29T02:09:25+0000",
+            "vcs_last_commit": "2019-09-29T02:09:25+0000",
+            "vcs_last_fetch": "2019-09-29T02:09:25+0000",
+            "vcs_last_rev": "c161509197ad2fda62f1a997f1d9145f1219fa08",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190925",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-24T18:09:08+0000",
-            "vcs_last_commit": "2019-09-24T18:09:08+0000",
-            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
-            "vcs_last_rev": "5789caf8366503cb3950046b314bca0f5e9d5193",
+            "updated": "2019-09-29T06:09:41+0000",
+            "vcs_last_commit": "2019-09-29T06:09:41+0000",
+            "vcs_last_fetch": "2019-09-29T06:09:41+0000",
+            "vcs_last_rev": "2d2bbd8d7dad9b0779c45117aff83845abc6b615",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190925",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-24T18:09:08+0000",
-            "vcs_last_commit": "2019-09-24T18:09:08+0000",
-            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
-            "vcs_last_rev": "ab203c1baada0454a6f2d5c75700bc888a59a553",
+            "updated": "2019-09-28T22:09:09+0000",
+            "vcs_last_commit": "2019-09-28T22:09:09+0000",
+            "vcs_last_fetch": "2019-09-28T22:09:09+0000",
+            "vcs_last_rev": "ce132f7b554803df0bd2608639ad270d17844c6b",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -1756,7 +1756,7 @@
             "updated": "2019-09-03T00:09:06+0000"
         },
         {
-            "bbclassextend": "native nativesdk",
+            "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "SPICE (the Simple Protocol for Independent Computing Environments) is a remote-display system built for virtual environments which allows users to view a computing 'desktop' environment - not only on its computer-server machine, but also from anywhere on the Internet and using a wide variety of machine architectures.",
@@ -1772,7 +1772,7 @@
             "pv": "0.14.2+gitX",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2019-06-17T20:06:49+0000"
+            "updated": "2019-09-29T06:09:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2228,7 +2228,7 @@
             "pv": "2.0.27",
             "section": "base",
             "summary": "IPMI (Intelligent Platform Management Interface) library and tools",
-            "updated": "2019-06-17T20:06:48+0000"
+            "updated": "2019-09-29T06:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3672,7 +3672,7 @@
             "pv": "0.6.4",
             "section": "base",
             "summary": "Dynamic firewall daemon with a D-Bus interface",
-            "updated": "2019-07-24T19:07:52+0000"
+            "updated": "2019-09-29T06:09:27+0000"
         },
         {
             "bbclassextend": "",

@@ -101,43 +101,43 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190923",
+            "bitbake_branch": "wr-10.19-20190929",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-23T23:09:16+0000",
+            "updated": "2019-09-29T06:09:33+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-26T20:09:51+0000",
-            "vcs_last_commit": "2019-09-26T20:09:51+0000",
-            "vcs_last_fetch": "2019-09-26T20:09:51+0000",
-            "vcs_last_rev": "b6469e19efa2bd69bb620d7a638c3f89f4e915ac",
+            "updated": "2019-09-28T22:09:58+0000",
+            "vcs_last_commit": "2019-09-28T22:09:58+0000",
+            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
+            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190925",
+            "actual_branch": "wr-10.19-20190929",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-24T18:09:08+0000",
-            "vcs_last_commit": "2019-09-24T18:09:08+0000",
-            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
-            "vcs_last_rev": "5789caf8366503cb3950046b314bca0f5e9d5193",
+            "updated": "2019-09-29T06:09:41+0000",
+            "vcs_last_commit": "2019-09-29T06:09:41+0000",
+            "vcs_last_fetch": "2019-09-29T06:09:41+0000",
+            "vcs_last_rev": "2d2bbd8d7dad9b0779c45117aff83845abc6b615",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
@@ -620,7 +620,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
             "description": "",
-            "filename": "xterm_348.bb",
+            "filename": "xterm_349.bb",
             "filepath": "recipes-graphics/xorg-app",
             "homepage": "http://www.x.org/",
             "id": 973731,
@@ -629,10 +629,10 @@
             "license": "MIT-X",
             "pn": "xterm",
             "provides": "xterm ",
-            "pv": "348",
+            "pv": "349",
             "section": "x11/apps",
             "summary": "xterm is the standard terminal emulator for the X Window System",
-            "updated": "2019-07-31T01:07:44+0000"
+            "updated": "2019-09-29T06:09:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -1494,7 +1494,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libyui_git.bb",
+            "filename": "libyui_3.6.0.bb",
             "filepath": "recipes-graphics/libyui",
             "homepage": "",
             "id": 973777,
@@ -1503,17 +1503,17 @@
             "license": "LGPLv3",
             "pn": "libyui",
             "provides": "libyui ",
-            "pv": "3.3.3+git",
+            "pv": "3.6.0",
             "section": "base",
             "summary": "Libyui is a widget abstraction library providing Qt, GTK and ncurses frontends.",
-            "updated": "2019-06-13T17:06:48+0000"
+            "updated": "2019-09-29T06:09:51+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "libyui-ncurses_git.bb",
+            "filename": "libyui-ncurses_2.52.0.bb",
             "filepath": "recipes-graphics/libyui",
             "homepage": "",
             "id": 973778,
@@ -1522,10 +1522,10 @@
             "license": "LGPLv3",
             "pn": "libyui-ncurses",
             "provides": "libyui-ncurses ",
-            "pv": "2.48.3+gitX",
+            "pv": "2.52.0",
             "section": "base",
             "summary": "Character Based User Interface for libyui",
-            "updated": "2019-06-13T17:06:48+0000"
+            "updated": "2019-09-29T06:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2406,7 +2406,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tesseract-lang_git.bb",
+            "filename": "tesseract-lang_4.0.0.bb",
             "filepath": "recipes-graphics/tesseract",
             "homepage": "",
             "id": 973825,
@@ -2415,10 +2415,10 @@
             "license": "Apache-2.0",
             "pn": "tesseract-lang",
             "provides": "tesseract-lang ",
-            "pv": "3.04.00+gitX",
+            "pv": "4.0.0",
             "section": "base",
             "summary": "tesseract-ocr language files",
-            "updated": "2019-06-13T17:06:01+0000"
+            "updated": "2019-09-29T06:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3470,7 +3470,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The core analysis suite is a self-contained tool that can be used toinvestigate either live systems, kernel core dumps created from thenetdump, diskdump and kdump packages from Red Hat Linux, the mcore kernel patchoffered by Mission Critical Linux, or the LKCD kernel patch.",
-            "filename": "crash_7.2.6.bb",
+            "filename": "crash_7.2.7.bb",
             "filepath": "recipes-kernel/crash",
             "homepage": "http://people.redhat.com/anderson",
             "id": 973881,
@@ -3479,10 +3479,10 @@
             "license": "GPLv3",
             "pn": "crash",
             "provides": "crash ",
-            "pv": "7.2.6",
+            "pv": "7.2.7",
             "section": "devel",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2019-09-03T00:09:48+0000"
+            "updated": "2019-09-29T06:09:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4869,7 +4869,7 @@
             "pv": "0.9.66",
             "section": "net",
             "summary": "",
-            "updated": "2019-09-23T23:09:20+0000"
+            "updated": "2019-09-29T06:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -5857,7 +5857,7 @@
             "pv": "1.8.8",
             "section": "inputmethods",
             "summary": "",
-            "updated": "2019-09-23T23:09:20+0000"
+            "updated": "2019-09-29T06:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -6902,7 +6902,7 @@
             "pv": "2.03.02",
             "section": "utils",
             "summary": "",
-            "updated": "2019-09-16T20:09:10+0000"
+            "updated": "2019-09-29T06:09:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8289,7 +8289,7 @@
             "pv": "4.2.0+gitX",
             "section": "base",
             "summary": "mongodb",
-            "updated": "2019-09-24T23:09:00+0000"
+            "updated": "2019-09-29T06:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -8809,7 +8809,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "sanlock  is  a lock manager built on shared storage.  Hosts with access to the storage can perform locking.   An  application  running  on  the hosts  is  given  a small amount of space on the shared block device or file, and uses sanlock for its  own  application-specific  synchronization. Internally,  the  sanlock  daemon manages locks using two disk-based lease algorithms: delta leases and paxos leases.",
-            "filename": "sanlock_3.6.0.bb",
+            "filename": "sanlock_3.8.0.bb",
             "filepath": "recipes-extended/sanlock",
             "homepage": "https://pagure.io/sanlock",
             "id": 974165,
@@ -8818,17 +8818,17 @@
             "license": "LGPLv2+ & GPLv2 & GPLv2+",
             "pn": "sanlock",
             "provides": "sanlock ",
-            "pv": "3.6.0",
+            "pv": "3.8.0",
             "section": "utils",
             "summary": "A shared storage lock manager",
-            "updated": "2019-06-13T17:06:52+0000"
+            "updated": "2019-09-29T06:09:50+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The haveged project is an attempt to provide an easy-to-use, unpredictable random number generator based upon an adaptation of the HAVEGE algorithm. Haveged was created to remedy low-entropy conditions in the Linux random device that can occur under some workloads, especially on headless servers.",
-            "filename": "haveged_1.9.4.bb",
+            "filename": "haveged_1.9.6.bb",
             "filepath": "recipes-extended/haveged",
             "homepage": "http://www.issihosts.com/haveged/index.html",
             "id": 974166,
@@ -8837,10 +8837,10 @@
             "license": "GPLv3",
             "pn": "haveged",
             "provides": "haveged ",
-            "pv": "1.9.4",
+            "pv": "1.9.6",
             "section": "base",
             "summary": "haveged - A simple entropy daemon",
-            "updated": "2019-06-17T20:06:44+0000"
+            "updated": "2019-09-29T06:09:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -10439,7 +10439,7 @@
             "updated": "2019-09-11T23:09:10+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/esnet/iperf/issues",
             "description": "iperf is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the bandwidth, loss, and other parameters.",
@@ -10455,7 +10455,7 @@
             "pv": "3.7",
             "section": "console/network",
             "summary": "Network benchmark tool",
-            "updated": "2019-07-22T20:07:11+0000"
+            "updated": "2019-09-29T06:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -10766,7 +10766,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "fio is an I/O tool meant to be used both for benchmark and stress/hardware verification. It has support for a number of I/O engines, I/O priorities (for newer Linux kernels), rate I/O, forked or threaded jobs, and much more. It can work on block devices as well as files. fio accepts job descriptions in a simple-to-understand text format. Several example job files are included. fio displays all sorts of I/O performance information.",
-            "filename": "fio_3.15.bb",
+            "filename": "fio_3.16.bb",
             "filepath": "recipes-benchmark/fio",
             "homepage": "http://freecode.com/projects/fio",
             "id": 974270,
@@ -10775,10 +10775,10 @@
             "license": "GPLv2",
             "pn": "fio",
             "provides": "fio ",
-            "pv": "3.15",
+            "pv": "3.16",
             "section": "console/tests",
             "summary": "Filesystem and hardware benchmark and stress tool",
-            "updated": "2019-08-08T19:08:09+0000"
+            "updated": "2019-09-29T06:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -11298,7 +11298,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.",
-            "filename": "protobuf_3.9.1.bb",
+            "filename": "protobuf_3.9.2.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/google/protobuf",
             "id": 974301,
@@ -11307,10 +11307,10 @@
             "license": "BSD-3-Clause",
             "pn": "protobuf",
             "provides": "protobuf ",
-            "pv": "3.9.1",
+            "pv": "3.9.2",
             "section": "console/tools",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2019-08-12T19:08:20+0000"
+            "updated": "2019-09-29T06:09:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13533,7 +13533,7 @@
             "pv": "1.6",
             "section": "base",
             "summary": "Linux Key Management Utilities",
-            "updated": "2019-09-03T00:09:49+0000"
+            "updated": "2019-09-29T06:09:52+0000"
         },
         {
             "bbclassextend": "",
