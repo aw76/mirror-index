@@ -141,10 +141,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-10-08T01:10:50+0000",
-            "vcs_last_commit": "2019-10-08T01:10:50+0000",
-            "vcs_last_fetch": "2019-10-08T01:10:50+0000",
-            "vcs_last_rev": "818b3862c8877e5da14e1bed8d4d5e186a4f39e5",
+            "updated": "2019-10-09T03:10:45+0000",
+            "vcs_last_commit": "2019-10-09T03:10:45+0000",
+            "vcs_last_fetch": "2019-10-09T03:10:45+0000",
+            "vcs_last_rev": "2d4712e0bbc3c3dc0835a2871f70a314351ab3e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -190,6 +190,12 @@
             "id": 23143,
             "layerbranch": 14976,
             "required": true
+        },
+        {
+            "dependency": 322,
+            "id": 56149,
+            "layerbranch": 14976,
+            "required": false
         }
     ],
     "layerItems": [
@@ -267,7 +273,7 @@
             "pv": "4.9.1",
             "section": "base",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2019-10-08T01:10:27+0000"
+            "updated": "2019-10-08T19:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -286,7 +292,7 @@
             "pv": "2.7.2",
             "section": "base",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2019-10-08T01:10:27+0000"
+            "updated": "2019-10-08T19:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -305,7 +311,7 @@
             "pv": "1.850",
             "section": "base",
             "summary": "Web-based administration interface",
-            "updated": "2019-10-08T01:10:28+0000"
+            "updated": "2019-10-08T19:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -324,7 +330,7 @@
             "pv": "1.17.0",
             "section": "base",
             "summary": "Real-time performance monitoring",
-            "updated": "2019-10-08T01:10:28+0000"
+            "updated": "2019-10-08T19:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -343,7 +349,7 @@
             "pv": "1.6.4",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-08T01:10:28+0000"
+            "updated": "2019-10-08T19:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -362,7 +368,7 @@
             "pv": "2.4.2",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-08T01:10:29+0000"
+            "updated": "2019-10-08T19:10:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -381,7 +387,7 @@
             "pv": "2.4.41",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2019-10-08T01:10:29+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -400,7 +406,7 @@
             "pv": "1.16.0",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2019-10-08T01:10:29+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -419,7 +425,7 @@
             "pv": "1.17.0",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2019-10-08T01:10:29+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -438,7 +444,7 @@
             "pv": "1.5.6",
             "section": "net",
             "summary": "Fast and Lightweight HTTP Server for Linux",
-            "updated": "2019-10-08T01:10:29+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -457,7 +463,7 @@
             "pv": "0.1.1+gitX",
             "section": "net",
             "summary": "Websocket module for Apache web server",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -476,7 +482,7 @@
             "pv": "1.9.6",
             "section": "base",
             "summary": "A simple, fast and secure HTTP server",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -495,7 +501,7 @@
             "pv": "2.27.1",
             "section": "base",
             "summary": "A simple, small, portable, fast, and secure HTTP server",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -514,7 +520,7 @@
             "pv": "10.7",
             "section": "net",
             "summary": "Lightweight secure web server",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -533,7 +539,7 @@
             "pv": "1.2.104+gitX",
             "section": "network",
             "summary": "Cherokee Web Server fast and secure",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -552,7 +558,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "meta-webserver build test image",
-            "updated": "2019-10-08T01:10:31+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -571,7 +577,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "meta-webserver build test image",
-            "updated": "2019-10-08T01:10:31+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -590,7 +596,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-webserver packagegroups",
-            "updated": "2019-10-08T01:10:31+0000"
+            "updated": "2019-10-08T19:10:13+0000"
         }
     ],
     "wrtemplates": []

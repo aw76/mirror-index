@@ -141,10 +141,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-10-08T01:10:50+0000",
-            "vcs_last_commit": "2019-10-08T01:10:50+0000",
-            "vcs_last_fetch": "2019-10-08T01:10:50+0000",
-            "vcs_last_rev": "818b3862c8877e5da14e1bed8d4d5e186a4f39e5",
+            "updated": "2019-10-09T03:10:45+0000",
+            "vcs_last_commit": "2019-10-09T03:10:45+0000",
+            "vcs_last_fetch": "2019-10-09T03:10:45+0000",
+            "vcs_last_rev": "2d4712e0bbc3c3dc0835a2871f70a314351ab3e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -190,6 +190,12 @@
             "id": 23144,
             "layerbranch": 14966,
             "required": true
+        },
+        {
+            "dependency": 320,
+            "id": 56150,
+            "layerbranch": 14966,
+            "required": false
         }
     ],
     "layerItems": [
@@ -267,7 +273,7 @@
             "pv": "1.11",
             "section": "mail",
             "summary": "Construct and optionally mail MIME messages",
-            "updated": "2019-10-08T01:10:17+0000"
+            "updated": "2019-10-08T19:10:00+0000"
         },
         {
             "bbclassextend": "",
@@ -286,7 +292,7 @@
             "pv": "1.3.20",
             "section": "Applications/System",
             "summary": "Analyzes log files and sends noticeable events as email",
-            "updated": "2019-10-08T01:10:17+0000"
+            "updated": "2019-10-08T19:10:00+0000"
         },
         {
             "bbclassextend": "native",
@@ -305,7 +311,7 @@
             "pv": "2.000006",
             "section": "libs",
             "summary": "strictures - turn on strict and make all warnings fatal",
-            "updated": "2019-10-08T01:10:18+0000"
+            "updated": "2019-10-08T19:10:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -324,7 +330,7 @@
             "pv": "5.2",
             "section": "libs",
             "summary": "Automatically give your module the ability to have plugins",
-            "updated": "2019-10-08T01:10:18+0000"
+            "updated": "2019-10-08T19:10:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -343,7 +349,7 @@
             "pv": "0.016",
             "section": "libs",
             "summary": "Module::Runtime - runtime module handling",
-            "updated": "2019-10-08T01:10:18+0000"
+            "updated": "2019-10-08T19:10:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -362,7 +368,7 @@
             "pv": "0.039",
             "section": "libs",
             "summary": "Module::Build::Tiny - A tiny replacement for Module::Build",
-            "updated": "2019-10-08T01:10:19+0000"
+            "updated": "2019-10-08T19:10:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -381,7 +387,7 @@
             "pv": "0.11",
             "section": "libs",
             "summary": "Guess OpenSSL include path",
-            "updated": "2019-10-08T01:10:19+0000"
+            "updated": "2019-10-08T19:10:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -400,7 +406,7 @@
             "pv": "0.15",
             "section": "libs",
             "summary": "Crypt::OpenSSL::Random - OpenSSL/LibreSSL pseudo-random number generator access",
-            "updated": "2019-10-08T01:10:19+0000"
+            "updated": "2019-10-08T19:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -419,7 +425,7 @@
             "pv": "0.31",
             "section": "libs",
             "summary": "Crypt Openssl RSA cpan module",
-            "updated": "2019-10-08T01:10:19+0000"
+            "updated": "2019-10-08T19:10:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -438,7 +444,7 @@
             "pv": "0.48",
             "section": "libs",
             "summary": "Capture::Tiny - Capture STDOUT and STDERR from Perl, XS or external programs.",
-            "updated": "2019-10-08T01:10:20+0000"
+            "updated": "2019-10-08T19:10:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -457,7 +463,7 @@
             "pv": "0.66",
             "section": "libs",
             "summary": "LDAP Perl module",
-            "updated": "2019-10-08T01:10:20+0000"
+            "updated": "2019-10-08T19:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -476,7 +482,7 @@
             "pv": "3.04",
             "section": "Development/Libraries",
             "summary": "Net-Telnet Perl module",
-            "updated": "2019-10-08T01:10:20+0000"
+            "updated": "2019-10-08T19:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -495,7 +501,7 @@
             "pv": "1.85",
             "section": "libs",
             "summary": "Net::SSLeay - Perl extension for using OpenSSL",
-            "updated": "2019-10-08T01:10:20+0000"
+            "updated": "2019-10-08T19:10:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -514,7 +520,7 @@
             "pv": "1.21",
             "section": "libs",
             "summary": "",
-            "updated": "2019-10-08T01:10:21+0000"
+            "updated": "2019-10-08T19:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -533,7 +539,7 @@
             "pv": "0.12",
             "section": "libs",
             "summary": "Net::LibIDN - Perl bindings for GNU Libidn",
-            "updated": "2019-10-08T01:10:21+0000"
+            "updated": "2019-10-08T19:10:04+0000"
         },
         {
             "bbclassextend": "native",
@@ -552,7 +558,7 @@
             "pv": "3.72",
             "section": "libs",
             "summary": "",
-            "updated": "2019-10-08T01:10:21+0000"
+            "updated": "2019-10-08T19:10:04+0000"
         },
         {
             "bbclassextend": "native",
@@ -571,7 +577,7 @@
             "pv": "5.03",
             "section": "libs",
             "summary": "HTML::TreeBuilder - Parser that builds a HTML syntax tree",
-            "updated": "2019-10-08T01:10:21+0000"
+            "updated": "2019-10-08T19:10:04+0000"
         },
         {
             "bbclassextend": "native",
@@ -590,7 +596,7 @@
             "pv": "1.03",
             "section": "libs",
             "summary": "Keyed-Hashing for Message Authentication",
-            "updated": "2019-10-08T01:10:22+0000"
+            "updated": "2019-10-08T19:10:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -609,7 +615,7 @@
             "pv": "2.13",
             "section": "libs",
             "summary": "Perl interface to the SHA-1 algorithm ",
-            "updated": "2019-10-08T01:10:22+0000"
+            "updated": "2019-10-08T19:10:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -628,7 +634,7 @@
             "pv": "2.38",
             "section": "libraries",
             "summary": "Term::ReadKey - A perl module for simple terminal control.",
-            "updated": "2019-10-08T01:10:23+0000"
+            "updated": "2019-10-08T19:10:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -647,7 +653,7 @@
             "pv": "2.16",
             "section": "libs",
             "summary": "SASL Authentication framework for Perl",
-            "updated": "2019-10-08T01:10:23+0000"
+            "updated": "2019-10-08T19:10:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -666,7 +672,7 @@
             "pv": "0.14",
             "section": "libs",
             "summary": "Function returning \\\"${^GLOBAL_PHASE} eq \\'DESTRUCT\\'\\\"",
-            "updated": "2019-10-08T01:10:23+0000"
+            "updated": "2019-10-08T19:10:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -685,7 +691,7 @@
             "pv": "1.012.2",
             "section": "libs",
             "summary": "MIME::Charset - Charset Information for MIME.",
-            "updated": "2019-10-08T01:10:23+0000"
+            "updated": "2019-10-08T19:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -704,7 +710,7 @@
             "pv": "2.17",
             "section": "libraries",
             "summary": "MIME::Types - Definition of MIME types",
-            "updated": "2019-10-08T01:10:24+0000"
+            "updated": "2019-10-08T19:10:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -723,7 +729,7 @@
             "pv": "0.012",
             "section": "libs",
             "summary": "ExtUtils::InstallPaths - Build.PL install path logic made easy",
-            "updated": "2019-10-08T01:10:24+0000"
+            "updated": "2019-10-08T19:10:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -742,7 +748,7 @@
             "pv": "0.12",
             "section": "libs",
             "summary": "ExtUtils::CppGuess - guess C++ compiler and flags",
-            "updated": "2019-10-08T01:10:24+0000"
+            "updated": "2019-10-08T19:10:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -761,7 +767,7 @@
             "pv": "0.026",
             "section": "libs",
             "summary": "ExtUtils::Helpers - Various portability utilities for module builders",
-            "updated": "2019-10-08T01:10:24+0000"
+            "updated": "2019-10-08T19:10:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -780,7 +786,7 @@
             "pv": "0.008",
             "section": "libs",
             "summary": "ExtUtils::Config - A wrapper for perl's configuration",
-            "updated": "2019-10-08T01:10:25+0000"
+            "updated": "2019-10-08T19:10:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -799,7 +805,7 @@
             "pv": "3.35",
             "section": "libs",
             "summary": "ExtUtils::ParseXS - converts Perl XS code into C code",
-            "updated": "2019-10-08T01:10:25+0000"
+            "updated": "2019-10-08T19:10:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -818,7 +824,7 @@
             "pv": "0.49",
             "section": "base",
             "summary": "PO for anything",
-            "updated": "2019-10-08T01:10:25+0000"
+            "updated": "2019-10-08T19:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -837,7 +843,7 @@
             "pv": "1.36",
             "section": "libs",
             "summary": "",
-            "updated": "2019-10-08T01:10:26+0000"
+            "updated": "2019-10-08T19:10:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -856,7 +862,7 @@
             "pv": "1.62",
             "section": "libs",
             "summary": "A Perl DBI driver for SQLite",
-            "updated": "2019-10-08T01:10:26+0000"
+            "updated": "2019-10-08T19:10:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -875,7 +881,7 @@
             "pv": "0.04",
             "section": "libs",
             "summary": "Text::CharWidth - Get number of occupied columns of a string on terminal.",
-            "updated": "2019-10-08T01:10:26+0000"
+            "updated": "2019-10-08T19:10:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -894,7 +900,7 @@
             "pv": "1.41",
             "section": "libs",
             "summary": "Text::Diff - Perform diffs on files and record sets",
-            "updated": "2019-10-08T01:10:27+0000"
+            "updated": "2019-10-08T19:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -913,7 +919,7 @@
             "pv": "1.7",
             "section": "libs",
             "summary": "Perl interface to iconv() codeset conversion function",
-            "updated": "2019-10-08T01:10:27+0000"
+            "updated": "2019-10-08T19:10:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -932,7 +938,7 @@
             "pv": "0.06",
             "section": "libs",
             "summary": "Text::WrapI18N - Line wrapping module with support for multibyte, fullwidth, and combining characters and languages without whitespaces between words.",
-            "updated": "2019-10-08T01:10:27+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -951,7 +957,7 @@
             "pv": "2.12",
             "section": "libs",
             "summary": "Class::Method::Modifiers - provides Moose-like method modifiers",
-            "updated": "2019-10-08T01:10:27+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -970,7 +976,7 @@
             "pv": "2.111",
             "section": "devel",
             "summary": "IO-stringy - I/O on in-core objects like strings and arrays",
-            "updated": "2019-10-08T01:10:27+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -989,7 +995,7 @@
             "pv": "2.066",
             "section": "libs",
             "summary": "Perl library for transparent SSL",
-            "updated": "2019-10-08T01:10:28+0000"
+            "updated": "2019-10-08T19:10:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -1008,7 +1014,7 @@
             "pv": "2.0134",
             "section": "libs",
             "summary": "Perl interface to the libxml2 library",
-            "updated": "2019-10-08T01:10:28+0000"
+            "updated": "2019-10-08T19:10:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -1027,7 +1033,7 @@
             "pv": "0.57",
             "section": "libs",
             "summary": "XML::SAX::Writer - SAX2 Writer",
-            "updated": "2019-10-08T01:10:28+0000"
+            "updated": "2019-10-08T19:10:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -1046,7 +1052,7 @@
             "pv": "1.01",
             "section": "libs",
             "summary": "XML::Filter::BufferText - Filter to put all characters() in one event",
-            "updated": "2019-10-08T01:10:29+0000"
+            "updated": "2019-10-08T19:10:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -1065,7 +1071,7 @@
             "pv": "1.07",
             "section": "libs",
             "summary": "Locale::gettext - message handling functions.",
-            "updated": "2019-10-08T01:10:29+0000"
+            "updated": "2019-10-08T19:10:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -1084,7 +1090,7 @@
             "pv": "1.15",
             "section": "libs",
             "summary": "Algorithm::Diff - Compute 'intelligent' differences between two files/lists",
-            "updated": "2019-10-08T01:10:29+0000"
+            "updated": "2019-10-08T19:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1103,7 +1109,7 @@
             "pv": "1.00",
             "section": "libs",
             "summary": "IPC::Signal - Utility functions dealing with signals",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -1122,7 +1128,7 @@
             "pv": "0.02",
             "section": "libs",
             "summary": "Data::HexDump - Hexadecial Dumper",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1141,7 +1147,7 @@
             "pv": "1.00",
             "section": "libraries",
             "summary": "Interpret and act on wait() status values",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -1160,7 +1166,7 @@
             "pv": "0.001013",
             "section": "libs",
             "summary": "Sub::Exporter::Progressive - Only use Sub::Exporter if you need it.",
-            "updated": "2019-10-08T01:10:30+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -1179,7 +1185,7 @@
             "pv": "1.002004",
             "section": "libs",
             "summary": "Import::Into - import packages into other packages",
-            "updated": "2019-10-08T01:10:31+0000"
+            "updated": "2019-10-08T19:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1198,7 +1204,7 @@
             "pv": "3.118",
             "section": "base/utils",
             "summary": "a utility to add users/groups to the system",
-            "updated": "2019-10-08T01:10:31+0000"
+            "updated": "2019-10-08T19:10:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -1217,7 +1223,7 @@
             "pv": "2.003004",
             "section": "libs",
             "summary": "Moo - Minimalist Object Orientation (with Moose compatibility)",
-            "updated": "2019-10-08T01:10:32+0000"
+            "updated": "2019-10-08T19:10:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -1236,7 +1242,7 @@
             "pv": "9999.19",
             "section": "libs",
             "summary": "Slurp entire files into variables.",
-            "updated": "2019-10-08T01:10:32+0000"
+            "updated": "2019-10-08T19:10:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -1255,7 +1261,7 @@
             "pv": "4.44",
             "section": "libs",
             "summary": "",
-            "updated": "2019-10-08T01:10:32+0000"
+            "updated": "2019-10-08T19:10:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -1274,7 +1280,7 @@
             "pv": "2.000006",
             "section": "libs",
             "summary": "Role::Tiny - Roles. Like a nouvelle cousine portion size of Moose.",
-            "updated": "2019-10-08T01:10:33+0000"
+            "updated": "2019-10-08T19:10:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -1293,7 +1299,7 @@
             "pv": "3.42",
             "section": "libs",
             "summary": "Test::Harness - Run Perl standard test scripts with statistics",
-            "updated": "2019-10-08T01:10:33+0000"
+            "updated": "2019-10-08T19:10:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -1312,7 +1318,7 @@
             "pv": "2019.001",
             "section": "libs",
             "summary": "Unicode::LineBreak - UAX #14 Unicode Line Breaking Algorithm.",
-            "updated": "2019-10-08T01:10:33+0000"
+            "updated": "2019-10-08T19:10:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -1331,7 +1337,7 @@
             "pv": "3.01",
             "section": "lib",
             "summary": "Encode - character encodings",
-            "updated": "2019-10-08T01:10:34+0000"
+            "updated": "2019-10-08T19:10:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -1350,7 +1356,7 @@
             "pv": "1.05",
             "section": "libs",
             "summary": "Encode::Locale - Determine the locale encoding",
-            "updated": "2019-10-08T01:10:34+0000"
+            "updated": "2019-10-08T19:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1369,7 +1375,7 @@
             "pv": "1.10",
             "section": "libs",
             "summary": "",
-            "updated": "2019-10-08T01:10:34+0000"
+            "updated": "2019-10-08T19:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1388,7 +1394,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "meta-per build test image",
-            "updated": "2019-10-08T01:10:35+0000"
+            "updated": "2019-10-08T19:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1407,7 +1413,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "meta-perl build test image",
-            "updated": "2019-10-08T01:10:35+0000"
+            "updated": "2019-10-08T19:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1426,7 +1432,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "meta-perl build ptest image",
-            "updated": "2019-10-08T01:10:36+0000"
+            "updated": "2019-10-08T19:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1445,7 +1451,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-perl packagegroup",
-            "updated": "2019-10-08T01:10:36+0000"
+            "updated": "2019-10-08T19:10:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -1464,7 +1470,7 @@
             "pv": "3.20",
             "section": "libs",
             "summary": "HTML::Tageset -  data tables useful in parsing HTML",
-            "updated": "2019-10-08T01:10:36+0000"
+            "updated": "2019-10-08T19:10:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -1483,7 +1489,7 @@
             "pv": "1.128",
             "section": "libs",
             "summary": "Test::Deep - Extremely flexible deep comparison",
-            "updated": "2019-10-08T01:10:36+0000"
+            "updated": "2019-10-08T19:10:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1502,7 +1508,7 @@
             "pv": "0.2800",
             "section": "libs",
             "summary": "Sub::Uplevel - apparently run a function in a higher stack frame",
-            "updated": "2019-10-08T01:10:37+0000"
+            "updated": "2019-10-08T19:10:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1521,7 +1527,7 @@
             "pv": "1.04",
             "section": "libs",
             "summary": "Make sure you didn't emit any warnings while testing",
-            "updated": "2019-10-08T01:10:37+0000"
+            "updated": "2019-10-08T19:10:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1540,7 +1546,7 @@
             "pv": "0.36",
             "section": "libs",
             "summary": "Test::Warn - Perl extension to test methods for warnings",
-            "updated": "2019-10-08T01:10:37+0000"
+            "updated": "2019-10-08T19:10:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -1559,7 +1565,7 @@
             "pv": "1.04",
             "section": "libs",
             "summary": "Perl module that imports environment variables as scalars or arrays",
-            "updated": "2019-10-08T01:10:38+0000"
+            "updated": "2019-10-08T19:10:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -1578,7 +1584,7 @@
             "pv": "0.22",
             "section": "libs",
             "summary": "Authen::Radius - provide simple Radius client facilities",
-            "updated": "2019-10-08T01:10:38+0000"
+            "updated": "2019-10-08T19:10:18+0000"
         }
     ],
     "wrtemplates": []

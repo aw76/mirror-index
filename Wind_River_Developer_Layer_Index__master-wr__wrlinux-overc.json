@@ -149,10 +149,10 @@
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-10-08T01:10:50+0000",
-            "vcs_last_commit": "2019-10-08T01:10:50+0000",
-            "vcs_last_fetch": "2019-10-08T01:10:50+0000",
-            "vcs_last_rev": "818b3862c8877e5da14e1bed8d4d5e186a4f39e5",
+            "updated": "2019-10-09T03:10:45+0000",
+            "vcs_last_commit": "2019-10-09T03:10:45+0000",
+            "vcs_last_fetch": "2019-10-09T03:10:45+0000",
+            "vcs_last_rev": "2d4712e0bbc3c3dc0835a2871f70a314351ab3e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
@@ -177,10 +177,10 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-10-07T23:10:06+0000",
-            "vcs_last_commit": "2019-10-07T23:10:06+0000",
-            "vcs_last_fetch": "2019-10-07T23:10:06+0000",
-            "vcs_last_rev": "c3662430145dbbc053ae3e180718735f09f52fd8",
+            "updated": "2019-10-09T01:10:25+0000",
+            "vcs_last_commit": "2019-10-09T01:10:25+0000",
+            "vcs_last_fetch": "2019-10-09T01:10:25+0000",
+            "vcs_last_rev": "0bbdc57b32b108ba9d7cad40803dc7952b306efd",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 11
@@ -219,10 +219,10 @@
             "collection": "wrlinux-overc",
             "id": 836117,
             "layer": 251,
-            "updated": "2019-09-06T17:09:27+0000",
-            "vcs_last_commit": "2019-09-06T17:09:27+0000",
-            "vcs_last_fetch": "2019-09-06T17:09:27+0000",
-            "vcs_last_rev": "ef680f23e7fd618818c16f628394ebb7eeb0e39c",
+            "updated": "2019-10-09T01:10:25+0000",
+            "vcs_last_commit": "2019-10-09T01:10:25+0000",
+            "vcs_last_fetch": "2019-10-09T01:10:25+0000",
+            "vcs_last_rev": "0bbdc57b32b108ba9d7cad40803dc7952b306efd",
             "vcs_subdir": "wrlinux-overc",
             "version": "1",
             "yp_compatible_version": 11
@@ -239,6 +239,20 @@
             "vcs_last_rev": "639a999f5b83640b075c0306ea53b3da8913522d",
             "vcs_subdir": "",
             "version": "1",
+            "yp_compatible_version": 11
+        },
+        {
+            "actual_branch": "",
+            "branch": 38,
+            "collection": "ostree-layer",
+            "id": 851316,
+            "layer": 292,
+            "updated": "2019-10-08T02:10:09+0000",
+            "vcs_last_commit": "2019-10-08T02:10:09+0000",
+            "vcs_last_fetch": "2019-10-08T02:10:09+0000",
+            "vcs_last_rev": "60ae99fdb76749601e32ff9d13e776f1a11926ae",
+            "vcs_subdir": "",
+            "version": null,
             "yp_compatible_version": 11
         }
     ],
@@ -276,6 +290,12 @@
         {
             "dependency": 270,
             "id": 43297,
+            "layerbranch": 836117,
+            "required": true
+        },
+        {
+            "dependency": 292,
+            "id": 56427,
             "layerbranch": 836117,
             "required": true
         }
@@ -403,6 +423,24 @@
             "usage_url": "",
             "vcs_url": "#BASE_URL#/wrlinux-overc-cfg",
             "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wrlinux-overc-cfg/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "The layer contains ostree package and bbclass to generate ostree type image for rootfs.",
+            "id": 292,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "wr-ostree",
+            "status": "P",
+            "summary": "Support ostree update method",
+            "updated": "2019-08-08T06:08:26+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wr-ostree",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-ostree.git/commit/id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
