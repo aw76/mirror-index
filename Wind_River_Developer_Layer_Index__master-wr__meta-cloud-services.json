@@ -97,61 +97,82 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190929",
+            "bitbake_branch": "wr-10.19-20191007",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-29T06:09:33+0000",
+            "updated": "2019-10-07T19:10:48+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-28T22:09:58+0000",
-            "vcs_last_commit": "2019-09-28T22:09:58+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
-            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
+            "updated": "2019-10-08T01:10:50+0000",
+            "vcs_last_commit": "2019-10-08T01:10:50+0000",
+            "vcs_last_fetch": "2019-10-08T01:10:50+0000",
+            "vcs_last_rev": "818b3862c8877e5da14e1bed8d4d5e186a4f39e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "filesystems-layer",
             "id": 14959,
             "layer": 8,
-            "updated": "2019-09-28T22:09:09+0000",
-            "vcs_last_commit": "2019-09-28T22:09:09+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:09+0000",
-            "vcs_last_rev": "ce132f7b554803df0bd2608639ad270d17844c6b",
+            "updated": "2019-10-08T00:10:45+0000",
+            "vcs_last_commit": "2019-10-08T00:10:45+0000",
+            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
+            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-09-29T02:09:25+0000",
-            "vcs_last_commit": "2019-09-29T02:09:25+0000",
-            "vcs_last_fetch": "2019-09-29T02:09:25+0000",
-            "vcs_last_rev": "c161509197ad2fda62f1a997f1d9145f1219fa08",
+            "updated": "2019-10-08T00:10:45+0000",
+            "vcs_last_commit": "2019-10-08T00:10:45+0000",
+            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
+            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
@@ -162,10 +183,10 @@
             "collection": "cloud-services-layer",
             "id": 52439,
             "layer": 141,
-            "updated": "2019-09-24T18:09:08+0000",
-            "vcs_last_commit": "2019-09-24T18:09:08+0000",
-            "vcs_last_fetch": "2019-09-24T18:09:08+0000",
-            "vcs_last_rev": "f21838fa2f78a3da8b1d9e2d2e56b28e25aabc79",
+            "updated": "2019-10-08T01:10:26+0000",
+            "vcs_last_commit": "2019-10-08T01:10:26+0000",
+            "vcs_last_fetch": "2019-10-08T01:10:26+0000",
+            "vcs_last_rev": "2533d6d35fbf63181aff11be5c6f62ec1c2a5a90",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 9
@@ -179,12 +200,6 @@
             "required": true
         },
         {
-            "dependency": 272,
-            "id": 44884,
-            "layerbranch": 52439,
-            "required": false
-        },
-        {
             "dependency": 8,
             "id": 50833,
             "layerbranch": 52439,
@@ -195,6 +210,12 @@
             "id": 53287,
             "layerbranch": 52439,
             "required": true
+        },
+        {
+            "dependency": 308,
+            "id": 56139,
+            "layerbranch": 52439,
+            "required": false
         }
     ],
     "layerItems": [

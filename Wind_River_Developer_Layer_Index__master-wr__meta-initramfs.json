@@ -97,47 +97,68 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190929",
+            "bitbake_branch": "wr-10.19-20191007",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-29T06:09:33+0000",
+            "updated": "2019-10-07T19:10:48+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-28T22:09:58+0000",
-            "vcs_last_commit": "2019-09-28T22:09:58+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
-            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
+            "updated": "2019-10-08T01:10:50+0000",
+            "vcs_last_commit": "2019-10-08T01:10:50+0000",
+            "vcs_last_fetch": "2019-10-08T01:10:50+0000",
+            "vcs_last_rev": "818b3862c8877e5da14e1bed8d4d5e186a4f39e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "meta-initramfs",
             "id": 14962,
             "layer": 4,
-            "updated": "2019-09-28T22:09:09+0000",
-            "vcs_last_commit": "2019-09-28T22:09:09+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:09+0000",
-            "vcs_last_rev": "ce132f7b554803df0bd2608639ad270d17844c6b",
+            "updated": "2019-10-08T00:10:45+0000",
+            "vcs_last_commit": "2019-10-08T00:10:45+0000",
+            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
+            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": 9
@@ -151,8 +172,8 @@
             "required": true
         },
         {
-            "dependency": 276,
-            "id": 44877,
+            "dependency": 316,
+            "id": 56135,
             "layerbranch": 14962,
             "required": false
         }
@@ -214,7 +235,7 @@
             "pv": "2.0.18+gitX",
             "section": "kernel/userland",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2019-03-19T19:03:35+0000"
+            "updated": "2019-10-08T02:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -233,7 +254,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Extremely basic live image init script",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2019-10-08T02:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -252,7 +273,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel",
-            "updated": "2019-09-03T00:09:37+0000"
+            "updated": "2019-10-08T02:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -271,7 +292,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
-            "updated": "2019-09-03T00:09:37+0000"
+            "updated": "2019-10-08T02:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -290,7 +311,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:16+0000"
+            "updated": "2019-10-08T02:10:46+0000"
         },
         {
             "bbclassextend": "klibc",
@@ -309,7 +330,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2019-03-19T19:03:35+0000"
+            "updated": "2019-10-08T02:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -328,7 +349,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "Configuration files for kexecboot",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2019-10-08T02:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -347,7 +368,7 @@
             "pv": "049",
             "section": "base",
             "summary": "Initramfs generator using udev",
-            "updated": "2019-06-25T00:06:53+0000"
+            "updated": "2019-10-08T02:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -366,7 +387,7 @@
             "pv": "2.0.6",
             "section": "libs",
             "summary": "klibc utils for initramfs",
-            "updated": "2019-09-08T19:09:37+0000"
+            "updated": "2019-10-08T02:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -385,7 +406,7 @@
             "pv": "2.0.6",
             "section": "libs",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2019-09-08T19:09:37+0000"
+            "updated": "2019-10-08T02:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -404,7 +425,7 @@
             "pv": "2.0.6",
             "section": "libs",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2019-09-08T19:09:38+0000"
+            "updated": "2019-10-08T02:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -423,7 +444,7 @@
             "pv": "2.0.6",
             "section": "libs",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2019-09-08T19:09:38+0000"
+            "updated": "2019-10-08T02:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -442,7 +463,7 @@
             "pv": "2.0.2",
             "section": "base",
             "summary": "UBI utils statically compiled against klibc",
-            "updated": "2019-03-19T19:03:35+0000"
+            "updated": "2019-10-08T02:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -461,7 +482,7 @@
             "pv": "8.40",
             "section": "base",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2019-08-21T19:08:19+0000"
+            "updated": "2019-10-08T02:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -480,7 +501,7 @@
             "pv": "git",
             "section": "base",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2019-09-03T00:09:37+0000"
+            "updated": "2019-10-08T02:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -499,7 +520,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "meta-initramfs build test image",
-            "updated": "2019-01-15T17:01:17+0000"
+            "updated": "2019-10-08T02:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -518,7 +539,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-initramfs packagegroups",
-            "updated": "2019-01-15T17:01:17+0000"
+            "updated": "2019-10-08T02:10:49+0000"
         }
     ],
     "wrtemplates": []

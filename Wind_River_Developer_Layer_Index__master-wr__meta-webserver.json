@@ -97,61 +97,82 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190929",
+            "bitbake_branch": "wr-10.19-20191007",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-29T06:09:33+0000",
+            "updated": "2019-10-07T19:10:48+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-28T22:09:58+0000",
-            "vcs_last_commit": "2019-09-28T22:09:58+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
-            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
+            "updated": "2019-10-08T01:10:50+0000",
+            "vcs_last_commit": "2019-10-08T01:10:50+0000",
+            "vcs_last_fetch": "2019-10-08T01:10:50+0000",
+            "vcs_last_rev": "818b3862c8877e5da14e1bed8d4d5e186a4f39e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-29T06:09:41+0000",
-            "vcs_last_commit": "2019-09-29T06:09:41+0000",
-            "vcs_last_fetch": "2019-09-29T06:09:41+0000",
-            "vcs_last_rev": "2d2bbd8d7dad9b0779c45117aff83845abc6b615",
+            "updated": "2019-10-08T00:10:45+0000",
+            "vcs_last_commit": "2019-10-08T00:10:45+0000",
+            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
+            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "webserver",
             "id": 14976,
             "layer": 10,
-            "updated": "2019-09-28T22:09:09+0000",
-            "vcs_last_commit": "2019-09-28T22:09:09+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:09+0000",
-            "vcs_last_rev": "ce132f7b554803df0bd2608639ad270d17844c6b",
+            "updated": "2019-10-08T00:10:45+0000",
+            "vcs_last_commit": "2019-10-08T00:10:45+0000",
+            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
+            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 9
@@ -169,12 +190,6 @@
             "id": 23143,
             "layerbranch": 14976,
             "required": true
-        },
-        {
-            "dependency": 285,
-            "id": 44880,
-            "layerbranch": 14976,
-            "required": false
         }
     ],
     "layerItems": [
@@ -252,7 +267,7 @@
             "pv": "4.9.1",
             "section": "base",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2019-09-24T23:09:10+0000"
+            "updated": "2019-10-08T01:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -271,7 +286,7 @@
             "pv": "2.7.2",
             "section": "base",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2019-06-17T20:06:05+0000"
+            "updated": "2019-10-08T01:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -290,7 +305,7 @@
             "pv": "1.850",
             "section": "base",
             "summary": "Web-based administration interface",
-            "updated": "2019-08-21T19:08:42+0000"
+            "updated": "2019-10-08T01:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -309,7 +324,7 @@
             "pv": "1.17.0",
             "section": "base",
             "summary": "Real-time performance monitoring",
-            "updated": "2019-09-16T20:09:20+0000"
+            "updated": "2019-10-08T01:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -328,7 +343,7 @@
             "pv": "1.6.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-10-08T01:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -347,7 +362,7 @@
             "pv": "2.4.2",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-17T20:06:05+0000"
+            "updated": "2019-10-08T01:10:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -366,7 +381,7 @@
             "pv": "2.4.41",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2019-09-08T19:09:00+0000"
+            "updated": "2019-10-08T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -385,7 +400,7 @@
             "pv": "1.16.0",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2019-05-28T23:05:45+0000"
+            "updated": "2019-10-08T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -404,7 +419,7 @@
             "pv": "1.17.0",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2019-05-28T23:05:45+0000"
+            "updated": "2019-10-08T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -423,7 +438,7 @@
             "pv": "1.5.6",
             "section": "net",
             "summary": "Fast and Lightweight HTTP Server for Linux",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2019-10-08T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -442,7 +457,7 @@
             "pv": "0.1.1+gitX",
             "section": "net",
             "summary": "Websocket module for Apache web server",
-            "updated": "2019-09-16T20:09:20+0000"
+            "updated": "2019-10-08T01:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -461,7 +476,7 @@
             "pv": "1.9.6",
             "section": "base",
             "summary": "A simple, fast and secure HTTP server",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2019-10-08T01:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -480,7 +495,7 @@
             "pv": "2.27.1",
             "section": "base",
             "summary": "A simple, small, portable, fast, and secure HTTP server",
-            "updated": "2019-07-24T19:07:56+0000"
+            "updated": "2019-10-08T01:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -499,7 +514,7 @@
             "pv": "10.7",
             "section": "net",
             "summary": "Lightweight secure web server",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2019-10-08T01:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -518,7 +533,7 @@
             "pv": "1.2.104+gitX",
             "section": "network",
             "summary": "Cherokee Web Server fast and secure",
-            "updated": "2018-10-05T09:10:28+0000"
+            "updated": "2019-10-08T01:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -537,7 +552,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "meta-webserver build test image",
-            "updated": "2019-01-15T17:01:31+0000"
+            "updated": "2019-10-08T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -556,7 +571,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "meta-webserver build test image",
-            "updated": "2019-01-15T17:01:31+0000"
+            "updated": "2019-10-08T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -575,7 +590,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta-webserver packagegroups",
-            "updated": "2019-01-15T17:01:31+0000"
+            "updated": "2019-10-08T01:10:31+0000"
         }
     ],
     "wrtemplates": []

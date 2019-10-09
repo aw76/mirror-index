@@ -97,47 +97,68 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190929",
+            "bitbake_branch": "wr-10.19-20191007",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-29T06:09:33+0000",
+            "updated": "2019-10-07T19:10:48+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-28T22:09:58+0000",
-            "vcs_last_commit": "2019-09-28T22:09:58+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
-            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
+            "updated": "2019-10-08T01:10:50+0000",
+            "vcs_last_commit": "2019-10-08T01:10:50+0000",
+            "vcs_last_fetch": "2019-10-08T01:10:50+0000",
+            "vcs_last_rev": "818b3862c8877e5da14e1bed8d4d5e186a4f39e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "meta-openssl-one-zero-two",
             "id": 845702,
             "layer": 300,
-            "updated": "2019-09-15T22:09:10+0000",
-            "vcs_last_commit": "2019-09-15T22:09:10+0000",
-            "vcs_last_fetch": "2019-09-15T22:09:10+0000",
-            "vcs_last_rev": "cb8f6c3097dd95a1ffb1dad8ec82772d65343e35",
+            "updated": "2019-10-06T20:10:41+0000",
+            "vcs_last_commit": "2019-10-06T20:10:41+0000",
+            "vcs_last_fetch": "2019-10-06T20:10:41+0000",
+            "vcs_last_rev": "425c3682e6e9863f83b371b63f738dc297350408",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 11
@@ -149,12 +170,6 @@
             "id": 52729,
             "layerbranch": 845702,
             "required": true
-        },
-        {
-            "dependency": 55,
-            "id": 52730,
-            "layerbranch": 845702,
-            "required": false
         },
         {
             "dependency": 306,
@@ -208,7 +223,7 @@
             "blacklisted": "",
             "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
             "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
-            "filename": "openssl_1.0.2s.bb",
+            "filename": "openssl_1.0.2t.bb",
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 983054,
@@ -217,10 +232,10 @@
             "license": "openssl",
             "pn": "openssl",
             "provides": "openssl ",
-            "pv": "1.0.2s",
+            "pv": "1.0.2t",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2019-09-15T23:09:45+0000"
+            "updated": "2019-10-07T19:10:44+0000"
         }
     ],
     "wrtemplates": [

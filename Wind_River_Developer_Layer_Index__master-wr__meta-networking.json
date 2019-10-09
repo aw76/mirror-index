@@ -97,75 +97,96 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20190929",
+            "bitbake_branch": "wr-10.19-20191007",
             "comparison": false,
             "id": 38,
             "name": "master-wr",
             "short_description": "Wind River Linux Development",
             "sort_priority": 1,
             "update_environment": null,
-            "updated": "2019-09-29T06:09:33+0000",
+            "updated": "2019-10-07T19:10:48+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-09-28T22:09:58+0000",
-            "vcs_last_commit": "2019-09-28T22:09:58+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:58+0000",
-            "vcs_last_rev": "33fbe43561ed91680793f0ffb11a8dac33156991",
+            "updated": "2019-10-08T01:10:50+0000",
+            "vcs_last_commit": "2019-10-08T01:10:50+0000",
+            "vcs_last_fetch": "2019-10-08T01:10:50+0000",
+            "vcs_last_rev": "818b3862c8877e5da14e1bed8d4d5e186a4f39e5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 14
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-09-29T02:09:25+0000",
-            "vcs_last_commit": "2019-09-29T02:09:25+0000",
-            "vcs_last_fetch": "2019-09-29T02:09:25+0000",
-            "vcs_last_rev": "c161509197ad2fda62f1a997f1d9145f1219fa08",
+            "updated": "2019-10-08T00:10:45+0000",
+            "vcs_last_commit": "2019-10-08T00:10:45+0000",
+            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
+            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-09-29T06:09:41+0000",
-            "vcs_last_commit": "2019-09-29T06:09:41+0000",
-            "vcs_last_fetch": "2019-09-29T06:09:41+0000",
-            "vcs_last_rev": "2d2bbd8d7dad9b0779c45117aff83845abc6b615",
+            "updated": "2019-10-08T00:10:45+0000",
+            "vcs_last_commit": "2019-10-08T00:10:45+0000",
+            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
+            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 9
         },
         {
-            "actual_branch": "wr-10.19-20190929",
+            "actual_branch": "wr-10.19-20191007",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-09-28T22:09:09+0000",
-            "vcs_last_commit": "2019-09-28T22:09:09+0000",
-            "vcs_last_fetch": "2019-09-28T22:09:09+0000",
-            "vcs_last_rev": "ce132f7b554803df0bd2608639ad270d17844c6b",
+            "updated": "2019-10-08T00:10:45+0000",
+            "vcs_last_commit": "2019-10-08T00:10:45+0000",
+            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
+            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 9
@@ -191,8 +212,8 @@
             "required": true
         },
         {
-            "dependency": 278,
-            "id": 44886,
+            "dependency": 318,
+            "id": 56138,
             "layerbranch": 14964,
             "required": false
         }
@@ -392,7 +413,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Kea is the next generation of DHCP software developed by ISC. It supports both DHCPv4 and DHCPv6 protocols along with their extensions, e.g. prefix delegation and dynamic updates to DNS.",
-            "filename": "kea_1.5.0.bb",
+            "filename": "kea_1.7.0.bb",
             "filepath": "recipes-connectivity/kea",
             "homepage": "http://kea.isc.org",
             "id": 724906,
@@ -401,10 +422,10 @@
             "license": "MPL-2.0 & Apache-2.0",
             "pn": "kea",
             "provides": "kea ",
-            "pv": "1.5.0",
+            "pv": "1.7.0",
             "section": "connectivity",
             "summary": "ISC Kea DHCP Server",
-            "updated": "2019-06-17T20:06:46+0000"
+            "updated": "2019-10-07T19:10:17+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -757,7 +778,7 @@
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 724927,
-            "inherits": "autotools bash-completion gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd vala",
+            "inherits": "autotools bash-completion gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo systemd update-rc.d upstream-version-is-even vala",
             "layerbranch": 14964,
             "license": "GPLv2+",
             "pn": "networkmanager",
@@ -765,7 +786,7 @@
             "pv": "1.18.2",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2019-09-08T19:09:31+0000"
+            "updated": "2019-10-07T19:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1756,7 +1777,7 @@
             "updated": "2019-09-03T00:09:06+0000"
         },
         {
-            "bbclassextend": "nativesdk",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "SPICE (the Simple Protocol for Independent Computing Environments) is a remote-display system built for virtual environments which allows users to view a computing 'desktop' environment - not only on its computer-server machine, but also from anywhere on the Internet and using a wide variety of machine architectures.",
@@ -1772,7 +1793,7 @@
             "pv": "0.14.2+gitX",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2019-09-29T06:09:28+0000"
+            "updated": "2019-10-07T19:10:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2171,7 +2192,7 @@
             "pv": "3.0.3",
             "section": "net",
             "summary": "",
-            "updated": "2019-09-23T23:09:10+0000"
+            "updated": "2019-10-07T19:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2342,7 +2363,7 @@
             "pv": "5.8.1",
             "section": "net",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2019-09-08T19:09:32+0000"
+            "updated": "2019-10-07T19:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2760,7 +2781,7 @@
             "pv": "5.19.07",
             "section": "admin",
             "summary": "OpenSAF is an open source implementation of the SAF AIS specification",
-            "updated": "2019-09-03T00:09:05+0000"
+            "updated": "2019-10-07T19:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3311,7 +3332,7 @@
             "pv": "5.8",
             "section": "net",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2019-07-31T01:07:21+0000"
+            "updated": "2019-10-07T19:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -3387,7 +3408,7 @@
             "pv": "2.4.4",
             "section": "base",
             "summary": "The Corosync Cluster Engine and Application Programming Interfaces",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-07T19:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -3660,7 +3681,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/firewalld/firewalld/issues",
             "description": "",
-            "filename": "firewalld_0.6.4.bb",
+            "filename": "firewalld_0.7.1.bb",
             "filepath": "recipes-connectivity/firewalld",
             "homepage": "https://firewalld.org/",
             "id": 917951,
@@ -3669,10 +3690,10 @@
             "license": "GPLv2+",
             "pn": "firewalld",
             "provides": "firewalld ",
-            "pv": "0.6.4",
+            "pv": "0.7.1",
             "section": "base",
             "summary": "Dynamic firewall daemon with a D-Bus interface",
-            "updated": "2019-09-29T06:09:27+0000"
+            "updated": "2019-10-07T19:10:16+0000"
         },
         {
             "bbclassextend": "",
