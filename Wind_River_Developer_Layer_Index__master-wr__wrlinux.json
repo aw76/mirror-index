@@ -317,10 +317,10 @@
     "machines": [
         {
             "description": "",
-            "id": 19919,
+            "id": 24657,
             "layerbranch": 15009,
             "name": "qemuarma9",
-            "updated": "2019-06-07T10:06:44+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         }
     ],
     "recipes": [
@@ -341,7 +341,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2019-10-06T00:10:43+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -360,7 +360,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2019-10-06T00:10:43+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -379,7 +379,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2019-10-06T00:10:43+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -398,7 +398,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2019-10-06T00:10:44+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -417,7 +417,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2019-10-06T00:10:44+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -436,7 +436,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2019-10-06T00:10:44+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -455,7 +455,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2019-10-06T00:10:38+0000"
+            "updated": "2019-10-11T07:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -466,7 +466,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 725729,
-            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrltemplate_image",
             "layerbranch": 15009,
             "license": "MIT",
             "pn": "wrlinux-image-installer-initramfs",
@@ -474,7 +474,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-06T00:10:38+0000"
+            "updated": "2019-10-11T07:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -485,7 +485,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 725730,
-            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux",
+            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux wrltemplate",
             "layerbranch": 15009,
             "license": "MIT",
             "pn": "wrlinux-image-installer",
@@ -493,7 +493,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-06T00:10:39+0000"
+            "updated": "2019-10-11T07:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -512,7 +512,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-06T00:10:39+0000"
+            "updated": "2019-10-11T07:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -531,7 +531,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-06T00:10:39+0000"
+            "updated": "2019-10-11T07:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -550,7 +550,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2019-10-06T00:10:40+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -569,444 +569,254 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-10-06T00:10:40+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "linux-libc-headers-custom.bb",
-            "filepath": "wrlinux-kernel-dev/recipes-kernel/linux-libc-headers",
-            "homepage": "",
-            "id": 754636,
-            "inherits": "",
-            "layerbranch": 15009,
-            "license": "",
-            "pn": "linux-libc-headers-custom",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "summary": "",
-            "updated": "2018-10-11T23:10:16+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "wrlinux-image-cgl.bb",
-            "filepath": "wrlinux-cgl/recipes-base/images",
-            "homepage": "",
-            "id": 951542,
-            "inherits": "",
-            "layerbranch": 15009,
-            "license": "",
-            "pn": "wrlinux-image-cgl",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "summary": "",
-            "updated": "2019-06-02T19:06:54+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Wind River Linux GNU-based (non-busybox) core root filesystem",
-            "filename": "wrlinux-image-core.bb",
-            "filepath": "wrlinux-distro/recipes-base/images",
-            "homepage": "",
-            "id": 951543,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
-            "layerbranch": 15009,
-            "license": "MIT",
-            "pn": "wrlinux-image-core",
-            "provides": "wrlinux-image-core ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-10-06T00:10:42+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "A foundational basic image that boots to a console.",
-            "filename": "wrlinux-image-small.bb",
-            "filepath": "wrlinux-distro/recipes-base/images",
-            "homepage": "",
-            "id": 951544,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
-            "layerbranch": 15009,
-            "license": "MIT",
-            "pn": "wrlinux-image-small",
-            "provides": "wrlinux-image-small ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-10-06T00:10:43+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "wrlinux-image-std-sato.bb",
-            "filepath": "wrlinux-distro/recipes-base/images",
-            "homepage": "",
-            "id": 951545,
-            "inherits": "",
-            "layerbranch": 15009,
-            "license": "",
-            "pn": "wrlinux-image-std-sato",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "summary": "",
-            "updated": "2019-10-10T20:10:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "An image which approximates WRLinux glibc-std without graphics.",
-            "filename": "wrlinux-image-std.bb",
-            "filepath": "wrlinux-distro/recipes-base/images",
-            "homepage": "",
-            "id": 951546,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
-            "layerbranch": 15009,
-            "license": "MIT",
-            "pn": "wrlinux-image-std",
-            "provides": "wrlinux-image-std ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-10-06T00:10:41+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "An application container which will run                 ${WR_APP_CONTAINER_APP}.",
-            "filename": "wr-app-container_1.0.bb",
-            "filepath": "wrlinux-distro/recipes-core/images",
-            "homepage": "http://www.windriver.com",
-            "id": 983049,
-            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-app-container",
-            "layerbranch": 15009,
-            "license": "",
-            "pn": "wr-app-container",
-            "provides": "wr-app-container ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "Application container for ${WR_APP_CONTAINER_APP}",
-            "updated": "2019-10-06T00:10:41+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "A systemd system container which will run                 ${WR_SYSTEMD_CONTAINER_APP}.",
-            "filename": "wr-systemd-container_1.0.bb",
-            "filepath": "wrlinux-distro/recipes-core/images",
-            "homepage": "http://www.windriver.com",
-            "id": 983050,
-            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-systemd-container",
-            "layerbranch": 15009,
-            "license": "",
-            "pn": "wr-systemd-container",
-            "provides": "wr-systemd-container ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
-            "updated": "2019-10-06T00:10:42+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "UMIP is an open source implementation of Mobile IPv6 and NEMO Basic Support for Linux. It is released under the GPLv2 license. It supports the following IETF RFC: RFC6275 (Mobile IPv6), RFC3963 (NEMO), RFC3776 and RFC4877 (IPsec and IKEv2).",
-            "filename": "umip_1.0.bb",
-            "filepath": "wrlinux-cgl/recipes-cgl/umip",
-            "homepage": "http://umip.org/",
-            "id": 997160,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d",
-            "layerbranch": 15009,
-            "license": "GPLv2",
-            "pn": "umip",
-            "provides": "umip ",
-            "pv": "1.0",
-            "section": "System Environment/Base",
-            "summary": "Mobile IPv6 and NEMO for Linux",
-            "updated": "2019-10-06T00:10:40+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Imports container images listed in containers_to_run.txt into Docker and instructs Docker to run them.",
-            "filename": "run-container_0.1.bb",
-            "filepath": "wrlinux-distro/recipes-extended/run-container",
-            "homepage": "",
-            "id": 1028058,
-            "inherits": "allarch ptest systemd",
-            "layerbranch": 15009,
-            "license": "MIT",
-            "pn": "run-container",
-            "provides": "run-container ",
-            "pv": "0.1",
-            "section": "base",
-            "summary": "Imports container images into Docker",
-            "updated": "2019-10-06T00:10:39+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         }
     ],
     "wrtemplates": [
         {
+            "description": "Enable alternative in-development (future) toolchain",
+            "id": 53466,
+            "layerbranch": 15009,
+            "name": "feature/toolchain-next",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
             "description": "",
-            "id": 28479,
+            "id": 53467,
             "layerbranch": 15009,
             "name": "feature/ecryptfs",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "description": "Enable common Managed Build Project (mbp) settings",
-            "id": 28480,
+            "id": 53468,
             "layerbranch": 15009,
             "name": "feature/mbp-project",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "description": "Add packagegroup-self-hosted to the image",
-            "id": 28481,
+            "id": 53469,
             "layerbranch": 15009,
             "name": "feature/self-hosted",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "",
+            "id": 53470,
+            "layerbranch": 15009,
+            "name": "feature/kernel-hardening",
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "description": "Add gcc-sanitizers to image",
-            "id": 28482,
+            "id": 53471,
             "layerbranch": 15009,
             "name": "feature/gcc-sanitizers",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "description": "Enable package-test functionality",
-            "id": 28483,
+            "id": 53472,
             "layerbranch": 15009,
             "name": "feature/ptest",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Enable archiver class and original src mode",
-            "id": 28484,
-            "layerbranch": 15009,
-            "name": "feature/archiver",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Set the default syslog to sysklogd",
-            "id": 28485,
-            "layerbranch": 15009,
-            "name": "feature/sysklogd",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Enable readonly-root filesystem",
-            "id": 28486,
-            "layerbranch": 15009,
-            "name": "feature/readonly-root",
-            "updated": "2018-10-05T09:10:17+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "description": "",
-            "id": 28487,
-            "layerbranch": 15009,
-            "name": "feature/ntp",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Add on-target package management to image",
-            "id": 28488,
-            "layerbranch": 15009,
-            "name": "feature/package-management",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Add valgrind to the image",
-            "id": 28489,
-            "layerbranch": 15009,
-            "name": "feature/valgrind",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Add system and process monitoring utilities to the image",
-            "id": 28490,
-            "layerbranch": 15009,
-            "name": "feature/system-stats",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "",
-            "id": 28491,
-            "layerbranch": 15009,
-            "name": "feature/rpm-local-keys",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Enable Data Plane Development Kit (DPDK)",
-            "id": 28493,
-            "layerbranch": 15009,
-            "name": "feature/dpdk",
-            "updated": "2019-06-27T01:06:52+0000"
-        },
-        {
-            "description": "Make all QA issues be errors",
-            "id": 28494,
-            "layerbranch": 15009,
-            "name": "feature/strict-qa",
-            "updated": "2019-09-25T01:09:21+0000"
-        },
-        {
-            "description": "Add sftp-server to the image",
-            "id": 28495,
-            "layerbranch": 15009,
-            "name": "feature/sftp-server",
-            "updated": "2019-05-26T19:05:10+0000"
-        },
-        {
-            "description": "Add dev packages to image",
-            "id": 28496,
-            "layerbranch": 15009,
-            "name": "feature/dev-pkgs",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Add gdb and gdbserver to image",
-            "id": 28497,
-            "layerbranch": 15009,
-            "name": "feature/gdb",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Enable on-target software development",
-            "id": 28498,
-            "layerbranch": 15009,
-            "name": "feature/target-toolchain",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "",
-            "id": 28499,
-            "layerbranch": 15009,
-            "name": "feature/installer-support",
-            "updated": "2019-08-29T20:08:56+0000"
-        },
-        {
-            "description": "",
-            "id": 28500,
-            "layerbranch": 15009,
-            "name": "feature/rpm-required-sig",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "Add gdbserver to image",
-            "id": 28501,
-            "layerbranch": 15009,
-            "name": "feature/gdbserver",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "",
-            "id": 28502,
-            "layerbranch": 15009,
-            "name": "feature/wr-profiling-kernel-overrides",
-            "updated": "2019-09-05T20:09:01+0000"
-        },
-        {
-            "description": "",
-            "id": 28503,
-            "layerbranch": 15009,
-            "name": "feature/gperftools",
-            "updated": "2018-10-05T09:10:17+0000"
-        },
-        {
-            "description": "",
-            "id": 29389,
-            "layerbranch": 15009,
-            "name": "feature/kernel-hardening",
-            "updated": "2019-06-26T20:06:05+0000"
-        },
-        {
-            "description": "",
-            "id": 38457,
+            "id": 53473,
             "layerbranch": 15009,
             "name": "feature/posix_26",
-            "updated": "2019-02-22T06:02:24+0000"
-        },
-        {
-            "description": "Enable alternative in-development linux-yocto",
-            "id": 39858,
-            "layerbranch": 15009,
-            "name": "feature/linux-yocto-dev",
-            "updated": "2019-06-28T11:06:02+0000"
-        },
-        {
-            "description": "Enable alternative in-development (future) toolchain",
-            "id": 41828,
-            "layerbranch": 15009,
-            "name": "feature/toolchain-next",
-            "updated": "2019-09-03T00:09:54+0000"
-        },
-        {
-            "description": "Enable alternative in-development (future) userspace recipes",
-            "id": 41829,
-            "layerbranch": 15009,
-            "name": "feature/userspace-next",
-            "updated": "2019-07-01T19:07:45+0000"
-        },
-        {
-            "description": "",
-            "id": 45960,
-            "layerbranch": 15009,
-            "name": "feature/tcpslice",
-            "updated": "2019-06-04T19:06:54+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "description": "This template allows the build to use the linux-dummy kernel, which provides no real kernel, but satisfies dependancies on virtual/kernel. This is useful when the build does not require a kernel, such as when building containers, saving build time as a re",
-            "id": 47409,
+            "id": 53474,
             "layerbranch": 15009,
             "name": "feature/dummy-kernel",
-            "updated": "2019-06-20T13:06:44+0000"
-        },
-        {
-            "description": "Enable Xwayland image",
-            "id": 47415,
-            "layerbranch": 15009,
-            "name": "feature/weston-demo",
-            "updated": "2019-06-27T01:06:52+0000"
-        },
-        {
-            "description": "Install busybox to rootfs",
-            "id": 47420,
-            "layerbranch": 15009,
-            "name": "feature/busybox",
-            "updated": "2019-09-19T20:09:53+0000"
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "description": "",
-            "id": 48286,
+            "id": 53475,
+            "layerbranch": 15009,
+            "name": "feature/tcpslice",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Enable archiver class and original src mode",
+            "id": 53476,
+            "layerbranch": 15009,
+            "name": "feature/archiver",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Install busybox to rootfs",
+            "id": 53477,
+            "layerbranch": 15009,
+            "name": "feature/busybox",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Set the default syslog to sysklogd",
+            "id": 53478,
+            "layerbranch": 15009,
+            "name": "feature/sysklogd",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Enable alternative in-development linux-yocto",
+            "id": 53479,
+            "layerbranch": 15009,
+            "name": "feature/linux-yocto-dev",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Enable readonly-root filesystem",
+            "id": 53480,
+            "layerbranch": 15009,
+            "name": "feature/readonly-root",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "",
+            "id": 53481,
+            "layerbranch": 15009,
+            "name": "feature/ntp",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Add on-target package management to image",
+            "id": 53482,
+            "layerbranch": 15009,
+            "name": "feature/package-management",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Add valgrind to the image",
+            "id": 53483,
+            "layerbranch": 15009,
+            "name": "feature/valgrind",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Add system and process monitoring utilities to the image",
+            "id": 53484,
+            "layerbranch": 15009,
+            "name": "feature/system-stats",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "",
+            "id": 53485,
+            "layerbranch": 15009,
+            "name": "feature/rpm-local-keys",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Enable Data Plane Development Kit (DPDK)",
+            "id": 53486,
+            "layerbranch": 15009,
+            "name": "feature/dpdk",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Make all QA issues be errors",
+            "id": 53487,
+            "layerbranch": 15009,
+            "name": "feature/strict-qa",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Add sftp-server to the image",
+            "id": 53488,
+            "layerbranch": 15009,
+            "name": "feature/sftp-server",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Add dev packages to image",
+            "id": 53489,
+            "layerbranch": 15009,
+            "name": "feature/dev-pkgs",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Add gdb and gdbserver to image",
+            "id": 53490,
+            "layerbranch": 15009,
+            "name": "feature/gdb",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Enable on-target software development",
+            "id": 53491,
+            "layerbranch": 15009,
+            "name": "feature/target-toolchain",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "",
+            "id": 53492,
             "layerbranch": 15009,
             "name": "feature/kubernetes",
-            "updated": "2019-09-28T20:09:53+0000"
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "",
+            "id": 53493,
+            "layerbranch": 15009,
+            "name": "feature/installer-support",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "",
+            "id": 53494,
+            "layerbranch": 15009,
+            "name": "feature/rpm-required-sig",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Add gdbserver to image",
+            "id": 53495,
+            "layerbranch": 15009,
+            "name": "feature/gdbserver",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "",
+            "id": 53496,
+            "layerbranch": 15009,
+            "name": "feature/wr-profiling-kernel-overrides",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Enable Xwayland image",
+            "id": 53497,
+            "layerbranch": 15009,
+            "name": "feature/weston-demo",
+            "updated": "2019-10-11T07:10:41+0000"
         },
         {
             "description": "enable Distro Feature usrmerge",
-            "id": 52117,
+            "id": 53498,
             "layerbranch": 15009,
             "name": "feature/usrmerge",
-            "updated": "2019-09-08T20:09:56+0000"
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "",
+            "id": 53499,
+            "layerbranch": 15009,
+            "name": "feature/gperftools",
+            "updated": "2019-10-11T07:10:41+0000"
+        },
+        {
+            "description": "Enable alternative in-development (future) userspace recipes",
+            "id": 53500,
+            "layerbranch": 15009,
+            "name": "feature/userspace-next",
+            "updated": "2019-10-11T07:10:41+0000"
         }
     ]
 }

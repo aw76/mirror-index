@@ -136,38 +136,38 @@
     "distros": [
         {
             "description": "Wind River Linux (Example minimal distribution, will require customization)",
-            "id": 5772,
+            "id": 6586,
             "layerbranch": 73942,
             "name": "wrlinux-tiny",
-            "updated": "2019-09-12T01:09:59+0000"
+            "updated": "2019-10-11T07:10:21+0000"
         },
         {
             "description": "Wind River Linux (Full Featured Distribution with Graphic Support)",
-            "id": 5773,
+            "id": 6587,
             "layerbranch": 73942,
             "name": "wrlinux-graphics",
-            "updated": "2019-06-13T17:06:52+0000"
+            "updated": "2019-10-11T07:10:21+0000"
         },
         {
             "description": "Wind River Linux (Full Featured Distribution)",
-            "id": 5774,
+            "id": 6588,
             "layerbranch": 73942,
             "name": "wrlinux",
-            "updated": "2019-09-19T20:09:59+0000"
+            "updated": "2019-10-11T07:10:21+0000"
         },
         {
             "description": "Wind River Linux (Full Featured Distribution with Sato)",
-            "id": 5775,
+            "id": 6589,
             "layerbranch": 73942,
             "name": "wrlinux-std-sato",
-            "updated": "2019-06-13T17:06:52+0000"
+            "updated": "2019-10-11T07:10:21+0000"
         },
         {
             "description": "Wind River Linux (Anaconda-based Target Installer)",
-            "id": 5776,
+            "id": 6590,
             "layerbranch": 73942,
             "name": "wrlinux-installer",
-            "updated": "2019-06-13T17:06:52+0000"
+            "updated": "2019-10-11T07:10:21+0000"
         }
     ],
     "layerBranches": [
@@ -895,7 +895,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2019-06-20T10:06:07+0000"
+            "updated": "2019-10-11T07:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -906,7 +906,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971125,
-            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-std",
@@ -914,7 +914,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:07+0000"
+            "updated": "2019-10-11T07:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -925,7 +925,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971126,
-            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-core",
@@ -933,7 +933,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:08+0000"
+            "updated": "2019-10-11T07:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -944,7 +944,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971127,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-std",
@@ -952,7 +952,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:08+0000"
+            "updated": "2019-10-11T07:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -963,7 +963,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971128,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-small",
@@ -971,7 +971,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:09+0000"
+            "updated": "2019-10-11T07:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -982,7 +982,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971129,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-minimal-initramfs",
@@ -990,7 +990,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:10+0000"
+            "updated": "2019-10-11T07:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1001,7 +1001,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971130,
-            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-small",
@@ -1009,7 +1009,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:10+0000"
+            "updated": "2019-10-11T07:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1020,7 +1020,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971131,
-            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-std-sato",
@@ -1028,7 +1028,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-10T20:10:58+0000"
+            "updated": "2019-10-11T07:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1039,7 +1039,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971132,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-tiny-initramfs",
@@ -1047,7 +1047,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:11+0000"
+            "updated": "2019-10-11T07:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1058,7 +1058,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971133,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-core",
@@ -1066,7 +1066,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:12+0000"
+            "updated": "2019-10-11T07:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1077,7 +1077,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 971134,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-std-sato",
@@ -1085,7 +1085,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-10T20:10:57+0000"
+            "updated": "2019-10-11T07:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1104,7 +1104,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:02+0000"
+            "updated": "2019-10-11T07:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1123,7 +1123,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-09-01T19:09:29+0000"
+            "updated": "2019-10-11T07:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1142,7 +1142,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:03+0000"
+            "updated": "2019-10-11T07:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1161,7 +1161,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:03+0000"
+            "updated": "2019-10-11T07:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1180,7 +1180,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:03+0000"
+            "updated": "2019-10-11T07:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1199,7 +1199,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:03+0000"
+            "updated": "2019-10-11T07:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1218,7 +1218,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:04+0000"
+            "updated": "2019-10-11T07:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1237,7 +1237,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:04+0000"
+            "updated": "2019-10-11T07:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1256,7 +1256,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:04+0000"
+            "updated": "2019-10-11T07:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1275,7 +1275,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:04+0000"
+            "updated": "2019-10-11T07:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1294,7 +1294,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:04+0000"
+            "updated": "2019-10-11T07:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1313,7 +1313,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required by bsp",
-            "updated": "2019-06-20T10:06:04+0000"
+            "updated": "2019-10-11T07:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1332,7 +1332,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:05+0000"
+            "updated": "2019-10-11T07:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1351,7 +1351,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:05+0000"
+            "updated": "2019-10-11T07:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1370,7 +1370,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "glibc-tiny init",
-            "updated": "2019-06-20T10:06:05+0000"
+            "updated": "2019-10-11T07:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1381,7 +1381,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 971153,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 73942,
             "license": "MIT",
             "pn": "wrlinux-image-initramfs",
@@ -1389,7 +1389,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:06+0000"
+            "updated": "2019-10-11T07:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1408,7 +1408,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-20T10:06:06+0000"
+            "updated": "2019-10-11T07:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1419,7 +1419,7 @@
             "filepath": "recipes-core/images",
             "homepage": "http://www.windriver.com",
             "id": 983051,
-            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-app-container",
+            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-app-container wrltemplate_image",
             "layerbranch": 73942,
             "license": "",
             "pn": "wr-app-container",
@@ -1427,7 +1427,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Application container for ${WR_APP_CONTAINER_APP}",
-            "updated": "2019-06-26T09:06:51+0000"
+            "updated": "2019-10-11T07:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1438,7 +1438,7 @@
             "filepath": "recipes-core/images",
             "homepage": "http://www.windriver.com",
             "id": 983052,
-            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-systemd-container",
+            "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-systemd-container wrltemplate_image",
             "layerbranch": 73942,
             "license": "",
             "pn": "wr-systemd-container",
@@ -1446,7 +1446,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
-            "updated": "2019-06-26T09:06:52+0000"
+            "updated": "2019-10-11T07:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1465,408 +1465,408 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Imports container images into Docker",
-            "updated": "2019-09-26T23:09:53+0000"
+            "updated": "2019-10-11T07:10:20+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 46953,
+            "id": 53503,
             "layerbranch": 73942,
             "name": "feature/lttng",
-            "updated": "2019-09-05T20:09:06+0000"
+            "updated": "2019-10-11T07:10:21+0000"
         },
         {
             "description": "",
-            "id": 46955,
-            "layerbranch": 73942,
-            "name": "feature/libvirt",
-            "updated": "2019-08-22T02:08:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46956,
-            "layerbranch": 73942,
-            "name": "feature/pts",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46957,
-            "layerbranch": 73942,
-            "name": "feature/lxc",
-            "updated": "2019-09-28T20:09:59+0000"
-        },
-        {
-            "description": "",
-            "id": 46958,
-            "layerbranch": 73942,
-            "name": "feature/tpm2",
-            "updated": "2019-08-29T20:08:00+0000"
-        },
-        {
-            "description": "",
-            "id": 46959,
-            "layerbranch": 73942,
-            "name": "feature/ldconfig",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46960,
-            "layerbranch": 73942,
-            "name": "feature/test",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46961,
-            "layerbranch": 73942,
-            "name": "feature/mariadb",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46962,
-            "layerbranch": 73942,
-            "name": "feature/wr-theme-gray",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46963,
-            "layerbranch": 73942,
-            "name": "feature/syslog-ng",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46965,
-            "layerbranch": 73942,
-            "name": "feature/edac",
-            "updated": "2019-09-05T20:09:06+0000"
-        },
-        {
-            "description": "",
-            "id": 46966,
-            "layerbranch": 73942,
-            "name": "feature/pam-tally2",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46967,
-            "layerbranch": 73942,
-            "name": "feature/ids-basic",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46968,
-            "layerbranch": 73942,
-            "name": "feature/nfsd",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46969,
-            "layerbranch": 73942,
-            "name": "feature/yaffs2-utils",
-            "updated": "2019-09-05T20:09:06+0000"
-        },
-        {
-            "description": "",
-            "id": 46970,
-            "layerbranch": 73942,
-            "name": "feature/full_nohz",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46971,
-            "layerbranch": 73942,
-            "name": "feature/initramfs-install",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46972,
-            "layerbranch": 73942,
-            "name": "feature/encrypted-storage",
-            "updated": "2019-06-13T17:06:52+0000"
-        },
-        {
-            "description": "",
-            "id": 46973,
-            "layerbranch": 73942,
-            "name": "feature/efi-secure-boot",
-            "updated": "2019-09-15T20:09:22+0000"
-        },
-        {
-            "description": "",
-            "id": 46974,
-            "layerbranch": 73942,
-            "name": "feature/initramfs",
-            "updated": "2019-08-12T16:08:12+0000"
-        },
-        {
-            "description": "",
-            "id": 46975,
-            "layerbranch": 73942,
-            "name": "feature/openssl-no-weak-ciphers",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46976,
-            "layerbranch": 73942,
-            "name": "feature/ips",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46977,
-            "layerbranch": 73942,
-            "name": "feature/firewall",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46978,
-            "layerbranch": 73942,
-            "name": "feature/network-bond-libteam",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46979,
-            "layerbranch": 73942,
-            "name": "feature/krb5",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46980,
-            "layerbranch": 73942,
-            "name": "feature/session-manager",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46981,
-            "layerbranch": 73942,
-            "name": "feature/ima",
-            "updated": "2019-08-13T19:08:00+0000"
-        },
-        {
-            "description": "",
-            "id": 46982,
-            "layerbranch": 73942,
-            "name": "feature/python-tkinter",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46983,
-            "layerbranch": 73942,
-            "name": "feature/systemdebug",
-            "updated": "2019-09-05T20:09:06+0000"
-        },
-        {
-            "description": "",
-            "id": 46984,
-            "layerbranch": 73942,
-            "name": "feature/task-scheduler",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46985,
-            "layerbranch": 73942,
-            "name": "feature/benchmark",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46986,
-            "layerbranch": 73942,
-            "name": "feature/tpm",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46987,
-            "layerbranch": 73942,
-            "name": "feature/criu",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46988,
-            "layerbranch": 73942,
-            "name": "feature/dhcp-server-kea",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46989,
-            "layerbranch": 73942,
-            "name": "feature/selinux",
-            "updated": "2019-08-29T20:08:00+0000"
-        },
-        {
-            "description": "",
-            "id": 46990,
-            "layerbranch": 73942,
-            "name": "feature/posix-timers",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46991,
-            "layerbranch": 73942,
-            "name": "feature/nfc",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46992,
-            "layerbranch": 73942,
-            "name": "feature/kdump",
-            "updated": "2019-09-05T20:09:06+0000"
-        },
-        {
-            "description": "",
-            "id": 46993,
-            "layerbranch": 73942,
-            "name": "feature/initramfs-integrated",
-            "updated": "2019-08-12T16:08:12+0000"
-        },
-        {
-            "description": "",
-            "id": 46994,
-            "layerbranch": 73942,
-            "name": "feature/kexec",
-            "updated": "2019-09-05T20:09:06+0000"
-        },
-        {
-            "description": "",
-            "id": 46995,
-            "layerbranch": 73942,
-            "name": "feature/debug",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46996,
-            "layerbranch": 73942,
-            "name": "feature/agent-proxy",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46997,
-            "layerbranch": 73942,
-            "name": "feature/bpf",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46998,
-            "layerbranch": 73942,
-            "name": "feature/libhugetlbfs",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 46999,
-            "layerbranch": 73942,
-            "name": "feature/xfce",
-            "updated": "2019-09-23T23:09:06+0000"
-        },
-        {
-            "description": "",
-            "id": 47000,
-            "layerbranch": 73942,
-            "name": "feature/wr-theme-blue",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 47001,
-            "layerbranch": 73942,
-            "name": "feature/ipv6",
-            "updated": "2019-09-05T20:09:06+0000"
-        },
-        {
-            "description": "",
-            "id": 47002,
-            "layerbranch": 73942,
-            "name": "feature/software-entropy",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 47003,
-            "layerbranch": 73942,
-            "name": "feature/LAMP",
-            "updated": "2019-09-05T20:09:06+0000"
-        },
-        {
-            "description": "Enable BSP extras packages support",
-            "id": 47004,
-            "layerbranch": 73942,
-            "name": "feature/bsp-extras",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 47005,
-            "layerbranch": 73942,
-            "name": "feature/iotop",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 47006,
-            "layerbranch": 73942,
-            "name": "feature/pam-wheel",
-            "updated": "2019-06-13T17:06:53+0000"
-        },
-        {
-            "description": "",
-            "id": 47007,
-            "layerbranch": 73942,
-            "name": "feature/docker",
-            "updated": "2019-09-23T00:09:00+0000"
-        },
-        {
-            "description": "",
-            "id": 47416,
-            "layerbranch": 73942,
-            "name": "feature/ostree",
-            "updated": "2019-08-29T02:08:12+0000"
-        },
-        {
-            "description": "",
-            "id": 48283,
-            "layerbranch": 73942,
-            "name": "feature/stig",
-            "updated": "2019-10-10T20:10:57+0000"
-        },
-        {
-            "description": "",
-            "id": 52868,
+            "id": 53504,
             "layerbranch": 73942,
             "name": "feature/consul",
-            "updated": "2019-09-25T02:09:52+0000"
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53505,
+            "layerbranch": 73942,
+            "name": "feature/libvirt",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53506,
+            "layerbranch": 73942,
+            "name": "feature/pts",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53507,
+            "layerbranch": 73942,
+            "name": "feature/lxc",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53508,
+            "layerbranch": 73942,
+            "name": "feature/tpm2",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53509,
+            "layerbranch": 73942,
+            "name": "feature/ldconfig",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53510,
+            "layerbranch": 73942,
+            "name": "feature/test",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53511,
+            "layerbranch": 73942,
+            "name": "feature/mariadb",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53512,
+            "layerbranch": 73942,
+            "name": "feature/wr-theme-gray",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53513,
+            "layerbranch": 73942,
+            "name": "feature/syslog-ng",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53514,
+            "layerbranch": 73942,
+            "name": "feature/edac",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53515,
+            "layerbranch": 73942,
+            "name": "feature/pam-tally2",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53516,
+            "layerbranch": 73942,
+            "name": "feature/ids-basic",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53517,
+            "layerbranch": 73942,
+            "name": "feature/nfsd",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53518,
+            "layerbranch": 73942,
+            "name": "feature/yaffs2-utils",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53519,
+            "layerbranch": 73942,
+            "name": "feature/full_nohz",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53520,
+            "layerbranch": 73942,
+            "name": "feature/initramfs-install",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53521,
+            "layerbranch": 73942,
+            "name": "feature/encrypted-storage",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53522,
+            "layerbranch": 73942,
+            "name": "feature/efi-secure-boot",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53523,
+            "layerbranch": 73942,
+            "name": "feature/initramfs",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53524,
+            "layerbranch": 73942,
+            "name": "feature/openssl-no-weak-ciphers",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53525,
+            "layerbranch": 73942,
+            "name": "feature/stig",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53526,
+            "layerbranch": 73942,
+            "name": "feature/ips",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53527,
+            "layerbranch": 73942,
+            "name": "feature/firewall",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53528,
+            "layerbranch": 73942,
+            "name": "feature/network-bond-libteam",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53529,
+            "layerbranch": 73942,
+            "name": "feature/krb5",
+            "updated": "2019-10-11T07:10:21+0000"
+        },
+        {
+            "description": "",
+            "id": 53530,
+            "layerbranch": 73942,
+            "name": "feature/session-manager",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53531,
+            "layerbranch": 73942,
+            "name": "feature/ima",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53532,
+            "layerbranch": 73942,
+            "name": "feature/python-tkinter",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53533,
+            "layerbranch": 73942,
+            "name": "feature/systemdebug",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53534,
+            "layerbranch": 73942,
+            "name": "feature/task-scheduler",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53535,
+            "layerbranch": 73942,
+            "name": "feature/benchmark",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53536,
+            "layerbranch": 73942,
+            "name": "feature/tpm",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53537,
+            "layerbranch": 73942,
+            "name": "feature/criu",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53538,
+            "layerbranch": 73942,
+            "name": "feature/dhcp-server-kea",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53539,
+            "layerbranch": 73942,
+            "name": "feature/selinux",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53540,
+            "layerbranch": 73942,
+            "name": "feature/posix-timers",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53541,
+            "layerbranch": 73942,
+            "name": "feature/nfc",
+            "updated": "2019-10-11T07:10:22+0000"
         },
         {
             "description": "build and include container images in rootfs images",
-            "id": 53218,
+            "id": 53542,
             "layerbranch": 73942,
             "name": "feature/run-container",
-            "updated": "2019-10-07T23:10:53+0000"
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53543,
+            "layerbranch": 73942,
+            "name": "feature/kdump",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53544,
+            "layerbranch": 73942,
+            "name": "feature/ostree",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53545,
+            "layerbranch": 73942,
+            "name": "feature/initramfs-integrated",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53546,
+            "layerbranch": 73942,
+            "name": "feature/kexec",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53547,
+            "layerbranch": 73942,
+            "name": "feature/debug",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53548,
+            "layerbranch": 73942,
+            "name": "feature/agent-proxy",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53549,
+            "layerbranch": 73942,
+            "name": "feature/bpf",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53550,
+            "layerbranch": 73942,
+            "name": "feature/libhugetlbfs",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53551,
+            "layerbranch": 73942,
+            "name": "feature/xfce",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53552,
+            "layerbranch": 73942,
+            "name": "feature/wr-theme-blue",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53553,
+            "layerbranch": 73942,
+            "name": "feature/ipv6",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53554,
+            "layerbranch": 73942,
+            "name": "feature/software-entropy",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53555,
+            "layerbranch": 73942,
+            "name": "feature/LAMP",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "Enable BSP extras packages support",
+            "id": 53556,
+            "layerbranch": 73942,
+            "name": "feature/bsp-extras",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53557,
+            "layerbranch": 73942,
+            "name": "feature/iotop",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53558,
+            "layerbranch": 73942,
+            "name": "feature/pam-wheel",
+            "updated": "2019-10-11T07:10:22+0000"
+        },
+        {
+            "description": "",
+            "id": 53559,
+            "layerbranch": 73942,
+            "name": "feature/docker",
+            "updated": "2019-10-11T07:10:22+0000"
         }
     ]
 }

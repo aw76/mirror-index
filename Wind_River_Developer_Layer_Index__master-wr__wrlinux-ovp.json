@@ -136,10 +136,10 @@
     "distros": [
         {
             "description": "Wind River Linux (Open Virtualization)",
-            "id": 4201,
+            "id": 6591,
             "layerbranch": 109415,
             "name": "wrlinux-ovp",
-            "updated": "2019-09-23T19:09:00+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         }
     ],
     "layerBranches": [
@@ -509,7 +509,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:37+0000"
+            "updated": "2019-10-11T07:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -520,7 +520,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 849508,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-guest",
@@ -528,7 +528,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-05-07T01:05:45+0000"
+            "updated": "2019-10-11T07:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -539,7 +539,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 849509,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-kvm-minimal",
@@ -547,7 +547,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-05-07T01:05:44+0000"
+            "updated": "2019-10-11T07:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -558,7 +558,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 849510,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 109415,
             "license": "MIT",
             "pn": "wrlinux-image-ovp-kvm",
@@ -566,7 +566,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-05-07T01:05:45+0000"
+            "updated": "2019-10-11T07:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -585,7 +585,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:38+0000"
+            "updated": "2019-10-11T07:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -604,7 +604,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:38+0000"
+            "updated": "2019-10-11T07:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -623,7 +623,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:38+0000"
+            "updated": "2019-10-11T07:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -642,7 +642,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:38+0000"
+            "updated": "2019-10-11T07:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -661,7 +661,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:38+0000"
+            "updated": "2019-10-11T07:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -680,7 +680,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:38+0000"
+            "updated": "2019-10-11T07:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -699,7 +699,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:38+0000"
+            "updated": "2019-10-11T07:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -718,7 +718,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:38+0000"
+            "updated": "2019-10-11T07:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -737,7 +737,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:39+0000"
+            "updated": "2019-10-11T07:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -756,7 +756,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:39+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -775,7 +775,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-15T02:03:39+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -794,58 +794,58 @@
             "pv": "1.0",
             "section": "console/utils",
             "summary": "Generate various system information report of this system",
-            "updated": "2019-03-19T03:03:55+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 33221,
+            "id": 53562,
             "layerbranch": 109415,
             "name": "feature",
-            "updated": "2019-05-07T01:05:44+0000"
+            "updated": "2019-10-11T07:10:39+0000"
         },
         {
             "description": "",
-            "id": 33222,
-            "layerbranch": 109415,
-            "name": "feature/guest-rt-tune",
-            "updated": "2019-05-07T01:05:44+0000"
-        },
-        {
-            "description": "",
-            "id": 33223,
-            "layerbranch": 109415,
-            "name": "feature/kernel-ovp-guest",
-            "updated": "2018-11-02T13:11:15+0000"
-        },
-        {
-            "description": "",
-            "id": 33224,
-            "layerbranch": 109415,
-            "name": "feature/host-rt-tune",
-            "updated": "2019-05-07T01:05:44+0000"
-        },
-        {
-            "description": "",
-            "id": 33225,
-            "layerbranch": 109415,
-            "name": "default",
-            "updated": "2018-11-02T13:11:15+0000"
-        },
-        {
-            "description": "",
-            "id": 45565,
-            "layerbranch": 109415,
-            "name": "feature/rt-latency-guest",
-            "updated": "2019-09-05T20:09:10+0000"
-        },
-        {
-            "description": "",
-            "id": 45566,
+            "id": 53563,
             "layerbranch": 109415,
             "name": "feature/rt-latency-host",
-            "updated": "2019-09-05T20:09:10+0000"
+            "updated": "2019-10-11T07:10:39+0000"
+        },
+        {
+            "description": "",
+            "id": 53564,
+            "layerbranch": 109415,
+            "name": "feature/guest-rt-tune",
+            "updated": "2019-10-11T07:10:39+0000"
+        },
+        {
+            "description": "",
+            "id": 53565,
+            "layerbranch": 109415,
+            "name": "feature/rt-latency-guest",
+            "updated": "2019-10-11T07:10:39+0000"
+        },
+        {
+            "description": "",
+            "id": 53566,
+            "layerbranch": 109415,
+            "name": "feature/kernel-ovp-guest",
+            "updated": "2019-10-11T07:10:39+0000"
+        },
+        {
+            "description": "",
+            "id": 53567,
+            "layerbranch": 109415,
+            "name": "feature/host-rt-tune",
+            "updated": "2019-10-11T07:10:39+0000"
+        },
+        {
+            "description": "",
+            "id": 53568,
+            "layerbranch": 109415,
+            "name": "default",
+            "updated": "2019-10-11T07:10:39+0000"
         }
     ]
 }

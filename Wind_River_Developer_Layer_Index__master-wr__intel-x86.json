@@ -289,31 +289,31 @@
     "machines": [
         {
             "description": " Intel X86 (64bit) PCs and servers",
-            "id": 12901,
+            "id": 24658,
             "layerbranch": 190597,
             "name": "intel-x86-64",
-            "updated": "2018-11-05T08:11:24+0000"
+            "updated": "2019-10-11T07:10:04+0000"
         },
         {
             "description": " Intel Haswell CPU (64bit)",
-            "id": 14437,
+            "id": 24659,
             "layerbranch": 190597,
             "name": "intel-haswell-64",
-            "updated": "2018-12-04T12:12:17+0000"
-        },
-        {
-            "description": " Intel Skylake CPU (64bit)",
-            "id": 14438,
-            "layerbranch": 190597,
-            "name": "intel-skylake-64",
-            "updated": "2018-12-04T12:12:17+0000"
+            "updated": "2019-10-11T07:10:04+0000"
         },
         {
             "description": " Intel Skylake CPU (64bit) with AVX-512 enabled",
-            "id": 14439,
+            "id": 24660,
             "layerbranch": 190597,
             "name": "intel-skylake-avx512-64",
-            "updated": "2018-12-04T12:12:17+0000"
+            "updated": "2019-10-11T07:10:04+0000"
+        },
+        {
+            "description": " Intel Skylake CPU (64bit)",
+            "id": 24661,
+            "layerbranch": 190597,
+            "name": "intel-skylake-64",
+            "updated": "2019-10-11T07:10:04+0000"
         }
     ],
     "recipes": [
@@ -334,7 +334,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2018-10-18T12:10:52+0000"
+            "updated": "2019-10-11T07:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -353,23 +353,23 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-10T18:07:37+0000"
+            "updated": "2019-10-11T07:10:04+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 30080,
+            "id": 53501,
             "layerbranch": 190597,
-            "name": "default",
-            "updated": "2019-09-03T20:09:49+0000"
+            "name": "feature/intel-persistent-memory",
+            "updated": "2019-10-11T07:10:04+0000"
         },
         {
             "description": "",
-            "id": 48276,
+            "id": 53502,
             "layerbranch": 190597,
-            "name": "feature/intel-persistent-memory",
-            "updated": "2019-09-03T20:09:49+0000"
+            "name": "default",
+            "updated": "2019-10-11T07:10:04+0000"
         }
     ]
 }

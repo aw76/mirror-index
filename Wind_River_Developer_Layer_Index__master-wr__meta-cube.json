@@ -647,7 +647,7 @@
             "pv": "1.0.0+gitX",
             "section": "base",
             "summary": "nanomsg is a socket library that provides several common communication patterns.",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-10-11T07:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -666,7 +666,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Service to update packages automatically",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-10-11T07:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -677,7 +677,7 @@
             "filepath": "recipes-connectivity/etcd",
             "homepage": "https://github.com/coreos/etcd",
             "id": 725738,
-            "inherits": "go goarch ptest systemd",
+            "inherits": "go goarch systemd",
             "layerbranch": 835461,
             "license": "Apache-2.0",
             "pn": "etcd",
@@ -685,7 +685,7 @@
             "pv": "3.3.9+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2019-05-21T19:05:37+0000"
+            "updated": "2019-10-11T07:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -696,7 +696,7 @@
             "filepath": "recipes-containers/umoci",
             "homepage": "https://github.com/openSUSE/umoci",
             "id": 725739,
-            "inherits": "go goarch ptest",
+            "inherits": "go goarch",
             "layerbranch": 835461,
             "license": "Apache-2.0",
             "pn": "umoci",
@@ -704,7 +704,7 @@
             "pv": "v0.3.1-dev+gitX",
             "section": "base",
             "summary": "umoci modifies Open Container images",
-            "updated": "2018-10-05T09:10:23+0000"
+            "updated": "2019-10-11T07:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -723,7 +723,7 @@
             "pv": "git",
             "section": "devel",
             "summary": "Light weight container runtime",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-10-11T07:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -734,7 +734,7 @@
             "filepath": "recipes-containers/skopeo",
             "homepage": "https://github.com/projectatomic/skopeo",
             "id": 725743,
-            "inherits": "go goarch pkgconfig ptest",
+            "inherits": "go goarch pkgconfig",
             "layerbranch": 835461,
             "license": "Apache-2.0",
             "pn": "skopeo",
@@ -742,7 +742,7 @@
             "pv": "v0.1.24-dev+gitX",
             "section": "base",
             "summary": "Work with remote images registries - retrieving information, images, signing content",
-            "updated": "2019-05-21T19:05:38+0000"
+            "updated": "2019-10-11T07:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -761,7 +761,7 @@
             "pv": "1.2",
             "section": "devel/python",
             "summary": "OverC host update system",
-            "updated": "2019-09-16T20:09:06+0000"
+            "updated": "2019-10-11T07:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -780,7 +780,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Essential / minimal initialization service",
-            "updated": "2019-05-21T19:05:38+0000"
+            "updated": "2019-10-11T07:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -799,7 +799,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "cube-vrf / minimal initialization service",
-            "updated": "2018-10-05T09:10:24+0000"
+            "updated": "2019-10-11T07:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -818,7 +818,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "OverC installer script",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-10-11T07:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -837,7 +837,7 @@
             "pv": "1.1",
             "section": "base",
             "summary": "OverC configuration tools",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-10-11T07:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -856,7 +856,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Container Shutdown Notification",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-10-11T07:10:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -875,7 +875,7 @@
             "pv": "2018.7+gitX",
             "section": "base",
             "summary": "Tool for managing bootable, immutable, versioned filesystem trees",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-10-11T07:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -894,7 +894,7 @@
             "pv": "0.1.0+gitX",
             "section": "devel",
             "summary": "This project provides with the utilities and library basing on nanomsg",
-            "updated": "2018-10-05T09:10:25+0000"
+            "updated": "2019-10-11T07:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -913,7 +913,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "OverC support utilities",
-            "updated": "2019-05-21T19:05:38+0000"
+            "updated": "2019-10-11T07:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -932,7 +932,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "dom0 / minimal initialization service",
-            "updated": "2019-05-21T19:05:38+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -951,7 +951,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "CUBE Command Server",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -970,7 +970,7 @@
             "pv": "git",
             "section": "console/utils",
             "summary": "Emulation of detach feature of screen",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -989,7 +989,7 @@
             "pv": "1.10.1",
             "section": "console/network",
             "summary": "",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1008,7 +1008,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Allow scripts to interact with kernel watchdog service",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1027,7 +1027,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Wrap gnu screen into a multi session getty",
-            "updated": "2018-10-05T09:10:26+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1046,7 +1046,7 @@
             "pv": "git",
             "section": "containers",
             "summary": "A basic user tool to execute simple docker containers in batch or interactive systems without root privileges",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1065,7 +1065,7 @@
             "pv": "1.0",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-10-05T09:10:27+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1084,7 +1084,7 @@
             "pv": "0.120",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:29+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1103,7 +1103,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic init for initramfs to mount and pivot root",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1122,7 +1122,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "A container image for domain E which is used as a graphical interface for users",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1141,7 +1141,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "An image which can be used to run the cube installer scripts.",
-            "updated": "2018-10-05T09:10:30+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1160,7 +1160,7 @@
             "pv": "0.6",
             "section": "base",
             "summary": "A container image for domain 0 which is used for container control",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2019-10-11T07:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1179,7 +1179,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "System Virtual Routing & Forwarding (VRF) container",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2019-10-11T07:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1198,7 +1198,7 @@
             "pv": "0.3",
             "section": "base",
             "summary": "A minimal native host image for OverC",
-            "updated": "2019-07-01T23:07:14+0000"
+            "updated": "2019-10-11T07:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1217,7 +1217,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "A container image for domain server which is used as a headless, full development server",
-            "updated": "2018-10-05T09:10:31+0000"
+            "updated": "2019-10-11T07:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1236,7 +1236,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2019-10-11T07:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1255,7 +1255,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Application container for ${C3_APP_CONTAINER_APP}",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2019-10-11T07:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1274,7 +1274,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "An image creating a file system for a build server itself",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2019-10-11T07:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1293,7 +1293,7 @@
             "pv": "0.3",
             "section": "base",
             "summary": "An image creating a file system for a build server itself",
-            "updated": "2018-10-05T09:10:32+0000"
+            "updated": "2019-10-11T07:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1312,7 +1312,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Systemd system container for ${C3_SYSTEMD_CONTAINER_APP}",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-10-11T07:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1331,7 +1331,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Self-hosting builder",
-            "updated": "2019-09-11T00:09:14+0000"
+            "updated": "2019-10-11T07:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1350,7 +1350,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full desktop installation",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-10-11T07:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1369,7 +1369,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Domain 0 facilities for OverC",
-            "updated": "2018-10-17T16:10:37+0000"
+            "updated": "2019-10-11T07:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1388,7 +1388,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Additional packages for VM OCI integration",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-10-11T07:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1407,7 +1407,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for a graphical builder",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-10-11T07:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1426,7 +1426,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "All packages for Network Manager",
-            "updated": "2019-07-30T23:07:55+0000"
+            "updated": "2019-10-11T07:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1445,7 +1445,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "All packages for container host",
-            "updated": "2018-10-05T09:10:33+0000"
+            "updated": "2019-10-11T07:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1464,7 +1464,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Native host packages for OverC",
-            "updated": "2018-10-17T16:10:37+0000"
+            "updated": "2019-10-11T07:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1483,7 +1483,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2019-03-21T01:03:55+0000"
+            "updated": "2019-10-11T07:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1502,7 +1502,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "All packages for audio support.",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2019-10-11T07:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1521,7 +1521,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "util-linux Packages",
-            "updated": "2019-05-21T19:05:38+0000"
+            "updated": "2019-10-11T07:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1540,7 +1540,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages needed for a service discovery and resource management daemon",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2019-10-11T07:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1559,7 +1559,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Service to allow randomizing the MAC address of an interface",
-            "updated": "2018-10-05T09:10:34+0000"
+            "updated": "2019-10-11T07:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1578,7 +1578,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A container image for kubernetes worker node.",
-            "updated": "2019-05-21T19:05:37+0000"
+            "updated": "2019-10-11T07:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1597,7 +1597,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "All packages for kubernetes compute node",
-            "updated": "2019-01-20T22:01:35+0000"
+            "updated": "2019-10-11T07:10:59+0000"
         }
     ],
     "wrtemplates": []

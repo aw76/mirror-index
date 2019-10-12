@@ -136,10 +136,10 @@
     "distros": [
         {
             "description": "Wind River Linux (Carrier Grade Linux distribution)",
-            "id": 3559,
+            "id": 6592,
             "layerbranch": 118404,
             "name": "wrlinux-cgl",
-            "updated": "2019-06-03T01:06:05+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         }
     ],
     "layerBranches": [
@@ -965,7 +965,7 @@
             "pv": "4.9",
             "section": "base",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-10-23T03:10:52+0000"
+            "updated": "2019-10-11T07:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -984,7 +984,7 @@
             "pv": "1.1",
             "section": "network",
             "summary": "Virtual Route Forwarding foundation package",
-            "updated": "2019-08-13T00:08:08+0000"
+            "updated": "2019-10-11T07:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1003,7 +1003,7 @@
             "pv": "1.0",
             "section": "apps",
             "summary": "ipsec-test",
-            "updated": "2018-10-23T03:10:53+0000"
+            "updated": "2019-10-11T07:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1022,7 +1022,7 @@
             "pv": "1.0",
             "section": "apps",
             "summary": "gen-coredump",
-            "updated": "2018-10-23T03:10:53+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1041,7 +1041,7 @@
             "pv": "1.0",
             "section": "apps",
             "summary": "cyclictest",
-            "updated": "2018-10-23T03:10:53+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1060,7 +1060,7 @@
             "pv": "1.0.8",
             "section": "apps",
             "summary": "HPI Conformance Test Suite",
-            "updated": "2019-07-03T19:07:02+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1079,7 +1079,7 @@
             "pv": "1.0",
             "section": "apps",
             "summary": "cgl-unittest",
-            "updated": "2019-09-18T20:09:07+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1090,7 +1090,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 725864,
-            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 118404,
             "license": "MIT",
             "pn": "wrlinux-image-glibc-cgl",
@@ -1098,7 +1098,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-02T19:06:08+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1117,7 +1117,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-05-26T20:05:02+0000"
+            "updated": "2019-10-11T07:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1136,7 +1136,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T03:10:54+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1155,7 +1155,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-23T03:10:54+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1166,7 +1166,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 951551,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 118404,
             "license": "MIT",
             "pn": "wrlinux-image-cgl",
@@ -1174,7 +1174,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-06-02T19:06:09+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1193,93 +1193,93 @@
             "pv": "1.0",
             "section": "System Environment/Base",
             "summary": "Mobile IPv6 and NEMO for Linux",
-            "updated": "2019-08-08T01:08:55+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Enable disk quota support",
-            "id": 28565,
+            "id": 53570,
             "layerbranch": 118404,
             "name": "feature/quota",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "description": "Enable 'mip6' support",
-            "id": 28567,
+            "id": 53571,
             "layerbranch": 118404,
             "name": "feature/mip6",
-            "updated": "2019-08-08T01:08:54+0000"
+            "updated": "2019-10-11T07:10:51+0000"
         },
         {
             "description": "Enable libcap-ng",
-            "id": 28568,
+            "id": 53572,
             "layerbranch": 118404,
             "name": "feature/libcap-ng",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable the various CGL protocol templates",
-            "id": 28569,
+            "id": 53573,
             "layerbranch": 118404,
             "name": "feature/protocols",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable ipmi",
-            "id": 28570,
+            "id": 53574,
             "layerbranch": 118404,
             "name": "feature/ipmi",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable all CGL related templates",
-            "id": 28571,
+            "id": 53575,
             "layerbranch": 118404,
             "name": "feature/cgl-full",
-            "updated": "2019-09-18T06:09:00+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable the CGL Unit Tests",
-            "id": 28573,
+            "id": 53576,
             "layerbranch": 118404,
             "name": "feature/cut",
-            "updated": "2018-10-12T01:10:32+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable ATA over Ethernet",
-            "id": 28574,
+            "id": 53577,
             "layerbranch": 118404,
             "name": "feature/aoe",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable ldap",
-            "id": 28575,
+            "id": 53578,
             "layerbranch": 118404,
             "name": "feature/ldap",
-            "updated": "2019-06-10T23:06:04+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable VRF (Virtual Routing and Forwarding)",
-            "id": 28576,
+            "id": 53579,
             "layerbranch": 118404,
             "name": "feature/vrf",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable net-snmp-support",
-            "id": 28577,
+            "id": 53580,
             "layerbranch": 118404,
             "name": "feature/snmp",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         },
         {
             "description": "Enable 'sasl' support",
-            "id": 28578,
+            "id": 53581,
             "layerbranch": 118404,
             "name": "feature/sasl",
-            "updated": "2018-10-05T09:10:56+0000"
+            "updated": "2019-10-11T07:10:52+0000"
         }
     ]
 }
