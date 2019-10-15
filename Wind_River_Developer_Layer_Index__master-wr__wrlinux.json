@@ -118,6 +118,34 @@
             "image_url": "",
             "link_url": "",
             "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
         }
     ],
     "branches": [
@@ -136,18 +164,18 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-10-12T02:10:46+0000",
-            "vcs_last_commit": "2019-10-12T02:10:46+0000",
-            "vcs_last_fetch": "2019-10-12T02:10:46+0000",
-            "vcs_last_rev": "c9a2528a41b6ca3ed68da44af87b38322ffc539f",
+            "updated": "2019-10-15T01:10:13+0000",
+            "vcs_last_commit": "2019-10-15T01:10:13+0000",
+            "vcs_last_fetch": "2019-10-15T01:10:13+0000",
+            "vcs_last_rev": "dcce13ff2fb670beb2516f050603cbd2b1da6c67",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 14
+            "yp_compatible_version": 102
         },
         {
             "actual_branch": "",
@@ -155,13 +183,13 @@
             "collection": "wr-template",
             "id": 15008,
             "layer": 55,
-            "updated": "2019-06-02T20:06:16+0000",
-            "vcs_last_commit": "2019-06-02T20:06:16+0000",
-            "vcs_last_fetch": "2019-06-02T20:06:16+0000",
-            "vcs_last_rev": "4f4e06413262e09e9eadbad427860218485bb3c3",
+            "updated": "2019-10-14T08:10:28+0000",
+            "vcs_last_commit": "2019-10-14T08:10:28+0000",
+            "vcs_last_fetch": "2019-10-14T08:10:28+0000",
+            "vcs_last_rev": "a19a8fb456b0e70d068183cb0837c31f456b46b3",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 11
+            "yp_compatible_version": 101
         },
         {
             "actual_branch": "",
@@ -169,13 +197,13 @@
             "collection": "wrlinux",
             "id": 15009,
             "layer": 49,
-            "updated": "2019-10-14T00:10:33+0000",
-            "vcs_last_commit": "2019-10-14T00:10:33+0000",
-            "vcs_last_fetch": "2019-10-14T00:10:33+0000",
-            "vcs_last_rev": "40112eb2d7a88497137eab931b52075509f8c8a4",
+            "updated": "2019-10-15T01:10:45+0000",
+            "vcs_last_commit": "2019-10-15T01:10:45+0000",
+            "vcs_last_fetch": "2019-10-15T01:10:45+0000",
+            "vcs_last_rev": "d5690b8029d5e06a502e6d83bf6bacb6f6a8bfec",
             "vcs_subdir": "",
             "version": "2",
-            "yp_compatible_version": 11
+            "yp_compatible_version": 101
         }
     ],
     "layerDependencies": [
@@ -578,7 +606,7 @@
             "id": 53585,
             "layerbranch": 15009,
             "name": "feature/toolchain-next",
-            "updated": "2019-10-13T23:10:50+0000"
+            "updated": "2019-10-14T19:10:07+0000"
         },
         {
             "description": "",
@@ -756,11 +784,11 @@
             "updated": "2019-10-13T23:10:51+0000"
         },
         {
-            "description": "",
+            "description": "Add kubernetes to the image",
             "id": 53611,
             "layerbranch": 15009,
             "name": "feature/kubernetes",
-            "updated": "2019-10-13T23:10:51+0000"
+            "updated": "2019-10-15T02:10:01+0000"
         },
         {
             "description": "",

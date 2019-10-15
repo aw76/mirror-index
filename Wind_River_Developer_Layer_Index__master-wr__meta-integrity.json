@@ -118,6 +118,34 @@
             "image_url": "",
             "link_url": "",
             "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
         }
     ],
     "branches": [
@@ -136,32 +164,32 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-10-12T02:10:46+0000",
-            "vcs_last_commit": "2019-10-12T02:10:46+0000",
-            "vcs_last_fetch": "2019-10-12T02:10:46+0000",
-            "vcs_last_rev": "c9a2528a41b6ca3ed68da44af87b38322ffc539f",
+            "updated": "2019-10-15T01:10:13+0000",
+            "vcs_last_commit": "2019-10-15T01:10:13+0000",
+            "vcs_last_fetch": "2019-10-15T01:10:13+0000",
+            "vcs_last_rev": "dcce13ff2fb670beb2516f050603cbd2b1da6c67",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 14
+            "yp_compatible_version": 102
         },
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-10-10T23:10:04+0000",
-            "vcs_last_commit": "2019-10-10T23:10:04+0000",
-            "vcs_last_fetch": "2019-10-10T23:10:04+0000",
-            "vcs_last_rev": "9ec571345574002cac7802bd7f5ee865da990cf8",
+            "updated": "2019-10-14T08:10:09+0000",
+            "vcs_last_commit": "2019-10-14T08:10:09+0000",
+            "vcs_last_fetch": "2019-10-14T08:10:09+0000",
+            "vcs_last_rev": "9ffcfea098421bc3e8110c8efc07390faf81bc3f",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 9
+            "yp_compatible_version": 99
         },
         {
             "actual_branch": "wr-10.19-20191007",
@@ -169,13 +197,13 @@
             "collection": "integrity",
             "id": 57002,
             "layer": 128,
-            "updated": "2019-10-10T22:10:21+0000",
-            "vcs_last_commit": "2019-10-10T22:10:21+0000",
-            "vcs_last_fetch": "2019-10-10T22:10:21+0000",
-            "vcs_last_rev": "e3035d905210b65de5e16f78dbccbe976a7f1de5",
+            "updated": "2019-10-14T08:10:39+0000",
+            "vcs_last_commit": "2019-10-14T08:10:39+0000",
+            "vcs_last_fetch": "2019-10-14T08:10:39+0000",
+            "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
             "vcs_subdir": "meta-integrity",
             "version": null,
-            "yp_compatible_version": 9
+            "yp_compatible_version": 99
         },
         {
             "actual_branch": "wr-10.19-20191007",
@@ -183,13 +211,13 @@
             "collection": "signing-key",
             "id": 57003,
             "layer": 129,
-            "updated": "2019-10-06T19:10:11+0000",
-            "vcs_last_commit": "2019-10-06T19:10:11+0000",
-            "vcs_last_fetch": "2019-10-06T19:10:11+0000",
-            "vcs_last_rev": "138443947729038a2fe8cc570b36b0ec93337b1e",
+            "updated": "2019-10-15T02:10:08+0000",
+            "vcs_last_commit": "2019-10-15T02:10:08+0000",
+            "vcs_last_fetch": "2019-10-15T02:10:08+0000",
+            "vcs_last_rev": "beacfa72dd74fcbbd2fb641182cdf120d8b72f46",
             "vcs_subdir": "meta-signing-key",
             "version": null,
-            "yp_compatible_version": 9
+            "yp_compatible_version": 99
         }
     ],
     "layerDependencies": [

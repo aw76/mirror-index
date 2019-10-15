@@ -118,6 +118,34 @@
             "image_url": "",
             "link_url": "",
             "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
         }
     ],
     "branches": [
@@ -136,32 +164,32 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-10-12T02:10:46+0000",
-            "vcs_last_commit": "2019-10-12T02:10:46+0000",
-            "vcs_last_fetch": "2019-10-12T02:10:46+0000",
-            "vcs_last_rev": "c9a2528a41b6ca3ed68da44af87b38322ffc539f",
+            "updated": "2019-10-15T01:10:13+0000",
+            "vcs_last_commit": "2019-10-15T01:10:13+0000",
+            "vcs_last_fetch": "2019-10-15T01:10:13+0000",
+            "vcs_last_rev": "dcce13ff2fb670beb2516f050603cbd2b1da6c67",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 14
+            "yp_compatible_version": 102
         },
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-10-10T23:10:04+0000",
-            "vcs_last_commit": "2019-10-10T23:10:04+0000",
-            "vcs_last_fetch": "2019-10-10T23:10:04+0000",
-            "vcs_last_rev": "9ec571345574002cac7802bd7f5ee865da990cf8",
+            "updated": "2019-10-14T08:10:09+0000",
+            "vcs_last_commit": "2019-10-14T08:10:09+0000",
+            "vcs_last_fetch": "2019-10-14T08:10:09+0000",
+            "vcs_last_rev": "9ffcfea098421bc3e8110c8efc07390faf81bc3f",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 9
+            "yp_compatible_version": 99
         }
     ],
     "layerDependencies": [
@@ -1445,13 +1473,13 @@
             "id": 1028228,
             "inherits": "allarch distro_features_check packagegroup",
             "layerbranch": 14965,
-            "license": "Custom",
+            "license": "MIT",
             "pn": "xorg-fonts-100dpi",
             "provides": "xorg-fonts-100dpi ",
             "pv": "1.0",
             "section": "base",
             "summary": "Xorg 100 DPI font set",
-            "updated": "2019-10-11T07:10:50+0000"
+            "updated": "2019-10-14T19:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2940,7 +2968,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "ModemManager is a DBus-activated daemon which controls mobile broadband (2G/3G/4G) devices and connections",
-            "filename": "modemmanager_1.10.2.bb",
+            "filename": "modemmanager_1.10.6.bb",
             "filepath": "recipes-connectivity/modemmanager",
             "homepage": "http://www.freedesktop.org/wiki/Software/ModemManager/",
             "id": 1028307,
@@ -2949,10 +2977,10 @@
             "license": "GPL-2.0 & LGPL-2.1",
             "pn": "modemmanager",
             "provides": "modemmanager ",
-            "pv": "1.10.2",
+            "pv": "1.10.6",
             "section": "base",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2019-10-11T07:10:11+0000"
+            "updated": "2019-10-14T19:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -5118,7 +5146,7 @@
             "pv": "8.0.4",
             "section": "devel",
             "summary": "A garbage collector for C and C++",
-            "updated": "2019-10-11T07:10:45+0000"
+            "updated": "2019-10-14T19:10:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -5536,7 +5564,7 @@
             "pv": "1.1.2",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-11T07:10:48+0000"
+            "updated": "2019-10-14T19:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -6835,7 +6863,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "It provides tools to manage multipath devices by instructing the device-mapper kernel module what to do. These tools include: 1. multipath - Scan the system for multipath devices and assemble them.2. multipathd - Detects when paths fail and execs multipath to update things.3. mpathpersist - Persistent reservation management feature allows cluster management software to manage persistent reservation through mpath device. It processes management requests from callers and hides the management task details. It also handles persistent reservation management of data path life cycle and state changes.4. kpartx - This tool, derived from util-linux's partx, reads partition tables on specified device and create device maps over partitions segments detected. It is called from hotplug upon device maps creation and deletion",
-            "filename": "multipath-tools_0.8.1.bb",
+            "filename": "multipath-tools_0.8.2.bb",
             "filepath": "recipes-support/multipath-tools",
             "homepage": "http://christophe.varoqui.free.fr/",
             "id": 1028512,
@@ -6844,10 +6872,10 @@
             "license": "GPLv2",
             "pn": "multipath-tools",
             "provides": "multipath-tools  device-mapper-multipath",
-            "pv": "0.8.1",
+            "pv": "0.8.2",
             "section": "base",
             "summary": "The upstream project used to drive the Device Mapper multipathing driver",
-            "updated": "2019-10-11T07:10:09+0000"
+            "updated": "2019-10-14T19:10:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -8063,7 +8091,7 @@
             "pv": "8",
             "section": "libs/multimedia",
             "summary": "a2jmidid is daemon for exposing ALSA sequencer applications as JACK MIDI",
-            "updated": "2019-10-11T07:10:25+0000"
+            "updated": "2019-10-14T19:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -8079,10 +8107,10 @@
             "license": "GPLv2 & LGPLv2.1",
             "pn": "jack",
             "provides": "jack ",
-            "pv": "1.9.12",
+            "pv": "1.9.13",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2019-10-11T07:10:26+0000"
+            "updated": "2019-10-14T19:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -8500,7 +8528,7 @@
             "pv": "10.3.16",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2019-10-11T07:10:33+0000"
+            "updated": "2019-10-14T19:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -8519,7 +8547,7 @@
             "pv": "10.3.16",
             "section": "libs",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2019-10-11T07:10:33+0000"
+            "updated": "2019-10-14T19:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -8576,7 +8604,7 @@
             "pv": "4.2.0+gitX",
             "section": "base",
             "summary": "mongodb",
-            "updated": "2019-10-11T07:10:33+0000"
+            "updated": "2019-10-14T19:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -9792,7 +9820,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-11T07:10:50+0000"
+            "updated": "2019-10-14T19:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -9830,7 +9858,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-11T07:10:51+0000"
+            "updated": "2019-10-14T19:10:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -10198,7 +10226,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "libostree is both a shared library and suite of command line tools that combines a \\\"git-like\\\" model for committing and downloading bootable filesystem trees, along with a layer for deploying them and managing the bootloader configuration.",
-            "filename": "ostree_2019.3.bb",
+            "filename": "ostree_2019.4.bb",
             "filepath": "recipes-extended/ostree",
             "homepage": "https://ostree.readthedocs.io",
             "id": 1028689,
@@ -10207,10 +10235,10 @@
             "license": "LGPLv2.1",
             "pn": "ostree",
             "provides": "ostree ",
-            "pv": "2019.3",
+            "pv": "2019.4",
             "section": "base",
             "summary": "Versioned Operating System Repository.",
-            "updated": "2019-10-11T07:10:56+0000"
+            "updated": "2019-10-14T19:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10236,7 +10264,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Persistent Memory Development Kit",
-            "filename": "pmdk_1.6.bb",
+            "filename": "pmdk_1.7.bb",
             "filepath": "recipes-extended/pmdk",
             "homepage": "http://pmem.io",
             "id": 1028691,
@@ -10245,10 +10273,10 @@
             "license": "BSD",
             "pn": "pmdk",
             "provides": "pmdk ",
-            "pv": "1.6",
+            "pv": "1.7",
             "section": "libs",
             "summary": "Persistent Memory Development Kit",
-            "updated": "2019-10-11T07:10:56+0000"
+            "updated": "2019-10-14T19:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10533,7 +10561,7 @@
             "pv": "8.1908.0",
             "section": "base",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2019-10-11T07:10:00+0000"
+            "updated": "2019-10-14T19:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10711,7 +10739,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "zram_0.1.bb",
+            "filename": "zram_0.2.bb",
             "filepath": "recipes-extended/zram",
             "homepage": "",
             "id": 1028716,
@@ -10720,10 +10748,10 @@
             "license": "MIT",
             "pn": "zram",
             "provides": "zram ",
-            "pv": "0.1",
+            "pv": "0.2",
             "section": "base",
             "summary": "Linux zram compressed in-memory swap",
-            "updated": "2019-10-11T07:10:03+0000"
+            "updated": "2019-10-14T19:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -11236,7 +11264,7 @@
             "pv": "3.16",
             "section": "console/tests",
             "summary": "Filesystem and hardware benchmark and stress tool",
-            "updated": "2019-10-11T07:10:12+0000"
+            "updated": "2019-10-14T19:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -11508,7 +11536,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "rwmem is a small tool for reading and writing device registers. rwmem supports two modes: mmap mode and i2c mode. In mmap mode rwmem accesses a file by memory mapping it. Using /dev/mem as the memory mapped file makes rwmem access memory and can thus be used to access devices which have memory mapped registers. In i2c mode rwmem accesses an i2c peripheral by sending i2c messages to it.",
             "filename": "rwmem_1.2.bb",
             "filepath": "recipes-bsp/rwmem",
             "homepage": "",
@@ -11521,26 +11549,26 @@
             "pv": "1.2+gitX",
             "section": "base",
             "summary": "A small tool to read/write memory",
-            "updated": "2019-10-11T07:10:16+0000"
+            "updated": "2019-10-14T19:10:18+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "nvme-cli_1.6.bb",
+            "filename": "nvme-cli_1.9.bb",
             "filepath": "recipes-bsp/nvme-cli",
             "homepage": "https://github.com/linux-nvme/nvme-cli",
             "id": 1028759,
-            "inherits": "bash-completion",
+            "inherits": "bash-completion systemd",
             "layerbranch": 14965,
             "license": "GPLv2",
             "pn": "nvme-cli",
             "provides": "nvme-cli ",
-            "pv": "1.6+gitX",
+            "pv": "1.9+gitX",
             "section": "console/utils",
             "summary": "NVMe management command line interface",
-            "updated": "2019-10-11T07:10:16+0000"
+            "updated": "2019-10-14T19:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -11901,7 +11929,7 @@
             "pv": "5.3.5",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-11T07:10:23+0000"
+            "updated": "2019-10-14T19:10:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -12357,7 +12385,7 @@
             "pv": "1.51.03",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-11T07:10:33+0000"
+            "updated": "2019-10-14T19:10:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -12528,7 +12556,7 @@
             "pv": "1.2.0",
             "section": "libs",
             "summary": "C++ framework for json-rpc 1.0 and 2.0",
-            "updated": "2019-10-11T07:10:36+0000"
+            "updated": "2019-10-14T19:10:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -13259,7 +13287,7 @@
             "description": "The kconfig-frontends project aims at centralising the effort of keeping an up-to-date, out-of-tree, packaging of the kconfig infrastructure, ready for use by third-party projects. The kconfig-frontends package provides the kconfig parser, as well as all the frontends",
             "filename": "kconfig-frontends_4.11.0.1.bb",
             "filepath": "recipes-devtools/kconfig-frontends",
-            "homepage": "http://ymorin.is-a-geek.org/projects/kconfig-frontends",
+            "homepage": "https://gitlab.com/ymorin/kconfig-frontends",
             "id": 1028850,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 14965,
@@ -13269,7 +13297,7 @@
             "pv": "4.11.0.1",
             "section": "devel",
             "summary": "Linux kernel style configuration framework for other projects",
-            "updated": "2019-10-11T07:10:50+0000"
+            "updated": "2019-10-14T19:10:19+0000"
         },
         {
             "bbclassextend": "",

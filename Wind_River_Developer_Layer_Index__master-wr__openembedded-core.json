@@ -118,6 +118,34 @@
             "image_url": "",
             "link_url": "",
             "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
         }
     ],
     "branches": [
@@ -144,18 +172,18 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-10-12T02:10:46+0000",
-            "vcs_last_commit": "2019-10-12T02:10:46+0000",
-            "vcs_last_fetch": "2019-10-12T02:10:46+0000",
-            "vcs_last_rev": "c9a2528a41b6ca3ed68da44af87b38322ffc539f",
+            "updated": "2019-10-15T01:10:13+0000",
+            "vcs_last_commit": "2019-10-15T01:10:13+0000",
+            "vcs_last_fetch": "2019-10-15T01:10:13+0000",
+            "vcs_last_rev": "dcce13ff2fb670beb2516f050603cbd2b1da6c67",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 14
+            "yp_compatible_version": 102
         }
     ],
     "layerDependencies": [
@@ -630,7 +658,7 @@
             "pv": "3.0",
             "section": "x11",
             "summary": "Simple Xserver Init Script (no dm)",
-            "updated": "2019-10-11T07:10:34+0000"
+            "updated": "2019-10-14T19:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2055,7 +2083,7 @@
             "pv": "2.6.1",
             "section": "libs",
             "summary": "Text shaping library",
-            "updated": "2019-10-11T07:10:08+0000"
+            "updated": "2019-10-14T19:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2245,7 +2273,7 @@
             "pv": "1.44.6",
             "section": "libs",
             "summary": "Framework for layout and rendering of internationalized text",
-            "updated": "2019-10-11T07:10:11+0000"
+            "updated": "2019-10-14T19:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2492,7 +2520,7 @@
             "pv": "7.0.0",
             "section": "base",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2019-10-11T07:10:15+0000"
+            "updated": "2019-10-15T02:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2511,7 +2539,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Startup script and systemd unit file for the Weston Wayland compositor",
-            "updated": "2019-10-11T07:10:15+0000"
+            "updated": "2019-10-14T19:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2891,7 +2919,7 @@
             "pv": "2.4.7",
             "section": "console/network",
             "summary": "Point-to-Point Protocol (PPP) support",
-            "updated": "2019-10-11T07:10:23+0000"
+            "updated": "2019-10-14T19:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2910,7 +2938,7 @@
             "pv": "1.30",
             "section": "base",
             "summary": "open source telephony",
-            "updated": "2019-10-11T07:10:24+0000"
+            "updated": "2019-10-14T19:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2929,7 +2957,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Connman config to setup wired interface on qemu machines",
-            "updated": "2019-10-11T07:10:24+0000"
+            "updated": "2019-10-14T19:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2948,7 +2976,7 @@
             "pv": "1.37",
             "section": "base",
             "summary": "A daemon for managing internet connections within embedded devices",
-            "updated": "2019-10-11T07:10:24+0000"
+            "updated": "2019-10-14T19:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2986,7 +3014,7 @@
             "pv": "9.11.5-P4",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2019-10-11T07:10:25+0000"
+            "updated": "2019-10-14T19:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3043,7 +3071,7 @@
             "pv": "8.0p1",
             "section": "console/network",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2019-10-11T07:10:26+0000"
+            "updated": "2019-10-14T19:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3062,7 +3090,7 @@
             "pv": "5.50",
             "section": "libs",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2019-10-11T07:10:27+0000"
+            "updated": "2019-10-15T01:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -3138,7 +3166,7 @@
             "pv": "0.7",
             "section": "network",
             "summary": "Avahi IPv4LL network address configuration daemon",
-            "updated": "2019-10-11T07:10:28+0000"
+            "updated": "2019-10-14T19:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3176,7 +3204,7 @@
             "pv": "4.4.1",
             "section": "console/network",
             "summary": "Internet Software Consortium DHCP package",
-            "updated": "2019-10-11T07:10:29+0000"
+            "updated": "2019-10-14T19:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3214,7 +3242,7 @@
             "pv": "2.4.1",
             "section": "console/network",
             "summary": "userspace utilities for kernel nfs",
-            "updated": "2019-10-11T07:10:30+0000"
+            "updated": "2019-10-14T19:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3240,7 +3268,7 @@
             "blacklisted": "",
             "bugtracker": "http://sourceforge.net/tracker/?group_id=53067&atid=469577",
             "description": "Libpcap provides a portable framework for low-level network monitoring.  Libpcap can provide network statistics collection, security monitoring and network debugging.",
-            "filename": "libpcap_1.9.0.bb",
+            "filename": "libpcap_1.9.1.bb",
             "filepath": "recipes-connectivity/libpcap",
             "homepage": "http://www.tcpdump.org/",
             "id": 973088,
@@ -3249,10 +3277,10 @@
             "license": "BSD",
             "pn": "libpcap",
             "provides": "libpcap ",
-            "pv": "1.9.0",
+            "pv": "1.9.1",
             "section": "libs/network",
             "summary": "Interface for user-level network packet capture",
-            "updated": "2019-10-11T07:10:31+0000"
+            "updated": "2019-10-14T19:10:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3309,7 +3337,7 @@
             "pv": "0.16",
             "section": "base",
             "summary": "Linux NFC daemon",
-            "updated": "2019-10-11T07:10:32+0000"
+            "updated": "2019-10-14T19:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3328,7 +3356,7 @@
             "pv": "2.9",
             "section": "network",
             "summary": "Client for Wi-Fi Protected Access (WPA)",
-            "updated": "2019-10-11T07:10:32+0000"
+            "updated": "2019-10-14T19:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3404,7 +3432,7 @@
             "pv": "2.10.7",
             "section": "devel",
             "summary": "Linux Trace Toolkit Control",
-            "updated": "2019-10-11T07:10:33+0000"
+            "updated": "2019-10-14T19:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3461,7 +3489,7 @@
             "pv": "3.32.0",
             "section": "base",
             "summary": "System-wide Performance Profiler for Linux",
-            "updated": "2019-10-11T07:10:34+0000"
+            "updated": "2019-10-14T19:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3727,7 +3755,7 @@
             "pv": "2.0.19",
             "section": "kernel/userland",
             "summary": "Kexec fast reboot tools",
-            "updated": "2019-10-11T07:10:38+0000"
+            "updated": "2019-10-14T19:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3765,7 +3793,7 @@
             "pv": "4.1+gitX",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2019-10-11T07:10:38+0000"
+            "updated": "2019-10-14T19:10:58+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -3784,7 +3812,7 @@
             "pv": "4.1+gitX",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2019-10-11T07:10:39+0000"
+            "updated": "2019-10-14T19:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3841,7 +3869,7 @@
             "pv": "5.3-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-10-11T07:10:39+0000"
+            "updated": "2019-10-14T19:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3860,7 +3888,7 @@
             "pv": "4.19.72+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-10-11T07:10:40+0000"
+            "updated": "2019-10-14T19:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3879,7 +3907,7 @@
             "pv": "4.19.72+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-10-11T07:10:40+0000"
+            "updated": "2019-10-14T19:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -3898,7 +3926,7 @@
             "pv": "4.19.72+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-10-11T07:10:40+0000"
+            "updated": "2019-10-14T19:10:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4506,7 +4534,7 @@
             "pv": "6.7",
             "section": "base",
             "summary": "Random number generator daemon",
-            "updated": "2019-10-11T07:10:56+0000"
+            "updated": "2019-10-14T19:10:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5209,7 +5237,7 @@
             "pv": "2.27",
             "section": "base",
             "summary": "Library for getting/setting POSIX.1e capabilities",
-            "updated": "2019-10-11T07:10:13+0000"
+            "updated": "2019-10-14T19:10:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -5494,7 +5522,7 @@
             "pv": "2.32.1",
             "section": "base",
             "summary": "Assistive Technology Service Provider Interface (dbus core)",
-            "updated": "2019-10-11T07:10:21+0000"
+            "updated": "2019-10-14T19:10:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5969,7 +5997,7 @@
             "pv": "12.2",
             "section": "libs/multimedia",
             "summary": "Sound server for Linux and Unix-like operating systems",
-            "updated": "2019-10-11T07:10:31+0000"
+            "updated": "2019-10-14T19:10:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6425,7 +6453,7 @@
             "pv": "12.1.6",
             "section": "console/utils",
             "summary": "System performance tools",
-            "updated": "2019-10-11T07:10:39+0000"
+            "updated": "2019-10-14T19:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -6482,7 +6510,7 @@
             "pv": "3.15.1",
             "section": "console/utils",
             "summary": "Rotates, compresses, removes and mails system log files",
-            "updated": "2019-10-11T07:10:40+0000"
+            "updated": "2019-10-14T19:10:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6615,7 +6643,7 @@
             "pv": "2.2.12",
             "section": "console/utils",
             "summary": "An Internet printing system for Unix",
-            "updated": "2019-10-11T07:10:43+0000"
+            "updated": "2019-10-14T19:10:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6786,7 +6814,7 @@
             "pv": "1.8.3",
             "section": "base",
             "summary": "Tools for managing kernel packet filtering capabilities",
-            "updated": "2019-10-11T07:10:47+0000"
+            "updated": "2019-10-14T19:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6805,7 +6833,7 @@
             "pv": "1.4.54",
             "section": "net",
             "summary": "Lightweight high-performance web server",
-            "updated": "2019-10-11T07:10:47+0000"
+            "updated": "2019-10-14T19:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6824,7 +6852,7 @@
             "pv": "3.1.23",
             "section": "base",
             "summary": "Delayed job execution and batch processing",
-            "updated": "2019-10-11T07:10:47+0000"
+            "updated": "2019-10-14T19:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6900,7 +6928,7 @@
             "pv": "1.5.1",
             "section": "base",
             "summary": "System Log Daemons",
-            "updated": "2019-10-11T07:10:49+0000"
+            "updated": "2019-10-14T19:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -6957,7 +6985,7 @@
             "pv": "2.8.7",
             "section": "base",
             "summary": "An implementation of the standard Unix documentation system accessed using the man command",
-            "updated": "2019-10-11T07:10:49+0000"
+            "updated": "2019-10-14T19:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -6976,7 +7004,7 @@
             "pv": "5.2",
             "section": "console/network",
             "summary": "Display or change ethernet card settings",
-            "updated": "2019-10-11T07:10:49+0000"
+            "updated": "2019-10-14T19:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -6995,7 +7023,7 @@
             "pv": "1.2.5",
             "section": "console/network",
             "summary": "Universal Addresses to RPC Program Number Mapper",
-            "updated": "2019-10-11T07:10:50+0000"
+            "updated": "2019-10-14T19:10:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7280,7 +7308,7 @@
             "pv": "1.5.4",
             "section": "utils",
             "summary": "Cron daemon for executing programs at set times",
-            "updated": "2019-10-11T07:10:54+0000"
+            "updated": "2019-10-14T19:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -7337,7 +7365,7 @@
             "pv": "2.3.15",
             "section": "base",
             "summary": "Socket-based service activation daemon",
-            "updated": "2019-10-11T07:10:55+0000"
+            "updated": "2019-10-14T19:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -7812,7 +7840,7 @@
             "pv": "4.1",
             "section": "base",
             "summary": "Tool for managing software RAID under Linux",
-            "updated": "2019-10-11T07:10:05+0000"
+            "updated": "2019-10-14T19:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -7926,7 +7954,7 @@
             "pv": "5.15",
             "section": "base",
             "summary": "Software watchdog",
-            "updated": "2019-10-11T07:10:08+0000"
+            "updated": "2019-10-14T19:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -7983,7 +8011,7 @@
             "pv": "9.27",
             "section": "console/utils",
             "summary": "The GPL Ghostscript PostScript/PDF interpreter",
-            "updated": "2019-10-11T07:10:08+0000"
+            "updated": "2019-10-14T19:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8287,7 +8315,7 @@
             "pv": "3.2.2-15",
             "section": "base",
             "summary": "Utilities for Advanced Power Management",
-            "updated": "2019-10-11T07:10:14+0000"
+            "updated": "2019-10-14T19:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -8572,7 +8600,7 @@
             "pv": "2.0.32",
             "section": "base",
             "summary": "A daemon for delivering ACPI events",
-            "updated": "2019-10-11T07:10:18+0000"
+            "updated": "2019-10-14T19:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9028,7 +9056,7 @@
             "pv": "5.30.0",
             "section": "devel",
             "summary": "Perl scripting language",
-            "updated": "2019-10-11T07:10:30+0000"
+            "updated": "2019-10-14T19:10:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9142,7 +9170,7 @@
             "pv": "3.3.3",
             "section": "devel",
             "summary": "A parallel build system",
-            "updated": "2019-10-11T07:10:33+0000"
+            "updated": "2019-10-14T19:10:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9243,7 +9271,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "UNFS3 is a user-space implementation of the NFSv3 server specification. It provides a daemon for the MOUNT and NFS protocols, which are used by NFS clients for accessing files on the server.",
             "filename": "unfs3_git.bb",
             "filepath": "recipes-devtools/unfs3",
             "homepage": "",
@@ -9256,7 +9284,7 @@
             "pv": "0.9.22+X",
             "section": "console/network",
             "summary": "Userspace NFS server v3 protocol",
-            "updated": "2019-10-11T07:10:36+0000"
+            "updated": "2019-10-14T19:10:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -9870,7 +9898,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Quilt is a tool to manage large sets of patches by keeping track of the changes each patch makes. Patches can be applied, un-applied,refreshed, etc. The key philosophical concept is that your primary output is patches.",
             "filename": "quilt_0.66.bb",
             "filepath": "recipes-devtools/quilt",
             "homepage": "http://savannah.nongnu.org/projects/quilt/",
@@ -9883,13 +9911,13 @@
             "pv": "0.66",
             "section": "devel",
             "summary": "Tool for working with series of patches",
-            "updated": "2019-10-11T07:10:52+0000"
+            "updated": "2019-10-14T19:10:44+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Quilt is a tool to manage large sets of patches by keeping track of the changes each patch makes. Patches can be applied, un-applied,refreshed, etc. The key philosophical concept is that your primary output is patches.",
             "filename": "quilt-native_0.66.bb",
             "filepath": "recipes-devtools/quilt",
             "homepage": "http://savannah.nongnu.org/projects/quilt/",
@@ -9902,7 +9930,7 @@
             "pv": "0.66",
             "section": "devel",
             "summary": "Tool for working with series of patches",
-            "updated": "2019-10-11T07:10:52+0000"
+            "updated": "2019-10-14T19:10:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -10073,7 +10101,7 @@
             "pv": "233+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2019-10-11T07:10:57+0000"
+            "updated": "2019-10-14T19:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10478,7 +10506,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "SWIG is a compiler that makes it easy to integrate C and C++ code with other languages including Perl, Tcl, Ruby, Python, Java, Guile, Mzscheme, Chicken, OCaml, Pike, and C#.",
             "filename": "swig_3.0.12.bb",
             "filepath": "recipes-devtools/swig",
             "homepage": "http://swig.sourceforge.net/",
@@ -10491,13 +10519,13 @@
             "pv": "3.0.12",
             "section": "devel",
             "summary": "SWIG - Simplified Wrapper and Interface Generator",
-            "updated": "2019-10-11T07:10:07+0000"
+            "updated": "2019-10-14T19:10:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Software package manager that installs, updates, and removes packages on RPM-based Linux distributions. It automatically computes dependencies and determines the actions required to install packages.",
             "filename": "dnf_4.2.2.bb",
             "filepath": "recipes-devtools/dnf",
             "homepage": "",
@@ -10510,13 +10538,13 @@
             "pv": "4.2.2",
             "section": "base",
             "summary": "Package manager forked from Yum, using libsolv as a dependency resolver",
-            "updated": "2019-10-11T07:10:07+0000"
+            "updated": "2019-10-14T19:10:36+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Meson is a build system designed to increase programmer productivity. It does this by providing a fast, simple and easy to use interface for modern software development tools and practices.",
             "filename": "meson_0.51.2.bb",
             "filepath": "recipes-devtools/meson",
             "homepage": "http://mesonbuild.com",
@@ -10529,13 +10557,13 @@
             "pv": "0.51.2",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2019-10-11T07:10:08+0000"
+            "updated": "2019-10-14T19:10:45+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Meson is a build system designed to increase programmer productivity. It does this by providing a fast, simple and easy to use interface for modern software development tools and practices.",
             "filename": "nativesdk-meson_0.51.2.bb",
             "filepath": "recipes-devtools/meson",
             "homepage": "http://mesonbuild.com",
@@ -10548,7 +10576,7 @@
             "pv": "0.51.2",
             "section": "base",
             "summary": "A high performance build system",
-            "updated": "2019-10-11T07:10:08+0000"
+            "updated": "2019-10-14T19:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -10605,7 +10633,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "Runs postinstall scripts on first boot of the target device",
-            "updated": "2019-10-11T07:10:09+0000"
+            "updated": "2019-10-14T19:10:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -10877,7 +10905,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-system-native_4.1.0.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
@@ -10890,7 +10918,7 @@
             "pv": "4.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-10-11T07:10:14+0000"
+            "updated": "2019-10-14T19:10:46+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10934,7 +10962,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu_4.1.0.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
@@ -10947,13 +10975,13 @@
             "pv": "4.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-10-11T07:10:16+0000"
+            "updated": "2019-10-14T19:10:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-native_4.1.0.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "http://qemu.org",
@@ -10966,7 +10994,7 @@
             "pv": "4.1.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2019-10-11T07:10:16+0000"
+            "updated": "2019-10-14T19:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11106,7 +11134,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gdb-cross-canadian_8.3.bb",
+            "filename": "gdb-cross-canadian_8.3.1.bb",
             "filepath": "recipes-devtools/gdb",
             "homepage": "http://www.gnu.org/software/gdb/",
             "id": 973529,
@@ -11115,17 +11143,17 @@
             "license": "GPLv2 & GPLv3 & LGPLv2 & LGPLv3",
             "pn": "gdb-cross-canadian-i686",
             "provides": "gdb-cross-canadian-i686 ",
-            "pv": "8.3",
+            "pv": "8.3.1",
             "section": "devel",
             "summary": "GNU debugger (cross-canadian gdb for i686 target)",
-            "updated": "2019-10-11T07:10:20+0000"
+            "updated": "2019-10-14T19:10:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gdb-cross_8.3.bb",
+            "filename": "gdb-cross_8.3.1.bb",
             "filepath": "recipes-devtools/gdb",
             "homepage": "http://www.gnu.org/software/gdb/",
             "id": 973530,
@@ -11134,17 +11162,17 @@
             "license": "GPLv2 & GPLv3 & LGPLv2 & LGPLv3",
             "pn": "gdb-cross-i686",
             "provides": "gdb-cross-i686 ",
-            "pv": "8.3",
+            "pv": "8.3.1",
             "section": "devel",
             "summary": "GNU debugger",
-            "updated": "2019-10-11T07:10:21+0000"
+            "updated": "2019-10-14T19:10:32+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "gdb_8.3.bb",
+            "filename": "gdb_8.3.1.bb",
             "filepath": "recipes-devtools/gdb",
             "homepage": "http://www.gnu.org/software/gdb/",
             "id": 973531,
@@ -11153,10 +11181,10 @@
             "license": "GPLv2 & GPLv3 & LGPLv2 & LGPLv3",
             "pn": "gdb",
             "provides": "gdb ",
-            "pv": "8.3",
+            "pv": "8.3.1",
             "section": "devel",
             "summary": "GNU debugger",
-            "updated": "2019-10-11T07:10:21+0000"
+            "updated": "2019-10-14T19:10:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11384,7 +11412,7 @@
             "pv": "0.14.8+gitX",
             "section": "base",
             "summary": "Booting sequence and CPU,I/O usage monitor",
-            "updated": "2019-10-11T07:10:26+0000"
+            "updated": "2019-10-14T19:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -11403,7 +11431,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Target Communication Framework for the Eclipse IDE",
-            "updated": "2019-10-11T07:10:26+0000"
+            "updated": "2019-10-14T19:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11428,7 +11456,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Provides commandline tools for searching and managing as well as querying information about packages as a low-level access to all features of the libapt-pkg library.",
             "filename": "apt-native_1.2.31.bb",
             "filepath": "recipes-devtools/apt",
             "homepage": "",
@@ -11441,13 +11469,13 @@
             "pv": "1.2.31",
             "section": "base",
             "summary": "Advanced front-end for dpkg",
-            "updated": "2019-10-11T07:10:27+0000"
+            "updated": "2019-10-14T19:10:48+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "Provides commandline tools for searching and managing as well as querying information about packages as a low-level access to all features of the libapt-pkg library.",
             "filename": "apt_1.2.31.bb",
             "filepath": "recipes-devtools/apt",
             "homepage": "",
@@ -11460,13 +11488,13 @@
             "pv": "1.2.31",
             "section": "base",
             "summary": "Advanced front-end for dpkg",
-            "updated": "2019-10-11T07:10:27+0000"
+            "updated": "2019-10-14T19:10:48+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "http://public.kitware.com/Bug/my_view_page.php",
-            "description": "",
+            "description": "CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice. CMake is quite sophisticated: it is possible to support complex environments requiring system configuration, pre-processor generation, code generation, and template instantiation.",
             "filename": "cmake_3.15.3.bb",
             "filepath": "recipes-devtools/cmake",
             "homepage": "http://www.cmake.org/",
@@ -11479,13 +11507,13 @@
             "pv": "3.15.3",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2019-10-11T07:10:27+0000"
+            "updated": "2019-10-14T19:10:49+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://public.kitware.com/Bug/my_view_page.php",
-            "description": "",
+            "description": "CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice. CMake is quite sophisticated: it is possible to support complex environments requiring system configuration, pre-processor generation, code generation, and template instantiation.",
             "filename": "cmake-native_3.15.3.bb",
             "filepath": "recipes-devtools/cmake",
             "homepage": "http://www.cmake.org/",
@@ -11498,7 +11526,7 @@
             "pv": "3.15.3",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2019-10-11T07:10:28+0000"
+            "updated": "2019-10-14T19:10:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -11935,7 +11963,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Volatile bind mount setup and configuration for read-only-rootfs",
-            "updated": "2019-10-11T07:10:35+0000"
+            "updated": "2019-10-14T19:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -12011,7 +12039,7 @@
             "pv": "2.30",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-10-11T07:10:37+0000"
+            "updated": "2019-10-14T19:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -12163,7 +12191,7 @@
             "pv": "243+X",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2019-10-11T07:10:39+0000"
+            "updated": "2019-10-14T19:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -12182,7 +12210,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Machine specific systemd units",
-            "updated": "2019-10-11T07:10:40+0000"
+            "updated": "2019-10-14T19:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -12391,7 +12419,7 @@
             "pv": "2019.78",
             "section": "console/network",
             "summary": "A lightweight SSH and SCP implementation",
-            "updated": "2019-10-11T07:10:43+0000"
+            "updated": "2019-10-14T19:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -12581,7 +12609,7 @@
             "pv": "1.1.23+gitX",
             "section": "libs",
             "summary": "An implementation of the standard library for Linux-based systems",
-            "updated": "2019-10-11T07:10:46+0000"
+            "updated": "2019-10-14T19:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -12657,7 +12685,7 @@
             "pv": "1.31.0",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2019-10-11T07:10:47+0000"
+            "updated": "2019-10-14T19:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -13056,7 +13084,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2019-10-11T07:10:52+0000"
+            "updated": "2019-10-14T19:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13569,7 +13597,7 @@
             "pv": "8.0",
             "section": "libs",
             "summary": "Library for editing typed command lines",
-            "updated": "2019-10-11T07:10:59+0000"
+            "updated": "2019-10-14T19:10:00+0000"
         },
         {
             "bbclassextend": "",
@@ -13721,7 +13749,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Package of environment files for SDK",
-            "updated": "2019-10-11T07:10:02+0000"
+            "updated": "2019-10-14T19:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -13740,7 +13768,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Integrated Development Environment support",
-            "updated": "2019-10-11T07:10:02+0000"
+            "updated": "2019-10-14T19:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -13930,7 +13958,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Package of environment files for SDK",
-            "updated": "2019-10-11T07:10:05+0000"
+            "updated": "2019-10-14T19:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -14063,7 +14091,7 @@
             "pv": "2.34",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2019-10-11T07:10:07+0000"
+            "updated": "2019-10-14T19:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -14804,7 +14832,7 @@
             "pv": "5.2.17+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-10-11T07:10:19+0000"
+            "updated": "2019-10-14T19:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -14823,7 +14851,7 @@
             "pv": "5.2.17+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-10-11T07:10:19+0000"
+            "updated": "2019-10-14T19:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -14842,7 +14870,7 @@
             "pv": "5.2.17+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-10-11T07:10:20+0000"
+            "updated": "2019-10-14T19:10:41+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14861,7 +14889,7 @@
             "pv": "2.30",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2019-10-11T07:10:20+0000"
+            "updated": "2019-10-14T19:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -14886,7 +14914,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "DejaGnu is a framework for testing other programs. Its purpose is to provide a single front end for all tests.",
             "filename": "dejagnu_1.6.2.bb",
             "filepath": "recipes-devtools/dejagnu",
             "homepage": "",
@@ -14899,7 +14927,7 @@
             "pv": "1.6.2",
             "section": "devel",
             "summary": "GNU unit testing framework, written in Expect and Tcl",
-            "updated": "2019-10-11T07:10:21+0000"
+            "updated": "2019-10-14T19:10:35+0000"
         },
         {
             "bbclassextend": "",

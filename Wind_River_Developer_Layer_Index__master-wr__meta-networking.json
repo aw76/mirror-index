@@ -118,6 +118,34 @@
             "image_url": "",
             "link_url": "",
             "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
         }
     ],
     "branches": [
@@ -136,60 +164,60 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "core",
             "id": 14953,
             "layer": 1,
-            "updated": "2019-10-12T02:10:46+0000",
-            "vcs_last_commit": "2019-10-12T02:10:46+0000",
-            "vcs_last_fetch": "2019-10-12T02:10:46+0000",
-            "vcs_last_rev": "c9a2528a41b6ca3ed68da44af87b38322ffc539f",
+            "updated": "2019-10-15T01:10:13+0000",
+            "vcs_last_commit": "2019-10-15T01:10:13+0000",
+            "vcs_last_fetch": "2019-10-15T01:10:13+0000",
+            "vcs_last_rev": "dcce13ff2fb670beb2516f050603cbd2b1da6c67",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 14
+            "yp_compatible_version": 102
         },
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "networking-layer",
             "id": 14964,
             "layer": 11,
-            "updated": "2019-10-08T00:10:45+0000",
-            "vcs_last_commit": "2019-10-08T00:10:45+0000",
-            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
-            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
+            "updated": "2019-10-14T08:10:09+0000",
+            "vcs_last_commit": "2019-10-14T08:10:09+0000",
+            "vcs_last_fetch": "2019-10-14T08:10:09+0000",
+            "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-networking",
             "version": "1",
-            "yp_compatible_version": 9
+            "yp_compatible_version": 99
         },
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "openembedded-layer",
             "id": 14965,
             "layer": 7,
-            "updated": "2019-10-10T23:10:04+0000",
-            "vcs_last_commit": "2019-10-10T23:10:04+0000",
-            "vcs_last_fetch": "2019-10-10T23:10:04+0000",
-            "vcs_last_rev": "9ec571345574002cac7802bd7f5ee865da990cf8",
+            "updated": "2019-10-14T08:10:09+0000",
+            "vcs_last_commit": "2019-10-14T08:10:09+0000",
+            "vcs_last_fetch": "2019-10-14T08:10:09+0000",
+            "vcs_last_rev": "9ffcfea098421bc3e8110c8efc07390faf81bc3f",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 9
+            "yp_compatible_version": 99
         },
         {
-            "actual_branch": "wr-10.19-20191007",
+            "actual_branch": "wr-10.19-20191015",
             "branch": 38,
             "collection": "meta-python",
             "id": 14967,
             "layer": 12,
-            "updated": "2019-10-08T00:10:45+0000",
-            "vcs_last_commit": "2019-10-08T00:10:45+0000",
-            "vcs_last_fetch": "2019-10-08T00:10:45+0000",
-            "vcs_last_rev": "f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a",
+            "updated": "2019-10-14T08:10:09+0000",
+            "vcs_last_commit": "2019-10-14T08:10:09+0000",
+            "vcs_last_fetch": "2019-10-14T08:10:09+0000",
+            "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-python",
             "version": "1",
-            "yp_compatible_version": 9
+            "yp_compatible_version": 99
         }
     ],
     "layerDependencies": [
@@ -558,7 +586,7 @@
             "pv": "3.0.19",
             "section": "System/Servers",
             "summary": "High-performance and highly configurable RADIUS server",
-            "updated": "2019-10-11T07:10:38+0000"
+            "updated": "2019-10-14T19:10:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -717,7 +745,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1, 3.1.1 and 5, providing both an MQTT broker and several command-line clients. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
-            "filename": "mosquitto_1.6.6.bb",
+            "filename": "mosquitto_1.6.7.bb",
             "filepath": "recipes-connectivity/mosquitto",
             "homepage": "http://mosquitto.org/",
             "id": 724923,
@@ -726,10 +754,10 @@
             "license": "EPL-1.0 | EDL-1.0",
             "pn": "mosquitto",
             "provides": "mosquitto ",
-            "pv": "1.6.6",
+            "pv": "1.6.7",
             "section": "console/network",
             "summary": "Open source MQTT implementation",
-            "updated": "2019-10-11T07:10:41+0000"
+            "updated": "2019-10-14T19:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1230,7 +1258,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Fetchmail is a full-featured, robust, well-documented remote-mail retrieval and forwarding utility intended to be used over on-demand TCP/IP links (such as SLIP or PPP connections). It supports every remote-mail protocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP, all flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and IPSEC.",
-            "filename": "fetchmail_6.3.26.bb",
+            "filename": "fetchmail_6.4.1.bb",
             "filepath": "recipes-support/fetchmail",
             "homepage": "http://www.fetchmail.info/",
             "id": 724951,
@@ -1239,10 +1267,10 @@
             "license": "GPLv2 & MIT",
             "pn": "fetchmail",
             "provides": "fetchmail ",
-            "pv": "6.3.26",
+            "pv": "6.4.1",
             "section": "mail",
             "summary": "Fetchmail retrieves mail from remote mail servers and forwards it via SMTP",
-            "updated": "2019-10-11T07:10:49+0000"
+            "updated": "2019-10-14T19:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2313,7 +2341,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tcpdump_4.9.2.bb",
+            "filename": "tcpdump_4.9.3.bb",
             "filepath": "recipes-support/tcpdump",
             "homepage": "http://www.tcpdump.org/",
             "id": 725009,
@@ -2322,10 +2350,10 @@
             "license": "BSD",
             "pn": "tcpdump",
             "provides": "tcpdump ",
-            "pv": "4.9.2",
+            "pv": "4.9.3",
             "section": "net",
             "summary": "A sophisticated network protocol analyzer",
-            "updated": "2019-10-11T07:10:07+0000"
+            "updated": "2019-10-14T19:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2754,7 +2782,7 @@
             "filepath": "recipes-daemons/networkd-dispatcher",
             "homepage": "",
             "id": 725032,
-            "inherits": "",
+            "inherits": "distro_features_check systemd",
             "layerbranch": 14964,
             "license": "GPLv3",
             "pn": "networkd-dispatcher",
@@ -2762,7 +2790,7 @@
             "pv": "2.0.1",
             "section": "base",
             "summary": "Dispatcher service for systemd-networkd connection status changes",
-            "updated": "2019-10-11T07:10:14+0000"
+            "updated": "2019-10-14T19:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3434,19 +3462,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "A high performance, open source, general-purpose RPC framework. Provides gRPC libraries for multiple languages written on top of shared C core library (C++, Node.js, Python, Ruby, Objective-C, PHP, C#)",
-            "filename": "grpc_1.22.0.bb",
+            "filename": "grpc_1.24.1.bb",
             "filepath": "recipes-devtools/grpc",
             "homepage": "https://github.com/grpc/grpc",
             "id": 725069,
-            "inherits": "cmake",
+            "inherits": "cmake pkgconfig",
             "layerbranch": 14964,
             "license": "Apache-2",
             "pn": "grpc",
             "provides": "grpc ",
-            "pv": "1.22.0",
+            "pv": "1.24.1",
             "section": "libs",
             "summary": "",
-            "updated": "2019-10-11T07:10:26+0000"
+            "updated": "2019-10-14T19:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3681,7 +3709,7 @@
             "blacklisted": "",
             "bugtracker": "https://github.com/firewalld/firewalld/issues",
             "description": "",
-            "filename": "firewalld_0.7.1.bb",
+            "filename": "firewalld_0.7.2.bb",
             "filepath": "recipes-connectivity/firewalld",
             "homepage": "https://firewalld.org/",
             "id": 917951,
@@ -3690,10 +3718,10 @@
             "license": "GPLv2+",
             "pn": "firewalld",
             "provides": "firewalld ",
-            "pv": "0.7.1",
+            "pv": "0.7.2",
             "section": "base",
             "summary": "Dynamic firewall daemon with a D-Bus interface",
-            "updated": "2019-10-11T07:10:29+0000"
+            "updated": "2019-10-14T19:10:01+0000"
         },
         {
             "bbclassextend": "",
